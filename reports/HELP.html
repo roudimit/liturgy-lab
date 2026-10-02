@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Help · Liturgy Lab</title><link rel="stylesheet" href="../assets/report.css?v=0accbb1977d4"></head>
+<body><header><div class="topbar"><a class="brand" href="../">Liturgy<span>Lab</span></a>
+<nav class="nav" aria-label="Main navigation"><a href="../">Viewer</a><a href="FINDINGS.html">Findings</a><a href="RESULTS.html">Detailed results</a><a href="HELP.html" aria-current="page">Help</a></nav></div></header>
+<main class="layout"><aside><details class="contents" open><summary>On this page</summary><ul><li><a href="#watch-and-follow-along">Watch and follow along</a></li><li><a href="#jump-to-a-section">Jump to a section</a></li><li><a href="#read-at-your-own-pace">Read at your own pace</a></li><li><a href="#check-the-reference">Check the reference</a></li><li><a href="#text-only-preview">Text-only preview</a></li><li><a href="#run-the-shared-package-locally">Run the shared package locally</a></li><li><a href="#playback-and-internet">Playback and internet</a></li><li><a href="#what-is-included-and-shared">What is included and shared?</a></li><li><a href="#publish-the-static-site">Publish the static site</a></li></ul></details></aside>
+<article><p class="eyebrow">Liturgy Lab · Local speech experiment</p><h1 id="help">Help</h1>
+<p>Explore five recordings alongside saved speech-recognition transcripts and bilingual service text.</p>
+<blockquote>
+<p><strong>Experimental predictions:</strong> a section suggestion may be wrong or later than its actual start. The printed text and raw model transcript are kept separate.</p>
+</blockquote>
+<h2 id="watch-and-follow-along">Watch and follow along</h2>
+<ol>
+<li>Choose a video with <strong>Select recording</strong>. The August 9 Dormition recording is the default; Sunday After Nativity is second.</li>
+<li>Press <strong>Play</strong> inside the video. A direct click may be required by your browser.</li>
+<li>Read <strong>Model transcript</strong> below the video for what ASR heard, including errors and gaps.</li>
+<li>Read <strong>Matins &amp; Liturgy</strong> beside it for the printed service text. English appears first.</li>
+</ol>
+<p>The page uses saved predictions. No model runs while you watch.</p>
+<h2 id="jump-to-a-section">Jump to a section</h2>
+<p>Under <strong>Find your place</strong>, click <strong>Matins (Orthros)</strong> or <strong>Divine Liturgy</strong> to seek to its first suggested location. All suggested sections are visible in the switchboard; Matins and Liturgy have different colors.</p>
+<p>Click a section or a timed service-text paragraph to seek. The first supported fragment may be later than the section's actual beginning. Sermons, omitted text, silence, and unsupported chant can remain unmatched.</p>
+<h2 id="read-at-your-own-pace">Read at your own pace</h2>
+<ul>
+<li>Turn off <strong>Follow audio</strong> to browse without automatic following.</li>
+<li>Search the service text for a prayer, hymn, or response.</li>
+<li>Search the transcript for words in the model's output.</li>
+<li>Use the floating video's hide/show control to reclaim space while browsing.</li>
+</ul>
+<h2 id="check-the-reference">Check the reference</h2>
+<p>The links under <strong>Matins &amp; Liturgy</strong> identify the texts used for the selected recording. The reference notice explains exact-date texts, substitutes, and reconstructions. Dates can be inferred from title and release/upload metadata; local wording and order may differ.</p>
+<h2 id="text-only-preview">Text-only preview</h2>
+<p>Directly opening <code>site/index.html</code> may offer text-only browsing in browsers that permit local scripts. The local HTTP launcher below is the tested workflow for synchronized YouTube playback.</p>
+<h2 id="run-the-shared-package-locally">Run the shared package locally</h2>
+<ol>
+<li>Extract the entire ZIP to a folder.</li>
+<li>Install Python 3 from <a href="https://www.python.org/downloads/">python.org</a> if needed. Viewing needs no additional Python packages, virtual environment, models, or Apple GPU.</li>
+<li>Start the launcher for your system:</li>
+</ol>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>System</th>
+<th>Launcher</th>
+<th>Terminal alternative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mac</td>
+<td>Double-click <code>Start Viewer.command</code></td>
+<td><code>python3 run_viewer.py</code></td>
+</tr>
+<tr>
+<td>Windows</td>
+<td>Double-click <code>Start Viewer.cmd</code></td>
+<td><code>py -3 run_viewer.py</code></td>
+</tr>
+<tr>
+<td>Linux</td>
+<td>Use a terminal</td>
+<td><code>python3 run_viewer.py</code></td>
+</tr>
+</tbody>
+</table></div>
+<p>Run the terminal command from the extracted package folder. On Mac, use that alternative if opening the launcher is blocked.</p>
+<ol start="4">
+<li>Open <code>http://127.0.0.1:8766/</code> if the browser does not open automatically.</li>
+<li>Keep the terminal open. Press <strong>Control–C</strong> to stop the viewer.</li>
+</ol>
+<p>If port 8766 is busy, run <code>python3 run_viewer.py --port 8767</code> and open <code>http://127.0.0.1:8767/</code>.</p>
+<h2 id="playback-and-internet">Playback and internet</h2>
+<p>The small ZIP does not contain the recordings. YouTube playback requires an internet connection and permission from the video owner to embed the recording. Press Play inside the video. Section buttons seek; subtitles/reference follow the player's actual time. Browser autoplay restrictions may require another Play.</p>
+<p>If YouTube is blocked, unavailable, or disallows embedding, Source recording opens its original page; playback in that separate tab will not synchronize here.</p>
+<h2 id="what-is-included-and-shared">What is included and shared?</h2>
+<p>The package includes only the chosen Turbo + sequence runs, their source provenance, and the reports. No saved human reviews, model weights, virtual environment, original private specification, credentials or local file paths are included. This is a read-only viewer; it does not save collaborator reviews. YouTube receives normal embedded-player requests. Transcripts stay in this static package; no recognition service is called. A public deployment makes the included text/predictions accessible to anyone. Source credits and date-reference caveats remain visible. Third-party content retains its original rights.</p>
+<h2 id="publish-the-static-site">Publish the static site</h2>
+<p>See the <a href="../PUBLISH-GITHUB-PAGES.txt">publishing guide</a>. Only the CONTENTS of site/ go in your repository. The same files work on any static web host; no backend or API key is needed.</p>
+<p>For conclusions and model comparisons, read <a href="FINDINGS.html">Findings</a> or the <a href="RESULTS.html">detailed results</a>.</p>
+
+<footer class="document-footer"><a href="../">← Back to the viewer</a><a href="HELP.md" download>Download Markdown ↓</a></footer></article></main></body></html>

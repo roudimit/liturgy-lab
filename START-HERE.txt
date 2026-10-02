@@ -10,9 +10,7 @@ or later than the actual start. See site/reports/ for findings and limitations.
 QUICKEST TEXT-ONLY PREVIEW — NO INSTALLATION
 Unzip the package and open site/index.html in a browser. Text, search, section
 navigation and reference highlighting work directly from disk. For synchronized
-YouTube playback, use the local-server instructions below. You can also choose
-a matching local MP4 through the page's Choose local video control; it stays on
-your computer and is not uploaded.
+YouTube playback, use the local-server instructions below. 
 
 LOCAL VIEWER — MAC / WINDOWS / LINUX
 1. Unzip the entire package; do not open it inside the ZIP preview.
@@ -33,9 +31,7 @@ Press Play inside the video. Section buttons seek; subtitles/reference follow
 the player's actual time. Browser autoplay restrictions may require another Play.
 If YouTube is blocked, unavailable, or disallows embedding, Source recording
 opens its original page; playback in that separate tab will not synchronize here.
-For synchronized offline viewing, choose your own local copy of the selected
-recording. It must be the untrimmed original with the same timeline; selecting
-another recording resets the local-file choice. No recordings are redistributed.
+Recordings are not included in this package.
 
 DATA AND PRIVACY
 The package includes only the chosen Turbo + sequence runs, their source

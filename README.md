@@ -9,3 +9,11 @@ The static viewer uses embedded YouTube videos. No models, backend, or API keys 
 For local preview, run `python3 -m http.server 8766` in this folder and open http://127.0.0.1:8766/.
 
 To publish, select **Settings → Pages → Deploy from a branch → main → / (root)**.
+
+## Documentation
+
+- [Findings](reports/FINDINGS.md)
+- [Help](reports/HELP.md)
+- [Detailed results](reports/RESULTS.md)
+
+The website renders these Markdown sources as formatted reading pages.

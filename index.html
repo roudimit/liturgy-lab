@@ -6,10 +6,10 @@
   <meta name="color-scheme" content="light">
   <meta name="theme-color" content="#172b38">
   <title>Liturgy Lab · Shared experiment viewer</title>
-  <link rel="stylesheet" href="assets/style.css?v=983dc15c14ff">
+  <link rel="stylesheet" href="assets/style.css?v=b9187990e654">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <script defer src="assets/data.js?v=7ad799d69db7"></script>
-  <script defer src="assets/shared-player.js?v=968ba966917e"></script>
+  <script defer src="assets/data.js?v=a33feeb8a666"></script>
+  <script defer src="assets/shared-player.js?v=93ef2bf83b26"></script>
   <script defer src="assets/app.js?v=3cce3a664a5f"></script>
 </head>
 <body class="shared-viewer">
@@ -18,7 +18,7 @@
     <a class="brand" href="./" aria-label="Liturgy Lab home"><span class="brand-mark" aria-hidden="true">✣</span><span>Liturgy<span class="brand-light">Lab</span></span></a>
     <div class="header-right"><a class="source-link" id="source-link" target="_blank" rel="noopener noreferrer">Source recording <span aria-hidden="true">↗</span></a></div>
   </header>
-  <main><div class="share-note">Shared experiment viewer · Saved predictions, not live recognition. <a href="reports/COLLABORATOR-SUMMARY.txt">Findings</a> · <a href="reports/RESULTS.html">Detailed results</a> · <a href="START-HERE.txt">Help</a></div>
+  <main><div class="share-note">Shared experiment viewer · Saved predictions, not live recognition. <a href="reports/FINDINGS.html">Findings</a> · <a href="reports/RESULTS.html">Detailed results</a> · <a href="reports/HELP.html">Help</a></div>
     <section class="intro" aria-labelledby="page-title">
       <h1 id="page-title">Listen. Align. Explore.</h1>
       <p class="intro-copy">Matching speech recognition results to the liturgy text.</p>
@@ -37,9 +37,9 @@
         <section class="listening-column" aria-label="Recording and predictions">
           <div class="video-card">
             <div class="panel-title"><span><span class="panel-index">01</span> THE RECORDING</span><span class="subtle" id="video-duration"></span></div>
-            <div id="video-slot" class="video-slot"><div class="video-wrap"><div id="youtube-player"><div id="youtube-iframe"></div></div><video hidden id="video" controls preload="metadata" playsinline aria-label="Local recording of the Divine Liturgy"></video><p class="video-error" id="video-error" hidden>Playback is unavailable. Use Source recording or choose a local video below. Text browsing remains available.</p></div></div>
+            <div id="video-slot" class="video-slot"><div class="video-wrap"><div id="youtube-player"><div id="youtube-iframe"></div></div><video hidden id="video" controls preload="metadata" playsinline aria-label="Local recording of the Divine Liturgy"></video><p class="video-error" id="video-error" hidden>Playback is unavailable. Use Source recording to watch on YouTube. Text browsing remains available.</p></div></div>
             <button id="floating-player-toggle" class="floating-player-toggle" type="button" hidden aria-controls="video" aria-expanded="true">Hide video ×</button>
-            <div class="shared-player-tools"><p id="player-status" role="status">Loading YouTube…</p><label class="local-file-label">Choose local video<input id="local-video" type="file" accept="video/*"></label><button id="use-youtube" type="button">Use YouTube</button></div><div class="subtitle-tray" id="subtitle-tray"><div class="subtitle-meta"><span class="tiny-label">MODEL TRANSCRIPT</span><span id="current-language" class="language-tag"></span><span id="subtitle-time" class="mono"></span></div><p id="current-subtitle">Select a tested section to begin.</p><div class="alignment-line"><span class="status-dot" id="alignment-dot"></span><span id="current-alignment">No prediction at this position</span><button id="review-current" class="text-button" type="button" hidden>Review segment ↗</button></div></div>
+            <div class="shared-player-tools"><p id="player-status" role="status">Loading YouTube…</p></div><div class="subtitle-tray" id="subtitle-tray"><div class="subtitle-meta"><span class="tiny-label">MODEL TRANSCRIPT</span><span id="current-language" class="language-tag"></span><span id="subtitle-time" class="mono"></span></div><p id="current-subtitle">Select a tested section to begin.</p><div class="alignment-line"><span class="status-dot" id="alignment-dot"></span><span id="current-alignment">No prediction at this position</span><button id="review-current" class="text-button" type="button" hidden>Review segment ↗</button></div></div>
           </div>
           <section class="navigation-card" aria-labelledby="section-nav-title"><div class="section-heading"><h2 id="section-nav-title">Find your place</h2><span id="section-count" class="subtle"></span></div><p class="help-text">Jump to a suggested section match in this run.</p><div id="service-nav" class="service-nav"></div><div id="section-chips" class="section-chips"></div><div id="sample-windows" class="sample-windows" aria-label="Tested audio windows"></div><div class="coverage-track" id="coverage-track" role="group" aria-label="Transcription coverage of the recording" aria-describedby="coverage-label"></div><div class="coverage-legend"><span><i></i> Transcribed audio</span><span id="coverage-label"></span></div></section>
           <section class="transcript-card" aria-labelledby="transcript-title"><div class="section-heading"><h2 id="transcript-title">The transcript</h2><span id="transcript-count" class="subtle"></span></div><label class="search-field"><span aria-hidden="true">⌕</span><input id="transcript-search" type="search" placeholder="Search what the model heard…" aria-label="Search transcript"><kbd>/</kbd></label><div class="transcript-list" id="transcript-list" tabindex="0" aria-label="Time-coded model transcript"></div></section>

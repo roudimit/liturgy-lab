@@ -25,7 +25,6 @@ PUBLISH THE STATIC VIEWER TO GITHUB PAGES
    seek with a section button, search the reference, and check source links.
    Embedded playback depends on YouTube/network/video-owner settings. If a video
    refuses embedding, the viewer explains the fallback; this is not a Pages error.
-   Local-file playback is also supported by the published page without upload.
 
 5. To update later, replace the files with a fresh static export and commit.
    Keep data and app files from the same export together. Relative URLs make
