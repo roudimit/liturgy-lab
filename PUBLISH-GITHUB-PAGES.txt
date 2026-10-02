@@ -21,7 +21,7 @@ PUBLISH THE STATIC VIEWER TO GITHUB PAGES
       https://YOUR-GITHUB-USERNAME.github.io/liturgy-lab/
    The exact repository name determines the last part of that URL.
 
-4. Visit the published URL. Check all four recording selections, play YouTube,
+4. Visit the published URL. Check all five recording selections, play YouTube,
    seek with a section button, search the reference, and check source links.
    Embedded playback depends on YouTube/network/video-owner settings. If a video
    refuses embedding, the viewer explains the fallback; this is not a Pages error.

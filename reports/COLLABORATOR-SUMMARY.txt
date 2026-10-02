@@ -24,3 +24,8 @@ Fully automatic Greek-capable tracking under those conditions looks difficult. S
 Fast offline processing does not imply timely live cues: our 30-second input chunks can already exceed a 10-second cue budget, and our matcher uses future context. Short incremental audio windows and a causal tracker must be evaluated separately on the actual phone. A local LLM has not been shown to solve these failures.
 
 The next gate should be a causal replay with 30–40 human-timed key moments per recording, followed by real pew recordings and sustained iPhone battery/thermal tests. Measure actual decision delay, false triggers, missed moments, and recovery; do not count printed-text agreement as accuracy. Keep spoken-anchor tracking and manual/conductor assistance as practical fallbacks. A direct-feed parish computer is also worth testing if the phone-only target proves too restrictive.
+
+
+Additional Dormition test — August 9, 2026
+
+The full 10th Sunday of Matthew recording (142.9 minutes) was processed with the same Turbo + sequence configuration in 9.2 inference minutes. It yielded 1669 raw segments, 288 accepted associations, and 29 suggested sections (15 Matins, 14 Liturgy). Accepted ASR labels were 72 Greek and 216 English; 34 raw segments carried subtitle/promotion artifact warnings. Dated GOA August 9, 2026 texts are used; the recording date is inferred from title/release metadata. These are association counts, not word accuracy, and the service begins during Matins. No model retuning or LLM pass was used.

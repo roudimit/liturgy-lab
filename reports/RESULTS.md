@@ -13,7 +13,26 @@ The working configuration is **Whisper Large v3 Turbo on the Mac, followed by an
 3. Retrieve plausible text passages with Greek/English lexical similarity, then find a plausible sequence through them. The matcher allows skipped passages, small backward steps, repeated text, and UNKNOWN for unsupported speech. It can use later context to resolve an earlier position.
 4. Save the predictions once and display them alongside the video and canonical service text. Section buttons seek to the first supported fragment, which may be later than a section's actual beginning. Playing the viewer does not run ASR or an LLM.
 
-ASR and LLM comparisons were performed on the first recording. The chosen Turbo configuration and sequence matcher were then applied to all four recordings. This is a working offline navigation demo, not validated live cue detection.
+ASR and LLM comparisons were performed on the first recording. The chosen Turbo configuration and sequence matcher were then applied to all five recordings. This is a working offline navigation demo, not validated live cue detection.
+
+## Added Dormition recording — August 9, 2026
+
+The [10th Sunday of Matthew recording](https://www.youtube.com/watch?v=ZUMoL5VwJzw) from Dormition, Somerville, MA, was processed in full with the frozen **Whisper Large v3 Turbo + sequence matcher v4** configuration. No additional LLM, forced-language retry, or matcher tuning was used for this recording. The recording starts during Matins rather than at its beginning.
+
+The service date is inferred from the video title and matching August 9, 2026 release/upload metadata. The [dated GOA Matins](https://dcs.goarch.org/goa/dcs/h/s/2026/08/09/ma/gr-en/index.html), Matins ordinary, and [dated Chrysostom Liturgy](https://dcs.goarch.org/goa/dcs/h/s/2026/08/09/li/gr-en/index.html) form a 688-unit bilingual reference. Local order, abbreviations, and spoken variants remain unverified.
+
+| Measurement | Result |
+|---|---:|
+| Complete audio submitted | 142.9 minutes |
+| Turbo inference, including model load/compilation | 9.2 minutes (15.47× playback) |
+| Raw transcript segments | 1669 |
+| Associated segments | 288 |
+| Suggested Matins / Liturgy sections | 15 / 14 |
+| Total suggested sections | 29 |
+| Associated Greek-labeled / English-labeled segments | 72 / 216 |
+| Segments flagged for possible subtitle/promotion artifacts | 34 |
+
+These are model association and runtime measurements, **not transcription accuracy or independently verified section timing**. Chant still produces substitutions, repetitions, and spurious subtitle-credit text. The raw transcript is preserved; the printed service text does not replace it. Language labels come from ASR and can be wrong. The recording was evaluated with the same settings as the prior recordings, but the timing is a single run, not a controlled comparison. Downloads and audio decoding are excluded from inference timing.
 
 ## What to tell collaborators
 
@@ -70,14 +89,15 @@ Dates remain inferences from titles, release/upload metadata, and textual consis
 
 ## Completed recordings and viewer
 
-All four videos have a complete Turbo ASR pass. Model comparisons were confined to the first video; the other three received one Turbo pass, followed by the same sequence matcher. The final matcher version is v4. These section counts measure suggested coverage, not verified accuracy or exact section onsets.
+All five videos have a complete Turbo ASR pass. Model comparisons were confined to the first video; the other four received one Turbo pass, followed by the same sequence matcher. The final matcher version is v4. These section counts measure suggested coverage, not verified accuracy or exact section onsets.
 
 | Recording | Audio processed | Turbo inference | Suggested Matins sections | Suggested Liturgy sections | Total sections |
 |---|---:|---:|---:|---:|---:|
 | September 8 / original | 127.8 min | 10.1 min | 31 | 18 | 49 |
 | December 14 / 11th Sunday of Luke | 224.6 min | 19.4 min | 41 | 18 | 59 |
 | March 29 / St. Mary of Egypt | 202.8 min | 19.9 min | 33 | 23 | 56 |
-| December 28 / new recording | 148.6 min | 16.0 min | 12 | 21 | 33 |
+| December 28 / Sunday After Nativity | 148.6 min | 16.0 min | 12 | 21 | 33 |
+| August 9 / 10th Sunday of Matthew | 142.9 min | 9.2 min | 15 | 14 | 29 |
 
 Additional-recording timings sum saved contiguous hour blocks, including their loading/compilation work. Some blocks were cached from earlier runs; these totals are not a repeated, controlled speed benchmark. Complete audio coverage means the entire recording was submitted to ASR; it does not mean the recognizer emitted words everywhere.
 
@@ -86,7 +106,8 @@ Additional-recording timings sum saved contiguous hour blocks, including their l
 | September 8 / original | 290 | 131 | 0 | 421 |
 | December 14 / 11th Sunday of Luke | 140 | 694 | 0 | 834 |
 | March 29 / St. Mary of Egypt | 165 | 708 | 0 | 873 |
-| December 28 / new recording | 40 | 359 | 0 | 399 |
+| December 28 / Sunday After Nativity | 40 | 359 | 0 | 399 |
+| August 9 / 10th Sunday of Matthew | 72 | 216 | 0 | 288 |
 
 Language labels are Whisper predictions, not independently verified language. Segment counts are comparable for inspecting one fixed transcript, but should not be used to rank ASR models with different segmentation.
 
@@ -150,7 +171,7 @@ Mac throughput is encouraging but does not settle live latency. Turbo processed 
 | Re-anchor within 30 seconds of the next spoken part after chant | Not measured causally. Offline recovery can benefit from subsequent audio. |
 | Real time on the test iPhone, acceptable 90-minute battery use; proposed acceptance threshold below 40% battery | No iPhone timing, sustained thermal, battery, or capture/playback tests have been performed. |
 | Avoid narrating over Gospel, homily, or words of institution except at Full verbosity | No live gap detection or narration scheduler has been evaluated. UNKNOWN alone does not identify a safe gap. |
-| 4–6 complete pew recordings, 30–40 independently marked moments each, two English translations plus a held-out translation | Four online recordings from two channels were processed. They do not fulfill the pew-recording, annotation, or translation-generalization requirements. |
+| 4–6 complete pew recordings, 30–40 independently marked moments each, two English translations plus a held-out translation | Five online recordings from two channels were processed. They do not fulfill the pew-recording, annotation, or translation-generalization requirements. |
 
 The document's script-following idea is useful, but “fixed order” and “knowing the next language” should be treated as priors. Actual services omit or repeat text, vary the order, alternate Greek and English, and include rites or speech outside the supplied reference. Some cues concern actions whose onset is not uniquely identified by audible words. A conservative live tracker must abstain, tolerate variants, and avoid turning a weak thematic match into an instruction to the listener.
 
@@ -162,7 +183,7 @@ If that passes, repeat on the target iPhone with actual pew recordings, the sele
 
 ## Verification and limits
 
-The original three recordings share one channel; the fourth comes from a second parish/channel. This small set does not establish robustness across parishes or acoustic conditions. The experiment does not isolate the effect of older Greek vocabulary and grammar from chanting, recording conditions, or language switching. Phone microphones, controlled far-field/noise/reverberation tests, real-time latency, battery usage, and mobile deployment remain untested. No fine-tuning has been performed.
+The original three recordings share one channel; the fourth and fifth come from a second parish/channel. This small set does not establish robustness across parishes or acoustic conditions. The experiment does not isolate the effect of older Greek vocabulary and grammar from chanting, recording conditions, or language switching. Phone microphones, controlled far-field/noise/reverberation tests, real-time latency, battery usage, and mobile deployment remain untested. No fine-tuning has been performed.
 
 The viewer uses the chosen Turbo plus sequence configuration and includes raw subtitles, canonical text, clickable section suggestions, source notices, and a review form. Historical independent-text and LLM comparisons remain in saved experiment artifacts. Reviewers can enter a transcript based on listening and judge the proposed occurrence. Printed canonical text should not be copied into the ground-truth field without checking what was actually spoken or sung.
 

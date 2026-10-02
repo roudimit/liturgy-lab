@@ -1,6 +1,6 @@
 # Liturgy Lab
 
-Explore four liturgy recordings with precomputed speech recognition transcripts, suggested section locations, and bilingual service text.
+Explore five liturgy recordings with precomputed speech recognition transcripts, suggested section locations, and bilingual service text.
 
 Website: https://roudimit.github.io/liturgy-lab/
 
