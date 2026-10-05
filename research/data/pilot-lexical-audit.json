@@ -1,0 +1,2268 @@
+{
+  "reference_units": 351,
+  "reference_sections": 26,
+  "unit_kinds": {
+    "spoken": 282,
+    "rubric": 33,
+    "inaudible": 36
+  },
+  "reference_date": "2026-09-30",
+  "pilot_file": "turbo-auto-pilot.json",
+  "segment_count": 17,
+  "match_status_counts": {
+    "uncertain": 7,
+    "unknown": 10
+  },
+  "interpretation": "Beginning at 1807 seconds appears to be Orthros rather than the Divine Liturgy. Shared prayer fragments are not unique enough to locate their occurrence in the Liturgy. These are text retrieval decisions, not ASR accuracy measurements.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 1807.0,
+      "end": 1816.14,
+      "text": "σώσον ελέησον και διαφύλαξον ημάς ο Θεός της ηχάρητης της Παναγίας Αχράντου,",
+      "temperature": 0.0,
+      "avg_logprob": -0.2788782491312399,
+      "compression_ratio": 1.8053435114503817,
+      "no_speech_prob": 1.8950352398405812e-10,
+      "words": [
+        {
+          "word": " σώσον",
+          "start": 1807.0,
+          "end": 1807.44,
+          "probability": 0.56201171875
+        },
+        {
+          "word": " ελέησον",
+          "start": 1807.44,
+          "end": 1808.2,
+          "probability": 0.87841796875
+        },
+        {
+          "word": " και",
+          "start": 1808.2,
+          "end": 1808.38,
+          "probability": 0.370849609375
+        },
+        {
+          "word": " διαφύλαξον",
+          "start": 1808.38,
+          "end": 1809.24,
+          "probability": 0.94970703125
+        },
+        {
+          "word": " ημάς",
+          "start": 1809.24,
+          "end": 1809.68,
+          "probability": 0.8076171875
+        },
+        {
+          "word": " ο",
+          "start": 1809.68,
+          "end": 1809.76,
+          "probability": 0.76953125
+        },
+        {
+          "word": " Θεός",
+          "start": 1809.76,
+          "end": 1810.38,
+          "probability": 0.96728515625
+        },
+        {
+          "word": " της",
+          "start": 1810.38,
+          "end": 1810.64,
+          "probability": 0.73095703125
+        },
+        {
+          "word": " ηχάρητης",
+          "start": 1810.64,
+          "end": 1812.26,
+          "probability": 0.75927734375
+        },
+        {
+          "word": " της",
+          "start": 1812.26,
+          "end": 1814.38,
+          "probability": 0.70458984375
+        },
+        {
+          "word": " Παναγίας",
+          "start": 1814.38,
+          "end": 1815.26,
+          "probability": 0.935546875
+        },
+        {
+          "word": " Αχράντου,",
+          "start": 1815.26,
+          "end": 1816.14,
+          "probability": 0.82763671875
+        }
+      ],
+      "language": "el",
+      "match": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.8412,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "candidates": [
+        {
+          "unit_id": "u0025",
+          "index": 25,
+          "section_id": "s000",
+          "section_title": "Opening blessing and Peace Litany",
+          "score": 0.8412,
+          "language": "el",
+          "greek": "Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς, ὁ Θεός, τῇ σῇ χάριτι.",
+          "english": "Help us, save us, have mercy on us, and protect us, O God, by Your grace."
+        },
+        {
+          "unit_id": "u0044",
+          "index": 44,
+          "section_id": "s002",
+          "section_title": "Small Litany",
+          "score": 0.8412,
+          "language": "el",
+          "greek": "Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς, ὁ Θεός, τῇ σῇ χάριτι.",
+          "english": "Help us, save us, have mercy on us, and protect us, O God, by Your grace."
+        },
+        {
+          "unit_id": "u0069",
+          "index": 69,
+          "section_id": "s004",
+          "section_title": "Small Litany",
+          "score": 0.8412,
+          "language": "el",
+          "greek": "Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς, ὁ Θεός, τῇ σῇ χάριτι.",
+          "english": "Help us, save us, have mercy on us, and protect us, O God, by Your grace."
+        },
+        {
+          "unit_id": "u0153",
+          "index": 153,
+          "section_id": "s013",
+          "section_title": "Litany Of Completion",
+          "score": 0.8412,
+          "language": "el",
+          "greek": "Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς, ὁ Θεός, τῇ σῇ χάριτι.",
+          "english": "Help us, save us, have mercy on us, and protect us, O God, by Your grace."
+        },
+        {
+          "unit_id": "u0232",
+          "index": 232,
+          "section_id": "s018",
+          "section_title": "The Lord’s Prayer",
+          "score": 0.8412,
+          "language": "el",
+          "greek": "Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς, ὁ Θεός, τῇ σῇ χάριτι.",
+          "english": "Help us, save us, have mercy on us, and protect us, O God, by Your grace."
+        },
+        {
+          "unit_id": "u0286",
+          "index": 286,
+          "section_id": "s023",
+          "section_title": "Thanksgiving",
+          "score": 0.8412,
+          "language": "el",
+          "greek": "Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς, ὁ Θεός, τῇ σῇ χάριτι.",
+          "english": "Help us, save us, have mercy on us, and protect us, O God, by Your grace."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1816.22,
+      "end": 1821.3,
+      "text": "υπερευλογημένης εντόξου δεσποινήσιμων Θεοτόκου και υπαρεθένου Μαρίας,",
+      "temperature": 0.0,
+      "avg_logprob": -0.2788782491312399,
+      "compression_ratio": 1.8053435114503817,
+      "no_speech_prob": 1.8950352398405812e-10,
+      "words": [
+        {
+          "word": " υπερευλογημένης",
+          "start": 1816.22,
+          "end": 1817.42,
+          "probability": 0.93115234375
+        },
+        {
+          "word": " εντόξου",
+          "start": 1817.42,
+          "end": 1818.0,
+          "probability": 0.7431640625
+        },
+        {
+          "word": " δεσποινήσιμων",
+          "start": 1818.0,
+          "end": 1819.06,
+          "probability": 0.75732421875
+        },
+        {
+          "word": " Θεοτόκου",
+          "start": 1819.06,
+          "end": 1819.9,
+          "probability": 0.958984375
+        },
+        {
+          "word": " και",
+          "start": 1819.9,
+          "end": 1820.04,
+          "probability": 0.88720703125
+        },
+        {
+          "word": " υπαρεθένου",
+          "start": 1820.04,
+          "end": 1820.86,
+          "probability": 0.91064453125
+        },
+        {
+          "word": " Μαρίας,",
+          "start": 1820.86,
+          "end": 1821.3,
+          "probability": 0.98828125
+        }
+      ],
+      "language": "el",
+      "match": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.9196,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "candidates": [
+        {
+          "unit_id": "u0027",
+          "index": 27,
+          "section_id": "s000",
+          "section_title": "Opening blessing and Peace Litany",
+          "score": 0.9196,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "u0046",
+          "index": 46,
+          "section_id": "s002",
+          "section_title": "Small Litany",
+          "score": 0.9196,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "u0071",
+          "index": 71,
+          "section_id": "s004",
+          "section_title": "Small Litany",
+          "score": 0.9196,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "u0167",
+          "index": 167,
+          "section_id": "s013",
+          "section_title": "Litany Of Completion",
+          "score": 0.9196,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "u0211",
+          "index": 211,
+          "section_id": "s016",
+          "section_title": "Holy Anaphora",
+          "score": 0.9196,
+          "language": "el",
+          "greek": "Ἐξαιρέτως τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας.",
+          "english": "Especially for our most holy, pure, blessed, and glorious Lady, the Theotokos and ever-virgin Mary."
+        },
+        {
+          "unit_id": "u0066",
+          "index": 66,
+          "section_id": "s003",
+          "section_title": "Antiphon 2",
+          "score": 0.6418,
+          "language": "el",
+          "greek": "Ὁ μονογενὴς Υἱὸς καὶ Λόγος τοῦ Θεοῦ, ἀθάνατος ὑπάρχων καὶ καταδεξάμενος διὰ τὴν ἡμετέραν σωτηρίαν σαρκωθῆναι ἐκ τῆς ἁγίας Θεοτόκου καὶ ἀειπαρθένου Μαρίας, ἀτρέπτως ἐνανθρωπήσας, σταυρωθείς τε, Χριστὲ ὁ Θεός, θανάτῳ θάνατον πατήσας, εἷς ὢν τῆς ἁγίας Τριάδος, συνδοξαζόμενος τῷ Πατρὶ καὶ τῷ ἁγίῳ Πνεύματι, σῶσον ἡμᾶς.",
+          "english": "Only-begotten Son and Logos of God, being immortal, You condescended for our salvation to take flesh from the holy Theotokos and ever-virgin Mary and, without change, became man. Christ, our God, You were crucified and conquered death by death. Being one of the Holy Trinity, glorified with the Father and the Holy Spirit: Save us."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 1821.5,
+      "end": 1827.58,
+      "text": "με τα πάντων τον Αγίο μνημονεύσανται σε αυτούς και αλλήλους και πάσαν την ζωήν ημών,",
+      "temperature": 0.0,
+      "avg_logprob": -0.2788782491312399,
+      "compression_ratio": 1.8053435114503817,
+      "no_speech_prob": 1.8950352398405812e-10,
+      "words": [
+        {
+          "word": " με",
+          "start": 1821.5,
+          "end": 1821.58,
+          "probability": 0.97607421875
+        },
+        {
+          "word": " τα",
+          "start": 1821.58,
+          "end": 1821.72,
+          "probability": 0.405029296875
+        },
+        {
+          "word": " πάντων",
+          "start": 1821.72,
+          "end": 1822.34,
+          "probability": 0.8720703125
+        },
+        {
+          "word": " τον",
+          "start": 1822.34,
+          "end": 1822.48,
+          "probability": 0.432861328125
+        },
+        {
+          "word": " Αγίο",
+          "start": 1822.48,
+          "end": 1823.04,
+          "probability": 0.85009765625
+        },
+        {
+          "word": " μνημονεύσανται",
+          "start": 1823.04,
+          "end": 1824.22,
+          "probability": 0.88427734375
+        },
+        {
+          "word": " σε",
+          "start": 1824.22,
+          "end": 1824.72,
+          "probability": 0.8642578125
+        },
+        {
+          "word": " αυτούς",
+          "start": 1824.72,
+          "end": 1825.24,
+          "probability": 0.986328125
+        },
+        {
+          "word": " και",
+          "start": 1825.24,
+          "end": 1825.4,
+          "probability": 0.6123046875
+        },
+        {
+          "word": " αλλήλους",
+          "start": 1825.4,
+          "end": 1825.82,
+          "probability": 0.875
+        },
+        {
+          "word": " και",
+          "start": 1825.82,
+          "end": 1825.98,
+          "probability": 0.91943359375
+        },
+        {
+          "word": " πάσαν",
+          "start": 1825.98,
+          "end": 1826.58,
+          "probability": 0.95361328125
+        },
+        {
+          "word": " την",
+          "start": 1826.58,
+          "end": 1826.76,
+          "probability": 0.92578125
+        },
+        {
+          "word": " ζωήν",
+          "start": 1826.76,
+          "end": 1827.24,
+          "probability": 0.97998046875
+        },
+        {
+          "word": " ημών,",
+          "start": 1827.24,
+          "end": 1827.58,
+          "probability": 0.9453125
+        }
+      ],
+      "language": "el",
+      "match": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.9202,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "candidates": [
+        {
+          "unit_id": "u0027",
+          "index": 27,
+          "section_id": "s000",
+          "section_title": "Opening blessing and Peace Litany",
+          "score": 0.9202,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "u0046",
+          "index": 46,
+          "section_id": "s002",
+          "section_title": "Small Litany",
+          "score": 0.9202,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "u0071",
+          "index": 71,
+          "section_id": "s004",
+          "section_title": "Small Litany",
+          "score": 0.9202,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "u0167",
+          "index": 167,
+          "section_id": "s013",
+          "section_title": "Litany Of Completion",
+          "score": 0.9202,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "u0246",
+          "index": 246,
+          "section_id": "s018",
+          "section_title": "The Lord’s Prayer",
+          "score": 0.782,
+          "language": "el",
+          "greek": "Τὴν ἑνότητα τῆς πίστεως καὶ τὴν κοινωνίαν τοῦ ἁγίου Πνεύματος αἰτησάμενοι, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Having asked for the unity of the faith and for the communion of the Holy Spirit, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "u0288",
+          "index": 288,
+          "section_id": "s023",
+          "section_title": "Thanksgiving",
+          "score": 0.7623,
+          "language": "el",
+          "greek": "Τὴν ἡμέραν πᾶσαν, τελείαν, ἁγίαν, εἰρηνικὴν καὶ ἀναμάρτητον αἰτησάμενοι, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Having prayed for a perfect, holy, peaceful, and sinless day, let us commend ourselves and one another and our whole life to Christ our God."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 1828.02,
+      "end": 1831.14,
+      "text": "Χριστό το Θεό παραθώμεθα.",
+      "temperature": 0.0,
+      "avg_logprob": -0.2788782491312399,
+      "compression_ratio": 1.8053435114503817,
+      "no_speech_prob": 1.8950352398405812e-10,
+      "words": [
+        {
+          "word": " Χριστό",
+          "start": 1828.02,
+          "end": 1828.4,
+          "probability": 0.93359375
+        },
+        {
+          "word": " το",
+          "start": 1828.4,
+          "end": 1828.54,
+          "probability": 0.87353515625
+        },
+        {
+          "word": " Θεό",
+          "start": 1828.54,
+          "end": 1829.06,
+          "probability": 0.98583984375
+        },
+        {
+          "word": " παραθώμεθα.",
+          "start": 1829.06,
+          "end": 1831.14,
+          "probability": 0.81640625
+        }
+      ],
+      "language": "el",
+      "match": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.8536,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "candidates": [
+        {
+          "unit_id": "u0027",
+          "index": 27,
+          "section_id": "s000",
+          "section_title": "Opening blessing and Peace Litany",
+          "score": 0.8536,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "u0046",
+          "index": 46,
+          "section_id": "s002",
+          "section_title": "Small Litany",
+          "score": 0.8536,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "u0071",
+          "index": 71,
+          "section_id": "s004",
+          "section_title": "Small Litany",
+          "score": 0.8536,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "u0167",
+          "index": 167,
+          "section_id": "s013",
+          "section_title": "Litany Of Completion",
+          "score": 0.8536,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "u0246",
+          "index": 246,
+          "section_id": "s018",
+          "section_title": "The Lord’s Prayer",
+          "score": 0.8536,
+          "language": "el",
+          "greek": "Τὴν ἑνότητα τῆς πίστεως καὶ τὴν κοινωνίαν τοῦ ἁγίου Πνεύματος αἰτησάμενοι, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Having asked for the unity of the faith and for the communion of the Holy Spirit, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "u0288",
+          "index": 288,
+          "section_id": "s023",
+          "section_title": "Thanksgiving",
+          "score": 0.8536,
+          "language": "el",
+          "greek": "Τὴν ἡμέραν πᾶσαν, τελείαν, ἁγίαν, εἰρηνικὴν καὶ ἀναμάρτητον αἰτησάμενοι, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Having prayed for a perfect, holy, peaceful, and sinless day, let us commend ourselves and one another and our whole life to Christ our God."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 2414,
+      "start": 1832.66,
+      "end": 1836.98,
+      "text": "Ότι ευλόγητε σου το όνομα και δόξαστε σου η βαλία",
+      "temperature": 0.0,
+      "avg_logprob": -0.34308614401981746,
+      "compression_ratio": 1.2191780821917808,
+      "no_speech_prob": 1.0949938872295562e-10,
+      "words": [
+        {
+          "word": " Ότι",
+          "start": 1832.66,
+          "end": 1833.38,
+          "probability": 0.6572265625
+        },
+        {
+          "word": " ευλόγητε",
+          "start": 1833.38,
+          "end": 1834.1,
+          "probability": 0.8466796875
+        },
+        {
+          "word": " σου",
+          "start": 1834.1,
+          "end": 1834.5,
+          "probability": 0.67822265625
+        },
+        {
+          "word": " το",
+          "start": 1834.5,
+          "end": 1834.74,
+          "probability": 0.9794921875
+        },
+        {
+          "word": " όνομα",
+          "start": 1834.74,
+          "end": 1835.22,
+          "probability": 0.9833984375
+        },
+        {
+          "word": " και",
+          "start": 1835.22,
+          "end": 1835.46,
+          "probability": 0.85400390625
+        },
+        {
+          "word": " δόξαστε",
+          "start": 1835.46,
+          "end": 1836.38,
+          "probability": 0.822265625
+        },
+        {
+          "word": " σου",
+          "start": 1836.38,
+          "end": 1836.7,
+          "probability": 0.9306640625
+        },
+        {
+          "word": " η",
+          "start": 1836.7,
+          "end": 1836.86,
+          "probability": 0.3369140625
+        },
+        {
+          "word": " βαλία",
+          "start": 1836.86,
+          "end": 1836.98,
+          "probability": 0.63232421875
+        }
+      ],
+      "language": "el",
+      "match": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.6698,
+        "status": "unknown",
+        "method": "lexical",
+        "reason": "No sufficiently similar reference text"
+      },
+      "candidates": [
+        {
+          "unit_id": "u0335",
+          "index": 335,
+          "section_id": "s025",
+          "section_title": "Memorial Service",
+          "score": 0.6698,
+          "language": "el",
+          "greek": "Ὁ Θεὸς τῶν πνευμάτων καὶ πάσης σαρκός, ὁ τὸν θάνατον καταπατήσας, τὸν δὲ διάβολον καταργήσας, καὶ ζωὴν τῷ κόσμῳ σου δωρησάμενος, αυτός, Κύριε, ἀνάπαυσον τὴν ψυχὴν τοῦ κεκοιμημένου δούλου σου (τοῦδε) ἐν τόπῳ φωτεινῷ, ἐν τόπῳ χλοερῷ, ἐν τόπῳ ἀναψύξεως, ἔνθα ἀπέδρα ὀδύνη, λύπη καὶ στεναγμός. Πᾶν ἁμάρτημα τὸ παρ’ αὐτοῦ πραχθὲν ἐν λόγῳ ἢ ἔργῳ ἢ διανοίᾳ, ὡς ἀγαθὸς καὶ φιλάνθρωπος Θεός, συγχώρησον· ὅτι οὐκ ἔστιν ἄνθρωπος, ὃς ζήσεται καὶ οὐχ ἁμαρτήσει· σὺ γὰρ μόνος ἐκτὸς ἁμαρτίας ὑπάρχεις· ἡ δικαιοσύνη σου δικαιοσύνη εἰς τὸν αἰῶνα, καὶ ὁ νόμος σου ἀλήθεια.",
+          "english": "O God of spirits and of all flesh, You trampled upon death and abolished the power of the devil, giving life to Your world. Give rest to the soul(s) of Your departed servant(s) (name) in a place of light, in a place of green pasture, in a place of refreshment, from where pain, sorrow, and sighing have fled away. As good and benevolent God, forgive every sin he (she, they) has (have) committed in word, deed, or thought, for there is no one who lives and does not sin. You alone are without sin. Your righteousness is an everlasting righteousness, and Your word is truth."
+        },
+        {
+          "unit_id": "u0050",
+          "index": 50,
+          "section_id": "s002",
+          "section_title": "Small Litany",
+          "score": 0.6564,
+          "language": "el",
+          "greek": "Ὅτι σὸν τὸ κράτος καὶ σοῦ ἐστιν ἡ βασιλεία καὶ ἡ δύναμις καὶ ἡ δόξα, τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ ἁγίου Πνεύματος, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "For Yours is the dominion, and Yours is the kingdom and the power and the glory, of the Father and the Son and the Holy Spirit, now and ever and to the ages of ages."
+        },
+        {
+          "unit_id": "u0298",
+          "index": 298,
+          "section_id": "s024",
+          "section_title": "Dismissal",
+          "score": 0.6338,
+          "language": "el",
+          "greek": "Ὁ εὐλογῶν τοὺς εὐλογοῦντάς σε, Κύριε, καὶ ἁγιάζων τοὺς ἐπὶ σοὶ πεποιθότας, σῶσον τὸν λαόν σου καὶ εὐλόγησον τὴν κληρονομίαν σου. Τὸ πλήρωμα τῆς Ἐκκλησίας σου φύλαξον· ἁγίασον τοὺς ἀγαπῶντας τὴν εὐπρέπειαν τοῦ οἴκου σου· σὺ αὐτοὺς ἀντιδόξασον τῇ θεϊκῇ σου δυνάμει καὶ μὴ ἐγκαταλίπῃς ἡμᾶς τοὺς ἐλπίζοντας ἐπὶ σέ. Εἰρήνην τῷ κόσμῳ σου δώρησαι, ταῖς Ἐκκλησίαις σου, τοῖς ἱερεῦσι, τοῖς βασιλεῦσιν ἡμῶν, τῷ στρατῷ καὶ παντὶ τῷ λαῷ σου· ὅτι πᾶσα δόσις ἀγαθὴ καὶ πᾶν δώρημα τέλειον ἄνωθέν ἐστι, καταβαῖνον ἐκ σοῦ τοῦ Πατρὸς τῶν φώτων· καὶ σοὶ τὴν δόξαν καὶ εὐχαριστίαν καὶ προσκύνησιν ἀναπέμπομεν, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ ἁγίῳ Πνεύματι, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "O Lord, who blesses those who bless You and sanctifies those who put their trust in You, save Your people and bless Your inheritance. Protect the whole body of Your Church. Sanctify those who love the beauty of Your house. Glorify them in return by Your divine power, and forsake us not who have set our hope in You. Grant peace to Your world, to Your churches, to the clergy, to our civic leaders, to the armed forces, and to all Your people. For every good and perfect gift is from above, coming down from You, the Father of lights. To You we offer up glory, thanksgiving, and worship, to the Father and to the Son and to the Holy Spirit, now and ever and to the ages of ages."
+        },
+        {
+          "unit_id": "u0250",
+          "index": 250,
+          "section_id": "s018",
+          "section_title": "The Lord’s Prayer",
+          "score": 0.6329,
+          "language": "el",
+          "greek": "Πάτερ ἡμῶν ὁ ἐν τοῖς οὐρανοῖς, ἁγιασθήτω τὸ ὄνομά σου. Ἐλθέτω ἡ βασιλεία σου. Γενηθήτω τὸ θέλημά σου, ὡς ἐν οὐρανῷ καὶ ἐπὶ τῆς γῆς. Τὸν ἄρτον ἡμῶν τὸν ἐπιούσιον δὸς ἡμῖν σήμερον. Καὶ ἄφες ἡμῖν τὰ ὀφειλήματα ἡμῶν, ὡς καὶ ἡμεῖς ἀφίεμεν τοῖς ὀφειλέταις ἡμῶν. Καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν, ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ.",
+          "english": "Our Father, who art in heaven, hallowed be Thy name. Thy kingdom come, Thy will be done, on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from evil."
+        },
+        {
+          "unit_id": "u0266",
+          "index": 266,
+          "section_id": "s020",
+          "section_title": "Elevation, Fraction, and Communion",
+          "score": 0.6263,
+          "language": "el",
+          "greek": "Πιστεύω, Κύριε, καὶ ὁμολογῶ, ὅτι σὺ εἶ ὁ Χριστός, ὁ Υἱὸς τοῦ Θεοῦ τοῦ ζῶντος, ὁ ἐλθὼν εἰς τὸν κόσμον ἁμαρτωλοὺς σῶσαι, ὧν πρῶτός εἰμι ἐγώ. Ἔτι πιστεύω ὅτι τοῦτο αὐτό ἐστι τὸ ἄχραντον Σῶμά σου καὶ τοῦτο αὐτό ἐστι τὸ τίμιον Αἷμά σου. Δέομαι οὖν σου· ἐλέησόν με καὶ συγχώρησόν μοι τὰ παραπτώματά μου, τὰ ἑκούσια καὶ τὰ ἀκούσια, τὰ ἐν λόγῳ, τὰ ἐν ἔργῳ, τὰ ἐν γνώσει καὶ ἀγνοίᾳ, καὶ ἀξίωσόν με ἀκατακρίτως μετασχεῖν τῶν ἀχράντων σου μυστηρίων εἰς ἄφεσιν ἁμαρτιῶν καὶ εἰς ζωὴν αἰώνιον. Ἀμήν.",
+          "english": "I believe and confess, Lord, that You are truly the Christ, the Son of the living God, who came into the world to save sinners, of whom I am the first. I also believe that this is truly Your pure Body and that this is truly Your precious Blood. Therefore, I pray to You, have mercy on me and forgive my transgressions, voluntary and involuntary, in word and deed, in knowledge or in ignorance. And make me worthy, without condemnation, to partake of Your pure sacrament for the remission of sins and for eternal life. Amen."
+        },
+        {
+          "unit_id": "u0049",
+          "index": 49,
+          "section_id": "s002",
+          "section_title": "Small Litany",
+          "score": 0.6216,
+          "language": "el",
+          "greek": "Κύριε ὁ Θεὸς ἡμῶν, σῶσον τὸν λαόν σου καὶ εὐλόγησον τὴν κληρονομίαν σου· τὸ πλήρωμα τῆς Ἐκκλησίας σου φύλαξον· ἁγίασον τοὺς ἀγαπῶντας τὴν εὐπρέπειαν τοῦ οἴκου σου· σὺ αὐτοὺς ἀντιδόξασον τῇ θεϊκῇ σου δυνάμει καὶ μὴ ἐγκαταλίπῃς ἡμᾶς τοὺς ἐλπίζοντας ἐπὶ σέ.",
+          "english": "Lord, our God, save Your people and bless Your inheritance. Protect all the members of Your Church. Sanctify those who love the beauty of Your house. Glorify them in return by Your divine power, and forsake us not who have set our hope in You."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 1837.0,
+      "end": 1845.38,
+      "text": "Βασιλία του Πατρός και του Υιού και του Αγίου Πνεύματος, διν και αείν και εις τους αιώνας των αιώνων.",
+      "temperature": 0.0,
+      "avg_logprob": -0.2842148120586689,
+      "compression_ratio": 1.5609756097560976,
+      "no_speech_prob": 1.492236750832987e-10,
+      "words": [
+        {
+          "word": " Βασιλία",
+          "start": 1837.0,
+          "end": 1837.58,
+          "probability": 0.58056640625
+        },
+        {
+          "word": " του",
+          "start": 1837.58,
+          "end": 1837.76,
+          "probability": 0.71826171875
+        },
+        {
+          "word": " Πατρός",
+          "start": 1837.76,
+          "end": 1838.44,
+          "probability": 0.95556640625
+        },
+        {
+          "word": " και",
+          "start": 1838.44,
+          "end": 1838.6,
+          "probability": 0.900390625
+        },
+        {
+          "word": " του",
+          "start": 1838.6,
+          "end": 1838.76,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " Υιού",
+          "start": 1838.76,
+          "end": 1839.06,
+          "probability": 0.9453125
+        },
+        {
+          "word": " και",
+          "start": 1839.06,
+          "end": 1839.22,
+          "probability": 0.98486328125
+        },
+        {
+          "word": " του",
+          "start": 1839.22,
+          "end": 1839.38,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " Αγίου",
+          "start": 1839.38,
+          "end": 1839.82,
+          "probability": 0.86669921875
+        },
+        {
+          "word": " Πνεύματος,",
+          "start": 1839.82,
+          "end": 1840.76,
+          "probability": 0.99609375
+        },
+        {
+          "word": " διν",
+          "start": 1840.86,
+          "end": 1841.36,
+          "probability": 0.552734375
+        },
+        {
+          "word": " και",
+          "start": 1841.36,
+          "end": 1841.48,
+          "probability": 0.83544921875
+        },
+        {
+          "word": " αείν",
+          "start": 1841.48,
+          "end": 1842.28,
+          "probability": 0.5107421875
+        },
+        {
+          "word": " και",
+          "start": 1842.28,
+          "end": 1842.4,
+          "probability": 0.9677734375
+        },
+        {
+          "word": " εις",
+          "start": 1842.4,
+          "end": 1842.64,
+          "probability": 0.98388671875
+        },
+        {
+          "word": " τους",
+          "start": 1842.64,
+          "end": 1842.76,
+          "probability": 0.935546875
+        },
+        {
+          "word": " αιώνας",
+          "start": 1842.76,
+          "end": 1843.7,
+          "probability": 0.9892578125
+        },
+        {
+          "word": " των",
+          "start": 1843.7,
+          "end": 1843.84,
+          "probability": 0.94873046875
+        },
+        {
+          "word": " αιώνων.",
+          "start": 1843.84,
+          "end": 1845.38,
+          "probability": 0.9951171875
+        }
+      ],
+      "language": "el",
+      "match": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.9672,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "candidates": [
+        {
+          "unit_id": "u0001",
+          "index": 1,
+          "section_id": "s000",
+          "section_title": "Opening blessing and Peace Litany",
+          "score": 0.9672,
+          "language": "el",
+          "greek": "Εὐλογημένη ἡ βασιλεία τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ ἁγίου Πνεύματος, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "Blessed is the kingdom of the Father and the Son and the Holy Spirit, now and ever and to the ages of ages."
+        },
+        {
+          "unit_id": "u0050",
+          "index": 50,
+          "section_id": "s002",
+          "section_title": "Small Litany",
+          "score": 0.9475,
+          "language": "el",
+          "greek": "Ὅτι σὸν τὸ κράτος καὶ σοῦ ἐστιν ἡ βασιλεία καὶ ἡ δύναμις καὶ ἡ δόξα, τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ ἁγίου Πνεύματος, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "For Yours is the dominion, and Yours is the kingdom and the power and the glory, of the Father and the Son and the Holy Spirit, now and ever and to the ages of ages."
+        },
+        {
+          "unit_id": "u0251",
+          "index": 251,
+          "section_id": "s018",
+          "section_title": "The Lord’s Prayer",
+          "score": 0.9475,
+          "language": "el",
+          "greek": "Ὅτι σοῦ ἐστιν ἡ βασιλεία καὶ ἡ δύναμις καὶ ἡ δόξα τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ ἁγίου Πνεύματος, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "For Thine is the kingdom and the power and the glory, of the Father and the Son and the Holy Spirit, now and ever and to ages of ages."
+        },
+        {
+          "unit_id": "u0219",
+          "index": 219,
+          "section_id": "s017",
+          "section_title": "Hymn to the Theotokos",
+          "score": 0.938,
+          "language": "el",
+          "greek": "Καὶ δὸς ἡμῖν ἐν ἑνὶ στόματι καὶ μιᾷ καρδίᾳ δοξάζειν καὶ ἀνυμνεῖν τὸ πάντιμον καὶ μεγαλοπρεπὲς ὄνομά σου, τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ ἁγίου Πνεύματος, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "And grant that with one voice and one heart we may glorify and praise Your most honorable and majestic name, of the Father and the Son and the Holy Spirit, now and ever and to the ages of ages."
+        },
+        {
+          "unit_id": "u0298",
+          "index": 298,
+          "section_id": "s024",
+          "section_title": "Dismissal",
+          "score": 0.887,
+          "language": "el",
+          "greek": "Ὁ εὐλογῶν τοὺς εὐλογοῦντάς σε, Κύριε, καὶ ἁγιάζων τοὺς ἐπὶ σοὶ πεποιθότας, σῶσον τὸν λαόν σου καὶ εὐλόγησον τὴν κληρονομίαν σου. Τὸ πλήρωμα τῆς Ἐκκλησίας σου φύλαξον· ἁγίασον τοὺς ἀγαπῶντας τὴν εὐπρέπειαν τοῦ οἴκου σου· σὺ αὐτοὺς ἀντιδόξασον τῇ θεϊκῇ σου δυνάμει καὶ μὴ ἐγκαταλίπῃς ἡμᾶς τοὺς ἐλπίζοντας ἐπὶ σέ. Εἰρήνην τῷ κόσμῳ σου δώρησαι, ταῖς Ἐκκλησίαις σου, τοῖς ἱερεῦσι, τοῖς βασιλεῦσιν ἡμῶν, τῷ στρατῷ καὶ παντὶ τῷ λαῷ σου· ὅτι πᾶσα δόσις ἀγαθὴ καὶ πᾶν δώρημα τέλειον ἄνωθέν ἐστι, καταβαῖνον ἐκ σοῦ τοῦ Πατρὸς τῶν φώτων· καὶ σοὶ τὴν δόξαν καὶ εὐχαριστίαν καὶ προσκύνησιν ἀναπέμπομεν, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ ἁγίῳ Πνεύματι, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "O Lord, who blesses those who bless You and sanctifies those who put their trust in You, save Your people and bless Your inheritance. Protect the whole body of Your Church. Sanctify those who love the beauty of Your house. Glorify them in return by Your divine power, and forsake us not who have set our hope in You. Grant peace to Your world, to Your churches, to the clergy, to our civic leaders, to the armed forces, and to all Your people. For every good and perfect gift is from above, coming down from You, the Father of lights. To You we offer up glory, thanksgiving, and worship, to the Father and to the Son and to the Holy Spirit, now and ever and to the ages of ages."
+        },
+        {
+          "unit_id": "u0031",
+          "index": 31,
+          "section_id": "s000",
+          "section_title": "Opening blessing and Peace Litany",
+          "score": 0.8869,
+          "language": "el",
+          "greek": "Ὅτι πρέπει σοι πᾶσα δόξα, τιμὴ καὶ προσκύνησις, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ ἁγίῳ Πνεύματι, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "For to You belong all glory, honor, and worship, to the Father and the Son and the Holy Spirit, now and ever and to the ages of ages."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 1850.48,
+      "end": 1850.96,
+      "text": "Αμήν.",
+      "temperature": 0.0,
+      "avg_logprob": -0.2842148120586689,
+      "compression_ratio": 1.5609756097560976,
+      "no_speech_prob": 1.492236750832987e-10,
+      "words": [
+        {
+          "word": " Αμήν.",
+          "start": 1850.48,
+          "end": 1850.96,
+          "probability": 0.94677734375
+        }
+      ],
+      "language": "el",
+      "match": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 1.0,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "candidates": [
+        {
+          "unit_id": "u0002",
+          "index": 2,
+          "section_id": "s000",
+          "section_title": "Opening blessing and Peace Litany",
+          "score": 1.0,
+          "language": "el",
+          "greek": "Ἀμήν.",
+          "english": "Amen."
+        },
+        {
+          "unit_id": "u0032",
+          "index": 32,
+          "section_id": "s000",
+          "section_title": "Opening blessing and Peace Litany",
+          "score": 1.0,
+          "language": "el",
+          "greek": "Ἀμήν.",
+          "english": "Amen."
+        },
+        {
+          "unit_id": "u0040",
+          "index": 40,
+          "section_id": "s001",
+          "section_title": "Antiphon 1",
+          "score": 1.0,
+          "language": "el",
+          "greek": "Καὶ νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων. Ἀμήν.",
+          "english": "Both now and ever and to the ages of ages. Amen."
+        },
+        {
+          "unit_id": "u0051",
+          "index": 51,
+          "section_id": "s002",
+          "section_title": "Small Litany",
+          "score": 1.0,
+          "language": "el",
+          "greek": "Ἀμήν.",
+          "english": "Amen."
+        },
+        {
+          "unit_id": "u0065",
+          "index": 65,
+          "section_id": "s003",
+          "section_title": "Antiphon 2",
+          "score": 1.0,
+          "language": "el",
+          "greek": "Καὶ νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων. Ἀμήν.",
+          "english": "Both now and ever and to the ages of ages. Amen."
+        },
+        {
+          "unit_id": "u0076",
+          "index": 76,
+          "section_id": "s004",
+          "section_title": "Small Litany",
+          "score": 1.0,
+          "language": "el",
+          "greek": "Ἀμήν.",
+          "english": "Amen."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 1396,
+      "start": 1850.96,
+      "end": 1865.7,
+      "text": "Έκνε ότι το όσμο πολλά πολέμι με πάθη.",
+      "temperature": 0.0,
+      "avg_logprob": -0.5745602108183361,
+      "compression_ratio": 1.1147540983606556,
+      "no_speech_prob": 1.96519564510389e-10,
+      "words": [
+        {
+          "word": " Έκνε",
+          "start": 1850.96,
+          "end": 1853.6,
+          "probability": 0.5810546875
+        },
+        {
+          "word": " ότι",
+          "start": 1853.6,
+          "end": 1854.28,
+          "probability": 0.25341796875
+        },
+        {
+          "word": " το",
+          "start": 1854.28,
+          "end": 1854.96,
+          "probability": 0.84765625
+        },
+        {
+          "word": " όσμο",
+          "start": 1854.96,
+          "end": 1856.82,
+          "probability": 0.52685546875
+        },
+        {
+          "word": " πολλά",
+          "start": 1856.82,
+          "end": 1858.66,
+          "probability": 0.96435546875
+        },
+        {
+          "word": " πολέμι",
+          "start": 1858.66,
+          "end": 1862.0,
+          "probability": 0.66162109375
+        },
+        {
+          "word": " με",
+          "start": 1862.0,
+          "end": 1863.04,
+          "probability": 0.802734375
+        },
+        {
+          "word": " πάθη.",
+          "start": 1863.04,
+          "end": 1865.7,
+          "probability": 0.830078125
+        }
+      ],
+      "language": "el",
+      "match": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.6244,
+        "status": "unknown",
+        "method": "lexical",
+        "reason": "No sufficiently similar reference text"
+      },
+      "candidates": [
+        {
+          "unit_id": "u0335",
+          "index": 335,
+          "section_id": "s025",
+          "section_title": "Memorial Service",
+          "score": 0.6244,
+          "language": "el",
+          "greek": "Ὁ Θεὸς τῶν πνευμάτων καὶ πάσης σαρκός, ὁ τὸν θάνατον καταπατήσας, τὸν δὲ διάβολον καταργήσας, καὶ ζωὴν τῷ κόσμῳ σου δωρησάμενος, αυτός, Κύριε, ἀνάπαυσον τὴν ψυχὴν τοῦ κεκοιμημένου δούλου σου (τοῦδε) ἐν τόπῳ φωτεινῷ, ἐν τόπῳ χλοερῷ, ἐν τόπῳ ἀναψύξεως, ἔνθα ἀπέδρα ὀδύνη, λύπη καὶ στεναγμός. Πᾶν ἁμάρτημα τὸ παρ’ αὐτοῦ πραχθὲν ἐν λόγῳ ἢ ἔργῳ ἢ διανοίᾳ, ὡς ἀγαθὸς καὶ φιλάνθρωπος Θεός, συγχώρησον· ὅτι οὐκ ἔστιν ἄνθρωπος, ὃς ζήσεται καὶ οὐχ ἁμαρτήσει· σὺ γὰρ μόνος ἐκτὸς ἁμαρτίας ὑπάρχεις· ἡ δικαιοσύνη σου δικαιοσύνη εἰς τὸν αἰῶνα, καὶ ὁ νόμος σου ἀλήθεια.",
+          "english": "O God of spirits and of all flesh, You trampled upon death and abolished the power of the devil, giving life to Your world. Give rest to the soul(s) of Your departed servant(s) (name) in a place of light, in a place of green pasture, in a place of refreshment, from where pain, sorrow, and sighing have fled away. As good and benevolent God, forgive every sin he (she, they) has (have) committed in word, deed, or thought, for there is no one who lives and does not sin. You alone are without sin. Your righteousness is an everlasting righteousness, and Your word is truth."
+        },
+        {
+          "unit_id": "u0118",
+          "index": 118,
+          "section_id": "s010",
+          "section_title": "The Epistle",
+          "score": 0.604,
+          "language": "el",
+          "greek": "Ἀδελφοί, γρηγορεῖτε, στήκετε ἐν τῇ πίστει, ἀνδρίζεσθε, κραταιοῦσθε. πάντα ὑμῶν ἐν ἀγάπῃ γινέσθω. Παρακαλῶ δὲ ὑμᾶς, ἀδελφοί· οἴδατε τὴν οἰκίαν Στεφανᾶ, ὅτι ἐστὶν ἀπαρχὴ τῆς Ἀχαΐας καὶ εἰς διακονίαν τοῖς ἁγίοις ἔταξαν ἑαυτούς· ἵνα καὶ ὑμεῖς ὑποτάσσησθε τοῖς τοιούτοις καὶ παντὶ τῷ συνεργοῦντι καὶ κοπιῶντι. χαίρω δὲ ἐπὶ τῇ παρουσίᾳ Στεφανᾶ καὶ Φουρτουνάτου καὶ Ἀχαϊκοῦ, ὅτι τὸ ὑμῶν ὑστέρημα οὗτοι ἀνεπλήρωσαν· ἀνέπαυσαν γὰρ τὸ ἐμὸν πνεῦμα καὶ τὸ ὑμῶν. Ἐπιγινώσκετε οὖν τοὺς τοιούτους. Ἀσπάζονται ὑμᾶς αἱ ἐκκλησίαι τῆς Ἀσίας. ἀσπάζονται ὑμᾶς ἐν Κυρίῳ πολλὰ Ἀκύλας καὶ Πρίσκιλλα σὺν τῇ κατ’ οἶκον αὐτῶν ἐκκλησίᾳ. ἀσπάζονται ὑμᾶς οἱ ἀδελφοὶ πάντες. ἀσπάσασθε ἀλλήλους ἐν φιλήματι ἁγίῳ. Ὁ ἀσπασμὸς τῇ ἐμῇ χειρὶ Παύλου. εἴ τις οὐ φιλεῖ τὸν Κύριον Ἰησοῦν Χριστόν, ἤτω ἀνάθεμα. μαρὰν ἀθᾶ. Ἡ χάρις τοῦ Κυρίου Ἰησοῦ Χριστοῦ μεθ’ ὑμῶν. ἡ ἀγάπη μου μετὰ πάντων ὑμῶν ἐν Χριστῷ Ἰησοῦ· ἀμήν.",
+          "english": "Brethren, be watchful, stand firm in your faith, be courageous, be strong. Let all that you do be done in love. Now, brethren, you know that the household of Stephanas were the first converts in Achaia, and they have devoted themselves to the service of the saints; I urge you to be subject to such men and to every fellow worker and laborer. I rejoice at the coming of Stephanas and Fortunatus and Achaicus, because they have made up for your absence; for they refreshed my spirit as well as yours. Give recognition to such men. The churches of Asia send greetings. Aquila and Prisca, together with the church in their house, send you hearty greetings in the Lord. All the brethren send greetings. Greet one another with a holy kiss. I, Paul, write this greeting with my own hand. If any one has no love for the Lord, let him be anathema. Maranatha! The grace of the Lord Jesus be with you. My love be with you all in Christ Jesus. Amen."
+        },
+        {
+          "unit_id": "u0310",
+          "index": 310,
+          "section_id": "s025",
+          "section_title": "Memorial Service",
+          "score": 0.5867,
+          "language": "el",
+          "greek": "Εἰκών εἰμι, τῆς ἀῤῥήτου δόξης σου, εἰ καὶ στίγματα φέρω πταισμάτων· οἰκτείρησον τὸ σὸν πλάσμα, Δέσποτα, καὶ καθάρισον σῇ εὐσπλαγχνίᾳ· καὶ τὴν ποθεινὴν πατρίδα παράσχου μοι, παραδείσου πάλιν ποιῶν πολίτην με.",
+          "english": "I am an image of Your ineffable glory, though I bear the scars of my transgressions. Take pity on me, the work of Your hands, Master, and cleanse me by Your compassion. Grant me the desired homeland for which I long, making me again a citizen of Paradise."
+        },
+        {
+          "unit_id": "u0266",
+          "index": 266,
+          "section_id": "s020",
+          "section_title": "Elevation, Fraction, and Communion",
+          "score": 0.5724,
+          "language": "el",
+          "greek": "Πιστεύω, Κύριε, καὶ ὁμολογῶ, ὅτι σὺ εἶ ὁ Χριστός, ὁ Υἱὸς τοῦ Θεοῦ τοῦ ζῶντος, ὁ ἐλθὼν εἰς τὸν κόσμον ἁμαρτωλοὺς σῶσαι, ὧν πρῶτός εἰμι ἐγώ. Ἔτι πιστεύω ὅτι τοῦτο αὐτό ἐστι τὸ ἄχραντον Σῶμά σου καὶ τοῦτο αὐτό ἐστι τὸ τίμιον Αἷμά σου. Δέομαι οὖν σου· ἐλέησόν με καὶ συγχώρησόν μοι τὰ παραπτώματά μου, τὰ ἑκούσια καὶ τὰ ἀκούσια, τὰ ἐν λόγῳ, τὰ ἐν ἔργῳ, τὰ ἐν γνώσει καὶ ἀγνοίᾳ, καὶ ἀξίωσόν με ἀκατακρίτως μετασχεῖν τῶν ἀχράντων σου μυστηρίων εἰς ἄφεσιν ἁμαρτιῶν καὶ εἰς ζωὴν αἰώνιον. Ἀμήν.",
+          "english": "I believe and confess, Lord, that You are truly the Christ, the Son of the living God, who came into the world to save sinners, of whom I am the first. I also believe that this is truly Your pure Body and that this is truly Your precious Blood. Therefore, I pray to You, have mercy on me and forgive my transgressions, voluntary and involuntary, in word and deed, in knowledge or in ignorance. And make me worthy, without condemnation, to partake of Your pure sacrament for the remission of sins and for eternal life. Amen."
+        },
+        {
+          "unit_id": "u0298",
+          "index": 298,
+          "section_id": "s024",
+          "section_title": "Dismissal",
+          "score": 0.5712,
+          "language": "el",
+          "greek": "Ὁ εὐλογῶν τοὺς εὐλογοῦντάς σε, Κύριε, καὶ ἁγιάζων τοὺς ἐπὶ σοὶ πεποιθότας, σῶσον τὸν λαόν σου καὶ εὐλόγησον τὴν κληρονομίαν σου. Τὸ πλήρωμα τῆς Ἐκκλησίας σου φύλαξον· ἁγίασον τοὺς ἀγαπῶντας τὴν εὐπρέπειαν τοῦ οἴκου σου· σὺ αὐτοὺς ἀντιδόξασον τῇ θεϊκῇ σου δυνάμει καὶ μὴ ἐγκαταλίπῃς ἡμᾶς τοὺς ἐλπίζοντας ἐπὶ σέ. Εἰρήνην τῷ κόσμῳ σου δώρησαι, ταῖς Ἐκκλησίαις σου, τοῖς ἱερεῦσι, τοῖς βασιλεῦσιν ἡμῶν, τῷ στρατῷ καὶ παντὶ τῷ λαῷ σου· ὅτι πᾶσα δόσις ἀγαθὴ καὶ πᾶν δώρημα τέλειον ἄνωθέν ἐστι, καταβαῖνον ἐκ σοῦ τοῦ Πατρὸς τῶν φώτων· καὶ σοὶ τὴν δόξαν καὶ εὐχαριστίαν καὶ προσκύνησιν ἀναπέμπομεν, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ ἁγίῳ Πνεύματι, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "O Lord, who blesses those who bless You and sanctifies those who put their trust in You, save Your people and bless Your inheritance. Protect the whole body of Your Church. Sanctify those who love the beauty of Your house. Glorify them in return by Your divine power, and forsake us not who have set our hope in You. Grant peace to Your world, to Your churches, to the clergy, to our civic leaders, to the armed forces, and to all Your people. For every good and perfect gift is from above, coming down from You, the Father of lights. To You we offer up glory, thanksgiving, and worship, to the Father and to the Son and to the Holy Spirit, now and ever and to the ages of ages."
+        },
+        {
+          "unit_id": "u0271",
+          "index": 271,
+          "section_id": "s020",
+          "section_title": "Elevation, Fraction, and Communion",
+          "score": 0.5663,
+          "language": "el",
+          "greek": "Ἐν ταῖς λαμπρότησι τῶν ἁγίων σου πῶς εἰσελεύσομαι ὁ ἀνάξιος; ἐὰν γὰρ τολμήσω συνεισελθεῖν εἰς τὸν νυμφῶνα, ὁ χιτών με ἐλέγχει, ὅτι οὐκ ἔστι τοῦ γάμου, καὶ δέσμιος ἐκβαλοῦμαι ὑπὸ τῶν ἀγγέλων. Καθάρισον, Κύριε, τὸν ῥύπον τῆς ψυχῆς μου καὶ σῶσόν με ὡς φιλάνθρωπος.",
+          "english": "How shall I enter into the splendor of Your saints since I am unworthy? For if I dare to enter the wedding hall along with them, my garment will betray me, for it is not fit for the wedding; and then I shall be bound and cast out by the Angels. I pray You to wash away the stains on my soul, and save me, O benevolent Lord."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 1880.92,
+      "end": 1889.18,
+      "text": "From my youth many passions",
+      "temperature": 0.0,
+      "avg_logprob": -0.462139712439643,
+      "compression_ratio": 0.7714285714285715,
+      "no_speech_prob": 1.0520829867022297e-11,
+      "words": [
+        {
+          "word": " From",
+          "start": 1880.92,
+          "end": 1882.32,
+          "probability": 0.406005859375
+        },
+        {
+          "word": " my",
+          "start": 1882.32,
+          "end": 1883.72,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " youth",
+          "start": 1883.72,
+          "end": 1884.82,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " many",
+          "start": 1884.82,
+          "end": 1887.08,
+          "probability": 0.58544921875
+        },
+        {
+          "word": " passions",
+          "start": 1887.08,
+          "end": 1889.18,
+          "probability": 0.86328125
+        }
+      ],
+      "language": "en",
+      "match": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.6438,
+        "status": "unknown",
+        "method": "lexical",
+        "reason": "No sufficiently similar reference text"
+      },
+      "candidates": [
+        {
+          "unit_id": "u0195",
+          "index": 195,
+          "section_id": "s016",
+          "section_title": "Holy Anaphora",
+          "score": 0.6438,
+          "language": "en",
+          "greek": "Πίετε ἐξ αὐτοῦ πάντες· τοῦτό ἐστι τὸ Αἷμά μου, τὸ τῆς καινῆς διαθήκης, τὸ ὑπὲρ ὑμῶν καὶ πολλῶν ἐκχυνόμενον εἰς ἄφεσιν ἁμαρτιῶν.",
+          "english": "Drink of it, all of you; this is my blood of the new covenant, which is shed for you and for many for the remission of sins."
+        },
+        {
+          "unit_id": "u0092",
+          "index": 92,
+          "section_id": "s008",
+          "section_title": "Hymns after the Entrance",
+          "score": 0.6355,
+          "language": "en",
+          "greek": "Ὁ ὑψωθεὶς ἐν τῷ Σταυρῷ ἑκουσίως, τῇ ἐπωνύμῳ σου καινῇ πολιτείᾳ, τοὺς οἰκτιρμούς σου δώρησαι, Χριστὲ ὁ Θεός. Εὔφρανον ἐν τῇ δυνάμει σου, τοὺς πιστοὺς βασιλεῖς ἡμῶν, νίκας χορηγῶν αὐτοῖς, κατὰ τῶν πολεμίων· τὴν συμμαχίαν ἔχοιεν τὴν σήν, ὅπλον εἰρήνης, ἀήττητον τρόπαιον.",
+          "english": "You who were lifted on the cross voluntarily, * O Christ our God, bestow Your tender compassions * upon Your new community to which You gave Your name. * Cause our faithful emperors to be glad in Your power, * granting them the victories against their adversaries. * And for an ally, Lord, may they have You, * peace as their armor, the trophy invincible."
+        },
+        {
+          "unit_id": "u0310",
+          "index": 310,
+          "section_id": "s025",
+          "section_title": "Memorial Service",
+          "score": 0.6286,
+          "language": "en",
+          "greek": "Εἰκών εἰμι, τῆς ἀῤῥήτου δόξης σου, εἰ καὶ στίγματα φέρω πταισμάτων· οἰκτείρησον τὸ σὸν πλάσμα, Δέσποτα, καὶ καθάρισον σῇ εὐσπλαγχνίᾳ· καὶ τὴν ποθεινὴν πατρίδα παράσχου μοι, παραδείσου πάλιν ποιῶν πολίτην με.",
+          "english": "I am an image of Your ineffable glory, though I bear the scars of my transgressions. Take pity on me, the work of Your hands, Master, and cleanse me by Your compassion. Grant me the desired homeland for which I long, making me again a citizen of Paradise."
+        },
+        {
+          "unit_id": "u0192",
+          "index": 192,
+          "section_id": "s016",
+          "section_title": "Holy Anaphora",
+          "score": 0.5994,
+          "language": "en",
+          "greek": "Λάβετε, φάγετε· τοῦτό μού ἐστι τὸ Σῶμα, τὸ ὑπὲρ ὑμῶν κλώμενον εἰς ἄφεσιν ἁμαρτιῶν.",
+          "english": "Take, eat, this is my body, which is broken for you for the remission of sins."
+        },
+        {
+          "unit_id": "u0266",
+          "index": 266,
+          "section_id": "s020",
+          "section_title": "Elevation, Fraction, and Communion",
+          "score": 0.5994,
+          "language": "en",
+          "greek": "Πιστεύω, Κύριε, καὶ ὁμολογῶ, ὅτι σὺ εἶ ὁ Χριστός, ὁ Υἱὸς τοῦ Θεοῦ τοῦ ζῶντος, ὁ ἐλθὼν εἰς τὸν κόσμον ἁμαρτωλοὺς σῶσαι, ὧν πρῶτός εἰμι ἐγώ. Ἔτι πιστεύω ὅτι τοῦτο αὐτό ἐστι τὸ ἄχραντον Σῶμά σου καὶ τοῦτο αὐτό ἐστι τὸ τίμιον Αἷμά σου. Δέομαι οὖν σου· ἐλέησόν με καὶ συγχώρησόν μοι τὰ παραπτώματά μου, τὰ ἑκούσια καὶ τὰ ἀκούσια, τὰ ἐν λόγῳ, τὰ ἐν ἔργῳ, τὰ ἐν γνώσει καὶ ἀγνοίᾳ, καὶ ἀξίωσόν με ἀκατακρίτως μετασχεῖν τῶν ἀχράντων σου μυστηρίων εἰς ἄφεσιν ἁμαρτιῶν καὶ εἰς ζωὴν αἰώνιον. Ἀμήν.",
+          "english": "I believe and confess, Lord, that You are truly the Christ, the Son of the living God, who came into the world to save sinners, of whom I am the first. I also believe that this is truly Your pure Body and that this is truly Your precious Blood. Therefore, I pray to You, have mercy on me and forgive my transgressions, voluntary and involuntary, in word and deed, in knowledge or in ignorance. And make me worthy, without condemnation, to partake of Your pure sacrament for the remission of sins and for eternal life. Amen."
+        },
+        {
+          "unit_id": "u0096",
+          "index": 96,
+          "section_id": "s009",
+          "section_title": "Trisagios Hymn",
+          "score": 0.5911,
+          "language": "en",
+          "greek": "Ὁ Θεὸς ὁ ἅγιος, ὁ ἐν ἁγίοις ἀναπαυόμενος, ὁ τρισαγίῳ φωνῇ ὑπὸ τῶν Σεραφεὶμ ἀνυμνούμενος καὶ ὑπὸ τῶν Χερουβεὶμ δοξολογούμενος καὶ ὑπὸ πάσης ἐπουρανίου δυνάμεως προσκυνούμενος· ὁ ἐκ τοῦ μὴ ὄντος εἰς τὸ εἶναι παραγαγὼν τὰ σύμπαντα· ὁ κτίσας τὸν ἄνθρωπον κατ’ εἰκόνα σὴν καὶ ὁμοίωσιν καὶ παντί σου χαρίσματι κατακοσμήσας· ὁ διδοὺς αἰτοῦντι σοφίαν καὶ σύνεσιν καὶ μὴ παρορῶν ἁμαρτάνοντα, ἀλλὰ θέμενος ἐπὶ σωτηρίᾳ μετάνοιαν· ὁ καταξιώσας ἡμᾶς τοὺς ταπεινοὺς καὶ ἀναξίους δούλους σου καὶ ἐν τῇ ὥρᾳ ταύτῃ στῆναι κατενώπιον τῆς δόξης τοῦ ἁγίου σου θυσιαστηρίου καὶ τὴν ὀφειλομένην σοι προσκύνησιν καὶ δοξολογίαν προσάγειν· αὐτός, Δέσποτα, πρόσδεξαι καὶ ἐκ στόματος ἡμῶν τῶν ἁμαρτωλῶν τὸν τρισάγιον ὕμνον καὶ ἐπίσκεψαι ἡμᾶς ἐν τῇ χρηστότητί σου. Συγχώρησον ἡμῖν πᾶν πλημμέλημα ἑκούσιόν τε καὶ ἀκούσιον· ἁγίασον ἡμῶν τὰς ψυχὰς καὶ τὰ σώματα· καὶ δὸς ἡμῖν ἐν ὁσιότητι λατρεύειν σοι πάσας τὰς ἡμέρας τῆς ζωῆς ἡμῶν· πρεσβείαις τῆς ἁγίας Θεοτόκου καὶ πάντων τῶν ἁγίων τῶν ἀπ’ αἰῶνός σοι εὐαρεστησάντων.",
+          "english": "O Holy God, who is resting among the holy ones, praised by the Seraphim with the thrice-holy voice, glorified by the Cherubim, and worshiped by every celestial power, You have brought all things into being out of nothing. You have created man according to Your image and likeness and adorned him with all the gifts of Your grace. You give wisdom and understanding to the one who asks, and You overlook not the sinner, but have set repentance as the way of salvation. You have granted us, Your humble and unworthy servants, to stand even at this hour before the glory of Your holy Altar of sacrifice and to offer to You due worship and praise. Master, accept the Trisagion Hymn also from the lips of us sinners, and visit us in Your goodness. Forgive all our voluntary and involuntary transgressions, sanctify our souls and bodies, and grant that we may worship You in holiness all the days of our lives, through the intercessions of the holy Theotokos and of all the saints who have pleased You throughout the ages."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 2218,
+      "start": 1889.18,
+      "end": 1894.72,
+      "text": "and war against me.",
+      "temperature": 0.0,
+      "avg_logprob": -0.7237436587993915,
+      "compression_ratio": 0.7714285714285715,
+      "no_speech_prob": 1.1801624955065648e-10,
+      "words": [
+        {
+          "word": " and",
+          "start": 1889.18,
+          "end": 1890.04,
+          "probability": 0.195068359375
+        },
+        {
+          "word": " war",
+          "start": 1890.04,
+          "end": 1890.98,
+          "probability": 0.96484375
+        },
+        {
+          "word": " against",
+          "start": 1890.98,
+          "end": 1892.36,
+          "probability": 0.94677734375
+        },
+        {
+          "word": " me.",
+          "start": 1892.36,
+          "end": 1894.72,
+          "probability": 0.9873046875
+        }
+      ],
+      "language": "en",
+      "match": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.6771,
+        "status": "unknown",
+        "method": "lexical",
+        "reason": "No sufficiently similar reference text"
+      },
+      "candidates": [
+        {
+          "unit_id": "u0308",
+          "index": 308,
+          "section_id": "s025",
+          "section_title": "Memorial Service",
+          "score": 0.6771,
+          "language": "en",
+          "greek": "Ὁ πάλαι μέν, ἐκ μὴ ὄντων πλάσας με, καὶ εἰκόνι σου θείᾳ τιμήσας, παραβάσει ἐντολῆς δὲ πάλιν με ἐπιστρέψας εἰς γῆν ἐξ ἧς ἐλήφθην, εἰς τὸ καθ’ ὁμοίωσιν ἐπανάγαγε, τὸ ἀρχαῖον κάλλος ἀναμορφώσασθαι.",
+          "english": "Of old, You created me from nothing and honored me with Your divine image. But when I disobeyed Your commandment, You returned me to the earth from which I was taken. Lead me back again to Your likeness, so that the ancient beauty may be refashioned."
+        },
+        {
+          "unit_id": "u0250",
+          "index": 250,
+          "section_id": "s018",
+          "section_title": "The Lord’s Prayer",
+          "score": 0.6667,
+          "language": "en",
+          "greek": "Πάτερ ἡμῶν ὁ ἐν τοῖς οὐρανοῖς, ἁγιασθήτω τὸ ὄνομά σου. Ἐλθέτω ἡ βασιλεία σου. Γενηθήτω τὸ θέλημά σου, ὡς ἐν οὐρανῷ καὶ ἐπὶ τῆς γῆς. Τὸν ἄρτον ἡμῶν τὸν ἐπιούσιον δὸς ἡμῖν σήμερον. Καὶ ἄφες ἡμῖν τὰ ὀφειλήματα ἡμῶν, ὡς καὶ ἡμεῖς ἀφίεμεν τοῖς ὀφειλέταις ἡμῶν. Καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν, ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ.",
+          "english": "Our Father, who art in heaven, hallowed be Thy name. Thy kingdom come, Thy will be done, on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from evil."
+        },
+        {
+          "unit_id": "u0178",
+          "index": 178,
+          "section_id": "s015",
+          "section_title": "The Creed",
+          "score": 0.6646,
+          "language": "en",
+          "greek": "Πιστεύω εἰς ἕνα Θεόν, Πατέρα Παντοκράτορα, ποιητὴν οὐρανοῦ καὶ γῆς, ὁρατῶν τε πάντων καὶ ἀοράτων. Καὶ εἰς ἕνα Κύριον Ἰησοῦν Χριστόν, τὸν υἱὸν τοῦ Θεοῦ τὸν μονογενῆ, τὸν ἐκ τοῦ Πατρὸς γεννηθέντα πρὸ πάντων τῶν αἰώνων· φῶς ἐκ φωτός, Θεὸν ἀληθινὸν ἐκ Θεοῦ ἀληθινοῦ, γεννηθέντα οὐ ποιηθέντα, ὁμοούσιον τῷ Πατρί, δι’ οὗ τὰ πάντα ἐγένετο. Τὸν δι’ ἡμᾶς τοὺς ἀνθρώπους καὶ διὰ τὴν ἡμετέραν σωτηρίαν κατελθόντα ἐκ τῶν οὐρανῶν καὶ σαρκωθέντα ἐκ Πνεύματος ἁγίου καὶ Μαρίας τῆς Παρθένου καὶ ἐνανθρωπήσαντα. Σταυρωθέντα τε ὑπὲρ ἡμῶν ἐπὶ Ποντίου Πιλάτου καὶ παθόντα καὶ ταφέντα. Καὶ ἀναστάντα τῇ τρίτῃ ἡμέρᾳ, κατὰ τὰς Γραφάς. Καὶ ἀνελθόντα εἰς τοὺς οὐρανοὺς καὶ καθεζόμενον ἐκ δεξιῶν τοῦ Πατρός. Καὶ πάλιν ἐρχόμενον μετὰ δόξης, κρῖναι ζῶντας καὶ νεκρούς, οὗ τῆς βασιλείας οὐκ ἔσται τέλος. Καὶ εἰς τὸ Πνεῦμα τὸ ἅγιον, τὸ Κύριον, τὸ ζωοποιόν, τὸ ἐκ τοῦ Πατρὸς ἐκπορευόμενον, τὸ σὺν Πατρὶ καὶ Υἱῷ συμπροσκυνούμενον καὶ συνδοξαζόμενον, τὸ λαλῆσαν διὰ τῶν προφητῶν. Εἰς μίαν, ἁγίαν, καθολικὴν καὶ ἀποστολικὴν Ἐκκλησίαν. Ὁμολογῶ ἓν βάπτισμα εἰς ἄφεσιν ἁμαρτιῶν. Προσδοκῶ ἀνάστασιν νεκρῶν. Καὶ ζωὴν τοῦ μέλλοντος αἰῶνος.",
+          "english": "I believe in one God, Father Almighty, Creator of heaven and earth, and of all things visible and invisible. And in one Lord Jesus Christ, the only-begotten Son of God, begotten of the Father before all ages; Light of Light, true God of true God, begotten, not created, of one essence with the Father, through Whom all things were made. Who for us men and for our salvation came down from heaven and was incarnate of the Holy Spirit and the Virgin Mary and became man. He was crucified for us under Pontius Pilate, and suffered and was buried; And He rose on the third day, according to the Scriptures. He ascended into heaven and is seated at the right hand of the Father; And He will come again with glory to judge the living and the dead. His kingdom shall have no end. And in the Holy Spirit, the Lord, the Creator of life, Who proceeds from the Father, Who together with the Father and the Son is worshiped and glorified, Who spoke through the prophets. In one, holy, catholic, and apostolic Church. I confess one baptism for the forgiveness of sins. I look for the resurrection of the dead, and the life of the age to come."
+        },
+        {
+          "unit_id": "u0092",
+          "index": 92,
+          "section_id": "s008",
+          "section_title": "Hymns after the Entrance",
+          "score": 0.6607,
+          "language": "en",
+          "greek": "Ὁ ὑψωθεὶς ἐν τῷ Σταυρῷ ἑκουσίως, τῇ ἐπωνύμῳ σου καινῇ πολιτείᾳ, τοὺς οἰκτιρμούς σου δώρησαι, Χριστὲ ὁ Θεός. Εὔφρανον ἐν τῇ δυνάμει σου, τοὺς πιστοὺς βασιλεῖς ἡμῶν, νίκας χορηγῶν αὐτοῖς, κατὰ τῶν πολεμίων· τὴν συμμαχίαν ἔχοιεν τὴν σήν, ὅπλον εἰρήνης, ἀήττητον τρόπαιον.",
+          "english": "You who were lifted on the cross voluntarily, * O Christ our God, bestow Your tender compassions * upon Your new community to which You gave Your name. * Cause our faithful emperors to be glad in Your power, * granting them the victories against their adversaries. * And for an ally, Lord, may they have You, * peace as their armor, the trophy invincible."
+        },
+        {
+          "unit_id": "u0219",
+          "index": 219,
+          "section_id": "s017",
+          "section_title": "Hymn to the Theotokos",
+          "score": 0.6592,
+          "language": "en",
+          "greek": "Καὶ δὸς ἡμῖν ἐν ἑνὶ στόματι καὶ μιᾷ καρδίᾳ δοξάζειν καὶ ἀνυμνεῖν τὸ πάντιμον καὶ μεγαλοπρεπὲς ὄνομά σου, τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ ἁγίου Πνεύματος, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "And grant that with one voice and one heart we may glorify and praise Your most honorable and majestic name, of the Father and the Son and the Holy Spirit, now and ever and to the ages of ages."
+        },
+        {
+          "unit_id": "u0249",
+          "index": 249,
+          "section_id": "s018",
+          "section_title": "The Lord’s Prayer",
+          "score": 0.6533,
+          "language": "en",
+          "greek": "Καὶ καταξίωσον ἡμᾶς, Δέσποτα, μετὰ παῤῥησίας, ἀκατακρίτως τολμᾶν ἐπικαλεῖσθαι σὲ τὸν ἐπουράνιον Θεὸν Πατέρα καὶ λέγειν·",
+          "english": "And grant us, Master, with boldness and without condemnation, to dare call You, the heavenly God, Father, and to say:"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 2218,
+      "start": 1895.04,
+      "end": 1896.98,
+      "text": "O my...",
+      "temperature": 0.0,
+      "avg_logprob": -0.7237436587993915,
+      "compression_ratio": 0.7714285714285715,
+      "no_speech_prob": 1.1801624955065648e-10,
+      "words": [
+        {
+          "word": " O",
+          "start": 1895.04,
+          "end": 1896.16,
+          "probability": 0.67822265625
+        },
+        {
+          "word": " my...",
+          "start": 1896.16,
+          "end": 1896.98,
+          "probability": 0.57080078125
+        }
+      ],
+      "language": "en",
+      "match": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.4211,
+        "status": "unknown",
+        "method": "lexical",
+        "reason": "No sufficiently similar reference text"
+      },
+      "candidates": [
+        {
+          "unit_id": "u0004",
+          "index": 4,
+          "section_id": "s000",
+          "section_title": "Opening blessing and Peace Litany",
+          "score": 0.4211,
+          "language": "en",
+          "greek": "Κύριε, ἐλέησον.",
+          "english": "Lord, have mercy."
+        },
+        {
+          "unit_id": "u0006",
+          "index": 6,
+          "section_id": "s000",
+          "section_title": "Opening blessing and Peace Litany",
+          "score": 0.4211,
+          "language": "en",
+          "greek": "Κύριε, ἐλέησον.",
+          "english": "Lord, have mercy."
+        },
+        {
+          "unit_id": "u0008",
+          "index": 8,
+          "section_id": "s000",
+          "section_title": "Opening blessing and Peace Litany",
+          "score": 0.4211,
+          "language": "en",
+          "greek": "Κύριε, ἐλέησον.",
+          "english": "Lord, have mercy."
+        },
+        {
+          "unit_id": "u0010",
+          "index": 10,
+          "section_id": "s000",
+          "section_title": "Opening blessing and Peace Litany",
+          "score": 0.4211,
+          "language": "en",
+          "greek": "Κύριε, ἐλέησον.",
+          "english": "Lord, have mercy."
+        },
+        {
+          "unit_id": "u0012",
+          "index": 12,
+          "section_id": "s000",
+          "section_title": "Opening blessing and Peace Litany",
+          "score": 0.4211,
+          "language": "en",
+          "greek": "Κύριε, ἐλέησον.",
+          "english": "Lord, have mercy."
+        },
+        {
+          "unit_id": "u0014",
+          "index": 14,
+          "section_id": "s000",
+          "section_title": "Opening blessing and Peace Litany",
+          "score": 0.4211,
+          "language": "en",
+          "greek": "Κύριε, ἐλέησον.",
+          "english": "Lord, have mercy."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 0,
+      "start": 1897.0,
+      "end": 1913.9,
+      "text": "My Savior, I implore you, uphold me and save me.",
+      "temperature": 0.0,
+      "avg_logprob": -0.24266262352466583,
+      "compression_ratio": 1.0459770114942528,
+      "no_speech_prob": 2.961663466555242e-12,
+      "words": [
+        {
+          "word": " My",
+          "start": 1897.0,
+          "end": 1897.22,
+          "probability": 0.66162109375
+        },
+        {
+          "word": " Savior,",
+          "start": 1897.22,
+          "end": 1899.4,
+          "probability": 0.97216796875
+        },
+        {
+          "word": " I",
+          "start": 1900.24,
+          "end": 1901.2,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " implore",
+          "start": 1901.2,
+          "end": 1904.24,
+          "probability": 1.0
+        },
+        {
+          "word": " you,",
+          "start": 1904.24,
+          "end": 1905.38,
+          "probability": 0.85595703125
+        },
+        {
+          "word": " uphold",
+          "start": 1906.04,
+          "end": 1907.04,
+          "probability": 0.93408203125
+        },
+        {
+          "word": " me",
+          "start": 1907.04,
+          "end": 1908.42,
+          "probability": 1.0
+        },
+        {
+          "word": " and",
+          "start": 1908.42,
+          "end": 1909.8,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " save",
+          "start": 1909.8,
+          "end": 1911.86,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " me.",
+          "start": 1911.86,
+          "end": 1913.9,
+          "probability": 1.0
+        }
+      ],
+      "language": "en",
+      "match": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.6901,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "candidates": [
+        {
+          "unit_id": "u0306",
+          "index": 306,
+          "section_id": "s025",
+          "section_title": "Memorial Service",
+          "score": 0.6901,
+          "language": "en",
+          "greek": "Τῶν ἁγίων ὁ χορός, εὗρε πηγὴν τῆς ζωῆς καὶ θύραν παραδείσου· εὕρω κἀγώ, τὴν ὁδὸν διὰ τῆς μετανοίας· τὸ ἀπολωλὸς πρόβατον ἐγώ εἰμι· ἀνακάλεσαί με, Σωτήρ, καὶ σῶσόν με.",
+          "english": "The choir of Saints has found the fountain of life and the door of Paradise. May I also find the way through repentance. I am the lost sheep: O Savior, call me back and save me."
+        },
+        {
+          "unit_id": "u0266",
+          "index": 266,
+          "section_id": "s020",
+          "section_title": "Elevation, Fraction, and Communion",
+          "score": 0.6173,
+          "language": "en",
+          "greek": "Πιστεύω, Κύριε, καὶ ὁμολογῶ, ὅτι σὺ εἶ ὁ Χριστός, ὁ Υἱὸς τοῦ Θεοῦ τοῦ ζῶντος, ὁ ἐλθὼν εἰς τὸν κόσμον ἁμαρτωλοὺς σῶσαι, ὧν πρῶτός εἰμι ἐγώ. Ἔτι πιστεύω ὅτι τοῦτο αὐτό ἐστι τὸ ἄχραντον Σῶμά σου καὶ τοῦτο αὐτό ἐστι τὸ τίμιον Αἷμά σου. Δέομαι οὖν σου· ἐλέησόν με καὶ συγχώρησόν μοι τὰ παραπτώματά μου, τὰ ἑκούσια καὶ τὰ ἀκούσια, τὰ ἐν λόγῳ, τὰ ἐν ἔργῳ, τὰ ἐν γνώσει καὶ ἀγνοίᾳ, καὶ ἀξίωσόν με ἀκατακρίτως μετασχεῖν τῶν ἀχράντων σου μυστηρίων εἰς ἄφεσιν ἁμαρτιῶν καὶ εἰς ζωὴν αἰώνιον. Ἀμήν.",
+          "english": "I believe and confess, Lord, that You are truly the Christ, the Son of the living God, who came into the world to save sinners, of whom I am the first. I also believe that this is truly Your pure Body and that this is truly Your precious Blood. Therefore, I pray to You, have mercy on me and forgive my transgressions, voluntary and involuntary, in word and deed, in knowledge or in ignorance. And make me worthy, without condemnation, to partake of Your pure sacrament for the remission of sins and for eternal life. Amen."
+        },
+        {
+          "unit_id": "u0310",
+          "index": 310,
+          "section_id": "s025",
+          "section_title": "Memorial Service",
+          "score": 0.616,
+          "language": "en",
+          "greek": "Εἰκών εἰμι, τῆς ἀῤῥήτου δόξης σου, εἰ καὶ στίγματα φέρω πταισμάτων· οἰκτείρησον τὸ σὸν πλάσμα, Δέσποτα, καὶ καθάρισον σῇ εὐσπλαγχνίᾳ· καὶ τὴν ποθεινὴν πατρίδα παράσχου μοι, παραδείσου πάλιν ποιῶν πολίτην με.",
+          "english": "I am an image of Your ineffable glory, though I bear the scars of my transgressions. Take pity on me, the work of Your hands, Master, and cleanse me by Your compassion. Grant me the desired homeland for which I long, making me again a citizen of Paradise."
+        },
+        {
+          "unit_id": "u0271",
+          "index": 271,
+          "section_id": "s020",
+          "section_title": "Elevation, Fraction, and Communion",
+          "score": 0.6147,
+          "language": "en",
+          "greek": "Ἐν ταῖς λαμπρότησι τῶν ἁγίων σου πῶς εἰσελεύσομαι ὁ ἀνάξιος; ἐὰν γὰρ τολμήσω συνεισελθεῖν εἰς τὸν νυμφῶνα, ὁ χιτών με ἐλέγχει, ὅτι οὐκ ἔστι τοῦ γάμου, καὶ δέσμιος ἐκβαλοῦμαι ὑπὸ τῶν ἀγγέλων. Καθάρισον, Κύριε, τὸν ῥύπον τῆς ψυχῆς μου καὶ σῶσόν με ὡς φιλάνθρωπος.",
+          "english": "How shall I enter into the splendor of Your saints since I am unworthy? For if I dare to enter the wedding hall along with them, my garment will betray me, for it is not fit for the wedding; and then I shall be bound and cast out by the Angels. I pray You to wash away the stains on my soul, and save me, O benevolent Lord."
+        },
+        {
+          "unit_id": "u0118",
+          "index": 118,
+          "section_id": "s010",
+          "section_title": "The Epistle",
+          "score": 0.5855,
+          "language": "en",
+          "greek": "Ἀδελφοί, γρηγορεῖτε, στήκετε ἐν τῇ πίστει, ἀνδρίζεσθε, κραταιοῦσθε. πάντα ὑμῶν ἐν ἀγάπῃ γινέσθω. Παρακαλῶ δὲ ὑμᾶς, ἀδελφοί· οἴδατε τὴν οἰκίαν Στεφανᾶ, ὅτι ἐστὶν ἀπαρχὴ τῆς Ἀχαΐας καὶ εἰς διακονίαν τοῖς ἁγίοις ἔταξαν ἑαυτούς· ἵνα καὶ ὑμεῖς ὑποτάσσησθε τοῖς τοιούτοις καὶ παντὶ τῷ συνεργοῦντι καὶ κοπιῶντι. χαίρω δὲ ἐπὶ τῇ παρουσίᾳ Στεφανᾶ καὶ Φουρτουνάτου καὶ Ἀχαϊκοῦ, ὅτι τὸ ὑμῶν ὑστέρημα οὗτοι ἀνεπλήρωσαν· ἀνέπαυσαν γὰρ τὸ ἐμὸν πνεῦμα καὶ τὸ ὑμῶν. Ἐπιγινώσκετε οὖν τοὺς τοιούτους. Ἀσπάζονται ὑμᾶς αἱ ἐκκλησίαι τῆς Ἀσίας. ἀσπάζονται ὑμᾶς ἐν Κυρίῳ πολλὰ Ἀκύλας καὶ Πρίσκιλλα σὺν τῇ κατ’ οἶκον αὐτῶν ἐκκλησίᾳ. ἀσπάζονται ὑμᾶς οἱ ἀδελφοὶ πάντες. ἀσπάσασθε ἀλλήλους ἐν φιλήματι ἁγίῳ. Ὁ ἀσπασμὸς τῇ ἐμῇ χειρὶ Παύλου. εἴ τις οὐ φιλεῖ τὸν Κύριον Ἰησοῦν Χριστόν, ἤτω ἀνάθεμα. μαρὰν ἀθᾶ. Ἡ χάρις τοῦ Κυρίου Ἰησοῦ Χριστοῦ μεθ’ ὑμῶν. ἡ ἀγάπη μου μετὰ πάντων ὑμῶν ἐν Χριστῷ Ἰησοῦ· ἀμήν.",
+          "english": "Brethren, be watchful, stand firm in your faith, be courageous, be strong. Let all that you do be done in love. Now, brethren, you know that the household of Stephanas were the first converts in Achaia, and they have devoted themselves to the service of the saints; I urge you to be subject to such men and to every fellow worker and laborer. I rejoice at the coming of Stephanas and Fortunatus and Achaicus, because they have made up for your absence; for they refreshed my spirit as well as yours. Give recognition to such men. The churches of Asia send greetings. Aquila and Prisca, together with the church in their house, send you hearty greetings in the Lord. All the brethren send greetings. Greet one another with a holy kiss. I, Paul, write this greeting with my own hand. If any one has no love for the Lord, let him be anathema. Maranatha! The grace of the Lord Jesus be with you. My love be with you all in Christ Jesus. Amen."
+        },
+        {
+          "unit_id": "u0267",
+          "index": 267,
+          "section_id": "s020",
+          "section_title": "Elevation, Fraction, and Communion",
+          "score": 0.5832,
+          "language": "en",
+          "greek": "Ἰδοὺ βαδίζω πρὸς θείαν κοινωνίαν· * πλαστουργέ, μὴ φλέξῃς με τῇ μετουσίᾳ· * πῦρ γὰρ ὑπάρχεις τοὺς ἀναξίους φλέγον· * ἀλλ’ οὖν κάθαρον ἐκ πάσης με κηλῖδος.",
+          "english": "As I am about to receive holy communion, * O Maker, I pray You not burn me partaking, * since You are fire consuming the unworthy, * but rather purge me of any defilement."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 0,
+      "start": 1914.76,
+      "end": 1926.54,
+      "text": "You who hates I am, be shamed by the Lord.",
+      "temperature": 0.0,
+      "avg_logprob": -0.24266262352466583,
+      "compression_ratio": 1.0459770114942528,
+      "no_speech_prob": 2.961663466555242e-12,
+      "words": [
+        {
+          "word": " You",
+          "start": 1914.76,
+          "end": 1915.42,
+          "probability": 0.91943359375
+        },
+        {
+          "word": " who",
+          "start": 1915.42,
+          "end": 1916.12,
+          "probability": 0.51220703125
+        },
+        {
+          "word": " hates",
+          "start": 1916.12,
+          "end": 1918.24,
+          "probability": 0.7158203125
+        },
+        {
+          "word": " I",
+          "start": 1918.24,
+          "end": 1919.4,
+          "probability": 0.7607421875
+        },
+        {
+          "word": " am,",
+          "start": 1919.4,
+          "end": 1920.44,
+          "probability": 0.94921875
+        },
+        {
+          "word": " be",
+          "start": 1920.56,
+          "end": 1920.98,
+          "probability": 0.93798828125
+        },
+        {
+          "word": " shamed",
+          "start": 1920.98,
+          "end": 1922.56,
+          "probability": 0.8134765625
+        },
+        {
+          "word": " by",
+          "start": 1922.56,
+          "end": 1924.26,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " the",
+          "start": 1924.26,
+          "end": 1925.48,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " Lord.",
+          "start": 1925.48,
+          "end": 1926.54,
+          "probability": 0.99853515625
+        }
+      ],
+      "language": "en",
+      "match": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.6583,
+        "status": "unknown",
+        "method": "lexical",
+        "reason": "No sufficiently similar reference text"
+      },
+      "candidates": [
+        {
+          "unit_id": "u0082",
+          "index": 82,
+          "section_id": "s006",
+          "section_title": "Small Entrance",
+          "score": 0.6583,
+          "language": "en",
+          "greek": "Δέσποτα Κύριε, ὁ Θεὸς ἡμῶν, ὁ καταστήσας ἐν οὐρανοῖς τάγματα καὶ στρατιὰς ἀγγέλων καὶ ἀρχαγγέλων εἰς λειτουργίαν τῆς σῆς δόξης, ποίησον σὺν τῇ εἰσόδῳ ἡμῶν εἴσοδον ἁγίων ἀγγέλων γενέσθαι, συλλειτουργούντων ἡμῖν καὶ συνδοξολογούντων τὴν σὴν ἀγαθότητα. Ὅτι πρέπει σοι πᾶσα δόξα, τιμὴ καὶ προσκύνησις, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ ἁγίῳ Πνεύματι, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων. Ἀμήν.",
+          "english": "Master, Lord our God, who has established the orders and hosts of angels and archangels in heaven to minister to Your glory, grant that holy angels may enter with us, that together we may celebrate and glorify Your goodness. For to You belong all glory, honor, and worship, to the Father and the Son and the Holy Spirit, now and ever and to the ages of ages. Amen."
+        },
+        {
+          "unit_id": "u0190",
+          "index": 190,
+          "section_id": "s016",
+          "section_title": "Holy Anaphora",
+          "score": 0.6486,
+          "language": "en",
+          "greek": "Ἅγιος, ἅγιος, ἅγιος, Κύριος Σαβαώθ· πλήρης ὁ οὐρανὸς καὶ ἡ γῆ τῆς δόξης σου. Ὡσαννά, ἐν τοῖς ὑψίστοις· εὐλογημένος ὁ ἐρχόμενος ἐν ὀνόματι Κυρίου. Ὡσαννά, ὁ ἐν τοῖς ὑψίστοις.",
+          "english": "Holy, holy, holy, Lord Sabaoth, heaven and earth are filled with Your glory. Hosanna in the highest. Blessed is He who comes in the name of the Lord. Hosanna in the highest."
+        },
+        {
+          "unit_id": "u0092",
+          "index": 92,
+          "section_id": "s008",
+          "section_title": "Hymns after the Entrance",
+          "score": 0.6373,
+          "language": "en",
+          "greek": "Ὁ ὑψωθεὶς ἐν τῷ Σταυρῷ ἑκουσίως, τῇ ἐπωνύμῳ σου καινῇ πολιτείᾳ, τοὺς οἰκτιρμούς σου δώρησαι, Χριστὲ ὁ Θεός. Εὔφρανον ἐν τῇ δυνάμει σου, τοὺς πιστοὺς βασιλεῖς ἡμῶν, νίκας χορηγῶν αὐτοῖς, κατὰ τῶν πολεμίων· τὴν συμμαχίαν ἔχοιεν τὴν σήν, ὅπλον εἰρήνης, ἀήττητον τρόπαιον.",
+          "english": "You who were lifted on the cross voluntarily, * O Christ our God, bestow Your tender compassions * upon Your new community to which You gave Your name. * Cause our faithful emperors to be glad in Your power, * granting them the victories against their adversaries. * And for an ally, Lord, may they have You, * peace as their armor, the trophy invincible."
+        },
+        {
+          "unit_id": "u0250",
+          "index": 250,
+          "section_id": "s018",
+          "section_title": "The Lord’s Prayer",
+          "score": 0.6248,
+          "language": "en",
+          "greek": "Πάτερ ἡμῶν ὁ ἐν τοῖς οὐρανοῖς, ἁγιασθήτω τὸ ὄνομά σου. Ἐλθέτω ἡ βασιλεία σου. Γενηθήτω τὸ θέλημά σου, ὡς ἐν οὐρανῷ καὶ ἐπὶ τῆς γῆς. Τὸν ἄρτον ἡμῶν τὸν ἐπιούσιον δὸς ἡμῖν σήμερον. Καὶ ἄφες ἡμῖν τὰ ὀφειλήματα ἡμῶν, ὡς καὶ ἡμεῖς ἀφίεμεν τοῖς ὀφειλέταις ἡμῶν. Καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν, ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ.",
+          "english": "Our Father, who art in heaven, hallowed be Thy name. Thy kingdom come, Thy will be done, on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from evil."
+        },
+        {
+          "unit_id": "u0344",
+          "index": 344,
+          "section_id": "s025",
+          "section_title": "Memorial Service",
+          "score": 0.6228,
+          "language": "en",
+          "greek": "Εὐλογία Κυρίου καὶ ἔλεος ἔλθοι ἐφ’ ὑμᾶς τῇ αὐτοῦ θείᾳ χάριτι καὶ φιλανθρωπίᾳ πάντοτε, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "May the blessing and the mercy of the Lord come upon you by His divine grace and love for humankind, always, now and ever and to the ages of ages."
+        },
+        {
+          "unit_id": "u0214",
+          "index": 214,
+          "section_id": "s017",
+          "section_title": "Hymn to the Theotokos",
+          "score": 0.616,
+          "language": "en",
+          "greek": "Ἐν πρώτοις μνήσθητι, Κύριε, τοῦ Ἀρχιεπισκόπου ἡμῶν (δεῖνος), ὃν χάρισαι ταῖς ἁγίαις σου Ἐκκλησίαις ἐν εἰρήνῃ, σῷον, ἔντιμον, ὑγιᾶ, μακροημερεύοντα καὶ ὀρθοτομοῦντα τὸν λόγον τῆς σῆς ἀληθείας.",
+          "english": "Among the first remember, Lord, our Archbishop (name); grant him to Your holy churches in peace, safety, honor, and health, unto length of days, rightly teaching the word of Your truth."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 0,
+      "start": 1927.0,
+      "end": 1947.42,
+      "text": "For you will be withered like grass in the fire.",
+      "temperature": 0.0,
+      "avg_logprob": -0.20959290862083435,
+      "compression_ratio": 0.9056603773584906,
+      "no_speech_prob": 5.623793097875307e-11,
+      "words": [
+        {
+          "word": " For",
+          "start": 1927.0,
+          "end": 1928.34,
+          "probability": 0.75341796875
+        },
+        {
+          "word": " you",
+          "start": 1928.34,
+          "end": 1929.42,
+          "probability": 0.9453125
+        },
+        {
+          "word": " will",
+          "start": 1929.42,
+          "end": 1931.74,
+          "probability": 0.994140625
+        },
+        {
+          "word": " be",
+          "start": 1931.74,
+          "end": 1934.32,
+          "probability": 0.94189453125
+        },
+        {
+          "word": " withered",
+          "start": 1934.32,
+          "end": 1936.72,
+          "probability": 0.88671875
+        },
+        {
+          "word": " like",
+          "start": 1936.72,
+          "end": 1938.42,
+          "probability": 0.58642578125
+        },
+        {
+          "word": " grass",
+          "start": 1938.42,
+          "end": 1941.16,
+          "probability": 0.974609375
+        },
+        {
+          "word": " in",
+          "start": 1941.16,
+          "end": 1943.5,
+          "probability": 0.9306640625
+        },
+        {
+          "word": " the",
+          "start": 1943.5,
+          "end": 1945.24,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " fire.",
+          "start": 1945.24,
+          "end": 1947.42,
+          "probability": 0.94384765625
+        }
+      ],
+      "language": "en",
+      "match": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.6327,
+        "status": "unknown",
+        "method": "lexical",
+        "reason": "No sufficiently similar reference text"
+      },
+      "candidates": [
+        {
+          "unit_id": "u0092",
+          "index": 92,
+          "section_id": "s008",
+          "section_title": "Hymns after the Entrance",
+          "score": 0.6327,
+          "language": "en",
+          "greek": "Ὁ ὑψωθεὶς ἐν τῷ Σταυρῷ ἑκουσίως, τῇ ἐπωνύμῳ σου καινῇ πολιτείᾳ, τοὺς οἰκτιρμούς σου δώρησαι, Χριστὲ ὁ Θεός. Εὔφρανον ἐν τῇ δυνάμει σου, τοὺς πιστοὺς βασιλεῖς ἡμῶν, νίκας χορηγῶν αὐτοῖς, κατὰ τῶν πολεμίων· τὴν συμμαχίαν ἔχοιεν τὴν σήν, ὅπλον εἰρήνης, ἀήττητον τρόπαιον.",
+          "english": "You who were lifted on the cross voluntarily, * O Christ our God, bestow Your tender compassions * upon Your new community to which You gave Your name. * Cause our faithful emperors to be glad in Your power, * granting them the victories against their adversaries. * And for an ally, Lord, may they have You, * peace as their armor, the trophy invincible."
+        },
+        {
+          "unit_id": "u0338",
+          "index": 338,
+          "section_id": "s025",
+          "section_title": "Memorial Service",
+          "score": 0.6195,
+          "language": "en",
+          "greek": "Ὅτι σὺ εἶ ἡ ἀνάστασις, ἡ ζωή, καὶ ἡ ἀνάπαυσις τοῦ κεκοιμημένου δούλου σου (τοῦδε), Χριστὲ ὁ Θεὸς ἡμῶν, καὶ σοὶ τὴν δόξαν ἀναπέμπομεν, σὺν τῷ ἀνάρχῳ σου Πατρί, καὶ τῷ παναγίῳ καὶ ἀγαθῷ καὶ ζωοποιῷ σου Πνεύματι, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αιώνων.",
+          "english": "For You are the resurrection, the life, and the repose of Your departed servant(s) (name), Christ our God, and to You we offer up glory, and to Your Father, who is without beginning, and Your all-holy, good, and life-creating Spirit, now and ever and to the ages of ages."
+        },
+        {
+          "unit_id": "u0250",
+          "index": 250,
+          "section_id": "s018",
+          "section_title": "The Lord’s Prayer",
+          "score": 0.5989,
+          "language": "en",
+          "greek": "Πάτερ ἡμῶν ὁ ἐν τοῖς οὐρανοῖς, ἁγιασθήτω τὸ ὄνομά σου. Ἐλθέτω ἡ βασιλεία σου. Γενηθήτω τὸ θέλημά σου, ὡς ἐν οὐρανῷ καὶ ἐπὶ τῆς γῆς. Τὸν ἄρτον ἡμῶν τὸν ἐπιούσιον δὸς ἡμῖν σήμερον. Καὶ ἄφες ἡμῖν τὰ ὀφειλήματα ἡμῶν, ὡς καὶ ἡμεῖς ἀφίεμεν τοῖς ὀφειλέταις ἡμῶν. Καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν, ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ.",
+          "english": "Our Father, who art in heaven, hallowed be Thy name. Thy kingdom come, Thy will be done, on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from evil."
+        },
+        {
+          "unit_id": "u0314",
+          "index": 314,
+          "section_id": "s025",
+          "section_title": "Memorial Service",
+          "score": 0.5975,
+          "language": "en",
+          "greek": "Τὸ τριλαμπὲς τῆς μιᾶς Θεότητος, εὐσεβῶς ὑμνήσωμεν βοῶντες· Ἅγιος εἶ, ὁ Πατὴρ ὁ ἄναρχος, ὁ συνάναρχος Υἱὸς καὶ τὸ θεῖον Πνεῦμα. Φώτισον ἡμᾶς πίστει σοι λατρεύοντας, καὶ τοῦ αἰωνίου πυρὸς ἐξάρπασον.",
+          "english": "Let us devoutly praise the threefold radiance of the one God as we sing: Holy are You, the Father without beginning, the co-eternal Son, and the divine Spirit. Illumine us who worship You in faith and deliver us from the eternal fire."
+        },
+        {
+          "unit_id": "u0130",
+          "index": 130,
+          "section_id": "s011",
+          "section_title": "The Holy Gospel",
+          "score": 0.5948,
+          "language": "en",
+          "greek": "Εἶπεν ὁ Κύριος· Γρηγορεῖτε, ὅτι οὐκ οἴδατε ποίᾳ ὥρᾳ ὁ Κύριος ὑμῶν ἔρχεται. Ἐκεῖνο δὲ γινώσκετε ὅτι εἰ ᾔδει ὁ οἰκοδεσπότης ποίᾳ φυλακῇ ὁ κλέπτης ἔρχεται, ἐγρηγόρησεν ἂν καὶ οὐκ ἂν εἴασε διορυγῆναι τὴν οἰκίαν αὐτοῦ. διὰ τοῦτο καὶ ὑμεῖς γίνεσθε ἕτοιμοι, ὅτι ᾗ ὥρᾳ οὐ δοκεῖτε ὁ υἱὸς τοῦ ἀνθρώπου ἔρχεται. Τίς ἄρα ἐστὶν ὁ πιστὸς δοῦλος καὶ φρόνιμος, ὃν κατέστησεν ὁ κύριος αὐτοῦ ἐπὶ τῆς θεραπείας αὐτοῦ τοῦ διδόναι αὐτοῖς τὴν τροφὴν ἐν καιρῷ; μακάριος ὁ δοῦλος ἐκεῖνος ὃν ἐλθὼν ὁ κύριος αὐτοῦ εὑρήσει ποιοῦντα οὕτως. ἀμὴν λέγω ὑμῖν ὅτι ἐπὶ πᾶσι τοῖς ὑπάρχουσιν αὐτοῦ καταστήσει αὐτόν.",
+          "english": "The Lord said, “Watch, for you do not know at what hour your Lord is coming. But know this, that if the householder had known in what part of the night the thief was coming, he would have watched and would not have let his house be broken into. Therefore you also must be ready; for the Son of man is coming at an hour you do not expect. Who then is the faithful and wise servant, whom his master has set over his household, to give them their food at the proper time? Blessed is that servant whom his master when he comes will find so doing. Truly, I say to you, he will set him over all his possessions.”"
+        },
+        {
+          "unit_id": "u0118",
+          "index": 118,
+          "section_id": "s010",
+          "section_title": "The Epistle",
+          "score": 0.5914,
+          "language": "en",
+          "greek": "Ἀδελφοί, γρηγορεῖτε, στήκετε ἐν τῇ πίστει, ἀνδρίζεσθε, κραταιοῦσθε. πάντα ὑμῶν ἐν ἀγάπῃ γινέσθω. Παρακαλῶ δὲ ὑμᾶς, ἀδελφοί· οἴδατε τὴν οἰκίαν Στεφανᾶ, ὅτι ἐστὶν ἀπαρχὴ τῆς Ἀχαΐας καὶ εἰς διακονίαν τοῖς ἁγίοις ἔταξαν ἑαυτούς· ἵνα καὶ ὑμεῖς ὑποτάσσησθε τοῖς τοιούτοις καὶ παντὶ τῷ συνεργοῦντι καὶ κοπιῶντι. χαίρω δὲ ἐπὶ τῇ παρουσίᾳ Στεφανᾶ καὶ Φουρτουνάτου καὶ Ἀχαϊκοῦ, ὅτι τὸ ὑμῶν ὑστέρημα οὗτοι ἀνεπλήρωσαν· ἀνέπαυσαν γὰρ τὸ ἐμὸν πνεῦμα καὶ τὸ ὑμῶν. Ἐπιγινώσκετε οὖν τοὺς τοιούτους. Ἀσπάζονται ὑμᾶς αἱ ἐκκλησίαι τῆς Ἀσίας. ἀσπάζονται ὑμᾶς ἐν Κυρίῳ πολλὰ Ἀκύλας καὶ Πρίσκιλλα σὺν τῇ κατ’ οἶκον αὐτῶν ἐκκλησίᾳ. ἀσπάζονται ὑμᾶς οἱ ἀδελφοὶ πάντες. ἀσπάσασθε ἀλλήλους ἐν φιλήματι ἁγίῳ. Ὁ ἀσπασμὸς τῇ ἐμῇ χειρὶ Παύλου. εἴ τις οὐ φιλεῖ τὸν Κύριον Ἰησοῦν Χριστόν, ἤτω ἀνάθεμα. μαρὰν ἀθᾶ. Ἡ χάρις τοῦ Κυρίου Ἰησοῦ Χριστοῦ μεθ’ ὑμῶν. ἡ ἀγάπη μου μετὰ πάντων ὑμῶν ἐν Χριστῷ Ἰησοῦ· ἀμήν.",
+          "english": "Brethren, be watchful, stand firm in your faith, be courageous, be strong. Let all that you do be done in love. Now, brethren, you know that the household of Stephanas were the first converts in Achaia, and they have devoted themselves to the service of the saints; I urge you to be subject to such men and to every fellow worker and laborer. I rejoice at the coming of Stephanas and Fortunatus and Achaicus, because they have made up for your absence; for they refreshed my spirit as well as yours. Give recognition to such men. The churches of Asia send greetings. Aquila and Prisca, together with the church in their house, send you hearty greetings in the Lord. All the brethren send greetings. Greet one another with a holy kiss. I, Paul, write this greeting with my own hand. If any one has no love for the Lord, let him be anathema. Maranatha! The grace of the Lord Jesus be with you. My love be with you all in Christ Jesus. Amen."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 2042,
+      "start": 1947.42,
+      "end": 1956.98,
+      "text": "Give me some desci on eschir.",
+      "temperature": 0.0,
+      "avg_logprob": -1.2555393805870643,
+      "compression_ratio": 0.8529411764705882,
+      "no_speech_prob": 3.832235861978006e-09,
+      "words": [
+        {
+          "word": " Give",
+          "start": 1947.42,
+          "end": 1949.14,
+          "probability": 0.0236968994140625
+        },
+        {
+          "word": " me",
+          "start": 1949.14,
+          "end": 1949.66,
+          "probability": 0.923828125
+        },
+        {
+          "word": " some",
+          "start": 1949.66,
+          "end": 1950.62,
+          "probability": 0.254638671875
+        },
+        {
+          "word": " desci",
+          "start": 1950.62,
+          "end": 1953.76,
+          "probability": 0.1572265625
+        },
+        {
+          "word": " on",
+          "start": 1953.76,
+          "end": 1955.48,
+          "probability": 0.36376953125
+        },
+        {
+          "word": " eschir.",
+          "start": 1955.48,
+          "end": 1956.98,
+          "probability": 0.21875
+        }
+      ],
+      "language": "en",
+      "match": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.5942,
+        "status": "unknown",
+        "method": "lexical",
+        "reason": "No sufficiently similar reference text"
+      },
+      "candidates": [
+        {
+          "unit_id": "u0268",
+          "index": 268,
+          "section_id": "s020",
+          "section_title": "Elevation, Fraction, and Communion",
+          "score": 0.5942,
+          "language": "en",
+          "greek": "Τοῦ δείπνου σου τοῦ μυστικοῦ σήμερον, Υἱὲ Θεοῦ, κοινωνόν με παράλαβε· οὐ μὴ γὰρ τοῖς ἐχθροῖς σου τὸ μυστήριον εἴπω, οὐ φίλημά σοι δώσω, καθάπερ ὁ Ἰούδας· ἀλλ’ ὡς ὁ λῃστὴς ὁμολογῶ σοι· Μνήσθητί μου Κύριε, ὅταν ἔλθῃς ἐν τῇ βασιλείᾳ σου.",
+          "english": "Receive me, today, O Son of God, as a partaker of Your mystical Supper. I will not reveal Your mystery to Your enemies, nor will I give You a kiss, as did Judas. But like the Robber I confess to You. Remember me, O Lord, when You come in Your kingdom."
+        },
+        {
+          "unit_id": "u0273",
+          "index": 273,
+          "section_id": "s020",
+          "section_title": "Elevation, Fraction, and Communion",
+          "score": 0.5942,
+          "language": "en",
+          "greek": "Τοῦ δείπνου σου τοῦ μυστικοῦ σήμερον, Υἱὲ Θεοῦ, κοινωνόν με παράλαβε· οὐ μὴ γὰρ τοῖς ἐχθροῖς σου τὸ μυστήριον εἴπω, οὐ φίλημά σοι δώσω, καθάπερ ὁ Ἰούδας· ἀλλ’ ὡς ὁ λῃστὴς ὁμολογῶ σοι· Μνήσθητί μου Κύριε, ὅταν ἔλθῃς ἐν τῇ βασιλείᾳ σου.",
+          "english": "Receive me, today, O Son of God, as a partaker of Your mystical Supper. I will not reveal Your mystery to Your enemies, nor will I give You a kiss, as did Judas. But like the Robber I confess to You. Remember me, O Lord, when You come in Your kingdom."
+        },
+        {
+          "unit_id": "u0310",
+          "index": 310,
+          "section_id": "s025",
+          "section_title": "Memorial Service",
+          "score": 0.5848,
+          "language": "en",
+          "greek": "Εἰκών εἰμι, τῆς ἀῤῥήτου δόξης σου, εἰ καὶ στίγματα φέρω πταισμάτων· οἰκτείρησον τὸ σὸν πλάσμα, Δέσποτα, καὶ καθάρισον σῇ εὐσπλαγχνίᾳ· καὶ τὴν ποθεινὴν πατρίδα παράσχου μοι, παραδείσου πάλιν ποιῶν πολίτην με.",
+          "english": "I am an image of Your ineffable glory, though I bear the scars of my transgressions. Take pity on me, the work of Your hands, Master, and cleanse me by Your compassion. Grant me the desired homeland for which I long, making me again a citizen of Paradise."
+        },
+        {
+          "unit_id": "u0321",
+          "index": 321,
+          "section_id": "s025",
+          "section_title": "Memorial Service",
+          "score": 0.5834,
+          "language": "en",
+          "greek": "Μετὰ πνευμάτων δικαίων, τετελειωμένων, τὰς ψυχὰς τῶν δούλων σου, Σῶτερ ἀνάπαυσον, φυλάττων αὐτάς, εἰς τὴν μακαρίαν ζωήν, τὴν παρὰ σοὶ φιλάνθρωπε.",
+          "english": "Among the spirits of the righteous perfected in faith, give rest, O Savior, to the soul(s) of Your servant, keeping it (them) in the blessed life which is from You, O loving One."
+        },
+        {
+          "unit_id": "u0335",
+          "index": 335,
+          "section_id": "s025",
+          "section_title": "Memorial Service",
+          "score": 0.5789,
+          "language": "en",
+          "greek": "Ὁ Θεὸς τῶν πνευμάτων καὶ πάσης σαρκός, ὁ τὸν θάνατον καταπατήσας, τὸν δὲ διάβολον καταργήσας, καὶ ζωὴν τῷ κόσμῳ σου δωρησάμενος, αυτός, Κύριε, ἀνάπαυσον τὴν ψυχὴν τοῦ κεκοιμημένου δούλου σου (τοῦδε) ἐν τόπῳ φωτεινῷ, ἐν τόπῳ χλοερῷ, ἐν τόπῳ ἀναψύξεως, ἔνθα ἀπέδρα ὀδύνη, λύπη καὶ στεναγμός. Πᾶν ἁμάρτημα τὸ παρ’ αὐτοῦ πραχθὲν ἐν λόγῳ ἢ ἔργῳ ἢ διανοίᾳ, ὡς ἀγαθὸς καὶ φιλάνθρωπος Θεός, συγχώρησον· ὅτι οὐκ ἔστιν ἄνθρωπος, ὃς ζήσεται καὶ οὐχ ἁμαρτήσει· σὺ γὰρ μόνος ἐκτὸς ἁμαρτίας ὑπάρχεις· ἡ δικαιοσύνη σου δικαιοσύνη εἰς τὸν αἰῶνα, καὶ ὁ νόμος σου ἀλήθεια.",
+          "english": "O God of spirits and of all flesh, You trampled upon death and abolished the power of the devil, giving life to Your world. Give rest to the soul(s) of Your departed servant(s) (name) in a place of light, in a place of green pasture, in a place of refreshment, from where pain, sorrow, and sighing have fled away. As good and benevolent God, forgive every sin he (she, they) has (have) committed in word, deed, or thought, for there is no one who lives and does not sin. You alone are without sin. Your righteousness is an everlasting righteousness, and Your word is truth."
+        },
+        {
+          "unit_id": "u0118",
+          "index": 118,
+          "section_id": "s010",
+          "section_title": "The Epistle",
+          "score": 0.5774,
+          "language": "en",
+          "greek": "Ἀδελφοί, γρηγορεῖτε, στήκετε ἐν τῇ πίστει, ἀνδρίζεσθε, κραταιοῦσθε. πάντα ὑμῶν ἐν ἀγάπῃ γινέσθω. Παρακαλῶ δὲ ὑμᾶς, ἀδελφοί· οἴδατε τὴν οἰκίαν Στεφανᾶ, ὅτι ἐστὶν ἀπαρχὴ τῆς Ἀχαΐας καὶ εἰς διακονίαν τοῖς ἁγίοις ἔταξαν ἑαυτούς· ἵνα καὶ ὑμεῖς ὑποτάσσησθε τοῖς τοιούτοις καὶ παντὶ τῷ συνεργοῦντι καὶ κοπιῶντι. χαίρω δὲ ἐπὶ τῇ παρουσίᾳ Στεφανᾶ καὶ Φουρτουνάτου καὶ Ἀχαϊκοῦ, ὅτι τὸ ὑμῶν ὑστέρημα οὗτοι ἀνεπλήρωσαν· ἀνέπαυσαν γὰρ τὸ ἐμὸν πνεῦμα καὶ τὸ ὑμῶν. Ἐπιγινώσκετε οὖν τοὺς τοιούτους. Ἀσπάζονται ὑμᾶς αἱ ἐκκλησίαι τῆς Ἀσίας. ἀσπάζονται ὑμᾶς ἐν Κυρίῳ πολλὰ Ἀκύλας καὶ Πρίσκιλλα σὺν τῇ κατ’ οἶκον αὐτῶν ἐκκλησίᾳ. ἀσπάζονται ὑμᾶς οἱ ἀδελφοὶ πάντες. ἀσπάσασθε ἀλλήλους ἐν φιλήματι ἁγίῳ. Ὁ ἀσπασμὸς τῇ ἐμῇ χειρὶ Παύλου. εἴ τις οὐ φιλεῖ τὸν Κύριον Ἰησοῦν Χριστόν, ἤτω ἀνάθεμα. μαρὰν ἀθᾶ. Ἡ χάρις τοῦ Κυρίου Ἰησοῦ Χριστοῦ μεθ’ ὑμῶν. ἡ ἀγάπη μου μετὰ πάντων ὑμῶν ἐν Χριστῷ Ἰησοῦ· ἀμήν.",
+          "english": "Brethren, be watchful, stand firm in your faith, be courageous, be strong. Let all that you do be done in love. Now, brethren, you know that the household of Stephanas were the first converts in Achaia, and they have devoted themselves to the service of the saints; I urge you to be subject to such men and to every fellow worker and laborer. I rejoice at the coming of Stephanas and Fortunatus and Achaicus, because they have made up for your absence; for they refreshed my spirit as well as yours. Give recognition to such men. The churches of Asia send greetings. Aquila and Prisca, together with the church in their house, send you hearty greetings in the Lord. All the brethren send greetings. Greet one another with a holy kiss. I, Paul, write this greeting with my own hand. If any one has no love for the Lord, let him be anathema. Maranatha! The grace of the Lord Jesus be with you. My love be with you all in Christ Jesus. Amen."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 0,
+      "start": 1957.0,
+      "end": 1971.98,
+      "text": "Συνθήτε από του Κυρίου ως χόρτος γαρπύρη.",
+      "temperature": 0.0,
+      "avg_logprob": -0.6013785044352213,
+      "compression_ratio": 1.0,
+      "no_speech_prob": 5.008814474294354e-10,
+      "words": [
+        {
+          "word": " Συνθήτε",
+          "start": 1957.0,
+          "end": 1959.02,
+          "probability": 0.291015625
+        },
+        {
+          "word": " από",
+          "start": 1959.02,
+          "end": 1961.16,
+          "probability": 0.5185546875
+        },
+        {
+          "word": " του",
+          "start": 1961.16,
+          "end": 1962.6,
+          "probability": 0.66455078125
+        },
+        {
+          "word": " Κυρίου",
+          "start": 1962.6,
+          "end": 1966.44,
+          "probability": 0.91064453125
+        },
+        {
+          "word": " ως",
+          "start": 1966.44,
+          "end": 1967.08,
+          "probability": 0.6640625
+        },
+        {
+          "word": " χόρτος",
+          "start": 1967.08,
+          "end": 1969.52,
+          "probability": 0.8876953125
+        },
+        {
+          "word": " γαρπύρη.",
+          "start": 1969.52,
+          "end": 1971.98,
+          "probability": 0.81494140625
+        }
+      ],
+      "language": "el",
+      "match": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.6224,
+        "status": "unknown",
+        "method": "lexical",
+        "reason": "No sufficiently similar reference text"
+      },
+      "candidates": [
+        {
+          "unit_id": "u0118",
+          "index": 118,
+          "section_id": "s010",
+          "section_title": "The Epistle",
+          "score": 0.6224,
+          "language": "el",
+          "greek": "Ἀδελφοί, γρηγορεῖτε, στήκετε ἐν τῇ πίστει, ἀνδρίζεσθε, κραταιοῦσθε. πάντα ὑμῶν ἐν ἀγάπῃ γινέσθω. Παρακαλῶ δὲ ὑμᾶς, ἀδελφοί· οἴδατε τὴν οἰκίαν Στεφανᾶ, ὅτι ἐστὶν ἀπαρχὴ τῆς Ἀχαΐας καὶ εἰς διακονίαν τοῖς ἁγίοις ἔταξαν ἑαυτούς· ἵνα καὶ ὑμεῖς ὑποτάσσησθε τοῖς τοιούτοις καὶ παντὶ τῷ συνεργοῦντι καὶ κοπιῶντι. χαίρω δὲ ἐπὶ τῇ παρουσίᾳ Στεφανᾶ καὶ Φουρτουνάτου καὶ Ἀχαϊκοῦ, ὅτι τὸ ὑμῶν ὑστέρημα οὗτοι ἀνεπλήρωσαν· ἀνέπαυσαν γὰρ τὸ ἐμὸν πνεῦμα καὶ τὸ ὑμῶν. Ἐπιγινώσκετε οὖν τοὺς τοιούτους. Ἀσπάζονται ὑμᾶς αἱ ἐκκλησίαι τῆς Ἀσίας. ἀσπάζονται ὑμᾶς ἐν Κυρίῳ πολλὰ Ἀκύλας καὶ Πρίσκιλλα σὺν τῇ κατ’ οἶκον αὐτῶν ἐκκλησίᾳ. ἀσπάζονται ὑμᾶς οἱ ἀδελφοὶ πάντες. ἀσπάσασθε ἀλλήλους ἐν φιλήματι ἁγίῳ. Ὁ ἀσπασμὸς τῇ ἐμῇ χειρὶ Παύλου. εἴ τις οὐ φιλεῖ τὸν Κύριον Ἰησοῦν Χριστόν, ἤτω ἀνάθεμα. μαρὰν ἀθᾶ. Ἡ χάρις τοῦ Κυρίου Ἰησοῦ Χριστοῦ μεθ’ ὑμῶν. ἡ ἀγάπη μου μετὰ πάντων ὑμῶν ἐν Χριστῷ Ἰησοῦ· ἀμήν.",
+          "english": "Brethren, be watchful, stand firm in your faith, be courageous, be strong. Let all that you do be done in love. Now, brethren, you know that the household of Stephanas were the first converts in Achaia, and they have devoted themselves to the service of the saints; I urge you to be subject to such men and to every fellow worker and laborer. I rejoice at the coming of Stephanas and Fortunatus and Achaicus, because they have made up for your absence; for they refreshed my spirit as well as yours. Give recognition to such men. The churches of Asia send greetings. Aquila and Prisca, together with the church in their house, send you hearty greetings in the Lord. All the brethren send greetings. Greet one another with a holy kiss. I, Paul, write this greeting with my own hand. If any one has no love for the Lord, let him be anathema. Maranatha! The grace of the Lord Jesus be with you. My love be with you all in Christ Jesus. Amen."
+        },
+        {
+          "unit_id": "u0182",
+          "index": 182,
+          "section_id": "s016",
+          "section_title": "Holy Anaphora",
+          "score": 0.61,
+          "language": "el",
+          "greek": "Ἡ χάρις τοῦ Κυρίου ἡμῶν Ἰησοῦ Χριστοῦ καὶ ἡ ἀγάπη τοῦ Θεοῦ καὶ Πατρὸς καὶ ἡ κοινωνία τοῦ ἁγίου Πνεύματος εἴη μετὰ πάντων ὑμῶν.",
+          "english": "The grace of our Lord Jesus Christ, and the love of God and Father, and the communion of the Holy Spirit, be with you all."
+        },
+        {
+          "unit_id": "u0300",
+          "index": 300,
+          "section_id": "s024",
+          "section_title": "Dismissal",
+          "score": 0.5988,
+          "language": "el",
+          "greek": "Εἴη τὸ ὄνομα Κυρίου εὐλογημένον ἀπὸ τοῦ νῦν καὶ ἕως τοῦ αἰῶνος.",
+          "english": "Blessed be the name of the Lord, from this time forth and to the ages."
+        },
+        {
+          "unit_id": "u0013",
+          "index": 13,
+          "section_id": "s000",
+          "section_title": "Opening blessing and Peace Litany",
+          "score": 0.5986,
+          "language": "el",
+          "greek": "Ὑπὲρ τοῦ Ἀρχιεπισκόπου ἡμῶν (δεῖνος), τοῦ τιμίου πρεσβυτερίου, τῆς ἐν Χριστῷ διακονίας, παντὸς τοῦ κλήρου καὶ τοῦ λαοῦ τοῦ Κυρίου δεηθῶμεν.",
+          "english": "For our Archbishop (name), for the honorable presbyterate, for the diaconate in Christ, and for all the clergy and the people, let us pray to the Lord."
+        },
+        {
+          "unit_id": "u0092",
+          "index": 92,
+          "section_id": "s008",
+          "section_title": "Hymns after the Entrance",
+          "score": 0.5966,
+          "language": "el",
+          "greek": "Ὁ ὑψωθεὶς ἐν τῷ Σταυρῷ ἑκουσίως, τῇ ἐπωνύμῳ σου καινῇ πολιτείᾳ, τοὺς οἰκτιρμούς σου δώρησαι, Χριστὲ ὁ Θεός. Εὔφρανον ἐν τῇ δυνάμει σου, τοὺς πιστοὺς βασιλεῖς ἡμῶν, νίκας χορηγῶν αὐτοῖς, κατὰ τῶν πολεμίων· τὴν συμμαχίαν ἔχοιεν τὴν σήν, ὅπλον εἰρήνης, ἀήττητον τρόπαιον.",
+          "english": "You who were lifted on the cross voluntarily, * O Christ our God, bestow Your tender compassions * upon Your new community to which You gave Your name. * Cause our faithful emperors to be glad in Your power, * granting them the victories against their adversaries. * And for an ally, Lord, may they have You, * peace as their armor, the trophy invincible."
+        },
+        {
+          "unit_id": "u0347",
+          "index": 347,
+          "section_id": "s025",
+          "section_title": "Memorial Service",
+          "score": 0.5961,
+          "language": "el",
+          "greek": "Χριστὸς ὁ ἀληθινὸς Θεὸς ἡμῶν, ταῖς πρεσβείαις τῆς παναχράντου καὶ παναμώμου ἁγίας αὐτοῦ Μητρός, δυνάμει τοῦ τιμίου καὶ ζωοποιοῦ Σταυροῦ, προστασίαις τῶν τιμίων ἐπουρανίων δυνάμεων ἀσωμάτων, ἱκεσίαις τοῦ τιμίου, ἐνδόξου, προφήτου, προδρόμου καὶ βαπτιστοῦ Ἰωάννου, τῶν ἁγίων ἐνδόξων καὶ πανευφήμων ἀποστόλων, τῶν ἁγίων ἐνδόξων καὶ καλλινίκων μαρτύρων· τῶν ὁσίων καὶ θεοφόρων πατέρων ἡμῶν· (τοῦ ἁγίου τοῦ ναοῦ)· τῶν ἁγίων καὶ δικαίων θεοπατόρων Ἰωακεὶμ καὶ Ἄννης, τοῦ Ἁγίου Ἱερομάρτυρος Γρηγορίου τῆς μεγάλης Ἀρμενίας, οὗ καὶ τὴν μνήμην ἐπιτελοῦμεν· καὶ πάντων τῶν ἁγίων, ἐλεήσαι καὶ σώσαι ἡμᾶς, ὡς ἀγαθὸς καὶ φιλάνθρωπος καὶ ἐλεήμων Θεός.",
+          "english": "May Christ our true God, through the intercessions of His all-pure and all-immaculate holy Mother, the power of the precious and life-giving Cross, the protection of the honorable, bodiless powers of heaven, the supplications of the honorable, glorious prophet and forerunner John the Baptist, of the holy, glorious, and praiseworthy apostles, of the holy, glorious, and triumphant martyrs, of our righteous and God-bearing fathers, (local patron saint); of the holy and righteous ancestors of God Joachim and Anna, of the Holy Hieromartyr Gregory of Greater Armenia, whose memory we are observing, and of all the saints, have mercy on us and save us, as He is good, benevolent, and merciful God."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 1498,
+      "start": 1974.82,
+      "end": 1984.06,
+      "text": "Εσύ, εσύ, εσύ, απεξιραμένη.",
+      "temperature": 0.0,
+      "avg_logprob": -0.6799971124400264,
+      "compression_ratio": 1.0444444444444445,
+      "no_speech_prob": 1.4613713572586562e-09,
+      "words": [
+        {
+          "word": " Εσύ,",
+          "start": 1974.82,
+          "end": 1975.86,
+          "probability": 0.38134765625
+        },
+        {
+          "word": " εσύ,",
+          "start": 1975.9,
+          "end": 1976.42,
+          "probability": 0.67822265625
+        },
+        {
+          "word": " εσύ,",
+          "start": 1976.5,
+          "end": 1976.72,
+          "probability": 0.744140625
+        },
+        {
+          "word": " απεξιραμένη.",
+          "start": 1976.72,
+          "end": 1984.06,
+          "probability": 0.734375
+        }
+      ],
+      "language": "el",
+      "match": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.6308,
+        "status": "unknown",
+        "method": "lexical",
+        "reason": "No sufficiently similar reference text"
+      },
+      "candidates": [
+        {
+          "unit_id": "u0131",
+          "index": 131,
+          "section_id": "s011",
+          "section_title": "The Holy Gospel",
+          "score": 0.6308,
+          "language": "el",
+          "greek": "Εἰρήνη σοὶ τῷ εὐαγγελιζομένῳ.",
+          "english": "Peace be with you who read the Gospel."
+        },
+        {
+          "unit_id": "u0250",
+          "index": 250,
+          "section_id": "s018",
+          "section_title": "The Lord’s Prayer",
+          "score": 0.6253,
+          "language": "el",
+          "greek": "Πάτερ ἡμῶν ὁ ἐν τοῖς οὐρανοῖς, ἁγιασθήτω τὸ ὄνομά σου. Ἐλθέτω ἡ βασιλεία σου. Γενηθήτω τὸ θέλημά σου, ὡς ἐν οὐρανῷ καὶ ἐπὶ τῆς γῆς. Τὸν ἄρτον ἡμῶν τὸν ἐπιούσιον δὸς ἡμῖν σήμερον. Καὶ ἄφες ἡμῖν τὰ ὀφειλήματα ἡμῶν, ὡς καὶ ἡμεῖς ἀφίεμεν τοῖς ὀφειλέταις ἡμῶν. Καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν, ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ.",
+          "english": "Our Father, who art in heaven, hallowed be Thy name. Thy kingdom come, Thy will be done, on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses, as we forgive those who trespass against us. And lead us not into temptation, but deliver us from evil."
+        },
+        {
+          "unit_id": "u0096",
+          "index": 96,
+          "section_id": "s009",
+          "section_title": "Trisagios Hymn",
+          "score": 0.623,
+          "language": "el",
+          "greek": "Ὁ Θεὸς ὁ ἅγιος, ὁ ἐν ἁγίοις ἀναπαυόμενος, ὁ τρισαγίῳ φωνῇ ὑπὸ τῶν Σεραφεὶμ ἀνυμνούμενος καὶ ὑπὸ τῶν Χερουβεὶμ δοξολογούμενος καὶ ὑπὸ πάσης ἐπουρανίου δυνάμεως προσκυνούμενος· ὁ ἐκ τοῦ μὴ ὄντος εἰς τὸ εἶναι παραγαγὼν τὰ σύμπαντα· ὁ κτίσας τὸν ἄνθρωπον κατ’ εἰκόνα σὴν καὶ ὁμοίωσιν καὶ παντί σου χαρίσματι κατακοσμήσας· ὁ διδοὺς αἰτοῦντι σοφίαν καὶ σύνεσιν καὶ μὴ παρορῶν ἁμαρτάνοντα, ἀλλὰ θέμενος ἐπὶ σωτηρίᾳ μετάνοιαν· ὁ καταξιώσας ἡμᾶς τοὺς ταπεινοὺς καὶ ἀναξίους δούλους σου καὶ ἐν τῇ ὥρᾳ ταύτῃ στῆναι κατενώπιον τῆς δόξης τοῦ ἁγίου σου θυσιαστηρίου καὶ τὴν ὀφειλομένην σοι προσκύνησιν καὶ δοξολογίαν προσάγειν· αὐτός, Δέσποτα, πρόσδεξαι καὶ ἐκ στόματος ἡμῶν τῶν ἁμαρτωλῶν τὸν τρισάγιον ὕμνον καὶ ἐπίσκεψαι ἡμᾶς ἐν τῇ χρηστότητί σου. Συγχώρησον ἡμῖν πᾶν πλημμέλημα ἑκούσιόν τε καὶ ἀκούσιον· ἁγίασον ἡμῶν τὰς ψυχὰς καὶ τὰ σώματα· καὶ δὸς ἡμῖν ἐν ὁσιότητι λατρεύειν σοι πάσας τὰς ἡμέρας τῆς ζωῆς ἡμῶν· πρεσβείαις τῆς ἁγίας Θεοτόκου καὶ πάντων τῶν ἁγίων τῶν ἀπ’ αἰῶνός σοι εὐαρεστησάντων.",
+          "english": "O Holy God, who is resting among the holy ones, praised by the Seraphim with the thrice-holy voice, glorified by the Cherubim, and worshiped by every celestial power, You have brought all things into being out of nothing. You have created man according to Your image and likeness and adorned him with all the gifts of Your grace. You give wisdom and understanding to the one who asks, and You overlook not the sinner, but have set repentance as the way of salvation. You have granted us, Your humble and unworthy servants, to stand even at this hour before the glory of Your holy Altar of sacrifice and to offer to You due worship and praise. Master, accept the Trisagion Hymn also from the lips of us sinners, and visit us in Your goodness. Forgive all our voluntary and involuntary transgressions, sanctify our souls and bodies, and grant that we may worship You in holiness all the days of our lives, through the intercessions of the holy Theotokos and of all the saints who have pleased You throughout the ages."
+        },
+        {
+          "unit_id": "u0335",
+          "index": 335,
+          "section_id": "s025",
+          "section_title": "Memorial Service",
+          "score": 0.6107,
+          "language": "el",
+          "greek": "Ὁ Θεὸς τῶν πνευμάτων καὶ πάσης σαρκός, ὁ τὸν θάνατον καταπατήσας, τὸν δὲ διάβολον καταργήσας, καὶ ζωὴν τῷ κόσμῳ σου δωρησάμενος, αυτός, Κύριε, ἀνάπαυσον τὴν ψυχὴν τοῦ κεκοιμημένου δούλου σου (τοῦδε) ἐν τόπῳ φωτεινῷ, ἐν τόπῳ χλοερῷ, ἐν τόπῳ ἀναψύξεως, ἔνθα ἀπέδρα ὀδύνη, λύπη καὶ στεναγμός. Πᾶν ἁμάρτημα τὸ παρ’ αὐτοῦ πραχθὲν ἐν λόγῳ ἢ ἔργῳ ἢ διανοίᾳ, ὡς ἀγαθὸς καὶ φιλάνθρωπος Θεός, συγχώρησον· ὅτι οὐκ ἔστιν ἄνθρωπος, ὃς ζήσεται καὶ οὐχ ἁμαρτήσει· σὺ γὰρ μόνος ἐκτὸς ἁμαρτίας ὑπάρχεις· ἡ δικαιοσύνη σου δικαιοσύνη εἰς τὸν αἰῶνα, καὶ ὁ νόμος σου ἀλήθεια.",
+          "english": "O God of spirits and of all flesh, You trampled upon death and abolished the power of the devil, giving life to Your world. Give rest to the soul(s) of Your departed servant(s) (name) in a place of light, in a place of green pasture, in a place of refreshment, from where pain, sorrow, and sighing have fled away. As good and benevolent God, forgive every sin he (she, they) has (have) committed in word, deed, or thought, for there is no one who lives and does not sin. You alone are without sin. Your righteousness is an everlasting righteousness, and Your word is truth."
+        },
+        {
+          "unit_id": "u0042",
+          "index": 42,
+          "section_id": "s002",
+          "section_title": "Small Litany",
+          "score": 0.6035,
+          "language": "el",
+          "greek": "Ἔτι καὶ ἔτι ἐν εἰρήνῃ τοῦ Κυρίου δεηθῶμεν.",
+          "english": "Again and again in peace let us pray to the Lord."
+        },
+        {
+          "unit_id": "u0067",
+          "index": 67,
+          "section_id": "s004",
+          "section_title": "Small Litany",
+          "score": 0.6035,
+          "language": "el",
+          "greek": "Ἔτι καὶ ἔτι ἐν εἰρήνῃ τοῦ Κυρίου δεηθῶμεν.",
+          "english": "Again and again in peace let us pray to the Lord."
+        }
+      ]
+    }
+  ]
+}

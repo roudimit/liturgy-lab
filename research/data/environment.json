@@ -1,0 +1,41 @@
+{
+  "python": "3.12.14",
+  "macOS": "26.4",
+  "architecture": "arm64",
+  "device": "Apple M5",
+  "memory_gb": 32,
+  "models": [
+    {
+      "repository": "mlx-community/Qwen3-1.7B-4bit",
+      "snapshots": [
+        "3b1b1768f8f8cf8351c712464f906e86c2b8269e"
+      ]
+    },
+    {
+      "repository": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+      "snapshots": [
+        "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b"
+      ]
+    },
+    {
+      "repository": "mlx-community/whisper-large-v3-turbo",
+      "snapshots": [
+        "a4aaeec0636e6fef84abdcbe3544cb2bf7e9f6fb"
+      ]
+    },
+    {
+      "repository": "mlx-community/whisper-small-mlx",
+      "snapshots": [
+        "45f3915923c7a79a5a5b5a7d909d39aeb0e5630e"
+      ]
+    }
+  ],
+  "package_lock": "requirements-lock.txt",
+  "additional_models": {
+    "mlx-community/whisper-large-v3-mlx": {
+      "revision": "49e6aa286ad60c14352c404340ded53710378a11",
+      "weights_bytes": 3083520416,
+      "download_method": "HTTPS (HF_HUB_DISABLE_XET=1); initial Xet returned empty weights, replaced before inference"
+    }
+  }
+}

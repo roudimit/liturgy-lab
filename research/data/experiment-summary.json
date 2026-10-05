@@ -1,0 +1,3221 @@
+{
+  "meaning": "Completed artifacts and model association coverage; not accuracy, WER, precision, or recall.",
+  "limitations": [
+    "Language categories use ASR predictions, not human labels.",
+    "Section timestamps are the first accepted fragment, not verified section onsets.",
+    "LLM runs may have full underlying ASR but only selected rows were evaluated by the LLM."
+  ],
+  "recordings": [
+    {
+      "id": "IuZ8WRk-POI",
+      "title": "Sunday of St. Mary of Egypt",
+      "duration": 12169,
+      "session": "session-IuZ8WRk-POI.json",
+      "reference_selection": {
+        "recording_date": "2026-03-29",
+        "edition_date": "2026-03-29",
+        "status": "exact_calendar_date",
+        "calendar_url": "https://dcs.goarch.org/goa/dcs/dcs.html?date=2026-03-29",
+        "caveat": "The dated 2026-03-29 Matins and St. Basil Liturgy correspond to the recording title Sunday of St. Mary of Egypt. The service date is inferred from release/upload metadata and title; local omissions and spoken variants are not independently verified.",
+        "recording_date_independently_verified": false
+      },
+      "default_run": "turbo-full-IuZ8WRk-POI-sequence",
+      "runs": [
+        {
+          "id": "turbo-full-IuZ8WRk-POI-sequence",
+          "label": "Whisper Turbo · full recording",
+          "reference_id": "ref-a2abf5e81f50ecb36d4f",
+          "complete_asr_coverage": true,
+          "model": "mlx-community/whisper-large-v3-turbo",
+          "llm_model": null,
+          "asr_metrics": {
+            "audio_seconds": 12169.0,
+            "inference_seconds": 1192.6484281250741,
+            "real_time_factor": 0.09800710231942429,
+            "speedup": 10.203342169435892,
+            "peak_memory_gb": 2.190781306,
+            "includes_model_load": true
+          },
+          "llm_metrics": null,
+          "segments": 1936,
+          "status_counts": {
+            "unknown": 641,
+            "matched": 873,
+            "uncertain": 422
+          },
+          "associated_segments": 873,
+          "suggested_sections": 56,
+          "associated_by_asr_language": {
+            "en": 708,
+            "el": 165
+          },
+          "segments_by_asr_language": {
+            "en": 1544,
+            "el": 378,
+            "it": 1,
+            "fr": 2,
+            "de": 7,
+            "nl": 4
+          },
+          "associated_by_service": {
+            "matins": 570,
+            "liturgy": 303
+          },
+          "sections": [
+            {
+              "id": "matins:s000",
+              "title": "Matins Ordinary",
+              "service_id": "matins",
+              "first_suggestion": 266.0
+            },
+            {
+              "id": "matins:s001",
+              "title": "Trisagion Prayers",
+              "service_id": "matins",
+              "first_suggestion": 291.0
+            },
+            {
+              "id": "matins:s002",
+              "title": "The Six Psalms",
+              "service_id": "matins",
+              "first_suggestion": 441.64
+            },
+            {
+              "id": "matins:s003",
+              "title": "Psalm 3",
+              "service_id": "matins",
+              "first_suggestion": 460.1
+            },
+            {
+              "id": "matins:s004",
+              "title": "Psalm 37 (38)",
+              "service_id": "matins",
+              "first_suggestion": 493.86
+            },
+            {
+              "id": "matins:s005",
+              "title": "Psalm 62 (63)",
+              "service_id": "matins",
+              "first_suggestion": 592.74
+            },
+            {
+              "id": "matins:s006",
+              "title": "Psalm 87 (88)",
+              "service_id": "matins",
+              "first_suggestion": 672.3
+            },
+            {
+              "id": "matins:s007",
+              "title": "Psalm 102 (103)",
+              "service_id": "matins",
+              "first_suggestion": 748.4
+            },
+            {
+              "id": "matins:s008",
+              "title": "Psalm 142 (143)",
+              "service_id": "matins",
+              "first_suggestion": 838.76
+            },
+            {
+              "id": "matins:s009",
+              "title": "Peace Litany",
+              "service_id": "matins",
+              "first_suggestion": 926.98
+            },
+            {
+              "id": "matins:s010",
+              "title": "Matins",
+              "service_id": "matins",
+              "first_suggestion": 1130.0
+            },
+            {
+              "id": "matins:s011",
+              "title": "Resurrectional Apolytikion",
+              "service_id": "matins",
+              "first_suggestion": 1179.34
+            },
+            {
+              "id": "matins:s012",
+              "title": "Kathisma I",
+              "service_id": "matins",
+              "first_suggestion": 1440.0
+            },
+            {
+              "id": "matins:s013",
+              "title": "Kathisma II",
+              "service_id": "matins",
+              "first_suggestion": 1500.0
+            },
+            {
+              "id": "matins:s014",
+              "title": "Resurrectional Evlogetaria",
+              "service_id": "matins",
+              "first_suggestion": 1635.72
+            },
+            {
+              "id": "matins:s016",
+              "title": "Antiphon 1",
+              "service_id": "matins",
+              "first_suggestion": 1943.54
+            },
+            {
+              "id": "matins:s017",
+              "title": "Antiphon 2",
+              "service_id": "matins",
+              "first_suggestion": 1959.98
+            },
+            {
+              "id": "matins:s018",
+              "title": "Antiphon 3",
+              "service_id": "matins",
+              "first_suggestion": 2041.32
+            },
+            {
+              "id": "matins:s019",
+              "title": "Prokeimenon",
+              "service_id": "matins",
+              "first_suggestion": 2070.0
+            },
+            {
+              "id": "matins:s020",
+              "title": "Resurrectional Kontakion",
+              "service_id": "matins",
+              "first_suggestion": 2162.28
+            },
+            {
+              "id": "matins:s021",
+              "title": "Oikos",
+              "service_id": "matins",
+              "first_suggestion": 2179.82
+            },
+            {
+              "id": "matins:s024",
+              "title": "Ode iii",
+              "service_id": "matins",
+              "first_suggestion": 2358.2
+            },
+            {
+              "id": "matins:s026",
+              "title": "Ode v",
+              "service_id": "matins",
+              "first_suggestion": 2404.64
+            },
+            {
+              "id": "matins:s028",
+              "title": "Ode vii",
+              "service_id": "matins",
+              "first_suggestion": 2460.0
+            },
+            {
+              "id": "matins:s029",
+              "title": "Ode viii",
+              "service_id": "matins",
+              "first_suggestion": 2490.0
+            },
+            {
+              "id": "matins:s030",
+              "title": "Matins Gospel",
+              "service_id": "matins",
+              "first_suggestion": 2596.18
+            },
+            {
+              "id": "matins:s031",
+              "title": "Psalm 50 (51)",
+              "service_id": "matins",
+              "first_suggestion": 2791.14
+            },
+            {
+              "id": "matins:s032",
+              "title": "Idiomela from the Triodion",
+              "service_id": "matins",
+              "first_suggestion": 2941.6
+            },
+            {
+              "id": "matins:s033",
+              "title": "Idiomelon",
+              "service_id": "matins",
+              "first_suggestion": 3093.74
+            },
+            {
+              "id": "matins:s039",
+              "title": "Lauds",
+              "service_id": "matins",
+              "first_suggestion": 3900.0
+            },
+            {
+              "id": "matins:s040",
+              "title": "Resurrectional Stichera",
+              "service_id": "matins",
+              "first_suggestion": 3984.38
+            },
+            {
+              "id": "matins:s041",
+              "title": "Stichera. For the Devout Woman",
+              "service_id": "matins",
+              "first_suggestion": 4265.82
+            },
+            {
+              "id": "matins:s042",
+              "title": "Great Doxology",
+              "service_id": "matins",
+              "first_suggestion": 4890.0
+            },
+            {
+              "id": "liturgy:s000",
+              "title": "Opening blessing and Peace Litany",
+              "service_id": "liturgy",
+              "first_suggestion": 5269.42
+            },
+            {
+              "id": "liturgy:s001",
+              "title": "Antiphon 1",
+              "service_id": "liturgy",
+              "first_suggestion": 5496.48
+            },
+            {
+              "id": "liturgy:s002",
+              "title": "Small Litany",
+              "service_id": "liturgy",
+              "first_suggestion": 5551.14
+            },
+            {
+              "id": "liturgy:s003",
+              "title": "Antiphon 2",
+              "service_id": "liturgy",
+              "first_suggestion": 5599.22
+            },
+            {
+              "id": "liturgy:s004",
+              "title": "Small Litany",
+              "service_id": "liturgy",
+              "first_suggestion": 5753.9
+            },
+            {
+              "id": "liturgy:s005",
+              "title": "Antiphon 3",
+              "service_id": "liturgy",
+              "first_suggestion": 5820.0
+            },
+            {
+              "id": "liturgy:s006",
+              "title": "Resurrectional Apolytikion",
+              "service_id": "liturgy",
+              "first_suggestion": 5838.34
+            },
+            {
+              "id": "liturgy:s008",
+              "title": "Entrance Hymn",
+              "service_id": "liturgy",
+              "first_suggestion": 5919.14
+            },
+            {
+              "id": "liturgy:s009",
+              "title": "Resurrectional Apolytikion",
+              "service_id": "liturgy",
+              "first_suggestion": 5970.0
+            },
+            {
+              "id": "liturgy:s010",
+              "title": "For the Devout Woman",
+              "service_id": "liturgy",
+              "first_suggestion": 6120.0
+            },
+            {
+              "id": "liturgy:s011",
+              "title": "Trisagios Hymn",
+              "service_id": "liturgy",
+              "first_suggestion": 6154.06
+            },
+            {
+              "id": "liturgy:s012",
+              "title": "The Epistle",
+              "service_id": "liturgy",
+              "first_suggestion": 6375.0
+            },
+            {
+              "id": "liturgy:s013",
+              "title": "The Holy Gospel",
+              "service_id": "liturgy",
+              "first_suggestion": 6444.72
+            },
+            {
+              "id": "liturgy:s014",
+              "title": "The Cherubic Hymn",
+              "service_id": "liturgy",
+              "first_suggestion": 7874.58
+            },
+            {
+              "id": "liturgy:s015",
+              "title": "Litany Of Completion",
+              "service_id": "liturgy",
+              "first_suggestion": 8211.84
+            },
+            {
+              "id": "liturgy:s016",
+              "title": "The Creed",
+              "service_id": "liturgy",
+              "first_suggestion": 8468.96
+            },
+            {
+              "id": "liturgy:s017",
+              "title": "Holy Anaphora",
+              "service_id": "liturgy",
+              "first_suggestion": 8615.32
+            },
+            {
+              "id": "liturgy:s018",
+              "title": "Hymn to the Theotokos",
+              "service_id": "liturgy",
+              "first_suggestion": 9112.46
+            },
+            {
+              "id": "liturgy:s019",
+              "title": "The Lord’s Prayer",
+              "service_id": "liturgy",
+              "first_suggestion": 9171.08
+            },
+            {
+              "id": "liturgy:s021",
+              "title": "Elevation, Fraction, and Communion",
+              "service_id": "liturgy",
+              "first_suggestion": 9368.84
+            },
+            {
+              "id": "liturgy:s022",
+              "title": "Communion Hymn. Psalm 148",
+              "service_id": "liturgy",
+              "first_suggestion": 10272.46
+            },
+            {
+              "id": "liturgy:s024",
+              "title": "Thanksgiving",
+              "service_id": "liturgy",
+              "first_suggestion": 10331.52
+            },
+            {
+              "id": "liturgy:s025",
+              "title": "Dismissal",
+              "service_id": "liturgy",
+              "first_suggestion": 10751.18
+            }
+          ],
+          "intervals": [
+            {
+              "start": 0,
+              "end": 12169.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n674zECLjTI",
+      "title": "Sunday After Nativity",
+      "duration": 8918,
+      "session": "session-n674zECLjTI.json",
+      "reference_selection": {
+        "recording_date": "2025-12-28",
+        "edition_date": "2026-12-27",
+        "calendar_url": "https://www.goarch.org/chapel/calendar?month=12&viewStyle=GridView&viewType=ViewReadings&year=2025",
+        "status": "calendar_component_substitute",
+        "recording_date_independently_verified": false,
+        "mode": 4,
+        "eothinon": 7,
+        "matins_reading": "John 20:1–10",
+        "epistle": "Galatians 1:11–19",
+        "gospel": "Matthew 2:13–23",
+        "tone_evidence_url": "https://bulletinbuilder.org/stgeorgeocean/current/20251228",
+        "reading_evidence_url": "https://www.goarch.org/chapel/calendar?month=12&viewStyle=GridView&viewType=ViewReadings&year=2025",
+        "caveat": "The exact 2025-12-28 DCS pages were unavailable. This composite retains the 2026-12-27 same-Sunday layout and feast propers, with official DCS Mode 4, Eothinon 7 (John 20:1–10), and same civil-date commemorations substituted. The 2025 GOARCH calendar and dated parish bulletin support these components. This is a documented reconstruction, not the exact 2025 book; local choices, omitted prayers, and hymn order remain unverified. The Dec27 St Stephen propers are removed and Galatians 1:11–19 restored. The unverified prokeimenon is intentionally uncovered; minor daily hymn variants may still be missing.",
+        "unavailable_exact_sources": [
+          {
+            "url": "https://dcs.goarch.org/goa/dcs/h/s/2025/12/28/ma/gr-en/index.html",
+            "http_status": 404
+          },
+          {
+            "url": "https://dcs.goarch.org/goa/dcs/h/s/2025/12/28/li/gr-en/index.html",
+            "http_status": 404
+          }
+        ]
+      },
+      "default_run": "turbo-full-n674zECLjTI-sequence",
+      "runs": [
+        {
+          "id": "turbo-full-n674zECLjTI-sequence",
+          "label": "Whisper Turbo · full recording",
+          "reference_id": "ref-36df35a72dd8e26d5bfb",
+          "complete_asr_coverage": true,
+          "model": "mlx-community/whisper-large-v3-turbo",
+          "llm_model": null,
+          "asr_metrics": {
+            "audio_seconds": 8917.7165,
+            "inference_seconds": 959.4521713329013,
+            "real_time_factor": 0.10758944527255394,
+            "speedup": 9.294592024958604,
+            "peak_memory_gb": 2.190781306,
+            "includes_model_load": true
+          },
+          "llm_metrics": null,
+          "segments": 1552,
+          "status_counts": {
+            "unknown": 543,
+            "uncertain": 610,
+            "matched": 399
+          },
+          "associated_segments": 399,
+          "suggested_sections": 33,
+          "associated_by_asr_language": {
+            "en": 359,
+            "el": 40
+          },
+          "segments_by_asr_language": {
+            "is": 1,
+            "en": 1431,
+            "el": 111,
+            "tr": 2,
+            "ru": 1,
+            "pt": 5,
+            "es": 1
+          },
+          "associated_by_service": {
+            "matins": 151,
+            "liturgy": 248
+          },
+          "sections": [
+            {
+              "id": "matins:s012",
+              "title": "Kathisma I",
+              "service_id": "matins",
+              "first_suggestion": 96.06
+            },
+            {
+              "id": "matins:s014",
+              "title": "Resurrectional Evlogetaria",
+              "service_id": "matins",
+              "first_suggestion": 444.0
+            },
+            {
+              "id": "matins:s020",
+              "title": "Resurrectional Kontakion",
+              "service_id": "matins",
+              "first_suggestion": 938.86
+            },
+            {
+              "id": "matins:s021",
+              "title": "Oikos",
+              "service_id": "matins",
+              "first_suggestion": 947.64
+            },
+            {
+              "id": "matins:s022",
+              "title": "Synaxarion",
+              "service_id": "matins",
+              "first_suggestion": 1074.64
+            },
+            {
+              "id": "matins:s029",
+              "title": "Ode viii. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 1417.18
+            },
+            {
+              "id": "matins:s030",
+              "title": "Matins Gospel",
+              "service_id": "matins",
+              "first_suggestion": 1463.8
+            },
+            {
+              "id": "matins:s031",
+              "title": "Psalm 50 (51)",
+              "service_id": "matins",
+              "first_suggestion": 1631.52
+            },
+            {
+              "id": "matins:s032",
+              "title": "Great Intercession",
+              "service_id": "matins",
+              "first_suggestion": 1848.02
+            },
+            {
+              "id": "matins:s033",
+              "title": "The Magnificat",
+              "service_id": "matins",
+              "first_suggestion": 2147.88
+            },
+            {
+              "id": "matins:s040",
+              "title": "Idiomelon",
+              "service_id": "matins",
+              "first_suggestion": 2490.0
+            },
+            {
+              "id": "matins:s041",
+              "title": "Great Doxology",
+              "service_id": "matins",
+              "first_suggestion": 2665.62
+            },
+            {
+              "id": "liturgy:s001",
+              "title": "Antiphon 1",
+              "service_id": "liturgy",
+              "first_suggestion": 3226.8
+            },
+            {
+              "id": "liturgy:s002",
+              "title": "Small Litany",
+              "service_id": "liturgy",
+              "first_suggestion": 3322.06
+            },
+            {
+              "id": "liturgy:s003",
+              "title": "Antiphon 2",
+              "service_id": "liturgy",
+              "first_suggestion": 3404.74
+            },
+            {
+              "id": "liturgy:s004",
+              "title": "Small Litany",
+              "service_id": "liturgy",
+              "first_suggestion": 3570.0
+            },
+            {
+              "id": "liturgy:s006",
+              "title": "Small Entrance",
+              "service_id": "liturgy",
+              "first_suggestion": 3602.78
+            },
+            {
+              "id": "liturgy:s007",
+              "title": "Entrance Hymn",
+              "service_id": "liturgy",
+              "first_suggestion": 3690.0
+            },
+            {
+              "id": "liturgy:s008",
+              "title": "Resurrectional Apolytikion",
+              "service_id": "liturgy",
+              "first_suggestion": 3726.3
+            },
+            {
+              "id": "liturgy:s009",
+              "title": "For the Ancestors of God",
+              "service_id": "liturgy",
+              "first_suggestion": 3823.2
+            },
+            {
+              "id": "liturgy:s010",
+              "title": "Trisagios Hymn",
+              "service_id": "liturgy",
+              "first_suggestion": 3968.84
+            },
+            {
+              "id": "liturgy:s011",
+              "title": "The Epistle",
+              "service_id": "liturgy",
+              "first_suggestion": 4153.06
+            },
+            {
+              "id": "liturgy:s012",
+              "title": "The Holy Gospel",
+              "service_id": "liturgy",
+              "first_suggestion": 4267.08
+            },
+            {
+              "id": "liturgy:s013",
+              "title": "The Cherubic Hymn",
+              "service_id": "liturgy",
+              "first_suggestion": 4869.46
+            },
+            {
+              "id": "liturgy:s015",
+              "title": "Kiss of Peace and Creed",
+              "service_id": "liturgy",
+              "first_suggestion": 5451.04
+            },
+            {
+              "id": "liturgy:s016",
+              "title": "The Creed",
+              "service_id": "liturgy",
+              "first_suggestion": 5480.04
+            },
+            {
+              "id": "liturgy:s017",
+              "title": "Holy Anaphora",
+              "service_id": "liturgy",
+              "first_suggestion": 5557.92
+            },
+            {
+              "id": "liturgy:s018",
+              "title": "Hymn to the Theotokos",
+              "service_id": "liturgy",
+              "first_suggestion": 5940.0
+            },
+            {
+              "id": "liturgy:s019",
+              "title": "The Lord’s Prayer",
+              "service_id": "liturgy",
+              "first_suggestion": 6008.76
+            },
+            {
+              "id": "liturgy:s021",
+              "title": "Elevation, Fraction, and Communion",
+              "service_id": "liturgy",
+              "first_suggestion": 6276.78
+            },
+            {
+              "id": "liturgy:s025",
+              "title": "Thanksgiving",
+              "service_id": "liturgy",
+              "first_suggestion": 6879.88
+            },
+            {
+              "id": "liturgy:s026",
+              "title": "Dismissal",
+              "service_id": "liturgy",
+              "first_suggestion": 6920.58
+            },
+            {
+              "id": "liturgy:s028",
+              "title": "Final blessing and dismissal",
+              "service_id": "liturgy",
+              "first_suggestion": 7028.2
+            }
+          ],
+          "intervals": [
+            {
+              "start": 0,
+              "end": 8917.7165
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vkkeLmltf_4",
+      "title": "11th Sunday of Luke",
+      "duration": 13476,
+      "session": "session-vkkeLmltf_4.json",
+      "reference_selection": {
+        "recording_date": "2025-12-14",
+        "edition_date": "2026-12-13",
+        "calendar_url": "https://www.goarch.org/chapel/calendar?month=12&viewStyle=GridView&viewType=ViewReadings&year=2025",
+        "status": "calendar_component_substitute",
+        "recording_date_independently_verified": false,
+        "mode": 2,
+        "eothinon": 5,
+        "matins_reading": "Luke 24:12–35",
+        "epistle": "Colossians 3:4–11",
+        "gospel": "Luke 14:16–24",
+        "tone_evidence_url": "https://bulletinbuilder.org/SNC-SanJose/current/20251214",
+        "reading_evidence_url": "https://www.goarch.org/chapel/calendar?month=12&viewStyle=GridView&viewType=ViewReadings&year=2025",
+        "caveat": "The exact 2025-12-14 DCS pages were unavailable. This composite retains the 2026-12-13 same-Sunday layout and feast propers, with official DCS Mode 2, Eothinon 5 (Luke 24:12–35), and same civil-date commemorations substituted. The 2025 GOARCH calendar and dated parish bulletin support these components. This is a documented reconstruction, not the exact 2025 book; local choices, omitted prayers, and hymn order remain unverified.",
+        "unavailable_exact_sources": [
+          {
+            "url": "https://dcs.goarch.org/goa/dcs/h/s/2025/12/14/ma/gr-en/index.html",
+            "http_status": 404
+          },
+          {
+            "url": "https://dcs.goarch.org/goa/dcs/h/s/2025/12/14/li/gr-en/index.html",
+            "http_status": 404
+          }
+        ]
+      },
+      "default_run": "turbo-full-vkkeLmltf_4-sequence",
+      "runs": [
+        {
+          "id": "turbo-full-vkkeLmltf_4-sequence",
+          "label": "Whisper Turbo · full recording",
+          "reference_id": "ref-90787017d67c2d4a68ec",
+          "complete_asr_coverage": true,
+          "model": "mlx-community/whisper-large-v3-turbo",
+          "llm_model": null,
+          "asr_metrics": {
+            "audio_seconds": 13476.0,
+            "inference_seconds": 1165.6433287088294,
+            "real_time_factor": 0.08649772400629485,
+            "speedup": 11.560997835356053,
+            "peak_memory_gb": 2.190781306,
+            "includes_model_load": true
+          },
+          "llm_metrics": null,
+          "segments": 2472,
+          "status_counts": {
+            "unknown": 883,
+            "uncertain": 755,
+            "matched": 834
+          },
+          "associated_segments": 834,
+          "suggested_sections": 59,
+          "associated_by_asr_language": {
+            "el": 140,
+            "en": 694
+          },
+          "segments_by_asr_language": {
+            "en": 2104,
+            "el": 355,
+            "es": 5,
+            "ru": 4,
+            "pt": 2,
+            "ca": 1,
+            "it": 1
+          },
+          "associated_by_service": {
+            "matins": 640,
+            "liturgy": 194
+          },
+          "sections": [
+            {
+              "id": "matins:s001",
+              "title": "Trisagion Prayers",
+              "service_id": "matins",
+              "first_suggestion": 773.74
+            },
+            {
+              "id": "matins:s002",
+              "title": "The Six Psalms",
+              "service_id": "matins",
+              "first_suggestion": 967.3
+            },
+            {
+              "id": "matins:s003",
+              "title": "Psalm 3",
+              "service_id": "matins",
+              "first_suggestion": 984.8
+            },
+            {
+              "id": "matins:s004",
+              "title": "Psalm 37 (38)",
+              "service_id": "matins",
+              "first_suggestion": 1023.02
+            },
+            {
+              "id": "matins:s005",
+              "title": "Psalm 62 (63)",
+              "service_id": "matins",
+              "first_suggestion": 1126.3
+            },
+            {
+              "id": "matins:s006",
+              "title": "Psalm 87 (88)",
+              "service_id": "matins",
+              "first_suggestion": 1203.88
+            },
+            {
+              "id": "matins:s007",
+              "title": "Psalm 102 (103)",
+              "service_id": "matins",
+              "first_suggestion": 1287.6
+            },
+            {
+              "id": "matins:s008",
+              "title": "Psalm 142 (143)",
+              "service_id": "matins",
+              "first_suggestion": 1384.86
+            },
+            {
+              "id": "matins:s009",
+              "title": "Peace Litany",
+              "service_id": "matins",
+              "first_suggestion": 1491.28
+            },
+            {
+              "id": "matins:s010",
+              "title": "Matins",
+              "service_id": "matins",
+              "first_suggestion": 1616.82
+            },
+            {
+              "id": "matins:s011",
+              "title": "Resurrectional Apolytikion",
+              "service_id": "matins",
+              "first_suggestion": 1682.94
+            },
+            {
+              "id": "matins:s012",
+              "title": "Kathisma I",
+              "service_id": "matins",
+              "first_suggestion": 1847.72
+            },
+            {
+              "id": "matins:s013",
+              "title": "Kathisma II",
+              "service_id": "matins",
+              "first_suggestion": 1946.54
+            },
+            {
+              "id": "matins:s014",
+              "title": "Resurrectional Evlogetaria",
+              "service_id": "matins",
+              "first_suggestion": 2046.2
+            },
+            {
+              "id": "matins:s015",
+              "title": "Hypakoe",
+              "service_id": "matins",
+              "first_suggestion": 2303.4
+            },
+            {
+              "id": "matins:s016",
+              "title": "Antiphon 1",
+              "service_id": "matins",
+              "first_suggestion": 2321.78
+            },
+            {
+              "id": "matins:s017",
+              "title": "Antiphon 2",
+              "service_id": "matins",
+              "first_suggestion": 2370.0
+            },
+            {
+              "id": "matins:s018",
+              "title": "Antiphon 3",
+              "service_id": "matins",
+              "first_suggestion": 2415.78
+            },
+            {
+              "id": "matins:s019",
+              "title": "Prokeimenon",
+              "service_id": "matins",
+              "first_suggestion": 2467.34
+            },
+            {
+              "id": "matins:s020",
+              "title": "Oikos",
+              "service_id": "matins",
+              "first_suggestion": 2585.74
+            },
+            {
+              "id": "matins:s021",
+              "title": "Synaxarion",
+              "service_id": "matins",
+              "first_suggestion": 2631.34
+            },
+            {
+              "id": "matins:s022",
+              "title": "Ode i. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 2677.7
+            },
+            {
+              "id": "matins:s023",
+              "title": "Ode iii. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 2712.12
+            },
+            {
+              "id": "matins:s024",
+              "title": "Ode iv. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 2747.56
+            },
+            {
+              "id": "matins:s025",
+              "title": "Ode v. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 2782.94
+            },
+            {
+              "id": "matins:s026",
+              "title": "Ode vi. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 2820.0
+            },
+            {
+              "id": "matins:s027",
+              "title": "Ode vii. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 2860.18
+            },
+            {
+              "id": "matins:s028",
+              "title": "Ode viii. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 2892.74
+            },
+            {
+              "id": "matins:s029",
+              "title": "Matins Gospel",
+              "service_id": "matins",
+              "first_suggestion": 3013.62
+            },
+            {
+              "id": "matins:s030",
+              "title": "Psalm 50 (51)",
+              "service_id": "matins",
+              "first_suggestion": 3230.1
+            },
+            {
+              "id": "matins:s031",
+              "title": "Great Intercession",
+              "service_id": "matins",
+              "first_suggestion": 3450.0
+            },
+            {
+              "id": "matins:s032",
+              "title": "The Magnificat",
+              "service_id": "matins",
+              "first_suggestion": 3621.8
+            },
+            {
+              "id": "matins:s033",
+              "title": "Ode ix. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 3797.52
+            },
+            {
+              "id": "matins:s034",
+              "title": "Eothinon 5",
+              "service_id": "matins",
+              "first_suggestion": 3940.36
+            },
+            {
+              "id": "matins:s035",
+              "title": "For the Forefathers",
+              "service_id": "matins",
+              "first_suggestion": 3980.1
+            },
+            {
+              "id": "matins:s036",
+              "title": "Another. Same Melody",
+              "service_id": "matins",
+              "first_suggestion": 4008.26
+            },
+            {
+              "id": "matins:s037",
+              "title": "Theotokion. Same Melody",
+              "service_id": "matins",
+              "first_suggestion": 4039.74
+            },
+            {
+              "id": "matins:s038",
+              "title": "Lauds",
+              "service_id": "matins",
+              "first_suggestion": 4080.0
+            },
+            {
+              "id": "matins:s039",
+              "title": "Resurrectional Stichera",
+              "service_id": "matins",
+              "first_suggestion": 4191.44
+            },
+            {
+              "id": "matins:s040",
+              "title": "For the Forefathers",
+              "service_id": "matins",
+              "first_suggestion": 4410.0
+            },
+            {
+              "id": "matins:s041",
+              "title": "Great Doxology",
+              "service_id": "matins",
+              "first_suggestion": 4860.0
+            },
+            {
+              "id": "liturgy:s003",
+              "title": "Antiphon 2",
+              "service_id": "liturgy",
+              "first_suggestion": 5520.0
+            },
+            {
+              "id": "liturgy:s004",
+              "title": "Small Litany",
+              "service_id": "liturgy",
+              "first_suggestion": 5637.34
+            },
+            {
+              "id": "liturgy:s008",
+              "title": "Entrance Hymn",
+              "service_id": "liturgy",
+              "first_suggestion": 5774.12
+            },
+            {
+              "id": "liturgy:s011",
+              "title": "Trisagios Hymn",
+              "service_id": "liturgy",
+              "first_suggestion": 6048.58
+            },
+            {
+              "id": "liturgy:s012",
+              "title": "The Epistle",
+              "service_id": "liturgy",
+              "first_suggestion": 6678.84
+            },
+            {
+              "id": "liturgy:s013",
+              "title": "The Holy Gospel",
+              "service_id": "liturgy",
+              "first_suggestion": 6791.24
+            },
+            {
+              "id": "liturgy:s015",
+              "title": "Litany Of Completion",
+              "service_id": "liturgy",
+              "first_suggestion": 8461.26
+            },
+            {
+              "id": "liturgy:s016",
+              "title": "Kiss of Peace and Creed",
+              "service_id": "liturgy",
+              "first_suggestion": 8664.52
+            },
+            {
+              "id": "liturgy:s017",
+              "title": "The Creed",
+              "service_id": "liturgy",
+              "first_suggestion": 8723.54
+            },
+            {
+              "id": "liturgy:s018",
+              "title": "Holy Anaphora",
+              "service_id": "liturgy",
+              "first_suggestion": 8803.78
+            },
+            {
+              "id": "liturgy:s019",
+              "title": "Hymn to the Theotokos",
+              "service_id": "liturgy",
+              "first_suggestion": 9113.32
+            },
+            {
+              "id": "liturgy:s020",
+              "title": "The Lord’s Prayer",
+              "service_id": "liturgy",
+              "first_suggestion": 9219.36
+            },
+            {
+              "id": "liturgy:s021",
+              "title": "Bowing Of Heads",
+              "service_id": "liturgy",
+              "first_suggestion": 9376.44
+            },
+            {
+              "id": "liturgy:s022",
+              "title": "Elevation, Fraction, and Communion",
+              "service_id": "liturgy",
+              "first_suggestion": 9400.8
+            },
+            {
+              "id": "liturgy:s023",
+              "title": "Communion Hymn. Psalm 148",
+              "service_id": "liturgy",
+              "first_suggestion": 10568.44
+            },
+            {
+              "id": "liturgy:s025",
+              "title": "Thanksgiving",
+              "service_id": "liturgy",
+              "first_suggestion": 10625.86
+            },
+            {
+              "id": "liturgy:s026",
+              "title": "Dismissal",
+              "service_id": "liturgy",
+              "first_suggestion": 10695.76
+            },
+            {
+              "id": "liturgy:s028",
+              "title": "Final blessing and dismissal",
+              "service_id": "liturgy",
+              "first_suggestion": 11881.78
+            }
+          ],
+          "intervals": [
+            {
+              "start": 0,
+              "end": 13476.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MIxJvLfaynY",
+      "title": "Assumption Greek Orthodox Church - Saint Clair Shores, Michigan",
+      "duration": 7668,
+      "session": "session.json",
+      "reference_selection": {
+        "recording_date": "2025-09-08",
+        "edition_date": "2026-09-08",
+        "status": "same_feast_substitute",
+        "calendar_url": "https://www.goarch.org/chapel?date=9%2F8%2F2025",
+        "caveat": "Exact 2025-09-08 DCS pages returned 404. This reference uses the 2026-09-08 Nativity of the Theotokos edition, including the full festal Matins canon. It is a same-feast substitute; local abbreviations and year-specific details remain unverified.",
+        "recording_date_independently_verified": false,
+        "unavailable_exact_sources": [
+          {
+            "url": "https://dcs.goarch.org/goa/dcs/h/s/2025/09/08/ma/gr-en/index.html",
+            "http_status": 404
+          },
+          {
+            "url": "https://dcs.goarch.org/goa/dcs/h/s/2025/09/08/li/gr-en/index.html",
+            "http_status": 404
+          }
+        ]
+      },
+      "default_run": "turbo-full-sequence",
+      "runs": [
+        {
+          "id": "turbo-full-sequence",
+          "label": "Whisper Turbo · full recording",
+          "reference_id": "ref-e5432ce2789f102a2c0b",
+          "complete_asr_coverage": true,
+          "model": "mlx-community/whisper-large-v3-turbo",
+          "llm_model": null,
+          "asr_metrics": {
+            "audio_seconds": 7667.8791875,
+            "inference_seconds": 606.718922750093,
+            "decode_seconds": 3.418358833063394,
+            "real_time_factor": 0.07912473682933767,
+            "speedup": 12.638272682749985,
+            "peak_memory_gb": 2.190781306,
+            "includes_model_load": true
+          },
+          "llm_metrics": null,
+          "segments": 956,
+          "status_counts": {
+            "unknown": 249,
+            "uncertain": 286,
+            "matched": 421
+          },
+          "associated_segments": 421,
+          "suggested_sections": 49,
+          "associated_by_asr_language": {
+            "el": 290,
+            "en": 131
+          },
+          "segments_by_asr_language": {
+            "en": 381,
+            "el": 569,
+            "ru": 2,
+            "de": 1,
+            "pt": 1,
+            "fr": 1,
+            "ko": 1
+          },
+          "associated_by_service": {
+            "matins": 279,
+            "liturgy": 142
+          },
+          "sections": [
+            {
+              "id": "matins:s001",
+              "title": "Trisagion Prayers",
+              "service_id": "matins",
+              "first_suggestion": 330.0
+            },
+            {
+              "id": "matins:s002",
+              "title": "The Six Psalms",
+              "service_id": "matins",
+              "first_suggestion": 490.28
+            },
+            {
+              "id": "matins:s003",
+              "title": "Psalm 3",
+              "service_id": "matins",
+              "first_suggestion": 540.0
+            },
+            {
+              "id": "matins:s004",
+              "title": "Psalm 37 (38)",
+              "service_id": "matins",
+              "first_suggestion": 553.34
+            },
+            {
+              "id": "matins:s005",
+              "title": "Psalm 62 (63)",
+              "service_id": "matins",
+              "first_suggestion": 690.0
+            },
+            {
+              "id": "matins:s006",
+              "title": "Psalm 87 (88)",
+              "service_id": "matins",
+              "first_suggestion": 785.56
+            },
+            {
+              "id": "matins:s007",
+              "title": "Psalm 102 (103)",
+              "service_id": "matins",
+              "first_suggestion": 960.0
+            },
+            {
+              "id": "matins:s008",
+              "title": "Psalm 142 (143)",
+              "service_id": "matins",
+              "first_suggestion": 1080.0
+            },
+            {
+              "id": "matins:s009",
+              "title": "Peace Litany",
+              "service_id": "matins",
+              "first_suggestion": 1174.92
+            },
+            {
+              "id": "matins:s010",
+              "title": "Matins",
+              "service_id": "matins",
+              "first_suggestion": 1268.62
+            },
+            {
+              "id": "matins:s016",
+              "title": "Antiphon 1",
+              "service_id": "matins",
+              "first_suggestion": 1880.92
+            },
+            {
+              "id": "matins:s017",
+              "title": "Prokeimenon. Psalm 44",
+              "service_id": "matins",
+              "first_suggestion": 2113.96
+            },
+            {
+              "id": "matins:s018",
+              "title": "Matins Gospel",
+              "service_id": "matins",
+              "first_suggestion": 2220.0
+            },
+            {
+              "id": "matins:s019",
+              "title": "Psalm 50 (51)",
+              "service_id": "matins",
+              "first_suggestion": 2335.1
+            },
+            {
+              "id": "matins:s020",
+              "title": "Idiomelon",
+              "service_id": "matins",
+              "first_suggestion": 2493.32
+            },
+            {
+              "id": "matins:s025",
+              "title": "Ode i. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 2850.0
+            },
+            {
+              "id": "matins:s030",
+              "title": "Ode iii. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 2869.38
+            },
+            {
+              "id": "matins:s036",
+              "title": "Ode iv. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 2896.12
+            },
+            {
+              "id": "matins:s041",
+              "title": "Ode v. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 2915.34
+            },
+            {
+              "id": "matins:s046",
+              "title": "Ode vi. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 2970.0
+            },
+            {
+              "id": "matins:s053",
+              "title": "Ode vii. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 2991.28
+            },
+            {
+              "id": "matins:s058",
+              "title": "Ode viii. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 3060.0
+            },
+            {
+              "id": "matins:s060",
+              "title": "Troparia",
+              "service_id": "matins",
+              "first_suggestion": 3150.0
+            },
+            {
+              "id": "matins:s061",
+              "title": "Canon 2 of the Feast",
+              "service_id": "matins",
+              "first_suggestion": 3202.4
+            },
+            {
+              "id": "matins:s062",
+              "title": "Troparia",
+              "service_id": "matins",
+              "first_suggestion": 3226.24
+            },
+            {
+              "id": "matins:s063",
+              "title": "Ode ix. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 3330.0
+            },
+            {
+              "id": "matins:s064",
+              "title": "Exaposteilaria",
+              "service_id": "matins",
+              "first_suggestion": 3409.84
+            },
+            {
+              "id": "matins:s065",
+              "title": "Another",
+              "service_id": "matins",
+              "first_suggestion": 3452.32
+            },
+            {
+              "id": "matins:s066",
+              "title": "Lauds",
+              "service_id": "matins",
+              "first_suggestion": 3540.0
+            },
+            {
+              "id": "matins:s067",
+              "title": "Stichera for the Feast",
+              "service_id": "matins",
+              "first_suggestion": 3585.34
+            },
+            {
+              "id": "matins:s068",
+              "title": "Great Doxology",
+              "service_id": "matins",
+              "first_suggestion": 4118.0
+            },
+            {
+              "id": "liturgy:s000",
+              "title": "Opening blessing and Peace Litany",
+              "service_id": "liturgy",
+              "first_suggestion": 4411.84
+            },
+            {
+              "id": "liturgy:s002",
+              "title": "Small Litany",
+              "service_id": "liturgy",
+              "first_suggestion": 4652.54
+            },
+            {
+              "id": "liturgy:s003",
+              "title": "Antiphon 2",
+              "service_id": "liturgy",
+              "first_suggestion": 4721.98
+            },
+            {
+              "id": "liturgy:s008",
+              "title": "Hymns after the Entrance",
+              "service_id": "liturgy",
+              "first_suggestion": 4975.6
+            },
+            {
+              "id": "liturgy:s009",
+              "title": "Trisagios Hymn",
+              "service_id": "liturgy",
+              "first_suggestion": 5160.0
+            },
+            {
+              "id": "liturgy:s010",
+              "title": "The Epistle",
+              "service_id": "liturgy",
+              "first_suggestion": 5237.94
+            },
+            {
+              "id": "liturgy:s011",
+              "title": "The Holy Gospel",
+              "service_id": "liturgy",
+              "first_suggestion": 5324.26
+            },
+            {
+              "id": "liturgy:s012",
+              "title": "The Cherubic Hymn",
+              "service_id": "liturgy",
+              "first_suggestion": 5739.54
+            },
+            {
+              "id": "liturgy:s015",
+              "title": "The Creed",
+              "service_id": "liturgy",
+              "first_suggestion": 6090.0
+            },
+            {
+              "id": "liturgy:s016",
+              "title": "Holy Anaphora",
+              "service_id": "liturgy",
+              "first_suggestion": 6163.4
+            },
+            {
+              "id": "liturgy:s017",
+              "title": "Ode ix. Heirmos",
+              "service_id": "liturgy",
+              "first_suggestion": 6600.0
+            },
+            {
+              "id": "liturgy:s018",
+              "title": "The Lord’s Prayer",
+              "service_id": "liturgy",
+              "first_suggestion": 6619.04
+            },
+            {
+              "id": "liturgy:s019",
+              "title": "Bowing Of Heads",
+              "service_id": "liturgy",
+              "first_suggestion": 6740.62
+            },
+            {
+              "id": "liturgy:s020",
+              "title": "Elevation, Fraction, and Communion",
+              "service_id": "liturgy",
+              "first_suggestion": 6790.6
+            },
+            {
+              "id": "liturgy:s022",
+              "title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+              "service_id": "liturgy",
+              "first_suggestion": 7195.98
+            },
+            {
+              "id": "liturgy:s023",
+              "title": "Hymn after Holy Communion",
+              "service_id": "liturgy",
+              "first_suggestion": 7204.42
+            },
+            {
+              "id": "liturgy:s025",
+              "title": "Dismissal",
+              "service_id": "liturgy",
+              "first_suggestion": 7290.0
+            },
+            {
+              "id": "liturgy:s027",
+              "title": "Final blessing and dismissal",
+              "service_id": "liturgy",
+              "first_suggestion": 7410.0
+            }
+          ],
+          "intervals": [
+            {
+              "start": 0.0,
+              "end": 7667.8791875
+            }
+          ]
+        },
+        {
+          "id": "large-v3-full-sequence",
+          "label": "Whisper Large v3 · full recording",
+          "reference_id": "ref-e5432ce2789f102a2c0b",
+          "complete_asr_coverage": true,
+          "model": "mlx-community/whisper-large-v3-mlx",
+          "llm_model": null,
+          "asr_metrics": {
+            "audio_seconds": 7667.8791875,
+            "inference_seconds": 1381.881265166914,
+            "decode_seconds": 3.9207393748220056,
+            "real_time_factor": 0.18021688023197147,
+            "speedup": 5.548869776864524,
+            "peak_memory_gb": 3.897887806,
+            "includes_model_load": true
+          },
+          "llm_metrics": null,
+          "segments": 1057,
+          "status_counts": {
+            "unknown": 296,
+            "uncertain": 308,
+            "matched": 453
+          },
+          "associated_segments": 453,
+          "suggested_sections": 45,
+          "associated_by_asr_language": {
+            "el": 295,
+            "la": 2,
+            "en": 156
+          },
+          "segments_by_asr_language": {
+            "en": 465,
+            "el": 551,
+            "la": 41
+          },
+          "associated_by_service": {
+            "matins": 300,
+            "liturgy": 153
+          },
+          "sections": [
+            {
+              "id": "matins:s001",
+              "title": "Trisagion Prayers",
+              "service_id": "matins",
+              "first_suggestion": 335.42
+            },
+            {
+              "id": "matins:s003",
+              "title": "Psalm 3",
+              "service_id": "matins",
+              "first_suggestion": 540.0
+            },
+            {
+              "id": "matins:s004",
+              "title": "Psalm 37 (38)",
+              "service_id": "matins",
+              "first_suggestion": 553.38
+            },
+            {
+              "id": "matins:s005",
+              "title": "Psalm 62 (63)",
+              "service_id": "matins",
+              "first_suggestion": 690.0
+            },
+            {
+              "id": "matins:s006",
+              "title": "Psalm 87 (88)",
+              "service_id": "matins",
+              "first_suggestion": 785.44
+            },
+            {
+              "id": "matins:s007",
+              "title": "Psalm 102 (103)",
+              "service_id": "matins",
+              "first_suggestion": 960.0
+            },
+            {
+              "id": "matins:s008",
+              "title": "Psalm 142 (143)",
+              "service_id": "matins",
+              "first_suggestion": 1080.0
+            },
+            {
+              "id": "matins:s009",
+              "title": "Peace Litany",
+              "service_id": "matins",
+              "first_suggestion": 1230.0
+            },
+            {
+              "id": "matins:s010",
+              "title": "Matins",
+              "service_id": "matins",
+              "first_suggestion": 1268.36
+            },
+            {
+              "id": "matins:s016",
+              "title": "Antiphon 1",
+              "service_id": "matins",
+              "first_suggestion": 1880.84
+            },
+            {
+              "id": "matins:s017",
+              "title": "Prokeimenon. Psalm 44",
+              "service_id": "matins",
+              "first_suggestion": 2113.86
+            },
+            {
+              "id": "matins:s018",
+              "title": "Matins Gospel",
+              "service_id": "matins",
+              "first_suggestion": 2280.0
+            },
+            {
+              "id": "matins:s019",
+              "title": "Psalm 50 (51)",
+              "service_id": "matins",
+              "first_suggestion": 2340.0
+            },
+            {
+              "id": "matins:s020",
+              "title": "Idiomelon",
+              "service_id": "matins",
+              "first_suggestion": 2525.32
+            },
+            {
+              "id": "matins:s025",
+              "title": "Ode i. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 2850.0
+            },
+            {
+              "id": "matins:s030",
+              "title": "Ode iii. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 2869.76
+            },
+            {
+              "id": "matins:s036",
+              "title": "Ode iv. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 2895.84
+            },
+            {
+              "id": "matins:s041",
+              "title": "Ode v. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 2915.1
+            },
+            {
+              "id": "matins:s046",
+              "title": "Ode vi. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 2970.0
+            },
+            {
+              "id": "matins:s053",
+              "title": "Ode vii. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 3006.2
+            },
+            {
+              "id": "matins:s058",
+              "title": "Ode viii. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 3060.0
+            },
+            {
+              "id": "matins:s060",
+              "title": "Troparia",
+              "service_id": "matins",
+              "first_suggestion": 3169.14
+            },
+            {
+              "id": "matins:s062",
+              "title": "Troparia",
+              "service_id": "matins",
+              "first_suggestion": 3300.0
+            },
+            {
+              "id": "matins:s063",
+              "title": "Ode ix. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 3324.14
+            },
+            {
+              "id": "matins:s065",
+              "title": "Another",
+              "service_id": "matins",
+              "first_suggestion": 3452.1
+            },
+            {
+              "id": "matins:s067",
+              "title": "Stichera for the Feast",
+              "service_id": "matins",
+              "first_suggestion": 3586.26
+            },
+            {
+              "id": "matins:s068",
+              "title": "Great Doxology",
+              "service_id": "matins",
+              "first_suggestion": 4140.0
+            },
+            {
+              "id": "liturgy:s000",
+              "title": "Opening blessing and Peace Litany",
+              "service_id": "liturgy",
+              "first_suggestion": 4411.54
+            },
+            {
+              "id": "liturgy:s002",
+              "title": "Small Litany",
+              "service_id": "liturgy",
+              "first_suggestion": 4652.64
+            },
+            {
+              "id": "liturgy:s003",
+              "title": "Antiphon 2",
+              "service_id": "liturgy",
+              "first_suggestion": 4721.66
+            },
+            {
+              "id": "liturgy:s004",
+              "title": "Small Litany",
+              "service_id": "liturgy",
+              "first_suggestion": 4826.64
+            },
+            {
+              "id": "liturgy:s008",
+              "title": "Hymns after the Entrance",
+              "service_id": "liturgy",
+              "first_suggestion": 5037.06
+            },
+            {
+              "id": "liturgy:s009",
+              "title": "Trisagios Hymn",
+              "service_id": "liturgy",
+              "first_suggestion": 5160.0
+            },
+            {
+              "id": "liturgy:s010",
+              "title": "The Epistle",
+              "service_id": "liturgy",
+              "first_suggestion": 5238.14
+            },
+            {
+              "id": "liturgy:s011",
+              "title": "The Holy Gospel",
+              "service_id": "liturgy",
+              "first_suggestion": 5324.4
+            },
+            {
+              "id": "liturgy:s012",
+              "title": "The Cherubic Hymn",
+              "service_id": "liturgy",
+              "first_suggestion": 5760.0
+            },
+            {
+              "id": "liturgy:s015",
+              "title": "The Creed",
+              "service_id": "liturgy",
+              "first_suggestion": 6090.0
+            },
+            {
+              "id": "liturgy:s016",
+              "title": "Holy Anaphora",
+              "service_id": "liturgy",
+              "first_suggestion": 6210.0
+            },
+            {
+              "id": "liturgy:s017",
+              "title": "Ode ix. Heirmos",
+              "service_id": "liturgy",
+              "first_suggestion": 6592.9
+            },
+            {
+              "id": "liturgy:s018",
+              "title": "The Lord’s Prayer",
+              "service_id": "liturgy",
+              "first_suggestion": 6620.36
+            },
+            {
+              "id": "liturgy:s019",
+              "title": "Bowing Of Heads",
+              "service_id": "liturgy",
+              "first_suggestion": 6740.58
+            },
+            {
+              "id": "liturgy:s020",
+              "title": "Elevation, Fraction, and Communion",
+              "service_id": "liturgy",
+              "first_suggestion": 6840.96
+            },
+            {
+              "id": "liturgy:s022",
+              "title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+              "service_id": "liturgy",
+              "first_suggestion": 7097.66
+            },
+            {
+              "id": "liturgy:s023",
+              "title": "Hymn after Holy Communion",
+              "service_id": "liturgy",
+              "first_suggestion": 7204.12
+            },
+            {
+              "id": "liturgy:s025",
+              "title": "Dismissal",
+              "service_id": "liturgy",
+              "first_suggestion": 7298.86
+            }
+          ],
+          "intervals": [
+            {
+              "start": 0,
+              "end": 7667.8791875
+            }
+          ]
+        },
+        {
+          "id": "asr-compare-large-v3-sequence",
+          "label": "Whisper Large v3 · 24-minute comparison",
+          "reference_id": "ref-e5432ce2789f102a2c0b",
+          "complete_asr_coverage": false,
+          "model": "mlx-community/whisper-large-v3-mlx",
+          "llm_model": null,
+          "asr_metrics": {
+            "audio_seconds": 1440.0,
+            "inference_seconds": 202.87269262294285,
+            "speedup": 7.098047457162554,
+            "real_time_factor": 0.14088381432148808,
+            "peak_memory_gb": 3.896347714,
+            "includes_model_load": true
+          },
+          "llm_metrics": null,
+          "segments": 202,
+          "status_counts": {
+            "unknown": 53,
+            "matched": 70,
+            "uncertain": 79
+          },
+          "associated_segments": 70,
+          "suggested_sections": 14,
+          "associated_by_asr_language": {
+            "el": 22,
+            "la": 1,
+            "en": 47
+          },
+          "segments_by_asr_language": {
+            "el": 59,
+            "la": 11,
+            "en": 132
+          },
+          "associated_by_service": {
+            "matins": 20,
+            "liturgy": 50
+          },
+          "sections": [
+            {
+              "id": "matins:s009",
+              "title": "Peace Litany",
+              "service_id": "matins",
+              "first_suggestion": 1230.0
+            },
+            {
+              "id": "matins:s010",
+              "title": "Matins",
+              "service_id": "matins",
+              "first_suggestion": 1268.36
+            },
+            {
+              "id": "matins:s016",
+              "title": "Antiphon 1",
+              "service_id": "matins",
+              "first_suggestion": 1880.84
+            },
+            {
+              "id": "matins:s047",
+              "title": "Oikos",
+              "service_id": "matins",
+              "first_suggestion": 2760.66
+            },
+            {
+              "id": "matins:s067",
+              "title": "Stichera for the Feast",
+              "service_id": "matins",
+              "first_suggestion": 3600.0
+            },
+            {
+              "id": "liturgy:s000",
+              "title": "Opening blessing and Peace Litany",
+              "service_id": "liturgy",
+              "first_suggestion": 4411.54
+            },
+            {
+              "id": "liturgy:s002",
+              "title": "Small Litany",
+              "service_id": "liturgy",
+              "first_suggestion": 4680.0
+            },
+            {
+              "id": "liturgy:s003",
+              "title": "Antiphon 2",
+              "service_id": "liturgy",
+              "first_suggestion": 4721.66
+            },
+            {
+              "id": "liturgy:s008",
+              "title": "Hymns after the Entrance",
+              "service_id": "liturgy",
+              "first_suggestion": 5042.68
+            },
+            {
+              "id": "liturgy:s010",
+              "title": "The Epistle",
+              "service_id": "liturgy",
+              "first_suggestion": 5238.14
+            },
+            {
+              "id": "liturgy:s011",
+              "title": "The Holy Gospel",
+              "service_id": "liturgy",
+              "first_suggestion": 5430.0
+            },
+            {
+              "id": "liturgy:s016",
+              "title": "Holy Anaphora",
+              "service_id": "liturgy",
+              "first_suggestion": 6339.56
+            },
+            {
+              "id": "liturgy:s018",
+              "title": "The Lord’s Prayer",
+              "service_id": "liturgy",
+              "first_suggestion": 6704.88
+            },
+            {
+              "id": "liturgy:s019",
+              "title": "Bowing Of Heads",
+              "service_id": "liturgy",
+              "first_suggestion": 6740.58
+            }
+          ],
+          "intervals": [
+            {
+              "start": 1200,
+              "end": 1290.0
+            },
+            {
+              "start": 1800,
+              "end": 1890.0
+            },
+            {
+              "start": 1950,
+              "end": 2040.0
+            },
+            {
+              "start": 2700,
+              "end": 2790.0
+            },
+            {
+              "start": 3600,
+              "end": 3690.0
+            },
+            {
+              "start": 4410,
+              "end": 4500.0
+            },
+            {
+              "start": 4680,
+              "end": 4770.0
+            },
+            {
+              "start": 4860,
+              "end": 4950.0
+            },
+            {
+              "start": 5040,
+              "end": 5130.0
+            },
+            {
+              "start": 5220,
+              "end": 5310.0
+            },
+            {
+              "start": 5430,
+              "end": 5520.0
+            },
+            {
+              "start": 6000,
+              "end": 6090.0
+            },
+            {
+              "start": 6300,
+              "end": 6390.0
+            },
+            {
+              "start": 6690,
+              "end": 6780.0
+            },
+            {
+              "start": 7200,
+              "end": 7290.0
+            },
+            {
+              "start": 7500,
+              "end": 7590.0
+            }
+          ]
+        },
+        {
+          "id": "asr-compare-turbo-sequence",
+          "label": "Whisper Turbo · 24-minute comparison",
+          "reference_id": "ref-e5432ce2789f102a2c0b",
+          "complete_asr_coverage": false,
+          "model": "mlx-community/whisper-large-v3-turbo",
+          "llm_model": null,
+          "asr_metrics": {
+            "audio_seconds": 1440.0,
+            "inference_seconds": 113.12106529367156,
+            "speedup": 12.729724532399354,
+            "real_time_factor": 0.07855629534282747,
+            "peak_memory_gb": 2.190781306,
+            "includes_model_load": true
+          },
+          "llm_metrics": null,
+          "segments": 183,
+          "status_counts": {
+            "uncertain": 74,
+            "matched": 64,
+            "unknown": 45
+          },
+          "associated_segments": 64,
+          "suggested_sections": 14,
+          "associated_by_asr_language": {
+            "el": 24,
+            "en": 40
+          },
+          "segments_by_asr_language": {
+            "el": 70,
+            "en": 112,
+            "pt": 1
+          },
+          "associated_by_service": {
+            "matins": 22,
+            "liturgy": 42
+          },
+          "sections": [
+            {
+              "id": "matins:s009",
+              "title": "Peace Litany",
+              "service_id": "matins",
+              "first_suggestion": 1209.12
+            },
+            {
+              "id": "matins:s010",
+              "title": "Matins",
+              "service_id": "matins",
+              "first_suggestion": 1268.62
+            },
+            {
+              "id": "matins:s016",
+              "title": "Antiphon 1",
+              "service_id": "matins",
+              "first_suggestion": 1880.92
+            },
+            {
+              "id": "matins:s047",
+              "title": "Oikos",
+              "service_id": "matins",
+              "first_suggestion": 2760.76
+            },
+            {
+              "id": "matins:s067",
+              "title": "Stichera for the Feast",
+              "service_id": "matins",
+              "first_suggestion": 3600.0
+            },
+            {
+              "id": "liturgy:s000",
+              "title": "Opening blessing and Peace Litany",
+              "service_id": "liturgy",
+              "first_suggestion": 4411.72
+            },
+            {
+              "id": "liturgy:s002",
+              "title": "Small Litany",
+              "service_id": "liturgy",
+              "first_suggestion": 4680.0
+            },
+            {
+              "id": "liturgy:s003",
+              "title": "Antiphon 2",
+              "service_id": "liturgy",
+              "first_suggestion": 4721.98
+            },
+            {
+              "id": "liturgy:s008",
+              "title": "Hymns after the Entrance",
+              "service_id": "liturgy",
+              "first_suggestion": 5043.36
+            },
+            {
+              "id": "liturgy:s010",
+              "title": "The Epistle",
+              "service_id": "liturgy",
+              "first_suggestion": 5237.94
+            },
+            {
+              "id": "liturgy:s011",
+              "title": "The Holy Gospel",
+              "service_id": "liturgy",
+              "first_suggestion": 5431.04
+            },
+            {
+              "id": "liturgy:s016",
+              "title": "Holy Anaphora",
+              "service_id": "liturgy",
+              "first_suggestion": 6339.82
+            },
+            {
+              "id": "liturgy:s018",
+              "title": "The Lord’s Prayer",
+              "service_id": "liturgy",
+              "first_suggestion": 6705.04
+            },
+            {
+              "id": "liturgy:s019",
+              "title": "Bowing Of Heads",
+              "service_id": "liturgy",
+              "first_suggestion": 6740.62
+            }
+          ],
+          "intervals": [
+            {
+              "start": 1200,
+              "end": 1290.0
+            },
+            {
+              "start": 1800,
+              "end": 1890.0
+            },
+            {
+              "start": 1950,
+              "end": 2040.0
+            },
+            {
+              "start": 2700,
+              "end": 2790.0
+            },
+            {
+              "start": 3600,
+              "end": 3690.0
+            },
+            {
+              "start": 4410,
+              "end": 4500.0
+            },
+            {
+              "start": 4680,
+              "end": 4770.0
+            },
+            {
+              "start": 4860,
+              "end": 4950.0
+            },
+            {
+              "start": 5040,
+              "end": 5130.0
+            },
+            {
+              "start": 5220,
+              "end": 5310.0
+            },
+            {
+              "start": 5430,
+              "end": 5520.0
+            },
+            {
+              "start": 6000,
+              "end": 6090.0
+            },
+            {
+              "start": 6300,
+              "end": 6390.0
+            },
+            {
+              "start": 6690,
+              "end": 6780.0
+            },
+            {
+              "start": 7200,
+              "end": 7290.0
+            },
+            {
+              "start": 7500,
+              "end": 7590.0
+            }
+          ]
+        },
+        {
+          "id": "asr-compare-small-sequence",
+          "label": "Whisper Small · 24-minute comparison",
+          "reference_id": "ref-e5432ce2789f102a2c0b",
+          "complete_asr_coverage": false,
+          "model": "mlx-community/whisper-small-mlx",
+          "llm_model": null,
+          "asr_metrics": {
+            "audio_seconds": 1440.0,
+            "inference_seconds": 65.6140279583633,
+            "speedup": 21.946526448792035,
+            "real_time_factor": 0.04556529719330785,
+            "peak_memory_gb": 1.229558694,
+            "includes_model_load": true
+          },
+          "llm_metrics": null,
+          "segments": 242,
+          "status_counts": {
+            "uncertain": 133,
+            "unknown": 82,
+            "matched": 27
+          },
+          "associated_segments": 27,
+          "suggested_sections": 7,
+          "associated_by_asr_language": {
+            "el": 5,
+            "en": 22
+          },
+          "segments_by_asr_language": {
+            "el": 107,
+            "la": 10,
+            "en": 125
+          },
+          "associated_by_service": {
+            "matins": 8,
+            "liturgy": 19
+          },
+          "sections": [
+            {
+              "id": "matins:s009",
+              "title": "Peace Litany",
+              "service_id": "matins",
+              "first_suggestion": 1246.56
+            },
+            {
+              "id": "matins:s010",
+              "title": "Matins",
+              "service_id": "matins",
+              "first_suggestion": 1268.6
+            },
+            {
+              "id": "matins:s016",
+              "title": "Antiphon 1",
+              "service_id": "matins",
+              "first_suggestion": 1950.0
+            },
+            {
+              "id": "matins:s046",
+              "title": "Ode vi. Katavasia",
+              "service_id": "matins",
+              "first_suggestion": 2754.54
+            },
+            {
+              "id": "matins:s047",
+              "title": "Oikos",
+              "service_id": "matins",
+              "first_suggestion": 2760.76
+            },
+            {
+              "id": "liturgy:s010",
+              "title": "The Epistle",
+              "service_id": "liturgy",
+              "first_suggestion": 5238.06
+            },
+            {
+              "id": "liturgy:s016",
+              "title": "Holy Anaphora",
+              "service_id": "liturgy",
+              "first_suggestion": 6339.62
+            }
+          ],
+          "intervals": [
+            {
+              "start": 1200,
+              "end": 1290.0
+            },
+            {
+              "start": 1800,
+              "end": 1890.0
+            },
+            {
+              "start": 1950,
+              "end": 2040.0
+            },
+            {
+              "start": 2700,
+              "end": 2790.0
+            },
+            {
+              "start": 3600,
+              "end": 3690.0
+            },
+            {
+              "start": 4410,
+              "end": 4500.0
+            },
+            {
+              "start": 4680,
+              "end": 4770.0
+            },
+            {
+              "start": 4860,
+              "end": 4950.0
+            },
+            {
+              "start": 5040,
+              "end": 5130.0
+            },
+            {
+              "start": 5220,
+              "end": 5310.0
+            },
+            {
+              "start": 5430,
+              "end": 5520.0
+            },
+            {
+              "start": 6000,
+              "end": 6090.0
+            },
+            {
+              "start": 6300,
+              "end": 6390.0
+            },
+            {
+              "start": 6690,
+              "end": 6780.0
+            },
+            {
+              "start": 7200,
+              "end": 7290.0
+            },
+            {
+              "start": 7500,
+              "end": 7590.0
+            }
+          ]
+        },
+        {
+          "id": "large-v3-greek-retries-sequence",
+          "label": "Whisper Large v3 · forced-Greek 2 × 30s retry",
+          "reference_id": "ref-e5432ce2789f102a2c0b",
+          "complete_asr_coverage": false,
+          "model": "mlx-community/whisper-large-v3-mlx",
+          "llm_model": null,
+          "asr_metrics": {
+            "audio_seconds": 60,
+            "inference_seconds": 9.201049666851759,
+            "real_time_factor": 0.15335082778086265,
+            "speedup": 6.520995122562974,
+            "includes_model_load": true,
+            "peak_memory_gb": 3.659793558
+          },
+          "llm_metrics": null,
+          "segments": 6,
+          "status_counts": {
+            "matched": 4,
+            "unknown": 2
+          },
+          "associated_segments": 4,
+          "suggested_sections": 3,
+          "associated_by_asr_language": {
+            "el": 4
+          },
+          "segments_by_asr_language": {
+            "el": 6
+          },
+          "associated_by_service": {
+            "matins": 1,
+            "liturgy": 3
+          },
+          "sections": [
+            {
+              "id": "matins:s016",
+              "title": "Antiphon 1",
+              "service_id": "matins",
+              "first_suggestion": 1953.46
+            },
+            {
+              "id": "liturgy:s006",
+              "title": "Small Entrance",
+              "service_id": "liturgy",
+              "first_suggestion": 4924.88
+            },
+            {
+              "id": "liturgy:s007",
+              "title": "Entrance Hymn",
+              "service_id": "liturgy",
+              "first_suggestion": 4933.6
+            }
+          ],
+          "intervals": [
+            {
+              "start": 1950.0,
+              "end": 1980.0,
+              "source_file": "data/large-v3-greek-retry-1950.json"
+            },
+            {
+              "start": 4920.0,
+              "end": 4950.0,
+              "source_file": "data/large-v3-greek-retry-4920.json"
+            }
+          ]
+        },
+        {
+          "id": "large-v3-auto-pilot-sequence",
+          "label": "Whisper Large v3 · 3-minute pilot",
+          "reference_id": "ref-e5432ce2789f102a2c0b",
+          "complete_asr_coverage": false,
+          "model": "mlx-community/whisper-large-v3-mlx",
+          "llm_model": null,
+          "asr_metrics": {
+            "audio_seconds": 180.0,
+            "inference_seconds": 21.126251958077773,
+            "decode_seconds": 0.10681712510995567,
+            "real_time_factor": 0.1173680664337654,
+            "speedup": 8.520205115284337,
+            "peak_memory_gb": 3.771320518,
+            "includes_model_load": true
+          },
+          "llm_metrics": null,
+          "segments": 18,
+          "status_counts": {
+            "matched": 13,
+            "uncertain": 2,
+            "unknown": 3
+          },
+          "associated_segments": 13,
+          "suggested_sections": 2,
+          "associated_by_asr_language": {
+            "el": 9,
+            "en": 3,
+            "la": 1
+          },
+          "segments_by_asr_language": {
+            "el": 12,
+            "en": 4,
+            "la": 2
+          },
+          "associated_by_service": {
+            "matins": 13
+          },
+          "sections": [
+            {
+              "id": "matins:s014",
+              "title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+              "service_id": "matins",
+              "first_suggestion": 1807.0
+            },
+            {
+              "id": "matins:s016",
+              "title": "Antiphon 1",
+              "service_id": "matins",
+              "first_suggestion": 1853.56
+            }
+          ],
+          "intervals": [
+            {
+              "start": 1807.0,
+              "end": 1987.0
+            }
+          ]
+        },
+        {
+          "id": "turbo-auto-pilot-sequence",
+          "label": "Whisper Turbo · 30s language detection",
+          "reference_id": "ref-e5432ce2789f102a2c0b",
+          "complete_asr_coverage": false,
+          "model": "mlx-community/whisper-large-v3-turbo",
+          "llm_model": null,
+          "asr_metrics": {
+            "audio_seconds": 180.0,
+            "inference_seconds": 13.009446499869227,
+            "decode_seconds": 0.11951758386567235,
+            "real_time_factor": 0.07227470277705127,
+            "speedup": 13.836099791164012,
+            "peak_memory_gb": 2.190781306,
+            "includes_model_load": true
+          },
+          "llm_metrics": null,
+          "segments": 17,
+          "status_counts": {
+            "uncertain": 4,
+            "matched": 12,
+            "unknown": 1
+          },
+          "associated_segments": 12,
+          "suggested_sections": 2,
+          "associated_by_asr_language": {
+            "el": 7,
+            "en": 5
+          },
+          "segments_by_asr_language": {
+            "el": 10,
+            "en": 7
+          },
+          "associated_by_service": {
+            "matins": 12
+          },
+          "sections": [
+            {
+              "id": "matins:s014",
+              "title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+              "service_id": "matins",
+              "first_suggestion": 1816.22
+            },
+            {
+              "id": "matins:s016",
+              "title": "Antiphon 1",
+              "service_id": "matins",
+              "first_suggestion": 1850.96
+            }
+          ],
+          "intervals": [
+            {
+              "start": 1807,
+              "end": 1987.0
+            }
+          ]
+        },
+        {
+          "id": "small-auto-pilot-sequence",
+          "label": "Whisper Small · 30s language detection",
+          "reference_id": "ref-e5432ce2789f102a2c0b",
+          "complete_asr_coverage": false,
+          "model": "mlx-community/whisper-small-mlx",
+          "llm_model": null,
+          "asr_metrics": {
+            "audio_seconds": 180.0,
+            "inference_seconds": 11.024360416922718,
+            "decode_seconds": 0.12333466694690287,
+            "real_time_factor": 0.06124644676068177,
+            "speedup": 16.327477803038324,
+            "peak_memory_gb": 1.229558694,
+            "includes_model_load": true
+          },
+          "llm_metrics": null,
+          "segments": 16,
+          "status_counts": {
+            "matched": 9,
+            "uncertain": 2,
+            "unknown": 5
+          },
+          "associated_segments": 9,
+          "suggested_sections": 2,
+          "associated_by_asr_language": {
+            "el": 7,
+            "en": 2
+          },
+          "segments_by_asr_language": {
+            "el": 10,
+            "la": 4,
+            "en": 2
+          },
+          "associated_by_service": {
+            "matins": 9
+          },
+          "sections": [
+            {
+              "id": "matins:s014",
+              "title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+              "service_id": "matins",
+              "first_suggestion": 1807.0
+            },
+            {
+              "id": "matins:s016",
+              "title": "Antiphon 1",
+              "service_id": "matins",
+              "first_suggestion": 1897.0
+            }
+          ],
+          "intervals": [
+            {
+              "start": 1807,
+              "end": 1987.0
+            }
+          ]
+        },
+        {
+          "id": "turbo-continuous-pilot-sequence",
+          "label": "Whisper Turbo · one language detection",
+          "reference_id": "ref-e5432ce2789f102a2c0b",
+          "complete_asr_coverage": false,
+          "model": "mlx-community/whisper-large-v3-turbo",
+          "llm_model": null,
+          "asr_metrics": {
+            "audio_seconds": 180.0,
+            "inference_seconds": 10.278283416992053,
+            "decode_seconds": 0.25524625019170344,
+            "real_time_factor": 0.05710157453884474,
+            "speedup": 17.512651937815228,
+            "peak_memory_gb": 2.210343558,
+            "includes_model_load": true
+          },
+          "llm_metrics": null,
+          "segments": 13,
+          "status_counts": {
+            "uncertain": 2,
+            "matched": 6,
+            "unknown": 5
+          },
+          "associated_segments": 6,
+          "suggested_sections": 2,
+          "associated_by_asr_language": {
+            "el": 6
+          },
+          "segments_by_asr_language": {
+            "el": 13
+          },
+          "associated_by_service": {
+            "matins": 6
+          },
+          "sections": [
+            {
+              "id": "matins:s014",
+              "title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+              "service_id": "matins",
+              "first_suggestion": 1816.22
+            },
+            {
+              "id": "matins:s016",
+              "title": "Antiphon 1",
+              "service_id": "matins",
+              "first_suggestion": 1850.98
+            }
+          ],
+          "intervals": [
+            {
+              "start": 1807,
+              "end": 1987.0
+            }
+          ]
+        },
+        {
+          "id": "qwen35b-combined-MIxJvLfaynY",
+          "label": "Qwen3.6-35B-A3B-4bit · combined reference · tracker v1 context",
+          "reference_id": "ref-e5432ce2789f102a2c0b",
+          "complete_asr_coverage": true,
+          "model": "mlx-community/whisper-large-v3-turbo",
+          "llm_model": "mlx-community/Qwen3.6-35B-A3B-4bit",
+          "asr_metrics": {
+            "audio_seconds": 7667.8791875,
+            "inference_seconds": 606.718922750093,
+            "decode_seconds": 3.418358833063394,
+            "real_time_factor": 0.07912473682933767,
+            "speedup": 12.638272682749985,
+            "peak_memory_gb": 2.190781306,
+            "includes_model_load": true
+          },
+          "llm_metrics": {
+            "load_seconds": 8.056158249964938,
+            "inference_seconds": 319.6296205839608,
+            "total_seconds": 329.1257376251742,
+            "prompt_tokens": 58761,
+            "generation_tokens": 6084,
+            "output_tokens_per_wall_second": 19.034531245522803,
+            "segments_submitted": 42,
+            "status_counts": {
+              "not_run": 914,
+              "uncertain": 20,
+              "unknown": 18,
+              "matched": 4
+            },
+            "failed_batches": 0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "evaluation_note": "Counts measure model decisions, not correctness. Human labels are required for accuracy.",
+            "raw_status_counts": {
+              "not_run": 914,
+              "uncertain": 23,
+              "unknown": 13,
+              "matched": 6
+            },
+            "guard_policy": {
+              "version": 1,
+              "minimum_model_support": 0.7,
+              "minimum_lexical_support_for_matched": 0.68,
+              "low_model_support_action": "unknown",
+              "weak_lexical_support_action": "uncertain",
+              "reason_text_parsing": false,
+              "note": "Conservative display rules, not calibrated correctness thresholds; original decisions remain in llm_proposal and raw responses.",
+              "new_pipeline_evidence": {
+                "transcript_and_reference_quotes_required": true,
+                "quote_match": "Substring after case/accent/punctuation normalization; minimum four letters/characters",
+                "subtitle_credit_abstention": "AUTHORWAVE, Sous-titrage, Cyrillic subtitle-credit marker, or 'subtitles by/created'",
+                "limits": "Quoted spans existing in both sources do not prove their meanings match or that the location is correct."
+              }
+            },
+            "guard_changed_decisions": 5,
+            "peak_memory_gb": 20.56499758
+          },
+          "segments": 956,
+          "status_counts": {
+            "not_run": 914,
+            "uncertain": 20,
+            "unknown": 18,
+            "matched": 4
+          },
+          "associated_segments": 4,
+          "suggested_sections": 4,
+          "associated_by_asr_language": {
+            "el": 2,
+            "en": 2
+          },
+          "segments_by_asr_language": {
+            "en": 381,
+            "el": 569,
+            "ru": 2,
+            "de": 1,
+            "pt": 1,
+            "fr": 1,
+            "ko": 1
+          },
+          "associated_by_service": {
+            "matins": 2,
+            "liturgy": 2
+          },
+          "sections": [
+            {
+              "id": "matins:s016",
+              "title": "Antiphon 1",
+              "service_id": "matins",
+              "first_suggestion": 1953.28
+            },
+            {
+              "id": "matins:s067",
+              "title": "Stichera for the Feast",
+              "service_id": "matins",
+              "first_suggestion": 3645.58
+            },
+            {
+              "id": "liturgy:s000",
+              "title": "Opening blessing and Peace Litany",
+              "service_id": "liturgy",
+              "first_suggestion": 4411.84
+            },
+            {
+              "id": "liturgy:s009",
+              "title": "Trisagios Hymn",
+              "service_id": "liturgy",
+              "first_suggestion": 5063.58
+            }
+          ],
+          "intervals": [
+            {
+              "start": 0.0,
+              "end": 7667.8791875
+            }
+          ]
+        },
+        {
+          "id": "turbo-qwen4b",
+          "label": "Qwen 4B · historical 48-segment comparison",
+          "reference_id": "legacy-c6be4acf2d4d3e9687c5",
+          "complete_asr_coverage": true,
+          "model": "mlx-community/whisper-large-v3-turbo",
+          "llm_model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+          "asr_metrics": {
+            "audio_seconds": 7667.8791875,
+            "inference_seconds": 606.718922750093,
+            "decode_seconds": 3.418358833063394,
+            "real_time_factor": 0.07912473682933767,
+            "speedup": 12.638272682749985,
+            "peak_memory_gb": 2.190781306,
+            "includes_model_load": true
+          },
+          "llm_metrics": {
+            "load_seconds": 7.2789961660746485,
+            "inference_seconds": 176.97173229116015,
+            "total_seconds": 184.60088449995965,
+            "prompt_tokens": 57628,
+            "generation_tokens": 2891,
+            "output_tokens_per_wall_second": 16.335942257962557,
+            "segments_submitted": 47,
+            "status_counts": {
+              "not_run": 908,
+              "uncertain": 13,
+              "unknown": 27,
+              "matched": 8
+            },
+            "failed_batches": 0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "evaluation_note": "Counts measure model decisions, not correctness. Human labels are required for accuracy.",
+            "raw_status_counts": {
+              "not_run": 908,
+              "uncertain": 21,
+              "unknown": 13,
+              "matched": 14
+            },
+            "guard_policy": {
+              "version": 1,
+              "minimum_model_support": 0.7,
+              "minimum_lexical_support_for_matched": 0.68,
+              "low_model_support_action": "unknown",
+              "weak_lexical_support_action": "uncertain",
+              "reason_text_parsing": false,
+              "note": "Conservative display rules, not calibrated correctness thresholds; original decisions remain in llm_proposal and raw responses."
+            },
+            "guard_changed_decisions": 21
+          },
+          "segments": 956,
+          "status_counts": {
+            "not_run": 908,
+            "uncertain": 13,
+            "unknown": 27,
+            "matched": 8
+          },
+          "associated_segments": 8,
+          "suggested_sections": 5,
+          "associated_by_asr_language": {
+            "el": 6,
+            "en": 2
+          },
+          "segments_by_asr_language": {
+            "en": 381,
+            "el": 569,
+            "ru": 2,
+            "de": 1,
+            "pt": 1,
+            "fr": 1,
+            "ko": 1
+          },
+          "associated_by_service": {
+            "legacy_liturgy": 8
+          },
+          "sections": [
+            {
+              "id": "s000",
+              "title": "Opening blessing and Peace Litany",
+              "service_id": null,
+              "first_suggestion": 4411.84
+            },
+            {
+              "id": "s002",
+              "title": "Small Litany",
+              "service_id": null,
+              "first_suggestion": 4690.52
+            },
+            {
+              "id": "s009",
+              "title": "Trisagios Hymn",
+              "service_id": null,
+              "first_suggestion": 4700.06
+            },
+            {
+              "id": "s011",
+              "title": "The Holy Gospel",
+              "service_id": null,
+              "first_suggestion": 5431.04
+            },
+            {
+              "id": "s016",
+              "title": "Holy Anaphora",
+              "service_id": null,
+              "first_suggestion": 6339.9
+            }
+          ],
+          "intervals": [
+            {
+              "start": 0.0,
+              "end": 7667.8791875
+            }
+          ]
+        },
+        {
+          "id": "turbo-qwen17b",
+          "label": "Qwen 1.7B · historical 48-segment comparison",
+          "reference_id": "legacy-c6be4acf2d4d3e9687c5",
+          "complete_asr_coverage": true,
+          "model": "mlx-community/whisper-large-v3-turbo",
+          "llm_model": "mlx-community/Qwen3-1.7B-4bit",
+          "asr_metrics": {
+            "audio_seconds": 7667.8791875,
+            "inference_seconds": 606.718922750093,
+            "decode_seconds": 3.418358833063394,
+            "real_time_factor": 0.07912473682933767,
+            "speedup": 12.638272682749985,
+            "peak_memory_gb": 2.190781306,
+            "includes_model_load": true
+          },
+          "llm_metrics": {
+            "load_seconds": 2.3841102079022676,
+            "inference_seconds": 160.25255808257498,
+            "total_seconds": 163.0301292920485,
+            "prompt_tokens": 57668,
+            "generation_tokens": 4931,
+            "output_tokens_per_wall_second": 30.77017964018492,
+            "segments_submitted": 47,
+            "status_counts": {
+              "not_run": 908,
+              "unknown": 40,
+              "matched": 4,
+              "uncertain": 4
+            },
+            "failed_batches": 0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "evaluation_note": "Counts measure model decisions, not correctness. Human labels are required for accuracy.",
+            "raw_status_counts": {
+              "not_run": 908,
+              "unknown": 23,
+              "uncertain": 19,
+              "matched": 6
+            },
+            "guard_policy": {
+              "version": 1,
+              "minimum_model_support": 0.7,
+              "minimum_lexical_support_for_matched": 0.68,
+              "low_model_support_action": "unknown",
+              "weak_lexical_support_action": "uncertain",
+              "reason_text_parsing": false,
+              "note": "Conservative display rules, not calibrated correctness thresholds; original decisions remain in llm_proposal and raw responses."
+            },
+            "guard_changed_decisions": 19
+          },
+          "segments": 956,
+          "status_counts": {
+            "not_run": 908,
+            "unknown": 40,
+            "matched": 4,
+            "uncertain": 4
+          },
+          "associated_segments": 4,
+          "suggested_sections": 1,
+          "associated_by_asr_language": {
+            "en": 4
+          },
+          "segments_by_asr_language": {
+            "en": 381,
+            "el": 569,
+            "ru": 2,
+            "de": 1,
+            "pt": 1,
+            "fr": 1,
+            "ko": 1
+          },
+          "associated_by_service": {
+            "legacy_liturgy": 4
+          },
+          "sections": [
+            {
+              "id": "s000",
+              "title": "Opening blessing and Peace Litany",
+              "service_id": null,
+              "first_suggestion": 4503.8
+            }
+          ],
+          "intervals": [
+            {
+              "start": 0.0,
+              "end": 7667.8791875
+            }
+          ]
+        },
+        {
+          "id": "turbo-qwen30b",
+          "label": "Qwen 30B · historical 48-segment comparison",
+          "reference_id": "legacy-c6be4acf2d4d3e9687c5",
+          "complete_asr_coverage": false,
+          "model": "mlx-community/whisper-large-v3-turbo",
+          "llm_model": "mlx-community/Qwen3-30B-A3B-Instruct-2507-4bit",
+          "asr_metrics": {
+            "audio_seconds": 7667.8791875,
+            "inference_seconds": 606.718922750093,
+            "decode_seconds": 3.418358833063394,
+            "real_time_factor": 0.07912473682933767,
+            "speedup": 12.638272682749985,
+            "peak_memory_gb": 2.190781306,
+            "includes_model_load": true
+          },
+          "llm_metrics": {
+            "load_seconds": 6.916657666908577,
+            "inference_seconds": 227.41220312402584,
+            "total_seconds": 235.26667575002648,
+            "prompt_tokens": 57628,
+            "generation_tokens": 2744,
+            "output_tokens_per_wall_second": 12.066195051562294,
+            "segments_submitted": 47,
+            "status_counts": {
+              "not_run": 908,
+              "uncertain": 19,
+              "matched": 19,
+              "unknown": 10
+            },
+            "failed_batches": 0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "evaluation_note": "Counts measure model decisions, not correctness. Human labels are required for accuracy.",
+            "raw_status_counts": {
+              "not_run": 908,
+              "uncertain": 19,
+              "matched": 26,
+              "unknown": 3
+            },
+            "guard_policy": {
+              "version": 1,
+              "minimum_model_support": 0.7,
+              "minimum_lexical_support_for_matched": 0.68,
+              "low_model_support_action": "unknown",
+              "weak_lexical_support_action": "uncertain",
+              "reason_text_parsing": false,
+              "note": "Conservative display rules, not calibrated correctness thresholds; original decisions remain in llm_proposal and raw responses."
+            },
+            "guard_changed_decisions": 19,
+            "peak_memory_gb": 18.526268567
+          },
+          "segments": 956,
+          "status_counts": {
+            "not_run": 908,
+            "uncertain": 19,
+            "matched": 19,
+            "unknown": 10
+          },
+          "associated_segments": 19,
+          "suggested_sections": 8,
+          "associated_by_asr_language": {
+            "el": 9,
+            "en": 10
+          },
+          "segments_by_asr_language": {
+            "en": 381,
+            "el": 569,
+            "ru": 2,
+            "de": 1,
+            "pt": 1,
+            "fr": 1,
+            "ko": 1
+          },
+          "associated_by_service": {
+            "legacy_liturgy": 19
+          },
+          "sections": [
+            {
+              "id": "s018",
+              "title": "The Lord’s Prayer",
+              "service_id": null,
+              "first_suggestion": 1821.3
+            },
+            {
+              "id": "s011",
+              "title": "The Holy Gospel",
+              "service_id": null,
+              "first_suggestion": 1926.52
+            },
+            {
+              "id": "s000",
+              "title": "Opening blessing and Peace Litany",
+              "service_id": null,
+              "first_suggestion": 4411.84
+            },
+            {
+              "id": "s002",
+              "title": "Small Litany",
+              "service_id": null,
+              "first_suggestion": 4690.52
+            },
+            {
+              "id": "s009",
+              "title": "Trisagios Hymn",
+              "service_id": null,
+              "first_suggestion": 4700.06
+            },
+            {
+              "id": "s006",
+              "title": "Small Entrance",
+              "service_id": null,
+              "first_suggestion": 5406.48
+            },
+            {
+              "id": "s024",
+              "title": "Dismissal",
+              "service_id": null,
+              "first_suggestion": 5437.62
+            },
+            {
+              "id": "s016",
+              "title": "Holy Anaphora",
+              "service_id": null,
+              "first_suggestion": 6339.9
+            }
+          ],
+          "intervals": null
+        },
+        {
+          "id": "turbo-qwen35b",
+          "label": "Qwen 35B · historical 48-segment comparison",
+          "reference_id": "legacy-c6be4acf2d4d3e9687c5",
+          "complete_asr_coverage": false,
+          "model": "mlx-community/whisper-large-v3-turbo",
+          "llm_model": "mlx-community/Qwen3.6-35B-A3B-4bit",
+          "asr_metrics": {
+            "audio_seconds": 7667.8791875,
+            "inference_seconds": 606.718922750093,
+            "decode_seconds": 3.418358833063394,
+            "real_time_factor": 0.07912473682933767,
+            "speedup": 12.638272682749985,
+            "peak_memory_gb": 2.190781306,
+            "includes_model_load": true
+          },
+          "llm_metrics": {
+            "load_seconds": 10.588061707792804,
+            "inference_seconds": 267.03579316614196,
+            "total_seconds": 278.9531183340587,
+            "prompt_tokens": 50853,
+            "generation_tokens": 3745,
+            "output_tokens_per_wall_second": 14.024337170672732,
+            "segments_submitted": 47,
+            "status_counts": {
+              "not_run": 908,
+              "uncertain": 11,
+              "unknown": 21,
+              "matched": 16
+            },
+            "failed_batches": 0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "evaluation_note": "Counts measure model decisions, not correctness. Human labels are required for accuracy.",
+            "raw_status_counts": {
+              "not_run": 908,
+              "uncertain": 11,
+              "unknown": 18,
+              "matched": 19
+            },
+            "guard_policy": {
+              "version": 1,
+              "minimum_model_support": 0.7,
+              "minimum_lexical_support_for_matched": 0.68,
+              "low_model_support_action": "unknown",
+              "weak_lexical_support_action": "uncertain",
+              "reason_text_parsing": false,
+              "note": "Conservative display rules, not calibrated correctness thresholds; original decisions remain in llm_proposal and raw responses."
+            },
+            "guard_changed_decisions": 6,
+            "peak_memory_gb": 20.44391982
+          },
+          "segments": 956,
+          "status_counts": {
+            "not_run": 908,
+            "uncertain": 11,
+            "unknown": 21,
+            "matched": 16
+          },
+          "associated_segments": 16,
+          "suggested_sections": 8,
+          "associated_by_asr_language": {
+            "en": 8,
+            "el": 8
+          },
+          "segments_by_asr_language": {
+            "en": 381,
+            "el": 569,
+            "ru": 2,
+            "de": 1,
+            "pt": 1,
+            "fr": 1,
+            "ko": 1
+          },
+          "associated_by_service": {
+            "legacy_liturgy": 16
+          },
+          "sections": [
+            {
+              "id": "s010",
+              "title": "The Epistle",
+              "service_id": null,
+              "first_suggestion": 1920.0
+            },
+            {
+              "id": "s025",
+              "title": "Memorial Service",
+              "service_id": null,
+              "first_suggestion": 1926.52
+            },
+            {
+              "id": "s000",
+              "title": "Opening blessing and Peace Litany",
+              "service_id": null,
+              "first_suggestion": 4411.84
+            },
+            {
+              "id": "s018",
+              "title": "The Lord’s Prayer",
+              "service_id": null,
+              "first_suggestion": 4680.0
+            },
+            {
+              "id": "s002",
+              "title": "Small Litany",
+              "service_id": null,
+              "first_suggestion": 4690.52
+            },
+            {
+              "id": "s009",
+              "title": "Trisagios Hymn",
+              "service_id": null,
+              "first_suggestion": 4700.06
+            },
+            {
+              "id": "s011",
+              "title": "The Holy Gospel",
+              "service_id": null,
+              "first_suggestion": 5431.04
+            },
+            {
+              "id": "s016",
+              "title": "Holy Anaphora",
+              "service_id": null,
+              "first_suggestion": 6339.9
+            }
+          ],
+          "intervals": null
+        }
+      ]
+    }
+  ]
+}

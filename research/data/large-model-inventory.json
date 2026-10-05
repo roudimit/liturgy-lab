@@ -1,0 +1,1671 @@
+[
+  {
+    "model": "mlx-community/Qwen3-30B-A3B-Instruct-2507-4bit",
+    "revision": "e9675aa3ca5f900ccef55267914466d55ab325fa",
+    "files": [
+      {
+        "name": "added_tokens.json",
+        "bytes": 707
+      },
+      {
+        "name": "chat_template.jinja",
+        "bytes": 4040
+      },
+      {
+        "name": "config.json",
+        "bytes": 10866
+      },
+      {
+        "name": "generation_config.json",
+        "bytes": 239
+      },
+      {
+        "name": "merges.txt",
+        "bytes": 1671853
+      },
+      {
+        "name": "model-00001-of-00004.safetensors",
+        "bytes": 5321473414
+      },
+      {
+        "name": "model-00002-of-00004.safetensors",
+        "bytes": 5366644780
+      },
+      {
+        "name": "model-00003-of-00004.safetensors",
+        "bytes": 5276887419
+      },
+      {
+        "name": "model-00004-of-00004.safetensors",
+        "bytes": 1216066381
+      },
+      {
+        "name": "model.safetensors.index.json",
+        "bytes": 119598
+      },
+      {
+        "name": "special_tokens_map.json",
+        "bytes": 613
+      },
+      {
+        "name": "tokenizer.json",
+        "bytes": 11422654
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 5404
+      },
+      {
+        "name": "vocab.json",
+        "bytes": 2776833
+      }
+    ],
+    "download_bytes": 17197084801,
+    "source_url": "https://huggingface.co/mlx-community/Qwen3-30B-A3B-Instruct-2507-4bit",
+    "transfer": "HTTPS (Xet disabled)",
+    "config": {
+      "architectures": [
+        "Qwen3MoeForCausalLM"
+      ],
+      "attention_bias": false,
+      "attention_dropout": 0.0,
+      "bos_token_id": 151643,
+      "decoder_sparse_step": 1,
+      "eos_token_id": 151645,
+      "head_dim": 128,
+      "hidden_act": "silu",
+      "hidden_size": 2048,
+      "initializer_range": 0.02,
+      "intermediate_size": 6144,
+      "max_position_embeddings": 262144,
+      "max_window_layers": 48,
+      "mlp_only_layers": [],
+      "model_type": "qwen3_moe",
+      "moe_intermediate_size": 768,
+      "norm_topk_prob": true,
+      "num_attention_heads": 32,
+      "num_experts": 128,
+      "num_experts_per_tok": 8,
+      "num_hidden_layers": 48,
+      "num_key_value_heads": 4,
+      "output_router_logits": false,
+      "quantization": {
+        "group_size": 64,
+        "bits": 4,
+        "model.layers.0.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.1.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.2.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.3.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.4.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.5.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.6.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.7.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.8.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.9.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.10.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.11.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.12.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.13.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.14.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.15.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.16.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.17.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.18.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.19.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.20.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.21.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.22.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.23.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.24.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.25.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.26.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.27.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.28.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.29.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.30.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.31.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.32.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.33.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.34.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.35.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.36.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.37.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.38.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.39.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.40.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.41.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.42.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.43.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.44.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.45.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.46.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.47.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        }
+      },
+      "quantization_config": {
+        "group_size": 64,
+        "bits": 4,
+        "model.layers.0.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.1.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.2.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.3.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.4.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.5.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.6.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.7.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.8.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.9.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.10.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.11.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.12.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.13.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.14.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.15.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.16.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.17.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.18.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.19.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.20.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.21.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.22.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.23.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.24.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.25.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.26.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.27.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.28.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.29.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.30.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.31.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.32.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.33.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.34.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.35.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.36.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.37.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.38.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.39.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.40.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.41.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.42.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.43.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.44.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.45.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.46.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "model.layers.47.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        }
+      },
+      "rms_norm_eps": 1e-06,
+      "rope_scaling": null,
+      "rope_theta": 10000000,
+      "router_aux_loss_coef": 0.001,
+      "sliding_window": null,
+      "tie_word_embeddings": false,
+      "torch_dtype": "bfloat16",
+      "transformers_version": "4.51.0",
+      "use_cache": true,
+      "use_sliding_window": false,
+      "vocab_size": 151936
+    },
+    "estimated_kv_bytes_per_token": 98304,
+    "estimated_kv_8192_gib": 0.75,
+    "kv_estimate_note": "Full-attention FP16/BF16 K/V cache only; excludes recurrent-state, activation, buffer and allocator overhead.",
+    "snapshot": "work/cache/huggingface/hub/models--mlx-community--Qwen3-30B-A3B-Instruct-2507-4bit/snapshots/e9675aa3ca5f900ccef55267914466d55ab325fa",
+    "download_seconds": 175.96016087499447,
+    "verified_files": [
+      {
+        "name": "added_tokens.json",
+        "bytes": 707,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3-30B-A3B-Instruct-2507-4bit/blobs/b54f9135e44c1e81047e8d05cb027af8bc039eed"
+      },
+      {
+        "name": "chat_template.jinja",
+        "bytes": 4040,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3-30B-A3B-Instruct-2507-4bit/blobs/a18870ad4ba26ac6c43758fc506c1bb6ff206bb4"
+      },
+      {
+        "name": "config.json",
+        "bytes": 10866,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3-30B-A3B-Instruct-2507-4bit/blobs/8e25802c4d7397793cc0c13d1cf8a2ea56399e7c"
+      },
+      {
+        "name": "generation_config.json",
+        "bytes": 239,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3-30B-A3B-Instruct-2507-4bit/blobs/a6d85d282d6ae2661cc6146ef840d1706371b91c"
+      },
+      {
+        "name": "merges.txt",
+        "bytes": 1671853,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3-30B-A3B-Instruct-2507-4bit/blobs/31349551d90c7606f325fe0f11bbb8bd5fa0d7c7"
+      },
+      {
+        "name": "model-00001-of-00004.safetensors",
+        "bytes": 5321473414,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3-30B-A3B-Instruct-2507-4bit/blobs/70919a0f0b7d86c3100e30dfc2c72eb29909b841f9414b9c5ae3e8673ec9ff8c"
+      },
+      {
+        "name": "model-00002-of-00004.safetensors",
+        "bytes": 5366644780,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3-30B-A3B-Instruct-2507-4bit/blobs/1a0387973b19b0bac1201358d1f56989deaf595da34f307ec29777fa6f8469b8"
+      },
+      {
+        "name": "model-00003-of-00004.safetensors",
+        "bytes": 5276887419,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3-30B-A3B-Instruct-2507-4bit/blobs/d1a627729b2791dba7db5cda5dd0d24ea4c44c5131981c258598d5d0c80e0df3"
+      },
+      {
+        "name": "model-00004-of-00004.safetensors",
+        "bytes": 1216066381,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3-30B-A3B-Instruct-2507-4bit/blobs/b02f0e9f626bd2f5bb41e057216c9d6f594ddeac91cc3f2161cc935d050a12c6"
+      },
+      {
+        "name": "model.safetensors.index.json",
+        "bytes": 119598,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3-30B-A3B-Instruct-2507-4bit/blobs/ae751718aa10529e1d9b20462884ace56189e304"
+      },
+      {
+        "name": "special_tokens_map.json",
+        "bytes": 613,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3-30B-A3B-Instruct-2507-4bit/blobs/ac23c0aaa2434523c494330aeb79c58395378103"
+      },
+      {
+        "name": "tokenizer.json",
+        "bytes": 11422654,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3-30B-A3B-Instruct-2507-4bit/blobs/aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 5404,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3-30B-A3B-Instruct-2507-4bit/blobs/1d4fba2de0e94e8f97e08927cfb7d084160c2880"
+      },
+      {
+        "name": "vocab.json",
+        "bytes": 2776833,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3-30B-A3B-Instruct-2507-4bit/blobs/4783fe10ac3adce15ac8f358ef5462739852c569"
+      }
+    ],
+    "validation": "Resolved file sizes match HF metadata; all safetensors headers parse",
+    "download_complete": true
+  },
+  {
+    "model": "mlx-community/Qwen3.6-35B-A3B-4bit",
+    "revision": "38740b847e4cb78f352aba30aa41c76e08e6eb46",
+    "files": [
+      {
+        "name": "chat_template.jinja",
+        "bytes": 7764
+      },
+      {
+        "name": "config.json",
+        "bytes": 23591
+      },
+      {
+        "name": "configuration.json",
+        "bytes": 58
+      },
+      {
+        "name": "generation_config.json",
+        "bytes": 202
+      },
+      {
+        "name": "model-00001-of-00004.safetensors",
+        "bytes": 5288196018
+      },
+      {
+        "name": "model-00002-of-00004.safetensors",
+        "bytes": 5368472749
+      },
+      {
+        "name": "model-00003-of-00004.safetensors",
+        "bytes": 5368324139
+      },
+      {
+        "name": "model-00004-of-00004.safetensors",
+        "bytes": 4377211365
+      },
+      {
+        "name": "model.safetensors.index.json",
+        "bytes": 215755
+      },
+      {
+        "name": "preprocessor_config.json",
+        "bytes": 390
+      },
+      {
+        "name": "processor_config.json",
+        "bytes": 1312
+      },
+      {
+        "name": "tokenizer.json",
+        "bytes": 19989343
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 1139
+      },
+      {
+        "name": "video_preprocessor_config.json",
+        "bytes": 385
+      },
+      {
+        "name": "vocab.json",
+        "bytes": 6722759
+      }
+    ],
+    "download_bytes": 20429166969,
+    "source_url": "https://huggingface.co/mlx-community/Qwen3.6-35B-A3B-4bit",
+    "transfer": "HTTPS (Xet disabled)",
+    "config": {
+      "architectures": [
+        "Qwen3_5MoeForConditionalGeneration"
+      ],
+      "eos_token_id": [
+        248046,
+        248044
+      ],
+      "image_token_id": 248056,
+      "model_type": "qwen3_5_moe",
+      "quantization": {
+        "group_size": 64,
+        "bits": 4,
+        "mode": "affine",
+        "language_model.model.layers.0.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.0.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.1.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.1.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.2.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.2.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.3.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.3.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.4.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.4.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.5.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.5.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.6.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.6.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.7.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.7.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.8.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.8.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.9.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.9.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.10.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.10.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.11.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.11.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.12.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.12.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.13.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.13.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.14.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.14.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.15.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.15.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.16.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.16.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.17.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.17.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.18.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.18.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.19.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.19.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.20.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.20.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.21.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.21.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.22.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.22.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.23.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.23.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.24.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.24.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.25.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.25.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.26.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.26.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.27.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.27.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.28.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.28.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.29.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.29.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.30.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.30.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.31.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.31.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.32.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.32.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.33.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.33.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.34.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.34.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.35.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.35.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.36.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.36.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.37.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.37.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.38.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.38.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.39.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.39.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        }
+      },
+      "quantization_config": {
+        "group_size": 64,
+        "bits": 4,
+        "mode": "affine",
+        "language_model.model.layers.0.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.0.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.1.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.1.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.2.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.2.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.3.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.3.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.4.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.4.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.5.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.5.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.6.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.6.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.7.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.7.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.8.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.8.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.9.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.9.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.10.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.10.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.11.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.11.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.12.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.12.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.13.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.13.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.14.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.14.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.15.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.15.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.16.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.16.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.17.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.17.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.18.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.18.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.19.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.19.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.20.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.20.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.21.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.21.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.22.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.22.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.23.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.23.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.24.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.24.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.25.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.25.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.26.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.26.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.27.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.27.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.28.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.28.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.29.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.29.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.30.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.30.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.31.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.31.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.32.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.32.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.33.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.33.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.34.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.34.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.35.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.35.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.36.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.36.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.37.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.37.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.38.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.38.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.39.mlp.gate": {
+          "group_size": 64,
+          "bits": 8
+        },
+        "language_model.model.layers.39.mlp.shared_expert_gate": {
+          "group_size": 64,
+          "bits": 8
+        }
+      },
+      "text_config": {
+        "attention_bias": false,
+        "attention_dropout": 0.0,
+        "attn_output_gate": true,
+        "bos_token_id": 248044,
+        "dtype": "bfloat16",
+        "eos_token_id": 248044,
+        "full_attention_interval": 4,
+        "head_dim": 256,
+        "hidden_act": "silu",
+        "hidden_size": 2048,
+        "initializer_range": 0.02,
+        "layer_types": [
+          "linear_attention",
+          "linear_attention",
+          "linear_attention",
+          "full_attention",
+          "linear_attention",
+          "linear_attention",
+          "linear_attention",
+          "full_attention",
+          "linear_attention",
+          "linear_attention",
+          "linear_attention",
+          "full_attention",
+          "linear_attention",
+          "linear_attention",
+          "linear_attention",
+          "full_attention",
+          "linear_attention",
+          "linear_attention",
+          "linear_attention",
+          "full_attention",
+          "linear_attention",
+          "linear_attention",
+          "linear_attention",
+          "full_attention",
+          "linear_attention",
+          "linear_attention",
+          "linear_attention",
+          "full_attention",
+          "linear_attention",
+          "linear_attention",
+          "linear_attention",
+          "full_attention",
+          "linear_attention",
+          "linear_attention",
+          "linear_attention",
+          "full_attention",
+          "linear_attention",
+          "linear_attention",
+          "linear_attention",
+          "full_attention"
+        ],
+        "linear_conv_kernel_dim": 4,
+        "linear_key_head_dim": 128,
+        "linear_num_key_heads": 16,
+        "linear_num_value_heads": 32,
+        "linear_value_head_dim": 128,
+        "mamba_ssm_dtype": "float32",
+        "max_position_embeddings": 262144,
+        "model_type": "qwen3_5_moe_text",
+        "moe_intermediate_size": 512,
+        "mtp_num_hidden_layers": 1,
+        "mtp_use_dedicated_embeddings": false,
+        "num_attention_heads": 16,
+        "num_experts": 256,
+        "num_experts_per_tok": 8,
+        "num_hidden_layers": 40,
+        "num_key_value_heads": 2,
+        "output_router_logits": false,
+        "pad_token_id": null,
+        "partial_rotary_factor": 0.25,
+        "rms_norm_eps": 1e-06,
+        "rope_parameters": {
+          "mrope_interleaved": true,
+          "mrope_section": [
+            11,
+            11,
+            10
+          ],
+          "partial_rotary_factor": 0.25,
+          "rope_theta": 10000000,
+          "rope_type": "default"
+        },
+        "router_aux_loss_coef": 0.001,
+        "shared_expert_intermediate_size": 512,
+        "tie_word_embeddings": false,
+        "use_cache": true,
+        "vocab_size": 248320
+      },
+      "tie_word_embeddings": false,
+      "transformers_version": "4.57.1",
+      "video_token_id": 248057,
+      "vision_config": {
+        "deepstack_visual_indexes": [],
+        "depth": 27,
+        "hidden_act": "gelu_pytorch_tanh",
+        "hidden_size": 1152,
+        "in_channels": 3,
+        "initializer_range": 0.02,
+        "intermediate_size": 4304,
+        "model_type": "qwen3_5_moe",
+        "num_heads": 16,
+        "num_position_embeddings": 2304,
+        "out_hidden_size": 2048,
+        "patch_size": 16,
+        "spatial_merge_size": 2,
+        "temporal_patch_size": 2
+      },
+      "vision_end_token_id": 248054,
+      "vision_start_token_id": 248053
+    },
+    "estimated_kv_bytes_per_token": 20480,
+    "estimated_kv_8192_gib": 0.15625,
+    "kv_estimate_note": "Full-attention FP16/BF16 K/V cache only; excludes recurrent-state, activation, buffer and allocator overhead.",
+    "snapshot": "work/cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/snapshots/38740b847e4cb78f352aba30aa41c76e08e6eb46",
+    "download_seconds": 546.6720292498358,
+    "verified_files": [
+      {
+        "name": "chat_template.jinja",
+        "bytes": 7764,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/blobs/a8755d827c0a7b614c246c4060dfd58ab352a8ff"
+      },
+      {
+        "name": "config.json",
+        "bytes": 23591,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/blobs/e3a2334ebf2df216742ef3ed4b784417bfffe6fc"
+      },
+      {
+        "name": "configuration.json",
+        "bytes": 58,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/blobs/d24dba949ee1fe70cc810e4c4709a0bddf4e06ba"
+      },
+      {
+        "name": "generation_config.json",
+        "bytes": 202,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/blobs/023756cfadf88e5bf69eefeee3e172f38c448d64"
+      },
+      {
+        "name": "model-00001-of-00004.safetensors",
+        "bytes": 5288196018,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/blobs/09f3e6ecb0b7af6e6a38bc8169a134c821b0924c2679b2bb8f4426ad38d032b8"
+      },
+      {
+        "name": "model-00002-of-00004.safetensors",
+        "bytes": 5368472749,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/blobs/31dcdb1c49eebdb1505bd14e3cb33f9cf900bd2546b638f2464694ae763a033f"
+      },
+      {
+        "name": "model-00003-of-00004.safetensors",
+        "bytes": 5368324139,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/blobs/3e66de06a1f03dade16a612a368cfce4a4c9caa4efd7d28185454384082cec03"
+      },
+      {
+        "name": "model-00004-of-00004.safetensors",
+        "bytes": 4377211365,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/blobs/a5d0cf03519c26f8b506df6b0ba60526e5c08c8cea22d0c21ce92950e58a5422"
+      },
+      {
+        "name": "model.safetensors.index.json",
+        "bytes": 215755,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/blobs/f714d295484e01790bad8b40c2ce49323d7d2598"
+      },
+      {
+        "name": "preprocessor_config.json",
+        "bytes": 390,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/blobs/2ea84a437d448ff71b08df68fdd949d5cc4ebb64"
+      },
+      {
+        "name": "processor_config.json",
+        "bytes": 1312,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/blobs/a3be3e79470d0a5befe0ba5247dfad8717d84529"
+      },
+      {
+        "name": "tokenizer.json",
+        "bytes": 19989343,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/blobs/87a7830d63fcf43bf241c3c5242e96e62dd3fdc29224ca26fed8ea333db72de4"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 1139,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/blobs/a068e2468cff426a9b105006e74e044030a6faf4"
+      },
+      {
+        "name": "video_preprocessor_config.json",
+        "bytes": 385,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/blobs/3ba673a5ad7d4d13f54155ecd38b2a94a6dac8fe"
+      },
+      {
+        "name": "vocab.json",
+        "bytes": 6722759,
+        "resolved_path": "work/cache/huggingface/hub/models--mlx-community--Qwen3.6-35B-A3B-4bit/blobs/0aa0ce0658d60ac4a5d609f4eadb0e8e43514176"
+      }
+    ],
+    "validation": "Resolved file sizes match HF metadata; all safetensors headers parse",
+    "download_complete": true
+  },
+  {
+    "model": "cnfusion/Llama-3.3-70B-Instruct-Q2-mlx",
+    "revision": "1c4ac0ae40cb6c920787572e522a9ea9846dee9d",
+    "files": [
+      {
+        "name": "config.json",
+        "bytes": 1173
+      },
+      {
+        "name": "model-00001-of-00005.safetensors",
+        "bytes": 5335925084
+      },
+      {
+        "name": "model-00002-of-00005.safetensors",
+        "bytes": 5348445602
+      },
+      {
+        "name": "model-00003-of-00005.safetensors",
+        "bytes": 5348445624
+      },
+      {
+        "name": "model-00004-of-00005.safetensors",
+        "bytes": 5348445604
+      },
+      {
+        "name": "model-00005-of-00005.safetensors",
+        "bytes": 669208022
+      },
+      {
+        "name": "model.safetensors.index.json",
+        "bytes": 158327
+      },
+      {
+        "name": "special_tokens_map.json",
+        "bytes": 454
+      },
+      {
+        "name": "tokenizer.json",
+        "bytes": 17209920
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 55472
+      }
+    ],
+    "download_bytes": 22067895282,
+    "source_url": "https://huggingface.co/cnfusion/Llama-3.3-70B-Instruct-Q2-mlx",
+    "transfer": "HTTPS (Xet disabled)",
+    "config": {
+      "architectures": [
+        "LlamaForCausalLM"
+      ],
+      "attention_bias": false,
+      "attention_dropout": 0.0,
+      "bos_token_id": 128000,
+      "eos_token_id": [
+        128001,
+        128008,
+        128009
+      ],
+      "head_dim": 128,
+      "hidden_act": "silu",
+      "hidden_size": 8192,
+      "initializer_range": 0.02,
+      "intermediate_size": 28672,
+      "max_position_embeddings": 131072,
+      "mlp_bias": false,
+      "model_type": "llama",
+      "num_attention_heads": 64,
+      "num_hidden_layers": 80,
+      "num_key_value_heads": 8,
+      "pad_token_id": 128004,
+      "pretraining_tp": 1,
+      "quantization": {
+        "group_size": 64,
+        "bits": 2
+      },
+      "quantization_config": {
+        "group_size": 64,
+        "bits": 2
+      },
+      "rms_norm_eps": 1e-05,
+      "rope_scaling": {
+        "factor": 8.0,
+        "high_freq_factor": 4.0,
+        "low_freq_factor": 1.0,
+        "original_max_position_embeddings": 8192,
+        "rope_type": "llama3"
+      },
+      "rope_theta": 500000.0,
+      "tie_word_embeddings": false,
+      "torch_dtype": "bfloat16",
+      "transformers_version": "4.47.0",
+      "unsloth_fixed": true,
+      "use_cache": true,
+      "vocab_size": 128256
+    },
+    "estimated_kv_bytes_per_token": 327680,
+    "estimated_kv_8192_gib": 2.5,
+    "kv_estimate_note": "Full-attention FP16/BF16 K/V cache only; excludes recurrent-state, activation, buffer and allocator overhead.",
+    "hardware_probe_assessment": {
+      "prompt_token_limit": 2048,
+      "output_token_limit": 256,
+      "estimated_peak_bytes": 24805444656,
+      "ceiling_bytes": 26000000000,
+      "buffer_allowance_bytes": 2000000000,
+      "disk_free_bytes_before_download": 177274556416,
+      "feasible_estimate": true,
+      "estimate_note": "Weights plus 2304-token full-attention KV and 2 GB buffer allowance; a planning estimate, not proof of runtime fit. No system memory limits are raised.",
+      "provenance_note": "Third-party 2-bit MLX conversion of unsloth/Llama-3.3-70B-Instruct; not an official Meta quantization. Standard Llama architecture, safetensors and tokenizer data only; trust_remote_code=False.",
+      "purpose": "Short hardware-fit and Greek alignment probe, separate from the controlled 48-row comparison."
+    },
+    "snapshot": "work/cache/huggingface/hub/models--cnfusion--Llama-3.3-70B-Instruct-Q2-mlx/snapshots/1c4ac0ae40cb6c920787572e522a9ea9846dee9d",
+    "download_seconds": 595.2253751249518,
+    "verified_files": [
+      {
+        "name": "config.json",
+        "bytes": 1173,
+        "resolved_path": "work/cache/huggingface/hub/models--cnfusion--Llama-3.3-70B-Instruct-Q2-mlx/blobs/fcaaa8c7dadbf0a982baa7bb4595e28b1b81a5a5"
+      },
+      {
+        "name": "model-00001-of-00005.safetensors",
+        "bytes": 5335925084,
+        "resolved_path": "work/cache/huggingface/hub/models--cnfusion--Llama-3.3-70B-Instruct-Q2-mlx/blobs/f2fe42b5e6eaf610fef0515695822db20f0d7a8361202ba28829e76a55fd3a1c"
+      },
+      {
+        "name": "model-00002-of-00005.safetensors",
+        "bytes": 5348445602,
+        "resolved_path": "work/cache/huggingface/hub/models--cnfusion--Llama-3.3-70B-Instruct-Q2-mlx/blobs/ccce6537ba568ca92dfdd2208718dc86ffd81e874099689d913330388d4628bb"
+      },
+      {
+        "name": "model-00003-of-00005.safetensors",
+        "bytes": 5348445624,
+        "resolved_path": "work/cache/huggingface/hub/models--cnfusion--Llama-3.3-70B-Instruct-Q2-mlx/blobs/6f9156553ced3af6a316b08cbf4721c3a4cb76aa062d98dd0f4b638d5c6f6d6c"
+      },
+      {
+        "name": "model-00004-of-00005.safetensors",
+        "bytes": 5348445604,
+        "resolved_path": "work/cache/huggingface/hub/models--cnfusion--Llama-3.3-70B-Instruct-Q2-mlx/blobs/ad3f9a4681feceaf3e94f9efd128d13c1f01567e79a877197522c7857fad06c3"
+      },
+      {
+        "name": "model-00005-of-00005.safetensors",
+        "bytes": 669208022,
+        "resolved_path": "work/cache/huggingface/hub/models--cnfusion--Llama-3.3-70B-Instruct-Q2-mlx/blobs/7a2c5917f52b52832826e4642928811863fe451c653f425cf4aafd88ae4e9435"
+      },
+      {
+        "name": "model.safetensors.index.json",
+        "bytes": 158327,
+        "resolved_path": "work/cache/huggingface/hub/models--cnfusion--Llama-3.3-70B-Instruct-Q2-mlx/blobs/078ff9896e7d7e3d9c3d6606c5260576c505eb50"
+      },
+      {
+        "name": "special_tokens_map.json",
+        "bytes": 454,
+        "resolved_path": "work/cache/huggingface/hub/models--cnfusion--Llama-3.3-70B-Instruct-Q2-mlx/blobs/3c1d04911c269b925af977a3151c9704e990e4d0"
+      },
+      {
+        "name": "tokenizer.json",
+        "bytes": 17209920,
+        "resolved_path": "work/cache/huggingface/hub/models--cnfusion--Llama-3.3-70B-Instruct-Q2-mlx/blobs/6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 55472,
+        "resolved_path": "work/cache/huggingface/hub/models--cnfusion--Llama-3.3-70B-Instruct-Q2-mlx/blobs/76b88b1f4f627d29caa83b571ba889ab58bff008"
+      }
+    ],
+    "validation": "Resolved file sizes match HF metadata; all safetensors headers parse",
+    "download_complete": true
+  }
+]

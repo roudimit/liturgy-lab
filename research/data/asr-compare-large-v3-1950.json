@@ -1,0 +1,323 @@
+{
+  "model": "mlx-community/whisper-large-v3-mlx",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 1950,
+  "end": 2040.0,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 1950.0,
+      "end": 1962.46,
+      "text": "Suntes ion eschinti te apoi tu,",
+      "temperature": 0.0,
+      "avg_logprob": -1.06671984055463,
+      "compression_ratio": 0.8378378378378378,
+      "no_speech_prob": 0.4286518096923828,
+      "words": [
+        {
+          "word": " Suntes",
+          "start": 1950.0,
+          "end": 1952.3,
+          "probability": 0.336181640625
+        },
+        {
+          "word": " ion",
+          "start": 1952.3,
+          "end": 1953.74,
+          "probability": 0.4755859375
+        },
+        {
+          "word": " eschinti",
+          "start": 1953.74,
+          "end": 1957.84,
+          "probability": 0.4853515625
+        },
+        {
+          "word": " te",
+          "start": 1957.84,
+          "end": 1959.04,
+          "probability": 0.71142578125
+        },
+        {
+          "word": " apoi",
+          "start": 1959.04,
+          "end": 1961.64,
+          "probability": 0.42724609375
+        },
+        {
+          "word": " tu,",
+          "start": 1961.64,
+          "end": 1962.46,
+          "probability": 0.79833984375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "la"
+    },
+    {
+      "id": 1,
+      "seek": 1246,
+      "start": 1964.58,
+      "end": 1978.52,
+      "text": "Suciriu, os hortos garpiri, es est e aperit.",
+      "temperature": 0.0,
+      "avg_logprob": -0.8985881805419922,
+      "compression_ratio": 0.9166666666666666,
+      "no_speech_prob": 0.8286058902740479,
+      "words": [
+        {
+          "word": " Suciriu,",
+          "start": 1964.58,
+          "end": 1965.98,
+          "probability": 0.09759521484375
+        },
+        {
+          "word": " os",
+          "start": 1966.22,
+          "end": 1966.96,
+          "probability": 0.61865234375
+        },
+        {
+          "word": " hortos",
+          "start": 1966.96,
+          "end": 1969.22,
+          "probability": 0.70751953125
+        },
+        {
+          "word": " garpiri,",
+          "start": 1969.22,
+          "end": 1972.3,
+          "probability": 0.8056640625
+        },
+        {
+          "word": " es",
+          "start": 1972.3,
+          "end": 1974.6,
+          "probability": 0.5029296875
+        },
+        {
+          "word": " est",
+          "start": 1974.6,
+          "end": 1975.46,
+          "probability": 0.68359375
+        },
+        {
+          "word": " e",
+          "start": 1975.46,
+          "end": 1976.6,
+          "probability": 0.2200927734375
+        },
+        {
+          "word": " aperit.",
+          "start": 1976.6,
+          "end": 1978.52,
+          "probability": 0.384521484375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "la"
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 1982.78,
+      "end": 1984.18,
+      "text": "exsiramenim.",
+      "temperature": 0.0,
+      "avg_logprob": -0.6126165390014648,
+      "compression_ratio": 1.1153846153846154,
+      "no_speech_prob": 0.8515470027923584,
+      "words": [
+        {
+          "word": " exsiramenim.",
+          "start": 1982.78,
+          "end": 1984.18,
+          "probability": 0.52490234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "la"
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 1986.0,
+      "end": 1987.94,
+      "text": "Oxa Patris,",
+      "temperature": 0.0,
+      "avg_logprob": -0.6126165390014648,
+      "compression_ratio": 1.1153846153846154,
+      "no_speech_prob": 0.8515470027923584,
+      "words": [
+        {
+          "word": " Oxa",
+          "start": 1985.88,
+          "end": 1986.58,
+          "probability": 0.23974609375
+        },
+        {
+          "word": " Patris,",
+          "start": 1986.58,
+          "end": 1987.94,
+          "probability": 0.4677734375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "la"
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 1990.46,
+      "end": 1991.86,
+      "text": "Eio",
+      "temperature": 0.0,
+      "avg_logprob": -0.6126165390014648,
+      "compression_ratio": 1.1153846153846154,
+      "no_speech_prob": 0.8515470027923584,
+      "words": [
+        {
+          "word": " Eio",
+          "start": 1990.46,
+          "end": 1991.86,
+          "probability": 0.3623046875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "la"
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 1991.86,
+      "end": 1996.58,
+      "text": "e Agio",
+      "temperature": 0.0,
+      "avg_logprob": -0.6126165390014648,
+      "compression_ratio": 1.1153846153846154,
+      "no_speech_prob": 0.8515470027923584,
+      "words": [
+        {
+          "word": " e",
+          "start": 1991.86,
+          "end": 1992.58,
+          "probability": 0.111328125
+        },
+        {
+          "word": " Agio",
+          "start": 1992.58,
+          "end": 1996.58,
+          "probability": 0.6240234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "la"
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 1998.3,
+      "end": 1999.7,
+      "text": "legmati,",
+      "temperature": 0.0,
+      "avg_logprob": -0.6126165390014648,
+      "compression_ratio": 1.1153846153846154,
+      "no_speech_prob": 0.8515470027923584,
+      "words": [
+        {
+          "word": " legmati,",
+          "start": 1998.3,
+          "end": 1999.7,
+          "probability": 0.57421875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "la"
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 2002.62,
+      "end": 2005.42,
+      "text": "Agio legmati,",
+      "temperature": 0.0,
+      "avg_logprob": -0.6126165390014648,
+      "compression_ratio": 1.1153846153846154,
+      "no_speech_prob": 0.8515470027923584,
+      "words": [
+        {
+          "word": " Agio",
+          "start": 2002.62,
+          "end": 2004.02,
+          "probability": 0.8369140625
+        },
+        {
+          "word": " legmati,",
+          "start": 2004.02,
+          "end": 2005.42,
+          "probability": 0.9951171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "la"
+    },
+    {
+      "id": 8,
+      "seek": 2542,
+      "start": 2005.42,
+      "end": 2006.0,
+      "text": "Amen.",
+      "temperature": 0.0,
+      "avg_logprob": -0.578136682510376,
+      "compression_ratio": 0.38461538461538464,
+      "no_speech_prob": 0.7192996740341187,
+      "words": [
+        {
+          "word": " Amen.",
+          "start": 2005.42,
+          "end": 2006.0,
+          "probability": 0.354248046875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "la"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 1950.0,
+      "end": 1980.0,
+      "language": "la",
+      "seconds": 3.006750874919817
+    },
+    {
+      "start": 1980.0,
+      "end": 2010.0,
+      "language": "la",
+      "seconds": 2.9795582920778543
+    },
+    {
+      "start": 2010.0,
+      "end": 2040.0,
+      "language": "la",
+      "seconds": 1.4680300829932094
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 90.0,
+    "inference_seconds": 7.4561736669857055,
+    "decode_seconds": 0.08796408283524215,
+    "real_time_factor": 0.08284637407761895,
+    "speedup": 12.070534300790253,
+    "peak_memory_gb": 3.750922398,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ]
+}

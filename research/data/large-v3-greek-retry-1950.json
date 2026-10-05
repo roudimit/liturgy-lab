@@ -1,0 +1,130 @@
+{
+  "model": "mlx-community/whisper-large-v3-mlx",
+  "language_mode": "el",
+  "chunk_seconds": 30,
+  "start": 1950.0,
+  "end": 1980.0,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 1953.46,
+      "end": 1971.74,
+      "text": "Κούντες Ιωάννες, κίνθητε από του Κυρίου ως χόρτος γαρπήρι.",
+      "temperature": 0.0,
+      "avg_logprob": -0.4733280181884766,
+      "compression_ratio": 1.1521739130434783,
+      "no_speech_prob": 0.4286518096923828,
+      "words": [
+        {
+          "word": " Κούντες",
+          "start": 1953.46,
+          "end": 1954.86,
+          "probability": 0.6015625
+        },
+        {
+          "word": " Ιωάννες,",
+          "start": 1954.86,
+          "end": 1956.26,
+          "probability": 0.6435546875
+        },
+        {
+          "word": " κίνθητε",
+          "start": 1956.26,
+          "end": 1959.02,
+          "probability": 0.646484375
+        },
+        {
+          "word": " από",
+          "start": 1959.02,
+          "end": 1960.76,
+          "probability": 0.89599609375
+        },
+        {
+          "word": " του",
+          "start": 1960.76,
+          "end": 1962.4,
+          "probability": 0.6416015625
+        },
+        {
+          "word": " Κυρίου",
+          "start": 1962.4,
+          "end": 1966.32,
+          "probability": 0.9443359375
+        },
+        {
+          "word": " ως",
+          "start": 1966.32,
+          "end": 1966.98,
+          "probability": 0.73486328125
+        },
+        {
+          "word": " χόρτος",
+          "start": 1966.98,
+          "end": 1969.48,
+          "probability": 0.845703125
+        },
+        {
+          "word": " γαρπήρι.",
+          "start": 1969.48,
+          "end": 1971.74,
+          "probability": 0.7734375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 1,
+      "seek": 2174,
+      "start": 1976.98,
+      "end": 1979.78,
+      "text": "Υπότιτλοι AUTHORWAVE",
+      "temperature": 0.0,
+      "avg_logprob": -0.15335426330566407,
+      "compression_ratio": 0.7837837837837838,
+      "no_speech_prob": 0.733274519443512,
+      "words": [
+        {
+          "word": " Υπότιτλοι",
+          "start": 1976.98,
+          "end": 1978.38,
+          "probability": 0.96728515625
+        },
+        {
+          "word": " AUTHORWAVE",
+          "start": 1978.38,
+          "end": 1979.78,
+          "probability": 0.99951171875
+        }
+      ],
+      "asr_warnings": [
+        "Possible subtitle/promotion artifact in ASR; listen to verify."
+      ],
+      "language": "el"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 1950.0,
+      "end": 1980.0,
+      "language": "el",
+      "seconds": 4.591723874909803
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 30.0,
+    "inference_seconds": 4.592141208937392,
+    "decode_seconds": 0.06526758312247694,
+    "real_time_factor": 0.1530713736312464,
+    "speedup": 6.532900151592227,
+    "peak_memory_gb": 3.659793558,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ]
+}

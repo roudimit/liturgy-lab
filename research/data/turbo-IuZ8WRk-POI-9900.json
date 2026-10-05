@@ -1,0 +1,220 @@
+{
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 9900,
+  "end": 9990.0,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 9901.08,
+      "end": 9905.78,
+      "text": "with the fear of God, with faith, and with love drawn near.",
+      "temperature": 0.0,
+      "avg_logprob": -0.30212775866190594,
+      "compression_ratio": 1.0172413793103448,
+      "no_speech_prob": 1.3167418544401954e-10,
+      "words": [
+        {
+          "word": " with",
+          "start": 9901.08,
+          "end": 9901.76,
+          "probability": 0.5166015625
+        },
+        {
+          "word": " the",
+          "start": 9901.76,
+          "end": 9901.92,
+          "probability": 0.85693359375
+        },
+        {
+          "word": " fear",
+          "start": 9901.92,
+          "end": 9902.3,
+          "probability": 0.998046875
+        },
+        {
+          "word": " of",
+          "start": 9902.3,
+          "end": 9902.56,
+          "probability": 1.0
+        },
+        {
+          "word": " God,",
+          "start": 9902.56,
+          "end": 9902.82,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " with",
+          "start": 9903.0,
+          "end": 9903.18,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " faith,",
+          "start": 9903.18,
+          "end": 9903.58,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " and",
+          "start": 9903.7,
+          "end": 9903.94,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " with",
+          "start": 9903.94,
+          "end": 9904.28,
+          "probability": 1.0
+        },
+        {
+          "word": " love",
+          "start": 9904.28,
+          "end": 9904.78,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " drawn",
+          "start": 9904.78,
+          "end": 9905.26,
+          "probability": 0.46533203125
+        },
+        {
+          "word": " near.",
+          "start": 9905.26,
+          "end": 9905.78,
+          "probability": 0.9833984375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 9930.0,
+      "end": 9935.46,
+      "text": "Ong de Paraná,",
+      "temperature": 0.0,
+      "avg_logprob": -1.9518862637606533,
+      "compression_ratio": 0.6521739130434783,
+      "no_speech_prob": 1.362402302085286e-09,
+      "words": [
+        {
+          "word": " Ong",
+          "start": 9930.0,
+          "end": 9930.74,
+          "probability": 0.0230865478515625
+        },
+        {
+          "word": " de",
+          "start": 9930.74,
+          "end": 9932.6,
+          "probability": 0.0328369140625
+        },
+        {
+          "word": " Paraná,",
+          "start": 9932.6,
+          "end": 9935.46,
+          "probability": 0.2437744140625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 2,
+      "seek": 546,
+      "start": 9945.68,
+      "end": 9948.48,
+      "text": "Thank you.",
+      "temperature": 0.0,
+      "avg_logprob": -0.8324465751647949,
+      "compression_ratio": 0.5555555555555556,
+      "no_speech_prob": 6.566762134063708e-10,
+      "words": [
+        {
+          "word": " Thank",
+          "start": 9945.68,
+          "end": 9947.08,
+          "probability": 0.03131103515625
+        },
+        {
+          "word": " you.",
+          "start": 9947.08,
+          "end": 9948.48,
+          "probability": 0.9951171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9965.5,
+      "end": 9968.3,
+      "text": "Υπότιτλοι AUTHORWAVE",
+      "temperature": 0.0,
+      "avg_logprob": -0.10776634216308593,
+      "compression_ratio": 0.7837837837837838,
+      "no_speech_prob": 3.6639610789812593e-10,
+      "words": [
+        {
+          "word": " Υπότιτλοι",
+          "start": 9965.5,
+          "end": 9966.9,
+          "probability": 0.931640625
+        },
+        {
+          "word": " AUTHORWAVE",
+          "start": 9966.9,
+          "end": 9968.3,
+          "probability": 0.99658203125
+        }
+      ],
+      "asr_warnings": [
+        "Possible subtitle/promotion artifact in ASR; listen to verify."
+      ],
+      "language": "el"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 9900.0,
+      "end": 9930.0,
+      "language": "en",
+      "seconds": 1.5463228749576956
+    },
+    {
+      "start": 9930.0,
+      "end": 9960.0,
+      "language": "en",
+      "seconds": 2.508313500089571
+    },
+    {
+      "start": 9960.0,
+      "end": 9990.0,
+      "language": "el",
+      "seconds": 1.2276645409874618
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 90.0,
+    "inference_seconds": 5.283741833874956,
+    "decode_seconds": 0.046849041944369674,
+    "real_time_factor": 0.05870824259861062,
+    "speedup": 17.033383316155778,
+    "peak_memory_gb": 2.210343558,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ]
+}

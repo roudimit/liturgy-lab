@@ -1,0 +1,199 @@
+{
+  "scope": "Text-only, exploratory larger-LLM findings on Apple M5 32 GB; no human transcript/alignment labels or audio-listening accuracy evaluation.",
+  "controlled_comparison": {
+    "reference": "Historical September 30 Divine Liturgy-only reference, lacking Matins and date-specific passages",
+    "control": "Identical 48 selected ASR rows and saved prompt messages; 47 submitted, one no-candidate abstention; tokenizer/template can differ",
+    "models": [
+      {
+        "model": "mlx-community/Qwen3-1.7B-4bit",
+        "total_seconds": 163.0301292920485,
+        "load_seconds": 2.3841102079022676,
+        "peak_memory_gb": 2.6509825,
+        "invalid_decisions": 22,
+        "guarded_status_counts": {
+          "unknown": 40,
+          "matched": 4,
+          "uncertain": 4
+        }
+      },
+      {
+        "model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+        "total_seconds": 184.60088449995965,
+        "load_seconds": 7.2789961660746485,
+        "peak_memory_gb": 4.270668888,
+        "invalid_decisions": 4,
+        "guarded_status_counts": {
+          "uncertain": 13,
+          "unknown": 27,
+          "matched": 8
+        }
+      },
+      {
+        "model": "mlx-community/Qwen3-30B-A3B-Instruct-2507-4bit",
+        "total_seconds": 235.26667575002648,
+        "load_seconds": 6.916657666908577,
+        "peak_memory_gb": 18.526268567,
+        "invalid_decisions": 0,
+        "guarded_status_counts": {
+          "uncertain": 19,
+          "matched": 19,
+          "unknown": 10
+        }
+      },
+      {
+        "model": "mlx-community/Qwen3.6-35B-A3B-4bit",
+        "total_seconds": 278.9531183340587,
+        "load_seconds": 10.588061707792804,
+        "peak_memory_gb": 20.44391982,
+        "invalid_decisions": 7,
+        "guarded_status_counts": {
+          "uncertain": 11,
+          "unknown": 21,
+          "matched": 16
+        }
+      }
+    ],
+    "findings": [
+      "Both 30B and 35B fit and completed locally. 35B took 278.95 s versus 235.27 s for 30B on this sample; memory peaks were 20.44 GB and 18.53 GB respectively.",
+      "30B had no candidate-ID/schema failures; 35B produced valid JSON but seven IDs disallowed for their individual segments. All seven existed elsewhere in that batch candidate pool, so they were not invented reference IDs.",
+      "35B abstained on visible subtitle-credit artifacts and the text Limp, limp, limp without the new artifact rule, but still invented Greek textual support and forced some thematic associations.",
+      "The damaged Greek at1953 and grass-in-fire English at1920 were absent from the old Matins-free reference. New combined-reference results cannot be attributed solely to model size."
+    ]
+  },
+  "new_combined_pipeline": {
+    "file": "qwen35b-combined-MIxJvLfaynY.json",
+    "summary": "qwen35b-combined-summary.json",
+    "sequence_hint_version": "v1",
+    "sequence_comparison": "Only preserved v1 proposals and hints were used; final sequence v2 was not tested by this run.",
+    "total_seconds": 329.1257376251742,
+    "load_seconds": 8.056158249964938,
+    "peak_memory_gb": 20.56499758,
+    "selected": 42,
+    "not_run": 914,
+    "raw_validated_status_counts": {
+      "uncertain": 23,
+      "unknown": 13,
+      "matched": 6
+    },
+    "guarded_status_counts": {
+      "uncertain": 20,
+      "unknown": 18,
+      "matched": 4
+    },
+    "invalid_decision_count": 6,
+    "quote_guard_rejections": {
+      "invalid_transcript_evidence": 1,
+      "invalid_reference_evidence": 4
+    },
+    "examples": [
+      {
+        "seconds": 1953.28,
+        "observation": "Damaged Greek Σκούντες Ιόνες κύνθητε από του Κυρίου selected matins:u0166 in the now-covered Matins hymn; quoted canonical wording exists. Plausible passage location does not repair the ASR transcript or establish audio accuracy."
+      },
+      {
+        "seconds": 3600,
+        "observation": "Three noisy Greek lines associated with the Nativity hymn matins:u0394 and retained uncertain status because the reference repeats that text. Canonical matching is useful even when raw word transcription remains poor."
+      },
+      {
+        "seconds": 1812.34,
+        "observation": "A proposed Matins litany match was rejected because the model silently repaired the purported verbatim transcript quotation. Original damaged ASR stays visible."
+      },
+      {
+        "seconds": 2010,
+        "observation": "The model cited nonexistent reference form καθάρεσι; the quote check rejected the association."
+      },
+      {
+        "seconds": 5063.58,
+        "observation": "Romanized O Diagio, Sio Theos, Simon plausibly points at liturgy:u0095, but the reason mistranslates Ὅτι ἅγιος εἶ ὁ Θεὸς ἡμῶν as Holy God, we worship You. Quote existence and a plausible ID do not make an explanation linguistically reliable."
+      },
+      {
+        "seconds": 7500,
+        "observation": "All six late-address rows finish UNKNOWN. The model itself attempted six thematic associations; three failed per-segment candidate-ID validation and three failed contiguous reference-quote checks. This is guarded abstention, not demonstrated semantic abstention by the model."
+      }
+    ]
+  },
+  "limits": [
+    "Status counts are decisions, not correctness. None of the four guarded matched rows is a human-verified accuracy label.",
+    "Self-reported support scores and lexical thresholds are not calibrated probabilities.",
+    "Exact substring guards may reject a semantically plausible match when a quote is repaired or combined with ellipses; conversely, existing quotations can still support a wrong thematic association.",
+    "The new run changes reference coverage, candidate retrieval, tracking hints, evidence requirements and token budget simultaneously.",
+    "Memory is MLX-reported process usage, not whole-Mac pressure. Timings include model load, exclude downloads.",
+    "70B is tested separately as a short hardware-fit probe; it is not an overall quality comparison or an absolute maximum model-size claim."
+  ],
+  "hardware_fit_probe": {
+    "file": "llama70b-hardware-probe.json",
+    "model": "cnfusion/Llama-3.3-70B-Instruct-Q2-mlx",
+    "revision": "1c4ac0ae40cb6c920787572e522a9ea9846dee9d",
+    "execution_status": "completed",
+    "total_seconds": 258.94781858311035,
+    "load_seconds": 8.11070975009352,
+    "peak_memory_gb": 22.50824838,
+    "process_peak_rss_gb": 4.932534272,
+    "system_swap_before": "total = 22528.00M  used = 21763.00M  free = 765.00M  (encrypted)",
+    "system_swap_after": "total = 19456.00M  used = 18285.69M  free = 1170.31M  (encrypted)",
+    "cases": [
+      {
+        "segment_id": "274",
+        "prompt_tokens": 745,
+        "elapsed_seconds": 153.3435483330395,
+        "generation_tokens": 180,
+        "prompt_tokens_per_second": 10.480269787073327,
+        "generation_tokens_per_second": 2.2322448269419852,
+        "finish_reason": "length",
+        "validated_decision": {
+          "274": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Invalid model JSON: Extra data: line 1 column 8 (char 7)",
+            "warnings": [
+              "invalid_json",
+              "output_token_limit_reached"
+            ]
+          }
+        }
+      },
+      {
+        "segment_id": "515",
+        "prompt_tokens": 825,
+        "elapsed_seconds": 97.3893523751758,
+        "generation_tokens": 180,
+        "prompt_tokens_per_second": 33.283507586368444,
+        "generation_tokens_per_second": 2.4942092716927413,
+        "finish_reason": "length",
+        "validated_decision": {
+          "515": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Invalid model JSON: Extra data: line 1 column 8 (char 7)",
+            "warnings": [
+              "invalid_json",
+              "output_token_limit_reached"
+            ]
+          }
+        }
+      }
+    ],
+    "outcome": "Loaded and generated within the planned memory ceiling, but both short Greek cases produced degenerate repetitions, reached the 180-token limit and failed JSON validation. No usable alignment decisions.",
+    "interpretation": "Hardware execution succeeded; this particular third-party 70B 2-bit conversion failed the two structured Greek probes. The experiment does not establish the cause or generalize to all 70B models, other quantizations, or Greek ability overall.",
+    "limits": [
+      "Hand-selected three-candidate pools and 745/825-token prompts; not a full-context or controlled 48-row comparison.",
+      "Mac-wide swap was already high before loading and decreased during the run; this does not prove zero pressure or isolate effects on other applications.",
+      "70B is the largest parameter count tested here, not an exhaustive absolute hardware limit.",
+      "Greek is outside the eight explicitly supported languages in the base Llama 3.3 model card."
+    ],
+    "source_urls": {
+      "quantization": "https://huggingface.co/cnfusion/Llama-3.3-70B-Instruct-Q2-mlx",
+      "base_model": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct"
+    }
+  }
+}

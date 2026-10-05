@@ -1,0 +1,797 @@
+{
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 2700,
+  "end": 2790.0,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 2700.0,
+      "end": 2718.12,
+      "text": "Κύριε Αλάησον, Κύριε Αλάησον, Κύριε Αλάησον, Κύριε Αλάησον, Κύριε Αλάησον, Κύριε Αλάησον, Κύριε Αλάησον.",
+      "temperature": 0.0,
+      "avg_logprob": -0.24468323991105362,
+      "compression_ratio": 4.476190476190476,
+      "no_speech_prob": 2.0836833647397413e-10,
+      "words": [
+        {
+          "word": " Κύριε",
+          "start": 2700.0,
+          "end": 2700.34,
+          "probability": 0.5966796875
+        },
+        {
+          "word": " Αλάησον,",
+          "start": 2700.34,
+          "end": 2701.1,
+          "probability": 0.662109375
+        },
+        {
+          "word": " Κύριε",
+          "start": 2701.16,
+          "end": 2701.9,
+          "probability": 0.9072265625
+        },
+        {
+          "word": " Αλάησον,",
+          "start": 2701.9,
+          "end": 2702.78,
+          "probability": 0.990234375
+        },
+        {
+          "word": " Κύριε",
+          "start": 2702.78,
+          "end": 2705.24,
+          "probability": 0.9765625
+        },
+        {
+          "word": " Αλάησον,",
+          "start": 2705.24,
+          "end": 2706.1,
+          "probability": 0.99072265625
+        },
+        {
+          "word": " Κύριε",
+          "start": 2706.1,
+          "end": 2708.46,
+          "probability": 0.97607421875
+        },
+        {
+          "word": " Αλάησον,",
+          "start": 2708.46,
+          "end": 2709.48,
+          "probability": 0.990234375
+        },
+        {
+          "word": " Κύριε",
+          "start": 2709.58,
+          "end": 2710.76,
+          "probability": 0.97802734375
+        },
+        {
+          "word": " Αλάησον,",
+          "start": 2710.76,
+          "end": 2711.7,
+          "probability": 0.990234375
+        },
+        {
+          "word": " Κύριε",
+          "start": 2711.7,
+          "end": 2712.48,
+          "probability": 0.974609375
+        },
+        {
+          "word": " Αλάησον,",
+          "start": 2712.48,
+          "end": 2714.04,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " Κύριε",
+          "start": 2714.04,
+          "end": 2715.04,
+          "probability": 0.966796875
+        },
+        {
+          "word": " Αλάησον.",
+          "start": 2715.04,
+          "end": 2718.12,
+          "probability": 0.98681640625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 1,
+      "seek": 1812,
+      "start": 2720.72,
+      "end": 2726.12,
+      "text": "ΑΛΕΙΚΙΚΤΗΡΜΗΣ ΚΕΦΗΛΑΤΡΟΠΗΑ ΤΟΥ ΜΟΝΟΓΕΝΟΥ ΣΟΙΟΥ ΕΒΛΟΓΗ ΤΟΣΗΣ",
+      "temperature": 0.0,
+      "avg_logprob": -0.37972554293545807,
+      "compression_ratio": 1.849056603773585,
+      "no_speech_prob": 4.1706663123086685e-10,
+      "words": [
+        {
+          "word": " ΑΛΕΙΚΙΚΤΗΡΜΗΣ",
+          "start": 2720.72,
+          "end": 2722.08,
+          "probability": 0.62646484375
+        },
+        {
+          "word": " ΚΕΦΗΛΑΤΡΟΠΗΑ",
+          "start": 2722.08,
+          "end": 2723.28,
+          "probability": 0.78466796875
+        },
+        {
+          "word": " ΤΟΥ",
+          "start": 2723.28,
+          "end": 2723.5,
+          "probability": 0.81005859375
+        },
+        {
+          "word": " ΜΟΝΟΓΕΝΟΥ",
+          "start": 2723.5,
+          "end": 2724.22,
+          "probability": 0.80810546875
+        },
+        {
+          "word": " ΣΟΙΟΥ",
+          "start": 2724.22,
+          "end": 2724.9,
+          "probability": 0.7392578125
+        },
+        {
+          "word": " ΕΒΛΟΓΗ",
+          "start": 2724.9,
+          "end": 2725.52,
+          "probability": 0.8876953125
+        },
+        {
+          "word": " ΤΟΣΗΣ",
+          "start": 2725.52,
+          "end": 2726.2,
+          "probability": 0.70263671875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 2,
+      "seek": 1812,
+      "start": 2726.68,
+      "end": 2729.98,
+      "text": "ΕΣΥΝ ΤΟΟΥ ΠΑΝΑΓΙΟ ΚΕΓΑΘΟ ΚΕΣΟΠΗΣΟΥ ΠΝΕΒΝΑΝΟΥ",
+      "temperature": 0.0,
+      "avg_logprob": -0.37972554293545807,
+      "compression_ratio": 1.849056603773585,
+      "no_speech_prob": 4.1706663123086685e-10,
+      "words": [
+        {
+          "word": " ΕΣΥΝ",
+          "start": 2726.68,
+          "end": 2726.98,
+          "probability": 0.6533203125
+        },
+        {
+          "word": " ΤΟΟΥ",
+          "start": 2726.98,
+          "end": 2727.16,
+          "probability": 0.830078125
+        },
+        {
+          "word": " ΠΑΝΑΓΙΟ",
+          "start": 2727.16,
+          "end": 2727.74,
+          "probability": 0.87255859375
+        },
+        {
+          "word": " ΚΕΓΑΘΟ",
+          "start": 2727.74,
+          "end": 2728.42,
+          "probability": 0.8349609375
+        },
+        {
+          "word": " ΚΕΣΟΠΗΣΟΥ",
+          "start": 2728.42,
+          "end": 2729.38,
+          "probability": 0.7607421875
+        },
+        {
+          "word": " ΠΝΕΒΝΑΝΟΥ",
+          "start": 2729.38,
+          "end": 2729.98,
+          "probability": 0.75048828125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 2730.0,
+      "end": 2731.44,
+      "text": "Amen.",
+      "temperature": 0.0,
+      "avg_logprob": -1.0885518074035645,
+      "compression_ratio": 0.38461538461538464,
+      "no_speech_prob": 1.2735697219046216e-10,
+      "words": [
+        {
+          "word": " Amen.",
+          "start": 2730.0,
+          "end": 2731.44,
+          "probability": 0.260498046875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 2760.76,
+      "end": 2766.72,
+      "text": "The barren one bears the Theotokos, the nourisher of our lives.",
+      "temperature": 0.0,
+      "avg_logprob": -0.17175778009558237,
+      "compression_ratio": 1.6220095693779903,
+      "no_speech_prob": 2.142211755207235e-12,
+      "words": [
+        {
+          "word": " The",
+          "start": 2760.76,
+          "end": 2761.28,
+          "probability": 0.78466796875
+        },
+        {
+          "word": " barren",
+          "start": 2761.28,
+          "end": 2761.76,
+          "probability": 0.7783203125
+        },
+        {
+          "word": " one",
+          "start": 2761.76,
+          "end": 2761.96,
+          "probability": 0.98974609375
+        },
+        {
+          "word": " bears",
+          "start": 2761.96,
+          "end": 2762.32,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " the",
+          "start": 2762.32,
+          "end": 2762.58,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " Theotokos,",
+          "start": 2762.58,
+          "end": 2763.62,
+          "probability": 0.86279296875
+        },
+        {
+          "word": " the",
+          "start": 2763.72,
+          "end": 2763.86,
+          "probability": 0.98486328125
+        },
+        {
+          "word": " nourisher",
+          "start": 2763.86,
+          "end": 2764.86,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " of",
+          "start": 2764.86,
+          "end": 2765.36,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " our",
+          "start": 2765.36,
+          "end": 2765.66,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " lives.",
+          "start": 2765.66,
+          "end": 2766.72,
+          "probability": 0.974609375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 2768.72,
+      "end": 2775.34,
+      "text": "The prayer with the sigh sterile and barren of Joachim and of Anna was well received in the ears of the Lord.",
+      "temperature": 0.0,
+      "avg_logprob": -0.17175778009558237,
+      "compression_ratio": 1.6220095693779903,
+      "no_speech_prob": 2.142211755207235e-12,
+      "words": [
+        {
+          "word": " The",
+          "start": 2768.72,
+          "end": 2769.24,
+          "probability": 0.97265625
+        },
+        {
+          "word": " prayer",
+          "start": 2769.24,
+          "end": 2769.58,
+          "probability": 0.98583984375
+        },
+        {
+          "word": " with",
+          "start": 2769.58,
+          "end": 2769.86,
+          "probability": 0.8720703125
+        },
+        {
+          "word": " the",
+          "start": 2769.86,
+          "end": 2770.06,
+          "probability": 0.9638671875
+        },
+        {
+          "word": " sigh",
+          "start": 2770.06,
+          "end": 2770.36,
+          "probability": 0.861328125
+        },
+        {
+          "word": " sterile",
+          "start": 2770.36,
+          "end": 2770.94,
+          "probability": 0.8134765625
+        },
+        {
+          "word": " and",
+          "start": 2770.94,
+          "end": 2771.14,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " barren",
+          "start": 2771.14,
+          "end": 2771.52,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " of",
+          "start": 2771.52,
+          "end": 2771.68,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " Joachim",
+          "start": 2771.68,
+          "end": 2772.2,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " and",
+          "start": 2772.2,
+          "end": 2772.46,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " of",
+          "start": 2772.46,
+          "end": 2772.62,
+          "probability": 0.955078125
+        },
+        {
+          "word": " Anna",
+          "start": 2772.62,
+          "end": 2772.84,
+          "probability": 0.876953125
+        },
+        {
+          "word": " was",
+          "start": 2772.84,
+          "end": 2773.58,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " well",
+          "start": 2773.58,
+          "end": 2773.82,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " received",
+          "start": 2773.82,
+          "end": 2774.3,
+          "probability": 0.91552734375
+        },
+        {
+          "word": " in",
+          "start": 2774.3,
+          "end": 2774.52,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " the",
+          "start": 2774.52,
+          "end": 2774.6,
+          "probability": 1.0
+        },
+        {
+          "word": " ears",
+          "start": 2774.6,
+          "end": 2774.84,
+          "probability": 0.978515625
+        },
+        {
+          "word": " of",
+          "start": 2774.84,
+          "end": 2775.0,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 2775.0,
+          "end": 2775.08,
+          "probability": 1.0
+        },
+        {
+          "word": " Lord.",
+          "start": 2775.08,
+          "end": 2775.34,
+          "probability": 0.998046875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 2775.74,
+      "end": 2779.66,
+      "text": "It unbound them and they blossomed the fruit that brings life to the world.",
+      "temperature": 0.0,
+      "avg_logprob": -0.17175778009558237,
+      "compression_ratio": 1.6220095693779903,
+      "no_speech_prob": 2.142211755207235e-12,
+      "words": [
+        {
+          "word": " It",
+          "start": 2775.74,
+          "end": 2776.1,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " unbound",
+          "start": 2776.1,
+          "end": 2776.62,
+          "probability": 0.994140625
+        },
+        {
+          "word": " them",
+          "start": 2776.62,
+          "end": 2776.88,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " and",
+          "start": 2776.88,
+          "end": 2777.1,
+          "probability": 0.71826171875
+        },
+        {
+          "word": " they",
+          "start": 2777.1,
+          "end": 2777.24,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " blossomed",
+          "start": 2777.24,
+          "end": 2777.8,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " the",
+          "start": 2777.8,
+          "end": 2777.98,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " fruit",
+          "start": 2777.98,
+          "end": 2778.24,
+          "probability": 1.0
+        },
+        {
+          "word": " that",
+          "start": 2778.24,
+          "end": 2778.48,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " brings",
+          "start": 2778.48,
+          "end": 2778.84,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " life",
+          "start": 2778.84,
+          "end": 2779.12,
+          "probability": 1.0
+        },
+        {
+          "word": " to",
+          "start": 2779.12,
+          "end": 2779.3,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " the",
+          "start": 2779.3,
+          "end": 2779.4,
+          "probability": 1.0
+        },
+        {
+          "word": " world.",
+          "start": 2779.4,
+          "end": 2779.66,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 2780.04,
+      "end": 2785.14,
+      "text": "For while he on the mountain did offer a prayer, she in the garden the reproach did bear.",
+      "temperature": 0.0,
+      "avg_logprob": -0.17175778009558237,
+      "compression_ratio": 1.6220095693779903,
+      "no_speech_prob": 2.142211755207235e-12,
+      "words": [
+        {
+          "word": " For",
+          "start": 2780.04,
+          "end": 2780.56,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " while",
+          "start": 2780.56,
+          "end": 2780.76,
+          "probability": 1.0
+        },
+        {
+          "word": " he",
+          "start": 2780.76,
+          "end": 2780.94,
+          "probability": 0.97119140625
+        },
+        {
+          "word": " on",
+          "start": 2780.94,
+          "end": 2781.12,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " the",
+          "start": 2781.12,
+          "end": 2781.22,
+          "probability": 1.0
+        },
+        {
+          "word": " mountain",
+          "start": 2781.22,
+          "end": 2781.52,
+          "probability": 1.0
+        },
+        {
+          "word": " did",
+          "start": 2781.52,
+          "end": 2781.74,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " offer",
+          "start": 2781.74,
+          "end": 2782.02,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " a",
+          "start": 2782.02,
+          "end": 2782.18,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " prayer,",
+          "start": 2782.18,
+          "end": 2782.52,
+          "probability": 1.0
+        },
+        {
+          "word": " she",
+          "start": 2782.96,
+          "end": 2783.18,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " in",
+          "start": 2783.18,
+          "end": 2783.38,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " the",
+          "start": 2783.38,
+          "end": 2783.48,
+          "probability": 1.0
+        },
+        {
+          "word": " garden",
+          "start": 2783.48,
+          "end": 2783.82,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " the",
+          "start": 2783.82,
+          "end": 2784.24,
+          "probability": 0.841796875
+        },
+        {
+          "word": " reproach",
+          "start": 2784.24,
+          "end": 2784.7,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " did",
+          "start": 2784.7,
+          "end": 2784.86,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " bear.",
+          "start": 2784.86,
+          "end": 2785.14,
+          "probability": 0.9951171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 8,
+      "seek": 2514,
+      "start": 2785.78,
+      "end": 2789.44,
+      "text": "but then with joy the barren one bears the Theodokos.",
+      "temperature": 0.0,
+      "avg_logprob": -0.3512020905812581,
+      "compression_ratio": 1.0,
+      "no_speech_prob": 1.468824714634387e-11,
+      "words": [
+        {
+          "word": " but",
+          "start": 2785.78,
+          "end": 2786.34,
+          "probability": 0.416015625
+        },
+        {
+          "word": " then",
+          "start": 2786.34,
+          "end": 2786.58,
+          "probability": 0.9736328125
+        },
+        {
+          "word": " with",
+          "start": 2786.58,
+          "end": 2786.8,
+          "probability": 0.84130859375
+        },
+        {
+          "word": " joy",
+          "start": 2786.8,
+          "end": 2787.16,
+          "probability": 0.99072265625
+        },
+        {
+          "word": " the",
+          "start": 2787.16,
+          "end": 2787.44,
+          "probability": 0.65234375
+        },
+        {
+          "word": " barren",
+          "start": 2787.44,
+          "end": 2787.86,
+          "probability": 0.9755859375
+        },
+        {
+          "word": " one",
+          "start": 2787.86,
+          "end": 2788.04,
+          "probability": 0.96484375
+        },
+        {
+          "word": " bears",
+          "start": 2788.04,
+          "end": 2788.46,
+          "probability": 0.9658203125
+        },
+        {
+          "word": " the",
+          "start": 2788.46,
+          "end": 2788.68,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " Theodokos.",
+          "start": 2788.68,
+          "end": 2789.44,
+          "probability": 0.83740234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 2700.0,
+      "end": 2730.0,
+      "language": "el",
+      "seconds": 3.068841792177409
+    },
+    {
+      "start": 2730.0,
+      "end": 2760.0,
+      "language": "en",
+      "seconds": 1.4130542918574065
+    },
+    {
+      "start": 2760.0,
+      "end": 2790.0,
+      "language": "en",
+      "seconds": 2.65140966582112
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 90.0,
+    "inference_seconds": 7.137022499926388,
+    "decode_seconds": 0.07416845881380141,
+    "real_time_factor": 0.07930024999918209,
+    "speedup": 12.610300724276582,
+    "peak_memory_gb": 2.190781306,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ]
+}

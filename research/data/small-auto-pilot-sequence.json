@@ -1,0 +1,2922 @@
+{
+  "model": "mlx-community/whisper-small-mlx",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 1807,
+  "end": 1987.0,
+  "chunks": [
+    {
+      "start": 1807.0,
+      "end": 1837.0,
+      "language": "el",
+      "seconds": 3.1092512500472367
+    },
+    {
+      "start": 1837.0,
+      "end": 1867.0,
+      "language": "el",
+      "seconds": 0.9157889999914914
+    },
+    {
+      "start": 1867.0,
+      "end": 1897.0,
+      "language": "la",
+      "seconds": 3.4704685418400913
+    },
+    {
+      "start": 1897.0,
+      "end": 1927.0,
+      "language": "en",
+      "seconds": 0.6513160830363631
+    },
+    {
+      "start": 1927.0,
+      "end": 1957.0,
+      "language": "la",
+      "seconds": 2.6829406667966396
+    },
+    {
+      "start": 1957.0,
+      "end": 1987.0,
+      "language": "en",
+      "seconds": 0.18413237505592406
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 180.0,
+    "inference_seconds": 11.024360416922718,
+    "decode_seconds": 0.12333466694690287,
+    "real_time_factor": 0.06124644676068177,
+    "speedup": 16.327477803038324,
+    "peak_memory_gb": 1.229558694,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "start": 1807.0,
+      "end": 1812.62,
+      "text": "Πόσο σων ελέησον και διαφύλαξον ημάς ο Θεός της ηχάριτης,",
+      "avg_logprob": -0.4614880068082336,
+      "compression_ratio": 1.7673469387755103,
+      "no_speech_prob": 0.858174204826355,
+      "words": [
+        {
+          "word": " Πόσο",
+          "start": 1807.0,
+          "end": 1807.18,
+          "probability": 0.181884765625
+        },
+        {
+          "word": " σων",
+          "start": 1807.18,
+          "end": 1807.48,
+          "probability": 0.23583984375
+        },
+        {
+          "word": " ελέησον",
+          "start": 1807.48,
+          "end": 1808.22,
+          "probability": 0.74365234375
+        },
+        {
+          "word": " και",
+          "start": 1808.22,
+          "end": 1808.42,
+          "probability": 0.41552734375
+        },
+        {
+          "word": " διαφύλαξον",
+          "start": 1808.42,
+          "end": 1809.24,
+          "probability": 0.82177734375
+        },
+        {
+          "word": " ημάς",
+          "start": 1809.24,
+          "end": 1809.68,
+          "probability": 0.68994140625
+        },
+        {
+          "word": " ο",
+          "start": 1809.68,
+          "end": 1809.8,
+          "probability": 0.830078125
+        },
+        {
+          "word": " Θεός",
+          "start": 1809.8,
+          "end": 1810.3,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " της",
+          "start": 1810.3,
+          "end": 1810.6,
+          "probability": 0.92138671875
+        },
+        {
+          "word": " ηχάριτης,",
+          "start": 1810.6,
+          "end": 1812.62,
+          "probability": 0.61181640625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el",
+      "lexical_match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.8842,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient global text evidence"
+      },
+      "service_context": {
+        "status": "service_reference_available",
+        "service_id": null,
+        "opening_start": null,
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "match": {
+        "unit_id": "matins:u0156",
+        "unit_index": 156,
+        "section_id": "matins:s014",
+        "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+        "score": 0.8842,
+        "status": "matched",
+        "method": "sequence",
+        "reason": "Text continues a nearby anchored passage",
+        "service_id": "matins",
+        "service_title": "Matins (Orthros)"
+      },
+      "sequence_match": {
+        "unit_id": "matins:u0156",
+        "unit_index": 156,
+        "section_id": "matins:s014",
+        "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+        "score": 0.8842,
+        "status": "matched",
+        "method": "sequence",
+        "reason": "Text continues a nearby anchored passage",
+        "service_id": "matins",
+        "service_title": "Matins (Orthros)"
+      },
+      "sequence": {
+        "version": 4,
+        "block": 0,
+        "max_reverse_units": 3,
+        "path_unit_id": "matins:u0156",
+        "evidence_segment_ids": [
+          4
+        ],
+        "service_evidence": null,
+        "warnings": [],
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "candidates": [
+        {
+          "unit_id": "matins:u0091",
+          "index": 91,
+          "section_id": "matins:s009",
+          "section_title": "Peace Litany",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.8842,
+          "language": "el",
+          "greek": "Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς, ὁ Θεός, τῇ σῇ χάριτι.",
+          "english": "Help us, save us, have mercy on us, and protect us, O God, by Your grace."
+        },
+        {
+          "unit_id": "matins:u0106",
+          "index": 106,
+          "section_id": "matins:s010",
+          "section_title": "Matins",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.8842,
+          "language": "el",
+          "greek": "Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς, ὁ Θεός, τῇ σῇ χάριτι.",
+          "english": "Help us, save us, have mercy on us, and protect us, O God, by Your grace."
+        },
+        {
+          "unit_id": "matins:u0118",
+          "index": 118,
+          "section_id": "matins:s011",
+          "section_title": "Kathisma I",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.8842,
+          "language": "el",
+          "greek": "Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς, ὁ Θεός, τῇ σῇ χάριτι.",
+          "english": "Help us, save us, have mercy on us, and protect us, O God, by Your grace."
+        },
+        {
+          "unit_id": "matins:u0156",
+          "index": 156,
+          "section_id": "matins:s014",
+          "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.8842,
+          "language": "el",
+          "greek": "Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς, ὁ Θεός, τῇ σῇ χάριτι.",
+          "english": "Help us, save us, have mercy on us, and protect us, O God, by Your grace."
+        },
+        {
+          "unit_id": "matins:u0235",
+          "index": 235,
+          "section_id": "matins:s030",
+          "section_title": "Ode iii. Katavasia",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.8842,
+          "language": "el",
+          "greek": "Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς, ὁ Θεός, τῇ σῇ χάριτι.",
+          "english": "Help us, save us, have mercy on us, and protect us, O God, by Your grace."
+        },
+        {
+          "unit_id": "matins:u0289",
+          "index": 289,
+          "section_id": "matins:s046",
+          "section_title": "Ode vi. Katavasia",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.8842,
+          "language": "el",
+          "greek": "Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς, ὁ Θεός, τῇ σῇ χάριτι.",
+          "english": "Help us, save us, have mercy on us, and protect us, O God, by Your grace."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "start": 1814.2,
+      "end": 1821.32,
+      "text": "της Παναγίας Αχράν του, υπερευλογημένη, σενδόξουδες, ποινήσιμων, θεοτόκου και υπαρεθένο μαρίας,",
+      "avg_logprob": -0.4614880068082336,
+      "compression_ratio": 1.7673469387755103,
+      "no_speech_prob": 0.858174204826355,
+      "words": [
+        {
+          "word": " της",
+          "start": 1814.2,
+          "end": 1814.4,
+          "probability": 0.78857421875
+        },
+        {
+          "word": " Παναγίας",
+          "start": 1814.4,
+          "end": 1815.22,
+          "probability": 0.86279296875
+        },
+        {
+          "word": " Αχράν",
+          "start": 1815.22,
+          "end": 1816.0,
+          "probability": 0.63037109375
+        },
+        {
+          "word": " του,",
+          "start": 1816.0,
+          "end": 1816.18,
+          "probability": 0.420654296875
+        },
+        {
+          "word": " υπερευλογημένη,",
+          "start": 1816.28,
+          "end": 1817.26,
+          "probability": 0.8779296875
+        },
+        {
+          "word": " σενδόξουδες,",
+          "start": 1817.4,
+          "end": 1818.18,
+          "probability": 0.6875
+        },
+        {
+          "word": " ποινήσιμων,",
+          "start": 1818.34,
+          "end": 1819.0,
+          "probability": 0.62353515625
+        },
+        {
+          "word": " θεοτόκου",
+          "start": 1819.26,
+          "end": 1819.92,
+          "probability": 0.7353515625
+        },
+        {
+          "word": " και",
+          "start": 1819.92,
+          "end": 1820.08,
+          "probability": 0.888671875
+        },
+        {
+          "word": " υπαρεθένο",
+          "start": 1820.08,
+          "end": 1820.82,
+          "probability": 0.7353515625
+        },
+        {
+          "word": " μαρίας,",
+          "start": 1820.82,
+          "end": 1821.32,
+          "probability": 0.53759765625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el",
+      "lexical_match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.9045,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient global text evidence"
+      },
+      "service_context": {
+        "status": "service_reference_available",
+        "service_id": null,
+        "opening_start": null,
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "match": {
+        "unit_id": "matins:u0158",
+        "unit_index": 158,
+        "section_id": "matins:s014",
+        "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+        "score": 0.9045,
+        "status": "matched",
+        "method": "sequence",
+        "reason": "Text continues a nearby anchored passage",
+        "service_id": "matins",
+        "service_title": "Matins (Orthros)"
+      },
+      "sequence_match": {
+        "unit_id": "matins:u0158",
+        "unit_index": 158,
+        "section_id": "matins:s014",
+        "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+        "score": 0.9045,
+        "status": "matched",
+        "method": "sequence",
+        "reason": "Text continues a nearby anchored passage",
+        "service_id": "matins",
+        "service_title": "Matins (Orthros)"
+      },
+      "sequence": {
+        "version": 4,
+        "block": 0,
+        "max_reverse_units": 3,
+        "path_unit_id": "matins:u0158",
+        "evidence_segment_ids": [
+          4
+        ],
+        "service_evidence": null,
+        "warnings": [],
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "candidates": [
+        {
+          "unit_id": "matins:u0093",
+          "index": 93,
+          "section_id": "matins:s009",
+          "section_title": "Peace Litany",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.9045,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "matins:u0108",
+          "index": 108,
+          "section_id": "matins:s010",
+          "section_title": "Matins",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.9045,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "matins:u0120",
+          "index": 120,
+          "section_id": "matins:s011",
+          "section_title": "Kathisma I",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.9045,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "matins:u0158",
+          "index": 158,
+          "section_id": "matins:s014",
+          "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.9045,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "matins:u0237",
+          "index": 237,
+          "section_id": "matins:s030",
+          "section_title": "Ode iii. Katavasia",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.9045,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "matins:u0291",
+          "index": 291,
+          "section_id": "matins:s046",
+          "section_title": "Ode vi. Katavasia",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.9045,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 1821.46,
+      "end": 1827.58,
+      "text": "με τα πάντων των Αγίων, μνημονεύσανται σε αυτούς και λίλους και πάσαν την ζωή νημών,",
+      "avg_logprob": -0.4614880068082336,
+      "compression_ratio": 1.7673469387755103,
+      "no_speech_prob": 0.858174204826355,
+      "words": [
+        {
+          "word": " με",
+          "start": 1821.46,
+          "end": 1821.56,
+          "probability": 0.97900390625
+        },
+        {
+          "word": " τα",
+          "start": 1821.56,
+          "end": 1821.74,
+          "probability": 0.71435546875
+        },
+        {
+          "word": " πάντων",
+          "start": 1821.74,
+          "end": 1822.36,
+          "probability": 0.84912109375
+        },
+        {
+          "word": " των",
+          "start": 1822.36,
+          "end": 1822.56,
+          "probability": 0.6318359375
+        },
+        {
+          "word": " Αγίων,",
+          "start": 1822.56,
+          "end": 1823.12,
+          "probability": 0.8935546875
+        },
+        {
+          "word": " μνημονεύσανται",
+          "start": 1823.2,
+          "end": 1824.22,
+          "probability": 0.70361328125
+        },
+        {
+          "word": " σε",
+          "start": 1824.22,
+          "end": 1824.64,
+          "probability": 0.919921875
+        },
+        {
+          "word": " αυτούς",
+          "start": 1824.64,
+          "end": 1825.3,
+          "probability": 0.92919921875
+        },
+        {
+          "word": " και",
+          "start": 1825.3,
+          "end": 1825.44,
+          "probability": 0.78369140625
+        },
+        {
+          "word": " λίλους",
+          "start": 1825.44,
+          "end": 1825.82,
+          "probability": 0.67236328125
+        },
+        {
+          "word": " και",
+          "start": 1825.82,
+          "end": 1826.0,
+          "probability": 0.810546875
+        },
+        {
+          "word": " πάσαν",
+          "start": 1826.0,
+          "end": 1826.64,
+          "probability": 0.73095703125
+        },
+        {
+          "word": " την",
+          "start": 1826.64,
+          "end": 1826.78,
+          "probability": 0.78369140625
+        },
+        {
+          "word": " ζωή",
+          "start": 1826.78,
+          "end": 1827.14,
+          "probability": 0.982421875
+        },
+        {
+          "word": " νημών,",
+          "start": 1827.14,
+          "end": 1827.58,
+          "probability": 0.646484375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el",
+      "lexical_match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.906,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient global text evidence"
+      },
+      "service_context": {
+        "status": "service_reference_available",
+        "service_id": null,
+        "opening_start": null,
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "match": {
+        "unit_id": "matins:u0158",
+        "unit_index": 158,
+        "section_id": "matins:s014",
+        "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+        "score": 0.906,
+        "status": "matched",
+        "method": "sequence",
+        "reason": "Text continues a nearby anchored passage",
+        "service_id": "matins",
+        "service_title": "Matins (Orthros)"
+      },
+      "sequence_match": {
+        "unit_id": "matins:u0158",
+        "unit_index": 158,
+        "section_id": "matins:s014",
+        "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+        "score": 0.906,
+        "status": "matched",
+        "method": "sequence",
+        "reason": "Text continues a nearby anchored passage",
+        "service_id": "matins",
+        "service_title": "Matins (Orthros)"
+      },
+      "sequence": {
+        "version": 4,
+        "block": 0,
+        "max_reverse_units": 3,
+        "path_unit_id": "matins:u0158",
+        "evidence_segment_ids": [
+          4
+        ],
+        "service_evidence": null,
+        "warnings": [],
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "candidates": [
+        {
+          "unit_id": "matins:u0093",
+          "index": 93,
+          "section_id": "matins:s009",
+          "section_title": "Peace Litany",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.906,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "matins:u0108",
+          "index": 108,
+          "section_id": "matins:s010",
+          "section_title": "Matins",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.906,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "matins:u0120",
+          "index": 120,
+          "section_id": "matins:s011",
+          "section_title": "Kathisma I",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.906,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "matins:u0158",
+          "index": 158,
+          "section_id": "matins:s014",
+          "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.906,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "matins:u0237",
+          "index": 237,
+          "section_id": "matins:s030",
+          "section_title": "Ode iii. Katavasia",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.906,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "matins:u0291",
+          "index": 291,
+          "section_id": "matins:s046",
+          "section_title": "Ode vi. Katavasia",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.906,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 1827.58,
+      "end": 1831.32,
+      "text": "πριστό το Θεό παραθόμεθα.",
+      "avg_logprob": -0.4251689023749773,
+      "compression_ratio": 1.2323232323232323,
+      "no_speech_prob": 0.7120816111564636,
+      "words": [
+        {
+          "word": " πριστό",
+          "start": 1827.58,
+          "end": 1828.42,
+          "probability": 0.479736328125
+        },
+        {
+          "word": " το",
+          "start": 1828.42,
+          "end": 1828.58,
+          "probability": 0.6005859375
+        },
+        {
+          "word": " Θεό",
+          "start": 1828.58,
+          "end": 1829.18,
+          "probability": 0.9619140625
+        },
+        {
+          "word": " παραθόμεθα.",
+          "start": 1829.18,
+          "end": 1831.32,
+          "probability": 0.83642578125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el",
+      "lexical_match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.8443,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient global text evidence"
+      },
+      "service_context": {
+        "status": "service_reference_available",
+        "service_id": null,
+        "opening_start": null,
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.8443,
+        "status": "uncertain",
+        "method": "sequence",
+        "reason": "Insufficient sequence-supported text",
+        "service_id": null,
+        "service_title": null
+      },
+      "sequence_match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.8443,
+        "status": "uncertain",
+        "method": "sequence",
+        "reason": "Insufficient sequence-supported text",
+        "service_id": null,
+        "service_title": null
+      },
+      "sequence": {
+        "version": 4,
+        "block": 0,
+        "max_reverse_units": 3,
+        "path_unit_id": "matins:u0158",
+        "evidence_segment_ids": [],
+        "service_evidence": null,
+        "warnings": [],
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "candidates": [
+        {
+          "unit_id": "matins:u0093",
+          "index": 93,
+          "section_id": "matins:s009",
+          "section_title": "Peace Litany",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.8443,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "matins:u0108",
+          "index": 108,
+          "section_id": "matins:s010",
+          "section_title": "Matins",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.8443,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "matins:u0120",
+          "index": 120,
+          "section_id": "matins:s011",
+          "section_title": "Kathisma I",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.8443,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "matins:u0158",
+          "index": 158,
+          "section_id": "matins:s014",
+          "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.8443,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "matins:u0237",
+          "index": 237,
+          "section_id": "matins:s030",
+          "section_title": "Ode iii. Katavasia",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.8443,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        },
+        {
+          "unit_id": "matins:u0291",
+          "index": 291,
+          "section_id": "matins:s046",
+          "section_title": "Ode vi. Katavasia",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.8443,
+          "language": "el",
+          "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+          "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 1832.5,
+      "end": 1836.74,
+      "text": "Ότι ευλογητές σου το όνομα και δοξαστές...",
+      "avg_logprob": -0.4251689023749773,
+      "compression_ratio": 1.2323232323232323,
+      "no_speech_prob": 0.7120816111564636,
+      "words": [
+        {
+          "word": " Ότι",
+          "start": 1832.5,
+          "end": 1833.24,
+          "probability": 0.8134765625
+        },
+        {
+          "word": " ευλογητές",
+          "start": 1833.24,
+          "end": 1834.38,
+          "probability": 0.76025390625
+        },
+        {
+          "word": " σου",
+          "start": 1834.38,
+          "end": 1834.56,
+          "probability": 0.77392578125
+        },
+        {
+          "word": " το",
+          "start": 1834.56,
+          "end": 1834.74,
+          "probability": 0.841796875
+        },
+        {
+          "word": " όνομα",
+          "start": 1834.74,
+          "end": 1835.3,
+          "probability": 0.91015625
+        },
+        {
+          "word": " και",
+          "start": 1835.3,
+          "end": 1835.48,
+          "probability": 0.8828125
+        },
+        {
+          "word": " δοξαστές...",
+          "start": 1835.48,
+          "end": 1836.74,
+          "probability": 0.62548828125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el",
+      "lexical_match": {
+        "unit_id": "matins:u0160",
+        "unit_index": 160,
+        "section_id": "matins:s014",
+        "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+        "score": 0.9003,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive global text match"
+      },
+      "service_context": {
+        "status": "service_reference_available",
+        "service_id": null,
+        "opening_start": null,
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "match": {
+        "unit_id": "matins:u0160",
+        "unit_index": 160,
+        "section_id": "matins:s014",
+        "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+        "score": 0.9003,
+        "status": "matched",
+        "method": "sequence",
+        "reason": "Distinctive text supports this position in the chronological path",
+        "service_id": "matins",
+        "service_title": "Matins (Orthros)"
+      },
+      "sequence_match": {
+        "unit_id": "matins:u0160",
+        "unit_index": 160,
+        "section_id": "matins:s014",
+        "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+        "score": 0.9003,
+        "status": "matched",
+        "method": "sequence",
+        "reason": "Distinctive text supports this position in the chronological path",
+        "service_id": "matins",
+        "service_title": "Matins (Orthros)"
+      },
+      "sequence": {
+        "version": 4,
+        "block": 0,
+        "max_reverse_units": 3,
+        "path_unit_id": "matins:u0160",
+        "evidence_segment_ids": [
+          4
+        ],
+        "service_evidence": null,
+        "warnings": [],
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "candidates": [
+        {
+          "unit_id": "matins:u0160",
+          "index": 160,
+          "section_id": "matins:s014",
+          "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.9003,
+          "language": "el",
+          "greek": "Ὅτι ηὐλόγηταί σου τὸ ὄνομα καὶ δεδόξασταί σου ἡ βασιλεία, τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ ἁγίου Πνεύματος, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "For blessed is Your name, and glorified is Your kingdom, of the Father and the Son and the Holy Spirit, now and ever and to the ages of ages."
+        },
+        {
+          "unit_id": "matins:u0058",
+          "index": 58,
+          "section_id": "matins:s007",
+          "section_title": "Psalm 102 (103)",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.6883,
+          "language": "el",
+          "greek": "Εὐλόγει, ἡ ψυχή μου, τὸν Κύριον, καί, πάντα τὰ ἐντός μου, τὸ ὄνομα τὸ ἅγιον αὐτοῦ. Εὐλόγει, ἡ ψυχή μου, τὸν Κύριον, καὶ μὴ ἐπιλανθάνου πάσας τὰς ἀνταποδόσεις αὐτοῦ. Τὸν εὐιλατεύοντα πάσας τὰς ἀνομίας σου, τὸν ἰώμενον πάσας τὰς νόσους σου. Τὸν λυτρούμενον ἐκ φθορᾶς τὴν ζωήν σου, τὸν στεφανοῦντά σε ἐν ἐλέει καὶ οἰκτιρμοῖς. Τὸν ἐμπιπλῶντα ἐν ἀγαθοῖς τὴν ἐπιθυμίαν σου, ἀνακαινισθήσεται ὡς ἀετοῦ ἡ νεότης σου. Ποιῶν ἐλεημοσύνας ὁ Κύριος καὶ κρῖμα πᾶσι τοῖς ἀδικουμένοις. Ἐγνώρισε τὰς ὁδοὺς αὐτοῦ τῷ Μωϋσῇ, τοῖς υἱοῖς Ἰσραὴλ τὰ θελήματα αὐτοῦ. Οἰκτίρμων καὶ ἐλεήμων ὁ Κύριος, μακρόθυμος καὶ πολυέλεος· οὐκ εἰς τέλος ὀργισθήσεται, οὐδὲ εἰς τὸν αἰῶνα μηνιεῖ. Οὐ κατὰ τὰς ἀνομίας ἡμῶν ἐποίησεν ἡμῖν, οὐδὲ κατὰ τὰς ἁμαρτίας ἡμῶν ἀνταπέδωκεν ἡμῖν, ὅτι κατὰ τὸ ὕψος τοῦ οὐρανοῦ ἀπὸ τῆς γῆς ἐκραταίωσε Κύριος τὸ ἔλεος αὐτοῦ ἐπὶ τοὺς φοβουμένους αὐτόν. Καθʼ ὅσον ἀπέχουσιν ἀνατολαὶ ἀπὸ δυσμῶν, ἐμάκρυνεν ἀφʼ ἡμῶν τὰς ἀνομίας ἡμῶν. Καθὼς οἰκτείρει πατὴρ υἱούς, ᾠκτείρησε Κύριος τοὺς φοβουμένους αὐτόν, ὅτι αὐτὸς ἔγνω τὸ πλάσμα ἡμῶν, ἐμνήσθη ὅτι χοῦς ἐσμεν. Ἄνθρωπος, ὡσεὶ χόρτος αἱ ἡμέραι αὐτοῦ· ὡσεὶ ἄνθος τοῦ ἀγροῦ, οὕτως ἐξανθήσει. Ὅτι πνεῦμα διῆλθεν ἐν αὐτῷ, καὶ οὐχ ὑπάρξει, καὶ οὐκ ἐπιγνώσεται ἔτι τὸν τόπον αὐτοῦ. Τὸ δὲ ἔλεος τοῦ Κυρίου ἀπὸ τοῦ αἰῶνος καὶ ἕως τοῦ αἰῶνος ἐπὶ τοὺς φοβουμένους αὐτόν, καὶ ἡ δικαιοσύνη αὐτοῦ ἐπὶ υἱοῖς υἱῶν, τοῖς φυλάσσουσι τὴν διαθήκην αὐτοῦ καὶ μεμνημένοις τῶν ἐντολῶν αὐτοῦ τοῦ ποιῆσαι αὐτάς. Κύριος ἐν τῷ οὐρανῷ ἡτοίμασε τὸν θρόνον αὐτοῦ, καὶ ἡ βασιλεία αὐτοῦ πάντων δεσπόζει. Εὐλογεῖτε τὸν Κύριον, πάντες οἱ Ἄγγελοι αὐτοῦ, δυνατοὶ ἰσχύϊ, ποιοῦντες τὸν λόγον αὐτοῦ, τοῦ ἀκοῦσαι τῆς φωνῆς τῶν λόγων αὐτοῦ. Εὐλογεῖτε τὸν Κύριον, πᾶσαι αἱ Δυνάμεις αὐτοῦ, λειτουργοὶ αὐτοῦ, ποιοῦντες τὸ θέλημα αὐτοῦ. Εὐλογεῖτε τὸν Κύριον, πάντα τὰ ἔργα αὐτοῦ, ἐν παντὶ τόπῳ τῆς δεσποτείας αὐτοῦ· εὐλόγει, ἡ ψυχή μου, τὸν Κύριον.",
+          "english": "Bless the Lord, O my soul, and everything within me, bless His holy name. Bless the Lord, O my soul, and forget not all His rewards: who is merciful to all your transgressions, who heals all your diseases, who redeems your life from corruption, who crowns you with mercy and compassion, who satisfies your desire with good things; and your youth is renewed like the eagle’s. The Lord shows mercies and judgment to all who are wronged. He made known His ways to Moses, the things He willed to the sons of Israel. The Lord is compassionate and merciful, slow to anger, and abounding in mercy. He will not become angry to the end, nor will He be wrathful forever; He did not deal with us according to our sins, nor reward us according to our transgressions; for according to the height of heaven from earth, so the Lord reigns in mercy over those who fear Him; as far as the east is from the west, so He removes our transgressions from us. As a father has compassion on his children, so the Lord has compassion on those who fear Him, for He knows how He formed us; He remembers we are dust. As for man, his days are like grass, as a flower of the field, so he flourishes; for the wind passes through it, and it shall not remain; and it shall no longer know its place. But the mercy of the Lord is from age to age upon those who fear Him, and His righteousness upon children’s children, to such as keep His covenant and remember His commandments, to do them. The Lord prepared His throne in heaven, and His Kingdom rules over all. Bless the Lord, all you His angels, mighty in strength, who do His word, so as to hear the voice of His words. Bless the Lord, all you His hosts, His ministers who do His will; bless the Lord, all His works, in all places of His dominion; bless the Lord, O my soul."
+        },
+        {
+          "unit_id": "matins:u0201",
+          "index": 201,
+          "section_id": "matins:s020",
+          "section_title": "Idiomelon",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.6709,
+          "language": "el",
+          "greek": "Ἐλέει καὶ οἰκτιρμοῖς καὶ φιλανθρωπίᾳ τοῦ μονογενοῦς σου Υἱοῦ, μεθ’ οὗ εὐλογητὸς εἶ, σὺν τῷ παναγίῳ καὶ ἀγαθῷ καὶ ζωοποιῷ σου Πνεύματι, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "Through the mercy, compassion, and love for humankind of Your only-begotten Son, with whom You are blessed, and Your all-holy, good and life-creating Spirit, now and ever and to the ages of ages."
+        },
+        {
+          "unit_id": "liturgy:u0169",
+          "index": 650,
+          "section_id": "liturgy:s013",
+          "section_title": "Litany Of Completion",
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "score": 0.6709,
+          "language": "el",
+          "greek": "Διὰ τῶν οἰκτιρμῶν τοῦ μονογενοῦς σου Υἱοῦ, μεθ’ οὗ εὐλογητὸς εἶ, σὺν τῷ παναγίῳ καὶ ἀγαθῷ καὶ ζωοποιῷ σου Πνεύματι, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "Through the mercies of Your only-begotten Son, with whom You are blessed, and Your all-holy, good, and life-creating Spirit, now and ever and to the ages of ages."
+        },
+        {
+          "unit_id": "liturgy:u0256",
+          "index": 737,
+          "section_id": "liturgy:s019",
+          "section_title": "Bowing Of Heads",
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "score": 0.6709,
+          "language": "el",
+          "greek": "Χάριτι καὶ οἰκτιρμοῖς καὶ φιλανθρωπίᾳ τοῦ μονογενοῦς σου Υἱοῦ, μεθ’ οὗ εὐλογητὸς εἶ, σὺν τῷ παναγίῳ καὶ ἀγαθῷ καὶ ζωοποιῷ σου Πνεύματι, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "Through the grace, compassion, and love for humankind of Your only-begotten Son, with whom You are blessed, and Your all-holy, good, and life-creating Spirit, now and ever and to the ages of ages."
+        },
+        {
+          "unit_id": "matins:u0190",
+          "index": 190,
+          "section_id": "matins:s019",
+          "section_title": "Psalm 50 (51)",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.6672,
+          "language": "el",
+          "greek": "Ἐλέησόν με, ὁ Θεός, κατὰ τὸ μέγα ἔλεός σου, καὶ κατὰ τὸ πλῆθος τῶν οἰκτιρμῶν σου ἐξάλειψον τὸ ἀνόμημά μου. Ἐπὶ πλεῖον πλῦνόν με ἀπὸ τῆς ἀνομίας μου, καὶ απὸ τῆς ἁμαρτίας μου καθάρισόν με. Ὅτι τὴν ἀνομίαν μου ἐγὼ γινώσκω, καὶ ἡ ἁμαρτία μου ἐνώπιόν μού ἐστι διὰ παντός. Σοὶ μόνῳ ἥμαρτον, καὶ τὸ πονηρὸν ἐνώπιόν σου ἐποίησα· ὅπως ἂν δικαιωθῇς ἐν τοῖς λόγοις σου, καὶ νικήσῃς ἐν τῷ κρίνεσθαί σε. Ἰδοὺ γὰρ ἐν ἀνομίαις συνελήφθην, καὶ ἐν ἁμαρτίαις ἐκίσσησέ με ἡ μήτηρ μου. Ἰδοὺ γὰρ ἀλήθειαν ἠγάπησας· τὰ ἄδηλα καὶ τὰ κρύφια τῆς σοφίας σου ἐδήλωσάς μοι. Ῥαντιεῖς με ὑσσώπῳ καὶ καθαρισθήσομαι· πλυνεῖς με καὶ ὑπὲρ χιόνα λευκανθήσομαι. Ἀκουτιεῖς μοι ἀγαλλίασιν καὶ εὐφροσύνην· ἀγαλλιάσονται ὀστέα τεταπεινωμένα. Ἀπόστρεψον τὸ πρόσωπόν σου ἀπὸ τῶν ἁμαρτιῶν μου καὶ πάσας τὰς ἀνομίας μου ἐξάλειψον. Καρδίαν καθαρὰν κτίσον ἐν ἐμοί, ὁ Θεός, καὶ πνεῦμα εὐθὲς ἐγκαίνισον ἐν τοῖς ἐγκάτοις μου. Μὴ ἀποῤῥίψῃς με ἀπὸ τοῦ προσώπου σου καὶ τὸ Πνεῦμά σου τὸ ἅγιον μὴ ἀντανέλῃς ἀπ’ ἐμοῦ. Ἀπόδος μοι τὴν ἀγαλλίασιν τοῦ σωτηρίου σου καὶ πνεύματι ἡγεμονικῷ στήριξόν με. Διδάξω ἀνόμους τὰς ὁδούς σου καὶ ἀσεβεῖς ἐπὶ σὲ ἐπιστρέψουσι. Ῥῦσαί με ἐξ αἱμάτων, ὁ Θεός, ὁ Θεὸς τῆς σωτηρίας μου· ἀγαλλιάσεται ἡ γλῶσσά μου τὴν δικαιοσύνην σου. Κύριε, τὰ χείλη μου ἀνοίξεις καὶ τὸ στόμα μου ἀναγγελεῖ τὴν αἴνεσίν σου. Ὅτι εἰ ἠθέλησας θυσίαν, ἔδωκα ἄν· ὁλοκαυτώματα οὐκ εὐδοκήσεις. Θυσία τῷ Θεῷ πνεῦμα συντετριμμένον· καρδίαν συντετριμμένην καὶ τεταπεινωμένην ὁ Θεὸς οὐκ ἐξουδενώσει. Ἀγάθυνον, Κύριε, ἐν τῇ εὐδοκίᾳ σου τὴν Σιὼν καὶ οἰκοδομηθήτω τὰ τείχη Ἰερουσαλήμ. Τότε εὐδοκήσεις θυσίαν δικαιοσύνης, ἀναφορὰν καὶ ὁλοκαυτώματα. Τότε ἀνοίσουσιν ἐπὶ τὸ θυσιαστήριόν σου μόσχους.",
+          "english": "Have mercy on me, O God, according to Your great mercy; and according to the abundance of Your compassion, blot out my transgression. Wash me thoroughly from my lawlessness and cleanse me from my sin. For I know my lawlessness, and my sin is always before me. Against You only have I sinned and done evil in Your sight; that You may be justified in Your words, and overcome when You are judged. For behold, I was conceived in transgressions, and in sins my mother bore me. Behold, You love truth; You showed me the unknown and secret things of Your wisdom. You shall sprinkle me with hyssop, and I will be cleansed; You shall wash me, and I will be made whiter than snow. You shall make me hear joy and gladness; my bones that were humbled shall greatly rejoice. Turn Your face from my sins, and blot out all my transgressions. Create in me a clean heart, O God, and renew a right spirit within me. Do not cast me away from Your presence, and do not take Your Holy Spirit from me. Restore to me the joy of Your salvation, and uphold me with Your guiding Spirit. I will teach transgressors Your ways, and the ungodly shall turn back to You. Deliver me from bloodguiltiness, O God, the God of my salvation, and my tongue shall greatly rejoice in Your righteousness. O Lord, You shall open my lips, and my mouth will declare Your praise. For if You desired sacrifice, I would give it; You will not be pleased with whole burnt offerings. A sacrifice to God is a broken spirit, a broken and humbled heart God will not despise. Do good, O Lord, in Your good pleasure to Zion, and let the walls of Jerusalem be built; then You will be pleased with a sacrifice of righteousness, with offerings and whole burnt offerings; then shall they offer young bulls on Your altar."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 1837.0,
+      "end": 1840.78,
+      "text": "ασυλία του Πατρός και του Υιού και του Αγίου Πνεύματος,",
+      "avg_logprob": -0.4808149666621767,
+      "compression_ratio": 1.452991452991453,
+      "no_speech_prob": 0.6781732439994812,
+      "words": [
+        {
+          "word": " ασυλία",
+          "start": 1837.0,
+          "end": 1837.62,
+          "probability": 0.5556640625
+        },
+        {
+          "word": " του",
+          "start": 1837.62,
+          "end": 1837.78,
+          "probability": 0.974609375
+        },
+        {
+          "word": " Πατρός",
+          "start": 1837.78,
+          "end": 1838.5,
+          "probability": 0.82958984375
+        },
+        {
+          "word": " και",
+          "start": 1838.5,
+          "end": 1838.62,
+          "probability": 0.77490234375
+        },
+        {
+          "word": " του",
+          "start": 1838.62,
+          "end": 1838.82,
+          "probability": 0.97119140625
+        },
+        {
+          "word": " Υιού",
+          "start": 1838.82,
+          "end": 1839.08,
+          "probability": 0.73095703125
+        },
+        {
+          "word": " και",
+          "start": 1839.08,
+          "end": 1839.24,
+          "probability": 0.9384765625
+        },
+        {
+          "word": " του",
+          "start": 1839.24,
+          "end": 1839.42,
+          "probability": 0.96142578125
+        },
+        {
+          "word": " Αγίου",
+          "start": 1839.42,
+          "end": 1839.84,
+          "probability": 0.90185546875
+        },
+        {
+          "word": " Πνεύματος,",
+          "start": 1839.84,
+          "end": 1840.78,
+          "probability": 0.94189453125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el",
+      "lexical_match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.9681,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient global text evidence"
+      },
+      "service_context": {
+        "status": "service_reference_available",
+        "service_id": null,
+        "opening_start": null,
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "match": {
+        "unit_id": "matins:u0160",
+        "unit_index": 160,
+        "section_id": "matins:s014",
+        "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+        "score": 0.9681,
+        "status": "matched",
+        "method": "sequence",
+        "reason": "Text located between nearby distinctive sequence anchors",
+        "service_id": "matins",
+        "service_title": "Matins (Orthros)"
+      },
+      "sequence_match": {
+        "unit_id": "matins:u0160",
+        "unit_index": 160,
+        "section_id": "matins:s014",
+        "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+        "score": 0.9681,
+        "status": "matched",
+        "method": "sequence",
+        "reason": "Text located between nearby distinctive sequence anchors",
+        "service_id": "matins",
+        "service_title": "Matins (Orthros)"
+      },
+      "sequence": {
+        "version": 4,
+        "block": 0,
+        "max_reverse_units": 3,
+        "path_unit_id": "matins:u0160",
+        "evidence_segment_ids": [
+          4,
+          13
+        ],
+        "service_evidence": null,
+        "warnings": [],
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "candidates": [
+        {
+          "unit_id": "matins:u0160",
+          "index": 160,
+          "section_id": "matins:s014",
+          "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.9681,
+          "language": "el",
+          "greek": "Ὅτι ηὐλόγηταί σου τὸ ὄνομα καὶ δεδόξασταί σου ἡ βασιλεία, τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ ἁγίου Πνεύματος, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "For blessed is Your name, and glorified is Your kingdom, of the Father and the Son and the Holy Spirit, now and ever and to the ages of ages."
+        },
+        {
+          "unit_id": "liturgy:u0001",
+          "index": 482,
+          "section_id": "liturgy:s000",
+          "section_title": "Opening blessing and Peace Litany",
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "score": 0.9681,
+          "language": "el",
+          "greek": "Εὐλογημένη ἡ βασιλεία τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ ἁγίου Πνεύματος, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "Blessed is the kingdom of the Father and the Son and the Holy Spirit, now and ever and to the ages of ages."
+        },
+        {
+          "unit_id": "liturgy:u0217",
+          "index": 698,
+          "section_id": "liturgy:s017",
+          "section_title": "Ode ix. Heirmos",
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "score": 0.9458,
+          "language": "el",
+          "greek": "Καὶ δὸς ἡμῖν ἐν ἑνὶ στόματι καὶ μιᾷ καρδίᾳ δοξάζειν καὶ ἀνυμνεῖν τὸ πάντιμον καὶ μεγαλοπρεπὲς ὄνομά σου, τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ ἁγίου Πνεύματος, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "And grant that with one voice and one heart we may glorify and praise Your most honorable and majestic name, of the Father and the Son and the Holy Spirit, now and ever and to the ages of ages."
+        },
+        {
+          "unit_id": "matins:u0011",
+          "index": 11,
+          "section_id": "matins:s001",
+          "section_title": "Trisagion Prayers",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.9234,
+          "language": "el",
+          "greek": "Ὅτι σοῦ ἐστιν ἡ βασιλεία καὶ ἡ δύναμις καὶ ἡ δόξα τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ ἁγίου Πνεύματος, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "For Thine is the kingdom and the power and the glory, of the Father and the Son and the Holy Spirit, now and ever and to ages of ages."
+        },
+        {
+          "unit_id": "matins:u0110",
+          "index": 110,
+          "section_id": "matins:s010",
+          "section_title": "Matins",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.9234,
+          "language": "el",
+          "greek": "Ὅτι σὸν τὸ κράτος καὶ σοῦ ἐστιν ἡ βασιλεία καὶ ἡ δύναμις καὶ ἡ δόξα, τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ ἁγίου Πνεύματος, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "For Yours is the dominion, and Yours is the kingdom and the power and the glory, of the Father and the Son and the Holy Spirit, now and ever and to the ages of ages."
+        },
+        {
+          "unit_id": "liturgy:u0051",
+          "index": 532,
+          "section_id": "liturgy:s002",
+          "section_title": "Small Litany",
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "score": 0.9234,
+          "language": "el",
+          "greek": "Ὅτι σὸν τὸ κράτος καὶ σοῦ ἐστιν ἡ βασιλεία καὶ ἡ δύναμις καὶ ἡ δόξα, τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ ἁγίου Πνεύματος, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "For Yours is the dominion, and Yours is the kingdom and the power and the glory, of the Father and the Son and the Holy Spirit, now and ever and to the ages of ages."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 1841.16,
+      "end": 1845.8,
+      "text": "δυν και αήγεης τους αιώνας των αιώνων.",
+      "avg_logprob": -0.4808149666621767,
+      "compression_ratio": 1.452991452991453,
+      "no_speech_prob": 0.6781732439994812,
+      "words": [
+        {
+          "word": " δυν",
+          "start": 1841.16,
+          "end": 1841.36,
+          "probability": 0.45556640625
+        },
+        {
+          "word": " και",
+          "start": 1841.36,
+          "end": 1841.52,
+          "probability": 0.29931640625
+        },
+        {
+          "word": " αήγεης",
+          "start": 1841.52,
+          "end": 1842.64,
+          "probability": 0.472412109375
+        },
+        {
+          "word": " τους",
+          "start": 1842.64,
+          "end": 1842.76,
+          "probability": 0.578125
+        },
+        {
+          "word": " αιώνας",
+          "start": 1842.76,
+          "end": 1843.72,
+          "probability": 0.794921875
+        },
+        {
+          "word": " των",
+          "start": 1843.72,
+          "end": 1843.9,
+          "probability": 0.513671875
+        },
+        {
+          "word": " αιώνων.",
+          "start": 1843.9,
+          "end": 1845.8,
+          "probability": 0.75537109375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el",
+      "lexical_match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.9028,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient global text evidence"
+      },
+      "service_context": {
+        "status": "service_reference_available",
+        "service_id": null,
+        "opening_start": null,
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "match": {
+        "unit_id": "matins:u0160",
+        "unit_index": 160,
+        "section_id": "matins:s014",
+        "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+        "score": 0.88,
+        "status": "matched",
+        "method": "sequence",
+        "reason": "Text located between nearby distinctive sequence anchors",
+        "service_id": "matins",
+        "service_title": "Matins (Orthros)"
+      },
+      "sequence_match": {
+        "unit_id": "matins:u0160",
+        "unit_index": 160,
+        "section_id": "matins:s014",
+        "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+        "score": 0.88,
+        "status": "matched",
+        "method": "sequence",
+        "reason": "Text located between nearby distinctive sequence anchors",
+        "service_id": "matins",
+        "service_title": "Matins (Orthros)"
+      },
+      "sequence": {
+        "version": 4,
+        "block": 0,
+        "max_reverse_units": 3,
+        "path_unit_id": "matins:u0160",
+        "evidence_segment_ids": [
+          4,
+          13
+        ],
+        "service_evidence": null,
+        "warnings": [],
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "candidates": [
+        {
+          "unit_id": "matins:u0160",
+          "index": 160,
+          "section_id": "matins:s014",
+          "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.88,
+          "language": "el",
+          "greek": "Ὅτι ηὐλόγηταί σου τὸ ὄνομα καὶ δεδόξασταί σου ἡ βασιλεία, τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ ἁγίου Πνεύματος, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "For blessed is Your name, and glorified is Your kingdom, of the Father and the Son and the Holy Spirit, now and ever and to the ages of ages."
+        },
+        {
+          "unit_id": "liturgy:u0096",
+          "index": 577,
+          "section_id": "liturgy:s009",
+          "section_title": "Trisagios Hymn",
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "score": 0.9028,
+          "language": "el",
+          "greek": "καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "and to the ages of ages."
+        },
+        {
+          "unit_id": "matins:u0177",
+          "index": 177,
+          "section_id": "matins:s017",
+          "section_title": "Prokeimenon. Psalm 44",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.8836,
+          "language": "el",
+          "greek": "Ὅτι ἅγιος εἶ, ὁ Θεὸς ἡμῶν, καὶ ἐν ἁγίοις ἐπαναπαύῃ, καὶ σοὶ τὴν δόξαν ἀναπέμπομεν, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ ἁγίῳ Πνεύματι, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "For You, our God, are holy, and You rest among the holy ones, and to You we offer up glory, to the Father and the Son and the Holy Spirit, now and ever and to the ages of ages."
+        },
+        {
+          "unit_id": "liturgy:u0316",
+          "index": 797,
+          "section_id": "liturgy:s025",
+          "section_title": "Dismissal",
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "score": 0.8836,
+          "language": "el",
+          "greek": "Ὁ εὐλογῶν τοὺς εὐλογοῦντάς σε, Κύριε, καὶ ἁγιάζων τοὺς ἐπὶ σοὶ πεποιθότας, σῶσον τὸν λαόν σου καὶ εὐλόγησον τὴν κληρονομίαν σου. Τὸ πλήρωμα τῆς Ἐκκλησίας σου φύλαξον· ἁγίασον τοὺς ἀγαπῶντας τὴν εὐπρέπειαν τοῦ οἴκου σου· σὺ αὐτοὺς ἀντιδόξασον τῇ θεϊκῇ σου δυνάμει καὶ μὴ ἐγκαταλίπῃς ἡμᾶς τοὺς ἐλπίζοντας ἐπὶ σέ. Εἰρήνην τῷ κόσμῳ σου δώρησαι, ταῖς Ἐκκλησίαις σου, τοῖς ἱερεῦσι, τοῖς βασιλεῦσιν ἡμῶν, τῷ στρατῷ καὶ παντὶ τῷ λαῷ σου· ὅτι πᾶσα δόσις ἀγαθὴ καὶ πᾶν δώρημα τέλειον ἄνωθέν ἐστι, καταβαῖνον ἐκ σοῦ τοῦ Πατρὸς τῶν φώτων· καὶ σοὶ τὴν δόξαν καὶ εὐχαριστίαν καὶ προσκύνησιν ἀναπέμπομεν, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ ἁγίῳ Πνεύματι, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "O Lord, who blesses those who bless You and sanctifies those who put their trust in You, save Your people and bless Your inheritance. Protect the whole body of Your Church. Sanctify those who love the beauty of Your house. Glorify them in return by Your divine power, and forsake us not who have set our hope in You. Grant peace to Your world, to Your churches, to the clergy, to our civic leaders, to the armed forces, and to all Your people. For every good and perfect gift is from above, coming down from You, the Father of lights. To You we offer up glory, thanksgiving, and worship, to the Father and to the Son and to the Holy Spirit, now and ever and to the ages of ages."
+        },
+        {
+          "unit_id": "matins:u0122",
+          "index": 122,
+          "section_id": "matins:s011",
+          "section_title": "Kathisma I",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.882,
+          "language": "el",
+          "greek": "Ὅτι ἀγαθὸς καὶ φιλάνθρωπος Θεὸς ὑπάρχεις καὶ σοὶ τὴν δόξαν ἀναπέμπομεν, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ ἁγίῳ Πνεύματι, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "For You are good and benevolent God, and to You we offer up glory, to the Father and the Son and the Holy Spirit, now and ever and to the ages of ages."
+        },
+        {
+          "unit_id": "liturgy:u0072",
+          "index": 553,
+          "section_id": "liturgy:s004",
+          "section_title": "Small Litany",
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "score": 0.882,
+          "language": "el",
+          "greek": "Ὅτι ἀγαθὸς καὶ φιλάνθρωπος Θεὸς ὑπάρχεις καὶ σοὶ τὴν δόξαν ἀναπέμπομεν, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ ἁγίῳ Πνεύματι, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "For You are good and benevolent God, and to You we offer up glory, to the Father and the Son and the Holy Spirit, now and ever and to the ages of ages."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 1850.5,
+      "end": 1851.9,
+      "text": "Αμήν!",
+      "avg_logprob": -1.0582889980740018,
+      "compression_ratio": 1.0123456790123457,
+      "no_speech_prob": 0.18416719138622284,
+      "words": [
+        {
+          "word": " Αμήν!",
+          "start": 1850.5,
+          "end": 1851.9,
+          "probability": 0.7001953125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el",
+      "lexical_match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 1.0,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient global text evidence"
+      },
+      "service_context": {
+        "status": "service_reference_available",
+        "service_id": null,
+        "opening_start": null,
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "match": {
+        "unit_id": "matins:u0161",
+        "unit_index": 161,
+        "section_id": "matins:s014",
+        "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+        "score": 1.0,
+        "status": "matched",
+        "method": "sequence",
+        "reason": "Text located between nearby distinctive sequence anchors",
+        "service_id": "matins",
+        "service_title": "Matins (Orthros)"
+      },
+      "sequence_match": {
+        "unit_id": "matins:u0161",
+        "unit_index": 161,
+        "section_id": "matins:s014",
+        "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+        "score": 1.0,
+        "status": "matched",
+        "method": "sequence",
+        "reason": "Text located between nearby distinctive sequence anchors",
+        "service_id": "matins",
+        "service_title": "Matins (Orthros)"
+      },
+      "sequence": {
+        "version": 4,
+        "block": 0,
+        "max_reverse_units": 3,
+        "path_unit_id": "matins:u0161",
+        "evidence_segment_ids": [
+          4,
+          13
+        ],
+        "service_evidence": null,
+        "warnings": [],
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "candidates": [
+        {
+          "unit_id": "matins:u0161",
+          "index": 161,
+          "section_id": "matins:s014",
+          "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 1.0,
+          "language": "el",
+          "greek": "Ἀμήν.",
+          "english": "Amen."
+        },
+        {
+          "unit_id": "matins:u0001",
+          "index": 1,
+          "section_id": "matins:s000",
+          "section_title": "Matins Ordinary",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 1.0,
+          "language": "el",
+          "greek": "Ἀμήν.",
+          "english": "Amen."
+        },
+        {
+          "unit_id": "matins:u0004",
+          "index": 4,
+          "section_id": "matins:s000",
+          "section_title": "Matins Ordinary",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 1.0,
+          "language": "el",
+          "greek": "Ἀμήν.",
+          "english": "Amen."
+        },
+        {
+          "unit_id": "matins:u0006",
+          "index": 6,
+          "section_id": "matins:s001",
+          "section_title": "Trisagion Prayers",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 1.0,
+          "language": "el",
+          "greek": "Δόξα Πατρὶ καὶ Υἱῷ καὶ ἁγίῳ Πνεύματι· καὶ νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων. Ἀμήν.",
+          "english": "Glory to the Father and the Son and the Holy Spirit; both now and ever and to the ages of ages. Amen."
+        },
+        {
+          "unit_id": "matins:u0009",
+          "index": 9,
+          "section_id": "matins:s001",
+          "section_title": "Trisagion Prayers",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 1.0,
+          "language": "el",
+          "greek": "Δόξα Πατρὶ καὶ Υἱῷ καὶ ἁγίῳ Πνεύματι· καὶ νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων. Ἀμήν.",
+          "english": "Glory to the Father and the Son and the Holy Spirit; both now and ever and to the ages of ages. Amen."
+        },
+        {
+          "unit_id": "matins:u0012",
+          "index": 12,
+          "section_id": "matins:s001",
+          "section_title": "Trisagion Prayers",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 1.0,
+          "language": "el",
+          "greek": "Ἀμήν.",
+          "english": "Amen."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 1852.6,
+      "end": 1858.94,
+      "text": "Έκνε ο Θεός μου φορά,",
+      "avg_logprob": -1.0582889980740018,
+      "compression_ratio": 1.0123456790123457,
+      "no_speech_prob": 0.18416719138622284,
+      "words": [
+        {
+          "word": " Έκνε",
+          "start": 1852.6,
+          "end": 1853.64,
+          "probability": 0.60546875
+        },
+        {
+          "word": " ο",
+          "start": 1853.64,
+          "end": 1854.0,
+          "probability": 0.4716796875
+        },
+        {
+          "word": " Θεός",
+          "start": 1854.0,
+          "end": 1855.52,
+          "probability": 0.56005859375
+        },
+        {
+          "word": " μου",
+          "start": 1855.52,
+          "end": 1856.94,
+          "probability": 0.363037109375
+        },
+        {
+          "word": " φορά,",
+          "start": 1856.94,
+          "end": 1858.94,
+          "probability": 0.410888671875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el",
+      "lexical_match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.7858,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient global text evidence"
+      },
+      "service_context": {
+        "status": "service_reference_available",
+        "service_id": null,
+        "opening_start": null,
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.7858,
+        "status": "uncertain",
+        "method": "sequence",
+        "reason": "Lexical candidate conflicts with the supported chronology or lacks evidence",
+        "service_id": null,
+        "service_title": null
+      },
+      "sequence_match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.7858,
+        "status": "uncertain",
+        "method": "sequence",
+        "reason": "Lexical candidate conflicts with the supported chronology or lacks evidence",
+        "service_id": null,
+        "service_title": null
+      },
+      "sequence": {
+        "version": 4,
+        "block": 0,
+        "max_reverse_units": 3,
+        "path_unit_id": null,
+        "evidence_segment_ids": [],
+        "service_evidence": null,
+        "warnings": [],
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "candidates": [
+        {
+          "unit_id": "matins:u0048",
+          "index": 48,
+          "section_id": "matins:s004",
+          "section_title": "Psalm 37 (38)",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.7858,
+          "language": "el",
+          "greek": "Κύριε, μὴ τῷ θυμῷ σου ἐλέγξῃς με, μηδὲ τῇ ὀργῇ σου παιδεύσῃς με. Ὅτι τὰ βέλη σου ἐνεπάγησάν μοι, καὶ ἐπεστήριξας ἐπʼ ἐμὲ τὴν χεῖρά σου. Οὐκ ἔστιν ἴασις ἐν τῇ σαρκί μου ἀπὸ προσώπου τῆς ὀργῆς σου, οὐκ ἔστιν εἰρήνη ἐν τοῖς ὀστέοις μου ἀπὸ προσώπου τῶν ἁμαρτιῶν μου. Ὅτι αἱ ἀνομίαι μου ὑπερῇραν τὴν κεφαλήν μου, ὡσεὶ φορτίον βαρὺ ἐβαρύνθησαν ἐπʼ ἐμέ. Προσώζεσαν καὶ ἐσάπησαν οἱ μώλωπές μου ἀπὸ προσώπου τῆς ἀφροσύνης μου. Ἐταλαιπώρησα καὶ κατεκάμφθην ἕως τέλους, ὅλην τὴν ἡμέραν σκυθρωπάζων ἐπορευόμην. Ὅτι αἱ ψόαι μου ἐπλήσθησαν ἐμπαιγμάτων, καὶ οὐκ ἔστιν ἴασις ἐν τῇ σαρκί μου. Ἐκακώθην καὶ ἐταπεινώθην ἕως σφόδρα, ὠρυόμην ἀπὸ στεναγμοῦ τῆς καρδίας μου. Κύριε, ἐναντίον σου πᾶσα ἡ ἐπιθυμία μου, καὶ ὁ στεναγμός μου ἀπὸ σοῦ οὐκ ἀπεκρύβη. Ἡ καρδία μου ἐταράχθη, ἐγκατέλιπέ με ἡ ἰσχύς μου, καὶ τὸ φῶς τῶν ὀφθαλμῶν μου καὶ αὐτὸ οὐκ ἔστι μετʼ ἐμοῦ. Οἱ φίλοι μου καὶ οἱ πλησίον μου ἐξεναντίας μου ἤγγισαν καὶ ἔστησαν, καὶ οἱ ἔγγιστά μου ἀπὸ μακρόθεν ἔστησαν. Καὶ ἐξεβιάζοντο οἱ ζητοῦντες τὴν ψυχήν μου, καὶ οἱ ζητοῦντες τὰ κακά μοι ἐλάλησαν ματαιότητας, καὶ δολιότητας ὅλην τὴν ἡμέραν ἐμελέτησαν. Ἐγὼ δὲ ὡσεὶ κωφὸς οὐκ ἤκουον καὶ ὡσεὶ ἄλαλος οὐκ ἀνοίγων τὸ στόμα αὐτοῦ. Καὶ ἐγενόμην ὡσεὶ ἄνθρωπος οὐκ ἀκούων καὶ οὐκ ἔχων ἐν τῷ στόματι αὐτοῦ ἐλεγμούς. Ὅτι ἐπὶ σοί, Κύριε, ἤλπισα· σὺ εἰσακούσῃ, Κύριε ὁ Θεός μου. Ὅτι εἶπον· Μήποτε ἐπιχαρῶσί μοι οἱ ἐχθροί μου· καὶ ἐν τῷ σαλευθῆναι πόδας μου ἐπʼ ἐμὲ ἐμεγαλοῤῥημόνησαν. Ὅτι ἐγὼ εἰς μάστιγας ἕτοιμος, καὶ ἡ ἀλγηδών μου ἐνώπιόν μού ἐστι διὰ παντός. Ὅτι τὴν ἀνομίαν μου ἐγὼ ἀναγγελῶ καὶ μεριμνήσω ὑπὲρ τῆς ἁμαρτίας μου. Οἱ δὲ ἐχθροί μου ζῶσι καὶ κεκραταίωνται ὑπὲρ ἐμέ, καὶ ἐπληθύνθησαν οἱ μισοῦντές με ἀδίκως. Οἱ ἀνταποδιδόντες μοι κακὰ ἀντὶ ἀγαθῶν ἐνδιέβαλλόν με, ἐπεὶ κατεδίωκον ἀγαθωσύνην. Μὴ ἐγκαταλίπῃς με, Κύριε ὁ Θεός μου, μὴ ἀποστῇς ἀπʼ ἐμοῦ. Πρόσχες εἰς τὴν βοήθειάν μου, Κύριε τῆς σωτηρίας μου.",
+          "english": "O Lord, do not rebuke me in Your wrath, nor chasten me in Your anger. For Your arrows are fixed in me, and Your hand rests on me; there is no healing in my flesh because of Your wrath; there is no peace in my bones because of my sins. For my transgressions rise up over my head; like a heavy burden they are heavy on me. My wounds grow foul and fester because of my folly. I suffer misery, and I am utterly bowed down; I go all the day long with a sad face. For my loins are filled with mockeries, and there is no healing in my flesh. I am afflicted and greatly humbled; I roar because of the groaning of my heart. O Lord, all my desire is before You, and my groaning is not hidden from You. My heart is troubled; my strength fails me, and the light of my eyes, even this is not with me. My friends and neighbors draw near and stand against me, and my near of kin stand far off; and those who seek my soul use violence, and those who seek evil for me speak folly; and they meditate on deceit all the day long. But I like a deaf man do not hear, and I am like a mute who does not open his mouth. I am like a man who does not hear, and who has no reproofs in his mouth. For in You, O Lord, I hope; You will hear, O Lord my God. For I said, “Let not my enemies rejoice over me, for when my foot was shaken, they boasted against me.” For I am ready for wounds, and my pain is continually with me. For I will declare my transgression, and I will be anxious about my sin. But my enemies live, and are become stronger than I; and those who hate me unjustly are multiplied; those who repaid me evil for good slandered me, because I pursue righteousness; and they threw away my love as though it were a stinking corpse. Do not forsake me, O Lord; O my God, do not depart from me; give heed to help me, O Lord of my salvation."
+        },
+        {
+          "unit_id": "matins:u0046",
+          "index": 46,
+          "section_id": "matins:s003",
+          "section_title": "Psalm 3",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.7708,
+          "language": "el",
+          "greek": "Κύριε, τί ἐπληθύνθησαν οἱ θλίβοντές με; Πολλοὶ ἐπανίστανται ἐπʼ ἐμέ. Πολλοὶ λέγουσι τῇ ψυχῇ μου· Οὐκ ἔστι σωτηρία αὐτῷ ἐν τῷ Θεῷ αὐτοῦ. Σὺ δέ, Κύριε, ἀντιλήπτωρ μου εἶ, δόξα μου καὶ ὑψῶν τὴν κεφαλήν μου. Φωνῇ μου πρὸς Κύριον ἐκέκραξα, καὶ ἐπήκουσέ μου ἐξ ὄρους ἁγίου αὐτοῦ. Ἐγὼ δὲ ἐκοιμήθην καὶ ὕπνωσα· ἐξηγέρθην, ὅτι Κύριος ἀντιλήψεταί μου. Οὐ φοβηθήσομαι ἀπὸ μυριάδων λαοῦ τῶν κύκλῳ συνεπιτιθεμένων μοι. Ἀνάστα, Κύριε, σῶσόν με ὁ Θεός μου, ὅτι σὺ ἐπάταξας πάντας τοὺς ἐχθραίνοντάς μοι ματαίως, ὀδόντας ἁμαρτωλῶν συνέτριψας. Τοῦ Κυρίου ἡ σωτηρία, καὶ ἐπὶ τὸν λαόν σου ἡ εὐλογία σου.",
+          "english": "O Lord, why do those who afflict me multiply? Many are those who rise up against me. Many are those who say to my soul, “There is no salvation for him in his God.” But You, O Lord, are my protector, my glory and the One who lifts up my head. I cried to the Lord with my voice, and He heard me from His holy hill. I lay down and slept; I awoke, for the Lord will help me. I will not be afraid of ten thousands of people who set themselves against me all around. Arise, O Lord, and save me, O my God, for You struck all those who were foolishly at enmity with me; You broke the teeth of sinners. Salvation is of the Lord, and Your blessing is upon Your people."
+        },
+        {
+          "unit_id": "matins:u0049",
+          "index": 49,
+          "section_id": "matins:s004",
+          "section_title": "Psalm 37 (38)",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.7547,
+          "language": "el",
+          "greek": "Μὴ ἐγκαταλίπῃς με, Κύριε· ὁ Θεός μου, μὴ ἀποστῇς ἀπʼ ἐμοῦ· πρόσχες εἰς τὴν βοήθειάν μου, Κύριε τῆς σωτηρίας μου.",
+          "english": "Do not forsake me, O Lord; O my God, do not depart from me. Give heed to help me, O Lord of my salvation."
+        },
+        {
+          "unit_id": "matins:u0190",
+          "index": 190,
+          "section_id": "matins:s019",
+          "section_title": "Psalm 50 (51)",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.7417,
+          "language": "el",
+          "greek": "Ἐλέησόν με, ὁ Θεός, κατὰ τὸ μέγα ἔλεός σου, καὶ κατὰ τὸ πλῆθος τῶν οἰκτιρμῶν σου ἐξάλειψον τὸ ἀνόμημά μου. Ἐπὶ πλεῖον πλῦνόν με ἀπὸ τῆς ἀνομίας μου, καὶ απὸ τῆς ἁμαρτίας μου καθάρισόν με. Ὅτι τὴν ἀνομίαν μου ἐγὼ γινώσκω, καὶ ἡ ἁμαρτία μου ἐνώπιόν μού ἐστι διὰ παντός. Σοὶ μόνῳ ἥμαρτον, καὶ τὸ πονηρὸν ἐνώπιόν σου ἐποίησα· ὅπως ἂν δικαιωθῇς ἐν τοῖς λόγοις σου, καὶ νικήσῃς ἐν τῷ κρίνεσθαί σε. Ἰδοὺ γὰρ ἐν ἀνομίαις συνελήφθην, καὶ ἐν ἁμαρτίαις ἐκίσσησέ με ἡ μήτηρ μου. Ἰδοὺ γὰρ ἀλήθειαν ἠγάπησας· τὰ ἄδηλα καὶ τὰ κρύφια τῆς σοφίας σου ἐδήλωσάς μοι. Ῥαντιεῖς με ὑσσώπῳ καὶ καθαρισθήσομαι· πλυνεῖς με καὶ ὑπὲρ χιόνα λευκανθήσομαι. Ἀκουτιεῖς μοι ἀγαλλίασιν καὶ εὐφροσύνην· ἀγαλλιάσονται ὀστέα τεταπεινωμένα. Ἀπόστρεψον τὸ πρόσωπόν σου ἀπὸ τῶν ἁμαρτιῶν μου καὶ πάσας τὰς ἀνομίας μου ἐξάλειψον. Καρδίαν καθαρὰν κτίσον ἐν ἐμοί, ὁ Θεός, καὶ πνεῦμα εὐθὲς ἐγκαίνισον ἐν τοῖς ἐγκάτοις μου. Μὴ ἀποῤῥίψῃς με ἀπὸ τοῦ προσώπου σου καὶ τὸ Πνεῦμά σου τὸ ἅγιον μὴ ἀντανέλῃς ἀπ’ ἐμοῦ. Ἀπόδος μοι τὴν ἀγαλλίασιν τοῦ σωτηρίου σου καὶ πνεύματι ἡγεμονικῷ στήριξόν με. Διδάξω ἀνόμους τὰς ὁδούς σου καὶ ἀσεβεῖς ἐπὶ σὲ ἐπιστρέψουσι. Ῥῦσαί με ἐξ αἱμάτων, ὁ Θεός, ὁ Θεὸς τῆς σωτηρίας μου· ἀγαλλιάσεται ἡ γλῶσσά μου τὴν δικαιοσύνην σου. Κύριε, τὰ χείλη μου ἀνοίξεις καὶ τὸ στόμα μου ἀναγγελεῖ τὴν αἴνεσίν σου. Ὅτι εἰ ἠθέλησας θυσίαν, ἔδωκα ἄν· ὁλοκαυτώματα οὐκ εὐδοκήσεις. Θυσία τῷ Θεῷ πνεῦμα συντετριμμένον· καρδίαν συντετριμμένην καὶ τεταπεινωμένην ὁ Θεὸς οὐκ ἐξουδενώσει. Ἀγάθυνον, Κύριε, ἐν τῇ εὐδοκίᾳ σου τὴν Σιὼν καὶ οἰκοδομηθήτω τὰ τείχη Ἰερουσαλήμ. Τότε εὐδοκήσεις θυσίαν δικαιοσύνης, ἀναφορὰν καὶ ὁλοκαυτώματα. Τότε ἀνοίσουσιν ἐπὶ τὸ θυσιαστήριόν σου μόσχους.",
+          "english": "Have mercy on me, O God, according to Your great mercy; and according to the abundance of Your compassion, blot out my transgression. Wash me thoroughly from my lawlessness and cleanse me from my sin. For I know my lawlessness, and my sin is always before me. Against You only have I sinned and done evil in Your sight; that You may be justified in Your words, and overcome when You are judged. For behold, I was conceived in transgressions, and in sins my mother bore me. Behold, You love truth; You showed me the unknown and secret things of Your wisdom. You shall sprinkle me with hyssop, and I will be cleansed; You shall wash me, and I will be made whiter than snow. You shall make me hear joy and gladness; my bones that were humbled shall greatly rejoice. Turn Your face from my sins, and blot out all my transgressions. Create in me a clean heart, O God, and renew a right spirit within me. Do not cast me away from Your presence, and do not take Your Holy Spirit from me. Restore to me the joy of Your salvation, and uphold me with Your guiding Spirit. I will teach transgressors Your ways, and the ungodly shall turn back to You. Deliver me from bloodguiltiness, O God, the God of my salvation, and my tongue shall greatly rejoice in Your righteousness. O Lord, You shall open my lips, and my mouth will declare Your praise. For if You desired sacrifice, I would give it; You will not be pleased with whole burnt offerings. A sacrifice to God is a broken spirit, a broken and humbled heart God will not despise. Do good, O Lord, in Your good pleasure to Zion, and let the walls of Jerusalem be built; then You will be pleased with a sacrifice of righteousness, with offerings and whole burnt offerings; then shall they offer young bulls on Your altar."
+        },
+        {
+          "unit_id": "matins:u0418",
+          "index": 418,
+          "section_id": "matins:s068",
+          "section_title": "Great Doxology",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.7377,
+          "language": "el",
+          "greek": "Κύριε, πρὸς σὲ κατέφυγον. Δίδαξόν με τοῦ ποιεῖν τὸ θέλημά σου, ὅτι σὺ εἶ ὁ Θεός μου.",
+          "english": "Lord, I have fled to You. Teach me to do Your will, for You are my God."
+        },
+        {
+          "unit_id": "matins:u0060",
+          "index": 60,
+          "section_id": "matins:s008",
+          "section_title": "Psalm 142 (143)",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.7369,
+          "language": "el",
+          "greek": "Κύριε, εἰσάκουσον τῆς προσευχῆς μου, ἐνώτισαι τὴν δέησίν μου ἐν τῇ ἀληθείᾳ σου, εἰσάκουσόν μου ἐν τῇ δικαιοσύνῃ σου· καὶ μὴ εἰσέλθῃς εἰς κρίσιν μετὰ τοῦ δούλου σου, ὅτι οὐ δικαιωθήσεται ἐνώπιόν σου πᾶς ζῶν. Ὅτι κατεδίωξεν ὁ ἐχθρὸς τὴν ψυχήν μου, ἐταπείνωσεν εἰς γῆν τὴν ζωήν μου, ἐκάθισέ με ἐν σκοτεινοῖς ὡς νεκροὺς αἰῶνος· καὶ ἠκηδίασεν ἐπ᾽ ἐμὲ τὸ πνεῦμά μου, ἐν ἐμοὶ ἐταράχθη ἡ καρδία μου. Ἐμνήσθην ἡμερῶν ἀρχαίων, ἐμελέτησα ἐν πᾶσι τοῖς ἔργοις σου, ἐν ποιήμασι τῶν χειρῶν σου ἐμελέτων. Διεπέτασα πρὸς σὲ τὰς χεῖράς μου, ἡ ψυχή μου ὡς γῆ ἄνυδρός σοι. Ταχὺ εἰσάκουσόν μου, Κύριε, ἐξέλιπε τὸ πνεῦμά μου· μὴ ἀποστρέψῃς τὸ πρόσωπόν σου ἀπ᾽ ἐμοῦ, καὶ ὁμοιωθήσομαι τοῖς καταβαίνουσιν εἰς λάκκον. Ἀκουστὸν ποίησόν μοι τὸ πρωῒ τὸ ἔλεός σου, ὅτι ἐπὶ σοὶ ἤλπισα· γνώρισόν μοι, Κύριε, ὁδόν, ἐν ᾗ πορεύσομαι, ὅτι πρὸς σὲ ἦρα τὴν ψυχήν μου· ἐξελοῦ με ἐκ τῶν ἐχθρῶν μου, Κύριε· πρὸς σὲ κατέφυγον. Δίδαξόν με τοῦ ποιεῖν τὸ θέλημά σου, ὅτι σὺ εἶ ὁ Θεός μου· τὸ πνεῦμά σου τὸ ἀγαθὸν ὁδηγήσει με ἐν γῇ εὐθείᾳ. Ἕνεκεν τοῦ ὀνόματός σου, Κύριε, ζήσεις με· ἐν τῇ δικαιοσύνῃ σου ἐξάξεις ἐκ θλίψεως τὴν ψυχήν μου· καὶ ἐν τῷ ἐλέει σου ἐξολοθρεύσεις τοὺς ἐχθρούς μου· καὶ ἀπολεῖς πάντας τοὺς θλίβοντας τὴν ψυχήν μου, ὅτι ἐγὼ δοῦλός σού εἰμι.",
+          "english": "O Lord, hear my prayer; give ear to my supplication in Your truth; answer me in Your righteousness; do not enter into judgment with Your servant, for no one living shall become righteous in Your sight. For the enemy persecuted my soul; he humbled my life to the ground; he caused me to dwell in dark places as one long dead, and my spirit was in anguish within me; my heart was troubled within me. I remembered the days of old, and I meditated on all Your works; I meditated on the works of Your hands. I spread out my hands to You; my soul thirsts for You like a waterless land. Hear me speedily, O Lord; my spirit faints within me; turn not Your face from me, lest I become like those who go down into the pit. Cause me to hear Your mercy in the morning, for I hope in You; make me know, O Lord, the way wherein I should walk, for I lift up my soul to You. Deliver me from my enemies, O Lord, for to You I flee for refuge. Teach me to do Your will, for You are my God; Your good Spirit shall guide me in the land of uprightness. For Your name’s sake, O Lord, give me life; in Your righteousness You shall bring my soul out of affliction. In Your mercy You shall destroy my enemies; You shall utterly destroy all who afflict my soul, for I am Your servant."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 1860.62,
+      "end": 1866.98,
+      "text": "Πολαμίν με το αφήν.",
+      "avg_logprob": -1.0582889980740018,
+      "compression_ratio": 1.0123456790123457,
+      "no_speech_prob": 0.18416719138622284,
+      "words": [
+        {
+          "word": " Πολαμίν",
+          "start": 1860.62,
+          "end": 1862.02,
+          "probability": 0.304443359375
+        },
+        {
+          "word": " με",
+          "start": 1862.02,
+          "end": 1862.96,
+          "probability": 0.324462890625
+        },
+        {
+          "word": " το",
+          "start": 1862.96,
+          "end": 1863.82,
+          "probability": 0.1785888671875
+        },
+        {
+          "word": " αφήν.",
+          "start": 1863.82,
+          "end": 1866.98,
+          "probability": 0.69091796875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el",
+      "lexical_match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.6635,
+        "status": "unknown",
+        "method": "lexical",
+        "reason": "No sufficiently similar reference text"
+      },
+      "service_context": {
+        "status": "service_reference_available",
+        "service_id": null,
+        "opening_start": null,
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.6635,
+        "status": "unknown",
+        "method": "sequence",
+        "reason": "No sufficiently similar text on the chronological path",
+        "service_id": null,
+        "service_title": null
+      },
+      "sequence_match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.6635,
+        "status": "unknown",
+        "method": "sequence",
+        "reason": "No sufficiently similar text on the chronological path",
+        "service_id": null,
+        "service_title": null
+      },
+      "sequence": {
+        "version": 4,
+        "block": 0,
+        "max_reverse_units": 3,
+        "path_unit_id": null,
+        "evidence_segment_ids": [],
+        "service_evidence": null,
+        "warnings": [],
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "candidates": [
+        {
+          "unit_id": "matins:u0190",
+          "index": 190,
+          "section_id": "matins:s019",
+          "section_title": "Psalm 50 (51)",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.6635,
+          "language": "el",
+          "greek": "Ἐλέησόν με, ὁ Θεός, κατὰ τὸ μέγα ἔλεός σου, καὶ κατὰ τὸ πλῆθος τῶν οἰκτιρμῶν σου ἐξάλειψον τὸ ἀνόμημά μου. Ἐπὶ πλεῖον πλῦνόν με ἀπὸ τῆς ἀνομίας μου, καὶ απὸ τῆς ἁμαρτίας μου καθάρισόν με. Ὅτι τὴν ἀνομίαν μου ἐγὼ γινώσκω, καὶ ἡ ἁμαρτία μου ἐνώπιόν μού ἐστι διὰ παντός. Σοὶ μόνῳ ἥμαρτον, καὶ τὸ πονηρὸν ἐνώπιόν σου ἐποίησα· ὅπως ἂν δικαιωθῇς ἐν τοῖς λόγοις σου, καὶ νικήσῃς ἐν τῷ κρίνεσθαί σε. Ἰδοὺ γὰρ ἐν ἀνομίαις συνελήφθην, καὶ ἐν ἁμαρτίαις ἐκίσσησέ με ἡ μήτηρ μου. Ἰδοὺ γὰρ ἀλήθειαν ἠγάπησας· τὰ ἄδηλα καὶ τὰ κρύφια τῆς σοφίας σου ἐδήλωσάς μοι. Ῥαντιεῖς με ὑσσώπῳ καὶ καθαρισθήσομαι· πλυνεῖς με καὶ ὑπὲρ χιόνα λευκανθήσομαι. Ἀκουτιεῖς μοι ἀγαλλίασιν καὶ εὐφροσύνην· ἀγαλλιάσονται ὀστέα τεταπεινωμένα. Ἀπόστρεψον τὸ πρόσωπόν σου ἀπὸ τῶν ἁμαρτιῶν μου καὶ πάσας τὰς ἀνομίας μου ἐξάλειψον. Καρδίαν καθαρὰν κτίσον ἐν ἐμοί, ὁ Θεός, καὶ πνεῦμα εὐθὲς ἐγκαίνισον ἐν τοῖς ἐγκάτοις μου. Μὴ ἀποῤῥίψῃς με ἀπὸ τοῦ προσώπου σου καὶ τὸ Πνεῦμά σου τὸ ἅγιον μὴ ἀντανέλῃς ἀπ’ ἐμοῦ. Ἀπόδος μοι τὴν ἀγαλλίασιν τοῦ σωτηρίου σου καὶ πνεύματι ἡγεμονικῷ στήριξόν με. Διδάξω ἀνόμους τὰς ὁδούς σου καὶ ἀσεβεῖς ἐπὶ σὲ ἐπιστρέψουσι. Ῥῦσαί με ἐξ αἱμάτων, ὁ Θεός, ὁ Θεὸς τῆς σωτηρίας μου· ἀγαλλιάσεται ἡ γλῶσσά μου τὴν δικαιοσύνην σου. Κύριε, τὰ χείλη μου ἀνοίξεις καὶ τὸ στόμα μου ἀναγγελεῖ τὴν αἴνεσίν σου. Ὅτι εἰ ἠθέλησας θυσίαν, ἔδωκα ἄν· ὁλοκαυτώματα οὐκ εὐδοκήσεις. Θυσία τῷ Θεῷ πνεῦμα συντετριμμένον· καρδίαν συντετριμμένην καὶ τεταπεινωμένην ὁ Θεὸς οὐκ ἐξουδενώσει. Ἀγάθυνον, Κύριε, ἐν τῇ εὐδοκίᾳ σου τὴν Σιὼν καὶ οἰκοδομηθήτω τὰ τείχη Ἰερουσαλήμ. Τότε εὐδοκήσεις θυσίαν δικαιοσύνης, ἀναφορὰν καὶ ὁλοκαυτώματα. Τότε ἀνοίσουσιν ἐπὶ τὸ θυσιαστήριόν σου μόσχους.",
+          "english": "Have mercy on me, O God, according to Your great mercy; and according to the abundance of Your compassion, blot out my transgression. Wash me thoroughly from my lawlessness and cleanse me from my sin. For I know my lawlessness, and my sin is always before me. Against You only have I sinned and done evil in Your sight; that You may be justified in Your words, and overcome when You are judged. For behold, I was conceived in transgressions, and in sins my mother bore me. Behold, You love truth; You showed me the unknown and secret things of Your wisdom. You shall sprinkle me with hyssop, and I will be cleansed; You shall wash me, and I will be made whiter than snow. You shall make me hear joy and gladness; my bones that were humbled shall greatly rejoice. Turn Your face from my sins, and blot out all my transgressions. Create in me a clean heart, O God, and renew a right spirit within me. Do not cast me away from Your presence, and do not take Your Holy Spirit from me. Restore to me the joy of Your salvation, and uphold me with Your guiding Spirit. I will teach transgressors Your ways, and the ungodly shall turn back to You. Deliver me from bloodguiltiness, O God, the God of my salvation, and my tongue shall greatly rejoice in Your righteousness. O Lord, You shall open my lips, and my mouth will declare Your praise. For if You desired sacrifice, I would give it; You will not be pleased with whole burnt offerings. A sacrifice to God is a broken spirit, a broken and humbled heart God will not despise. Do good, O Lord, in Your good pleasure to Zion, and let the walls of Jerusalem be built; then You will be pleased with a sacrifice of righteousness, with offerings and whole burnt offerings; then shall they offer young bulls on Your altar."
+        },
+        {
+          "unit_id": "liturgy:u0326",
+          "index": 807,
+          "section_id": "liturgy:s026",
+          "section_title": "Memorial Service",
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "score": 0.6607,
+          "language": "el",
+          "greek": "Ὁ πάλαι μέν, ἐκ μὴ ὄντων πλάσας με, καὶ εἰκόνι σου θείᾳ τιμήσας, παραβάσει ἐντολῆς δὲ πάλιν με ἐπιστρέψας εἰς γῆν ἐξ ἧς ἐλήφθην, εἰς τὸ καθ’ ὁμοίωσιν ἐπανάγαγε, τὸ ἀρχαῖον κάλλος ἀναμορφώσασθαι.",
+          "english": "Of old, You created me from nothing and honored me with Your divine image. But when I disobeyed Your commandment, You returned me to the earth from which I was taken. Lead me back again to Your likeness, so that the ancient beauty may be refashioned."
+        },
+        {
+          "unit_id": "matins:u0188",
+          "index": 188,
+          "section_id": "matins:s018",
+          "section_title": "Matins Gospel",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.6568,
+          "language": "el",
+          "greek": "Ἐν ταῖς ἡμέραις ἐκείναις ἀναστᾶσα δὲ Μαριὰμ ἐπορεύθη εἰς τὴν ὀρεινὴν μετὰ σπουδῆς εἰς πόλιν Ἰούδα, καὶ εἰσῆλθεν εἰς τὸν οἶκον Ζαχαρίου καὶ ἠσπάσατο τὴν Ἐλισάβετ. καὶ ἐγένετο ὡς ἤκουσεν ἡ Ἐλισάβετ τὸν ἀσπασμὸν τῆς Μαρίας, ἐσκίρτησε τὸ βρέφος ἐν τῇ κοιλίᾳ αὐτῆς· καὶ ἐπλήσθη Πνεύματος Ἁγίου ἡ Ἐλισάβετ καὶ ἀνεφώνησε φωνῇ μεγάλῃ καὶ εἶπεν· εὐλογημένη σὺ ἐν γυναιξὶ καὶ εὐλογημένος ὁ καρπὸς τῆς κοιλίας σου. καὶ πόθεν μοι τοῦτο ἵνα ἔλθῃ ἡ μήτηρ τοῦ Κυρίου μου πρός με; ἰδοὺ γὰρ ὡς ἐγένετο ἡ φωνὴ τοῦ ἀσπασμοῦ σου εἰς τὰ ὦτά μου, ἐσκίρτησε τὸ βρέφος ἐν ἀγαλλιάσει ἐν τῇ κοιλίᾳ μου. καὶ μακαρία ἡ πιστεύσασα ὅτι ἔσται τελείωσις τοῖς λελαλημένοις αὐτῇ παρὰ Κυρίου. Καὶ εἶπε Μαριάμ· Μεγαλύνει ἡ ψυχή μου τὸν Κύριον καὶ ἠγαλλίασε τὸ πνεῦμά μου ἐπὶ τῷ Θεῷ τῷ σωτῆρί μου, ὅτι ἐπέβλεψεν ἐπὶ τὴν ταπείνωσιν τῆς δούλης αὐτοῦ. ἰδοὺ γὰρ ἀπὸ τοῦ νῦν μακαριοῦσί με πᾶσαι αἱ γενεαί· ὅτι ἐποίησέ μοι μεγαλεῖα ὁ δυνατὸς καὶ ἅγιον τὸ ὄνομα αὐτοῦ. Ἔμεινε δὲ Μαριὰμ σὺν αὐτῇ ὡσεὶ μῆνας τρεῖς καὶ ὑπέστρεψεν εἰς τὸν οἶκον αὐτῆς.",
+          "english": "In those days, Mary arose and went with haste into the hill country, to a city of Judah, and she entered the house of Zacharias and greeted Elizabeth. And when Elizabeth heard the greeting of Mary, the babe leaped in her womb; and Elizabeth was filled with the Holy Spirit and she exclaimed with a loud cry, “Blessed are you among women, and blessed is the fruit of your womb! And why is this granted me, that the mother of my Lord should come to me? For behold, when the voice of your greeting came to my ears, the babe in my womb leaped for joy. And blessed is she who believed that there would be a fulfillment of what was spoken to her from the Lord.” And Mary said, “My soul magnifies the Lord, and my spirit rejoices in God my Savior, for he has regarded the low estate of his handmaiden. For behold, henceforth all generations will call me blessed; for he who is mighty has done great things for me, and holy is his name.” And Mary remained with her about three months, and returned to her home."
+        },
+        {
+          "unit_id": "liturgy:u0264",
+          "index": 745,
+          "section_id": "liturgy:s020",
+          "section_title": "Elevation, Fraction, and Communion",
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "score": 0.6548,
+          "language": "el",
+          "greek": "Πιστεύω, Κύριε, καὶ ὁμολογῶ, ὅτι σὺ εἶ ὁ Χριστός, ὁ Υἱὸς τοῦ Θεοῦ τοῦ ζῶντος, ὁ ἐλθὼν εἰς τὸν κόσμον ἁμαρτωλοὺς σῶσαι, ὧν πρῶτός εἰμι ἐγώ. Ἔτι πιστεύω ὅτι τοῦτο αὐτό ἐστι τὸ ἄχραντον Σῶμά σου καὶ τοῦτο αὐτό ἐστι τὸ τίμιον Αἷμά σου. Δέομαι οὖν σου· ἐλέησόν με καὶ συγχώρησόν μοι τὰ παραπτώματά μου, τὰ ἑκούσια καὶ τὰ ἀκούσια, τὰ ἐν λόγῳ, τὰ ἐν ἔργῳ, τὰ ἐν γνώσει καὶ ἀγνοίᾳ, καὶ ἀξίωσόν με ἀκατακρίτως μετασχεῖν τῶν ἀχράντων σου μυστηρίων εἰς ἄφεσιν ἁμαρτιῶν καὶ εἰς ζωὴν αἰώνιον. Ἀμήν.",
+          "english": "I believe and confess, Lord, that You are truly the Christ, the Son of the living God, who came into the world to save sinners, of whom I am the first. I also believe that this is truly Your pure Body and that this is truly Your precious Blood. Therefore, I pray to You, have mercy on me and forgive my transgressions, voluntary and involuntary, in word and deed, in knowledge or in ignorance. And make me worthy, without condemnation, to partake of Your pure sacrament for the remission of sins and for eternal life. Amen."
+        },
+        {
+          "unit_id": "matins:u0056",
+          "index": 56,
+          "section_id": "matins:s006",
+          "section_title": "Psalm 87 (88)",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.6503,
+          "language": "el",
+          "greek": "Κύριε ὁ Θεὸς τῆς σωτηρίας μου, ἡμέρας ἐκέκραξα καὶ ἐν νυκτὶ ἐναντίον σου. Εἰσελθέτω ἐνώπιόν σου ἡ προσευχή μου, κλῖνον τὸ οὖς σου εἰς τὴν δέησίν μου. Ὅτι ἐπλήσθη κακῶν ἡ ψυχή μου, καὶ ἡ ζωή μου τῷ ᾅδῃ ἤγγισε. Προσελογίσθην μετὰ τῶν καταβαινόντων εἰς λάκκον, ἐγενήθην ὡσεὶ ἄνθρωπος ἀβοήθητος, ἐν νεκροῖς ἐλεύθερος, ὡσεὶ τραυματίαι καθεύδοντες ἐν τάφῳ, ὧν οὐκ ἐμνήσθης ἔτι, καὶ αὐτοὶ ἐκ τῆς χειρός σου ἀπώσθησαν. Ἔθεντό με ἐν λάκκῳ κατωτάτῳ, ἐν σκοτεινοῖς καὶ ἐν σκιᾷ θανάτου. Ἐπʼ ἐμὲ ἐπεστηρίχθη ὁ θυμός σου, καὶ πάντας τοὺς μετεωρισμούς σου ἐπήγαγες ἐπʼ ἐμέ. Ἐμάκρυνας τοὺς γνωστούς μου ἀπʼ ἐμοῦ, ἔθεντό με βδέλυγμα ἑαυτοῖς, παρεδόθην καὶ οὐκ ἐξεπορευόμην. Οἱ ὀφθαλμοί μου ἠσθένησαν ἀπὸ πτωχείας· ἐκέκραξα πρὸς σέ, Κύριε, ὅλην τὴν ἡμέραν, διεπέτασα πρὸς σὲ τὰς χεῖράς μου. Μὴ τοῖς νεκροῖς ποιήσεις θαυμάσια; ἢ ἰατροὶ ἀναστήσουσι καὶ ἐξομολογήσονταί σοι; Μὴ διηγήσεταί τις ἐν τῷ τάφῳ τὸ ἔλεός σου καὶ τὴν ἀλήθειάν σου ἐν τῇ ἀπωλείᾳ; Μὴ γνωσθήσεται ἐν τῷ σκότει τὰ θαυμάσιά σου καὶ ἡ δικαιοσύνη σου ἐν γῇ ἐπιλελησμένῃ; Κἀγὼ πρὸς σέ, Κύριε, ἐκέκραξα, καὶ τὸ πρωῒ ἡ προσευχή μου προφθάσει σε. Ἵνα τί, Κύριε, ἀπωθεῖς τὴν ψυχήν μου, ἀποστρέφεις τὸ πρόσωπόν σου ἀπʼ ἐμοῦ; Πτωχός εἰμι ἐγὼ καὶ ἐν κόποις ἐκ νεότητός μου, ὑψωθεὶς δὲ ἐταπεινώθην καὶ ἐξηπορήθην. Ἐπʼ ἐμὲ διῆλθον αἱ ὀργαί σου, οἱ φοβερισμοί σου ἐξετάραξάν με, ἐκύκλωσάν με ὡσεὶ ὕδωρ ὅλην τὴν ἡμέραν, περιέσχον με ἅμα. Ἐμάκρυνας ἀπʼ ἐμοῦ φίλον καὶ πλησίον, καὶ τοὺς γνωστούς μου ἀπὸ ταλαιπωρίας.",
+          "english": "O Lord God of my salvation, I cry day and night before You. Let my prayer come before You; incline Your ear to my supplication, O Lord. For my soul is filled with sorrows, and my soul draws near to Hades; I am counted among those who go down into the pit; I am like a helpless man, free among the dead, like slain men thrown down and sleeping in a grave, whom You remember no more, but they are removed from Your hand. They laid me in the lowest pit, in dark places and in the shadow of death. Your wrath rested upon me, and You brought all Your billows over me. You removed my acquaintances far from me; they made me an abomination among themselves; I was betrayed, and did not go forth. My eyes weakened from poverty; O Lord, I cry to You the whole day long; I spread out my hands to You. Will You work wonders for the dead? Or will physicians raise them up, and acknowledge You? Shall anyone in the grave describe Your mercy and Your truth in destruction? Shall Your wonders be known in darkness, and Your righteousness in a forgotten land? But I cry to You, O Lord, and in the morning my prayer shall come near to You. Why, O Lord, do You reject my soul, and turn away Your face from me? I am poor and in troubles from my youth; but having been exalted, I was humbled and brought into despair. Your fierce anger passed over me, and Your terrors greatly troubled me; they compassed me like water all the day long; they surrounded me at once. You removed far from me neighbor and friend, and my acquaintances because of my misery."
+        },
+        {
+          "unit_id": "matins:u0048",
+          "index": 48,
+          "section_id": "matins:s004",
+          "section_title": "Psalm 37 (38)",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.6472,
+          "language": "el",
+          "greek": "Κύριε, μὴ τῷ θυμῷ σου ἐλέγξῃς με, μηδὲ τῇ ὀργῇ σου παιδεύσῃς με. Ὅτι τὰ βέλη σου ἐνεπάγησάν μοι, καὶ ἐπεστήριξας ἐπʼ ἐμὲ τὴν χεῖρά σου. Οὐκ ἔστιν ἴασις ἐν τῇ σαρκί μου ἀπὸ προσώπου τῆς ὀργῆς σου, οὐκ ἔστιν εἰρήνη ἐν τοῖς ὀστέοις μου ἀπὸ προσώπου τῶν ἁμαρτιῶν μου. Ὅτι αἱ ἀνομίαι μου ὑπερῇραν τὴν κεφαλήν μου, ὡσεὶ φορτίον βαρὺ ἐβαρύνθησαν ἐπʼ ἐμέ. Προσώζεσαν καὶ ἐσάπησαν οἱ μώλωπές μου ἀπὸ προσώπου τῆς ἀφροσύνης μου. Ἐταλαιπώρησα καὶ κατεκάμφθην ἕως τέλους, ὅλην τὴν ἡμέραν σκυθρωπάζων ἐπορευόμην. Ὅτι αἱ ψόαι μου ἐπλήσθησαν ἐμπαιγμάτων, καὶ οὐκ ἔστιν ἴασις ἐν τῇ σαρκί μου. Ἐκακώθην καὶ ἐταπεινώθην ἕως σφόδρα, ὠρυόμην ἀπὸ στεναγμοῦ τῆς καρδίας μου. Κύριε, ἐναντίον σου πᾶσα ἡ ἐπιθυμία μου, καὶ ὁ στεναγμός μου ἀπὸ σοῦ οὐκ ἀπεκρύβη. Ἡ καρδία μου ἐταράχθη, ἐγκατέλιπέ με ἡ ἰσχύς μου, καὶ τὸ φῶς τῶν ὀφθαλμῶν μου καὶ αὐτὸ οὐκ ἔστι μετʼ ἐμοῦ. Οἱ φίλοι μου καὶ οἱ πλησίον μου ἐξεναντίας μου ἤγγισαν καὶ ἔστησαν, καὶ οἱ ἔγγιστά μου ἀπὸ μακρόθεν ἔστησαν. Καὶ ἐξεβιάζοντο οἱ ζητοῦντες τὴν ψυχήν μου, καὶ οἱ ζητοῦντες τὰ κακά μοι ἐλάλησαν ματαιότητας, καὶ δολιότητας ὅλην τὴν ἡμέραν ἐμελέτησαν. Ἐγὼ δὲ ὡσεὶ κωφὸς οὐκ ἤκουον καὶ ὡσεὶ ἄλαλος οὐκ ἀνοίγων τὸ στόμα αὐτοῦ. Καὶ ἐγενόμην ὡσεὶ ἄνθρωπος οὐκ ἀκούων καὶ οὐκ ἔχων ἐν τῷ στόματι αὐτοῦ ἐλεγμούς. Ὅτι ἐπὶ σοί, Κύριε, ἤλπισα· σὺ εἰσακούσῃ, Κύριε ὁ Θεός μου. Ὅτι εἶπον· Μήποτε ἐπιχαρῶσί μοι οἱ ἐχθροί μου· καὶ ἐν τῷ σαλευθῆναι πόδας μου ἐπʼ ἐμὲ ἐμεγαλοῤῥημόνησαν. Ὅτι ἐγὼ εἰς μάστιγας ἕτοιμος, καὶ ἡ ἀλγηδών μου ἐνώπιόν μού ἐστι διὰ παντός. Ὅτι τὴν ἀνομίαν μου ἐγὼ ἀναγγελῶ καὶ μεριμνήσω ὑπὲρ τῆς ἁμαρτίας μου. Οἱ δὲ ἐχθροί μου ζῶσι καὶ κεκραταίωνται ὑπὲρ ἐμέ, καὶ ἐπληθύνθησαν οἱ μισοῦντές με ἀδίκως. Οἱ ἀνταποδιδόντες μοι κακὰ ἀντὶ ἀγαθῶν ἐνδιέβαλλόν με, ἐπεὶ κατεδίωκον ἀγαθωσύνην. Μὴ ἐγκαταλίπῃς με, Κύριε ὁ Θεός μου, μὴ ἀποστῇς ἀπʼ ἐμοῦ. Πρόσχες εἰς τὴν βοήθειάν μου, Κύριε τῆς σωτηρίας μου.",
+          "english": "O Lord, do not rebuke me in Your wrath, nor chasten me in Your anger. For Your arrows are fixed in me, and Your hand rests on me; there is no healing in my flesh because of Your wrath; there is no peace in my bones because of my sins. For my transgressions rise up over my head; like a heavy burden they are heavy on me. My wounds grow foul and fester because of my folly. I suffer misery, and I am utterly bowed down; I go all the day long with a sad face. For my loins are filled with mockeries, and there is no healing in my flesh. I am afflicted and greatly humbled; I roar because of the groaning of my heart. O Lord, all my desire is before You, and my groaning is not hidden from You. My heart is troubled; my strength fails me, and the light of my eyes, even this is not with me. My friends and neighbors draw near and stand against me, and my near of kin stand far off; and those who seek my soul use violence, and those who seek evil for me speak folly; and they meditate on deceit all the day long. But I like a deaf man do not hear, and I am like a mute who does not open his mouth. I am like a man who does not hear, and who has no reproofs in his mouth. For in You, O Lord, I hope; You will hear, O Lord my God. For I said, “Let not my enemies rejoice over me, for when my foot was shaken, they boasted against me.” For I am ready for wounds, and my pain is continually with me. For I will declare my transgression, and I will be anxious about my sin. But my enemies live, and are become stronger than I; and those who hate me unjustly are multiplied; those who repaid me evil for good slandered me, because I pursue righteousness; and they threw away my love as though it were a stinking corpse. Do not forsake me, O Lord; O my God, do not depart from me; give heed to help me, O Lord of my salvation."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 1867.0,
+      "end": 1880.96,
+      "text": "ʻālāt mō s'n lila, ʻūʻiʻke ʻsōʻan ʻsōʻan ʻtīr mūr.",
+      "avg_logprob": -0.8758249383223684,
+      "compression_ratio": 1.1363636363636365,
+      "no_speech_prob": 0.2245393693447113,
+      "words": [
+        {
+          "word": " ʻālāt",
+          "start": 1867.0,
+          "end": 1868.92,
+          "probability": 0.45654296875
+        },
+        {
+          "word": " mō",
+          "start": 1868.92,
+          "end": 1869.6,
+          "probability": 0.2529296875
+        },
+        {
+          "word": " s",
+          "start": 1869.6,
+          "end": 1870.04,
+          "probability": 0.25390625
+        },
+        {
+          "word": "'n",
+          "start": 1870.04,
+          "end": 1870.76,
+          "probability": 0.174072265625
+        },
+        {
+          "word": " lila,",
+          "start": 1870.76,
+          "end": 1872.18,
+          "probability": 0.40625
+        },
+        {
+          "word": " ʻūʻiʻke",
+          "start": 1872.8,
+          "end": 1874.96,
+          "probability": 0.390380859375
+        },
+        {
+          "word": " ʻsōʻan",
+          "start": 1874.96,
+          "end": 1877.02,
+          "probability": 0.42529296875
+        },
+        {
+          "word": " ʻsōʻan",
+          "start": 1877.02,
+          "end": 1878.64,
+          "probability": 0.73486328125
+        },
+        {
+          "word": " ʻtīr",
+          "start": 1878.64,
+          "end": 1880.34,
+          "probability": 0.67724609375
+        },
+        {
+          "word": " mūr.",
+          "start": 1880.34,
+          "end": 1880.96,
+          "probability": 0.361328125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "la",
+      "lexical_match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.4992,
+        "status": "unknown",
+        "method": "lexical",
+        "reason": "No sufficiently similar reference text"
+      },
+      "service_context": {
+        "status": "service_reference_available",
+        "service_id": null,
+        "opening_start": null,
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.4992,
+        "status": "unknown",
+        "method": "sequence",
+        "reason": "No sufficiently similar text on the chronological path",
+        "service_id": null,
+        "service_title": null
+      },
+      "sequence_match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.4992,
+        "status": "unknown",
+        "method": "sequence",
+        "reason": "No sufficiently similar text on the chronological path",
+        "service_id": null,
+        "service_title": null
+      },
+      "sequence": {
+        "version": 4,
+        "block": 0,
+        "max_reverse_units": 3,
+        "path_unit_id": null,
+        "evidence_segment_ids": [],
+        "service_evidence": null,
+        "warnings": [],
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "candidates": [
+        {
+          "unit_id": "matins:u0058",
+          "index": 58,
+          "section_id": "matins:s007",
+          "section_title": "Psalm 102 (103)",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.4992,
+          "language": "en",
+          "greek": "Εὐλόγει, ἡ ψυχή μου, τὸν Κύριον, καί, πάντα τὰ ἐντός μου, τὸ ὄνομα τὸ ἅγιον αὐτοῦ. Εὐλόγει, ἡ ψυχή μου, τὸν Κύριον, καὶ μὴ ἐπιλανθάνου πάσας τὰς ἀνταποδόσεις αὐτοῦ. Τὸν εὐιλατεύοντα πάσας τὰς ἀνομίας σου, τὸν ἰώμενον πάσας τὰς νόσους σου. Τὸν λυτρούμενον ἐκ φθορᾶς τὴν ζωήν σου, τὸν στεφανοῦντά σε ἐν ἐλέει καὶ οἰκτιρμοῖς. Τὸν ἐμπιπλῶντα ἐν ἀγαθοῖς τὴν ἐπιθυμίαν σου, ἀνακαινισθήσεται ὡς ἀετοῦ ἡ νεότης σου. Ποιῶν ἐλεημοσύνας ὁ Κύριος καὶ κρῖμα πᾶσι τοῖς ἀδικουμένοις. Ἐγνώρισε τὰς ὁδοὺς αὐτοῦ τῷ Μωϋσῇ, τοῖς υἱοῖς Ἰσραὴλ τὰ θελήματα αὐτοῦ. Οἰκτίρμων καὶ ἐλεήμων ὁ Κύριος, μακρόθυμος καὶ πολυέλεος· οὐκ εἰς τέλος ὀργισθήσεται, οὐδὲ εἰς τὸν αἰῶνα μηνιεῖ. Οὐ κατὰ τὰς ἀνομίας ἡμῶν ἐποίησεν ἡμῖν, οὐδὲ κατὰ τὰς ἁμαρτίας ἡμῶν ἀνταπέδωκεν ἡμῖν, ὅτι κατὰ τὸ ὕψος τοῦ οὐρανοῦ ἀπὸ τῆς γῆς ἐκραταίωσε Κύριος τὸ ἔλεος αὐτοῦ ἐπὶ τοὺς φοβουμένους αὐτόν. Καθʼ ὅσον ἀπέχουσιν ἀνατολαὶ ἀπὸ δυσμῶν, ἐμάκρυνεν ἀφʼ ἡμῶν τὰς ἀνομίας ἡμῶν. Καθὼς οἰκτείρει πατὴρ υἱούς, ᾠκτείρησε Κύριος τοὺς φοβουμένους αὐτόν, ὅτι αὐτὸς ἔγνω τὸ πλάσμα ἡμῶν, ἐμνήσθη ὅτι χοῦς ἐσμεν. Ἄνθρωπος, ὡσεὶ χόρτος αἱ ἡμέραι αὐτοῦ· ὡσεὶ ἄνθος τοῦ ἀγροῦ, οὕτως ἐξανθήσει. Ὅτι πνεῦμα διῆλθεν ἐν αὐτῷ, καὶ οὐχ ὑπάρξει, καὶ οὐκ ἐπιγνώσεται ἔτι τὸν τόπον αὐτοῦ. Τὸ δὲ ἔλεος τοῦ Κυρίου ἀπὸ τοῦ αἰῶνος καὶ ἕως τοῦ αἰῶνος ἐπὶ τοὺς φοβουμένους αὐτόν, καὶ ἡ δικαιοσύνη αὐτοῦ ἐπὶ υἱοῖς υἱῶν, τοῖς φυλάσσουσι τὴν διαθήκην αὐτοῦ καὶ μεμνημένοις τῶν ἐντολῶν αὐτοῦ τοῦ ποιῆσαι αὐτάς. Κύριος ἐν τῷ οὐρανῷ ἡτοίμασε τὸν θρόνον αὐτοῦ, καὶ ἡ βασιλεία αὐτοῦ πάντων δεσπόζει. Εὐλογεῖτε τὸν Κύριον, πάντες οἱ Ἄγγελοι αὐτοῦ, δυνατοὶ ἰσχύϊ, ποιοῦντες τὸν λόγον αὐτοῦ, τοῦ ἀκοῦσαι τῆς φωνῆς τῶν λόγων αὐτοῦ. Εὐλογεῖτε τὸν Κύριον, πᾶσαι αἱ Δυνάμεις αὐτοῦ, λειτουργοὶ αὐτοῦ, ποιοῦντες τὸ θέλημα αὐτοῦ. Εὐλογεῖτε τὸν Κύριον, πάντα τὰ ἔργα αὐτοῦ, ἐν παντὶ τόπῳ τῆς δεσποτείας αὐτοῦ· εὐλόγει, ἡ ψυχή μου, τὸν Κύριον.",
+          "english": "Bless the Lord, O my soul, and everything within me, bless His holy name. Bless the Lord, O my soul, and forget not all His rewards: who is merciful to all your transgressions, who heals all your diseases, who redeems your life from corruption, who crowns you with mercy and compassion, who satisfies your desire with good things; and your youth is renewed like the eagle’s. The Lord shows mercies and judgment to all who are wronged. He made known His ways to Moses, the things He willed to the sons of Israel. The Lord is compassionate and merciful, slow to anger, and abounding in mercy. He will not become angry to the end, nor will He be wrathful forever; He did not deal with us according to our sins, nor reward us according to our transgressions; for according to the height of heaven from earth, so the Lord reigns in mercy over those who fear Him; as far as the east is from the west, so He removes our transgressions from us. As a father has compassion on his children, so the Lord has compassion on those who fear Him, for He knows how He formed us; He remembers we are dust. As for man, his days are like grass, as a flower of the field, so he flourishes; for the wind passes through it, and it shall not remain; and it shall no longer know its place. But the mercy of the Lord is from age to age upon those who fear Him, and His righteousness upon children’s children, to such as keep His covenant and remember His commandments, to do them. The Lord prepared His throne in heaven, and His Kingdom rules over all. Bless the Lord, all you His angels, mighty in strength, who do His word, so as to hear the voice of His words. Bless the Lord, all you His hosts, His ministers who do His will; bless the Lord, all His works, in all places of His dominion; bless the Lord, O my soul."
+        },
+        {
+          "unit_id": "liturgy:u0176",
+          "index": 657,
+          "section_id": "liturgy:s015",
+          "section_title": "The Creed",
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "score": 0.4971,
+          "language": "en",
+          "greek": "Πιστεύω εἰς ἕνα Θεόν, Πατέρα Παντοκράτορα, ποιητὴν οὐρανοῦ καὶ γῆς, ὁρατῶν τε πάντων καὶ ἀοράτων. Καὶ εἰς ἕνα Κύριον Ἰησοῦν Χριστόν, τὸν υἱὸν τοῦ Θεοῦ τὸν μονογενῆ, τὸν ἐκ τοῦ Πατρὸς γεννηθέντα πρὸ πάντων τῶν αἰώνων· φῶς ἐκ φωτός, Θεὸν ἀληθινὸν ἐκ Θεοῦ ἀληθινοῦ, γεννηθέντα οὐ ποιηθέντα, ὁμοούσιον τῷ Πατρί, δι’ οὗ τὰ πάντα ἐγένετο. Τὸν δι’ ἡμᾶς τοὺς ἀνθρώπους καὶ διὰ τὴν ἡμετέραν σωτηρίαν κατελθόντα ἐκ τῶν οὐρανῶν καὶ σαρκωθέντα ἐκ Πνεύματος ἁγίου καὶ Μαρίας τῆς Παρθένου καὶ ἐνανθρωπήσαντα. Σταυρωθέντα τε ὑπὲρ ἡμῶν ἐπὶ Ποντίου Πιλάτου καὶ παθόντα καὶ ταφέντα. Καὶ ἀναστάντα τῇ τρίτῃ ἡμέρᾳ, κατὰ τὰς Γραφάς. Καὶ ἀνελθόντα εἰς τοὺς οὐρανοὺς καὶ καθεζόμενον ἐκ δεξιῶν τοῦ Πατρός. Καὶ πάλιν ἐρχόμενον μετὰ δόξης, κρῖναι ζῶντας καὶ νεκρούς, οὗ τῆς βασιλείας οὐκ ἔσται τέλος. Καὶ εἰς τὸ Πνεῦμα τὸ ἅγιον, τὸ Κύριον, τὸ ζωοποιόν, τὸ ἐκ τοῦ Πατρὸς ἐκπορευόμενον, τὸ σὺν Πατρὶ καὶ Υἱῷ συμπροσκυνούμενον καὶ συνδοξαζόμενον, τὸ λαλῆσαν διὰ τῶν προφητῶν. Εἰς μίαν, ἁγίαν, καθολικὴν καὶ ἀποστολικὴν Ἐκκλησίαν. Ὁμολογῶ ἓν βάπτισμα εἰς ἄφεσιν ἁμαρτιῶν. Προσδοκῶ ἀνάστασιν νεκρῶν. Καὶ ζωὴν τοῦ μέλλοντος αἰῶνος.",
+          "english": "I believe in one God, Father Almighty, Creator of heaven and earth, and of all things visible and invisible. And in one Lord Jesus Christ, the only-begotten Son of God, begotten of the Father before all ages; Light of Light, true God of true God, begotten, not created, of one essence with the Father, through Whom all things were made. Who for us men and for our salvation came down from heaven and was incarnate of the Holy Spirit and the Virgin Mary and became man. He was crucified for us under Pontius Pilate, and suffered and was buried; And He rose on the third day, according to the Scriptures. He ascended into heaven and is seated at the right hand of the Father; And He will come again with glory to judge the living and the dead. His kingdom shall have no end. And in the Holy Spirit, the Lord, the Creator of life, Who proceeds from the Father, Who together with the Father and the Son is worshiped and glorified, Who spoke through the prophets. In one, holy, catholic, and apostolic Church. I confess one baptism for the forgiveness of sins. I look for the resurrection of the dead, and the life of the age to come."
+        },
+        {
+          "unit_id": "matins:u0124",
+          "index": 124,
+          "section_id": "matins:s012",
+          "section_title": "Kathisma II",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.4896,
+          "language": "en",
+          "greek": "Ἐκ τῆς ῥίζης Ἰεσσαί, καὶ ἐξ ὀσφύος τοῦ Δαυΐδ, ἡ θεόπαις Μαριάμ, τίκτεται σήμερον ἡμῖν, καὶ νεουργεῖται ἡ σύμπασα καὶ θεουργεῖται. Συγχάρητε ὁμοῦ, ὁ οὐρανὸς καὶ ἡ γῆ· αἰνέσατε αὐτήν, αἱ πατριαὶ τῶν ἐθνῶν. Ἰωακεὶμ εὐφραίνεται, καὶ Ἄννα πανηγυρίζει κραυγάζουσα· Ἡ στεῖρα τίκτει, τὴν Θεοτόκον, καὶ τροφόν τῆς ζωῆς ἡμῶν.",
+          "english": "Unto us is born today Mary the Mother of God, * as the branch from Jesse’s root, and as the fruit of David’s loins; * and all creation is renovated and deified. * O heaven and the earth, rejoice in unison. * All nations and ethnicities, sing praises to her. * Joachim is rejoicing, and Anna is celebrating crying out, * “The Theotokos, who is the nurturer * of our Life is born of the barren one.”"
+        },
+        {
+          "unit_id": "matins:u0126",
+          "index": 126,
+          "section_id": "matins:s012",
+          "section_title": "Kathisma II",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.4896,
+          "language": "en",
+          "greek": "Ἐκ τῆς ῥίζης Ἰεσσαί, καὶ ἐξ ὀσφύος τοῦ Δαυΐδ, ἡ θεόπαις Μαριάμ, τίκτεται σήμερον ἡμῖν, καὶ νεουργεῖται ἡ σύμπασα καὶ θεουργεῖται. Συγχάρητε ὁμοῦ, ὁ οὐρανὸς καὶ ἡ γῆ· αἰνέσατε αὐτήν, αἱ πατριαὶ τῶν ἐθνῶν. Ἰωακεὶμ εὐφραίνεται, καὶ Ἄννα πανηγυρίζει κραυγάζουσα· Ἡ στεῖρα τίκτει, τὴν Θεοτόκον, καὶ τροφόν τῆς ζωῆς ἡμῶν.",
+          "english": "Unto us is born today Mary the Mother of God, * as the branch from Jesse’s root, and as the fruit of David’s loins; * and all creation is renovated and deified. * O heaven and the earth, rejoice in unison. * All nations and ethnicities, sing praises to her. * Joachim is rejoicing, and Anna is celebrating crying out, * “The Theotokos, who is the nurturer * of our Life is born of the barren one.”"
+        },
+        {
+          "unit_id": "liturgy:u0128",
+          "index": 609,
+          "section_id": "liturgy:s011",
+          "section_title": "The Holy Gospel",
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "score": 0.4803,
+          "language": "en",
+          "greek": "Τῷ καιρῷ ἐκείνῳ, εἰσῆλθεν ὁ Ἰησοῦς εἰς κώμην τινά. γυνὴ δέ τις ὀνόματι Μάρθα ὑπεδέξατο αὐτὸν εἰς τὸν οἶκον αὐτῆς. καὶ τῇδε ἦν ἀδελφὴ καλουμένη Μαρία, ἣ καὶ παρακαθίσασα παρὰ τοὺς πόδας τοῦ Ἰησοῦ ἤκουε τὸν λόγον αὐτοῦ. ἡ δὲ Μάρθα περιεσπᾶτο περὶ πολλὴν διακονίαν· ἐπιστᾶσα δὲ εἶπε· Κύριε, οὐ μέλει σοι ὅτι ἡ ἀδελφή μου μόνην με κατέλιπε διακονεῖν; εἰπὲ οὖν αὐτῇ ἵνα μοι συναντιλάβηται. ἀποκριθεὶς δὲ εἶπεν αὐτῇ ὁ Ἰησοῦς· Μάρθα Μάρθα, μεριμνᾷς καὶ τυρβάζῃ περὶ πολλά· ἑνὸς δέ ἐστι χρεία· Μαρία δὲ τὴν ἀγαθὴν μερίδα ἐξελέξατο, ἥτις οὐκ ἀφαιρεθήσεται ἀπ’ αὐτῆς. Ἐγένετο δὲ ἐν τῷ λέγειν αὐτὸν ταῦτα ἐπάρασά τις γυνὴ φωνὴν ἐκ τοῦ ὄχλου εἶπεν αὐτῷ· μακαρία ἡ κοιλία ἡ βαστάσασά σε καὶ μαστοὶ οὓς ἐθήλασας. αὐτὸς δὲ εἶπε· μενοῦνγε μακάριοι οἱ ἀκούοντες τὸν λόγον τοῦ Θεοῦ καὶ φυλάσσοντες αὐτόν.",
+          "english": "At that time, Jesus entered a village; and a woman called Martha received him into her house. And she had a sister called Mary, who sat at the Lord’s feet and listened to his teaching. But Martha was distracted with much serving; and she went to him and said, “Lord, do you not care that my sister has left me to serve you alone? Tell her then to help me.” But the Lord answered her, “Martha, Martha, you are anxious and troubled about many things; one thing is needful. Mary has chosen the good portion, which shall not be taken away from her.” As he said this, a woman in the crowd raised her voice and said to him, “Blessed is the womb that bore you, and the breasts that nursed you!” But he said, “Blessed rather are those who hear the word of God and keep it!”"
+        },
+        {
+          "unit_id": "matins:u0347",
+          "index": 347,
+          "section_id": "matins:s062",
+          "section_title": "Troparia",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.48,
+          "language": "en",
+          "greek": "Ἐπάξιον Θεομῆτορ τῆς σῆς ἁγνείας, τὸν τόκον ἐκληρώσω δι’ ἐπαγγελίας· τῇ ποτὲ γὰρ ἀκάρπῳ, θεόβλαστος καρπὸς ἐδόθης· διό σε πᾶσαι αἱ φυλαὶ τῆς γῆς, ἀπαύστως μακαρίζομεν.",
+          "english": "O Mother of God, as deserving of your pure virtue, * your birth comes in fulfillment of a solemn promise. * Unto her, the infertile, a fruit from God has been given; * Indeed all generations everywhere * now call you blessed evermore."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 1881.66,
+      "end": 1894.76,
+      "text": "ʻŸrā mā yūth, ʻmenī pēʃanʸʸʸ war agenʸt mī,",
+      "avg_logprob": -0.8758249383223684,
+      "compression_ratio": 1.1363636363636365,
+      "no_speech_prob": 0.2245393693447113,
+      "words": [
+        {
+          "word": " ʻŸrā",
+          "start": 1881.66,
+          "end": 1882.82,
+          "probability": 0.54052734375
+        },
+        {
+          "word": " mā",
+          "start": 1882.82,
+          "end": 1883.72,
+          "probability": 0.5146484375
+        },
+        {
+          "word": " yūth,",
+          "start": 1883.72,
+          "end": 1886.0,
+          "probability": 0.65625
+        },
+        {
+          "word": " ʻmenī",
+          "start": 1886.06,
+          "end": 1887.76,
+          "probability": 0.6767578125
+        },
+        {
+          "word": " pēʃanʸʸʸ",
+          "start": 1887.76,
+          "end": 1890.16,
+          "probability": 0.5546875
+        },
+        {
+          "word": " war",
+          "start": 1890.16,
+          "end": 1891.0,
+          "probability": 0.2078857421875
+        },
+        {
+          "word": " agenʸt",
+          "start": 1891.0,
+          "end": 1894.18,
+          "probability": 0.498046875
+        },
+        {
+          "word": " mī,",
+          "start": 1894.18,
+          "end": 1894.76,
+          "probability": 0.64404296875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "la",
+      "lexical_match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.6355,
+        "status": "unknown",
+        "method": "lexical",
+        "reason": "No sufficiently similar reference text"
+      },
+      "service_context": {
+        "status": "service_reference_available",
+        "service_id": null,
+        "opening_start": null,
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.6355,
+        "status": "unknown",
+        "method": "sequence",
+        "reason": "No sufficiently similar text on the chronological path",
+        "service_id": null,
+        "service_title": null
+      },
+      "sequence_match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.6355,
+        "status": "unknown",
+        "method": "sequence",
+        "reason": "No sufficiently similar text on the chronological path",
+        "service_id": null,
+        "service_title": null
+      },
+      "sequence": {
+        "version": 4,
+        "block": 0,
+        "max_reverse_units": 3,
+        "path_unit_id": null,
+        "evidence_segment_ids": [],
+        "service_evidence": null,
+        "warnings": [],
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "candidates": [
+        {
+          "unit_id": "matins:u0165",
+          "index": 165,
+          "section_id": "matins:s016",
+          "section_title": "Antiphon 1",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.6355,
+          "language": "en",
+          "greek": "Ἐκ νεότητός μου πολλὰ πολεμεῖ με πάθη· ἀλλ’ αὐτὸς ἀντιλαβοῦ, καὶ σῶσον Σωτήρ μου.",
+          "english": "From my youth, many passions war against me. O my Savior, I implore You, uphold me and save me."
+        },
+        {
+          "unit_id": "matins:u0225",
+          "index": 225,
+          "section_id": "matins:s028",
+          "section_title": "Heirmos",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.5379,
+          "language": "en",
+          "greek": "Ἐστερεώθη ἡ καρδία μου ἐν Κυρίῳ, ὑψώθη κέρας μου ἐν Θεῷ μου, ἐπλατύνθη ἐπ’ ἐχθρούς μου τὸ στόμα μου, εὐφράνθην ἐν σωτηρίῳ σου.",
+          "english": "My heart exults and in the Lord firmly is established; * and in my God is my horn exalted; * and my mouth is open wide at my enemies, and in Your salvation I rejoice."
+        },
+        {
+          "unit_id": "liturgy:u0264",
+          "index": 745,
+          "section_id": "liturgy:s020",
+          "section_title": "Elevation, Fraction, and Communion",
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "score": 0.5311,
+          "language": "en",
+          "greek": "Πιστεύω, Κύριε, καὶ ὁμολογῶ, ὅτι σὺ εἶ ὁ Χριστός, ὁ Υἱὸς τοῦ Θεοῦ τοῦ ζῶντος, ὁ ἐλθὼν εἰς τὸν κόσμον ἁμαρτωλοὺς σῶσαι, ὧν πρῶτός εἰμι ἐγώ. Ἔτι πιστεύω ὅτι τοῦτο αὐτό ἐστι τὸ ἄχραντον Σῶμά σου καὶ τοῦτο αὐτό ἐστι τὸ τίμιον Αἷμά σου. Δέομαι οὖν σου· ἐλέησόν με καὶ συγχώρησόν μοι τὰ παραπτώματά μου, τὰ ἑκούσια καὶ τὰ ἀκούσια, τὰ ἐν λόγῳ, τὰ ἐν ἔργῳ, τὰ ἐν γνώσει καὶ ἀγνοίᾳ, καὶ ἀξίωσόν με ἀκατακρίτως μετασχεῖν τῶν ἀχράντων σου μυστηρίων εἰς ἄφεσιν ἁμαρτιῶν καὶ εἰς ζωὴν αἰώνιον. Ἀμήν.",
+          "english": "I believe and confess, Lord, that You are truly the Christ, the Son of the living God, who came into the world to save sinners, of whom I am the first. I also believe that this is truly Your pure Body and that this is truly Your precious Blood. Therefore, I pray to You, have mercy on me and forgive my transgressions, voluntary and involuntary, in word and deed, in knowledge or in ignorance. And make me worthy, without condemnation, to partake of Your pure sacrament for the remission of sins and for eternal life. Amen."
+        },
+        {
+          "unit_id": "matins:u0400",
+          "index": 400,
+          "section_id": "matins:s067",
+          "section_title": "Stichera for the Feast",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.5245,
+          "language": "en",
+          "greek": "Στήλη σωφροσύνης ἔμψυχος, καὶ λαμπρὸν δοχεῖον, ἀποστίλβον χάριτι, ἡ Ἄννα ἡ εὐκλεής, φανεῖσα τέτοκε, τὴν πρόβολον ἀληθῶς, τῆς παρθενίας τὸ θεῖον ἀπάνθισμα, τὴν πάσαις παρθενικαῖς, καὶ παρθενίας ποθούσαις τὸ χάρισμα, τὸ τῆς παρθενίας κάλλος, ἐμφανῶς βραβεύουσαν, καὶ παρέχουσαν πᾶσι, τοῖς πιστοῖς τὸ μέγα ἔλεος.",
+          "english": "Anna the renowned, appearing as * an animate pillar of chastity and a bright * container shining with grace, has truly given birth * to progeny of her own, * the efflorescence divine of virginity. * And manifestly the Maid * awards virginity’s beauty to virgins all * and to those who truly long for * the grace of virginity, * and she freely is granting * unto all the faithful great mercy."
+        },
+        {
+          "unit_id": "matins:u0048",
+          "index": 48,
+          "section_id": "matins:s004",
+          "section_title": "Psalm 37 (38)",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.5217,
+          "language": "en",
+          "greek": "Κύριε, μὴ τῷ θυμῷ σου ἐλέγξῃς με, μηδὲ τῇ ὀργῇ σου παιδεύσῃς με. Ὅτι τὰ βέλη σου ἐνεπάγησάν μοι, καὶ ἐπεστήριξας ἐπʼ ἐμὲ τὴν χεῖρά σου. Οὐκ ἔστιν ἴασις ἐν τῇ σαρκί μου ἀπὸ προσώπου τῆς ὀργῆς σου, οὐκ ἔστιν εἰρήνη ἐν τοῖς ὀστέοις μου ἀπὸ προσώπου τῶν ἁμαρτιῶν μου. Ὅτι αἱ ἀνομίαι μου ὑπερῇραν τὴν κεφαλήν μου, ὡσεὶ φορτίον βαρὺ ἐβαρύνθησαν ἐπʼ ἐμέ. Προσώζεσαν καὶ ἐσάπησαν οἱ μώλωπές μου ἀπὸ προσώπου τῆς ἀφροσύνης μου. Ἐταλαιπώρησα καὶ κατεκάμφθην ἕως τέλους, ὅλην τὴν ἡμέραν σκυθρωπάζων ἐπορευόμην. Ὅτι αἱ ψόαι μου ἐπλήσθησαν ἐμπαιγμάτων, καὶ οὐκ ἔστιν ἴασις ἐν τῇ σαρκί μου. Ἐκακώθην καὶ ἐταπεινώθην ἕως σφόδρα, ὠρυόμην ἀπὸ στεναγμοῦ τῆς καρδίας μου. Κύριε, ἐναντίον σου πᾶσα ἡ ἐπιθυμία μου, καὶ ὁ στεναγμός μου ἀπὸ σοῦ οὐκ ἀπεκρύβη. Ἡ καρδία μου ἐταράχθη, ἐγκατέλιπέ με ἡ ἰσχύς μου, καὶ τὸ φῶς τῶν ὀφθαλμῶν μου καὶ αὐτὸ οὐκ ἔστι μετʼ ἐμοῦ. Οἱ φίλοι μου καὶ οἱ πλησίον μου ἐξεναντίας μου ἤγγισαν καὶ ἔστησαν, καὶ οἱ ἔγγιστά μου ἀπὸ μακρόθεν ἔστησαν. Καὶ ἐξεβιάζοντο οἱ ζητοῦντες τὴν ψυχήν μου, καὶ οἱ ζητοῦντες τὰ κακά μοι ἐλάλησαν ματαιότητας, καὶ δολιότητας ὅλην τὴν ἡμέραν ἐμελέτησαν. Ἐγὼ δὲ ὡσεὶ κωφὸς οὐκ ἤκουον καὶ ὡσεὶ ἄλαλος οὐκ ἀνοίγων τὸ στόμα αὐτοῦ. Καὶ ἐγενόμην ὡσεὶ ἄνθρωπος οὐκ ἀκούων καὶ οὐκ ἔχων ἐν τῷ στόματι αὐτοῦ ἐλεγμούς. Ὅτι ἐπὶ σοί, Κύριε, ἤλπισα· σὺ εἰσακούσῃ, Κύριε ὁ Θεός μου. Ὅτι εἶπον· Μήποτε ἐπιχαρῶσί μοι οἱ ἐχθροί μου· καὶ ἐν τῷ σαλευθῆναι πόδας μου ἐπʼ ἐμὲ ἐμεγαλοῤῥημόνησαν. Ὅτι ἐγὼ εἰς μάστιγας ἕτοιμος, καὶ ἡ ἀλγηδών μου ἐνώπιόν μού ἐστι διὰ παντός. Ὅτι τὴν ἀνομίαν μου ἐγὼ ἀναγγελῶ καὶ μεριμνήσω ὑπὲρ τῆς ἁμαρτίας μου. Οἱ δὲ ἐχθροί μου ζῶσι καὶ κεκραταίωνται ὑπὲρ ἐμέ, καὶ ἐπληθύνθησαν οἱ μισοῦντές με ἀδίκως. Οἱ ἀνταποδιδόντες μοι κακὰ ἀντὶ ἀγαθῶν ἐνδιέβαλλόν με, ἐπεὶ κατεδίωκον ἀγαθωσύνην. Μὴ ἐγκαταλίπῃς με, Κύριε ὁ Θεός μου, μὴ ἀποστῇς ἀπʼ ἐμοῦ. Πρόσχες εἰς τὴν βοήθειάν μου, Κύριε τῆς σωτηρίας μου.",
+          "english": "O Lord, do not rebuke me in Your wrath, nor chasten me in Your anger. For Your arrows are fixed in me, and Your hand rests on me; there is no healing in my flesh because of Your wrath; there is no peace in my bones because of my sins. For my transgressions rise up over my head; like a heavy burden they are heavy on me. My wounds grow foul and fester because of my folly. I suffer misery, and I am utterly bowed down; I go all the day long with a sad face. For my loins are filled with mockeries, and there is no healing in my flesh. I am afflicted and greatly humbled; I roar because of the groaning of my heart. O Lord, all my desire is before You, and my groaning is not hidden from You. My heart is troubled; my strength fails me, and the light of my eyes, even this is not with me. My friends and neighbors draw near and stand against me, and my near of kin stand far off; and those who seek my soul use violence, and those who seek evil for me speak folly; and they meditate on deceit all the day long. But I like a deaf man do not hear, and I am like a mute who does not open his mouth. I am like a man who does not hear, and who has no reproofs in his mouth. For in You, O Lord, I hope; You will hear, O Lord my God. For I said, “Let not my enemies rejoice over me, for when my foot was shaken, they boasted against me.” For I am ready for wounds, and my pain is continually with me. For I will declare my transgression, and I will be anxious about my sin. But my enemies live, and are become stronger than I; and those who hate me unjustly are multiplied; those who repaid me evil for good slandered me, because I pursue righteousness; and they threw away my love as though it were a stinking corpse. Do not forsake me, O Lord; O my God, do not depart from me; give heed to help me, O Lord of my salvation."
+        },
+        {
+          "unit_id": "matins:u0056",
+          "index": 56,
+          "section_id": "matins:s006",
+          "section_title": "Psalm 87 (88)",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.5141,
+          "language": "en",
+          "greek": "Κύριε ὁ Θεὸς τῆς σωτηρίας μου, ἡμέρας ἐκέκραξα καὶ ἐν νυκτὶ ἐναντίον σου. Εἰσελθέτω ἐνώπιόν σου ἡ προσευχή μου, κλῖνον τὸ οὖς σου εἰς τὴν δέησίν μου. Ὅτι ἐπλήσθη κακῶν ἡ ψυχή μου, καὶ ἡ ζωή μου τῷ ᾅδῃ ἤγγισε. Προσελογίσθην μετὰ τῶν καταβαινόντων εἰς λάκκον, ἐγενήθην ὡσεὶ ἄνθρωπος ἀβοήθητος, ἐν νεκροῖς ἐλεύθερος, ὡσεὶ τραυματίαι καθεύδοντες ἐν τάφῳ, ὧν οὐκ ἐμνήσθης ἔτι, καὶ αὐτοὶ ἐκ τῆς χειρός σου ἀπώσθησαν. Ἔθεντό με ἐν λάκκῳ κατωτάτῳ, ἐν σκοτεινοῖς καὶ ἐν σκιᾷ θανάτου. Ἐπʼ ἐμὲ ἐπεστηρίχθη ὁ θυμός σου, καὶ πάντας τοὺς μετεωρισμούς σου ἐπήγαγες ἐπʼ ἐμέ. Ἐμάκρυνας τοὺς γνωστούς μου ἀπʼ ἐμοῦ, ἔθεντό με βδέλυγμα ἑαυτοῖς, παρεδόθην καὶ οὐκ ἐξεπορευόμην. Οἱ ὀφθαλμοί μου ἠσθένησαν ἀπὸ πτωχείας· ἐκέκραξα πρὸς σέ, Κύριε, ὅλην τὴν ἡμέραν, διεπέτασα πρὸς σὲ τὰς χεῖράς μου. Μὴ τοῖς νεκροῖς ποιήσεις θαυμάσια; ἢ ἰατροὶ ἀναστήσουσι καὶ ἐξομολογήσονταί σοι; Μὴ διηγήσεταί τις ἐν τῷ τάφῳ τὸ ἔλεός σου καὶ τὴν ἀλήθειάν σου ἐν τῇ ἀπωλείᾳ; Μὴ γνωσθήσεται ἐν τῷ σκότει τὰ θαυμάσιά σου καὶ ἡ δικαιοσύνη σου ἐν γῇ ἐπιλελησμένῃ; Κἀγὼ πρὸς σέ, Κύριε, ἐκέκραξα, καὶ τὸ πρωῒ ἡ προσευχή μου προφθάσει σε. Ἵνα τί, Κύριε, ἀπωθεῖς τὴν ψυχήν μου, ἀποστρέφεις τὸ πρόσωπόν σου ἀπʼ ἐμοῦ; Πτωχός εἰμι ἐγὼ καὶ ἐν κόποις ἐκ νεότητός μου, ὑψωθεὶς δὲ ἐταπεινώθην καὶ ἐξηπορήθην. Ἐπʼ ἐμὲ διῆλθον αἱ ὀργαί σου, οἱ φοβερισμοί σου ἐξετάραξάν με, ἐκύκλωσάν με ὡσεὶ ὕδωρ ὅλην τὴν ἡμέραν, περιέσχον με ἅμα. Ἐμάκρυνας ἀπʼ ἐμοῦ φίλον καὶ πλησίον, καὶ τοὺς γνωστούς μου ἀπὸ ταλαιπωρίας.",
+          "english": "O Lord God of my salvation, I cry day and night before You. Let my prayer come before You; incline Your ear to my supplication, O Lord. For my soul is filled with sorrows, and my soul draws near to Hades; I am counted among those who go down into the pit; I am like a helpless man, free among the dead, like slain men thrown down and sleeping in a grave, whom You remember no more, but they are removed from Your hand. They laid me in the lowest pit, in dark places and in the shadow of death. Your wrath rested upon me, and You brought all Your billows over me. You removed my acquaintances far from me; they made me an abomination among themselves; I was betrayed, and did not go forth. My eyes weakened from poverty; O Lord, I cry to You the whole day long; I spread out my hands to You. Will You work wonders for the dead? Or will physicians raise them up, and acknowledge You? Shall anyone in the grave describe Your mercy and Your truth in destruction? Shall Your wonders be known in darkness, and Your righteousness in a forgotten land? But I cry to You, O Lord, and in the morning my prayer shall come near to You. Why, O Lord, do You reject my soul, and turn away Your face from me? I am poor and in troubles from my youth; but having been exalted, I was humbled and brought into despair. Your fierce anger passed over me, and Your terrors greatly troubled me; they compassed me like water all the day long; they surrounded me at once. You removed far from me neighbor and friend, and my acquaintances because of my misery."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 1894.76,
+      "end": 1896.98,
+      "text": "ḍᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃ�",
+      "avg_logprob": -0.15168846978081596,
+      "compression_ratio": 11.25,
+      "no_speech_prob": 0.7626240253448486,
+      "words": [
+        {
+          "word": " ḍᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃ�",
+          "start": 1894.76,
+          "end": 1896.98,
+          "probability": 0.9033203125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "la",
+      "lexical_match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.0,
+        "status": "unknown",
+        "method": "lexical",
+        "reason": "No recognized text"
+      },
+      "service_context": {
+        "status": "service_reference_available",
+        "service_id": null,
+        "opening_start": null,
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.0,
+        "status": "unknown",
+        "method": "sequence",
+        "reason": "No sufficiently similar text on the chronological path",
+        "service_id": null,
+        "service_title": null
+      },
+      "sequence_match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.0,
+        "status": "unknown",
+        "method": "sequence",
+        "reason": "No sufficiently similar text on the chronological path",
+        "service_id": null,
+        "service_title": null
+      },
+      "sequence": {
+        "version": 4,
+        "block": 0,
+        "max_reverse_units": 3,
+        "path_unit_id": null,
+        "evidence_segment_ids": [],
+        "service_evidence": null,
+        "warnings": [],
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "candidates": []
+    },
+    {
+      "id": 13,
+      "start": 1897.0,
+      "end": 1913.94,
+      "text": "I save your, I implore you, uphold me and save me.",
+      "avg_logprob": -0.39962773574026006,
+      "compression_ratio": 1.0,
+      "no_speech_prob": 0.37612682580947876,
+      "words": [
+        {
+          "word": " I",
+          "start": 1897.0,
+          "end": 1897.26,
+          "probability": 0.11346435546875
+        },
+        {
+          "word": " save",
+          "start": 1897.26,
+          "end": 1898.5,
+          "probability": 0.2481689453125
+        },
+        {
+          "word": " your,",
+          "start": 1898.5,
+          "end": 1899.84,
+          "probability": 0.7197265625
+        },
+        {
+          "word": " I",
+          "start": 1900.52,
+          "end": 1901.4,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " implore",
+          "start": 1901.4,
+          "end": 1903.6,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " you,",
+          "start": 1903.6,
+          "end": 1905.3,
+          "probability": 0.9794921875
+        },
+        {
+          "word": " uphold",
+          "start": 1906.4,
+          "end": 1907.12,
+          "probability": 0.97119140625
+        },
+        {
+          "word": " me",
+          "start": 1907.12,
+          "end": 1908.4,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " and",
+          "start": 1908.4,
+          "end": 1910.9,
+          "probability": 0.67822265625
+        },
+        {
+          "word": " save",
+          "start": 1910.9,
+          "end": 1912.52,
+          "probability": 0.9853515625
+        },
+        {
+          "word": " me.",
+          "start": 1912.52,
+          "end": 1913.94,
+          "probability": 0.99755859375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en",
+      "lexical_match": {
+        "unit_id": "matins:u0165",
+        "unit_index": 165,
+        "section_id": "matins:s016",
+        "section_title": "Antiphon 1",
+        "score": 0.9468,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive global text match"
+      },
+      "service_context": {
+        "status": "service_reference_available",
+        "service_id": null,
+        "opening_start": null,
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "match": {
+        "unit_id": "matins:u0165",
+        "unit_index": 165,
+        "section_id": "matins:s016",
+        "section_title": "Antiphon 1",
+        "score": 0.9468,
+        "status": "matched",
+        "method": "sequence",
+        "reason": "Distinctive text supports this position in the chronological path",
+        "service_id": "matins",
+        "service_title": "Matins (Orthros)"
+      },
+      "sequence_match": {
+        "unit_id": "matins:u0165",
+        "unit_index": 165,
+        "section_id": "matins:s016",
+        "section_title": "Antiphon 1",
+        "score": 0.9468,
+        "status": "matched",
+        "method": "sequence",
+        "reason": "Distinctive text supports this position in the chronological path",
+        "service_id": "matins",
+        "service_title": "Matins (Orthros)"
+      },
+      "sequence": {
+        "version": 4,
+        "block": 0,
+        "max_reverse_units": 3,
+        "path_unit_id": "matins:u0165",
+        "evidence_segment_ids": [
+          13
+        ],
+        "service_evidence": "matins",
+        "warnings": [],
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "candidates": [
+        {
+          "unit_id": "matins:u0165",
+          "index": 165,
+          "section_id": "matins:s016",
+          "section_title": "Antiphon 1",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.9468,
+          "language": "en",
+          "greek": "Ἐκ νεότητός μου πολλὰ πολεμεῖ με πάθη· ἀλλ’ αὐτὸς ἀντιλαβοῦ, καὶ σῶσον Σωτήρ μου.",
+          "english": "From my youth, many passions war against me. O my Savior, I implore You, uphold me and save me."
+        },
+        {
+          "unit_id": "liturgy:u0324",
+          "index": 805,
+          "section_id": "liturgy:s026",
+          "section_title": "Memorial Service",
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "score": 0.6563,
+          "language": "en",
+          "greek": "Τῶν ἁγίων ὁ χορός, εὗρε πηγὴν τῆς ζωῆς καὶ θύραν παραδείσου· εὕρω κἀγώ, τὴν ὁδὸν διὰ τῆς μετανοίας· τὸ ἀπολωλὸς πρόβατον ἐγώ εἰμι· ἀνακάλεσαί με, Σωτήρ, καὶ σῶσόν με.",
+          "english": "The choir of Saints has found the fountain of life and the door of Paradise. May I also find the way through repentance. I am the lost sheep: O Savior, call me back and save me."
+        },
+        {
+          "unit_id": "matins:u0469",
+          "index": 469,
+          "section_id": "matins:s070",
+          "section_title": "Litany Of Completion",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.6474,
+          "language": "en",
+          "greek": "Σὸν γάρ ἐστι τὸ ἐλεεῖν καὶ σώζειν ἡμᾶς, ὁ Θεὸς ἡμῶν, καὶ σοὶ τὴν δόξαν ἀναπέμπομεν, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ ἁγίῳ Πνεύματι, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "For Yours it is to show mercy and to save us, O our God, and to You we offer up glory, to the Father and the Son and the Holy Spirit, now and ever and to ages of ages."
+        },
+        {
+          "unit_id": "matins:u0046",
+          "index": 46,
+          "section_id": "matins:s003",
+          "section_title": "Psalm 3",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.6455,
+          "language": "en",
+          "greek": "Κύριε, τί ἐπληθύνθησαν οἱ θλίβοντές με; Πολλοὶ ἐπανίστανται ἐπʼ ἐμέ. Πολλοὶ λέγουσι τῇ ψυχῇ μου· Οὐκ ἔστι σωτηρία αὐτῷ ἐν τῷ Θεῷ αὐτοῦ. Σὺ δέ, Κύριε, ἀντιλήπτωρ μου εἶ, δόξα μου καὶ ὑψῶν τὴν κεφαλήν μου. Φωνῇ μου πρὸς Κύριον ἐκέκραξα, καὶ ἐπήκουσέ μου ἐξ ὄρους ἁγίου αὐτοῦ. Ἐγὼ δὲ ἐκοιμήθην καὶ ὕπνωσα· ἐξηγέρθην, ὅτι Κύριος ἀντιλήψεταί μου. Οὐ φοβηθήσομαι ἀπὸ μυριάδων λαοῦ τῶν κύκλῳ συνεπιτιθεμένων μοι. Ἀνάστα, Κύριε, σῶσόν με ὁ Θεός μου, ὅτι σὺ ἐπάταξας πάντας τοὺς ἐχθραίνοντάς μοι ματαίως, ὀδόντας ἁμαρτωλῶν συνέτριψας. Τοῦ Κυρίου ἡ σωτηρία, καὶ ἐπὶ τὸν λαόν σου ἡ εὐλογία σου.",
+          "english": "O Lord, why do those who afflict me multiply? Many are those who rise up against me. Many are those who say to my soul, “There is no salvation for him in his God.” But You, O Lord, are my protector, my glory and the One who lifts up my head. I cried to the Lord with my voice, and He heard me from His holy hill. I lay down and slept; I awoke, for the Lord will help me. I will not be afraid of ten thousands of people who set themselves against me all around. Arise, O Lord, and save me, O my God, for You struck all those who were foolishly at enmity with me; You broke the teeth of sinners. Salvation is of the Lord, and Your blessing is upon Your people."
+        },
+        {
+          "unit_id": "matins:u0013",
+          "index": 13,
+          "section_id": "matins:s001",
+          "section_title": "Trisagion Prayers",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.6452,
+          "language": "en",
+          "greek": "Σῶσον, Κύριε, τὸν λαόν σου, καὶ εὐλόγησον τὴν κληρονομίαν σου, νίκας τοῖς βασιλεῦσι κατὰ βαρβάρων δωρούμενος, καὶ τὸ σὸν φυλάττων, διὰ τοῦ Σταυροῦ σου πολίτευμα.",
+          "english": "Save, O Lord, Your people and bless Your inheritance, granting victory to the faithful over the enemy, and by Your Cross protecting Your commonwealth."
+        },
+        {
+          "unit_id": "liturgy:u0264",
+          "index": 745,
+          "section_id": "liturgy:s020",
+          "section_title": "Elevation, Fraction, and Communion",
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "score": 0.6442,
+          "language": "en",
+          "greek": "Πιστεύω, Κύριε, καὶ ὁμολογῶ, ὅτι σὺ εἶ ὁ Χριστός, ὁ Υἱὸς τοῦ Θεοῦ τοῦ ζῶντος, ὁ ἐλθὼν εἰς τὸν κόσμον ἁμαρτωλοὺς σῶσαι, ὧν πρῶτός εἰμι ἐγώ. Ἔτι πιστεύω ὅτι τοῦτο αὐτό ἐστι τὸ ἄχραντον Σῶμά σου καὶ τοῦτο αὐτό ἐστι τὸ τίμιον Αἷμά σου. Δέομαι οὖν σου· ἐλέησόν με καὶ συγχώρησόν μοι τὰ παραπτώματά μου, τὰ ἑκούσια καὶ τὰ ἀκούσια, τὰ ἐν λόγῳ, τὰ ἐν ἔργῳ, τὰ ἐν γνώσει καὶ ἀγνοίᾳ, καὶ ἀξίωσόν με ἀκατακρίτως μετασχεῖν τῶν ἀχράντων σου μυστηρίων εἰς ἄφεσιν ἁμαρτιῶν καὶ εἰς ζωὴν αἰώνιον. Ἀμήν.",
+          "english": "I believe and confess, Lord, that You are truly the Christ, the Son of the living God, who came into the world to save sinners, of whom I am the first. I also believe that this is truly Your pure Body and that this is truly Your precious Blood. Therefore, I pray to You, have mercy on me and forgive my transgressions, voluntary and involuntary, in word and deed, in knowledge or in ignorance. And make me worthy, without condemnation, to partake of Your pure sacrament for the remission of sins and for eternal life. Amen."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 1913.94,
+      "end": 1926.52,
+      "text": "You hate Zion, be shamed by the Lord.",
+      "avg_logprob": -0.48883819580078125,
+      "compression_ratio": 0.8222222222222222,
+      "no_speech_prob": 0.5475369691848755,
+      "words": [
+        {
+          "word": " You",
+          "start": 1913.94,
+          "end": 1915.48,
+          "probability": 0.424560546875
+        },
+        {
+          "word": " hate",
+          "start": 1915.48,
+          "end": 1917.14,
+          "probability": 0.806640625
+        },
+        {
+          "word": " Zion,",
+          "start": 1917.14,
+          "end": 1919.46,
+          "probability": 0.35595703125
+        },
+        {
+          "word": " be",
+          "start": 1920.52,
+          "end": 1921.14,
+          "probability": 0.9365234375
+        },
+        {
+          "word": " shamed",
+          "start": 1921.14,
+          "end": 1923.4,
+          "probability": 0.6845703125
+        },
+        {
+          "word": " by",
+          "start": 1923.4,
+          "end": 1924.68,
+          "probability": 0.98974609375
+        },
+        {
+          "word": " the",
+          "start": 1924.68,
+          "end": 1925.3,
+          "probability": 0.7119140625
+        },
+        {
+          "word": " Lord.",
+          "start": 1925.3,
+          "end": 1926.52,
+          "probability": 0.72412109375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en",
+      "lexical_match": {
+        "unit_id": "matins:u0166",
+        "unit_index": 166,
+        "section_id": "matins:s016",
+        "section_title": "Antiphon 1",
+        "score": 0.9571,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive global text match"
+      },
+      "service_context": {
+        "status": "service_reference_available",
+        "service_id": null,
+        "opening_start": null,
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "match": {
+        "unit_id": "matins:u0166",
+        "unit_index": 166,
+        "section_id": "matins:s016",
+        "section_title": "Antiphon 1",
+        "score": 0.9571,
+        "status": "matched",
+        "method": "sequence",
+        "reason": "Distinctive text supports this position in the chronological path",
+        "service_id": "matins",
+        "service_title": "Matins (Orthros)"
+      },
+      "sequence_match": {
+        "unit_id": "matins:u0166",
+        "unit_index": 166,
+        "section_id": "matins:s016",
+        "section_title": "Antiphon 1",
+        "score": 0.9571,
+        "status": "matched",
+        "method": "sequence",
+        "reason": "Distinctive text supports this position in the chronological path",
+        "service_id": "matins",
+        "service_title": "Matins (Orthros)"
+      },
+      "sequence": {
+        "version": 4,
+        "block": 0,
+        "max_reverse_units": 3,
+        "path_unit_id": "matins:u0166",
+        "evidence_segment_ids": [
+          14
+        ],
+        "service_evidence": "matins",
+        "warnings": [],
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "candidates": [
+        {
+          "unit_id": "matins:u0166",
+          "index": 166,
+          "section_id": "matins:s016",
+          "section_title": "Antiphon 1",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.9571,
+          "language": "en",
+          "greek": "Οἱ μισοῦντες Σιών, αἰσχύνθητε ἀπὸ τοῦ Κυρίου· ὡς χόρτος γάρ, πυρὶ ἔσεσθε ἀπεξηραμμένοι.",
+          "english": "You who hate Zion, be shamed by the Lord; for you will be withered like grass in the fire."
+        },
+        {
+          "unit_id": "liturgy:u0128",
+          "index": 609,
+          "section_id": "liturgy:s011",
+          "section_title": "The Holy Gospel",
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "score": 0.6772,
+          "language": "en",
+          "greek": "Τῷ καιρῷ ἐκείνῳ, εἰσῆλθεν ὁ Ἰησοῦς εἰς κώμην τινά. γυνὴ δέ τις ὀνόματι Μάρθα ὑπεδέξατο αὐτὸν εἰς τὸν οἶκον αὐτῆς. καὶ τῇδε ἦν ἀδελφὴ καλουμένη Μαρία, ἣ καὶ παρακαθίσασα παρὰ τοὺς πόδας τοῦ Ἰησοῦ ἤκουε τὸν λόγον αὐτοῦ. ἡ δὲ Μάρθα περιεσπᾶτο περὶ πολλὴν διακονίαν· ἐπιστᾶσα δὲ εἶπε· Κύριε, οὐ μέλει σοι ὅτι ἡ ἀδελφή μου μόνην με κατέλιπε διακονεῖν; εἰπὲ οὖν αὐτῇ ἵνα μοι συναντιλάβηται. ἀποκριθεὶς δὲ εἶπεν αὐτῇ ὁ Ἰησοῦς· Μάρθα Μάρθα, μεριμνᾷς καὶ τυρβάζῃ περὶ πολλά· ἑνὸς δέ ἐστι χρεία· Μαρία δὲ τὴν ἀγαθὴν μερίδα ἐξελέξατο, ἥτις οὐκ ἀφαιρεθήσεται ἀπ’ αὐτῆς. Ἐγένετο δὲ ἐν τῷ λέγειν αὐτὸν ταῦτα ἐπάρασά τις γυνὴ φωνὴν ἐκ τοῦ ὄχλου εἶπεν αὐτῷ· μακαρία ἡ κοιλία ἡ βαστάσασά σε καὶ μαστοὶ οὓς ἐθήλασας. αὐτὸς δὲ εἶπε· μενοῦνγε μακάριοι οἱ ἀκούοντες τὸν λόγον τοῦ Θεοῦ καὶ φυλάσσοντες αὐτόν.",
+          "english": "At that time, Jesus entered a village; and a woman called Martha received him into her house. And she had a sister called Mary, who sat at the Lord’s feet and listened to his teaching. But Martha was distracted with much serving; and she went to him and said, “Lord, do you not care that my sister has left me to serve you alone? Tell her then to help me.” But the Lord answered her, “Martha, Martha, you are anxious and troubled about many things; one thing is needful. Mary has chosen the good portion, which shall not be taken away from her.” As he said this, a woman in the crowd raised her voice and said to him, “Blessed is the womb that bore you, and the breasts that nursed you!” But he said, “Blessed rather are those who hear the word of God and keep it!”"
+        },
+        {
+          "unit_id": "matins:u0025",
+          "index": 25,
+          "section_id": "matins:s001",
+          "section_title": "Trisagion Prayers",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.6601,
+          "language": "en",
+          "greek": "Ἀμήν. Ἐν ὀνόματι Κυρίου εὐλόγησον, πάτερ.",
+          "english": "Amen. In the name of the Lord, Father, bless!"
+        },
+        {
+          "unit_id": "matins:u0097",
+          "index": 97,
+          "section_id": "matins:s010",
+          "section_title": "Matins",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.658,
+          "language": "en",
+          "greek": "Θεὸς Κύριος καὶ ἐπέφανεν ἡμῖν. Εὐλογημένος ὁ ἐρχόμενος ἐν ὀνόματι Κυρίου.",
+          "english": "God is the Lord, and He revealed Himself to us. Blessed is he who comes in the name of the Lord."
+        },
+        {
+          "unit_id": "matins:u0056",
+          "index": 56,
+          "section_id": "matins:s006",
+          "section_title": "Psalm 87 (88)",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.6531,
+          "language": "en",
+          "greek": "Κύριε ὁ Θεὸς τῆς σωτηρίας μου, ἡμέρας ἐκέκραξα καὶ ἐν νυκτὶ ἐναντίον σου. Εἰσελθέτω ἐνώπιόν σου ἡ προσευχή μου, κλῖνον τὸ οὖς σου εἰς τὴν δέησίν μου. Ὅτι ἐπλήσθη κακῶν ἡ ψυχή μου, καὶ ἡ ζωή μου τῷ ᾅδῃ ἤγγισε. Προσελογίσθην μετὰ τῶν καταβαινόντων εἰς λάκκον, ἐγενήθην ὡσεὶ ἄνθρωπος ἀβοήθητος, ἐν νεκροῖς ἐλεύθερος, ὡσεὶ τραυματίαι καθεύδοντες ἐν τάφῳ, ὧν οὐκ ἐμνήσθης ἔτι, καὶ αὐτοὶ ἐκ τῆς χειρός σου ἀπώσθησαν. Ἔθεντό με ἐν λάκκῳ κατωτάτῳ, ἐν σκοτεινοῖς καὶ ἐν σκιᾷ θανάτου. Ἐπʼ ἐμὲ ἐπεστηρίχθη ὁ θυμός σου, καὶ πάντας τοὺς μετεωρισμούς σου ἐπήγαγες ἐπʼ ἐμέ. Ἐμάκρυνας τοὺς γνωστούς μου ἀπʼ ἐμοῦ, ἔθεντό με βδέλυγμα ἑαυτοῖς, παρεδόθην καὶ οὐκ ἐξεπορευόμην. Οἱ ὀφθαλμοί μου ἠσθένησαν ἀπὸ πτωχείας· ἐκέκραξα πρὸς σέ, Κύριε, ὅλην τὴν ἡμέραν, διεπέτασα πρὸς σὲ τὰς χεῖράς μου. Μὴ τοῖς νεκροῖς ποιήσεις θαυμάσια; ἢ ἰατροὶ ἀναστήσουσι καὶ ἐξομολογήσονταί σοι; Μὴ διηγήσεταί τις ἐν τῷ τάφῳ τὸ ἔλεός σου καὶ τὴν ἀλήθειάν σου ἐν τῇ ἀπωλείᾳ; Μὴ γνωσθήσεται ἐν τῷ σκότει τὰ θαυμάσιά σου καὶ ἡ δικαιοσύνη σου ἐν γῇ ἐπιλελησμένῃ; Κἀγὼ πρὸς σέ, Κύριε, ἐκέκραξα, καὶ τὸ πρωῒ ἡ προσευχή μου προφθάσει σε. Ἵνα τί, Κύριε, ἀπωθεῖς τὴν ψυχήν μου, ἀποστρέφεις τὸ πρόσωπόν σου ἀπʼ ἐμοῦ; Πτωχός εἰμι ἐγὼ καὶ ἐν κόποις ἐκ νεότητός μου, ὑψωθεὶς δὲ ἐταπεινώθην καὶ ἐξηπορήθην. Ἐπʼ ἐμὲ διῆλθον αἱ ὀργαί σου, οἱ φοβερισμοί σου ἐξετάραξάν με, ἐκύκλωσάν με ὡσεὶ ὕδωρ ὅλην τὴν ἡμέραν, περιέσχον με ἅμα. Ἐμάκρυνας ἀπʼ ἐμοῦ φίλον καὶ πλησίον, καὶ τοὺς γνωστούς μου ἀπὸ ταλαιπωρίας.",
+          "english": "O Lord God of my salvation, I cry day and night before You. Let my prayer come before You; incline Your ear to my supplication, O Lord. For my soul is filled with sorrows, and my soul draws near to Hades; I am counted among those who go down into the pit; I am like a helpless man, free among the dead, like slain men thrown down and sleeping in a grave, whom You remember no more, but they are removed from Your hand. They laid me in the lowest pit, in dark places and in the shadow of death. Your wrath rested upon me, and You brought all Your billows over me. You removed my acquaintances far from me; they made me an abomination among themselves; I was betrayed, and did not go forth. My eyes weakened from poverty; O Lord, I cry to You the whole day long; I spread out my hands to You. Will You work wonders for the dead? Or will physicians raise them up, and acknowledge You? Shall anyone in the grave describe Your mercy and Your truth in destruction? Shall Your wonders be known in darkness, and Your righteousness in a forgotten land? But I cry to You, O Lord, and in the morning my prayer shall come near to You. Why, O Lord, do You reject my soul, and turn away Your face from me? I am poor and in troubles from my youth; but having been exalted, I was humbled and brought into despair. Your fierce anger passed over me, and Your terrors greatly troubled me; they compassed me like water all the day long; they surrounded me at once. You removed far from me neighbor and friend, and my acquaintances because of my misery."
+        },
+        {
+          "unit_id": "matins:u0058",
+          "index": 58,
+          "section_id": "matins:s007",
+          "section_title": "Psalm 102 (103)",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.651,
+          "language": "en",
+          "greek": "Εὐλόγει, ἡ ψυχή μου, τὸν Κύριον, καί, πάντα τὰ ἐντός μου, τὸ ὄνομα τὸ ἅγιον αὐτοῦ. Εὐλόγει, ἡ ψυχή μου, τὸν Κύριον, καὶ μὴ ἐπιλανθάνου πάσας τὰς ἀνταποδόσεις αὐτοῦ. Τὸν εὐιλατεύοντα πάσας τὰς ἀνομίας σου, τὸν ἰώμενον πάσας τὰς νόσους σου. Τὸν λυτρούμενον ἐκ φθορᾶς τὴν ζωήν σου, τὸν στεφανοῦντά σε ἐν ἐλέει καὶ οἰκτιρμοῖς. Τὸν ἐμπιπλῶντα ἐν ἀγαθοῖς τὴν ἐπιθυμίαν σου, ἀνακαινισθήσεται ὡς ἀετοῦ ἡ νεότης σου. Ποιῶν ἐλεημοσύνας ὁ Κύριος καὶ κρῖμα πᾶσι τοῖς ἀδικουμένοις. Ἐγνώρισε τὰς ὁδοὺς αὐτοῦ τῷ Μωϋσῇ, τοῖς υἱοῖς Ἰσραὴλ τὰ θελήματα αὐτοῦ. Οἰκτίρμων καὶ ἐλεήμων ὁ Κύριος, μακρόθυμος καὶ πολυέλεος· οὐκ εἰς τέλος ὀργισθήσεται, οὐδὲ εἰς τὸν αἰῶνα μηνιεῖ. Οὐ κατὰ τὰς ἀνομίας ἡμῶν ἐποίησεν ἡμῖν, οὐδὲ κατὰ τὰς ἁμαρτίας ἡμῶν ἀνταπέδωκεν ἡμῖν, ὅτι κατὰ τὸ ὕψος τοῦ οὐρανοῦ ἀπὸ τῆς γῆς ἐκραταίωσε Κύριος τὸ ἔλεος αὐτοῦ ἐπὶ τοὺς φοβουμένους αὐτόν. Καθʼ ὅσον ἀπέχουσιν ἀνατολαὶ ἀπὸ δυσμῶν, ἐμάκρυνεν ἀφʼ ἡμῶν τὰς ἀνομίας ἡμῶν. Καθὼς οἰκτείρει πατὴρ υἱούς, ᾠκτείρησε Κύριος τοὺς φοβουμένους αὐτόν, ὅτι αὐτὸς ἔγνω τὸ πλάσμα ἡμῶν, ἐμνήσθη ὅτι χοῦς ἐσμεν. Ἄνθρωπος, ὡσεὶ χόρτος αἱ ἡμέραι αὐτοῦ· ὡσεὶ ἄνθος τοῦ ἀγροῦ, οὕτως ἐξανθήσει. Ὅτι πνεῦμα διῆλθεν ἐν αὐτῷ, καὶ οὐχ ὑπάρξει, καὶ οὐκ ἐπιγνώσεται ἔτι τὸν τόπον αὐτοῦ. Τὸ δὲ ἔλεος τοῦ Κυρίου ἀπὸ τοῦ αἰῶνος καὶ ἕως τοῦ αἰῶνος ἐπὶ τοὺς φοβουμένους αὐτόν, καὶ ἡ δικαιοσύνη αὐτοῦ ἐπὶ υἱοῖς υἱῶν, τοῖς φυλάσσουσι τὴν διαθήκην αὐτοῦ καὶ μεμνημένοις τῶν ἐντολῶν αὐτοῦ τοῦ ποιῆσαι αὐτάς. Κύριος ἐν τῷ οὐρανῷ ἡτοίμασε τὸν θρόνον αὐτοῦ, καὶ ἡ βασιλεία αὐτοῦ πάντων δεσπόζει. Εὐλογεῖτε τὸν Κύριον, πάντες οἱ Ἄγγελοι αὐτοῦ, δυνατοὶ ἰσχύϊ, ποιοῦντες τὸν λόγον αὐτοῦ, τοῦ ἀκοῦσαι τῆς φωνῆς τῶν λόγων αὐτοῦ. Εὐλογεῖτε τὸν Κύριον, πᾶσαι αἱ Δυνάμεις αὐτοῦ, λειτουργοὶ αὐτοῦ, ποιοῦντες τὸ θέλημα αὐτοῦ. Εὐλογεῖτε τὸν Κύριον, πάντα τὰ ἔργα αὐτοῦ, ἐν παντὶ τόπῳ τῆς δεσποτείας αὐτοῦ· εὐλόγει, ἡ ψυχή μου, τὸν Κύριον.",
+          "english": "Bless the Lord, O my soul, and everything within me, bless His holy name. Bless the Lord, O my soul, and forget not all His rewards: who is merciful to all your transgressions, who heals all your diseases, who redeems your life from corruption, who crowns you with mercy and compassion, who satisfies your desire with good things; and your youth is renewed like the eagle’s. The Lord shows mercies and judgment to all who are wronged. He made known His ways to Moses, the things He willed to the sons of Israel. The Lord is compassionate and merciful, slow to anger, and abounding in mercy. He will not become angry to the end, nor will He be wrathful forever; He did not deal with us according to our sins, nor reward us according to our transgressions; for according to the height of heaven from earth, so the Lord reigns in mercy over those who fear Him; as far as the east is from the west, so He removes our transgressions from us. As a father has compassion on his children, so the Lord has compassion on those who fear Him, for He knows how He formed us; He remembers we are dust. As for man, his days are like grass, as a flower of the field, so he flourishes; for the wind passes through it, and it shall not remain; and it shall no longer know its place. But the mercy of the Lord is from age to age upon those who fear Him, and His righteousness upon children’s children, to such as keep His covenant and remember His commandments, to do them. The Lord prepared His throne in heaven, and His Kingdom rules over all. Bless the Lord, all you His angels, mighty in strength, who do His word, so as to hear the voice of His words. Bless the Lord, all you His hosts, His ministers who do His will; bless the Lord, all His works, in all places of His dominion; bless the Lord, O my soul."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": 1955.58,
+      "end": 1956.98,
+      "text": "ὀἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜ�",
+      "avg_logprob": -0.18087961832682292,
+      "compression_ratio": 11.25,
+      "no_speech_prob": 0.07554909586906433,
+      "words": [
+        {
+          "word": " ὀἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜἜ�",
+          "start": 1955.58,
+          "end": 1956.98,
+          "probability": 0.89794921875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "la",
+      "lexical_match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.1842,
+        "status": "unknown",
+        "method": "lexical",
+        "reason": "No sufficiently similar reference text"
+      },
+      "service_context": {
+        "status": "service_reference_available",
+        "service_id": null,
+        "opening_start": null,
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.1842,
+        "status": "unknown",
+        "method": "sequence",
+        "reason": "No sufficiently similar text on the chronological path",
+        "service_id": null,
+        "service_title": null
+      },
+      "sequence_match": {
+        "unit_id": null,
+        "unit_index": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.1842,
+        "status": "unknown",
+        "method": "sequence",
+        "reason": "No sufficiently similar text on the chronological path",
+        "service_id": null,
+        "service_title": null
+      },
+      "sequence": {
+        "version": 4,
+        "block": 0,
+        "max_reverse_units": 3,
+        "path_unit_id": null,
+        "evidence_segment_ids": [],
+        "service_evidence": null,
+        "warnings": [],
+        "heuristic": true,
+        "independently_verified": false
+      },
+      "candidates": [
+        {
+          "unit_id": "matins:u0417",
+          "index": 417,
+          "section_id": "matins:s068",
+          "section_title": "Great Doxology",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.1842,
+          "language": "el",
+          "greek": "Κύριε, καταφυγὴ ἐγενήθης ἡμῖν ἐν γενεᾷ καὶ γενεᾷ. Ἐγὼ εἶπα· Κύριε, ἐλέησόν με, ἴασαι τὴν ψυχήν μου, ὅτι ἥμαρτόν σοι.",
+          "english": "Lord, You have been our refuge from generation to generation. I said: Lord, have mercy on me. Heal my soul, for I have sinned against You."
+        },
+        {
+          "unit_id": "matins:u0199",
+          "index": 199,
+          "section_id": "matins:s020",
+          "section_title": "Idiomelon",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.1764,
+          "language": "el",
+          "greek": "ἱκετεύομέν σε, μόνε πολυέλεε Κύριε, ἐπάκουσον ἡμῶν τῶν ἁμαρτωλῶν δεομένων σου καὶ ἐλέησον ἡμᾶς.",
+          "english": "We beseech you, only merciful Lord, hear us sinners who pray to you and have mercy on us."
+        },
+        {
+          "unit_id": "matins:u0124",
+          "index": 124,
+          "section_id": "matins:s012",
+          "section_title": "Kathisma II",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.1704,
+          "language": "el",
+          "greek": "Ἐκ τῆς ῥίζης Ἰεσσαί, καὶ ἐξ ὀσφύος τοῦ Δαυΐδ, ἡ θεόπαις Μαριάμ, τίκτεται σήμερον ἡμῖν, καὶ νεουργεῖται ἡ σύμπασα καὶ θεουργεῖται. Συγχάρητε ὁμοῦ, ὁ οὐρανὸς καὶ ἡ γῆ· αἰνέσατε αὐτήν, αἱ πατριαὶ τῶν ἐθνῶν. Ἰωακεὶμ εὐφραίνεται, καὶ Ἄννα πανηγυρίζει κραυγάζουσα· Ἡ στεῖρα τίκτει, τὴν Θεοτόκον, καὶ τροφόν τῆς ζωῆς ἡμῶν.",
+          "english": "Unto us is born today Mary the Mother of God, * as the branch from Jesse’s root, and as the fruit of David’s loins; * and all creation is renovated and deified. * O heaven and the earth, rejoice in unison. * All nations and ethnicities, sing praises to her. * Joachim is rejoicing, and Anna is celebrating crying out, * “The Theotokos, who is the nurturer * of our Life is born of the barren one.”"
+        },
+        {
+          "unit_id": "matins:u0126",
+          "index": 126,
+          "section_id": "matins:s012",
+          "section_title": "Kathisma II",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.1704,
+          "language": "el",
+          "greek": "Ἐκ τῆς ῥίζης Ἰεσσαί, καὶ ἐξ ὀσφύος τοῦ Δαυΐδ, ἡ θεόπαις Μαριάμ, τίκτεται σήμερον ἡμῖν, καὶ νεουργεῖται ἡ σύμπασα καὶ θεουργεῖται. Συγχάρητε ὁμοῦ, ὁ οὐρανὸς καὶ ἡ γῆ· αἰνέσατε αὐτήν, αἱ πατριαὶ τῶν ἐθνῶν. Ἰωακεὶμ εὐφραίνεται, καὶ Ἄννα πανηγυρίζει κραυγάζουσα· Ἡ στεῖρα τίκτει, τὴν Θεοτόκον, καὶ τροφόν τῆς ζωῆς ἡμῶν.",
+          "english": "Unto us is born today Mary the Mother of God, * as the branch from Jesse’s root, and as the fruit of David’s loins; * and all creation is renovated and deified. * O heaven and the earth, rejoice in unison. * All nations and ethnicities, sing praises to her. * Joachim is rejoicing, and Anna is celebrating crying out, * “The Theotokos, who is the nurturer * of our Life is born of the barren one.”"
+        },
+        {
+          "unit_id": "matins:u0297",
+          "index": 297,
+          "section_id": "matins:s047",
+          "section_title": "Oikos",
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "score": 0.168,
+          "language": "el",
+          "greek": "Ἡ προσευχὴ ὁμοῦ καὶ στεναγμός, τῆς στειρώσεως καὶ ἀτεκνώσεως Ἰωακείμ τε καὶ Ἄννης, εὐπρόσδεκτος, καὶ εἰς τὰ ὦτα Κυρίου ἐλήλυθε, καὶ ἐβλάστησαν καρπὸν ζωηφόρον τῷ κόσμῳ· ὁ μὲν γὰρ προσευχὴν ἐν τῷ ὄρει ἐτέλει, ἡ δὲ ἐν παραδείσῳ ὄνειδος φέρει· ἀλλὰ μετὰ χαρᾶς, ἡ στεῖρα τίκτει τὴν Θεοτόκον, καὶ τροφὸν τῆς ζωῆς ἡμῶν.",
+          "english": "Childless Joachim’s prayer, and infertile Anna’s sigh, reached the ears of the Lord, by whom they were well received. Then, that pair produced a fruit that would bring forth life to the world. For he, on the mountain, had prayed his request, while she, in the garden, had borne the reproach. Then, with joy, the barren one bears the Theotokos, the nurturer of our Life."
+        },
+        {
+          "unit_id": "liturgy:u0128",
+          "index": 609,
+          "section_id": "liturgy:s011",
+          "section_title": "The Holy Gospel",
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "score": 0.1625,
+          "language": "el",
+          "greek": "Τῷ καιρῷ ἐκείνῳ, εἰσῆλθεν ὁ Ἰησοῦς εἰς κώμην τινά. γυνὴ δέ τις ὀνόματι Μάρθα ὑπεδέξατο αὐτὸν εἰς τὸν οἶκον αὐτῆς. καὶ τῇδε ἦν ἀδελφὴ καλουμένη Μαρία, ἣ καὶ παρακαθίσασα παρὰ τοὺς πόδας τοῦ Ἰησοῦ ἤκουε τὸν λόγον αὐτοῦ. ἡ δὲ Μάρθα περιεσπᾶτο περὶ πολλὴν διακονίαν· ἐπιστᾶσα δὲ εἶπε· Κύριε, οὐ μέλει σοι ὅτι ἡ ἀδελφή μου μόνην με κατέλιπε διακονεῖν; εἰπὲ οὖν αὐτῇ ἵνα μοι συναντιλάβηται. ἀποκριθεὶς δὲ εἶπεν αὐτῇ ὁ Ἰησοῦς· Μάρθα Μάρθα, μεριμνᾷς καὶ τυρβάζῃ περὶ πολλά· ἑνὸς δέ ἐστι χρεία· Μαρία δὲ τὴν ἀγαθὴν μερίδα ἐξελέξατο, ἥτις οὐκ ἀφαιρεθήσεται ἀπ’ αὐτῆς. Ἐγένετο δὲ ἐν τῷ λέγειν αὐτὸν ταῦτα ἐπάρασά τις γυνὴ φωνὴν ἐκ τοῦ ὄχλου εἶπεν αὐτῷ· μακαρία ἡ κοιλία ἡ βαστάσασά σε καὶ μαστοὶ οὓς ἐθήλασας. αὐτὸς δὲ εἶπε· μενοῦνγε μακάριοι οἱ ἀκούοντες τὸν λόγον τοῦ Θεοῦ καὶ φυλάσσοντες αὐτόν.",
+          "english": "At that time, Jesus entered a village; and a woman called Martha received him into her house. And she had a sister called Mary, who sat at the Lord’s feet and listened to his teaching. But Martha was distracted with much serving; and she went to him and said, “Lord, do you not care that my sister has left me to serve you alone? Tell her then to help me.” But the Lord answered her, “Martha, Martha, you are anxious and troubled about many things; one thing is needful. Mary has chosen the good portion, which shall not be taken away from her.” As he said this, a woman in the crowd raised her voice and said to him, “Blessed is the womb that bore you, and the breasts that nursed you!” But he said, “Blessed rather are those who hear the word of God and keep it!”"
+        }
+      ]
+    }
+  ],
+  "recording_id": "MIxJvLfaynY",
+  "reference_id": "ref-e5432ce2789f102a2c0b",
+  "source_asr_file": "small-auto-pilot.json",
+  "source_asr_sha256": "9e929206d87fdb06bef38d8e8617e2089d56a696444fe50ac97fa02b650ec008",
+  "alignment": {
+    "method": "sequence",
+    "version": 4,
+    "explicit_clip_boundaries": true,
+    "reference_path": "data/reference-MIxJvLfaynY.json"
+  }
+}

@@ -1,0 +1,1376 @@
+{
+  "model": "mlx-community/whisper-small-mlx",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 5220,
+  "end": 5310.0,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 5220.0,
+      "end": 5234.1,
+      "text": "I close, and let each one be my past.",
+      "temperature": 0.0,
+      "avg_logprob": -0.5054245964955475,
+      "compression_ratio": 1.3028169014084507,
+      "no_speech_prob": 0.4990328848361969,
+      "words": [
+        {
+          "word": " I",
+          "start": 5220.0,
+          "end": 5220.46,
+          "probability": 0.00182342529296875
+        },
+        {
+          "word": " close,",
+          "start": 5220.46,
+          "end": 5221.46,
+          "probability": 0.057342529296875
+        },
+        {
+          "word": " and",
+          "start": 5222.6,
+          "end": 5223.14,
+          "probability": 0.75146484375
+        },
+        {
+          "word": " let",
+          "start": 5223.14,
+          "end": 5224.28,
+          "probability": 0.65185546875
+        },
+        {
+          "word": " each",
+          "start": 5224.28,
+          "end": 5225.74,
+          "probability": 0.37255859375
+        },
+        {
+          "word": " one",
+          "start": 5225.74,
+          "end": 5226.68,
+          "probability": 0.83935546875
+        },
+        {
+          "word": " be",
+          "start": 5226.68,
+          "end": 5228.26,
+          "probability": 0.32861328125
+        },
+        {
+          "word": " my",
+          "start": 5228.26,
+          "end": 5229.66,
+          "probability": 0.326416015625
+        },
+        {
+          "word": " past.",
+          "start": 5229.66,
+          "end": 5234.1,
+          "probability": 0.09259033203125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5234.88,
+      "end": 5236.74,
+      "text": "Let us be attentive.",
+      "temperature": 0.0,
+      "avg_logprob": -0.5054245964955475,
+      "compression_ratio": 1.3028169014084507,
+      "no_speech_prob": 0.4990328848361969,
+      "words": [
+        {
+          "word": " Let",
+          "start": 5234.88,
+          "end": 5235.48,
+          "probability": 0.53271484375
+        },
+        {
+          "word": " us",
+          "start": 5235.48,
+          "end": 5235.76,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " be",
+          "start": 5235.76,
+          "end": 5236.06,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " attentive.",
+          "start": 5236.06,
+          "end": 5236.74,
+          "probability": 0.958984375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5238.06,
+      "end": 5242.12,
+      "text": "My soul magnifies the Lord, and my spirit rejoices in God,",
+      "temperature": 0.0,
+      "avg_logprob": -0.5054245964955475,
+      "compression_ratio": 1.3028169014084507,
+      "no_speech_prob": 0.4990328848361969,
+      "words": [
+        {
+          "word": " My",
+          "start": 5238.06,
+          "end": 5238.28,
+          "probability": 0.89111328125
+        },
+        {
+          "word": " soul",
+          "start": 5238.28,
+          "end": 5238.58,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " magnifies",
+          "start": 5238.58,
+          "end": 5239.2,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " the",
+          "start": 5239.2,
+          "end": 5239.62,
+          "probability": 0.96044921875
+        },
+        {
+          "word": " Lord,",
+          "start": 5239.62,
+          "end": 5239.88,
+          "probability": 0.96044921875
+        },
+        {
+          "word": " and",
+          "start": 5239.94,
+          "end": 5240.06,
+          "probability": 0.978515625
+        },
+        {
+          "word": " my",
+          "start": 5240.06,
+          "end": 5240.22,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " spirit",
+          "start": 5240.22,
+          "end": 5240.64,
+          "probability": 0.87548828125
+        },
+        {
+          "word": " rejoices",
+          "start": 5240.64,
+          "end": 5241.5,
+          "probability": 0.994140625
+        },
+        {
+          "word": " in",
+          "start": 5241.5,
+          "end": 5241.88,
+          "probability": 0.95068359375
+        },
+        {
+          "word": " God,",
+          "start": 5241.88,
+          "end": 5242.12,
+          "probability": 0.99560546875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 5242.28,
+      "end": 5246.92,
+      "text": "my Savior, for He has regarded the humility of the servant.",
+      "temperature": 0.0,
+      "avg_logprob": -0.5054245964955475,
+      "compression_ratio": 1.3028169014084507,
+      "no_speech_prob": 0.4990328848361969,
+      "words": [
+        {
+          "word": " my",
+          "start": 5242.28,
+          "end": 5242.4,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " Savior,",
+          "start": 5242.4,
+          "end": 5243.0,
+          "probability": 0.6142578125
+        },
+        {
+          "word": " for",
+          "start": 5243.58,
+          "end": 5243.68,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " He",
+          "start": 5243.68,
+          "end": 5243.9,
+          "probability": 0.56103515625
+        },
+        {
+          "word": " has",
+          "start": 5243.9,
+          "end": 5244.16,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " regarded",
+          "start": 5244.16,
+          "end": 5244.84,
+          "probability": 0.98583984375
+        },
+        {
+          "word": " the",
+          "start": 5244.84,
+          "end": 5245.1,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " humility",
+          "start": 5245.1,
+          "end": 5245.56,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " of",
+          "start": 5245.56,
+          "end": 5246.12,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " the",
+          "start": 5246.12,
+          "end": 5246.34,
+          "probability": 0.3349609375
+        },
+        {
+          "word": " servant.",
+          "start": 5246.34,
+          "end": 5246.92,
+          "probability": 0.92138671875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 5247.54,
+      "end": 5248.54,
+      "text": "Wisdom.",
+      "temperature": 0.0,
+      "avg_logprob": -0.5054245964955475,
+      "compression_ratio": 1.3028169014084507,
+      "no_speech_prob": 0.4990328848361969,
+      "words": [
+        {
+          "word": " Wisdom.",
+          "start": 5247.54,
+          "end": 5248.54,
+          "probability": 0.9560546875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 5,
+      "seek": 2854,
+      "start": 5248.54,
+      "end": 5249.98,
+      "text": "The reading is...",
+      "temperature": 0.0,
+      "avg_logprob": -0.7704767499651227,
+      "compression_ratio": 0.68,
+      "no_speech_prob": 0.42959633469581604,
+      "words": [
+        {
+          "word": " The",
+          "start": 5248.54,
+          "end": 5249.4,
+          "probability": 0.32763671875
+        },
+        {
+          "word": " reading",
+          "start": 5249.4,
+          "end": 5249.66,
+          "probability": 0.97265625
+        },
+        {
+          "word": " is...",
+          "start": 5249.66,
+          "end": 5249.98,
+          "probability": 0.59765625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 5250.0,
+      "end": 5256.3,
+      "text": "from St. Paul's letter to the Philippians.",
+      "temperature": 0.0,
+      "avg_logprob": -0.22880513617332945,
+      "compression_ratio": 1.4813084112149533,
+      "no_speech_prob": 0.4023972451686859,
+      "words": [
+        {
+          "word": " from",
+          "start": 5250.0,
+          "end": 5250.14,
+          "probability": 0.1285400390625
+        },
+        {
+          "word": " St.",
+          "start": 5250.14,
+          "end": 5250.4,
+          "probability": 0.57958984375
+        },
+        {
+          "word": " Paul's",
+          "start": 5250.56,
+          "end": 5251.06,
+          "probability": 0.9794921875
+        },
+        {
+          "word": " letter",
+          "start": 5251.06,
+          "end": 5252.08,
+          "probability": 0.8447265625
+        },
+        {
+          "word": " to",
+          "start": 5252.08,
+          "end": 5253.34,
+          "probability": 0.8857421875
+        },
+        {
+          "word": " the",
+          "start": 5253.34,
+          "end": 5253.5,
+          "probability": 0.96875
+        },
+        {
+          "word": " Philippians.",
+          "start": 5253.5,
+          "end": 5256.3,
+          "probability": 0.935546875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 5256.4,
+      "end": 5258.12,
+      "text": "Let us be attentive.",
+      "temperature": 0.0,
+      "avg_logprob": -0.22880513617332945,
+      "compression_ratio": 1.4813084112149533,
+      "no_speech_prob": 0.4023972451686859,
+      "words": [
+        {
+          "word": " Let",
+          "start": 5256.4,
+          "end": 5256.8,
+          "probability": 0.057403564453125
+        },
+        {
+          "word": " us",
+          "start": 5256.8,
+          "end": 5257.2,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " be",
+          "start": 5257.2,
+          "end": 5257.46,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " attentive.",
+          "start": 5257.46,
+          "end": 5258.12,
+          "probability": 0.94287109375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 5259.5,
+      "end": 5261.96,
+      "text": "Brethren, have this mind among yourselves,",
+      "temperature": 0.0,
+      "avg_logprob": -0.22880513617332945,
+      "compression_ratio": 1.4813084112149533,
+      "no_speech_prob": 0.4023972451686859,
+      "words": [
+        {
+          "word": " Brethren,",
+          "start": 5259.5,
+          "end": 5260.04,
+          "probability": 0.69677734375
+        },
+        {
+          "word": " have",
+          "start": 5260.38,
+          "end": 5260.52,
+          "probability": 0.98486328125
+        },
+        {
+          "word": " this",
+          "start": 5260.52,
+          "end": 5260.8,
+          "probability": 0.99609375
+        },
+        {
+          "word": " mind",
+          "start": 5260.8,
+          "end": 5261.14,
+          "probability": 0.982421875
+        },
+        {
+          "word": " among",
+          "start": 5261.14,
+          "end": 5261.36,
+          "probability": 0.97900390625
+        },
+        {
+          "word": " yourselves,",
+          "start": 5261.36,
+          "end": 5261.96,
+          "probability": 0.99560546875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 5262.66,
+      "end": 5264.56,
+      "text": "which is yours in Jesus Christ,",
+      "temperature": 0.0,
+      "avg_logprob": -0.22880513617332945,
+      "compression_ratio": 1.4813084112149533,
+      "no_speech_prob": 0.4023972451686859,
+      "words": [
+        {
+          "word": " which",
+          "start": 5262.66,
+          "end": 5262.92,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " is",
+          "start": 5262.92,
+          "end": 5263.08,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " yours",
+          "start": 5263.08,
+          "end": 5263.42,
+          "probability": 0.9697265625
+        },
+        {
+          "word": " in",
+          "start": 5263.42,
+          "end": 5263.68,
+          "probability": 0.96533203125
+        },
+        {
+          "word": " Jesus",
+          "start": 5263.68,
+          "end": 5264.04,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " Christ,",
+          "start": 5264.04,
+          "end": 5264.56,
+          "probability": 0.99609375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 10,
+      "seek": 0,
+      "start": 5265.32,
+      "end": 5267.08,
+      "text": "who though he was in the form of God,",
+      "temperature": 0.0,
+      "avg_logprob": -0.22880513617332945,
+      "compression_ratio": 1.4813084112149533,
+      "no_speech_prob": 0.4023972451686859,
+      "words": [
+        {
+          "word": " who",
+          "start": 5265.32,
+          "end": 5265.52,
+          "probability": 0.93212890625
+        },
+        {
+          "word": " though",
+          "start": 5265.52,
+          "end": 5265.72,
+          "probability": 0.7392578125
+        },
+        {
+          "word": " he",
+          "start": 5265.72,
+          "end": 5265.96,
+          "probability": 0.83349609375
+        },
+        {
+          "word": " was",
+          "start": 5265.96,
+          "end": 5266.1,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " in",
+          "start": 5266.1,
+          "end": 5266.24,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " the",
+          "start": 5266.24,
+          "end": 5266.34,
+          "probability": 0.99609375
+        },
+        {
+          "word": " form",
+          "start": 5266.34,
+          "end": 5266.6,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " of",
+          "start": 5266.6,
+          "end": 5266.76,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " God,",
+          "start": 5266.76,
+          "end": 5267.08,
+          "probability": 0.99560546875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 11,
+      "seek": 0,
+      "start": 5267.6,
+      "end": 5270.9,
+      "text": "did not count equality with God a thing to be grasped,",
+      "temperature": 0.0,
+      "avg_logprob": -0.22880513617332945,
+      "compression_ratio": 1.4813084112149533,
+      "no_speech_prob": 0.4023972451686859,
+      "words": [
+        {
+          "word": " did",
+          "start": 5267.6,
+          "end": 5267.8,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " not",
+          "start": 5267.8,
+          "end": 5267.98,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " count",
+          "start": 5267.98,
+          "end": 5268.36,
+          "probability": 0.9921875
+        },
+        {
+          "word": " equality",
+          "start": 5268.36,
+          "end": 5268.98,
+          "probability": 0.9384765625
+        },
+        {
+          "word": " with",
+          "start": 5268.98,
+          "end": 5269.26,
+          "probability": 0.99609375
+        },
+        {
+          "word": " God",
+          "start": 5269.26,
+          "end": 5269.62,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " a",
+          "start": 5269.62,
+          "end": 5269.88,
+          "probability": 0.767578125
+        },
+        {
+          "word": " thing",
+          "start": 5269.88,
+          "end": 5270.02,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " to",
+          "start": 5270.02,
+          "end": 5270.18,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " be",
+          "start": 5270.18,
+          "end": 5270.3,
+          "probability": 0.994140625
+        },
+        {
+          "word": " grasped,",
+          "start": 5270.3,
+          "end": 5270.9,
+          "probability": 0.9990234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 12,
+      "seek": 0,
+      "start": 5271.26,
+      "end": 5274.4,
+      "text": "but emptied himself, taking the form of a servant,",
+      "temperature": 0.0,
+      "avg_logprob": -0.22880513617332945,
+      "compression_ratio": 1.4813084112149533,
+      "no_speech_prob": 0.4023972451686859,
+      "words": [
+        {
+          "word": " but",
+          "start": 5271.26,
+          "end": 5271.46,
+          "probability": 0.998046875
+        },
+        {
+          "word": " emptied",
+          "start": 5271.46,
+          "end": 5271.86,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " himself,",
+          "start": 5271.86,
+          "end": 5272.34,
+          "probability": 0.955078125
+        },
+        {
+          "word": " taking",
+          "start": 5273.02,
+          "end": 5273.26,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " the",
+          "start": 5273.26,
+          "end": 5273.48,
+          "probability": 0.99609375
+        },
+        {
+          "word": " form",
+          "start": 5273.48,
+          "end": 5273.78,
+          "probability": 0.998046875
+        },
+        {
+          "word": " of",
+          "start": 5273.78,
+          "end": 5273.94,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " a",
+          "start": 5273.94,
+          "end": 5274.06,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " servant,",
+          "start": 5274.06,
+          "end": 5274.4,
+          "probability": 0.9921875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 13,
+      "seek": 0,
+      "start": 5275.1,
+      "end": 5276.94,
+      "text": "being born in the likeness of men,",
+      "temperature": 0.0,
+      "avg_logprob": -0.22880513617332945,
+      "compression_ratio": 1.4813084112149533,
+      "no_speech_prob": 0.4023972451686859,
+      "words": [
+        {
+          "word": " being",
+          "start": 5275.1,
+          "end": 5275.34,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " born",
+          "start": 5275.34,
+          "end": 5275.7,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " in",
+          "start": 5275.7,
+          "end": 5275.86,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " the",
+          "start": 5275.86,
+          "end": 5275.98,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " likeness",
+          "start": 5275.98,
+          "end": 5276.46,
+          "probability": 0.9716796875
+        },
+        {
+          "word": " of",
+          "start": 5276.46,
+          "end": 5276.7,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " men,",
+          "start": 5276.7,
+          "end": 5276.94,
+          "probability": 0.96044921875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 14,
+      "seek": 2694,
+      "start": 5276.94,
+      "end": 5279.5,
+      "text": "and being found in human form.",
+      "temperature": 0.0,
+      "avg_logprob": -0.6019578456878663,
+      "compression_ratio": 0.8571428571428571,
+      "no_speech_prob": 0.4224153161048889,
+      "words": [
+        {
+          "word": " and",
+          "start": 5276.94,
+          "end": 5277.9,
+          "probability": 0.3447265625
+        },
+        {
+          "word": " being",
+          "start": 5277.9,
+          "end": 5278.1,
+          "probability": 0.9560546875
+        },
+        {
+          "word": " found",
+          "start": 5278.1,
+          "end": 5278.52,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " in",
+          "start": 5278.52,
+          "end": 5278.74,
+          "probability": 0.984375
+        },
+        {
+          "word": " human",
+          "start": 5278.74,
+          "end": 5279.02,
+          "probability": 0.96826171875
+        },
+        {
+          "word": " form.",
+          "start": 5279.02,
+          "end": 5279.5,
+          "probability": 0.9833984375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 15,
+      "seek": 0,
+      "start": 5280.0,
+      "end": 5284.76,
+      "text": "himself and became obedient unto death, even death on a cross.",
+      "temperature": 0.0,
+      "avg_logprob": -0.2260129111153739,
+      "compression_ratio": 1.5572916666666667,
+      "no_speech_prob": 0.42798447608947754,
+      "words": [
+        {
+          "word": " himself",
+          "start": 5280.0,
+          "end": 5280.5,
+          "probability": 0.44677734375
+        },
+        {
+          "word": " and",
+          "start": 5280.5,
+          "end": 5281.24,
+          "probability": 0.89111328125
+        },
+        {
+          "word": " became",
+          "start": 5281.24,
+          "end": 5281.52,
+          "probability": 0.984375
+        },
+        {
+          "word": " obedient",
+          "start": 5281.52,
+          "end": 5282.02,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " unto",
+          "start": 5282.02,
+          "end": 5282.46,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " death,",
+          "start": 5282.46,
+          "end": 5282.88,
+          "probability": 0.98291015625
+        },
+        {
+          "word": " even",
+          "start": 5283.46,
+          "end": 5283.76,
+          "probability": 0.990234375
+        },
+        {
+          "word": " death",
+          "start": 5283.76,
+          "end": 5284.2,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " on",
+          "start": 5284.2,
+          "end": 5284.4,
+          "probability": 0.9697265625
+        },
+        {
+          "word": " a",
+          "start": 5284.4,
+          "end": 5284.58,
+          "probability": 0.8359375
+        },
+        {
+          "word": " cross.",
+          "start": 5284.58,
+          "end": 5284.76,
+          "probability": 0.998046875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 16,
+      "seek": 0,
+      "start": 5285.84,
+      "end": 5289.86,
+      "text": "Therefore God has highly exalted him and bestowed on him",
+      "temperature": 0.0,
+      "avg_logprob": -0.2260129111153739,
+      "compression_ratio": 1.5572916666666667,
+      "no_speech_prob": 0.42798447608947754,
+      "words": [
+        {
+          "word": " Therefore",
+          "start": 5285.84,
+          "end": 5286.28,
+          "probability": 0.92041015625
+        },
+        {
+          "word": " God",
+          "start": 5286.28,
+          "end": 5286.64,
+          "probability": 0.50390625
+        },
+        {
+          "word": " has",
+          "start": 5286.64,
+          "end": 5286.92,
+          "probability": 0.94140625
+        },
+        {
+          "word": " highly",
+          "start": 5286.92,
+          "end": 5287.32,
+          "probability": 0.99609375
+        },
+        {
+          "word": " exalted",
+          "start": 5287.32,
+          "end": 5287.84,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " him",
+          "start": 5287.84,
+          "end": 5288.16,
+          "probability": 0.97509765625
+        },
+        {
+          "word": " and",
+          "start": 5288.16,
+          "end": 5288.76,
+          "probability": 0.79736328125
+        },
+        {
+          "word": " bestowed",
+          "start": 5288.76,
+          "end": 5289.32,
+          "probability": 0.99609375
+        },
+        {
+          "word": " on",
+          "start": 5289.32,
+          "end": 5289.64,
+          "probability": 0.970703125
+        },
+        {
+          "word": " him",
+          "start": 5289.64,
+          "end": 5289.86,
+          "probability": 0.9951171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 17,
+      "seek": 0,
+      "start": 5289.86,
+      "end": 5291.76,
+      "text": "the name which is above every name,",
+      "temperature": 0.0,
+      "avg_logprob": -0.2260129111153739,
+      "compression_ratio": 1.5572916666666667,
+      "no_speech_prob": 0.42798447608947754,
+      "words": [
+        {
+          "word": " the",
+          "start": 5289.86,
+          "end": 5290.12,
+          "probability": 0.982421875
+        },
+        {
+          "word": " name",
+          "start": 5290.12,
+          "end": 5290.42,
+          "probability": 0.9482421875
+        },
+        {
+          "word": " which",
+          "start": 5290.42,
+          "end": 5290.62,
+          "probability": 0.9560546875
+        },
+        {
+          "word": " is",
+          "start": 5290.62,
+          "end": 5290.76,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " above",
+          "start": 5290.76,
+          "end": 5291.06,
+          "probability": 0.994140625
+        },
+        {
+          "word": " every",
+          "start": 5291.06,
+          "end": 5291.48,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " name,",
+          "start": 5291.48,
+          "end": 5291.76,
+          "probability": 0.99365234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 18,
+      "seek": 0,
+      "start": 5292.58,
+      "end": 5296.64,
+      "text": "that at the name of Jesus every knee should bow in heaven",
+      "temperature": 0.0,
+      "avg_logprob": -0.2260129111153739,
+      "compression_ratio": 1.5572916666666667,
+      "no_speech_prob": 0.42798447608947754,
+      "words": [
+        {
+          "word": " that",
+          "start": 5292.58,
+          "end": 5292.72,
+          "probability": 0.9814453125
+        },
+        {
+          "word": " at",
+          "start": 5292.72,
+          "end": 5292.82,
+          "probability": 0.98095703125
+        },
+        {
+          "word": " the",
+          "start": 5292.82,
+          "end": 5292.92,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " name",
+          "start": 5292.92,
+          "end": 5293.22,
+          "probability": 0.98388671875
+        },
+        {
+          "word": " of",
+          "start": 5293.22,
+          "end": 5293.4,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " Jesus",
+          "start": 5293.4,
+          "end": 5293.72,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " every",
+          "start": 5293.72,
+          "end": 5294.26,
+          "probability": 0.72998046875
+        },
+        {
+          "word": " knee",
+          "start": 5294.26,
+          "end": 5295.06,
+          "probability": 0.791015625
+        },
+        {
+          "word": " should",
+          "start": 5295.06,
+          "end": 5295.28,
+          "probability": 0.9580078125
+        },
+        {
+          "word": " bow",
+          "start": 5295.28,
+          "end": 5295.6,
+          "probability": 0.990234375
+        },
+        {
+          "word": " in",
+          "start": 5295.6,
+          "end": 5296.34,
+          "probability": 0.7041015625
+        },
+        {
+          "word": " heaven",
+          "start": 5296.34,
+          "end": 5296.64,
+          "probability": 0.96826171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 19,
+      "seek": 0,
+      "start": 5296.64,
+      "end": 5298.46,
+      "text": "and on earth and under the earth.",
+      "temperature": 0.0,
+      "avg_logprob": -0.2260129111153739,
+      "compression_ratio": 1.5572916666666667,
+      "no_speech_prob": 0.42798447608947754,
+      "words": [
+        {
+          "word": " and",
+          "start": 5296.64,
+          "end": 5296.98,
+          "probability": 0.9267578125
+        },
+        {
+          "word": " on",
+          "start": 5296.98,
+          "end": 5297.12,
+          "probability": 0.96728515625
+        },
+        {
+          "word": " earth",
+          "start": 5297.12,
+          "end": 5297.38,
+          "probability": 0.96435546875
+        },
+        {
+          "word": " and",
+          "start": 5297.38,
+          "end": 5297.68,
+          "probability": 0.93505859375
+        },
+        {
+          "word": " under",
+          "start": 5297.68,
+          "end": 5298.02,
+          "probability": 0.98974609375
+        },
+        {
+          "word": " the",
+          "start": 5298.02,
+          "end": 5298.2,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " earth.",
+          "start": 5298.2,
+          "end": 5298.46,
+          "probability": 0.98583984375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 20,
+      "seek": 0,
+      "start": 5298.98,
+      "end": 5302.06,
+      "text": "And every tongue confess that Jesus Christ is Lord.",
+      "temperature": 0.0,
+      "avg_logprob": -0.2260129111153739,
+      "compression_ratio": 1.5572916666666667,
+      "no_speech_prob": 0.42798447608947754,
+      "words": [
+        {
+          "word": " And",
+          "start": 5298.98,
+          "end": 5299.22,
+          "probability": 0.927734375
+        },
+        {
+          "word": " every",
+          "start": 5299.22,
+          "end": 5299.44,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " tongue",
+          "start": 5299.44,
+          "end": 5299.76,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " confess",
+          "start": 5299.76,
+          "end": 5300.3,
+          "probability": 0.8603515625
+        },
+        {
+          "word": " that",
+          "start": 5300.3,
+          "end": 5300.7,
+          "probability": 0.88916015625
+        },
+        {
+          "word": " Jesus",
+          "start": 5300.7,
+          "end": 5301.04,
+          "probability": 0.99609375
+        },
+        {
+          "word": " Christ",
+          "start": 5301.04,
+          "end": 5301.48,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " is",
+          "start": 5301.48,
+          "end": 5301.78,
+          "probability": 0.97509765625
+        },
+        {
+          "word": " Lord.",
+          "start": 5301.78,
+          "end": 5302.06,
+          "probability": 0.94677734375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 21,
+      "seek": 2206,
+      "start": 5302.06,
+      "end": 5307.96,
+      "text": "to the glory of God the Father.",
+      "temperature": 0.0,
+      "avg_logprob": -0.557631102475253,
+      "compression_ratio": 0.9117647058823529,
+      "no_speech_prob": 0.34840071201324463,
+      "words": [
+        {
+          "word": " to",
+          "start": 5302.06,
+          "end": 5303.16,
+          "probability": 0.3134765625
+        },
+        {
+          "word": " the",
+          "start": 5303.16,
+          "end": 5303.32,
+          "probability": 0.9775390625
+        },
+        {
+          "word": " glory",
+          "start": 5303.32,
+          "end": 5305.06,
+          "probability": 0.9296875
+        },
+        {
+          "word": " of",
+          "start": 5305.06,
+          "end": 5306.12,
+          "probability": 0.9619140625
+        },
+        {
+          "word": " God",
+          "start": 5306.12,
+          "end": 5306.46,
+          "probability": 0.896484375
+        },
+        {
+          "word": " the",
+          "start": 5306.46,
+          "end": 5306.74,
+          "probability": 0.7509765625
+        },
+        {
+          "word": " Father.",
+          "start": 5306.74,
+          "end": 5307.96,
+          "probability": 0.93505859375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 5220.0,
+      "end": 5250.0,
+      "language": "en",
+      "seconds": 0.6473505001049489
+    },
+    {
+      "start": 5250.0,
+      "end": 5280.0,
+      "language": "en",
+      "seconds": 0.8232321250252426
+    },
+    {
+      "start": 5280.0,
+      "end": 5310.0,
+      "language": "en",
+      "seconds": 0.7573513330426067
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 90.0,
+    "inference_seconds": 2.230975625105202,
+    "decode_seconds": 0.07721866690553725,
+    "real_time_factor": 0.024788618056724467,
+    "speedup": 40.34109516358164,
+    "peak_memory_gb": 1.229558694,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ]
+}

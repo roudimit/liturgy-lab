@@ -1,0 +1,749 @@
+{
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 3600,
+  "end": 3690.0,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 3600.0,
+      "end": 3611.76,
+      "text": "η πηγή της ζωής εκ της τυραστικτέται, η χάρης καρπογόνην λαμπρός απαρχεται.",
+      "temperature": 0.0,
+      "avg_logprob": -0.26492509841918943,
+      "compression_ratio": 1.513157894736842,
+      "no_speech_prob": 1.5945814113571544e-10,
+      "words": [
+        {
+          "word": " η",
+          "start": 3600.0,
+          "end": 3600.92,
+          "probability": 0.06378173828125
+        },
+        {
+          "word": " πηγή",
+          "start": 3600.92,
+          "end": 3601.86,
+          "probability": 0.9765625
+        },
+        {
+          "word": " της",
+          "start": 3601.86,
+          "end": 3602.4,
+          "probability": 0.94970703125
+        },
+        {
+          "word": " ζωής",
+          "start": 3602.4,
+          "end": 3603.3,
+          "probability": 0.9921875
+        },
+        {
+          "word": " εκ",
+          "start": 3603.3,
+          "end": 3604.02,
+          "probability": 0.822265625
+        },
+        {
+          "word": " της",
+          "start": 3604.02,
+          "end": 3604.34,
+          "probability": 0.9609375
+        },
+        {
+          "word": " τυραστικτέται,",
+          "start": 3604.34,
+          "end": 3606.0,
+          "probability": 0.650390625
+        },
+        {
+          "word": " η",
+          "start": 3606.32,
+          "end": 3606.4,
+          "probability": 0.90087890625
+        },
+        {
+          "word": " χάρης",
+          "start": 3606.4,
+          "end": 3607.7,
+          "probability": 0.77685546875
+        },
+        {
+          "word": " καρπογόνην",
+          "start": 3607.7,
+          "end": 3609.14,
+          "probability": 0.85888671875
+        },
+        {
+          "word": " λαμπρός",
+          "start": 3609.14,
+          "end": 3609.96,
+          "probability": 0.9326171875
+        },
+        {
+          "word": " απαρχεται.",
+          "start": 3609.96,
+          "end": 3611.76,
+          "probability": 0.7490234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 3612.82,
+      "end": 3620.84,
+      "text": "Εφραίνου Ιωάκημ της Θεοτόπου γεννήτορ γεννόμενος,",
+      "temperature": 0.0,
+      "avg_logprob": -0.26492509841918943,
+      "compression_ratio": 1.513157894736842,
+      "no_speech_prob": 1.5945814113571544e-10,
+      "words": [
+        {
+          "word": " Εφραίνου",
+          "start": 3612.82,
+          "end": 3614.22,
+          "probability": 0.875
+        },
+        {
+          "word": " Ιωάκημ",
+          "start": 3614.22,
+          "end": 3615.58,
+          "probability": 0.888671875
+        },
+        {
+          "word": " της",
+          "start": 3615.58,
+          "end": 3616.22,
+          "probability": 0.5400390625
+        },
+        {
+          "word": " Θεοτόπου",
+          "start": 3616.22,
+          "end": 3617.66,
+          "probability": 0.92041015625
+        },
+        {
+          "word": " γεννήτορ",
+          "start": 3617.66,
+          "end": 3619.3,
+          "probability": 0.85205078125
+        },
+        {
+          "word": " γεννόμενος,",
+          "start": 3619.3,
+          "end": 3620.84,
+          "probability": 0.89306640625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 2,
+      "seek": 2084,
+      "start": 3620.84,
+      "end": 3629.14,
+      "text": "ουκέ στην άλο ζωσή των γηγενών γεννητόρων θεόληπτε.",
+      "temperature": 0.0,
+      "avg_logprob": -0.42878963008071436,
+      "compression_ratio": 1.1604938271604939,
+      "no_speech_prob": 7.480167873996635e-11,
+      "words": [
+        {
+          "word": " ουκέ",
+          "start": 3620.84,
+          "end": 3621.74,
+          "probability": 0.55615234375
+        },
+        {
+          "word": " στην",
+          "start": 3621.74,
+          "end": 3622.68,
+          "probability": 0.3291015625
+        },
+        {
+          "word": " άλο",
+          "start": 3622.68,
+          "end": 3623.3,
+          "probability": 0.61376953125
+        },
+        {
+          "word": " ζωσή",
+          "start": 3623.3,
+          "end": 3624.14,
+          "probability": 0.7900390625
+        },
+        {
+          "word": " των",
+          "start": 3624.14,
+          "end": 3624.88,
+          "probability": 0.8798828125
+        },
+        {
+          "word": " γηγενών",
+          "start": 3624.88,
+          "end": 3625.96,
+          "probability": 0.83056640625
+        },
+        {
+          "word": " γεννητόρων",
+          "start": 3625.96,
+          "end": 3627.78,
+          "probability": 0.859375
+        },
+        {
+          "word": " θεόληπτε.",
+          "start": 3627.78,
+          "end": 3629.14,
+          "probability": 0.734375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 3645.58,
+      "end": 3651.5,
+      "text": "Praise Him with the sound of trumpet, praise Him with the harp and lyre.",
+      "temperature": 0.0,
+      "avg_logprob": -0.3663171813601539,
+      "compression_ratio": 1.1612903225806452,
+      "no_speech_prob": 1.9924156768880152e-10,
+      "words": [
+        {
+          "word": " Praise",
+          "start": 3645.58,
+          "end": 3646.28,
+          "probability": 0.2724609375
+        },
+        {
+          "word": " Him",
+          "start": 3646.28,
+          "end": 3646.64,
+          "probability": 0.62841796875
+        },
+        {
+          "word": " with",
+          "start": 3646.64,
+          "end": 3646.86,
+          "probability": 0.97607421875
+        },
+        {
+          "word": " the",
+          "start": 3646.86,
+          "end": 3647.06,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " sound",
+          "start": 3647.06,
+          "end": 3647.4,
+          "probability": 0.9794921875
+        },
+        {
+          "word": " of",
+          "start": 3647.4,
+          "end": 3647.66,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " trumpet,",
+          "start": 3647.66,
+          "end": 3648.16,
+          "probability": 0.96484375
+        },
+        {
+          "word": " praise",
+          "start": 3648.46,
+          "end": 3648.92,
+          "probability": 0.8896484375
+        },
+        {
+          "word": " Him",
+          "start": 3648.92,
+          "end": 3649.22,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " with",
+          "start": 3649.22,
+          "end": 3649.64,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " the",
+          "start": 3649.64,
+          "end": 3649.98,
+          "probability": 0.9794921875
+        },
+        {
+          "word": " harp",
+          "start": 3649.98,
+          "end": 3650.54,
+          "probability": 0.986328125
+        },
+        {
+          "word": " and",
+          "start": 3650.54,
+          "end": 3650.8,
+          "probability": 0.998046875
+        },
+        {
+          "word": " lyre.",
+          "start": 3650.8,
+          "end": 3651.5,
+          "probability": 0.99267578125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 4,
+      "seek": 2150,
+      "start": 3651.5,
+      "end": 3659.92,
+      "text": "What a paradoxical miracle that the fountain of life from above.",
+      "temperature": 0.0,
+      "avg_logprob": -0.1990109533071518,
+      "compression_ratio": 0.9696969696969697,
+      "no_speech_prob": 5.0188152245222994e-11,
+      "words": [
+        {
+          "word": " What",
+          "start": 3651.5,
+          "end": 3652.74,
+          "probability": 0.86083984375
+        },
+        {
+          "word": " a",
+          "start": 3652.74,
+          "end": 3653.18,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " paradoxical",
+          "start": 3653.18,
+          "end": 3654.84,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " miracle",
+          "start": 3654.84,
+          "end": 3655.8,
+          "probability": 0.994140625
+        },
+        {
+          "word": " that",
+          "start": 3655.8,
+          "end": 3656.78,
+          "probability": 0.77880859375
+        },
+        {
+          "word": " the",
+          "start": 3656.78,
+          "end": 3657.1,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " fountain",
+          "start": 3657.1,
+          "end": 3657.72,
+          "probability": 0.97900390625
+        },
+        {
+          "word": " of",
+          "start": 3657.72,
+          "end": 3658.72,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " life",
+          "start": 3658.72,
+          "end": 3659.04,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " from",
+          "start": 3659.04,
+          "end": 3659.52,
+          "probability": 0.982421875
+        },
+        {
+          "word": " above.",
+          "start": 3659.52,
+          "end": 3659.92,
+          "probability": 0.70556640625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 3660.0,
+      "end": 3668.02,
+      "text": "And wife is born, that graceful gent may commence to bear its fruit and sport.",
+      "temperature": 0.0,
+      "avg_logprob": -0.19850481473482573,
+      "compression_ratio": 1.34375,
+      "no_speech_prob": 7.181700980435357e-12,
+      "words": [
+        {
+          "word": " And",
+          "start": 3660.0,
+          "end": 3660.52,
+          "probability": 0.01000213623046875
+        },
+        {
+          "word": " wife",
+          "start": 3660.52,
+          "end": 3660.82,
+          "probability": 0.044586181640625
+        },
+        {
+          "word": " is",
+          "start": 3660.82,
+          "end": 3661.28,
+          "probability": 0.986328125
+        },
+        {
+          "word": " born,",
+          "start": 3661.28,
+          "end": 3661.7,
+          "probability": 0.99609375
+        },
+        {
+          "word": " that",
+          "start": 3661.92,
+          "end": 3662.46,
+          "probability": 0.89013671875
+        },
+        {
+          "word": " graceful",
+          "start": 3662.46,
+          "end": 3663.78,
+          "probability": 0.8125
+        },
+        {
+          "word": " gent",
+          "start": 3663.78,
+          "end": 3663.96,
+          "probability": 0.58984375
+        },
+        {
+          "word": " may",
+          "start": 3663.96,
+          "end": 3664.32,
+          "probability": 0.73779296875
+        },
+        {
+          "word": " commence",
+          "start": 3664.32,
+          "end": 3665.1,
+          "probability": 0.96044921875
+        },
+        {
+          "word": " to",
+          "start": 3665.1,
+          "end": 3665.42,
+          "probability": 0.982421875
+        },
+        {
+          "word": " bear",
+          "start": 3665.42,
+          "end": 3665.84,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " its",
+          "start": 3665.84,
+          "end": 3666.24,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " fruit",
+          "start": 3666.24,
+          "end": 3666.9,
+          "probability": 0.98388671875
+        },
+        {
+          "word": " and",
+          "start": 3666.9,
+          "end": 3667.66,
+          "probability": 0.95849609375
+        },
+        {
+          "word": " sport.",
+          "start": 3667.66,
+          "end": 3668.02,
+          "probability": 0.97265625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 3668.58,
+      "end": 3676.34,
+      "text": "Be joyous, O Joachim, having become the God-bearer's progenitor.",
+      "temperature": 0.0,
+      "avg_logprob": -0.19850481473482573,
+      "compression_ratio": 1.34375,
+      "no_speech_prob": 7.181700980435357e-12,
+      "words": [
+        {
+          "word": " Be",
+          "start": 3668.58,
+          "end": 3668.82,
+          "probability": 0.59765625
+        },
+        {
+          "word": " joyous,",
+          "start": 3668.82,
+          "end": 3669.96,
+          "probability": 0.990234375
+        },
+        {
+          "word": " O",
+          "start": 3670.08,
+          "end": 3670.24,
+          "probability": 0.9609375
+        },
+        {
+          "word": " Joachim,",
+          "start": 3670.24,
+          "end": 3671.3,
+          "probability": 0.99072265625
+        },
+        {
+          "word": " having",
+          "start": 3671.72,
+          "end": 3672.26,
+          "probability": 0.998046875
+        },
+        {
+          "word": " become",
+          "start": 3672.26,
+          "end": 3673.12,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " the",
+          "start": 3673.12,
+          "end": 3673.56,
+          "probability": 0.98974609375
+        },
+        {
+          "word": " God",
+          "start": 3673.56,
+          "end": 3673.9,
+          "probability": 0.88916015625
+        },
+        {
+          "word": "-bearer's",
+          "start": 3673.9,
+          "end": 3675.12,
+          "probability": 0.9697265625
+        },
+        {
+          "word": " progenitor.",
+          "start": 3675.12,
+          "end": 3676.34,
+          "probability": 0.99853515625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 3677.14,
+      "end": 3685.68,
+      "text": "There is no one else like you in generations of paternity, O godly one.",
+      "temperature": 0.0,
+      "avg_logprob": -0.19850481473482573,
+      "compression_ratio": 1.34375,
+      "no_speech_prob": 7.181700980435357e-12,
+      "words": [
+        {
+          "word": " There",
+          "start": 3677.05,
+          "end": 3677.48,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " is",
+          "start": 3677.48,
+          "end": 3678.26,
+          "probability": 1.0
+        },
+        {
+          "word": " no",
+          "start": 3678.26,
+          "end": 3678.56,
+          "probability": 1.0
+        },
+        {
+          "word": " one",
+          "start": 3678.56,
+          "end": 3679.02,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " else",
+          "start": 3679.02,
+          "end": 3679.36,
+          "probability": 1.0
+        },
+        {
+          "word": " like",
+          "start": 3679.36,
+          "end": 3679.66,
+          "probability": 1.0
+        },
+        {
+          "word": " you",
+          "start": 3679.66,
+          "end": 3680.04,
+          "probability": 0.994140625
+        },
+        {
+          "word": " in",
+          "start": 3680.04,
+          "end": 3680.74,
+          "probability": 0.95703125
+        },
+        {
+          "word": " generations",
+          "start": 3680.74,
+          "end": 3681.92,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " of",
+          "start": 3681.92,
+          "end": 3682.54,
+          "probability": 1.0
+        },
+        {
+          "word": " paternity,",
+          "start": 3682.54,
+          "end": 3684.12,
+          "probability": 0.9833984375
+        },
+        {
+          "word": " O",
+          "start": 3684.5,
+          "end": 3684.6,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " godly",
+          "start": 3684.6,
+          "end": 3685.34,
+          "probability": 0.8837890625
+        },
+        {
+          "word": " one.",
+          "start": 3685.34,
+          "end": 3685.68,
+          "probability": 0.99853515625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 8,
+      "seek": 2568,
+      "start": 3685.68,
+      "end": 3689.2,
+      "text": "for the God-receiving maiden.",
+      "temperature": 0.0,
+      "avg_logprob": -0.3036209453235973,
+      "compression_ratio": 0.7837837837837838,
+      "no_speech_prob": 2.1793344039122697e-12,
+      "words": [
+        {
+          "word": " for",
+          "start": 3685.68,
+          "end": 3686.54,
+          "probability": 0.68359375
+        },
+        {
+          "word": " the",
+          "start": 3686.54,
+          "end": 3686.86,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " God",
+          "start": 3686.86,
+          "end": 3687.28,
+          "probability": 0.98974609375
+        },
+        {
+          "word": "-receiving",
+          "start": 3687.28,
+          "end": 3688.32,
+          "probability": 0.85107421875
+        },
+        {
+          "word": " maiden.",
+          "start": 3688.32,
+          "end": 3689.2,
+          "probability": 0.94873046875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 3600.0,
+      "end": 3630.0,
+      "language": "el",
+      "seconds": 2.601370875025168
+    },
+    {
+      "start": 3630.0,
+      "end": 3660.0,
+      "language": "en",
+      "seconds": 2.336303000105545
+    },
+    {
+      "start": 3660.0,
+      "end": 3690.0,
+      "language": "en",
+      "seconds": 2.505367875099182
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 90.0,
+    "inference_seconds": 7.445452917134389,
+    "decode_seconds": 0.07234458299353719,
+    "real_time_factor": 0.08272725463482655,
+    "speedup": 12.087914731537817,
+    "peak_memory_gb": 2.190781306,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ]
+}

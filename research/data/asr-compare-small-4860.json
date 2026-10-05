@@ -1,0 +1,1730 @@
+{
+  "model": "mlx-community/whisper-small-mlx",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 4860,
+  "end": 4950.0,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 4861.2,
+      "end": 4863.92,
+      "text": "For you are a good and loving God,",
+      "temperature": 0.0,
+      "avg_logprob": -0.3467921131062058,
+      "compression_ratio": 1.391304347826087,
+      "no_speech_prob": 0.558399498462677,
+      "words": [
+        {
+          "word": " For",
+          "start": 4861.2,
+          "end": 4861.68,
+          "probability": 0.06976318359375
+        },
+        {
+          "word": " you",
+          "start": 4861.68,
+          "end": 4862.0,
+          "probability": 0.80078125
+        },
+        {
+          "word": " are",
+          "start": 4862.0,
+          "end": 4862.38,
+          "probability": 0.9677734375
+        },
+        {
+          "word": " a",
+          "start": 4862.38,
+          "end": 4862.56,
+          "probability": 0.97119140625
+        },
+        {
+          "word": " good",
+          "start": 4862.56,
+          "end": 4862.78,
+          "probability": 0.98095703125
+        },
+        {
+          "word": " and",
+          "start": 4862.78,
+          "end": 4862.94,
+          "probability": 0.96875
+        },
+        {
+          "word": " loving",
+          "start": 4862.94,
+          "end": 4863.34,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " God,",
+          "start": 4863.34,
+          "end": 4863.92,
+          "probability": 0.95654296875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 4864.0,
+      "end": 4866.86,
+      "text": "and you will give up glory into the Father,",
+      "temperature": 0.0,
+      "avg_logprob": -0.3467921131062058,
+      "compression_ratio": 1.391304347826087,
+      "no_speech_prob": 0.558399498462677,
+      "words": [
+        {
+          "word": " and",
+          "start": 4864.0,
+          "end": 4864.18,
+          "probability": 0.73876953125
+        },
+        {
+          "word": " you",
+          "start": 4864.18,
+          "end": 4864.44,
+          "probability": 0.85400390625
+        },
+        {
+          "word": " will",
+          "start": 4864.44,
+          "end": 4864.58,
+          "probability": 0.58642578125
+        },
+        {
+          "word": " give",
+          "start": 4864.58,
+          "end": 4864.74,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " up",
+          "start": 4864.74,
+          "end": 4865.0,
+          "probability": 0.95361328125
+        },
+        {
+          "word": " glory",
+          "start": 4865.0,
+          "end": 4865.64,
+          "probability": 0.982421875
+        },
+        {
+          "word": " into",
+          "start": 4865.64,
+          "end": 4866.18,
+          "probability": 0.685546875
+        },
+        {
+          "word": " the",
+          "start": 4866.18,
+          "end": 4866.34,
+          "probability": 0.97265625
+        },
+        {
+          "word": " Father,",
+          "start": 4866.34,
+          "end": 4866.86,
+          "probability": 0.955078125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4867.1,
+      "end": 4868.88,
+      "text": "and the Son, and the Holy Spirit,",
+      "temperature": 0.0,
+      "avg_logprob": -0.3467921131062058,
+      "compression_ratio": 1.391304347826087,
+      "no_speech_prob": 0.558399498462677,
+      "words": [
+        {
+          "word": " and",
+          "start": 4867.1,
+          "end": 4867.12,
+          "probability": 0.90087890625
+        },
+        {
+          "word": " the",
+          "start": 4867.12,
+          "end": 4867.32,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " Son,",
+          "start": 4867.32,
+          "end": 4867.66,
+          "probability": 0.998046875
+        },
+        {
+          "word": " and",
+          "start": 4867.78,
+          "end": 4867.9,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " the",
+          "start": 4867.9,
+          "end": 4868.06,
+          "probability": 0.994140625
+        },
+        {
+          "word": " Holy",
+          "start": 4868.06,
+          "end": 4868.24,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " Spirit,",
+          "start": 4868.24,
+          "end": 4868.88,
+          "probability": 0.99169921875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 4869.5,
+      "end": 4872.32,
+      "text": "now and forever, and to the ages of ages.",
+      "temperature": 0.0,
+      "avg_logprob": -0.3467921131062058,
+      "compression_ratio": 1.391304347826087,
+      "no_speech_prob": 0.558399498462677,
+      "words": [
+        {
+          "word": " now",
+          "start": 4869.5,
+          "end": 4869.7,
+          "probability": 0.978515625
+        },
+        {
+          "word": " and",
+          "start": 4869.7,
+          "end": 4869.86,
+          "probability": 0.97705078125
+        },
+        {
+          "word": " forever,",
+          "start": 4869.86,
+          "end": 4870.22,
+          "probability": 0.94287109375
+        },
+        {
+          "word": " and",
+          "start": 4870.6,
+          "end": 4870.76,
+          "probability": 0.9697265625
+        },
+        {
+          "word": " to",
+          "start": 4870.76,
+          "end": 4870.96,
+          "probability": 0.61474609375
+        },
+        {
+          "word": " the",
+          "start": 4870.96,
+          "end": 4871.04,
+          "probability": 0.998046875
+        },
+        {
+          "word": " ages",
+          "start": 4871.04,
+          "end": 4871.48,
+          "probability": 0.927734375
+        },
+        {
+          "word": " of",
+          "start": 4871.48,
+          "end": 4871.82,
+          "probability": 0.998046875
+        },
+        {
+          "word": " ages.",
+          "start": 4871.82,
+          "end": 4872.32,
+          "probability": 0.84228515625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 4884.96,
+      "end": 4884.98,
+      "text": "Amen.",
+      "temperature": 0.0,
+      "avg_logprob": -0.3467921131062058,
+      "compression_ratio": 1.391304347826087,
+      "no_speech_prob": 0.558399498462677,
+      "words": [
+        {
+          "word": " Amen.",
+          "start": 4884.96,
+          "end": 4884.98,
+          "probability": 0.24267578125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 5,
+      "seek": 2498,
+      "start": 4884.98,
+      "end": 4889.98,
+      "text": "I'm not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who's not the only one who",
+      "temperature": 0.0,
+      "avg_logprob": -0.1674843004014757,
+      "compression_ratio": 20.78048780487805,
+      "no_speech_prob": 0.5086884498596191,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 4884.98,
+          "end": 4885.26,
+          "probability": 0.0908203125
+        },
+        {
+          "word": " not",
+          "start": 4885.26,
+          "end": 4885.34,
+          "probability": 0.1485595703125
+        },
+        {
+          "word": " the",
+          "start": 4885.34,
+          "end": 4885.44,
+          "probability": 0.130859375
+        },
+        {
+          "word": " only",
+          "start": 4885.44,
+          "end": 4885.92,
+          "probability": 0.67578125
+        },
+        {
+          "word": " one",
+          "start": 4885.92,
+          "end": 4885.92,
+          "probability": 0.794921875
+        },
+        {
+          "word": " who's",
+          "start": 4885.92,
+          "end": 4886.06,
+          "probability": 0.30419921875
+        },
+        {
+          "word": " not",
+          "start": 4886.06,
+          "end": 4886.34,
+          "probability": 0.047332763671875
+        },
+        {
+          "word": " the",
+          "start": 4886.34,
+          "end": 4886.34,
+          "probability": 0.0740966796875
+        },
+        {
+          "word": " only",
+          "start": 4886.34,
+          "end": 4886.66,
+          "probability": 0.814453125
+        },
+        {
+          "word": " one",
+          "start": 4886.66,
+          "end": 4886.68,
+          "probability": 0.85986328125
+        },
+        {
+          "word": " who's",
+          "start": 4886.68,
+          "end": 4887.2,
+          "probability": 0.39892578125
+        },
+        {
+          "word": " not",
+          "start": 4887.2,
+          "end": 4887.34,
+          "probability": 0.2078857421875
+        },
+        {
+          "word": " the",
+          "start": 4887.34,
+          "end": 4887.96,
+          "probability": 0.59326171875
+        },
+        {
+          "word": " only",
+          "start": 4887.96,
+          "end": 4888.52,
+          "probability": 0.9169921875
+        },
+        {
+          "word": " one",
+          "start": 4888.52,
+          "end": 4888.62,
+          "probability": 0.9072265625
+        },
+        {
+          "word": " who's",
+          "start": 4888.62,
+          "end": 4888.88,
+          "probability": 0.572265625
+        },
+        {
+          "word": " not",
+          "start": 4888.88,
+          "end": 4889.0,
+          "probability": 0.55517578125
+        },
+        {
+          "word": " the",
+          "start": 4889.0,
+          "end": 4889.26,
+          "probability": 0.80029296875
+        },
+        {
+          "word": " only",
+          "start": 4889.26,
+          "end": 4889.38,
+          "probability": 0.92529296875
+        },
+        {
+          "word": " one",
+          "start": 4889.38,
+          "end": 4889.44,
+          "probability": 0.91748046875
+        },
+        {
+          "word": " who's",
+          "start": 4889.44,
+          "end": 4889.7,
+          "probability": 0.6787109375
+        },
+        {
+          "word": " not",
+          "start": 4889.7,
+          "end": 4889.7,
+          "probability": 0.73583984375
+        },
+        {
+          "word": " the",
+          "start": 4889.7,
+          "end": 4889.7,
+          "probability": 0.8232421875
+        },
+        {
+          "word": " only",
+          "start": 4889.7,
+          "end": 4889.7,
+          "probability": 0.91943359375
+        },
+        {
+          "word": " one",
+          "start": 4889.7,
+          "end": 4889.7,
+          "probability": 0.91015625
+        },
+        {
+          "word": " who's",
+          "start": 4889.7,
+          "end": 4889.82,
+          "probability": 0.693359375
+        },
+        {
+          "word": " not",
+          "start": 4889.82,
+          "end": 4889.82,
+          "probability": 0.77783203125
+        },
+        {
+          "word": " the",
+          "start": 4889.82,
+          "end": 4889.92,
+          "probability": 0.83447265625
+        },
+        {
+          "word": " only",
+          "start": 4889.92,
+          "end": 4889.92,
+          "probability": 0.92919921875
+        },
+        {
+          "word": " one",
+          "start": 4889.92,
+          "end": 4889.92,
+          "probability": 0.93408203125
+        },
+        {
+          "word": " who's",
+          "start": 4889.92,
+          "end": 4889.92,
+          "probability": 0.7314453125
+        },
+        {
+          "word": " not",
+          "start": 4889.92,
+          "end": 4889.92,
+          "probability": 0.81982421875
+        },
+        {
+          "word": " the",
+          "start": 4889.92,
+          "end": 4889.96,
+          "probability": 0.87353515625
+        },
+        {
+          "word": " only",
+          "start": 4889.96,
+          "end": 4889.96,
+          "probability": 0.95166015625
+        },
+        {
+          "word": " one",
+          "start": 4889.96,
+          "end": 4889.98,
+          "probability": 0.9541015625
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.78759765625
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.85693359375
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9072265625
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.96728515625
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9677734375
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.8330078125
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.88330078125
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9326171875
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.97705078125
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9755859375
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.859375
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.90087890625
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.947265625
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.982421875
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9814453125
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.875
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.90966796875
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.95703125
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9853515625
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98291015625
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.884765625
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.91943359375
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.962890625
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.984375
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.8916015625
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.92431640625
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.96533203125
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98828125
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98486328125
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.8974609375
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.93017578125
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.96923828125
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98681640625
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9013671875
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.93505859375
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.97119140625
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.990234375
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9052734375
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.93896484375
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9736328125
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.99072265625
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9111328125
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9423828125
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.974609375
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98828125
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.91748046875
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.94482421875
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.97607421875
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.92041015625
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9482421875
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.97705078125
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9921875
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.92431640625
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9521484375
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.978515625
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9921875
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9892578125
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.93017578125
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.95556640625
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98046875
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9892578125
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.93359375
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.95703125
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98095703125
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98974609375
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9365234375
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.96044921875
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98193359375
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98974609375
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9404296875
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9619140625
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.982421875
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98974609375
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.94091796875
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.96435546875
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98291015625
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.990234375
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9443359375
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.96435546875
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98388671875
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98974609375
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.94580078125
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.966796875
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98388671875
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.990234375
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.947265625
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.966796875
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98486328125
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9921875
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.990234375
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9482421875
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9677734375
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98486328125
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9921875
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.990234375
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9501953125
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.96875
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98486328125
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9921875
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.990234375
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.951171875
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9697265625
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9853515625
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98974609375
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9501953125
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.96923828125
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9853515625
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9892578125
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9521484375
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.96923828125
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9853515625
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9521484375
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.96826171875
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98583984375
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.99072265625
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.95361328125
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.96923828125
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9853515625
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.99072265625
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98828125
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.953125
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.96826171875
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98583984375
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98974609375
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " who's",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.95458984375
+        },
+        {
+          "word": " not",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9697265625
+        },
+        {
+          "word": " the",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9853515625
+        },
+        {
+          "word": " only",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.98974609375
+        },
+        {
+          "word": " one",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " who",
+          "start": 4889.98,
+          "end": 4889.98,
+          "probability": 0.94921875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 4890.0,
+      "end": 4899.0,
+      "text": "Παραπεζητάζω εγώ ξατεμίκης ουρσκός, το βατράκι του, με με το νήν και η καρστυσσότη μας, το νεόν, το νήν.",
+      "temperature": 0.0,
+      "avg_logprob": -0.9110036263099084,
+      "compression_ratio": 2.0,
+      "no_speech_prob": 0.3268120586872101,
+      "words": [
+        {
+          "word": " Παραπεζητάζω",
+          "start": 4890.0,
+          "end": 4890.7,
+          "probability": 0.372314453125
+        },
+        {
+          "word": " εγώ",
+          "start": 4890.7,
+          "end": 4890.84,
+          "probability": 0.2939453125
+        },
+        {
+          "word": " ξατεμίκης",
+          "start": 4890.84,
+          "end": 4891.46,
+          "probability": 0.451416015625
+        },
+        {
+          "word": " ουρσκός,",
+          "start": 4891.46,
+          "end": 4892.54,
+          "probability": 0.240966796875
+        },
+        {
+          "word": " το",
+          "start": 4892.54,
+          "end": 4892.76,
+          "probability": 0.337646484375
+        },
+        {
+          "word": " βατράκι",
+          "start": 4892.76,
+          "end": 4893.18,
+          "probability": 0.37353515625
+        },
+        {
+          "word": " του,",
+          "start": 4893.18,
+          "end": 4893.42,
+          "probability": 0.1103515625
+        },
+        {
+          "word": " με",
+          "start": 4893.74,
+          "end": 4893.9,
+          "probability": 0.407958984375
+        },
+        {
+          "word": " με",
+          "start": 4893.9,
+          "end": 4894.04,
+          "probability": 0.14453125
+        },
+        {
+          "word": " το",
+          "start": 4894.04,
+          "end": 4894.3,
+          "probability": 0.0897216796875
+        },
+        {
+          "word": " νήν",
+          "start": 4894.3,
+          "end": 4895.12,
+          "probability": 0.271728515625
+        },
+        {
+          "word": " και",
+          "start": 4895.12,
+          "end": 4895.28,
+          "probability": 0.61572265625
+        },
+        {
+          "word": " η",
+          "start": 4895.28,
+          "end": 4896.0,
+          "probability": 0.10491943359375
+        },
+        {
+          "word": " καρστυσσότη",
+          "start": 4896.0,
+          "end": 4896.58,
+          "probability": 0.40087890625
+        },
+        {
+          "word": " μας,",
+          "start": 4896.58,
+          "end": 4896.94,
+          "probability": 0.58056640625
+        },
+        {
+          "word": " το",
+          "start": 4896.96,
+          "end": 4897.74,
+          "probability": 0.343017578125
+        },
+        {
+          "word": " νεόν,",
+          "start": 4897.74,
+          "end": 4898.22,
+          "probability": 0.2734375
+        },
+        {
+          "word": " το",
+          "start": 4898.38,
+          "end": 4898.64,
+          "probability": 0.85888671875
+        },
+        {
+          "word": " νήν.",
+          "start": 4898.64,
+          "end": 4899.0,
+          "probability": 0.79736328125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 4905.58,
+      "end": 4909.56,
+      "text": "Παραπεζητάζω εγώ ξαναπάνω, το νήν και η καρστυσσότη μας.",
+      "temperature": 0.0,
+      "avg_logprob": -0.9110036263099084,
+      "compression_ratio": 2.0,
+      "no_speech_prob": 0.3268120586872101,
+      "words": [
+        {
+          "word": " Παραπεζητάζω",
+          "start": 4905.58,
+          "end": 4906.26,
+          "probability": 0.74169921875
+        },
+        {
+          "word": " εγώ",
+          "start": 4906.26,
+          "end": 4906.94,
+          "probability": 0.88330078125
+        },
+        {
+          "word": " ξαναπάνω,",
+          "start": 4906.94,
+          "end": 4907.84,
+          "probability": 0.5947265625
+        },
+        {
+          "word": " το",
+          "start": 4907.9,
+          "end": 4908.12,
+          "probability": 0.35498046875
+        },
+        {
+          "word": " νήν",
+          "start": 4908.12,
+          "end": 4908.42,
+          "probability": 0.60400390625
+        },
+        {
+          "word": " και",
+          "start": 4908.42,
+          "end": 4908.46,
+          "probability": 0.96875
+        },
+        {
+          "word": " η",
+          "start": 4908.46,
+          "end": 4909.02,
+          "probability": 0.7509765625
+        },
+        {
+          "word": " καρστυσσότη",
+          "start": 4909.02,
+          "end": 4909.38,
+          "probability": 0.947265625
+        },
+        {
+          "word": " μας.",
+          "start": 4909.38,
+          "end": 4909.56,
+          "probability": 0.91162109375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 4927.86,
+      "end": 4942.0,
+      "text": "σ' φυαρθεί, δεύτεμ προσκυνήσομεν, και προσπασομέν Χριστό,",
+      "temperature": 0.0,
+      "avg_logprob": -0.7259965291837367,
+      "compression_ratio": 1.1818181818181819,
+      "no_speech_prob": 0.7844511270523071,
+      "words": [
+        {
+          "word": " σ'",
+          "start": 4927.86,
+          "end": 4929.26,
+          "probability": 0.04083251953125
+        },
+        {
+          "word": " φυαρθεί,",
+          "start": 4929.26,
+          "end": 4930.66,
+          "probability": 0.53857421875
+        },
+        {
+          "word": " δεύτεμ",
+          "start": 4932.58,
+          "end": 4933.72,
+          "probability": 0.66650390625
+        },
+        {
+          "word": " προσκυνήσομεν,",
+          "start": 4933.72,
+          "end": 4936.88,
+          "probability": 0.67919921875
+        },
+        {
+          "word": " και",
+          "start": 4936.88,
+          "end": 4937.26,
+          "probability": 0.484375
+        },
+        {
+          "word": " προσπασομέν",
+          "start": 4937.26,
+          "end": 4941.66,
+          "probability": 0.693359375
+        },
+        {
+          "word": " Χριστό,",
+          "start": 4941.66,
+          "end": 4942.36,
+          "probability": 0.7880859375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 9,
+      "seek": 2236,
+      "start": 4948.58,
+      "end": 4949.98,
+      "text": "Σωσονημασία.",
+      "temperature": 0.0,
+      "avg_logprob": -0.879857619603475,
+      "compression_ratio": 0.71875,
+      "no_speech_prob": 0.8685177564620972,
+      "words": [
+        {
+          "word": " Σωσονημασία.",
+          "start": 4948.58,
+          "end": 4949.98,
+          "probability": 0.485595703125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 4860.0,
+      "end": 4890.0,
+      "language": "en",
+      "seconds": 1.6612622500397265
+    },
+    {
+      "start": 4890.0,
+      "end": 4920.0,
+      "language": "el",
+      "seconds": 0.6962093750480562
+    },
+    {
+      "start": 4920.0,
+      "end": 4950.0,
+      "language": "el",
+      "seconds": 0.5783525828737766
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 90.0,
+    "inference_seconds": 2.9420971248764545,
+    "decode_seconds": 0.07476141699589789,
+    "real_time_factor": 0.032689968054182825,
+    "speedup": 30.590424510128745,
+    "peak_memory_gb": 1.229558694,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ]
+}

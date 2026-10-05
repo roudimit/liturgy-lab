@@ -1,0 +1,13 @@
+[project]
+name = "liturgy-lab"
+version = "0.1.0"
+description = "Offline Apple Silicon speech recognition and bilingual liturgy alignment experiment"
+requires-python = ">=3.11"
+dependencies = ["mlx-whisper", "mlx-lm", "yt-dlp[default]", "imageio-ffmpeg", "fastapi", "uvicorn", "requests", "beautifulsoup4", "rapidfuzz", "jiwer", "markdown-it-py"]
+
+[project.scripts]
+liturgy-lab = "liturgy_lab.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

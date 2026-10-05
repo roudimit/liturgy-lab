@@ -1,0 +1,379 @@
+{
+  "segment_count": 956,
+  "analyzed_end": 7664.44,
+  "opening_detection": {
+    "detected": true,
+    "start": 4411.84,
+    "method": "opening_blessing_text_heuristic",
+    "heuristic": true,
+    "independently_verified": false,
+    "similarity_score": 0.9474,
+    "evidence": [
+      {
+        "segment_id": 515,
+        "start": 4411.84,
+        "text": "Ευλογημένη βασιλεία του Πατρός και του Υιού και του Αγιού Πνεύματος, νυν και αϊκέης τους αιώνας των αιώνων,"
+      },
+      {
+        "segment_id": 516,
+        "start": 4423.22,
+        "text": "εν ειρήνη του Κυρίου Δεηθώμες, υπέρ της ανώθεν ειρήνης και της σωτηριάς των ψυχών ημών του Κυρίου Δεηθώμες,"
+      },
+      {
+        "segment_id": 517,
+        "start": 4436.84,
+        "text": "Υπότιτλοι AUTHORWAVE"
+      }
+    ],
+    "note": "Opening phrase and Trinitarian continuation found in nearby ASR; inspect the audio to verify."
+  },
+  "raw_match_counts": {
+    "unknown": 505,
+    "uncertain": 371,
+    "matched": 80
+  },
+  "gated_match_counts": {
+    "unknown": 505,
+    "uncertain": 395,
+    "matched": 56
+  },
+  "suppressed_locations": [
+    {
+      "start": 360.0,
+      "text": "Σου γεννηθεί Του το θέλημά σου, ως αν ουρανό και πι της γης.",
+      "textual_match": {
+        "unit_id": "u0250",
+        "section_id": "s018",
+        "section_title": "The Lord’s Prayer",
+        "score": 0.9011,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Shared text before the detected Liturgy opening; occurrence is unlocated"
+    },
+    {
+      "start": 364.08,
+      "text": "Τον άρτον ημών, τον επιούσιον δώσιμην σήμερον και άφησιμην τα οφηλήματα ημών.",
+      "textual_match": {
+        "unit_id": "u0250",
+        "section_id": "s018",
+        "section_title": "The Lord’s Prayer",
+        "score": 0.9283,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Shared text before the detected Liturgy opening; occurrence is unlocated"
+    },
+    {
+      "start": 373.72,
+      "text": "Αλλά ρίσαι ημάς από το πονηρού.",
+      "textual_match": {
+        "unit_id": "u0250",
+        "section_id": "s018",
+        "section_title": "The Lord’s Prayer",
+        "score": 0.9449,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Shared text before the detected Liturgy opening; occurrence is unlocated"
+    },
+    {
+      "start": 1124.8,
+      "text": "Αλληλούια, αλληλούια, αλληλούια, δόξα Συ ο Θεός.",
+      "textual_match": {
+        "unit_id": "u0317",
+        "section_id": "s025",
+        "section_title": "Memorial Service",
+        "score": 0.97,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Shared text before the detected Liturgy opening; occurrence is unlocated"
+    },
+    {
+      "start": 1132.14,
+      "text": "Αλληλούια, αλληλούια, αλληλούια, δόξα Συ ο Θεός.",
+      "textual_match": {
+        "unit_id": "u0317",
+        "section_id": "s025",
+        "section_title": "Memorial Service",
+        "score": 0.97,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Shared text before the detected Liturgy opening; occurrence is unlocated"
+    },
+    {
+      "start": 1178.64,
+      "text": "του Τιμίου Πρεσβητηρίου της Εγκρίστο Διακονίας,",
+      "textual_match": {
+        "unit_id": "u0013",
+        "section_id": "s000",
+        "section_title": "Opening blessing and Peace Litany",
+        "score": 0.8741,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Shared text before the detected Liturgy opening; occurrence is unlocated"
+    },
+    {
+      "start": 1182.04,
+      "text": "παντός του κλήρου και του λαού του Κυρίου Δεηθώμες.",
+      "textual_match": {
+        "unit_id": "u0013",
+        "section_id": "s000",
+        "section_title": "Opening blessing and Peace Litany",
+        "score": 0.9815,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Shared text before the detected Liturgy opening; occurrence is unlocated"
+    },
+    {
+      "start": 1192.68,
+      "text": "και των πίστικων των εναυτές του Κυρίου Δεηθώμες.",
+      "textual_match": {
+        "unit_id": "u0017",
+        "section_id": "s000",
+        "section_title": "Opening blessing and Peace Litany",
+        "score": 0.8922,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Shared text before the detected Liturgy opening; occurrence is unlocated"
+    },
+    {
+      "start": 1290.0,
+      "text": "ο ερχόμενος εν ονόματι Κυρίου.",
+      "textual_match": {
+        "unit_id": "u0190",
+        "section_id": "s016",
+        "section_title": "Holy Anaphora",
+        "score": 1.0,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Shared text before the detected Liturgy opening; occurrence is unlocated"
+    },
+    {
+      "start": 1320.0,
+      "text": "Εγλογημένος ο εργόμενος εν ονόματι Κυρίου.",
+      "textual_match": {
+        "unit_id": "u0190",
+        "section_id": "s016",
+        "section_title": "Holy Anaphora",
+        "score": 0.955,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Shared text before the detected Liturgy opening; occurrence is unlocated"
+    },
+    {
+      "start": 2610.0,
+      "text": "Δυνάμει του Τιμίου και Ζωπιού Σταυρού, προστασίες των Τιμίων Εποράνιων, δυνάμειων ασωμάτων,",
+      "textual_match": {
+        "unit_id": "u0347",
+        "section_id": "s026",
+        "section_title": "Final blessing and dismissal",
+        "score": 0.9491,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Shared text before the detected Liturgy opening; occurrence is unlocated"
+    },
+    {
+      "start": 2617.42,
+      "text": "ηγεσίες του Τιμίου εν δόξω Προφή του Προδρόμου και Βάπτιστου Ιουάννου,",
+      "textual_match": {
+        "unit_id": "u0347",
+        "section_id": "s026",
+        "section_title": "Final blessing and dismissal",
+        "score": 0.9005,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Shared text before the detected Liturgy opening; occurrence is unlocated"
+    },
+    {
+      "start": 2675.28,
+      "text": "Τον Ωσίον και Δεωφόρον Πατέρον ημών,",
+      "textual_match": {
+        "unit_id": "u0347",
+        "section_id": "s026",
+        "section_title": "Final blessing and dismissal",
+        "score": 0.9436,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Shared text before the detected Liturgy opening; occurrence is unlocated"
+    },
+    {
+      "start": 2677.88,
+      "text": "Τον Αγίον και Δικαίον Θεοπατόρον Ιωακήμ και Άννης,",
+      "textual_match": {
+        "unit_id": "u0347",
+        "section_id": "s026",
+        "section_title": "Final blessing and dismissal",
+        "score": 0.97,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Shared text before the detected Liturgy opening; occurrence is unlocated"
+    },
+    {
+      "start": 2828.74,
+      "text": "have mercy on us and save us.",
+      "textual_match": {
+        "unit_id": "u0347",
+        "section_id": "s026",
+        "section_title": "Final blessing and dismissal",
+        "score": 1.0,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Shared text before the detected Liturgy opening; occurrence is unlocated"
+    },
+    {
+      "start": 4532.28,
+      "text": "and for their salvation,",
+      "textual_match": {
+        "unit_id": "u0021",
+        "section_id": "s000",
+        "section_title": "Opening blessing and Peace Litany",
+        "score": 1.0,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Short partial phrase needs surrounding occurrence context"
+    },
+    {
+      "start": 4844.0,
+      "text": "Remembering our most holy, pure, blessed, and glorious Lady,",
+      "textual_match": {
+        "unit_id": "u0211",
+        "section_id": "s016",
+        "section_title": "Holy Anaphora",
+        "score": 0.8628,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Shared fragment jumps far ahead of three later nearby reference units; location withheld"
+    },
+    {
+      "start": 5302.1,
+      "text": "to the glory of God the Father.",
+      "textual_match": {
+        "unit_id": "u0263",
+        "section_id": "s020",
+        "section_title": "Elevation, Fraction, and Communion",
+        "score": 1.0,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Shared fragment jumps far ahead of three later nearby reference units; location withheld"
+    },
+    {
+      "start": 5730.0,
+      "text": "Τον όλον υποδεξόμενοι.",
+      "textual_match": {
+        "unit_id": "u0137",
+        "section_id": "s012",
+        "section_title": "The Cherubic Hymn",
+        "score": 0.97,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Short partial phrase needs surrounding occurrence context"
+    },
+    {
+      "start": 6050.44,
+      "text": "αγαπήσωμεν αλληλούσινα εν ομονία,",
+      "textual_match": {
+        "unit_id": "u0175",
+        "section_id": "s014",
+        "section_title": "Kiss of Peace and Creed",
+        "score": 0.9455,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Short partial phrase needs surrounding occurrence context"
+    },
+    {
+      "start": 7208.74,
+      "text": "the heavenly spirit.",
+      "textual_match": {
+        "unit_id": "u0278",
+        "section_id": "s022",
+        "section_title": "Hymn after Holy Communion",
+        "score": 1.0,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Short partial phrase needs surrounding occurrence context"
+    },
+    {
+      "start": 7214.08,
+      "text": "Worshiping the undivided Trinity.",
+      "textual_match": {
+        "unit_id": "u0278",
+        "section_id": "s022",
+        "section_title": "Hymn after Holy Communion",
+        "score": 1.0,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Short partial phrase needs surrounding occurrence context"
+    },
+    {
+      "start": 7218.0,
+      "text": "For the Trinity",
+      "textual_match": {
+        "unit_id": "u0278",
+        "section_id": "s022",
+        "section_title": "Hymn after Holy Communion",
+        "score": 1.0,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Short partial phrase needs surrounding occurrence context"
+    },
+    {
+      "start": 7528.18,
+      "text": "of the whole world.",
+      "textual_match": {
+        "unit_id": "u0007",
+        "section_id": "s000",
+        "section_title": "Opening blessing and Peace Litany",
+        "score": 1.0,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      },
+      "reason": "Short partial phrase needs surrounding occurrence context"
+    }
+  ],
+  "note": "Diagnostic comparison of model outputs, not human-labeled accuracy. Service boundary, short-fragment validation and isolated forward-jump suppression are heuristics."
+}

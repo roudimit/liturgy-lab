@@ -1,0 +1,971 @@
+{
+  "model": "mlx-community/whisper-large-v3-mlx",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 4860,
+  "end": 4950.0,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 4860.84,
+      "end": 4863.68,
+      "text": "For you are a good and loving God,",
+      "temperature": 0.0,
+      "avg_logprob": -0.3596177101135254,
+      "compression_ratio": 1.424778761061947,
+      "no_speech_prob": 0.3081223666667938,
+      "words": [
+        {
+          "word": " For",
+          "start": 4860.84,
+          "end": 4861.44,
+          "probability": 0.68115234375
+        },
+        {
+          "word": " you",
+          "start": 4861.44,
+          "end": 4861.84,
+          "probability": 0.94580078125
+        },
+        {
+          "word": " are",
+          "start": 4861.84,
+          "end": 4862.22,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " a",
+          "start": 4862.22,
+          "end": 4862.42,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " good",
+          "start": 4862.42,
+          "end": 4862.68,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " and",
+          "start": 4862.68,
+          "end": 4862.82,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " loving",
+          "start": 4862.82,
+          "end": 4863.24,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " God,",
+          "start": 4863.24,
+          "end": 4863.68,
+          "probability": 0.99951171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 4863.88,
+      "end": 4865.26,
+      "text": "and to you we give up glory,",
+      "temperature": 0.0,
+      "avg_logprob": -0.3596177101135254,
+      "compression_ratio": 1.424778761061947,
+      "no_speech_prob": 0.3081223666667938,
+      "words": [
+        {
+          "word": " and",
+          "start": 4863.88,
+          "end": 4864.04,
+          "probability": 0.78125
+        },
+        {
+          "word": " to",
+          "start": 4864.04,
+          "end": 4864.22,
+          "probability": 0.890625
+        },
+        {
+          "word": " you",
+          "start": 4864.22,
+          "end": 4864.36,
+          "probability": 1.0
+        },
+        {
+          "word": " we",
+          "start": 4864.36,
+          "end": 4864.5,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " give",
+          "start": 4864.5,
+          "end": 4864.64,
+          "probability": 1.0
+        },
+        {
+          "word": " up",
+          "start": 4864.64,
+          "end": 4864.9,
+          "probability": 0.9716796875
+        },
+        {
+          "word": " glory,",
+          "start": 4864.9,
+          "end": 4865.26,
+          "probability": 0.9990234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 4865.64,
+      "end": 4868.62,
+      "text": "and to the Father and the Son and the Holy Spirit,",
+      "temperature": 0.0,
+      "avg_logprob": -0.3596177101135254,
+      "compression_ratio": 1.424778761061947,
+      "no_speech_prob": 0.3081223666667938,
+      "words": [
+        {
+          "word": " and",
+          "start": 4865.64,
+          "end": 4865.94,
+          "probability": 0.337158203125
+        },
+        {
+          "word": " to",
+          "start": 4865.94,
+          "end": 4866.12,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " the",
+          "start": 4866.12,
+          "end": 4866.24,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " Father",
+          "start": 4866.24,
+          "end": 4866.68,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " and",
+          "start": 4866.68,
+          "end": 4867.02,
+          "probability": 0.4609375
+        },
+        {
+          "word": " the",
+          "start": 4867.02,
+          "end": 4867.14,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " Son",
+          "start": 4867.14,
+          "end": 4867.46,
+          "probability": 1.0
+        },
+        {
+          "word": " and",
+          "start": 4867.46,
+          "end": 4867.78,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " the",
+          "start": 4867.78,
+          "end": 4867.92,
+          "probability": 1.0
+        },
+        {
+          "word": " Holy",
+          "start": 4867.92,
+          "end": 4868.12,
+          "probability": 1.0
+        },
+        {
+          "word": " Spirit,",
+          "start": 4868.12,
+          "end": 4868.62,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 4869.44,
+      "end": 4872.24,
+      "text": "now and forever and to the ages of ages.",
+      "temperature": 0.0,
+      "avg_logprob": -0.3596177101135254,
+      "compression_ratio": 1.424778761061947,
+      "no_speech_prob": 0.3081223666667938,
+      "words": [
+        {
+          "word": " now",
+          "start": 4869.22,
+          "end": 4869.52,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " and",
+          "start": 4869.52,
+          "end": 4869.76,
+          "probability": 1.0
+        },
+        {
+          "word": " forever",
+          "start": 4869.76,
+          "end": 4870.08,
+          "probability": 0.8955078125
+        },
+        {
+          "word": " and",
+          "start": 4870.08,
+          "end": 4870.62,
+          "probability": 0.970703125
+        },
+        {
+          "word": " to",
+          "start": 4870.62,
+          "end": 4870.82,
+          "probability": 0.6845703125
+        },
+        {
+          "word": " the",
+          "start": 4870.82,
+          "end": 4870.9,
+          "probability": 1.0
+        },
+        {
+          "word": " ages",
+          "start": 4870.9,
+          "end": 4871.4,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " of",
+          "start": 4871.4,
+          "end": 4871.7,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " ages.",
+          "start": 4871.7,
+          "end": 4872.24,
+          "probability": 0.998046875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 4873.52,
+      "end": 4874.12,
+      "text": "Amen.",
+      "temperature": 0.0,
+      "avg_logprob": -0.3596177101135254,
+      "compression_ratio": 1.424778761061947,
+      "no_speech_prob": 0.3081223666667938,
+      "words": [
+        {
+          "word": " Amen.",
+          "start": 4873.52,
+          "end": 4874.12,
+          "probability": 0.9658203125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 4890.0,
+      "end": 4919.98,
+      "text": "Ευχαριστώ, Ιησού, για την ευκαιρία του Θεού και για την ευκαιρία του Θεού και για την ευκαιρία του Θεού και για την ευκαιρία του Θεού και για την ευκαιρία του Θεού και για την ευκαιρία του Θεού και για την ευκαιρία του Θεού και για την ευκαιρία του Θεού και για την ευκαιρία του Θεού και για την ευκαιρία του Θεού και για την ευκαιρία του Θεού και για την ευκαιρία του Θεού και για την ευκαιρία του Θεού και για την ευκαιρία του Θεού και για την ευκαιρία του Θεού και για την ευκαιρία του Θεού και για την",
+      "temperature": 0.0,
+      "avg_logprob": -0.15987608167860243,
+      "compression_ratio": 10.329545454545455,
+      "no_speech_prob": 0.3881986737251282,
+      "words": [
+        {
+          "word": " Ευχαριστώ,",
+          "start": 4890.0,
+          "end": 4890.34,
+          "probability": 0.7119140625
+        },
+        {
+          "word": " Ιησού,",
+          "start": 4890.64,
+          "end": 4891.0,
+          "probability": 0.68994140625
+        },
+        {
+          "word": " για",
+          "start": 4891.0,
+          "end": 4891.1,
+          "probability": 0.2646484375
+        },
+        {
+          "word": " την",
+          "start": 4891.1,
+          "end": 4891.1,
+          "probability": 0.368896484375
+        },
+        {
+          "word": " ευκαιρία",
+          "start": 4891.1,
+          "end": 4891.38,
+          "probability": 0.68310546875
+        },
+        {
+          "word": " του",
+          "start": 4891.38,
+          "end": 4891.38,
+          "probability": 0.1444091796875
+        },
+        {
+          "word": " Θεού",
+          "start": 4891.38,
+          "end": 4892.48,
+          "probability": 0.734375
+        },
+        {
+          "word": " και",
+          "start": 4892.48,
+          "end": 4892.48,
+          "probability": 0.161865234375
+        },
+        {
+          "word": " για",
+          "start": 4892.48,
+          "end": 4892.62,
+          "probability": 0.347412109375
+        },
+        {
+          "word": " την",
+          "start": 4892.62,
+          "end": 4892.8,
+          "probability": 0.3984375
+        },
+        {
+          "word": " ευκαιρία",
+          "start": 4892.8,
+          "end": 4893.74,
+          "probability": 0.78271484375
+        },
+        {
+          "word": " του",
+          "start": 4893.74,
+          "end": 4894.06,
+          "probability": 0.6728515625
+        },
+        {
+          "word": " Θεού",
+          "start": 4894.06,
+          "end": 4894.48,
+          "probability": 0.82568359375
+        },
+        {
+          "word": " και",
+          "start": 4894.48,
+          "end": 4894.5,
+          "probability": 0.25634765625
+        },
+        {
+          "word": " για",
+          "start": 4894.5,
+          "end": 4894.96,
+          "probability": 0.71240234375
+        },
+        {
+          "word": " την",
+          "start": 4894.96,
+          "end": 4895.4,
+          "probability": 0.362060546875
+        },
+        {
+          "word": " ευκαιρία",
+          "start": 4895.4,
+          "end": 4895.88,
+          "probability": 0.92529296875
+        },
+        {
+          "word": " του",
+          "start": 4895.88,
+          "end": 4896.0,
+          "probability": 0.85546875
+        },
+        {
+          "word": " Θεού",
+          "start": 4896.0,
+          "end": 4896.34,
+          "probability": 0.9521484375
+        },
+        {
+          "word": " και",
+          "start": 4896.34,
+          "end": 4896.6,
+          "probability": 0.40576171875
+        },
+        {
+          "word": " για",
+          "start": 4896.6,
+          "end": 4896.6,
+          "probability": 0.81103515625
+        },
+        {
+          "word": " την",
+          "start": 4896.6,
+          "end": 4896.6,
+          "probability": 0.5986328125
+        },
+        {
+          "word": " ευκαιρία",
+          "start": 4896.6,
+          "end": 4896.6,
+          "probability": 0.96435546875
+        },
+        {
+          "word": " του",
+          "start": 4896.6,
+          "end": 4896.6,
+          "probability": 0.9560546875
+        },
+        {
+          "word": " Θεού",
+          "start": 4896.6,
+          "end": 4897.38,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " και",
+          "start": 4897.38,
+          "end": 4897.38,
+          "probability": 0.56591796875
+        },
+        {
+          "word": " για",
+          "start": 4897.38,
+          "end": 4897.38,
+          "probability": 0.87939453125
+        },
+        {
+          "word": " την",
+          "start": 4897.38,
+          "end": 4897.38,
+          "probability": 0.79931640625
+        },
+        {
+          "word": " ευκαιρία",
+          "start": 4897.38,
+          "end": 4898.14,
+          "probability": 0.982421875
+        },
+        {
+          "word": " του",
+          "start": 4898.14,
+          "end": 4898.2,
+          "probability": 0.9775390625
+        },
+        {
+          "word": " Θεού",
+          "start": 4898.2,
+          "end": 4898.68,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " και",
+          "start": 4898.68,
+          "end": 4899.28,
+          "probability": 0.669921875
+        },
+        {
+          "word": " για",
+          "start": 4899.28,
+          "end": 4899.28,
+          "probability": 0.9140625
+        },
+        {
+          "word": " την",
+          "start": 4899.28,
+          "end": 4899.28,
+          "probability": 0.8984375
+        },
+        {
+          "word": " ευκαιρία",
+          "start": 4899.28,
+          "end": 4899.56,
+          "probability": 0.99072265625
+        },
+        {
+          "word": " του",
+          "start": 4899.56,
+          "end": 4899.56,
+          "probability": 0.98681640625
+        },
+        {
+          "word": " Θεού",
+          "start": 4899.56,
+          "end": 4899.88,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " και",
+          "start": 4899.88,
+          "end": 4899.88,
+          "probability": 0.74609375
+        },
+        {
+          "word": " για",
+          "start": 4899.88,
+          "end": 4899.88,
+          "probability": 0.935546875
+        },
+        {
+          "word": " την",
+          "start": 4899.88,
+          "end": 4899.88,
+          "probability": 0.9443359375
+        },
+        {
+          "word": " ευκαιρία",
+          "start": 4899.88,
+          "end": 4900.74,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " του",
+          "start": 4900.74,
+          "end": 4900.86,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " Θεού",
+          "start": 4900.86,
+          "end": 4901.18,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " και",
+          "start": 4901.18,
+          "end": 4904.14,
+          "probability": 0.8046875
+        },
+        {
+          "word": " για",
+          "start": 4904.14,
+          "end": 4905.0,
+          "probability": 0.9501953125
+        },
+        {
+          "word": " την",
+          "start": 4905.0,
+          "end": 4905.42,
+          "probability": 0.966796875
+        },
+        {
+          "word": " ευκαιρία",
+          "start": 4905.42,
+          "end": 4906.38,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " του",
+          "start": 4906.38,
+          "end": 4906.72,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " Θεού",
+          "start": 4906.72,
+          "end": 4906.8,
+          "probability": 0.99609375
+        },
+        {
+          "word": " και",
+          "start": 4906.8,
+          "end": 4906.8,
+          "probability": 0.84814453125
+        },
+        {
+          "word": " για",
+          "start": 4906.8,
+          "end": 4906.8,
+          "probability": 0.96044921875
+        },
+        {
+          "word": " την",
+          "start": 4906.8,
+          "end": 4906.8,
+          "probability": 0.9775390625
+        },
+        {
+          "word": " ευκαιρία",
+          "start": 4906.8,
+          "end": 4907.24,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " του",
+          "start": 4907.24,
+          "end": 4907.46,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " Θεού",
+          "start": 4907.46,
+          "end": 4907.46,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " και",
+          "start": 4907.46,
+          "end": 4907.46,
+          "probability": 0.880859375
+        },
+        {
+          "word": " για",
+          "start": 4907.46,
+          "end": 4907.74,
+          "probability": 0.96826171875
+        },
+        {
+          "word": " την",
+          "start": 4907.74,
+          "end": 4907.74,
+          "probability": 0.9833984375
+        },
+        {
+          "word": " ευκαιρία",
+          "start": 4907.74,
+          "end": 4908.62,
+          "probability": 0.998046875
+        },
+        {
+          "word": " του",
+          "start": 4908.62,
+          "end": 4909.5,
+          "probability": 0.99609375
+        },
+        {
+          "word": " Θεού",
+          "start": 4909.5,
+          "end": 4910.82,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " και",
+          "start": 4910.82,
+          "end": 4910.82,
+          "probability": 0.90234375
+        },
+        {
+          "word": " για",
+          "start": 4910.82,
+          "end": 4911.0,
+          "probability": 0.9736328125
+        },
+        {
+          "word": " την",
+          "start": 4911.0,
+          "end": 4911.52,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " ευκαιρία",
+          "start": 4911.52,
+          "end": 4911.52,
+          "probability": 0.998046875
+        },
+        {
+          "word": " του",
+          "start": 4911.52,
+          "end": 4911.52,
+          "probability": 0.99609375
+        },
+        {
+          "word": " Θεού",
+          "start": 4911.52,
+          "end": 4911.52,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " και",
+          "start": 4911.52,
+          "end": 4911.52,
+          "probability": 0.91796875
+        },
+        {
+          "word": " για",
+          "start": 4911.52,
+          "end": 4911.78,
+          "probability": 0.97802734375
+        },
+        {
+          "word": " την",
+          "start": 4911.78,
+          "end": 4912.42,
+          "probability": 0.990234375
+        },
+        {
+          "word": " ευκαιρία",
+          "start": 4912.42,
+          "end": 4913.12,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " του",
+          "start": 4913.12,
+          "end": 4913.12,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " Θεού",
+          "start": 4913.12,
+          "end": 4913.32,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " και",
+          "start": 4913.32,
+          "end": 4913.56,
+          "probability": 0.93017578125
+        },
+        {
+          "word": " για",
+          "start": 4913.56,
+          "end": 4913.56,
+          "probability": 0.98193359375
+        },
+        {
+          "word": " την",
+          "start": 4913.56,
+          "end": 4913.56,
+          "probability": 0.9921875
+        },
+        {
+          "word": " ευκαιρία",
+          "start": 4913.56,
+          "end": 4915.2,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " του",
+          "start": 4915.2,
+          "end": 4915.2,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " Θεού",
+          "start": 4915.2,
+          "end": 4915.44,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " και",
+          "start": 4915.44,
+          "end": 4915.44,
+          "probability": 0.93896484375
+        },
+        {
+          "word": " για",
+          "start": 4915.44,
+          "end": 4915.44,
+          "probability": 0.98486328125
+        },
+        {
+          "word": " την",
+          "start": 4915.44,
+          "end": 4915.44,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " ευκαιρία",
+          "start": 4915.44,
+          "end": 4915.44,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " του",
+          "start": 4915.44,
+          "end": 4915.44,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " Θεού",
+          "start": 4915.44,
+          "end": 4916.38,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " και",
+          "start": 4916.38,
+          "end": 4917.02,
+          "probability": 0.94482421875
+        },
+        {
+          "word": " για",
+          "start": 4917.02,
+          "end": 4917.22,
+          "probability": 0.986328125
+        },
+        {
+          "word": " την",
+          "start": 4917.22,
+          "end": 4917.56,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " ευκαιρία",
+          "start": 4917.56,
+          "end": 4918.32,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " του",
+          "start": 4918.32,
+          "end": 4918.56,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " Θεού",
+          "start": 4918.56,
+          "end": 4919.12,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " και",
+          "start": 4919.12,
+          "end": 4919.12,
+          "probability": 0.94970703125
+        },
+        {
+          "word": " για",
+          "start": 4919.12,
+          "end": 4919.18,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " την",
+          "start": 4919.18,
+          "end": 4919.18,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " ευκαιρία",
+          "start": 4919.18,
+          "end": 4919.9,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " του",
+          "start": 4919.9,
+          "end": 4919.98,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " Θεού",
+          "start": 4919.98,
+          "end": 4919.98,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " και",
+          "start": 4919.98,
+          "end": 4919.98,
+          "probability": 0.9541015625
+        },
+        {
+          "word": " για",
+          "start": 4919.98,
+          "end": 4919.98,
+          "probability": 0.9892578125
+        },
+        {
+          "word": " την",
+          "start": 4919.98,
+          "end": 4919.98,
+          "probability": 0.99658203125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 4948.56,
+      "end": 4949.96,
+      "text": "Alleluia.",
+      "temperature": 0.0,
+      "avg_logprob": -0.9139053480965751,
+      "compression_ratio": 0.5294117647058824,
+      "no_speech_prob": 0.8182962536811829,
+      "words": [
+        {
+          "word": " Alleluia.",
+          "start": 4948.56,
+          "end": 4949.96,
+          "probability": 0.59912109375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 4860.0,
+      "end": 4890.0,
+      "language": "en",
+      "seconds": 2.8261744999326766
+    },
+    {
+      "start": 4890.0,
+      "end": 4920.0,
+      "language": "el",
+      "seconds": 8.892248749965802
+    },
+    {
+      "start": 4920.0,
+      "end": 4950.0,
+      "language": "en",
+      "seconds": 1.961988833034411
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 90.0,
+    "inference_seconds": 13.684974665986374,
+    "decode_seconds": 0.14231200003996491,
+    "real_time_factor": 0.15205527406651526,
+    "speedup": 6.576555835626975,
+    "peak_memory_gb": 3.896347714,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ]
+}

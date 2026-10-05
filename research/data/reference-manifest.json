@@ -1,0 +1,126 @@
+[
+  {
+    "recording_id": "MIxJvLfaynY",
+    "file": "reference-MIxJvLfaynY.json",
+    "reference_id": "ref-e5432ce2789f102a2c0b",
+    "units": 850,
+    "sections": 99,
+    "selection": {
+      "recording_date": "2025-09-08",
+      "edition_date": "2026-09-08",
+      "status": "same_feast_substitute",
+      "calendar_url": "https://www.goarch.org/chapel?date=9%2F8%2F2025",
+      "caveat": "Exact 2025-09-08 DCS pages returned 404. This reference uses the 2026-09-08 Nativity of the Theotokos edition, including the full festal Matins canon. It is a same-feast substitute; local abbreviations and year-specific details remain unverified.",
+      "recording_date_independently_verified": false,
+      "unavailable_exact_sources": [
+        {
+          "url": "https://dcs.goarch.org/goa/dcs/h/s/2025/09/08/ma/gr-en/index.html",
+          "http_status": 404
+        },
+        {
+          "url": "https://dcs.goarch.org/goa/dcs/h/s/2025/09/08/li/gr-en/index.html",
+          "http_status": 404
+        }
+      ]
+    },
+    "source_urls": [
+      "https://dcs.goarch.org/goa/dcs/h/b/matinsordinary/normal/gr-en/index.html",
+      "https://dcs.goarch.org/goa/dcs/h/s/2026/09/08/ma3/gr-en/index.html",
+      "https://dcs.goarch.org/goa/dcs/h/s/2026/09/08/li/gr-en/index.html"
+    ]
+  },
+  {
+    "recording_id": "vkkeLmltf_4",
+    "file": "reference-vkkeLmltf_4.json",
+    "reference_id": "ref-90787017d67c2d4a68ec",
+    "units": 684,
+    "sections": 71,
+    "selection": {
+      "recording_date": "2025-12-14",
+      "edition_date": "2026-12-13",
+      "calendar_url": "https://www.goarch.org/chapel/calendar?month=12&viewStyle=GridView&viewType=ViewReadings&year=2025",
+      "status": "calendar_component_substitute",
+      "recording_date_independently_verified": false,
+      "mode": 2,
+      "eothinon": 5,
+      "matins_reading": "Luke 24:12–35",
+      "epistle": "Colossians 3:4–11",
+      "gospel": "Luke 14:16–24",
+      "tone_evidence_url": "https://bulletinbuilder.org/SNC-SanJose/current/20251214",
+      "reading_evidence_url": "https://www.goarch.org/chapel/calendar?month=12&viewStyle=GridView&viewType=ViewReadings&year=2025",
+      "caveat": "The exact 2025-12-14 DCS pages were unavailable. This composite retains the 2026-12-13 same-Sunday layout and feast propers, with official DCS Mode 2, Eothinon 5 (Luke 24:12–35), and same civil-date commemorations substituted. The 2025 GOARCH calendar and dated parish bulletin support these components. This is a documented reconstruction, not the exact 2025 book; local choices, omitted prayers, and hymn order remain unverified.",
+      "unavailable_exact_sources": [
+        {
+          "url": "https://dcs.goarch.org/goa/dcs/h/s/2025/12/14/ma/gr-en/index.html",
+          "http_status": 404
+        },
+        {
+          "url": "https://dcs.goarch.org/goa/dcs/h/s/2025/12/14/li/gr-en/index.html",
+          "http_status": 404
+        }
+      ]
+    },
+    "source_urls": [
+      "https://dcs.goarch.org/goa/dcs/h/b/matinsordinary/normal/gr-en/index.html",
+      "https://dcs.goarch.org/goa/dcs/h/s/2026/12/13/ma/gr-en/index.html",
+      "https://dcs.goarch.org/goa/dcs/h/s/2026/12/13/li/gr-en/index.html"
+    ]
+  },
+  {
+    "recording_id": "IuZ8WRk-POI",
+    "file": "reference-IuZ8WRk-POI.json",
+    "reference_id": "ref-a2abf5e81f50ecb36d4f",
+    "units": 668,
+    "sections": 69,
+    "selection": {
+      "recording_date": "2026-03-29",
+      "edition_date": "2026-03-29",
+      "status": "exact_calendar_date",
+      "calendar_url": "https://dcs.goarch.org/goa/dcs/dcs.html?date=2026-03-29",
+      "caveat": "The dated 2026-03-29 Matins and St. Basil Liturgy correspond to the recording title Sunday of St. Mary of Egypt. The service date is inferred from release/upload metadata and title; local omissions and spoken variants are not independently verified.",
+      "recording_date_independently_verified": false
+    },
+    "source_urls": [
+      "https://dcs.goarch.org/goa/dcs/h/b/matinsordinary/normal/gr-en/index.html",
+      "https://dcs.goarch.org/goa/dcs/h/s/2026/03/29/ma/gr-en/index.html",
+      "https://dcs.goarch.org/goa/dcs/h/s/2026/03/29/li/gr-en/index.html"
+    ]
+  },
+  {
+    "recording_id": "n674zECLjTI",
+    "file": "reference-n674zECLjTI.json",
+    "reference_id": "ref-36df35a72dd8e26d5bfb",
+    "units": 693,
+    "sections": 71,
+    "selection": {
+      "recording_date": "2025-12-28",
+      "edition_date": "2026-12-27",
+      "calendar_url": "https://www.goarch.org/chapel/calendar?month=12&viewStyle=GridView&viewType=ViewReadings&year=2025",
+      "status": "calendar_component_substitute",
+      "recording_date_independently_verified": false,
+      "mode": 4,
+      "eothinon": 7,
+      "matins_reading": "John 20:1–10",
+      "epistle": "Galatians 1:11–19",
+      "gospel": "Matthew 2:13–23",
+      "tone_evidence_url": "https://bulletinbuilder.org/stgeorgeocean/current/20251228",
+      "reading_evidence_url": "https://www.goarch.org/chapel/calendar?month=12&viewStyle=GridView&viewType=ViewReadings&year=2025",
+      "caveat": "The exact 2025-12-28 DCS pages were unavailable. This composite retains the 2026-12-27 same-Sunday layout and feast propers, with official DCS Mode 4, Eothinon 7 (John 20:1–10), and same civil-date commemorations substituted. The 2025 GOARCH calendar and dated parish bulletin support these components. This is a documented reconstruction, not the exact 2025 book; local choices, omitted prayers, and hymn order remain unverified. The Dec27 St Stephen propers are removed and Galatians 1:11–19 restored. The unverified prokeimenon is intentionally uncovered; minor daily hymn variants may still be missing.",
+      "unavailable_exact_sources": [
+        {
+          "url": "https://dcs.goarch.org/goa/dcs/h/s/2025/12/28/ma/gr-en/index.html",
+          "http_status": 404
+        },
+        {
+          "url": "https://dcs.goarch.org/goa/dcs/h/s/2025/12/28/li/gr-en/index.html",
+          "http_status": 404
+        }
+      ]
+    },
+    "source_urls": [
+      "https://dcs.goarch.org/goa/dcs/h/b/matinsordinary/normal/gr-en/index.html",
+      "https://dcs.goarch.org/goa/dcs/h/s/2026/12/27/ma/gr-en/index.html",
+      "https://dcs.goarch.org/goa/dcs/h/s/2026/12/27/li/gr-en/index.html"
+    ]
+  }
+]

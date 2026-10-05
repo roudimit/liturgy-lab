@@ -1,0 +1,557 @@
+{
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 5040,
+  "end": 5130.0,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 5040.0,
+      "end": 5042.82,
+      "text": "As they cry out to you.",
+      "temperature": 0.0,
+      "avg_logprob": -0.7223969372836027,
+      "compression_ratio": 1.3900709219858156,
+      "no_speech_prob": 1.439058733287979e-10,
+      "words": [
+        {
+          "word": " As",
+          "start": 5040.0,
+          "end": 5041.06,
+          "probability": 0.0171661376953125
+        },
+        {
+          "word": " they",
+          "start": 5041.06,
+          "end": 5041.3,
+          "probability": 0.96484375
+        },
+        {
+          "word": " cry",
+          "start": 5041.3,
+          "end": 5041.72,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " out",
+          "start": 5041.72,
+          "end": 5042.14,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " to",
+          "start": 5042.14,
+          "end": 5042.42,
+          "probability": 0.9921875
+        },
+        {
+          "word": " you.",
+          "start": 5042.42,
+          "end": 5042.82,
+          "probability": 0.8681640625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5043.36,
+      "end": 5048.18,
+      "text": "The bearing one bears the Theotokos.",
+      "temperature": 0.0,
+      "avg_logprob": -0.7223969372836027,
+      "compression_ratio": 1.3900709219858156,
+      "no_speech_prob": 1.439058733287979e-10,
+      "words": [
+        {
+          "word": " The",
+          "start": 5043.36,
+          "end": 5043.5,
+          "probability": 0.96435546875
+        },
+        {
+          "word": " bearing",
+          "start": 5043.5,
+          "end": 5044.32,
+          "probability": 0.8388671875
+        },
+        {
+          "word": " one",
+          "start": 5044.32,
+          "end": 5044.8,
+          "probability": 0.98193359375
+        },
+        {
+          "word": " bears",
+          "start": 5044.8,
+          "end": 5045.36,
+          "probability": 0.986328125
+        },
+        {
+          "word": " the",
+          "start": 5045.36,
+          "end": 5045.66,
+          "probability": 0.97802734375
+        },
+        {
+          "word": " Theotokos.",
+          "start": 5045.66,
+          "end": 5048.18,
+          "probability": 0.59912109375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5048.84,
+      "end": 5054.26,
+      "text": "The nourisher of our life.",
+      "temperature": 0.0,
+      "avg_logprob": -0.7223969372836027,
+      "compression_ratio": 1.3900709219858156,
+      "no_speech_prob": 1.439058733287979e-10,
+      "words": [
+        {
+          "word": " The",
+          "start": 5048.84,
+          "end": 5049.12,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " nourisher",
+          "start": 5049.12,
+          "end": 5050.16,
+          "probability": 0.9853515625
+        },
+        {
+          "word": " of",
+          "start": 5050.16,
+          "end": 5051.1,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " our",
+          "start": 5051.1,
+          "end": 5051.44,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " life.",
+          "start": 5051.44,
+          "end": 5054.26,
+          "probability": 0.724609375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 5057.66,
+      "end": 5059.72,
+      "text": "To Kyrieu Dei Thomen.",
+      "temperature": 0.0,
+      "avg_logprob": -0.7223969372836027,
+      "compression_ratio": 1.3900709219858156,
+      "no_speech_prob": 1.439058733287979e-10,
+      "words": [
+        {
+          "word": " To",
+          "start": 5057.66,
+          "end": 5057.88,
+          "probability": 0.3828125
+        },
+        {
+          "word": " Kyrieu",
+          "start": 5057.88,
+          "end": 5058.68,
+          "probability": 0.4404296875
+        },
+        {
+          "word": " Dei",
+          "start": 5058.68,
+          "end": 5059.04,
+          "probability": 0.253662109375
+        },
+        {
+          "word": " Thomen.",
+          "start": 5059.04,
+          "end": 5059.72,
+          "probability": 0.603515625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 5060.96,
+      "end": 5063.08,
+      "text": "To Kyrieu Dei Thomen.",
+      "temperature": 0.0,
+      "avg_logprob": -0.7223969372836027,
+      "compression_ratio": 1.3900709219858156,
+      "no_speech_prob": 1.439058733287979e-10,
+      "words": [
+        {
+          "word": " To",
+          "start": 5060.96,
+          "end": 5061.16,
+          "probability": 0.2235107421875
+        },
+        {
+          "word": " Kyrieu",
+          "start": 5061.16,
+          "end": 5061.96,
+          "probability": 0.82177734375
+        },
+        {
+          "word": " Dei",
+          "start": 5061.96,
+          "end": 5062.34,
+          "probability": 0.951171875
+        },
+        {
+          "word": " Thomen.",
+          "start": 5062.34,
+          "end": 5063.08,
+          "probability": 0.953125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 5063.58,
+      "end": 5066.0,
+      "text": "O Diagio, Sio Theos, Simon,",
+      "temperature": 0.0,
+      "avg_logprob": -0.7223969372836027,
+      "compression_ratio": 1.3900709219858156,
+      "no_speech_prob": 1.439058733287979e-10,
+      "words": [
+        {
+          "word": " O",
+          "start": 5063.58,
+          "end": 5063.96,
+          "probability": 0.45849609375
+        },
+        {
+          "word": " Diagio,",
+          "start": 5063.96,
+          "end": 5064.76,
+          "probability": 0.650390625
+        },
+        {
+          "word": " Sio",
+          "start": 5064.88,
+          "end": 5065.08,
+          "probability": 0.505859375
+        },
+        {
+          "word": " Theos,",
+          "start": 5065.08,
+          "end": 5065.74,
+          "probability": 0.65673828125
+        },
+        {
+          "word": " Simon,",
+          "start": 5065.76,
+          "end": 5066.0,
+          "probability": 0.35888671875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 5066.0,
+      "end": 5068.56,
+      "text": "K'Essi, Thin Doxan, αναpempo men.",
+      "temperature": 0.0,
+      "avg_logprob": -0.7223969372836027,
+      "compression_ratio": 1.3900709219858156,
+      "no_speech_prob": 1.439058733287979e-10,
+      "words": [
+        {
+          "word": " K",
+          "start": 5066.0,
+          "end": 5066.26,
+          "probability": 0.166259765625
+        },
+        {
+          "word": "'Essi,",
+          "start": 5066.26,
+          "end": 5066.52,
+          "probability": 0.339111328125
+        },
+        {
+          "word": " Thin",
+          "start": 5066.6,
+          "end": 5066.72,
+          "probability": 0.5517578125
+        },
+        {
+          "word": " Doxan,",
+          "start": 5066.72,
+          "end": 5067.4,
+          "probability": 0.771484375
+        },
+        {
+          "word": " αναpempo",
+          "start": 5067.42,
+          "end": 5068.2,
+          "probability": 0.309814453125
+        },
+        {
+          "word": " men.",
+          "start": 5068.2,
+          "end": 5068.56,
+          "probability": 0.4423828125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 7,
+      "seek": 2856,
+      "start": 5068.56,
+      "end": 5069.98,
+      "text": "and the Holy Spirit.",
+      "temperature": 0.0,
+      "avg_logprob": -1.5241390466690063,
+      "compression_ratio": 0.7142857142857143,
+      "no_speech_prob": 2.9053859318395325e-10,
+      "words": [
+        {
+          "word": " and",
+          "start": 5068.56,
+          "end": 5068.94,
+          "probability": 0.0263519287109375
+        },
+        {
+          "word": " the",
+          "start": 5068.94,
+          "end": 5069.28,
+          "probability": 0.145751953125
+        },
+        {
+          "word": " Holy",
+          "start": 5069.28,
+          "end": 5069.54,
+          "probability": 0.059600830078125
+        },
+        {
+          "word": " Spirit.",
+          "start": 5069.54,
+          "end": 5069.98,
+          "probability": 0.78125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 5070.0,
+      "end": 5073.5,
+      "text": "και το Υιό και το Άγιο Πνεύμα την Είν και Αΐ",
+      "temperature": 0.0,
+      "avg_logprob": -0.4131770466649255,
+      "compression_ratio": 1.4408602150537635,
+      "no_speech_prob": 1.2067662147341451e-10,
+      "words": [
+        {
+          "word": " και",
+          "start": 5070.0,
+          "end": 5070.0,
+          "probability": 0.04620361328125
+        },
+        {
+          "word": " το",
+          "start": 5070.0,
+          "end": 5070.2,
+          "probability": 0.7861328125
+        },
+        {
+          "word": " Υιό",
+          "start": 5070.2,
+          "end": 5070.56,
+          "probability": 0.89013671875
+        },
+        {
+          "word": " και",
+          "start": 5070.56,
+          "end": 5070.76,
+          "probability": 0.92578125
+        },
+        {
+          "word": " το",
+          "start": 5070.76,
+          "end": 5070.96,
+          "probability": 0.9892578125
+        },
+        {
+          "word": " Άγιο",
+          "start": 5070.96,
+          "end": 5071.52,
+          "probability": 0.89013671875
+        },
+        {
+          "word": " Πνεύμα",
+          "start": 5071.52,
+          "end": 5072.2,
+          "probability": 0.9736328125
+        },
+        {
+          "word": " την",
+          "start": 5072.2,
+          "end": 5072.48,
+          "probability": 0.552734375
+        },
+        {
+          "word": " Είν",
+          "start": 5072.48,
+          "end": 5072.76,
+          "probability": 0.33203125
+        },
+        {
+          "word": " και",
+          "start": 5072.76,
+          "end": 5072.96,
+          "probability": 0.7880859375
+        },
+        {
+          "word": " Αΐ",
+          "start": 5072.96,
+          "end": 5073.5,
+          "probability": 0.54736328125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 5074.28,
+      "end": 5077.5,
+      "text": "και εις τους αιώνας των αιώνων",
+      "temperature": 0.0,
+      "avg_logprob": -0.4131770466649255,
+      "compression_ratio": 1.4408602150537635,
+      "no_speech_prob": 1.2067662147341451e-10,
+      "words": [
+        {
+          "word": " και",
+          "start": 5074.06,
+          "end": 5074.36,
+          "probability": 0.5498046875
+        },
+        {
+          "word": " εις",
+          "start": 5074.36,
+          "end": 5074.68,
+          "probability": 0.884765625
+        },
+        {
+          "word": " τους",
+          "start": 5074.68,
+          "end": 5074.78,
+          "probability": 0.94873046875
+        },
+        {
+          "word": " αιώνας",
+          "start": 5074.78,
+          "end": 5075.94,
+          "probability": 0.97412109375
+        },
+        {
+          "word": " των",
+          "start": 5075.94,
+          "end": 5076.08,
+          "probability": 0.55029296875
+        },
+        {
+          "word": " αιώνων",
+          "start": 5076.08,
+          "end": 5077.5,
+          "probability": 0.8720703125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 10,
+      "seek": 0,
+      "start": 5102.06,
+      "end": 5103.46,
+      "text": "Amém.",
+      "temperature": 0.0,
+      "avg_logprob": -0.581804116566976,
+      "compression_ratio": 0.42857142857142855,
+      "no_speech_prob": 3.7036529398903895e-10,
+      "words": [
+        {
+          "word": " Amém.",
+          "start": 5102.06,
+          "end": 5103.46,
+          "probability": 0.6669921875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "pt"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 5040.0,
+      "end": 5070.0,
+      "language": "en",
+      "seconds": 2.4124352920334786
+    },
+    {
+      "start": 5070.0,
+      "end": 5100.0,
+      "language": "el",
+      "seconds": 1.5717700831592083
+    },
+    {
+      "start": 5100.0,
+      "end": 5130.0,
+      "language": "pt",
+      "seconds": 1.233033875003457
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 90.0,
+    "inference_seconds": 5.227454042062163,
+    "decode_seconds": 0.14859795896336436,
+    "real_time_factor": 0.058082822689579594,
+    "speedup": 17.216794117332146,
+    "peak_memory_gb": 2.190781306,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ]
+}

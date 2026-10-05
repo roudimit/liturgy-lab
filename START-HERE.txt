@@ -1,48 +1,15 @@
-LITURGY LAB — SHAREABLE VIEWER
-October 1, 2026
+LITURGY LAB — VIEWER AND RESEARCH PACKAGE
 
-This package lets you explore five recordings alongside precomputed raw speech
-recognition transcripts, suggested section locations, and Greek/English service
-text. Nothing here runs an ASR model or LLM. Model output is experimental, not
-verified captions or a live assistive service. Section suggestions can be wrong
-or later than the actual start. See site/reports/ for findings and limitations.
+Extract the entire ZIP. On Mac double-click Start Viewer.command; on Windows
+double-click Start Viewer.cmd. Or run python3 run_viewer.py, then open
+http://127.0.0.1:8766/. No packages or model downloads are needed for viewing.
+Keep the terminal open. Control-C stops the viewer.
 
-QUICKEST TEXT-ONLY PREVIEW — NO INSTALLATION
-Unzip the package and open site/index.html in a browser. Text, search, section
-navigation and reference highlighting work directly from disk. For synchronized
-YouTube playback, use the local-server instructions below. 
+YouTube playback requires internet. The recordings are not bundled.
+Open reports/ for findings and help. The research/ folder contains the pipeline,
+tests, and saved experiment outputs; see its README for inference setup.
 
-LOCAL VIEWER — MAC / WINDOWS / LINUX
-1. Unzip the entire package; do not open it inside the ZIP preview.
-2. Install Python 3 from https://www.python.org/downloads/ if needed.
-   No Python packages, virtual environment, model weights or Apple GPU needed.
-3. On Mac: double-click Start Viewer.command. If opening the launcher is blocked,
-   open Terminal in this extracted folder and run: python3 run_viewer.py
-   On Windows: double-click Start Viewer.cmd, or run: py -3 run_viewer.py
-   On Linux: run: python3 run_viewer.py
-4. Open http://127.0.0.1:8766/ if the browser does not open automatically.
-5. Keep the terminal open. Control-C stops the viewer.
-   If port 8766 is busy: python3 run_viewer.py --port 8767
-
-VIDEO AND INTERNET
-The small ZIP does not contain the recordings. YouTube playback requires an
-internet connection and permission from the video owner to embed the recording.
-Press Play inside the video. Section buttons seek; subtitles/reference follow
-the player's actual time. Browser autoplay restrictions may require another Play.
-If YouTube is blocked, unavailable, or disallows embedding, Source recording
-opens its original page; playback in that separate tab will not synchronize here.
-Recordings are not included in this package.
-
-DATA AND PRIVACY
-The package includes only the chosen Turbo + sequence runs, their source
-provenance, and the reports. No saved human reviews, model weights, virtual
-environment, original private specification, credentials or local file paths
-are included. This is a read-only viewer; it does not save collaborator reviews.
-YouTube receives normal embedded-player requests. Transcripts stay in this
-static package; no recognition service is called. A public deployment makes the
-included text/predictions accessible to anyone. Source credits and date-reference
-caveats remain visible. Third-party content retains its original rights.
-
-PUBLISH TO GITHUB PAGES
-See PUBLISH-GITHUB-PAGES.txt. Only the CONTENTS of site/ go in your repository.
-The same files work on any static web host; no backend or API key is needed.
+The ZIP matches the GitHub repository except for the original Word specification
+in private/, which is ZIP-only. Never upload private/ to GitHub.
+Models, recordings, environments, caches, and private reviews are excluded.
+See README.md for details and PUBLISH-GITHUB-PAGES.txt for hosting.

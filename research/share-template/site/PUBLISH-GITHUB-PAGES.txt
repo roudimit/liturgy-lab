@@ -1,0 +1,38 @@
+PUBLISH THE STATIC VIEWER TO GITHUB PAGES
+
+1. Sign in to GitHub and create a new public repository, for example liturgy-lab.
+   GitHub Free supports Pages from public repositories. This publishes the
+   included text and predictions publicly; it does not publish your Mac project.
+
+2. Extract this ZIP. Open site/. Upload its CONTENTS to the repository root via
+   Add file > Upload files. Drag index.html, assets/, reports/ and START-HERE.txt
+   together, preserving the directories. Commit the upload to main.
+   Do NOT upload the ZIP itself or the outer liturgy-lab-share folder.
+   Do NOT upload the full research workspace, .venv, recordings, or model cache.
+   Include .nojekyll if your file picker shows hidden files. If it does not,
+   create a file called .nojekyll in the repository root with one blank line.
+   The export contains fewer than 100 files, each below the browser upload limit.
+
+3. In the repository, open Settings > Pages. Under Build and deployment:
+      Source: Deploy from a branch
+      Branch: main
+      Folder: / (root)
+   Click Save. Wait for the Pages deployment to finish. The URL will be:
+      https://YOUR-GITHUB-USERNAME.github.io/liturgy-lab/
+   The exact repository name determines the last part of that URL.
+
+4. Visit the published URL. Check all five recording selections, play YouTube,
+   seek with a section button, search the reference, and check source links.
+   Embedded playback depends on YouTube/network/video-owner settings. If a video
+   refuses embedding, the viewer explains the fallback; this is not a Pages error.
+
+5. To update later, replace the files with a fresh static export and commit.
+   Keep data and app files from the same export together. Relative URLs make
+   this site work under /liturgy-lab/ as well as at a domain root.
+
+Nothing has been published by this package. No GitHub token is included or needed
+in the page. The Python launcher is only for local preview, not for GitHub Pages.
+
+Official instructions:
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository

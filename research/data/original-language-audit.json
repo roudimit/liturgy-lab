@@ -1,0 +1,18 @@
+{
+  "original_suggestions": {
+    "Greek": 30,
+    "English_or_Latin": 26
+  },
+  "raw_segment_scripts": {
+    "Greek": 574,
+    "English_or_Latin": 379,
+    "other": 3
+  },
+  "warning_segments": 71,
+  "notes": [
+    "Counts from old service-gated Sept30-reference session, before new-reference alignment.",
+    "These are suggested associations, not human-verified correct matches.",
+    "Script labels describe ASR output; they are not ground truth audio-language labels.",
+    "Artifact warning rule applied to original text; older raw JSON predates asr_warnings fields."
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ZUMoL5VwJzw",
+    "title": "Dormition - Somerville, MA — 10th Sunday of Matthew (August 9, 2026)",
+    "session_file": "session-ZUMoL5VwJzw.json",
+    "media_file": "ZUMoL5VwJzw.mp4"
+  },
+  {
+    "id": "n674zECLjTI",
+    "title": "Dormition - Somerville, MA — Sunday After Nativity",
+    "session_file": "session-n674zECLjTI.json",
+    "media_file": "n674zECLjTI.mp4"
+  },
+  {
+    "id": "MIxJvLfaynY",
+    "title": "Assumption Greek Orthodox Church - Saint Clair Shores, Michigan — September 8, 2025",
+    "session_file": "session.json",
+    "media_file": "video.mp4"
+  },
+  {
+    "id": "vkkeLmltf_4",
+    "title": "Assumption Greek Orthodox Church - Saint Clair Shores, Michigan — 11th Sunday of Luke",
+    "session_file": "session-vkkeLmltf_4.json",
+    "media_file": "vkkeLmltf_4.mp4"
+  },
+  {
+    "id": "IuZ8WRk-POI",
+    "title": "Assumption Greek Orthodox Church - Saint Clair Shores, Michigan — Sunday of St. Mary of Egypt",
+    "session_file": "session-IuZ8WRk-POI.json",
+    "media_file": "IuZ8WRk-POI.mp4"
+  }
+]

@@ -1,0 +1,1898 @@
+{
+  "audit_type": "qualitative_text_only_no_audio_ground_truth",
+  "recording_id": "MIxJvLfaynY",
+  "reference_id": "ref-e5432ce2789f102a2c0b",
+  "reference_file": "reference-MIxJvLfaynY.json",
+  "reference_selection": {
+    "recording_date": "2025-09-08",
+    "edition_date": "2026-09-08",
+    "status": "same_feast_substitute",
+    "calendar_url": "https://www.goarch.org/chapel?date=9%2F8%2F2025",
+    "caveat": "Exact 2025-09-08 DCS pages returned 404. This reference uses the 2026-09-08 Nativity of the Theotokos edition, including the full festal Matins canon. It is a same-feast substitute; local abbreviations and year-specific details remain unverified.",
+    "recording_date_independently_verified": false,
+    "unavailable_exact_sources": [
+      {
+        "url": "https://dcs.goarch.org/goa/dcs/h/s/2025/09/08/ma/gr-en/index.html",
+        "http_status": 404
+      },
+      {
+        "url": "https://dcs.goarch.org/goa/dcs/h/s/2025/09/08/li/gr-en/index.html",
+        "http_status": 404
+      }
+    ]
+  },
+  "method": "Purposive language-stratified cases: Greek/English chant and priest speech, recurring replies and artifact-prone audio. Raw model text is preserved.",
+  "limits": [
+    "No audio was listened to or independently transcribed for this audit.",
+    "Canonical liturgical text is not an audio ground-truth transcript; local variants, omissions, language changes and translations are possible.",
+    "The same-feast reference is a later-year substitute. Date-specific readings and hymns need manual verification.",
+    "No WER, CER, accuracy ranking or calibrated confidence is claimed.",
+    "Polytonic versus monotonic accents and punctuation should be separated from missing, merged or substituted words.",
+    "An LLM or progression tracker can locate a passage without fixing the raw Greek transcription."
+  ],
+  "diagnostics": {
+    "turbo_original_full": {
+      "file": "turbo-full.json",
+      "model": "mlx-community/whisper-large-v3-turbo",
+      "metrics": {
+        "audio_seconds": 7667.8791875,
+        "inference_seconds": 606.718922750093,
+        "decode_seconds": 3.418358833063394,
+        "real_time_factor": 0.07912473682933767,
+        "speedup": 12.638272682749985,
+        "peak_memory_gb": 2.190781306,
+        "includes_model_load": true
+      },
+      "segment_count": 956,
+      "script_counts": {
+        "Other script / no letters": 3,
+        "Latin script (not necessarily English)": 380,
+        "Greek script": 502,
+        "Greek + Latin script": 71
+      },
+      "segments_with_warning_signals": 71,
+      "warning_signal_counts": {
+        "Possible subtitle/promotion artifact in ASR; listen to verify.": 71
+      },
+      "note": "Counts depend on segmentation and audio coverage. They are diagnostics, not accuracy or error rates; the full recording and 24-minute samples have different denominators."
+    },
+    "small": {
+      "file": "asr-compare-small.json",
+      "model": "mlx-community/whisper-small-mlx",
+      "metrics": {
+        "audio_seconds": 1440.0,
+        "inference_seconds": 65.6140279583633,
+        "speedup": 21.946526448792035,
+        "real_time_factor": 0.04556529719330785,
+        "peak_memory_gb": 1.229558694,
+        "includes_model_load": true
+      },
+      "segment_count": 242,
+      "script_counts": {
+        "Greek script": 107,
+        "Latin script (not necessarily English)": 132,
+        "Other script / no letters": 3
+      },
+      "segments_with_warning_signals": 0,
+      "warning_signal_counts": {},
+      "note": "Counts depend on segmentation and audio coverage. They are diagnostics, not accuracy or error rates; the full recording and 24-minute samples have different denominators."
+    },
+    "turbo": {
+      "file": "asr-compare-turbo.json",
+      "model": "mlx-community/whisper-large-v3-turbo",
+      "metrics": {
+        "audio_seconds": 1440.0,
+        "inference_seconds": 113.12106529367156,
+        "speedup": 12.729724532399354,
+        "real_time_factor": 0.07855629534282747,
+        "peak_memory_gb": 2.190781306,
+        "includes_model_load": true
+      },
+      "segment_count": 183,
+      "script_counts": {
+        "Greek script": 61,
+        "Greek + Latin script": 9,
+        "Latin script (not necessarily English)": 112,
+        "Other script / no letters": 1
+      },
+      "segments_with_warning_signals": 9,
+      "warning_signal_counts": {
+        "Possible subtitle/promotion artifact in ASR; listen to verify.": 9
+      },
+      "note": "Counts depend on segmentation and audio coverage. They are diagnostics, not accuracy or error rates; the full recording and 24-minute samples have different denominators."
+    },
+    "large-v3": {
+      "file": "asr-compare-large-v3.json",
+      "model": "mlx-community/whisper-large-v3-mlx",
+      "metrics": {
+        "audio_seconds": 1440.0,
+        "inference_seconds": 202.87269262294285,
+        "speedup": 7.098047457162554,
+        "real_time_factor": 0.14088381432148808,
+        "peak_memory_gb": 3.896347714,
+        "includes_model_load": true
+      },
+      "segment_count": 202,
+      "script_counts": {
+        "Greek + Latin script": 12,
+        "Greek script": 47,
+        "Latin script (not necessarily English)": 143
+      },
+      "segments_with_warning_signals": 12,
+      "warning_signal_counts": {
+        "Possible subtitle/promotion artifact in ASR; listen to verify.": 12
+      },
+      "note": "Counts depend on segmentation and audio coverage. They are diagnostics, not accuracy or error rates; the full recording and 24-minute samples have different denominators."
+    }
+  },
+  "cases": [
+    {
+      "id": "orthros_english_hymn",
+      "start": 1850,
+      "end": 1890,
+      "stratum": "English chant",
+      "service": "matins",
+      "needles": [
+        "εκ νεοτητος μου πολλα"
+      ],
+      "note": "The earlier Divine-Liturgy-only reference omitted this Matins hymn. Missing reference coverage must not be counted as an ASR error.",
+      "canonical_units": [
+        {
+          "id": "matins:u0165",
+          "index": 165,
+          "section_id": "matins:s016",
+          "section_title": "Antiphon 1",
+          "speaker": "Choir",
+          "greek": "Ἐκ νεότητός μου πολλὰ πολεμεῖ με πάθη· ἀλλ’ αὐτὸς ἀντιλαβοῦ, καὶ σῶσον Σωτήρ μου.",
+          "english": "From my youth, many passions war against me. O my Savior, I implore You, uphold me and save me.",
+          "kind": "spoken",
+          "source_row": 162,
+          "source_keys": [
+            "oc.m4.d1_en_US_goadedes|ocMA.Antiphon11.text",
+            "rubrical_en_US_dedes|ru.Twice",
+            "properties_en_US_goadedes|version.designation"
+          ],
+          "greek_source_keys": [
+            "oc.m4.d1_gr_GR_cog|ocMA.Antiphon11.text",
+            "rubrical_gr_GR_cog|ru.Twice"
+          ],
+          "english_source_keys": [
+            "oc.m4.d1_en_US_goadedes|ocMA.Antiphon11.text",
+            "rubrical_en_US_dedes|ru.Twice",
+            "properties_en_US_goadedes|version.designation"
+          ],
+          "service_index": 165,
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "source_unit_id": "u0068",
+          "source_id": "source-5dba91b347810a5a",
+          "source_url": "https://dcs.goarch.org/goa/dcs/h/s/2026/09/08/ma3/gr-en/index.html",
+          "source_date": "2026-09-08"
+        }
+      ],
+      "transcripts": {
+        "turbo_original_full": {
+          "rows": [
+            {
+              "id": 262,
+              "start": 1849.56,
+              "end": 1850.96,
+              "text": "Αμήν.",
+              "language": "el"
+            },
+            {
+              "id": 263,
+              "start": 1857.18,
+              "end": 1859.98,
+              "text": "Υπότιτλοι AUTHORWAVE",
+              "language": "el"
+            },
+            {
+              "id": 264,
+              "start": 1880.92,
+              "end": 1889.24,
+              "text": "From my youth many passions,",
+              "language": "en"
+            }
+          ],
+          "text": "Αμήν. Υπότιτλοι AUTHORWAVE From my youth many passions,",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "small": {
+          "rows": [
+            {
+              "id": 27,
+              "start": 1860.0,
+              "end": 1881.72,
+              "text": "ʻāp ʻolem ʻim ʻme ʻgāt ʻim ʻālā ʻt'os ʻan ʻila ʻuken ʻos ʻan ʻot ʻirmu ʻu.",
+              "language": "la"
+            },
+            {
+              "id": 28,
+              "start": 1888.58,
+              "end": 1889.98,
+              "text": "ḍᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃ�",
+              "language": "la"
+            }
+          ],
+          "text": "ʻāp ʻolem ʻim ʻme ʻgāt ʻim ʻālā ʻt'os ʻan ʻila ʻuken ʻos ʻan ʻot ʻirmu ʻu. ḍᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃᵃ�",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "turbo": {
+          "rows": [
+            {
+              "id": 19,
+              "start": 1849.56,
+              "end": 1850.96,
+              "text": "Αμήν.",
+              "language": "el"
+            },
+            {
+              "id": 20,
+              "start": 1857.18,
+              "end": 1859.98,
+              "text": "Υπότιτλοι AUTHORWAVE",
+              "language": "el"
+            },
+            {
+              "id": 21,
+              "start": 1880.92,
+              "end": 1889.24,
+              "text": "From my youth many passions,",
+              "language": "en"
+            }
+          ],
+          "text": "Αμήν. Υπότιτλοι AUTHORWAVE From my youth many passions,",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "large-v3": {
+          "rows": [
+            {
+              "id": 15,
+              "start": 1853.84,
+              "end": 1856.64,
+              "text": "Υπότιτλοι AUTHORWAVE",
+              "language": "el"
+            },
+            {
+              "id": 16,
+              "start": 1860.0,
+              "end": 1880.84,
+              "text": "Olami me pati, ala fosson mila, oi, et fosson sotirvus.",
+              "language": "la"
+            },
+            {
+              "id": 17,
+              "start": 1880.84,
+              "end": 1888.7,
+              "text": "From my youth many passions",
+              "language": "la"
+            }
+          ],
+          "text": "Υπότιτλοι AUTHORWAVE Olami me pati, ala fosson mila, oi, et fosson sotirvus. From my youth many passions",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        }
+      }
+    },
+    {
+      "id": "orthros_greek_hymn",
+      "start": 1950,
+      "end": 1980,
+      "stratum": "Greek chant",
+      "service": "matins",
+      "needles": [
+        "οι μισουντες σιων"
+      ],
+      "note": "Original Turbo has forms resembling 'Σκούντες Ιόνες κύνθητε'; canonical text reads 'Οἱ μισοῦντες Σιών, αἰσχύνθητε'. These differences extend beyond accent conventions; audio review is required to establish the spoken words.",
+      "canonical_units": [
+        {
+          "id": "matins:u0166",
+          "index": 166,
+          "section_id": "matins:s016",
+          "section_title": "Antiphon 1",
+          "speaker": "Choir",
+          "greek": "Οἱ μισοῦντες Σιών, αἰσχύνθητε ἀπὸ τοῦ Κυρίου· ὡς χόρτος γάρ, πυρὶ ἔσεσθε ἀπεξηραμμένοι.",
+          "english": "You who hate Zion, be shamed by the Lord; for you will be withered like grass in the fire.",
+          "kind": "spoken",
+          "source_row": 163,
+          "source_keys": [
+            "oc.m4.d1_en_US_goadedes|ocMA.Antiphon12.text",
+            "rubrical_en_US_dedes|ru.Twice",
+            "properties_en_US_goadedes|version.designation"
+          ],
+          "greek_source_keys": [
+            "oc.m4.d1_gr_GR_cog|ocMA.Antiphon12.text",
+            "rubrical_gr_GR_cog|ru.Twice"
+          ],
+          "english_source_keys": [
+            "oc.m4.d1_en_US_goadedes|ocMA.Antiphon12.text",
+            "rubrical_en_US_dedes|ru.Twice",
+            "properties_en_US_goadedes|version.designation"
+          ],
+          "service_index": 166,
+          "service_id": "matins",
+          "service_title": "Matins (Orthros)",
+          "source_unit_id": "u0069",
+          "source_id": "source-5dba91b347810a5a",
+          "source_url": "https://dcs.goarch.org/goa/dcs/h/s/2026/09/08/ma3/gr-en/index.html",
+          "source_date": "2026-09-08"
+        }
+      ],
+      "transcripts": {
+        "turbo_original_full": {
+          "rows": [
+            {
+              "id": 274,
+              "start": 1953.28,
+              "end": 1966.46,
+              "text": "Σκούντες Ιόνες κύνθητε από του Κυρίου",
+              "language": "el"
+            },
+            {
+              "id": 275,
+              "start": 1966.46,
+              "end": 1971.98,
+              "text": "ως χόρτος γαρπύρι.",
+              "language": "el"
+            },
+            {
+              "id": 276,
+              "start": 1977.6,
+              "end": 1979.98,
+              "text": "Υπότιτλοι AUTHORWAVE",
+              "language": "el"
+            }
+          ],
+          "text": "Σκούντες Ιόνες κύνθητε από του Κυρίου ως χόρτος γαρπύρι. Υπότιτλοι AUTHORWAVE",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "small": {
+          "rows": [
+            {
+              "id": 29,
+              "start": 1950.0,
+              "end": 1966.76,
+              "text": "Του νδεσίον εσχύθητε από του Κυρίου,",
+              "language": "el"
+            },
+            {
+              "id": 30,
+              "start": 1966.76,
+              "end": 1973.48,
+              "text": "ως χόρτος γαρπήρι.",
+              "language": "el"
+            },
+            {
+              "id": 31,
+              "start": 1973.82,
+              "end": 1979.98,
+              "text": "Εσ' εσ' θε, αμπέ...",
+              "language": "el"
+            }
+          ],
+          "text": "Του νδεσίον εσχύθητε από του Κυρίου, ως χόρτος γαρπήρι. Εσ' εσ' θε, αμπέ...",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "turbo": {
+          "rows": [
+            {
+              "id": 22,
+              "start": 1953.28,
+              "end": 1966.46,
+              "text": "Κούντες Ιόνες κύνθητε από του Κυρίου",
+              "language": "el"
+            },
+            {
+              "id": 23,
+              "start": 1966.46,
+              "end": 1971.98,
+              "text": "ως χόρτος γαρπύρι.",
+              "language": "el"
+            },
+            {
+              "id": 24,
+              "start": 1977.6,
+              "end": 1979.98,
+              "text": "Υπότιτλοι AUTHORWAVE",
+              "language": "el"
+            }
+          ],
+          "text": "Κούντες Ιόνες κύνθητε από του Κυρίου ως χόρτος γαρπύρι. Υπότιτλοι AUTHORWAVE",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "large-v3": {
+          "rows": [
+            {
+              "id": 18,
+              "start": 1950.0,
+              "end": 1962.46,
+              "text": "Suntes ion eschinti te apoi tu,",
+              "language": "la"
+            },
+            {
+              "id": 19,
+              "start": 1964.58,
+              "end": 1978.52,
+              "text": "Suciriu, os hortos garpiri, es est e aperit.",
+              "language": "la"
+            }
+          ],
+          "text": "Suntes ion eschinti te apoi tu, Suciriu, os hortos garpiri, es est e aperit.",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        }
+      }
+    },
+    {
+      "id": "opening_blessing",
+      "start": 4410,
+      "end": 4440,
+      "stratum": "Greek priest speech",
+      "service": "liturgy",
+      "needles": [
+        "ευλογημενη η βασιλεια",
+        "εν ειρηνη του κυριου δεηθωμεν",
+        "υπερ της ανωθεν ειρηνης"
+      ],
+      "note": "The prayer remains recognizable despite spelling and word-boundary differences. Compare canonical 'νῦν καὶ ἀεὶ καὶ εἰς' with the original Turbo's compressed 'νυν και αϊκέης'.",
+      "canonical_units": [
+        {
+          "id": "liturgy:u0001",
+          "index": 482,
+          "section_id": "liturgy:s000",
+          "section_title": "Opening blessing and Peace Litany",
+          "speaker": "Priest",
+          "greek": "Εὐλογημένη ἡ βασιλεία τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ ἁγίου Πνεύματος, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "Blessed is the kingdom of the Father and the Son and the Holy Spirit, now and ever and to the ages of ages.",
+          "kind": "spoken",
+          "source_row": 47,
+          "source_keys": [
+            "prayers_en_US_goa|pr.enarxis02.text"
+          ],
+          "greek_source_keys": [
+            "prayers_gr_US_goa|pr.enarxis02.text"
+          ],
+          "english_source_keys": [
+            "prayers_en_US_goa|pr.enarxis02.text"
+          ],
+          "service_index": 1,
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "source_unit_id": "u0001",
+          "source_id": "source-4cf088bbc63952c6",
+          "source_url": "https://dcs.goarch.org/goa/dcs/h/s/2026/09/08/li/gr-en/index.html",
+          "source_date": "2026-09-08"
+        },
+        {
+          "id": "liturgy:u0005",
+          "index": 486,
+          "section_id": "liturgy:s000",
+          "section_title": "Opening blessing and Peace Litany",
+          "speaker": "Deacon",
+          "greek": "Ὑπὲρ τῆς ἄνωθεν εἰρήνης καὶ τῆς σωτηρίας τῶν ψυχῶν ἡμῶν τοῦ Κυρίου δεηθῶμεν.",
+          "english": "For the peace from above and for the salvation of our souls, let us pray to the Lord.",
+          "kind": "spoken",
+          "source_row": 55,
+          "source_keys": [
+            "prayers_en_US_goa|pr.pet02.text"
+          ],
+          "greek_source_keys": [
+            "prayers_gr_US_goa|pr.pet02.text"
+          ],
+          "english_source_keys": [
+            "prayers_en_US_goa|pr.pet02.text"
+          ],
+          "service_index": 5,
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "source_unit_id": "u0005",
+          "source_id": "source-4cf088bbc63952c6",
+          "source_url": "https://dcs.goarch.org/goa/dcs/h/s/2026/09/08/li/gr-en/index.html",
+          "source_date": "2026-09-08"
+        }
+      ],
+      "transcripts": {
+        "turbo_original_full": {
+          "rows": [
+            {
+              "id": 515,
+              "start": 4411.84,
+              "end": 4421.42,
+              "text": "Ευλογημένη βασιλεία του Πατρός και του Υιού και του Αγιού Πνεύματος, νυν και αϊκέης τους αιώνας των αιώνων,",
+              "language": "el"
+            },
+            {
+              "id": 516,
+              "start": 4423.22,
+              "end": 4436.84,
+              "text": "εν ειρήνη του Κυρίου Δεηθώμες, υπέρ της ανώθεν ειρήνης και της σωτηριάς των ψυχών ημών του Κυρίου Δεηθώμες,",
+              "language": "el"
+            },
+            {
+              "id": 517,
+              "start": 4436.84,
+              "end": 4439.98,
+              "text": "Υπότιτλοι AUTHORWAVE",
+              "language": "el"
+            }
+          ],
+          "text": "Ευλογημένη βασιλεία του Πατρός και του Υιού και του Αγιού Πνεύματος, νυν και αϊκέης τους αιώνας των αιώνων, εν ειρήνη του Κυρίου Δεηθώμες, υπέρ της ανώθεν ειρήνης και της σωτηριάς των ψυχών ημών του Κυρίου Δεηθώμες, Υπότιτλοι AUTHORWAVE",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "small": {
+          "rows": [
+            {
+              "id": 56,
+              "start": 4411.74,
+              "end": 4421.44,
+              "text": "Εμπλογημένη βασιλία του Πατρός και του Ιού και του Αιού Πνεύματος, νυν και αίκαις τους αιώνας των αιώνων.",
+              "language": "el"
+            },
+            {
+              "id": 57,
+              "start": 4423.08,
+              "end": 4436.42,
+              "text": "Τε νυρήνι του Κυρίου Δεϊθόμε, υπέρτισαν ο Θερήνς και της οτηρίας των ψυχών ημών του Κυρίου Δεϊθόμε.",
+              "language": "el"
+            }
+          ],
+          "text": "Εμπλογημένη βασιλία του Πατρός και του Ιού και του Αιού Πνεύματος, νυν και αίκαις τους αιώνας των αιώνων. Τε νυρήνι του Κυρίου Δεϊθόμε, υπέρτισαν ο Θερήνς και της οτηρίας των ψυχών ημών του Κυρίου Δεϊθόμε.",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "turbo": {
+          "rows": [
+            {
+              "id": 46,
+              "start": 4411.72,
+              "end": 4421.42,
+              "text": "Ευλογημένη βασιλεία του Πατρός και του Υιού και του Αγιού Πνεύματος, νυν και αϊκέης τους αιώνας των αιώνων,",
+              "language": "el"
+            },
+            {
+              "id": 47,
+              "start": 4423.22,
+              "end": 4436.84,
+              "text": "εν ειρήνη του Κυρίου Δεηθώμεν, υπέρ της ανώθεν ειρήνης και της σωτηριάς των ψυχών ημών του Κυρίου Δεηθώμεν,",
+              "language": "el"
+            },
+            {
+              "id": 48,
+              "start": 4436.84,
+              "end": 4439.98,
+              "text": "Υπότιτλοι AUTHORWAVE",
+              "language": "el"
+            }
+          ],
+          "text": "Ευλογημένη βασιλεία του Πατρός και του Υιού και του Αγιού Πνεύματος, νυν και αϊκέης τους αιώνας των αιώνων, εν ειρήνη του Κυρίου Δεηθώμεν, υπέρ της ανώθεν ειρήνης και της σωτηριάς των ψυχών ημών του Κυρίου Δεηθώμεν, Υπότιτλοι AUTHORWAVE",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "large-v3": {
+          "rows": [
+            {
+              "id": 54,
+              "start": 4411.54,
+              "end": 4417.06,
+              "text": "Ευλογημένη Βασιλεία του Πατρός και του Υιού και του Αγίου Πνεύματος",
+              "language": "el"
+            },
+            {
+              "id": 55,
+              "start": 4417.06,
+              "end": 4421.1,
+              "text": "νυν και αηκέις τους αιώνας των αιώνων",
+              "language": "el"
+            },
+            {
+              "id": 56,
+              "start": 4421.1,
+              "end": 4425.54,
+              "text": "εν ειρήνη του Κυρίου δεηθώ με",
+              "language": "el"
+            },
+            {
+              "id": 57,
+              "start": 4429.9,
+              "end": 4436.26,
+              "text": "υπέρ της άνωθεν ειρήνης και της σωτηρίας των ψυχών ημών του Κυρίου δεηθώ με",
+              "language": "el"
+            },
+            {
+              "id": 58,
+              "start": 4436.26,
+              "end": 4439.12,
+              "text": "Υπότιτλοι AUTHORWAVE",
+              "language": "el"
+            }
+          ],
+          "text": "Ευλογημένη Βασιλεία του Πατρός και του Υιού και του Αγίου Πνεύματος νυν και αηκέις τους αιώνας των αιώνων εν ειρήνη του Κυρίου δεηθώ με υπέρ της άνωθεν ειρήνης και της σωτηρίας των ψυχών ημών του Κυρίου δεηθώ με Υπότιτλοι AUTHORWAVE",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        }
+      }
+    },
+    {
+      "id": "great_litany",
+      "start": 4440,
+      "end": 4470,
+      "stratum": "Greek priest speech",
+      "service": "liturgy",
+      "needles": [
+        "ειρηνης του συμπαντος",
+        "αγιου οικου τουτου"
+      ],
+      "note": "Original Turbo's 'σήμαντος κόσμα εφταθίας' differs from 'σύμπαντος κόσμου, εὐσταθείας'. A successful section match can coexist with visibly degraded Greek words.",
+      "canonical_units": [
+        {
+          "id": "liturgy:u0007",
+          "index": 488,
+          "section_id": "liturgy:s000",
+          "section_title": "Opening blessing and Peace Litany",
+          "speaker": "Deacon",
+          "greek": "Ὑπὲρ τῆς εἰρήνης τοῦ σύμπαντος κόσμου, εὐσταθείας τῶν ἁγίων τοῦ Θεοῦ Ἐκκλησιῶν καὶ τῆς τῶν πάντων ἑνώσεως τοῦ Κυρίου δεηθῶμεν.",
+          "english": "For the peace of the whole world, for the stability of the holy churches of God, and for the unity of all, let us pray to the Lord.",
+          "kind": "spoken",
+          "source_row": 58,
+          "source_keys": [
+            "prayers_en_US_goa|pr.pet03.text"
+          ],
+          "greek_source_keys": [
+            "prayers_gr_US_goa|pr.pet03.text"
+          ],
+          "english_source_keys": [
+            "prayers_en_US_goa|pr.pet03.text"
+          ],
+          "service_index": 7,
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "source_unit_id": "u0007",
+          "source_id": "source-4cf088bbc63952c6",
+          "source_url": "https://dcs.goarch.org/goa/dcs/h/s/2026/09/08/li/gr-en/index.html",
+          "source_date": "2026-09-08"
+        },
+        {
+          "id": "liturgy:u0009",
+          "index": 490,
+          "section_id": "liturgy:s000",
+          "section_title": "Opening blessing and Peace Litany",
+          "speaker": "Deacon",
+          "greek": "Ὑπὲρ τοῦ ἁγίου οἴκου τούτου καὶ τῶν μετὰ πίστεως, εὐλαβείας καὶ φόβου Θεοῦ εἰσιόντων ἐν αὐτῷ, τοῦ Κυρίου δεηθῶμεν.",
+          "english": "For this holy house and for those who enter it with faith, reverence, and the fear of God, let us pray to the Lord.",
+          "kind": "spoken",
+          "source_row": 61,
+          "source_keys": [
+            "prayers_en_US_goa|pr.pet04.text"
+          ],
+          "greek_source_keys": [
+            "prayers_gr_US_goa|pr.pet04.text"
+          ],
+          "english_source_keys": [
+            "prayers_en_US_goa|pr.pet04.text"
+          ],
+          "service_index": 9,
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "source_unit_id": "u0009",
+          "source_id": "source-4cf088bbc63952c6",
+          "source_url": "https://dcs.goarch.org/goa/dcs/h/s/2026/09/08/li/gr-en/index.html",
+          "source_date": "2026-09-08"
+        }
+      ],
+      "transcripts": {
+        "turbo_original_full": {
+          "rows": [
+            {
+              "id": 518,
+              "start": 4441.4,
+              "end": 4452.04,
+              "text": "Υπέρ της ειρηνής του σήμαντος κόσμα εφταθίας των Αγίων του Θεού εκκλησιών και της των πάντων ενός αιώσ του Κυρίου δε ηθόμεν.",
+              "language": "el"
+            },
+            {
+              "id": 519,
+              "start": 4456.22,
+              "end": 4466.98,
+              "text": "Υπέρ του Αγίου οίκου τούτου και των μεταπίστεως ευλαβίας και φόβου Θεού ισιόντων εν αυτό του Κυρίου δε ηθόμεν.",
+              "language": "el"
+            },
+            {
+              "id": 520,
+              "start": 4466.98,
+              "end": 4469.98,
+              "text": "Υπότιτλοι AUTHORWAVE",
+              "language": "el"
+            }
+          ],
+          "text": "Υπέρ της ειρηνής του σήμαντος κόσμα εφταθίας των Αγίων του Θεού εκκλησιών και της των πάντων ενός αιώσ του Κυρίου δε ηθόμεν. Υπέρ του Αγίου οίκου τούτου και των μεταπίστεως ευλαβίας και φόβου Θεού ισιόντων εν αυτό του Κυρίου δε ηθόμεν. Υπότιτλοι AUTHORWAVE",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "small": {
+          "rows": [
+            {
+              "id": 58,
+              "start": 4441.78,
+              "end": 4452.12,
+              "text": "Υπερτισί την ίρστος σύμματος κόσμου εφταθίας των Αγίων του Θεού εκκλησίων και της των πάντων ενώσεως του Κυρίου Δεϊθόμεν.",
+              "language": "el"
+            },
+            {
+              "id": 59,
+              "start": 4456.5,
+              "end": 4466.64,
+              "text": "Υπερ του Αγίου Ικουτού του και τον μεταπίστευσε βλαβιάς και φοβού Θεού Ισιών τον ενα αυτό του Κυρίου Δε είθομε.",
+              "language": "el"
+            }
+          ],
+          "text": "Υπερτισί την ίρστος σύμματος κόσμου εφταθίας των Αγίων του Θεού εκκλησίων και της των πάντων ενώσεως του Κυρίου Δεϊθόμεν. Υπερ του Αγίου Ικουτού του και τον μεταπίστευσε βλαβιάς και φοβού Θεού Ισιών τον ενα αυτό του Κυρίου Δε είθομε.",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "turbo": {
+          "rows": [
+            {
+              "id": 49,
+              "start": 4441.4,
+              "end": 4452.04,
+              "text": "Υπέρ της ειρηνής του σήμαντος κόσμα εφταθίας των Αγίων του Θεού εκκλησιών και της των πάντων ενός αιώσ του Κυρίου δε ηθόμεν.",
+              "language": "el"
+            },
+            {
+              "id": 50,
+              "start": 4456.22,
+              "end": 4466.98,
+              "text": "Υπέρ του Αγίου οίκου τούτου και των μεταπίστως ευλαβίας και φόβου Θεού ισιόντων εν αυτό του Κυρίου δε ηθόμεν.",
+              "language": "el"
+            },
+            {
+              "id": 51,
+              "start": 4466.98,
+              "end": 4469.98,
+              "text": "Υπότιτλοι AUTHORWAVE",
+              "language": "el"
+            }
+          ],
+          "text": "Υπέρ της ειρηνής του σήμαντος κόσμα εφταθίας των Αγίων του Θεού εκκλησιών και της των πάντων ενός αιώσ του Κυρίου δε ηθόμεν. Υπέρ του Αγίου οίκου τούτου και των μεταπίστως ευλαβίας και φόβου Θεού ισιόντων εν αυτό του Κυρίου δε ηθόμεν. Υπότιτλοι AUTHORWAVE",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "large-v3": {
+          "rows": [
+            {
+              "id": 59,
+              "start": 4441.12,
+              "end": 4451.92,
+              "text": "Υπέρ της ειρηνής του σύμπαντος κόσμου ευταθείας των Αγίων του Θεού Εκκλησιών και της των πάντων ενώσεως του Κυρίου δεηθόμεν.",
+              "language": "el"
+            },
+            {
+              "id": 60,
+              "start": 4452.16,
+              "end": 4455.8,
+              "text": "Κύριε ελέησο.",
+              "language": "el"
+            },
+            {
+              "id": 61,
+              "start": 4456.72,
+              "end": 4466.88,
+              "text": "Υπέρ του Αγίου οικουτούτου και των μεταπίστευσε βλαβείας και φόβου Θεού Ιησιώδων εν αυτό του Κυρίου δεηθόμεν.",
+              "language": "el"
+            },
+            {
+              "id": 62,
+              "start": 4466.88,
+              "end": 4469.32,
+              "text": "Υπότιτλοι AUTHORWAVE",
+              "language": "el"
+            }
+          ],
+          "text": "Υπέρ της ειρηνής του σύμπαντος κόσμου ευταθείας των Αγίων του Θεού Εκκλησιών και της των πάντων ενώσεως του Κυρίου δεηθόμεν. Κύριε ελέησο. Υπέρ του Αγίου οικουτούτου και των μεταπίστευσε βλαβείας και φόβου Θεού Ιησιώδων εν αυτό του Κυρίου δεηθόμεν. Υπότιτλοι AUTHORWAVE",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        }
+      }
+    },
+    {
+      "id": "small_litany_doxology",
+      "start": 4680,
+      "end": 4710,
+      "stratum": "Greek priest speech / transition",
+      "service": "liturgy",
+      "needles": [
+        "οτι σον το κρατος"
+      ],
+      "note": "Recurring doxologies occur in several services. Recognition of their words does not establish which occurrence is being performed.",
+      "canonical_units": [
+        {
+          "id": "liturgy:u0051",
+          "index": 532,
+          "section_id": "liturgy:s002",
+          "section_title": "Small Litany",
+          "speaker": "Priest (Aloud)",
+          "greek": "Ὅτι σὸν τὸ κράτος καὶ σοῦ ἐστιν ἡ βασιλεία καὶ ἡ δύναμις καὶ ἡ δόξα, τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ ἁγίου Πνεύματος, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+          "english": "For Yours is the dominion, and Yours is the kingdom and the power and the glory, of the Father and the Son and the Holy Spirit, now and ever and to the ages of ages.",
+          "kind": "spoken",
+          "source_row": 125,
+          "source_keys": [
+            "prayers_en_US_goa|pr.exc02.text"
+          ],
+          "greek_source_keys": [
+            "prayers_gr_US_goa|pr.exc02.text"
+          ],
+          "english_source_keys": [
+            "prayers_en_US_goa|pr.exc02.text"
+          ],
+          "service_index": 51,
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "source_unit_id": "u0051",
+          "source_id": "source-4cf088bbc63952c6",
+          "source_url": "https://dcs.goarch.org/goa/dcs/h/s/2026/09/08/li/gr-en/index.html",
+          "source_date": "2026-09-08"
+        }
+      ],
+      "transcripts": {
+        "turbo_original_full": {
+          "rows": [
+            {
+              "id": 560,
+              "start": 4680.0,
+              "end": 4686.62,
+              "text": "εαυτούς και αλληλούς και πάσαν την ζωή νημών Χριστώ το Θεό παραθώμεθα",
+              "language": "el"
+            },
+            {
+              "id": 561,
+              "start": 4690.52,
+              "end": 4700.06,
+              "text": "οτι σώτο κράτος και σου εστίν η βασιλεία και η δύναμις και η δόξα του Πατρός και του Υιού και του Αγίου Πνεύματος",
+              "language": "el"
+            },
+            {
+              "id": 562,
+              "start": 4700.06,
+              "end": 4704.26,
+              "text": "νυν και αηκέις τους αιώνας των αιώνων",
+              "language": "el"
+            },
+            {
+              "id": 563,
+              "start": 4704.26,
+              "end": 4709.98,
+              "text": "Αμήν, όμως ο Κύριος το Δάβιδ αλήθεια και ούστη αλήθεια",
+              "language": "el"
+            }
+          ],
+          "text": "εαυτούς και αλληλούς και πάσαν την ζωή νημών Χριστώ το Θεό παραθώμεθα οτι σώτο κράτος και σου εστίν η βασιλεία και η δύναμις και η δόξα του Πατρός και του Υιού και του Αγίου Πνεύματος νυν και αηκέις τους αιώνας των αιώνων Αμήν, όμως ο Κύριος το Δάβιδ αλήθεια και ούστη αλήθεια",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "small": {
+          "rows": [
+            {
+              "id": 67,
+              "start": 4680.74,
+              "end": 4686.82,
+              "text": "Εαυτούς και αλληλούς και πας αντιτζουίνει μόνο Χριστό το Θεό παραθόμεθα.",
+              "language": "el"
+            },
+            {
+              "id": 68,
+              "start": 4686.94,
+              "end": 4690.24,
+              "text": "Τι κυρίες!",
+              "language": "el"
+            },
+            {
+              "id": 69,
+              "start": 4690.92,
+              "end": 4700.06,
+              "text": "Ότι σ' όντω κράτος και σου εις την Ιυασσυλία και η δυναμής και η δόξα του Πατρός και του Ιού και του Αιού Πνεύματος",
+              "language": "el"
+            },
+            {
+              "id": 70,
+              "start": 4700.06,
+              "end": 4703.9,
+              "text": "νυν και αϊκές τους αιώνας τον αιώνο.",
+              "language": "el"
+            },
+            {
+              "id": 71,
+              "start": 4705.14,
+              "end": 4709.98,
+              "text": "Παμήν, όμως εκεί ο Ιωστον Δαβιδαλήθι, αν σε ούσνει...",
+              "language": "el"
+            }
+          ],
+          "text": "Εαυτούς και αλληλούς και πας αντιτζουίνει μόνο Χριστό το Θεό παραθόμεθα. Τι κυρίες! Ότι σ' όντω κράτος και σου εις την Ιυασσυλία και η δυναμής και η δόξα του Πατρός και του Ιού και του Αιού Πνεύματος νυν και αϊκές τους αιώνας τον αιώνο. Παμήν, όμως εκεί ο Ιωστον Δαβιδαλήθι, αν σε ούσνει...",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "turbo": {
+          "rows": [
+            {
+              "id": 54,
+              "start": 4680.0,
+              "end": 4686.62,
+              "text": "εαυτούς και αλληλούς και πάσαν την ζωή νημών Χριστώ το Θεό παραθώμεθα",
+              "language": "el"
+            },
+            {
+              "id": 55,
+              "start": 4690.52,
+              "end": 4700.06,
+              "text": "οτι σώτο κράτος και σου εστίν η βασιλεία και η δύναμις και η δόξα του Πατρός και του Υιού και του Αγίου Πνεύματος",
+              "language": "el"
+            },
+            {
+              "id": 56,
+              "start": 4700.06,
+              "end": 4704.26,
+              "text": "νυν και αηκέις τους αιώνας των αιώνων",
+              "language": "el"
+            },
+            {
+              "id": 57,
+              "start": 4704.26,
+              "end": 4709.98,
+              "text": "Αμήν, όμως ο Κύριος το Δάβιδ αλήθεια και ούστη αλήθεια",
+              "language": "el"
+            }
+          ],
+          "text": "εαυτούς και αλληλούς και πάσαν την ζωή νημών Χριστώ το Θεό παραθώμεθα οτι σώτο κράτος και σου εστίν η βασιλεία και η δύναμις και η δόξα του Πατρός και του Υιού και του Αγίου Πνεύματος νυν και αηκέις τους αιώνας των αιώνων Αμήν, όμως ο Κύριος το Δάβιδ αλήθεια και ούστη αλήθεια",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "large-v3": {
+          "rows": [
+            {
+              "id": 65,
+              "start": 4680.0,
+              "end": 4686.16,
+              "text": "εαυτούς και αλληλούς και πάσαν την ζωή νοιμών Χριστώ το Θεό παραθώμεθα",
+              "language": "el"
+            },
+            {
+              "id": 66,
+              "start": 4686.8,
+              "end": 4695.54,
+              "text": "ότι σώτο κράτος και σου εστίν η βασιλεία και οι δύναμεις",
+              "language": "el"
+            },
+            {
+              "id": 67,
+              "start": 4695.54,
+              "end": 4699.92,
+              "text": "και η δόξα του Πατρός και του Υιού και του Αγίου Πνεύματος",
+              "language": "el"
+            },
+            {
+              "id": 68,
+              "start": 4699.92,
+              "end": 4704.16,
+              "text": "νυν και αηκέης τους αιώνας των αιώνων",
+              "language": "el"
+            },
+            {
+              "id": 69,
+              "start": 4704.16,
+              "end": 4705.76,
+              "text": "Αμήν.",
+              "language": "el"
+            }
+          ],
+          "text": "εαυτούς και αλληλούς και πάσαν την ζωή νοιμών Χριστώ το Θεό παραθώμεθα ότι σώτο κράτος και σου εστίν η βασιλεία και οι δύναμεις και η δόξα του Πατρός και του Υιού και του Αγίου Πνεύματος νυν και αηκέης τους αιώνας των αιώνων Αμήν.",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        }
+      }
+    },
+    {
+      "id": "english_feast_hymn",
+      "start": 4710,
+      "end": 4740,
+      "stratum": "English chant",
+      "service": "liturgy",
+      "needles": [
+        "εκ καρπου της κοιλιας σου",
+        "σωσον ημας υιε θεου"
+      ],
+      "note": "Feast-specific antiphon material was absent from the original September 30 reference. The updated same-feast reference reduces that coverage mismatch; it is still from a different year.",
+      "canonical_units": [
+        {
+          "id": "liturgy:u0055",
+          "index": 536,
+          "section_id": "liturgy:s003",
+          "section_title": "Antiphon 2",
+          "speaker": "Choir",
+          "greek": "Ἐκ καρποῦ τῆς κοιλίας σου θήσομαι ἐπὶ τοῦ θρόνου σου.",
+          "english": "I shall set upon your throne one from the fruit of your loins.",
+          "kind": "spoken",
+          "source_row": 132,
+          "source_keys": [
+            "miscellanea_en_US_dedes|misc.vVerse2",
+            "menaion.verses_en_US_saas|psLI.m09.d08.antiphon2.v2.text"
+          ],
+          "greek_source_keys": [
+            "miscellanea_gr_GR_cog|misc.vVerse2",
+            "menaion.verses_gr_GR_cog|psLI.m09.d08.antiphon2.v2.text"
+          ],
+          "english_source_keys": [
+            "miscellanea_en_US_dedes|misc.vVerse2",
+            "menaion.verses_en_US_saas|psLI.m09.d08.antiphon2.v2.text"
+          ],
+          "service_index": 55,
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "source_unit_id": "u0055",
+          "source_id": "source-4cf088bbc63952c6",
+          "source_url": "https://dcs.goarch.org/goa/dcs/h/s/2026/09/08/li/gr-en/index.html",
+          "source_date": "2026-09-08"
+        },
+        {
+          "id": "liturgy:u0054",
+          "index": 535,
+          "section_id": "liturgy:s003",
+          "section_title": "Antiphon 2",
+          "speaker": "Choir",
+          "greek": "Σῶσον ἡμᾶς Υἱὲ Θεοῦ, ὁ ἐν ἁγίοις θαυμαστός, ψάλλοντάς σοι, Ἀλληλούϊα.",
+          "english": "Save us, O Son of God, who are wondrous in the saints. We sing to You, Alleluia.",
+          "kind": "spoken",
+          "source_row": 131,
+          "source_keys": [
+            "ho.ho07_en_US_goa|hoLI.Antiphon21.text",
+            "prayers_en_US_goa|pr.antiphon2.saints.text",
+            "ho.ho07_en_US_goa|hoLI.Antiphon22.text"
+          ],
+          "greek_source_keys": [
+            "ho.ho07_gr_US_goa|hoLI.Antiphon21.text",
+            "prayers_gr_US_goa|pr.antiphon2.saints.text",
+            "ho.ho07_gr_US_goa|hoLI.Antiphon22.text"
+          ],
+          "english_source_keys": [
+            "ho.ho07_en_US_goa|hoLI.Antiphon21.text",
+            "prayers_en_US_goa|pr.antiphon2.saints.text",
+            "ho.ho07_en_US_goa|hoLI.Antiphon22.text"
+          ],
+          "service_index": 54,
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "source_unit_id": "u0054",
+          "source_id": "source-4cf088bbc63952c6",
+          "source_url": "https://dcs.goarch.org/goa/dcs/h/s/2026/09/08/li/gr-en/index.html",
+          "source_date": "2026-09-08"
+        }
+      ],
+      "transcripts": {
+        "turbo_original_full": {
+          "rows": [
+            {
+              "id": 564,
+              "start": 4721.98,
+              "end": 4726.3,
+              "text": "I shall set upon your throne, one from the fruit of your loins.",
+              "language": "en"
+            },
+            {
+              "id": 565,
+              "start": 4726.94,
+              "end": 4731.66,
+              "text": "Save us, O Son of God, who are wondrous in the saints.",
+              "language": "en"
+            },
+            {
+              "id": 566,
+              "start": 4731.88,
+              "end": 4734.84,
+              "text": "We sing to you, Alleluia.",
+              "language": "en"
+            },
+            {
+              "id": 567,
+              "start": 4734.84,
+              "end": 4737.5,
+              "text": "There is a place where the Lord is coming from.",
+              "language": "en"
+            }
+          ],
+          "text": "I shall set upon your throne, one from the fruit of your loins. Save us, O Son of God, who are wondrous in the saints. We sing to you, Alleluia. There is a place where the Lord is coming from.",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "small": {
+          "rows": [
+            {
+              "id": 72,
+              "start": 4717.8,
+              "end": 4726.7,
+              "text": "I shall set upon your throne one from the fruit of your loins.",
+              "language": "en"
+            },
+            {
+              "id": 73,
+              "start": 4726.9,
+              "end": 4731.58,
+              "text": "Save us, O Son of God, who are wondrous in the saints.",
+              "language": "en"
+            },
+            {
+              "id": 74,
+              "start": 4731.94,
+              "end": 4734.82,
+              "text": "We sing to you, alleluia.",
+              "language": "en"
+            },
+            {
+              "id": 75,
+              "start": 4735.68,
+              "end": 4738.12,
+              "text": "Eki eksana telokera sto dabbin.",
+              "language": "en"
+            },
+            {
+              "id": 76,
+              "start": 4739.18,
+              "end": 4739.98,
+              "text": "Iti masalim.",
+              "language": "en"
+            }
+          ],
+          "text": "I shall set upon your throne one from the fruit of your loins. Save us, O Son of God, who are wondrous in the saints. We sing to you, alleluia. Eki eksana telokera sto dabbin. Iti masalim.",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "turbo": {
+          "rows": [
+            {
+              "id": 58,
+              "start": 4721.98,
+              "end": 4726.3,
+              "text": "I shall set upon your throne, one from the fruit of your loins.",
+              "language": "en"
+            },
+            {
+              "id": 59,
+              "start": 4726.94,
+              "end": 4731.66,
+              "text": "Save us, O Son of God, who are wondrous in the saints.",
+              "language": "en"
+            },
+            {
+              "id": 60,
+              "start": 4731.88,
+              "end": 4734.84,
+              "text": "We sing to you, Alleluia.",
+              "language": "en"
+            },
+            {
+              "id": 61,
+              "start": 4734.84,
+              "end": 4737.5,
+              "text": "There is a place where the Lord is coming from.",
+              "language": "en"
+            }
+          ],
+          "text": "I shall set upon your throne, one from the fruit of your loins. Save us, O Son of God, who are wondrous in the saints. We sing to you, Alleluia. There is a place where the Lord is coming from.",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "large-v3": {
+          "rows": [
+            {
+              "id": 70,
+              "start": 4721.66,
+              "end": 4726.08,
+              "text": "I shall set upon your throne one from the fruit of your loins.",
+              "language": "en"
+            },
+            {
+              "id": 71,
+              "start": 4726.44,
+              "end": 4731.46,
+              "text": "Save us, O Son of God, who are wondrous in the saints.",
+              "language": "en"
+            },
+            {
+              "id": 72,
+              "start": 4731.7,
+              "end": 4734.54,
+              "text": "We sing to you, Alleluia.",
+              "language": "en"
+            }
+          ],
+          "text": "I shall set upon your throne one from the fruit of your loins. Save us, O Son of God, who are wondrous in the saints. We sing to you, Alleluia.",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        }
+      }
+    },
+    {
+      "id": "english_anaphora",
+      "start": 6300,
+      "end": 6360,
+      "stratum": "English priest speech",
+      "service": "liturgy",
+      "needles": [
+        "πιετε εξ αυτου παντες"
+      ],
+      "note": "Compare recognizable English sacramental wording with the bilingual canonical text. Translation variants such as 'forgiveness' versus 'remission' are not automatically ASR errors.",
+      "canonical_units": [
+        {
+          "id": "liturgy:u0193",
+          "index": 674,
+          "section_id": "liturgy:s016",
+          "section_title": "Holy Anaphora",
+          "speaker": "Priest (Aloud)",
+          "greek": "Πίετε ἐξ αὐτοῦ πάντες· τοῦτό ἐστι τὸ Αἷμά μου, τὸ τῆς καινῆς διαθήκης, τὸ ὑπὲρ ὑμῶν καὶ πολλῶν ἐκχυνόμενον εἰς ἄφεσιν ἁμαρτιῶν.",
+          "english": "Drink of it, all of you; this is my blood of the new covenant, which is shed for you and for many for the remission of sins.",
+          "kind": "spoken",
+          "source_row": 416,
+          "source_keys": [
+            "eu.lichrysbasil_en_US_goa|euLI.Key1315.text"
+          ],
+          "greek_source_keys": [
+            "eu.lichrysbasil_gr_US_goa|euLI.Key1315.text"
+          ],
+          "english_source_keys": [
+            "eu.lichrysbasil_en_US_goa|euLI.Key1315.text"
+          ],
+          "service_index": 193,
+          "service_id": "liturgy",
+          "service_title": "Divine Liturgy of St. John Chrysostom",
+          "source_unit_id": "u0193",
+          "source_id": "source-4cf088bbc63952c6",
+          "source_url": "https://dcs.goarch.org/goa/dcs/h/s/2026/09/08/li/gr-en/index.html",
+          "source_date": "2026-09-08"
+        }
+      ],
+      "transcripts": {
+        "turbo_original_full": {
+          "rows": [
+            {
+              "id": 771,
+              "start": 6319.76,
+              "end": 6322.56,
+              "text": "Υπότιτλοι AUTHORWAVE",
+              "language": "el"
+            },
+            {
+              "id": 772,
+              "start": 6332.7,
+              "end": 6335.18,
+              "text": "Likewise, after supper, he took the cup, saying,",
+              "language": "en"
+            },
+            {
+              "id": 773,
+              "start": 6339.9,
+              "end": 6345.68,
+              "text": "Drink of it, all of you, this is my blood of the new covenant,",
+              "language": "en"
+            },
+            {
+              "id": 774,
+              "start": 6346.86,
+              "end": 6354.3,
+              "text": "shed for you and for many for the forgiveness of sins.",
+              "language": "en"
+            },
+            {
+              "id": 775,
+              "start": 6356.38,
+              "end": 6358.32,
+              "text": "Remembering therefore the saving command of the Savior",
+              "language": "en"
+            },
+            {
+              "id": 776,
+              "start": 6358.32,
+              "end": 6359.94,
+              "text": "All that came to pass for our sake the cross",
+              "language": "en"
+            }
+          ],
+          "text": "Υπότιτλοι AUTHORWAVE Likewise, after supper, he took the cup, saying, Drink of it, all of you, this is my blood of the new covenant, shed for you and for many for the forgiveness of sins. Remembering therefore the saving command of the Savior All that came to pass for our sake the cross",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "small": {
+          "rows": [
+            {
+              "id": 162,
+              "start": 6301.96,
+              "end": 6304.36,
+              "text": "και δεύτερος διεθνούς, όπως το Ιησάδιο Ιησάδιο,",
+              "language": "el"
+            },
+            {
+              "id": 163,
+              "start": 6304.96,
+              "end": 6305.6,
+              "text": "που έγινε να βοηθούν,",
+              "language": "el"
+            },
+            {
+              "id": 164,
+              "start": 6306.2,
+              "end": 6307.34,
+              "text": "να βοηθούν, να βοηθούν,",
+              "language": "el"
+            },
+            {
+              "id": 165,
+              "start": 6307.54,
+              "end": 6308.9,
+              "text": "να βοηθούν, να βοηθούν, να βοηθούν,",
+              "language": "el"
+            },
+            {
+              "id": 166,
+              "start": 6308.96,
+              "end": 6309.06,
+              "text": "να βοηθούν, να βοηθούν, να βοηθούν,",
+              "language": "el"
+            },
+            {
+              "id": 167,
+              "start": 6309.06,
+              "end": 6311.76,
+              "text": "να βοηθούν, να βοηθούν, να βοηθούν,",
+              "language": "el"
+            },
+            {
+              "id": 168,
+              "start": 6316.74,
+              "end": 6329.84,
+              "text": "να βοηθούν, να βοηθούν, να βοηθούν,",
+              "language": "el"
+            },
+            {
+              "id": 169,
+              "start": 6329.84,
+              "end": 6329.98,
+              "text": "Στο Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησού",
+              "language": "el"
+            },
+            {
+              "id": 170,
+              "start": 6332.58,
+              "end": 6335.16,
+              "text": "Likewise after supper he took the cup saying,",
+              "language": "en"
+            },
+            {
+              "id": 171,
+              "start": 6339.62,
+              "end": 6345.62,
+              "text": "Drink of it all of you, this is my blood of the new covenant,",
+              "language": "en"
+            },
+            {
+              "id": 172,
+              "start": 6346.9,
+              "end": 6353.44,
+              "text": "shed for you and for many for the forgiveness of sins.",
+              "language": "en"
+            },
+            {
+              "id": 173,
+              "start": 6356.02,
+              "end": 6358.32,
+              "text": "Remembering therefore the saving command of the Savior,",
+              "language": "en"
+            },
+            {
+              "id": 174,
+              "start": 6358.32,
+              "end": 6359.9,
+              "text": "or they can be passed for a safety cross.",
+              "language": "en"
+            }
+          ],
+          "text": "και δεύτερος διεθνούς, όπως το Ιησάδιο Ιησάδιο, που έγινε να βοηθούν, να βοηθούν, να βοηθούν, να βοηθούν, να βοηθούν, να βοηθούν, να βοηθούν, να βοηθούν, να βοηθούν, να βοηθούν, να βοηθούν, να βοηθούν, να βοηθούν, να βοηθούν, να βοηθούν, Στο Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησούς, το Ιησού Likewise after supper he took the cup saying, Drink of it all of you, this is my blood of the new covenant, shed for you and for many for the forgiveness of sins. Remembering therefore the saving command of the Savior, or they can be passed for a safety cross.",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "turbo": {
+          "rows": [
+            {
+              "id": 124,
+              "start": 6328.26,
+              "end": 6329.76,
+              "text": "Υπότιτλοι AUTHORWAVE",
+              "language": "el"
+            },
+            {
+              "id": 125,
+              "start": 6332.66,
+              "end": 6335.18,
+              "text": "Likewise, after supper, he took the cup, saying,",
+              "language": "en"
+            },
+            {
+              "id": 126,
+              "start": 6339.82,
+              "end": 6345.68,
+              "text": "Drink of it, all of you, this is my blood of the new covenant,",
+              "language": "en"
+            },
+            {
+              "id": 127,
+              "start": 6346.78,
+              "end": 6354.3,
+              "text": "shed for you and for many for the forgiveness of sins.",
+              "language": "en"
+            },
+            {
+              "id": 128,
+              "start": 6356.38,
+              "end": 6358.32,
+              "text": "Remembering therefore the saving command of the Savior",
+              "language": "en"
+            },
+            {
+              "id": 129,
+              "start": 6358.32,
+              "end": 6359.94,
+              "text": "All that came to pass for our sake the cross",
+              "language": "en"
+            }
+          ],
+          "text": "Υπότιτλοι AUTHORWAVE Likewise, after supper, he took the cup, saying, Drink of it, all of you, this is my blood of the new covenant, shed for you and for many for the forgiveness of sins. Remembering therefore the saving command of the Savior All that came to pass for our sake the cross",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "large-v3": {
+          "rows": [
+            {
+              "id": 142,
+              "start": 6301.2,
+              "end": 6303.58,
+              "text": "broke and gave it to his holy disciples",
+              "language": "en"
+            },
+            {
+              "id": 143,
+              "start": 6303.58,
+              "end": 6304.64,
+              "text": "and apostles saying",
+              "language": "en"
+            },
+            {
+              "id": 144,
+              "start": 6313.28,
+              "end": 6314.68,
+              "text": "Amen.",
+              "language": "en"
+            },
+            {
+              "id": 145,
+              "start": 6332.52,
+              "end": 6335.06,
+              "text": "Likewise after supper he took the cup saying",
+              "language": "en"
+            },
+            {
+              "id": 146,
+              "start": 6339.56,
+              "end": 6342.12,
+              "text": "Drink of it all of you",
+              "language": "en"
+            },
+            {
+              "id": 147,
+              "start": 6342.12,
+              "end": 6345.36,
+              "text": "This is my blood of the new covenant",
+              "language": "en"
+            },
+            {
+              "id": 148,
+              "start": 6346.58,
+              "end": 6349.46,
+              "text": "Shed for you and for many",
+              "language": "en"
+            },
+            {
+              "id": 149,
+              "start": 6349.46,
+              "end": 6353.46,
+              "text": "For the forgiveness of sin",
+              "language": "en"
+            },
+            {
+              "id": 150,
+              "start": 6356.0,
+              "end": 6358.26,
+              "text": "Remembering therefore the saving command of the Savior",
+              "language": "en"
+            },
+            {
+              "id": 151,
+              "start": 6358.26,
+              "end": 6359.82,
+              "text": "for all that came to pass for the sake of the cross.",
+              "language": "en"
+            }
+          ],
+          "text": "broke and gave it to his holy disciples and apostles saying Amen. Likewise after supper he took the cup saying Drink of it all of you This is my blood of the new covenant Shed for you and for many For the forgiveness of sin Remembering therefore the saving command of the Savior for all that came to pass for the sake of the cross.",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        }
+      }
+    },
+    {
+      "id": "late_artifacts",
+      "start": 7200,
+      "end": 7290,
+      "stratum": "Chant / possible low-information audio",
+      "service": null,
+      "needles": [],
+      "note": "Inspect repeated tokens, subtitle-credit boilerplate, language changes, or omissions. These are warning signals; their presence or absence does not by itself measure accuracy.",
+      "canonical_units": [],
+      "transcripts": {
+        "turbo_original_full": {
+          "rows": [
+            {
+              "id": 883,
+              "start": 7200.0,
+              "end": 7202.52,
+              "text": "your inheritance.",
+              "language": "en"
+            },
+            {
+              "id": 884,
+              "start": 7204.42,
+              "end": 7206.38,
+              "text": "We have seen the true",
+              "language": "en"
+            },
+            {
+              "id": 885,
+              "start": 7206.38,
+              "end": 7208.74,
+              "text": "life. We have received",
+              "language": "en"
+            },
+            {
+              "id": 886,
+              "start": 7208.74,
+              "end": 7210.5,
+              "text": "the heavenly spirit.",
+              "language": "en"
+            },
+            {
+              "id": 887,
+              "start": 7211.06,
+              "end": 7213.86,
+              "text": "We have the true faith.",
+              "language": "en"
+            },
+            {
+              "id": 888,
+              "start": 7214.08,
+              "end": 7216.94,
+              "text": "Worshiping the undivided Trinity.",
+              "language": "en"
+            },
+            {
+              "id": 889,
+              "start": 7218.0,
+              "end": 7220.46,
+              "text": "For the Trinity",
+              "language": "en"
+            },
+            {
+              "id": 890,
+              "start": 7220.46,
+              "end": 7222.2,
+              "text": "has said",
+              "language": "en"
+            },
+            {
+              "id": 891,
+              "start": 7222.2,
+              "end": 7223.44,
+              "text": "Amen.",
+              "language": "en"
+            },
+            {
+              "id": 892,
+              "start": 7237.08,
+              "end": 7238.48,
+              "text": "Αμήν.",
+              "language": "el"
+            },
+            {
+              "id": 893,
+              "start": 7283.88,
+              "end": 7286.68,
+              "text": "Υπότιτλοι AUTHORWAVE",
+              "language": "el"
+            }
+          ],
+          "text": "your inheritance. We have seen the true life. We have received the heavenly spirit. We have the true faith. Worshiping the undivided Trinity. For the Trinity has said Amen. Αμήν. Υπότιτλοι AUTHORWAVE",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "small": {
+          "rows": [
+            {
+              "id": 223,
+              "start": 7210.62,
+              "end": 7229.98,
+              "text": "Είχε δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δε",
+              "language": "el"
+            },
+            {
+              "id": 224,
+              "start": 7230.0,
+              "end": 7237.1,
+              "text": "Κάντο δεν είναι και αίκαις τους αιώνας των αιώνων,",
+              "language": "el"
+            },
+            {
+              "id": 225,
+              "start": 7239.04,
+              "end": 7246.54,
+              "text": "ορθεί με τα λαβόντες των Θεών Αγίων, Αθθανά των Αχράν, των Ζοπίων και Βρικτών του Κρήστου μυστηρίων,",
+              "language": "el"
+            },
+            {
+              "id": 226,
+              "start": 7247.06,
+              "end": 7250.46,
+              "text": "αξίως ευχαριστήσω με τον Κυρίο,",
+              "language": "el"
+            },
+            {
+              "id": 227,
+              "start": 7252.82,
+              "end": 7259.72,
+              "text": "αντιλαβούς όσον ελεήσον και διαφύλαξε νημάς ο Θεός της η χάρητης,",
+              "language": "el"
+            },
+            {
+              "id": 228,
+              "start": 7277.68,
+              "end": 7279.68,
+              "text": "We thank you, the Blessed Virgin.",
+              "language": "en"
+            }
+          ],
+          "text": "Είχε δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δεύτερος, δε Κάντο δεν είναι και αίκαις τους αιώνας των αιώνων, ορθεί με τα λαβόντες των Θεών Αγίων, Αθθανά των Αχράν, των Ζοπίων και Βρικτών του Κρήστου μυστηρίων, αξίως ευχαριστήσω με τον Κυρίο, αντιλαβούς όσον ελεήσον και διαφύλαξε νημάς ο Θεός της η χάρητης, We thank you, the Blessed Virgin.",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "turbo": {
+          "rows": [
+            {
+              "id": 152,
+              "start": 7200.0,
+              "end": 7202.54,
+              "text": "your inheritance.",
+              "language": "en"
+            },
+            {
+              "id": 153,
+              "start": 7204.42,
+              "end": 7206.42,
+              "text": "We have seen the true",
+              "language": "en"
+            },
+            {
+              "id": 154,
+              "start": 7206.42,
+              "end": 7208.74,
+              "text": "life. We have received",
+              "language": "en"
+            },
+            {
+              "id": 155,
+              "start": 7208.74,
+              "end": 7210.64,
+              "text": "the heavenly spirit.",
+              "language": "en"
+            },
+            {
+              "id": 156,
+              "start": 7211.06,
+              "end": 7213.12,
+              "text": "We have the true",
+              "language": "en"
+            },
+            {
+              "id": 157,
+              "start": 7213.12,
+              "end": 7215.16,
+              "text": "faith. Worshiping",
+              "language": "en"
+            },
+            {
+              "id": 158,
+              "start": 7215.16,
+              "end": 7216.94,
+              "text": "the undivided Trinity.",
+              "language": "en"
+            },
+            {
+              "id": 159,
+              "start": 7218.0,
+              "end": 7218.94,
+              "text": "For the",
+              "language": "en"
+            },
+            {
+              "id": 160,
+              "start": 7218.94,
+              "end": 7220.48,
+              "text": "Trinity",
+              "language": "en"
+            },
+            {
+              "id": 161,
+              "start": 7220.48,
+              "end": 7221.76,
+              "text": "has",
+              "language": "en"
+            },
+            {
+              "id": 162,
+              "start": 7221.76,
+              "end": 7222.48,
+              "text": "come.",
+              "language": "en"
+            },
+            {
+              "id": 163,
+              "start": 7224.34,
+              "end": 7225.04,
+              "text": "Amen.",
+              "language": "en"
+            },
+            {
+              "id": 164,
+              "start": 7237.08,
+              "end": 7238.48,
+              "text": "Αμήν.",
+              "language": "el"
+            },
+            {
+              "id": 165,
+              "start": 7283.88,
+              "end": 7286.68,
+              "text": "Υπότιτλοι AUTHORWAVE",
+              "language": "el"
+            }
+          ],
+          "text": "your inheritance. We have seen the true life. We have received the heavenly spirit. We have the true faith. Worshiping the undivided Trinity. For the Trinity has come. Amen. Αμήν. Υπότιτλοι AUTHORWAVE",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        },
+        "large-v3": {
+          "rows": [
+            {
+              "id": 174,
+              "start": 7200.0,
+              "end": 7202.18,
+              "text": "your inheritance.",
+              "language": "en"
+            },
+            {
+              "id": 175,
+              "start": 7204.12,
+              "end": 7206.2,
+              "text": "We have seen the true",
+              "language": "en"
+            },
+            {
+              "id": 176,
+              "start": 7206.2,
+              "end": 7208.58,
+              "text": "life. We have received",
+              "language": "en"
+            },
+            {
+              "id": 177,
+              "start": 7208.58,
+              "end": 7210.34,
+              "text": "the heavenly spirit.",
+              "language": "en"
+            },
+            {
+              "id": 178,
+              "start": 7211.0,
+              "end": 7212.28,
+              "text": "We have the true faith.",
+              "language": "en"
+            },
+            {
+              "id": 179,
+              "start": 7214.06,
+              "end": 7215.94,
+              "text": "Worshiping the undivided",
+              "language": "en"
+            },
+            {
+              "id": 180,
+              "start": 7217.12,
+              "end": 7217.54,
+              "text": "Trinity.",
+              "language": "en"
+            },
+            {
+              "id": 181,
+              "start": 7218.34,
+              "end": 7219.18,
+              "text": "For the Trinity",
+              "language": "en"
+            },
+            {
+              "id": 182,
+              "start": 7219.94,
+              "end": 7221.86,
+              "text": "has been",
+              "language": "en"
+            },
+            {
+              "id": 183,
+              "start": 7222.4,
+              "end": 7222.88,
+              "text": "found.",
+              "language": "en"
+            },
+            {
+              "id": 184,
+              "start": 7222.88,
+              "end": 7226.48,
+              "text": "for all you do",
+              "language": "en"
+            },
+            {
+              "id": 185,
+              "start": 7226.48,
+              "end": 7229.98,
+              "text": "for all you do",
+              "language": "en"
+            },
+            {
+              "id": 186,
+              "start": 7240.44,
+              "end": 7243.24,
+              "text": "Υπότιτλοι AUTHORWAVE",
+              "language": "el"
+            },
+            {
+              "id": 187,
+              "start": 7277.68,
+              "end": 7279.26,
+              "text": "We thank you, Lord, for your mercy.",
+              "language": "en"
+            },
+            {
+              "id": 188,
+              "start": 7283.84,
+              "end": 7286.98,
+              "text": "We thank you, Lord, for your mercy.",
+              "language": "en"
+            }
+          ],
+          "text": "your inheritance. We have seen the true life. We have received the heavenly spirit. We have the true faith. Worshiping the undivided Trinity. For the Trinity has been found. for all you do for all you do Υπότιτλοι AUTHORWAVE We thank you, Lord, for your mercy. We thank you, Lord, for your mercy.",
+          "fully_sampled": true,
+          "note": "Rows overlap the interval and can include boundary words. Empty/partial coverage must not be interpreted as a recognition failure."
+        }
+      }
+    }
+  ]
+}

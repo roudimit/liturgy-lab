@@ -1,0 +1,777 @@
+{
+  "model": "mlx-community/whisper-large-v3-mlx",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 1200,
+  "end": 1290.0,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 1227.18,
+      "end": 1229.98,
+      "text": "Υπότιτλοι AUTHORWAVE",
+      "temperature": 0.0,
+      "avg_logprob": -0.18633971214294434,
+      "compression_ratio": 0.7837837837837838,
+      "no_speech_prob": 0.7762241959571838,
+      "words": [
+        {
+          "word": " Υπότιτλοι",
+          "start": 1227.18,
+          "end": 1228.58,
+          "probability": 0.8779296875
+        },
+        {
+          "word": " AUTHORWAVE",
+          "start": 1228.58,
+          "end": 1229.98,
+          "probability": 0.9970703125
+        }
+      ],
+      "asr_warnings": [
+        "Possible subtitle/promotion artifact in ASR; listen to verify."
+      ],
+      "language": "el"
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1230.0,
+      "end": 1236.92,
+      "text": "Αντιλαμβούς όσων ελεήσων και διαφύλαξον ημάς ο Θεός της η χάρη Της",
+      "temperature": 0.0,
+      "avg_logprob": -0.22821947370256696,
+      "compression_ratio": 1.8540925266903914,
+      "no_speech_prob": 0.534229040145874,
+      "words": [
+        {
+          "word": " Αντιλαμβούς",
+          "start": 1230.0,
+          "end": 1231.4,
+          "probability": 0.68115234375
+        },
+        {
+          "word": " όσων",
+          "start": 1231.4,
+          "end": 1231.88,
+          "probability": 0.86669921875
+        },
+        {
+          "word": " ελεήσων",
+          "start": 1231.88,
+          "end": 1232.7,
+          "probability": 0.75439453125
+        },
+        {
+          "word": " και",
+          "start": 1232.7,
+          "end": 1232.92,
+          "probability": 0.91796875
+        },
+        {
+          "word": " διαφύλαξον",
+          "start": 1232.92,
+          "end": 1233.76,
+          "probability": 0.9423828125
+        },
+        {
+          "word": " ημάς",
+          "start": 1233.76,
+          "end": 1234.18,
+          "probability": 0.93505859375
+        },
+        {
+          "word": " ο",
+          "start": 1234.18,
+          "end": 1234.32,
+          "probability": 0.89892578125
+        },
+        {
+          "word": " Θεός",
+          "start": 1234.32,
+          "end": 1234.84,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " της",
+          "start": 1234.84,
+          "end": 1235.14,
+          "probability": 0.62353515625
+        },
+        {
+          "word": " η",
+          "start": 1235.14,
+          "end": 1235.36,
+          "probability": 0.923828125
+        },
+        {
+          "word": " χάρη",
+          "start": 1235.36,
+          "end": 1235.86,
+          "probability": 0.73828125
+        },
+        {
+          "word": " Της",
+          "start": 1235.86,
+          "end": 1236.92,
+          "probability": 0.87109375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 1236.92,
+      "end": 1238.28,
+      "text": "Κυρία Ελέησον",
+      "temperature": 0.0,
+      "avg_logprob": -0.22821947370256696,
+      "compression_ratio": 1.8540925266903914,
+      "no_speech_prob": 0.534229040145874,
+      "words": [
+        {
+          "word": " Κυρία",
+          "start": 1236.92,
+          "end": 1237.3,
+          "probability": 0.775390625
+        },
+        {
+          "word": " Ελέησον",
+          "start": 1237.3,
+          "end": 1238.28,
+          "probability": 0.80859375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 1238.28,
+      "end": 1245.08,
+      "text": "της Παραγίας Αχράντου υπερευλογημένης εν τόξου δεσποινήσιμον Θεοτόπου και υπαρθένου Μαρίας",
+      "temperature": 0.0,
+      "avg_logprob": -0.22821947370256696,
+      "compression_ratio": 1.8540925266903914,
+      "no_speech_prob": 0.534229040145874,
+      "words": [
+        {
+          "word": " της",
+          "start": 1238.28,
+          "end": 1238.84,
+          "probability": 0.48681640625
+        },
+        {
+          "word": " Παραγίας",
+          "start": 1238.84,
+          "end": 1239.5,
+          "probability": 0.8837890625
+        },
+        {
+          "word": " Αχράντου",
+          "start": 1239.5,
+          "end": 1240.36,
+          "probability": 0.8427734375
+        },
+        {
+          "word": " υπερευλογημένης",
+          "start": 1240.36,
+          "end": 1241.6,
+          "probability": 0.966796875
+        },
+        {
+          "word": " εν",
+          "start": 1241.6,
+          "end": 1241.72,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " τόξου",
+          "start": 1241.72,
+          "end": 1242.0,
+          "probability": 0.81640625
+        },
+        {
+          "word": " δεσποινήσιμον",
+          "start": 1242.0,
+          "end": 1243.02,
+          "probability": 0.8076171875
+        },
+        {
+          "word": " Θεοτόπου",
+          "start": 1243.02,
+          "end": 1243.88,
+          "probability": 0.92578125
+        },
+        {
+          "word": " και",
+          "start": 1243.88,
+          "end": 1244.08,
+          "probability": 0.97265625
+        },
+        {
+          "word": " υπαρθένου",
+          "start": 1244.08,
+          "end": 1244.7,
+          "probability": 0.76318359375
+        },
+        {
+          "word": " Μαρίας",
+          "start": 1244.7,
+          "end": 1245.08,
+          "probability": 0.953125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 1245.08,
+      "end": 1254.14,
+      "text": "με τα πάντα αγία μνημονεύσαντες εαυτούς και αλληλούς και πάσαν την ζωή νημόν Χριστό το Θεό παραθώμεθα",
+      "temperature": 0.0,
+      "avg_logprob": -0.22821947370256696,
+      "compression_ratio": 1.8540925266903914,
+      "no_speech_prob": 0.534229040145874,
+      "words": [
+        {
+          "word": " με",
+          "start": 1245.08,
+          "end": 1245.58,
+          "probability": 0.97607421875
+        },
+        {
+          "word": " τα",
+          "start": 1245.58,
+          "end": 1245.7,
+          "probability": 0.76513671875
+        },
+        {
+          "word": " πάντα",
+          "start": 1245.7,
+          "end": 1246.2,
+          "probability": 0.79345703125
+        },
+        {
+          "word": " αγία",
+          "start": 1246.2,
+          "end": 1246.86,
+          "probability": 0.51025390625
+        },
+        {
+          "word": " μνημονεύσαντες",
+          "start": 1246.86,
+          "end": 1248.14,
+          "probability": 0.916015625
+        },
+        {
+          "word": " εαυτούς",
+          "start": 1248.14,
+          "end": 1249.22,
+          "probability": 0.98583984375
+        },
+        {
+          "word": " και",
+          "start": 1249.22,
+          "end": 1249.26,
+          "probability": 0.89501953125
+        },
+        {
+          "word": " αλληλούς",
+          "start": 1249.26,
+          "end": 1249.84,
+          "probability": 0.9228515625
+        },
+        {
+          "word": " και",
+          "start": 1249.84,
+          "end": 1249.88,
+          "probability": 0.99609375
+        },
+        {
+          "word": " πάσαν",
+          "start": 1249.88,
+          "end": 1250.46,
+          "probability": 0.9697265625
+        },
+        {
+          "word": " την",
+          "start": 1250.46,
+          "end": 1250.76,
+          "probability": 0.8310546875
+        },
+        {
+          "word": " ζωή",
+          "start": 1250.76,
+          "end": 1251.12,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " νημόν",
+          "start": 1251.12,
+          "end": 1251.58,
+          "probability": 0.65478515625
+        },
+        {
+          "word": " Χριστό",
+          "start": 1251.58,
+          "end": 1252.16,
+          "probability": 0.9208984375
+        },
+        {
+          "word": " το",
+          "start": 1252.16,
+          "end": 1252.48,
+          "probability": 0.97314453125
+        },
+        {
+          "word": " Θεό",
+          "start": 1252.48,
+          "end": 1252.94,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " παραθώμεθα",
+          "start": 1252.94,
+          "end": 1254.14,
+          "probability": 0.91064453125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 1254.78,
+      "end": 1256.18,
+      "text": "Συ Κύριε",
+      "temperature": 0.0,
+      "avg_logprob": -0.22821947370256696,
+      "compression_ratio": 1.8540925266903914,
+      "no_speech_prob": 0.534229040145874,
+      "words": [
+        {
+          "word": " Συ",
+          "start": 1254.59,
+          "end": 1255.1,
+          "probability": 0.61181640625
+        },
+        {
+          "word": " Κύριε",
+          "start": 1255.1,
+          "end": 1256.18,
+          "probability": 0.990234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 6,
+      "seek": 2618,
+      "start": 1256.18,
+      "end": 1259.98,
+      "text": "Ότι πρέπει συμπάσα δόξα, τιμή και προσκύνη.",
+      "temperature": 0.0,
+      "avg_logprob": -0.2547883281001338,
+      "compression_ratio": 1.04,
+      "no_speech_prob": 0.8177791833877563,
+      "words": [
+        {
+          "word": " Ότι",
+          "start": 1256.18,
+          "end": 1256.98,
+          "probability": 0.7197265625
+        },
+        {
+          "word": " πρέπει",
+          "start": 1256.98,
+          "end": 1257.6,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " συμπάσα",
+          "start": 1257.6,
+          "end": 1258.24,
+          "probability": 0.625
+        },
+        {
+          "word": " δόξα,",
+          "start": 1258.24,
+          "end": 1258.82,
+          "probability": 0.96337890625
+        },
+        {
+          "word": " τιμή",
+          "start": 1258.86,
+          "end": 1259.22,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " και",
+          "start": 1259.22,
+          "end": 1259.4,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " προσκύνη.",
+          "start": 1259.4,
+          "end": 1259.98,
+          "probability": 0.8154296875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 1260.0,
+      "end": 1267.02,
+      "text": "Εις το Πατρί και το Υιό και το Άγιο Πνεύμα, την δίν και αηκέις τους αιώνας των αιώνων.",
+      "temperature": 0.0,
+      "avg_logprob": -0.2181957217230313,
+      "compression_ratio": 1.916279069767442,
+      "no_speech_prob": 0.7201746106147766,
+      "words": [
+        {
+          "word": " Εις",
+          "start": 1260.0,
+          "end": 1260.4,
+          "probability": 0.3056640625
+        },
+        {
+          "word": " το",
+          "start": 1260.4,
+          "end": 1260.8,
+          "probability": 0.71728515625
+        },
+        {
+          "word": " Πατρί",
+          "start": 1260.8,
+          "end": 1261.22,
+          "probability": 0.91162109375
+        },
+        {
+          "word": " και",
+          "start": 1261.22,
+          "end": 1261.52,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " το",
+          "start": 1261.52,
+          "end": 1261.68,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " Υιό",
+          "start": 1261.68,
+          "end": 1261.96,
+          "probability": 0.9853515625
+        },
+        {
+          "word": " και",
+          "start": 1261.96,
+          "end": 1262.2,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " το",
+          "start": 1262.2,
+          "end": 1262.3,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " Άγιο",
+          "start": 1262.3,
+          "end": 1262.76,
+          "probability": 0.99072265625
+        },
+        {
+          "word": " Πνεύμα,",
+          "start": 1262.76,
+          "end": 1263.4,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " την",
+          "start": 1263.42,
+          "end": 1263.54,
+          "probability": 0.76416015625
+        },
+        {
+          "word": " δίν",
+          "start": 1263.54,
+          "end": 1263.84,
+          "probability": 0.77880859375
+        },
+        {
+          "word": " και",
+          "start": 1263.84,
+          "end": 1263.98,
+          "probability": 0.427490234375
+        },
+        {
+          "word": " αηκέις",
+          "start": 1263.98,
+          "end": 1264.92,
+          "probability": 0.53125
+        },
+        {
+          "word": " τους",
+          "start": 1264.92,
+          "end": 1265.04,
+          "probability": 0.90478515625
+        },
+        {
+          "word": " αιώνας",
+          "start": 1265.04,
+          "end": 1265.96,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " των",
+          "start": 1265.96,
+          "end": 1266.02,
+          "probability": 0.998046875
+        },
+        {
+          "word": " αιώνων.",
+          "start": 1266.02,
+          "end": 1267.02,
+          "probability": 0.978515625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 1268.36,
+      "end": 1278.54,
+      "text": "Αμήν, Θεός Κυρίος και Επεφανένημην, ευλογημένος ο ερχόμενος εν ονόματι Κυρίου.",
+      "temperature": 0.0,
+      "avg_logprob": -0.2181957217230313,
+      "compression_ratio": 1.916279069767442,
+      "no_speech_prob": 0.7201746106147766,
+      "words": [
+        {
+          "word": " Αμήν,",
+          "start": 1268.36,
+          "end": 1269.2,
+          "probability": 0.994140625
+        },
+        {
+          "word": " Θεός",
+          "start": 1269.2,
+          "end": 1270.04,
+          "probability": 0.998046875
+        },
+        {
+          "word": " Κυρίος",
+          "start": 1270.04,
+          "end": 1271.0,
+          "probability": 0.8466796875
+        },
+        {
+          "word": " και",
+          "start": 1271.0,
+          "end": 1271.2,
+          "probability": 0.94140625
+        },
+        {
+          "word": " Επεφανένημην,",
+          "start": 1271.2,
+          "end": 1272.84,
+          "probability": 0.73583984375
+        },
+        {
+          "word": " ευλογημένος",
+          "start": 1272.84,
+          "end": 1274.18,
+          "probability": 0.9755859375
+        },
+        {
+          "word": " ο",
+          "start": 1274.18,
+          "end": 1274.3,
+          "probability": 0.87646484375
+        },
+        {
+          "word": " ερχόμενος",
+          "start": 1274.3,
+          "end": 1275.94,
+          "probability": 0.9052734375
+        },
+        {
+          "word": " εν",
+          "start": 1275.94,
+          "end": 1276.42,
+          "probability": 0.8330078125
+        },
+        {
+          "word": " ονόματι",
+          "start": 1276.42,
+          "end": 1277.24,
+          "probability": 0.96044921875
+        },
+        {
+          "word": " Κυρίου.",
+          "start": 1277.24,
+          "end": 1278.54,
+          "probability": 0.9990234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 1279.72,
+      "end": 1283.82,
+      "text": "Εξομολογήστε το Κυρίο και επικαλήστε το όνομα του Άγιον αυτού.",
+      "temperature": 0.0,
+      "avg_logprob": -0.2181957217230313,
+      "compression_ratio": 1.916279069767442,
+      "no_speech_prob": 0.7201746106147766,
+      "words": [
+        {
+          "word": " Εξομολογήστε",
+          "start": 1279.72,
+          "end": 1280.56,
+          "probability": 0.99609375
+        },
+        {
+          "word": " το",
+          "start": 1280.56,
+          "end": 1280.72,
+          "probability": 0.91064453125
+        },
+        {
+          "word": " Κυρίο",
+          "start": 1280.72,
+          "end": 1281.22,
+          "probability": 0.8779296875
+        },
+        {
+          "word": " και",
+          "start": 1281.22,
+          "end": 1281.38,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " επικαλήστε",
+          "start": 1281.38,
+          "end": 1282.14,
+          "probability": 0.927734375
+        },
+        {
+          "word": " το",
+          "start": 1282.14,
+          "end": 1282.28,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " όνομα",
+          "start": 1282.28,
+          "end": 1282.76,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " του",
+          "start": 1282.76,
+          "end": 1282.88,
+          "probability": 0.884765625
+        },
+        {
+          "word": " Άγιον",
+          "start": 1282.88,
+          "end": 1283.46,
+          "probability": 0.9345703125
+        },
+        {
+          "word": " αυτού.",
+          "start": 1283.46,
+          "end": 1283.82,
+          "probability": 0.92822265625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 10,
+      "seek": 2382,
+      "start": 1288.14,
+      "end": 1289.94,
+      "text": "Υπότιτλοι AUTHORWAVE",
+      "temperature": 0.0,
+      "avg_logprob": -0.09764901002248129,
+      "compression_ratio": 0.7837837837837838,
+      "no_speech_prob": 0.9139347076416016,
+      "words": [
+        {
+          "word": " Υπότιτλοι",
+          "start": 1288.14,
+          "end": 1289.54,
+          "probability": 0.935546875
+        },
+        {
+          "word": " AUTHORWAVE",
+          "start": 1289.54,
+          "end": 1289.94,
+          "probability": 0.99951171875
+        }
+      ],
+      "asr_warnings": [
+        "Possible subtitle/promotion artifact in ASR; listen to verify."
+      ],
+      "language": "el"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 1200.0,
+      "end": 1230.0,
+      "language": "el",
+      "seconds": 2.997458624886349
+    },
+    {
+      "start": 1230.0,
+      "end": 1260.0,
+      "language": "el",
+      "seconds": 6.26811308413744
+    },
+    {
+      "start": 1260.0,
+      "end": 1290.0,
+      "language": "el",
+      "seconds": 5.107932833023369
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 90.0,
+    "inference_seconds": 14.377338959136978,
+    "decode_seconds": 0.08610625006258488,
+    "real_time_factor": 0.15974821065707753,
+    "speedup": 6.259851023600155,
+    "peak_memory_gb": 3.750922398,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ]
+}

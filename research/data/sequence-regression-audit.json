@@ -1,0 +1,640 @@
+{
+  "alignment_version": 4,
+  "review_basis": "CPU inspection of emitted ASR text, canonical reference passages and sequence decisions; no human listening transcript or alignment ground truth.",
+  "changes": [
+    "Require positive service-specific evidence before an undetected Matins-to-Liturgy transition; common prayers cannot establish service identity.",
+    "Disallow large forward jumps supported only by common formulas or non-distinctive text.",
+    "Compute anchor distinctiveness against all units rather than only nearby alternatives.",
+    "Withhold one- and two-word partial fragments even between anchors.",
+    "Flag repeated long phrases with implausibly short duplicate timestamps and withhold locations.",
+    "Version 3 requires at least three meaningful words for a distinctive anchor; function-word-heavy fragments cannot trigger large jumps.",
+    "Version 4 prevents repeated common formulas from borrowing support across section boundaries or selecting between tied bracketing occurrences."
+  ],
+  "recordings": {
+    "n674zECLjTI": {
+      "reference_id": "ref-36df35a72dd8e26d5bfb",
+      "source_asr_file": "data/turbo-n674zECLjTI-hour1.json",
+      "coverage": {
+        "segments": 566,
+        "status_counts": {
+          "unknown": 153,
+          "uncertain": 238,
+          "matched": 175
+        },
+        "accepted_seconds": 757.76,
+        "distinct_units": 62,
+        "distinct_sections": 16
+      },
+      "service_breakdown": {
+        "matins": 151,
+        "liturgy": 24
+      },
+      "examples": [
+        {
+          "id": 65,
+          "start": 510.0,
+          "end": 517.7,
+          "text": "Both now and forever, until the ages of ages, amen.",
+          "match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.8955,
+            "status": "uncertain",
+            "method": "sequence",
+            "reason": "Lexical candidate conflicts with the supported chronology or lacks evidence",
+            "service_id": null,
+            "service_title": null
+          },
+          "sequence": {
+            "version": 4,
+            "block": 0,
+            "max_reverse_units": 3,
+            "path_unit_id": null,
+            "evidence_segment_ids": [],
+            "service_evidence": null,
+            "warnings": [],
+            "heuristic": true,
+            "independently_verified": false
+          }
+        },
+        {
+          "id": 80,
+          "start": 600.0,
+          "end": 604.4,
+          "text": "and protect us, O God, by your grace.",
+          "match": {
+            "unit_id": "matins:u0137",
+            "unit_index": 137,
+            "section_id": "matins:s014",
+            "section_title": "Resurrectional Evlogetaria",
+            "score": 1.0,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Text located between nearby distinctive sequence anchors",
+            "service_id": "matins",
+            "service_title": "Matins (Orthros)"
+          },
+          "sequence": {
+            "version": 4,
+            "block": 0,
+            "max_reverse_units": 3,
+            "path_unit_id": "matins:u0137",
+            "evidence_segment_ids": [
+              66,
+              84
+            ],
+            "service_evidence": null,
+            "warnings": [],
+            "heuristic": true,
+            "independently_verified": false
+          }
+        },
+        {
+          "id": 332,
+          "start": 1910.12,
+          "end": 1910.8,
+          "text": "May we have mercy on us and save us for His good.",
+          "match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.875,
+            "status": "uncertain",
+            "method": "sequence",
+            "reason": "Repeated long phrase with implausibly short duplicate timestamps; possible ASR repetition artifact",
+            "service_id": null,
+            "service_title": null
+          },
+          "sequence": {
+            "version": 4,
+            "block": 0,
+            "max_reverse_units": 3,
+            "path_unit_id": null,
+            "evidence_segment_ids": [],
+            "service_evidence": null,
+            "warnings": [
+              "implausible_repeated_phrase_timestamps"
+            ],
+            "heuristic": true,
+            "independently_verified": false
+          }
+        },
+        {
+          "id": 342,
+          "start": 1931.16,
+          "end": 1934.58,
+          "text": "The power of the precious and life-giving cross",
+          "match": {
+            "unit_id": "matins:u0239",
+            "unit_index": 239,
+            "section_id": "matins:s032",
+            "section_title": "Great Intercession",
+            "score": 1.0,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Text located between nearby distinctive sequence anchors",
+            "service_id": "matins",
+            "service_title": "Matins (Orthros)"
+          },
+          "sequence": {
+            "version": 4,
+            "block": 0,
+            "max_reverse_units": 3,
+            "path_unit_id": "matins:u0239",
+            "evidence_segment_ids": [
+              296,
+              343
+            ],
+            "service_evidence": null,
+            "warnings": [],
+            "heuristic": true,
+            "independently_verified": false
+          }
+        },
+        {
+          "id": 427,
+          "start": 2490.0,
+          "end": 2503.08,
+          "text": "of smoke is the Holy Spirit.",
+          "match": {
+            "unit_id": "matins:u0313",
+            "unit_index": 313,
+            "section_id": "matins:s040",
+            "section_title": "Idiomelon",
+            "score": 0.9167,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Distinctive text supports this position in the chronological path",
+            "service_id": "matins",
+            "service_title": "Matins (Orthros)"
+          },
+          "sequence": {
+            "version": 4,
+            "block": 0,
+            "max_reverse_units": 3,
+            "path_unit_id": "matins:u0313",
+            "evidence_segment_ids": [
+              427
+            ],
+            "service_evidence": "matins",
+            "warnings": [],
+            "heuristic": true,
+            "independently_verified": false
+          }
+        },
+        {
+          "id": 429,
+          "start": 2508.96,
+          "end": 2509.54,
+          "text": "Is",
+          "match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 1.0,
+            "status": "uncertain",
+            "method": "sequence",
+            "reason": "One- or two-word partial fragment cannot establish a text association",
+            "service_id": null,
+            "service_title": null
+          },
+          "sequence": {
+            "version": 4,
+            "block": 0,
+            "max_reverse_units": 3,
+            "path_unit_id": "matins:u0313",
+            "evidence_segment_ids": [],
+            "service_evidence": null,
+            "warnings": [],
+            "heuristic": true,
+            "independently_verified": false
+          }
+        },
+        {
+          "id": 506,
+          "start": 3226.8,
+          "end": 3234.18,
+          "text": "I will give thanks to you, O Lord, with my whole heart. I will tell of all your wondrous things.",
+          "match": {
+            "unit_id": "liturgy:u0033",
+            "unit_index": 374,
+            "section_id": "liturgy:s001",
+            "section_title": "Antiphon 1",
+            "score": 1.0,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Distinctive text supports this position in the chronological path",
+            "service_id": "liturgy",
+            "service_title": "Divine Liturgy of St. John Chrysostom"
+          },
+          "sequence": {
+            "version": 4,
+            "block": 0,
+            "max_reverse_units": 3,
+            "path_unit_id": "liturgy:u0033",
+            "evidence_segment_ids": [
+              506
+            ],
+            "service_evidence": "liturgy",
+            "warnings": [],
+            "heuristic": true,
+            "independently_verified": false
+          }
+        }
+      ]
+    },
+    "vkkeLmltf_4": {
+      "reference_id": "ref-90787017d67c2d4a68ec",
+      "source_asr_file": "data/turbo-vkkeLmltf_4-hour1.json",
+      "coverage": {
+        "segments": 769,
+        "status_counts": {
+          "unknown": 125,
+          "uncertain": 129,
+          "matched": 515
+        },
+        "accepted_seconds": 1945.62,
+        "distinct_units": 140,
+        "distinct_sections": 31
+      },
+      "service_breakdown": {
+        "matins": 515
+      },
+      "examples": [
+        {
+          "id": 140,
+          "start": 842.76,
+          "end": 847.5,
+          "text": "Ό,τι σου εστίνει η Βασιλεία και η δύναμης και η δόξα",
+          "match": {
+            "unit_id": "matins:u0011",
+            "unit_index": 11,
+            "section_id": "matins:s001",
+            "section_title": "Trisagion Prayers",
+            "score": 0.9418,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Text located between nearby distinctive sequence anchors",
+            "service_id": "matins",
+            "service_title": "Matins (Orthros)"
+          },
+          "sequence": {
+            "version": 4,
+            "block": 0,
+            "max_reverse_units": 3,
+            "path_unit_id": "matins:u0011",
+            "evidence_segment_ids": [
+              135,
+              143
+            ],
+            "service_evidence": null,
+            "warnings": [],
+            "heuristic": true,
+            "independently_verified": false
+          }
+        },
+        {
+          "id": 317,
+          "start": 1475.9,
+          "end": 1478.6,
+          "text": "In peace, let us pray to the Lord.",
+          "match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 1.0,
+            "status": "uncertain",
+            "method": "sequence",
+            "reason": "Insufficient sequence-supported text",
+            "service_id": null,
+            "service_title": null
+          },
+          "sequence": {
+            "version": 4,
+            "block": 0,
+            "max_reverse_units": 3,
+            "path_unit_id": "matins:u0069",
+            "evidence_segment_ids": [],
+            "service_evidence": null,
+            "warnings": [],
+            "heuristic": true,
+            "independently_verified": false
+          }
+        },
+        {
+          "id": 380,
+          "start": 1622.56,
+          "end": 1628.68,
+          "text": "Blessed is He who comes in the name of the Lord.",
+          "match": {
+            "unit_id": "matins:u0097",
+            "unit_index": 97,
+            "section_id": "matins:s010",
+            "section_title": "Matins",
+            "score": 1.0,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Text continues a nearby anchored passage",
+            "service_id": "matins",
+            "service_title": "Matins (Orthros)"
+          },
+          "sequence": {
+            "version": 4,
+            "block": 0,
+            "max_reverse_units": 3,
+            "path_unit_id": "matins:u0097",
+            "evidence_segment_ids": [
+              382
+            ],
+            "service_evidence": null,
+            "warnings": [],
+            "heuristic": true,
+            "independently_verified": false
+          }
+        },
+        {
+          "id": 669,
+          "start": 3230.1,
+          "end": 3232.04,
+          "text": "Have mercy on me, O God,",
+          "match": {
+            "unit_id": "matins:u0204",
+            "unit_index": 204,
+            "section_id": "matins:s030",
+            "section_title": "Psalm 50 (51)",
+            "score": 1.0,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Text located between nearby distinctive sequence anchors",
+            "service_id": "matins",
+            "service_title": "Matins (Orthros)"
+          },
+          "sequence": {
+            "version": 4,
+            "block": 0,
+            "max_reverse_units": 3,
+            "path_unit_id": "matins:u0204",
+            "evidence_segment_ids": [
+              667,
+              674
+            ],
+            "service_evidence": null,
+            "warnings": [],
+            "heuristic": true,
+            "independently_verified": false
+          }
+        },
+        {
+          "id": 720,
+          "start": 3441.06,
+          "end": 3441.84,
+          "text": "He.",
+          "match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 1.0,
+            "status": "uncertain",
+            "method": "sequence",
+            "reason": "One- or two-word partial fragment cannot establish a text association",
+            "service_id": null,
+            "service_title": null
+          },
+          "sequence": {
+            "version": 4,
+            "block": 0,
+            "max_reverse_units": 3,
+            "path_unit_id": "matins:u0229",
+            "evidence_segment_ids": [],
+            "service_evidence": null,
+            "warnings": [],
+            "heuristic": true,
+            "independently_verified": false
+          }
+        },
+        {
+          "id": 725,
+          "start": 3463.04,
+          "end": 3467.92,
+          "text": "Through the intercessions of our all-immaculate Lady Theotokos,",
+          "match": {
+            "unit_id": "matins:u0231",
+            "unit_index": 231,
+            "section_id": "matins:s031",
+            "section_title": "Great Intercession",
+            "score": 1.0,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Distinctive text supports this position in the chronological path",
+            "service_id": "matins",
+            "service_title": "Matins (Orthros)"
+          },
+          "sequence": {
+            "version": 4,
+            "block": 0,
+            "max_reverse_units": 3,
+            "path_unit_id": "matins:u0231",
+            "evidence_segment_ids": [
+              725
+            ],
+            "service_evidence": null,
+            "warnings": [],
+            "heuristic": true,
+            "independently_verified": false
+          }
+        }
+      ]
+    },
+    "MIxJvLfaynY": {
+      "reference_id": "ref-e5432ce2789f102a2c0b",
+      "coverage": {
+        "segments": 956,
+        "status_counts": {
+          "unknown": 249,
+          "uncertain": 286,
+          "matched": 421
+        },
+        "accepted_seconds": 2133.86,
+        "distinct_units": 144,
+        "distinct_sections": 49
+      },
+      "service_breakdown": {
+        "matins": 279,
+        "liturgy": 142
+      },
+      "late_address_start": 7455,
+      "accepted_late_address_segments": 0
+    }
+  },
+  "known_limitations": [
+    "Reference changes and alignment changes occurred together for the December recordings; increased coverage cannot be attributed to one alone.",
+    "Local sequence context can still propagate an incorrect distinctive-looking anchor.",
+    "Some common formulas remain associated only by bracketing context; exact occurrence timing is heuristic.",
+    "Selected reference pages are labelled substitutions, and residual calendar differences can leave correct ASR unmatched."
+  ],
+  "observed_old_failures": [
+    {
+      "recording_id": "n674zECLjTI",
+      "start": 510,
+      "previous_observation": "Generic doxology was assigned to Liturgy Trisagios during Matins.",
+      "current": "Location withheld."
+    },
+    {
+      "recording_id": "n674zECLjTI",
+      "start": 600,
+      "previous_observation": "Common protection petition was assigned to Liturgy Completion.",
+      "current": "Located within nearby Matins passage."
+    },
+    {
+      "recording_id": "n674zECLjTI",
+      "start": 1910.12,
+      "previous_observation": "Rapid identical long ASR repetitions were assigned to Final Dismissal.",
+      "current": "Implausible repetition warning; locations withheld."
+    },
+    {
+      "recording_id": "vkkeLmltf_4",
+      "start": 3230.1,
+      "previous_observation": "Psalm 50 opening was assigned to Liturgy Memorial appendix.",
+      "current": "Located at Matins Psalm 50."
+    }
+  ],
+  "large_v3_appendix_regression": {
+    "source_asr_file": "data/large-v3-full.json",
+    "previous_observation": "Version 2 falsely assigned in the kingdom of heaven to the Memorial appendix during the closing prayer.",
+    "current_rows": [
+      {
+        "id": 999,
+        "start": 7352.5,
+        "end": 7353.66,
+        "text": "in the kingdom of heaven,",
+        "match": {
+          "unit_id": null,
+          "unit_index": null,
+          "section_id": null,
+          "section_title": null,
+          "score": 0.9208,
+          "status": "uncertain",
+          "method": "sequence",
+          "reason": "Insufficient sequence-supported text",
+          "service_id": null,
+          "service_title": null
+        },
+        "sequence": {
+          "version": 4,
+          "block": 1,
+          "max_reverse_units": 3,
+          "path_unit_id": "liturgy:u0349",
+          "evidence_segment_ids": [],
+          "service_evidence": null,
+          "warnings": [],
+          "heuristic": true,
+          "independently_verified": false
+        }
+      },
+      {
+        "id": 1000,
+        "start": 7354.04,
+        "end": 7354.32,
+        "text": "and in the kingdom of heaven.",
+        "match": {
+          "unit_id": null,
+          "unit_index": null,
+          "section_id": null,
+          "section_title": null,
+          "score": 0.8522,
+          "status": "uncertain",
+          "method": "sequence",
+          "reason": "Insufficient sequence-supported text",
+          "service_id": null,
+          "service_title": null
+        },
+        "sequence": {
+          "version": 4,
+          "block": 1,
+          "max_reverse_units": 3,
+          "path_unit_id": "liturgy:u0349",
+          "evidence_segment_ids": [],
+          "service_evidence": null,
+          "warnings": [],
+          "heuristic": true,
+          "independently_verified": false
+        }
+      }
+    ],
+    "remaining_memorial_associations": 0
+  },
+  "cross_section_boilerplate_regression": {
+    "recording_id": "n674zECLjTI",
+    "previous_observations": [
+      "3595.24s shared doxology selected Small Entrance before its distinctive prayer began.",
+      "6960s shared doxology selected Memorial based on the nearby later final blessing."
+    ],
+    "current_rows": [
+      {
+        "id": 564,
+        "start": 3595.24,
+        "end": 3598.04,
+        "text": "και το Υιό πνεύματι την Κυαή",
+        "match": {
+          "unit_id": null,
+          "unit_index": null,
+          "section_id": null,
+          "section_title": null,
+          "score": 0.8079,
+          "status": "uncertain",
+          "method": "sequence",
+          "reason": "Insufficient sequence-supported text",
+          "service_id": null,
+          "service_title": null
+        },
+        "sequence": {
+          "version": 4,
+          "block": 0,
+          "max_reverse_units": 3,
+          "path_unit_id": "liturgy:u0082",
+          "evidence_segment_ids": [],
+          "service_evidence": null,
+          "warnings": [],
+          "heuristic": true,
+          "independently_verified": false
+        }
+      },
+      {
+        "id": 1237,
+        "start": 6960.0,
+        "end": 6963.2,
+        "text": "now and forever and to the ages of ages.",
+        "match": {
+          "unit_id": null,
+          "unit_index": null,
+          "section_id": null,
+          "section_title": null,
+          "score": 0.9624,
+          "status": "uncertain",
+          "method": "sequence",
+          "reason": "Insufficient sequence-supported text",
+          "service_id": null,
+          "service_title": null
+        },
+        "sequence": {
+          "version": 4,
+          "block": 0,
+          "max_reverse_units": 3,
+          "path_unit_id": "liturgy:u0339",
+          "evidence_segment_ids": [],
+          "service_evidence": null,
+          "warnings": [],
+          "heuristic": true,
+          "independently_verified": false
+        }
+      }
+    ]
+  },
+  "reference_correction_note": "December28 corrected to ref-36df35a72dd8e26d5bfb on both Matins/Liturgy Mode4 apolytikion; matcher remains v4."
+}

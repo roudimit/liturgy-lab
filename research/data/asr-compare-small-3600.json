@@ -1,0 +1,845 @@
+{
+  "model": "mlx-community/whisper-small-mlx",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 3600,
+  "end": 3690.0,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 3628.58,
+      "end": 3629.98,
+      "text": "Ṭi pīgīt Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi Ṭi �",
+      "temperature": 0.0,
+      "avg_logprob": -0.07174380832248264,
+      "compression_ratio": 8.78125,
+      "no_speech_prob": 0.9409372210502625,
+      "words": [
+        {
+          "word": " Ṭi",
+          "start": 3628.58,
+          "end": 3629.98,
+          "probability": 0.194580078125
+        },
+        {
+          "word": " pīgīt",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.361328125
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.7041015625
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.7705078125
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.88671875
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.94775390625
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.9765625
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.9853515625
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.9892578125
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.9921875
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.994140625
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.994140625
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.994140625
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.994140625
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.994140625
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.994140625
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.994140625
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.994140625
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.994140625
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.994140625
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.994140625
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.994140625
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.994140625
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.994140625
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.9921875
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.9921875
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.9921875
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.9921875
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.9921875
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.9921875
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " Ṭi",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " �",
+          "start": 3629.98,
+          "end": 3629.98,
+          "probability": 0.99609375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "la"
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 3630.0,
+      "end": 3636.12,
+      "text": "Ṭīgārtheodho Ṣkōrīm tu theūtos kīnoma",
+      "temperature": 0.0,
+      "avg_logprob": -0.2949784681532118,
+      "compression_ratio": 3.5098039215686274,
+      "no_speech_prob": 0.39886224269866943,
+      "words": [
+        {
+          "word": " Ṭīgārtheodho",
+          "start": 3630.0,
+          "end": 3631.76,
+          "probability": 0.294921875
+        },
+        {
+          "word": " Ṣkōrīm",
+          "start": 3631.76,
+          "end": 3633.54,
+          "probability": 0.49267578125
+        },
+        {
+          "word": " tu",
+          "start": 3633.54,
+          "end": 3633.92,
+          "probability": 0.447509765625
+        },
+        {
+          "word": " theūtos",
+          "start": 3633.92,
+          "end": 3635.16,
+          "probability": 0.404296875
+        },
+        {
+          "word": " kīnoma",
+          "start": 3635.16,
+          "end": 3636.12,
+          "probability": 0.64111328125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "la"
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 3636.12,
+      "end": 3644.16,
+      "text": "Ṭōpanāgyi onoros viasō imin vedōrīte",
+      "temperature": 0.0,
+      "avg_logprob": -0.2949784681532118,
+      "compression_ratio": 3.5098039215686274,
+      "no_speech_prob": 0.39886224269866943,
+      "words": [
+        {
+          "word": " Ṭōpanāgyi",
+          "start": 3636.12,
+          "end": 3638.36,
+          "probability": 0.58203125
+        },
+        {
+          "word": " onoros",
+          "start": 3638.36,
+          "end": 3639.7,
+          "probability": 0.60498046875
+        },
+        {
+          "word": " viasō",
+          "start": 3639.7,
+          "end": 3641.32,
+          "probability": 0.40283203125
+        },
+        {
+          "word": " imin",
+          "start": 3641.32,
+          "end": 3641.92,
+          "probability": 0.6083984375
+        },
+        {
+          "word": " vedōrīte",
+          "start": 3641.92,
+          "end": 3644.16,
+          "probability": 0.587890625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "la"
+    },
+    {
+      "id": 3,
+      "seek": 1416,
+      "start": 3658.58,
+      "end": 3659.98,
+      "text": "నినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినిన",
+      "temperature": 0.0,
+      "avg_logprob": -0.2837980143229167,
+      "compression_ratio": 17.526315789473685,
+      "no_speech_prob": 0.5939809679985046,
+      "words": [
+        {
+          "word": " నినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినినిన",
+          "start": 3658.58,
+          "end": 3659.98,
+          "probability": 0.79248046875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "la"
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 3660.0,
+      "end": 3666.22,
+      "text": "and wife is born, that graceful gent may commence to bear its",
+      "temperature": 0.0,
+      "avg_logprob": -0.3674702008565267,
+      "compression_ratio": 1.3630136986301369,
+      "no_speech_prob": 0.8753473162651062,
+      "words": [
+        {
+          "word": " and",
+          "start": 3660.0,
+          "end": 3660.52,
+          "probability": 0.01995849609375
+        },
+        {
+          "word": " wife",
+          "start": 3660.52,
+          "end": 3660.88,
+          "probability": 0.83056640625
+        },
+        {
+          "word": " is",
+          "start": 3660.88,
+          "end": 3661.32,
+          "probability": 0.93310546875
+        },
+        {
+          "word": " born,",
+          "start": 3661.32,
+          "end": 3661.62,
+          "probability": 0.9580078125
+        },
+        {
+          "word": " that",
+          "start": 3662.16,
+          "end": 3662.5,
+          "probability": 0.8876953125
+        },
+        {
+          "word": " graceful",
+          "start": 3662.5,
+          "end": 3663.7,
+          "probability": 0.94140625
+        },
+        {
+          "word": " gent",
+          "start": 3663.7,
+          "end": 3664.02,
+          "probability": 0.52392578125
+        },
+        {
+          "word": " may",
+          "start": 3664.02,
+          "end": 3664.32,
+          "probability": 0.94970703125
+        },
+        {
+          "word": " commence",
+          "start": 3664.32,
+          "end": 3665.08,
+          "probability": 0.798828125
+        },
+        {
+          "word": " to",
+          "start": 3665.08,
+          "end": 3665.46,
+          "probability": 0.98095703125
+        },
+        {
+          "word": " bear",
+          "start": 3665.46,
+          "end": 3665.96,
+          "probability": 0.98046875
+        },
+        {
+          "word": " its",
+          "start": 3665.96,
+          "end": 3666.22,
+          "probability": 0.95654296875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 3666.22,
+      "end": 3668.02,
+      "text": "fruit henceforth.",
+      "temperature": 0.0,
+      "avg_logprob": -0.3674702008565267,
+      "compression_ratio": 1.3630136986301369,
+      "no_speech_prob": 0.8753473162651062,
+      "words": [
+        {
+          "word": " fruit",
+          "start": 3666.22,
+          "end": 3666.84,
+          "probability": 0.93115234375
+        },
+        {
+          "word": " henceforth.",
+          "start": 3666.84,
+          "end": 3668.02,
+          "probability": 0.771484375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 3669.06,
+      "end": 3676.3,
+      "text": "Joyous, O Joachim, having become the God-bearers progenitor,",
+      "temperature": 0.0,
+      "avg_logprob": -0.3674702008565267,
+      "compression_ratio": 1.3630136986301369,
+      "no_speech_prob": 0.8753473162651062,
+      "words": [
+        {
+          "word": " Joyous,",
+          "start": 3669.06,
+          "end": 3670.04,
+          "probability": 0.463623046875
+        },
+        {
+          "word": " O",
+          "start": 3670.14,
+          "end": 3670.26,
+          "probability": 0.78662109375
+        },
+        {
+          "word": " Joachim,",
+          "start": 3670.26,
+          "end": 3671.34,
+          "probability": 0.88818359375
+        },
+        {
+          "word": " having",
+          "start": 3671.82,
+          "end": 3672.24,
+          "probability": 0.982421875
+        },
+        {
+          "word": " become",
+          "start": 3672.24,
+          "end": 3673.14,
+          "probability": 0.994140625
+        },
+        {
+          "word": " the",
+          "start": 3673.14,
+          "end": 3673.58,
+          "probability": 0.97802734375
+        },
+        {
+          "word": " God",
+          "start": 3673.58,
+          "end": 3673.88,
+          "probability": 0.859375
+        },
+        {
+          "word": "-bearers",
+          "start": 3673.88,
+          "end": 3675.0,
+          "probability": 0.703125
+        },
+        {
+          "word": " progenitor,",
+          "start": 3675.0,
+          "end": 3676.3,
+          "probability": 0.955078125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 3677.12,
+      "end": 3684.08,
+      "text": "there is no one else like you in generations of paternity,",
+      "temperature": 0.0,
+      "avg_logprob": -0.3674702008565267,
+      "compression_ratio": 1.3630136986301369,
+      "no_speech_prob": 0.8753473162651062,
+      "words": [
+        {
+          "word": " there",
+          "start": 3677.12,
+          "end": 3677.52,
+          "probability": 0.984375
+        },
+        {
+          "word": " is",
+          "start": 3677.52,
+          "end": 3678.28,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " no",
+          "start": 3678.28,
+          "end": 3678.64,
+          "probability": 0.998046875
+        },
+        {
+          "word": " one",
+          "start": 3678.64,
+          "end": 3679.08,
+          "probability": 0.97900390625
+        },
+        {
+          "word": " else",
+          "start": 3679.08,
+          "end": 3679.36,
+          "probability": 0.994140625
+        },
+        {
+          "word": " like",
+          "start": 3679.36,
+          "end": 3679.68,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " you",
+          "start": 3679.68,
+          "end": 3680.06,
+          "probability": 0.953125
+        },
+        {
+          "word": " in",
+          "start": 3680.06,
+          "end": 3680.78,
+          "probability": 0.70703125
+        },
+        {
+          "word": " generations",
+          "start": 3680.78,
+          "end": 3681.94,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " of",
+          "start": 3681.94,
+          "end": 3682.56,
+          "probability": 0.99609375
+        },
+        {
+          "word": " paternity,",
+          "start": 3682.56,
+          "end": 3684.08,
+          "probability": 0.9755859375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 8,
+      "seek": 2408,
+      "start": 3684.08,
+      "end": 3689.5,
+      "text": "O God, we won, for the God receiving made it.",
+      "temperature": 0.0,
+      "avg_logprob": -0.5743549466133118,
+      "compression_ratio": 0.8823529411764706,
+      "no_speech_prob": 0.424392968416214,
+      "words": [
+        {
+          "word": " O",
+          "start": 3684.08,
+          "end": 3684.6,
+          "probability": 0.07196044921875
+        },
+        {
+          "word": " God,",
+          "start": 3684.6,
+          "end": 3685.12,
+          "probability": 0.8779296875
+        },
+        {
+          "word": " we",
+          "start": 3685.22,
+          "end": 3685.36,
+          "probability": 0.5888671875
+        },
+        {
+          "word": " won,",
+          "start": 3685.36,
+          "end": 3685.68,
+          "probability": 0.421630859375
+        },
+        {
+          "word": " for",
+          "start": 3686.24,
+          "end": 3686.54,
+          "probability": 0.8828125
+        },
+        {
+          "word": " the",
+          "start": 3686.54,
+          "end": 3686.84,
+          "probability": 0.990234375
+        },
+        {
+          "word": " God",
+          "start": 3686.84,
+          "end": 3687.26,
+          "probability": 0.96533203125
+        },
+        {
+          "word": " receiving",
+          "start": 3687.26,
+          "end": 3687.74,
+          "probability": 0.84814453125
+        },
+        {
+          "word": " made",
+          "start": 3687.74,
+          "end": 3689.02,
+          "probability": 0.97900390625
+        },
+        {
+          "word": " it.",
+          "start": 3689.02,
+          "end": 3689.5,
+          "probability": 0.7734375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 3600.0,
+      "end": 3630.0,
+      "language": "la",
+      "seconds": 2.4483731670770794
+    },
+    {
+      "start": 3630.0,
+      "end": 3660.0,
+      "language": "la",
+      "seconds": 3.4874964999035
+    },
+    {
+      "start": 3660.0,
+      "end": 3690.0,
+      "language": "en",
+      "seconds": 0.6798205419909209
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 90.0,
+    "inference_seconds": 6.617996208136901,
+    "decode_seconds": 0.06048845895566046,
+    "real_time_factor": 0.07353329120152112,
+    "speedup": 13.599282497222344,
+    "peak_memory_gb": 1.229558694,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ]
+}

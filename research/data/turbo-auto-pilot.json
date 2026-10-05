@@ -1,0 +1,1121 @@
+{
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 1807,
+  "end": 1987.0,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 1807.0,
+      "end": 1816.14,
+      "text": "σώσον ελέησον και διαφύλαξον ημάς ο Θεός της ηχάρητης της Παναγίας Αχράντου,",
+      "temperature": 0.0,
+      "avg_logprob": -0.2788782491312399,
+      "compression_ratio": 1.8053435114503817,
+      "no_speech_prob": 1.8950352398405812e-10,
+      "words": [
+        {
+          "word": " σώσον",
+          "start": 1807.0,
+          "end": 1807.44,
+          "probability": 0.56201171875
+        },
+        {
+          "word": " ελέησον",
+          "start": 1807.44,
+          "end": 1808.2,
+          "probability": 0.87841796875
+        },
+        {
+          "word": " και",
+          "start": 1808.2,
+          "end": 1808.38,
+          "probability": 0.370849609375
+        },
+        {
+          "word": " διαφύλαξον",
+          "start": 1808.38,
+          "end": 1809.24,
+          "probability": 0.94970703125
+        },
+        {
+          "word": " ημάς",
+          "start": 1809.24,
+          "end": 1809.68,
+          "probability": 0.8076171875
+        },
+        {
+          "word": " ο",
+          "start": 1809.68,
+          "end": 1809.76,
+          "probability": 0.76953125
+        },
+        {
+          "word": " Θεός",
+          "start": 1809.76,
+          "end": 1810.38,
+          "probability": 0.96728515625
+        },
+        {
+          "word": " της",
+          "start": 1810.38,
+          "end": 1810.64,
+          "probability": 0.73095703125
+        },
+        {
+          "word": " ηχάρητης",
+          "start": 1810.64,
+          "end": 1812.26,
+          "probability": 0.75927734375
+        },
+        {
+          "word": " της",
+          "start": 1812.26,
+          "end": 1814.38,
+          "probability": 0.70458984375
+        },
+        {
+          "word": " Παναγίας",
+          "start": 1814.38,
+          "end": 1815.26,
+          "probability": 0.935546875
+        },
+        {
+          "word": " Αχράντου,",
+          "start": 1815.26,
+          "end": 1816.14,
+          "probability": 0.82763671875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1816.22,
+      "end": 1821.3,
+      "text": "υπερευλογημένης εντόξου δεσποινήσιμων Θεοτόκου και υπαρεθένου Μαρίας,",
+      "temperature": 0.0,
+      "avg_logprob": -0.2788782491312399,
+      "compression_ratio": 1.8053435114503817,
+      "no_speech_prob": 1.8950352398405812e-10,
+      "words": [
+        {
+          "word": " υπερευλογημένης",
+          "start": 1816.22,
+          "end": 1817.42,
+          "probability": 0.93115234375
+        },
+        {
+          "word": " εντόξου",
+          "start": 1817.42,
+          "end": 1818.0,
+          "probability": 0.7431640625
+        },
+        {
+          "word": " δεσποινήσιμων",
+          "start": 1818.0,
+          "end": 1819.06,
+          "probability": 0.75732421875
+        },
+        {
+          "word": " Θεοτόκου",
+          "start": 1819.06,
+          "end": 1819.9,
+          "probability": 0.958984375
+        },
+        {
+          "word": " και",
+          "start": 1819.9,
+          "end": 1820.04,
+          "probability": 0.88720703125
+        },
+        {
+          "word": " υπαρεθένου",
+          "start": 1820.04,
+          "end": 1820.86,
+          "probability": 0.91064453125
+        },
+        {
+          "word": " Μαρίας,",
+          "start": 1820.86,
+          "end": 1821.3,
+          "probability": 0.98828125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 1821.5,
+      "end": 1827.58,
+      "text": "με τα πάντων τον Αγίο μνημονεύσανται σε αυτούς και αλλήλους και πάσαν την ζωήν ημών,",
+      "temperature": 0.0,
+      "avg_logprob": -0.2788782491312399,
+      "compression_ratio": 1.8053435114503817,
+      "no_speech_prob": 1.8950352398405812e-10,
+      "words": [
+        {
+          "word": " με",
+          "start": 1821.5,
+          "end": 1821.58,
+          "probability": 0.97607421875
+        },
+        {
+          "word": " τα",
+          "start": 1821.58,
+          "end": 1821.72,
+          "probability": 0.405029296875
+        },
+        {
+          "word": " πάντων",
+          "start": 1821.72,
+          "end": 1822.34,
+          "probability": 0.8720703125
+        },
+        {
+          "word": " τον",
+          "start": 1822.34,
+          "end": 1822.48,
+          "probability": 0.432861328125
+        },
+        {
+          "word": " Αγίο",
+          "start": 1822.48,
+          "end": 1823.04,
+          "probability": 0.85009765625
+        },
+        {
+          "word": " μνημονεύσανται",
+          "start": 1823.04,
+          "end": 1824.22,
+          "probability": 0.88427734375
+        },
+        {
+          "word": " σε",
+          "start": 1824.22,
+          "end": 1824.72,
+          "probability": 0.8642578125
+        },
+        {
+          "word": " αυτούς",
+          "start": 1824.72,
+          "end": 1825.24,
+          "probability": 0.986328125
+        },
+        {
+          "word": " και",
+          "start": 1825.24,
+          "end": 1825.4,
+          "probability": 0.6123046875
+        },
+        {
+          "word": " αλλήλους",
+          "start": 1825.4,
+          "end": 1825.82,
+          "probability": 0.875
+        },
+        {
+          "word": " και",
+          "start": 1825.82,
+          "end": 1825.98,
+          "probability": 0.91943359375
+        },
+        {
+          "word": " πάσαν",
+          "start": 1825.98,
+          "end": 1826.58,
+          "probability": 0.95361328125
+        },
+        {
+          "word": " την",
+          "start": 1826.58,
+          "end": 1826.76,
+          "probability": 0.92578125
+        },
+        {
+          "word": " ζωήν",
+          "start": 1826.76,
+          "end": 1827.24,
+          "probability": 0.97998046875
+        },
+        {
+          "word": " ημών,",
+          "start": 1827.24,
+          "end": 1827.58,
+          "probability": 0.9453125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 1828.02,
+      "end": 1831.14,
+      "text": "Χριστό το Θεό παραθώμεθα.",
+      "temperature": 0.0,
+      "avg_logprob": -0.2788782491312399,
+      "compression_ratio": 1.8053435114503817,
+      "no_speech_prob": 1.8950352398405812e-10,
+      "words": [
+        {
+          "word": " Χριστό",
+          "start": 1828.02,
+          "end": 1828.4,
+          "probability": 0.93359375
+        },
+        {
+          "word": " το",
+          "start": 1828.4,
+          "end": 1828.54,
+          "probability": 0.87353515625
+        },
+        {
+          "word": " Θεό",
+          "start": 1828.54,
+          "end": 1829.06,
+          "probability": 0.98583984375
+        },
+        {
+          "word": " παραθώμεθα.",
+          "start": 1829.06,
+          "end": 1831.14,
+          "probability": 0.81640625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 4,
+      "seek": 2414,
+      "start": 1832.66,
+      "end": 1836.98,
+      "text": "Ότι ευλόγητε σου το όνομα και δόξαστε σου η βαλία",
+      "temperature": 0.0,
+      "avg_logprob": -0.34308614401981746,
+      "compression_ratio": 1.2191780821917808,
+      "no_speech_prob": 1.0949938872295562e-10,
+      "words": [
+        {
+          "word": " Ότι",
+          "start": 1832.66,
+          "end": 1833.38,
+          "probability": 0.6572265625
+        },
+        {
+          "word": " ευλόγητε",
+          "start": 1833.38,
+          "end": 1834.1,
+          "probability": 0.8466796875
+        },
+        {
+          "word": " σου",
+          "start": 1834.1,
+          "end": 1834.5,
+          "probability": 0.67822265625
+        },
+        {
+          "word": " το",
+          "start": 1834.5,
+          "end": 1834.74,
+          "probability": 0.9794921875
+        },
+        {
+          "word": " όνομα",
+          "start": 1834.74,
+          "end": 1835.22,
+          "probability": 0.9833984375
+        },
+        {
+          "word": " και",
+          "start": 1835.22,
+          "end": 1835.46,
+          "probability": 0.85400390625
+        },
+        {
+          "word": " δόξαστε",
+          "start": 1835.46,
+          "end": 1836.38,
+          "probability": 0.822265625
+        },
+        {
+          "word": " σου",
+          "start": 1836.38,
+          "end": 1836.7,
+          "probability": 0.9306640625
+        },
+        {
+          "word": " η",
+          "start": 1836.7,
+          "end": 1836.86,
+          "probability": 0.3369140625
+        },
+        {
+          "word": " βαλία",
+          "start": 1836.86,
+          "end": 1836.98,
+          "probability": 0.63232421875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 1837.0,
+      "end": 1845.38,
+      "text": "Βασιλία του Πατρός και του Υιού και του Αγίου Πνεύματος, διν και αείν και εις τους αιώνας των αιώνων.",
+      "temperature": 0.0,
+      "avg_logprob": -0.2842148120586689,
+      "compression_ratio": 1.5609756097560976,
+      "no_speech_prob": 1.492236750832987e-10,
+      "words": [
+        {
+          "word": " Βασιλία",
+          "start": 1837.0,
+          "end": 1837.58,
+          "probability": 0.58056640625
+        },
+        {
+          "word": " του",
+          "start": 1837.58,
+          "end": 1837.76,
+          "probability": 0.71826171875
+        },
+        {
+          "word": " Πατρός",
+          "start": 1837.76,
+          "end": 1838.44,
+          "probability": 0.95556640625
+        },
+        {
+          "word": " και",
+          "start": 1838.44,
+          "end": 1838.6,
+          "probability": 0.900390625
+        },
+        {
+          "word": " του",
+          "start": 1838.6,
+          "end": 1838.76,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " Υιού",
+          "start": 1838.76,
+          "end": 1839.06,
+          "probability": 0.9453125
+        },
+        {
+          "word": " και",
+          "start": 1839.06,
+          "end": 1839.22,
+          "probability": 0.98486328125
+        },
+        {
+          "word": " του",
+          "start": 1839.22,
+          "end": 1839.38,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " Αγίου",
+          "start": 1839.38,
+          "end": 1839.82,
+          "probability": 0.86669921875
+        },
+        {
+          "word": " Πνεύματος,",
+          "start": 1839.82,
+          "end": 1840.76,
+          "probability": 0.99609375
+        },
+        {
+          "word": " διν",
+          "start": 1840.86,
+          "end": 1841.36,
+          "probability": 0.552734375
+        },
+        {
+          "word": " και",
+          "start": 1841.36,
+          "end": 1841.48,
+          "probability": 0.83544921875
+        },
+        {
+          "word": " αείν",
+          "start": 1841.48,
+          "end": 1842.28,
+          "probability": 0.5107421875
+        },
+        {
+          "word": " και",
+          "start": 1842.28,
+          "end": 1842.4,
+          "probability": 0.9677734375
+        },
+        {
+          "word": " εις",
+          "start": 1842.4,
+          "end": 1842.64,
+          "probability": 0.98388671875
+        },
+        {
+          "word": " τους",
+          "start": 1842.64,
+          "end": 1842.76,
+          "probability": 0.935546875
+        },
+        {
+          "word": " αιώνας",
+          "start": 1842.76,
+          "end": 1843.7,
+          "probability": 0.9892578125
+        },
+        {
+          "word": " των",
+          "start": 1843.7,
+          "end": 1843.84,
+          "probability": 0.94873046875
+        },
+        {
+          "word": " αιώνων.",
+          "start": 1843.84,
+          "end": 1845.38,
+          "probability": 0.9951171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 1850.48,
+      "end": 1850.96,
+      "text": "Αμήν.",
+      "temperature": 0.0,
+      "avg_logprob": -0.2842148120586689,
+      "compression_ratio": 1.5609756097560976,
+      "no_speech_prob": 1.492236750832987e-10,
+      "words": [
+        {
+          "word": " Αμήν.",
+          "start": 1850.48,
+          "end": 1850.96,
+          "probability": 0.94677734375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 7,
+      "seek": 1396,
+      "start": 1850.96,
+      "end": 1865.7,
+      "text": "Έκνε ότι το όσμο πολλά πολέμι με πάθη.",
+      "temperature": 0.0,
+      "avg_logprob": -0.5745602108183361,
+      "compression_ratio": 1.1147540983606556,
+      "no_speech_prob": 1.96519564510389e-10,
+      "words": [
+        {
+          "word": " Έκνε",
+          "start": 1850.96,
+          "end": 1853.6,
+          "probability": 0.5810546875
+        },
+        {
+          "word": " ότι",
+          "start": 1853.6,
+          "end": 1854.28,
+          "probability": 0.25341796875
+        },
+        {
+          "word": " το",
+          "start": 1854.28,
+          "end": 1854.96,
+          "probability": 0.84765625
+        },
+        {
+          "word": " όσμο",
+          "start": 1854.96,
+          "end": 1856.82,
+          "probability": 0.52685546875
+        },
+        {
+          "word": " πολλά",
+          "start": 1856.82,
+          "end": 1858.66,
+          "probability": 0.96435546875
+        },
+        {
+          "word": " πολέμι",
+          "start": 1858.66,
+          "end": 1862.0,
+          "probability": 0.66162109375
+        },
+        {
+          "word": " με",
+          "start": 1862.0,
+          "end": 1863.04,
+          "probability": 0.802734375
+        },
+        {
+          "word": " πάθη.",
+          "start": 1863.04,
+          "end": 1865.7,
+          "probability": 0.830078125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 1880.92,
+      "end": 1889.18,
+      "text": "From my youth many passions",
+      "temperature": 0.0,
+      "avg_logprob": -0.462139712439643,
+      "compression_ratio": 0.7714285714285715,
+      "no_speech_prob": 1.0520829867022297e-11,
+      "words": [
+        {
+          "word": " From",
+          "start": 1880.92,
+          "end": 1882.32,
+          "probability": 0.406005859375
+        },
+        {
+          "word": " my",
+          "start": 1882.32,
+          "end": 1883.72,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " youth",
+          "start": 1883.72,
+          "end": 1884.82,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " many",
+          "start": 1884.82,
+          "end": 1887.08,
+          "probability": 0.58544921875
+        },
+        {
+          "word": " passions",
+          "start": 1887.08,
+          "end": 1889.18,
+          "probability": 0.86328125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 9,
+      "seek": 2218,
+      "start": 1889.18,
+      "end": 1894.72,
+      "text": "and war against me.",
+      "temperature": 0.0,
+      "avg_logprob": -0.7237436587993915,
+      "compression_ratio": 0.7714285714285715,
+      "no_speech_prob": 1.1801624955065648e-10,
+      "words": [
+        {
+          "word": " and",
+          "start": 1889.18,
+          "end": 1890.04,
+          "probability": 0.195068359375
+        },
+        {
+          "word": " war",
+          "start": 1890.04,
+          "end": 1890.98,
+          "probability": 0.96484375
+        },
+        {
+          "word": " against",
+          "start": 1890.98,
+          "end": 1892.36,
+          "probability": 0.94677734375
+        },
+        {
+          "word": " me.",
+          "start": 1892.36,
+          "end": 1894.72,
+          "probability": 0.9873046875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 10,
+      "seek": 2218,
+      "start": 1895.04,
+      "end": 1896.98,
+      "text": "O my...",
+      "temperature": 0.0,
+      "avg_logprob": -0.7237436587993915,
+      "compression_ratio": 0.7714285714285715,
+      "no_speech_prob": 1.1801624955065648e-10,
+      "words": [
+        {
+          "word": " O",
+          "start": 1895.04,
+          "end": 1896.16,
+          "probability": 0.67822265625
+        },
+        {
+          "word": " my...",
+          "start": 1896.16,
+          "end": 1896.98,
+          "probability": 0.57080078125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 11,
+      "seek": 0,
+      "start": 1897.0,
+      "end": 1913.9,
+      "text": "My Savior, I implore you, uphold me and save me.",
+      "temperature": 0.0,
+      "avg_logprob": -0.24266262352466583,
+      "compression_ratio": 1.0459770114942528,
+      "no_speech_prob": 2.961663466555242e-12,
+      "words": [
+        {
+          "word": " My",
+          "start": 1897.0,
+          "end": 1897.22,
+          "probability": 0.66162109375
+        },
+        {
+          "word": " Savior,",
+          "start": 1897.22,
+          "end": 1899.4,
+          "probability": 0.97216796875
+        },
+        {
+          "word": " I",
+          "start": 1900.24,
+          "end": 1901.2,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " implore",
+          "start": 1901.2,
+          "end": 1904.24,
+          "probability": 1.0
+        },
+        {
+          "word": " you,",
+          "start": 1904.24,
+          "end": 1905.38,
+          "probability": 0.85595703125
+        },
+        {
+          "word": " uphold",
+          "start": 1906.04,
+          "end": 1907.04,
+          "probability": 0.93408203125
+        },
+        {
+          "word": " me",
+          "start": 1907.04,
+          "end": 1908.42,
+          "probability": 1.0
+        },
+        {
+          "word": " and",
+          "start": 1908.42,
+          "end": 1909.8,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " save",
+          "start": 1909.8,
+          "end": 1911.86,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " me.",
+          "start": 1911.86,
+          "end": 1913.9,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 12,
+      "seek": 0,
+      "start": 1914.76,
+      "end": 1926.54,
+      "text": "You who hates I am, be shamed by the Lord.",
+      "temperature": 0.0,
+      "avg_logprob": -0.24266262352466583,
+      "compression_ratio": 1.0459770114942528,
+      "no_speech_prob": 2.961663466555242e-12,
+      "words": [
+        {
+          "word": " You",
+          "start": 1914.76,
+          "end": 1915.42,
+          "probability": 0.91943359375
+        },
+        {
+          "word": " who",
+          "start": 1915.42,
+          "end": 1916.12,
+          "probability": 0.51220703125
+        },
+        {
+          "word": " hates",
+          "start": 1916.12,
+          "end": 1918.24,
+          "probability": 0.7158203125
+        },
+        {
+          "word": " I",
+          "start": 1918.24,
+          "end": 1919.4,
+          "probability": 0.7607421875
+        },
+        {
+          "word": " am,",
+          "start": 1919.4,
+          "end": 1920.44,
+          "probability": 0.94921875
+        },
+        {
+          "word": " be",
+          "start": 1920.56,
+          "end": 1920.98,
+          "probability": 0.93798828125
+        },
+        {
+          "word": " shamed",
+          "start": 1920.98,
+          "end": 1922.56,
+          "probability": 0.8134765625
+        },
+        {
+          "word": " by",
+          "start": 1922.56,
+          "end": 1924.26,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " the",
+          "start": 1924.26,
+          "end": 1925.48,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " Lord.",
+          "start": 1925.48,
+          "end": 1926.54,
+          "probability": 0.99853515625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 13,
+      "seek": 0,
+      "start": 1927.0,
+      "end": 1947.42,
+      "text": "For you will be withered like grass in the fire.",
+      "temperature": 0.0,
+      "avg_logprob": -0.20959290862083435,
+      "compression_ratio": 0.9056603773584906,
+      "no_speech_prob": 5.623793097875307e-11,
+      "words": [
+        {
+          "word": " For",
+          "start": 1927.0,
+          "end": 1928.34,
+          "probability": 0.75341796875
+        },
+        {
+          "word": " you",
+          "start": 1928.34,
+          "end": 1929.42,
+          "probability": 0.9453125
+        },
+        {
+          "word": " will",
+          "start": 1929.42,
+          "end": 1931.74,
+          "probability": 0.994140625
+        },
+        {
+          "word": " be",
+          "start": 1931.74,
+          "end": 1934.32,
+          "probability": 0.94189453125
+        },
+        {
+          "word": " withered",
+          "start": 1934.32,
+          "end": 1936.72,
+          "probability": 0.88671875
+        },
+        {
+          "word": " like",
+          "start": 1936.72,
+          "end": 1938.42,
+          "probability": 0.58642578125
+        },
+        {
+          "word": " grass",
+          "start": 1938.42,
+          "end": 1941.16,
+          "probability": 0.974609375
+        },
+        {
+          "word": " in",
+          "start": 1941.16,
+          "end": 1943.5,
+          "probability": 0.9306640625
+        },
+        {
+          "word": " the",
+          "start": 1943.5,
+          "end": 1945.24,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " fire.",
+          "start": 1945.24,
+          "end": 1947.42,
+          "probability": 0.94384765625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 14,
+      "seek": 2042,
+      "start": 1947.42,
+      "end": 1956.98,
+      "text": "Give me some desci on eschir.",
+      "temperature": 0.0,
+      "avg_logprob": -1.2555393805870643,
+      "compression_ratio": 0.8529411764705882,
+      "no_speech_prob": 3.832235861978006e-09,
+      "words": [
+        {
+          "word": " Give",
+          "start": 1947.42,
+          "end": 1949.14,
+          "probability": 0.0236968994140625
+        },
+        {
+          "word": " me",
+          "start": 1949.14,
+          "end": 1949.66,
+          "probability": 0.923828125
+        },
+        {
+          "word": " some",
+          "start": 1949.66,
+          "end": 1950.62,
+          "probability": 0.254638671875
+        },
+        {
+          "word": " desci",
+          "start": 1950.62,
+          "end": 1953.76,
+          "probability": 0.1572265625
+        },
+        {
+          "word": " on",
+          "start": 1953.76,
+          "end": 1955.48,
+          "probability": 0.36376953125
+        },
+        {
+          "word": " eschir.",
+          "start": 1955.48,
+          "end": 1956.98,
+          "probability": 0.21875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 15,
+      "seek": 0,
+      "start": 1957.0,
+      "end": 1971.98,
+      "text": "Συνθήτε από του Κυρίου ως χόρτος γαρπύρη.",
+      "temperature": 0.0,
+      "avg_logprob": -0.6013785044352213,
+      "compression_ratio": 1.0,
+      "no_speech_prob": 5.008814474294354e-10,
+      "words": [
+        {
+          "word": " Συνθήτε",
+          "start": 1957.0,
+          "end": 1959.02,
+          "probability": 0.291015625
+        },
+        {
+          "word": " από",
+          "start": 1959.02,
+          "end": 1961.16,
+          "probability": 0.5185546875
+        },
+        {
+          "word": " του",
+          "start": 1961.16,
+          "end": 1962.6,
+          "probability": 0.66455078125
+        },
+        {
+          "word": " Κυρίου",
+          "start": 1962.6,
+          "end": 1966.44,
+          "probability": 0.91064453125
+        },
+        {
+          "word": " ως",
+          "start": 1966.44,
+          "end": 1967.08,
+          "probability": 0.6640625
+        },
+        {
+          "word": " χόρτος",
+          "start": 1967.08,
+          "end": 1969.52,
+          "probability": 0.8876953125
+        },
+        {
+          "word": " γαρπύρη.",
+          "start": 1969.52,
+          "end": 1971.98,
+          "probability": 0.81494140625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 16,
+      "seek": 1498,
+      "start": 1974.82,
+      "end": 1984.06,
+      "text": "Εσύ, εσύ, εσύ, απεξιραμένη.",
+      "temperature": 0.0,
+      "avg_logprob": -0.6799971124400264,
+      "compression_ratio": 1.0444444444444445,
+      "no_speech_prob": 1.4613713572586562e-09,
+      "words": [
+        {
+          "word": " Εσύ,",
+          "start": 1974.82,
+          "end": 1975.86,
+          "probability": 0.38134765625
+        },
+        {
+          "word": " εσύ,",
+          "start": 1975.9,
+          "end": 1976.42,
+          "probability": 0.67822265625
+        },
+        {
+          "word": " εσύ,",
+          "start": 1976.5,
+          "end": 1976.72,
+          "probability": 0.744140625
+        },
+        {
+          "word": " απεξιραμένη.",
+          "start": 1976.72,
+          "end": 1984.06,
+          "probability": 0.734375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 1807.0,
+      "end": 1837.0,
+      "language": "el",
+      "seconds": 3.1106871250085533
+    },
+    {
+      "start": 1837.0,
+      "end": 1867.0,
+      "language": "el",
+      "seconds": 2.272661166964099
+    },
+    {
+      "start": 1867.0,
+      "end": 1897.0,
+      "language": "en",
+      "seconds": 2.1383034999016672
+    },
+    {
+      "start": 1897.0,
+      "end": 1927.0,
+      "language": "en",
+      "seconds": 1.3352012080140412
+    },
+    {
+      "start": 1927.0,
+      "end": 1957.0,
+      "language": "en",
+      "seconds": 2.1866756668314338
+    },
+    {
+      "start": 1957.0,
+      "end": 1987.0,
+      "language": "el",
+      "seconds": 1.959075457882136
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 180.0,
+    "inference_seconds": 13.009446499869227,
+    "decode_seconds": 0.11951758386567235,
+    "real_time_factor": 0.07227470277705127,
+    "speedup": 13.836099791164012,
+    "peak_memory_gb": 2.190781306,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ]
+}

@@ -1,0 +1,716 @@
+{
+  "model": "mlx-community/Qwen3.6-35B-A3B-4bit",
+  "selected_segments": 48,
+  "metrics": {
+    "load_seconds": 10.588061707792804,
+    "inference_seconds": 267.03579316614196,
+    "total_seconds": 278.9531183340587,
+    "prompt_tokens": 50853,
+    "generation_tokens": 3745,
+    "output_tokens_per_wall_second": 14.024337170672732,
+    "segments_submitted": 47,
+    "status_counts": {
+      "not_run": 908,
+      "uncertain": 11,
+      "unknown": 21,
+      "matched": 16
+    },
+    "failed_batches": 0,
+    "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+    "evaluation_note": "Counts measure model decisions, not correctness. Human labels are required for accuracy.",
+    "raw_status_counts": {
+      "not_run": 908,
+      "uncertain": 11,
+      "unknown": 18,
+      "matched": 19
+    },
+    "guard_policy": {
+      "version": 1,
+      "minimum_model_support": 0.7,
+      "minimum_lexical_support_for_matched": 0.68,
+      "low_model_support_action": "unknown",
+      "weak_lexical_support_action": "uncertain",
+      "reason_text_parsing": false,
+      "note": "Conservative display rules, not calibrated correctness thresholds; original decisions remain in llm_proposal and raw responses."
+    },
+    "guard_changed_decisions": 6,
+    "peak_memory_gb": 20.44391982
+  },
+  "selected_status_counts": {
+    "uncertain": 11,
+    "unknown": 21,
+    "matched": 16
+  },
+  "raw_proposal_status_counts": {
+    "uncertain": 11,
+    "unknown": 18,
+    "matched": 19
+  },
+  "invalid_decision_count": 7,
+  "batches_with_invalid_decisions": 3,
+  "invalid_json_batches": 0,
+  "output_token_limit_batches": 0,
+  "lexical_disagreement_count": 24,
+  "lexical_disagreements": [
+    {
+      "segment_id": 259,
+      "start": 1812.34,
+      "text": "της Παναγίας Αχράντου υπερευλογημένης εντόξου δεσποινήσιμων Θεοτόκου και υπαρεθένου Μαρίας",
+      "lexical": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.9359,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "llm": {
+        "unit_id": "u0027",
+        "section_id": "s000",
+        "section_title": "Opening blessing and Peace Litany",
+        "score": 0.95,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "lexical_score": 0.9359,
+        "status": "uncertain",
+        "method": "llm",
+        "reason": "Transcript matches the Greek text of u0027, u0046, u0071, and u0167 ('της Παναγίας Αχράντου...'). u0027 is the primary candidate for this litany opening.",
+        "warnings": [
+          "repeated_reference_text"
+        ]
+      }
+    },
+    {
+      "segment_id": 260,
+      "start": 1821.3,
+      "text": "με τα πάντων των Αγίων μνημονεύσανται σε αυτούς και αλλήλους και πάσαν την ζωήν ημών",
+      "lexical": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.9306,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "llm": {
+        "unit_id": "u0027",
+        "section_id": "s000",
+        "section_title": "Opening blessing and Peace Litany",
+        "score": 0.95,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "lexical_score": 0.9306,
+        "status": "uncertain",
+        "method": "llm",
+        "reason": "Transcript matches the continuation of u0027 ('με τα πάντων των Αγίων...'). This segment completes the sentence found in u0027, u0046, u0071, and u0167.",
+        "warnings": [
+          "repeated_reference_text"
+        ]
+      }
+    },
+    {
+      "segment_id": 261,
+      "start": 1827.58,
+      "text": "Χριστό το Θεό παραθώ",
+      "lexical": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.8203,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "llm": {
+        "unit_id": "u0027",
+        "section_id": "s000",
+        "section_title": "Opening blessing and Peace Litany",
+        "score": 0.95,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "lexical_score": 0.8203,
+        "status": "uncertain",
+        "method": "llm",
+        "reason": "Transcript matches the end of the sentence in u0027 ('Χριστό το Θεό παραθώ'). This completes the specific litany text.",
+        "warnings": [
+          "short_response_needs_context",
+          "repeated_reference_text"
+        ]
+      }
+    },
+    {
+      "segment_id": 262,
+      "start": 1849.56,
+      "text": "Αμήν.",
+      "lexical": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 1.0,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "llm": {
+        "unit_id": "u0002",
+        "section_id": "s000",
+        "section_title": "Opening blessing and Peace Litany",
+        "score": 0.9,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "lexical_score": 1.0,
+        "status": "uncertain",
+        "method": "llm",
+        "reason": "Transcript is 'Αμήν'. u0002 is the standard 'Amen' response in the Opening blessing section, fitting the context of the preceding litany.",
+        "warnings": [
+          "short_response_needs_context",
+          "repeated_reference_text"
+        ]
+      }
+    },
+    {
+      "segment_id": 270,
+      "start": 1920.0,
+      "text": "Be shamed by the Lord",
+      "lexical": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.7407,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "llm": {
+        "unit_id": "u0118",
+        "section_id": "s010",
+        "section_title": "The Epistle",
+        "score": 0.9,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "lexical_score": 0.705,
+        "status": "matched",
+        "method": "llm",
+        "reason": "Transcript 'Be shamed' matches the Greek 'σκήνητε' (be ashamed/shamed) in u0118: 'Ἀδελφοί, γρηγορεῖτε, σκήνητε...'",
+        "warnings": []
+      }
+    },
+    {
+      "segment_id": 271,
+      "start": 1926.52,
+      "text": "For you will be withered",
+      "lexical": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.7208,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "llm": {
+        "unit_id": "u0338",
+        "section_id": "s025",
+        "section_title": "Memorial Service",
+        "score": 0.85,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "lexical_score": 0.7179,
+        "status": "matched",
+        "method": "llm",
+        "reason": "Transcript 'For you will be withered' matches the Greek 'σκήνη' (withered) in u0338: 'Ὅτι σκήνη...'",
+        "warnings": []
+      }
+    },
+    {
+      "segment_id": 272,
+      "start": 1937.36,
+      "text": "Like grass in the fire",
+      "lexical": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.6698,
+        "status": "unknown",
+        "method": "lexical",
+        "reason": "No sufficiently similar reference text"
+      },
+      "llm": {
+        "unit_id": "u0092",
+        "section_id": "s008",
+        "section_title": "Hymns after the Entrance",
+        "score": 0.8,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "lexical_score": 0.6658,
+        "status": "uncertain",
+        "method": "llm",
+        "reason": "Transcript 'Like grass in the fire' matches the Greek 'ὡς χόρτος... ἐν πυρί' in u0092: 'Ὁ ὑψωθεὶς... ὡς χόρτος...'",
+        "warnings": [
+          "weak_lexical_support"
+        ]
+      }
+    },
+    {
+      "segment_id": 515,
+      "start": 4411.84,
+      "text": "Ευλογημένη βασιλεία του Πατρός και του Υιού και του Αγιού Πνεύματος, νυν και αϊκέης τους αιώνας των αιώνων,",
+      "lexical": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.9359,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "llm": {
+        "unit_id": "u0001",
+        "section_id": "s000",
+        "section_title": "Opening blessing and Peace Litany",
+        "score": 0.95,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "lexical_score": 0.9359,
+        "status": "matched",
+        "method": "llm",
+        "reason": "Transcript matches the opening words of u0001: 'Ευλογημένη βασιλεία του Πατρός και του Υιού και του Αγιού Πνεύματος'.",
+        "warnings": []
+      }
+    },
+    {
+      "segment_id": 519,
+      "start": 4456.22,
+      "text": "Υπέρ του Αγίου οίκου τούτου και των μεταπίστεως ευλαβίας και φόβου Θεού ισιόντων εν αυτό του Κυρίου δε ηθόμεν.",
+      "lexical": {
+        "unit_id": "u0009",
+        "section_id": "s000",
+        "section_title": "Opening blessing and Peace Litany",
+        "score": 0.9438,
+        "status": "matched",
+        "method": "context",
+        "reason": "Repeated response between two nearby distinctive anchors"
+      },
+      "llm": {
+        "unit_id": "u0009",
+        "section_id": "s000",
+        "section_title": "Opening blessing and Peace Litany",
+        "score": 0.9,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "lexical_score": 0.9438,
+        "status": "uncertain",
+        "method": "llm",
+        "reason": "Transcript 'Υπέρ του Αγίου οίκου τούτου... μετὰ πίστεως, ευλαβείας και φόβου Θεού' matches u0009 closely.",
+        "warnings": [
+          "repeated_reference_text"
+        ]
+      }
+    },
+    {
+      "segment_id": 523,
+      "start": 4503.8,
+      "text": "For this parish and city, every city and country,",
+      "lexical": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.7655,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "llm": {
+        "unit_id": "u0017",
+        "section_id": "s000",
+        "section_title": "Opening blessing and Peace Litany",
+        "score": 0.95,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "lexical_score": 0.7655,
+        "status": "matched",
+        "method": "llm",
+        "reason": "Exact match for 'every city and country' and 'faithful who live in them' from the Peace Litany text.",
+        "warnings": []
+      }
+    },
+    {
+      "segment_id": 525,
+      "start": 4509.96,
+      "text": "let us pray to the Lord.",
+      "lexical": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 1.0,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "llm": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.0,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "status": "unknown",
+        "method": "llm",
+        "reason": "Model selected an ID outside this segment's retrieved candidates",
+        "warnings": [
+          "invalid_unit_id"
+        ]
+      }
+    },
+    {
+      "segment_id": 527,
+      "start": 4517.76,
+      "text": "of the fruits of the earth in temperate seasons,",
+      "lexical": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.7493,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "llm": {
+        "unit_id": "u0019",
+        "section_id": "s000",
+        "section_title": "Opening blessing and Peace Litany",
+        "score": 0.95,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "lexical_score": 0.7493,
+        "status": "matched",
+        "method": "llm",
+        "reason": "Exact match for 'of the fruits of the earth in temperate seasons' from the Peace Litany.",
+        "warnings": []
+      }
+    },
+    {
+      "segment_id": 528,
+      "start": 4520.8,
+      "text": "let us pray to the Lord.",
+      "lexical": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 1.0,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "llm": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.0,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "status": "unknown",
+        "method": "llm",
+        "reason": "Model selected an ID outside this segment's retrieved candidates",
+        "warnings": [
+          "invalid_unit_id"
+        ]
+      }
+    },
+    {
+      "segment_id": 560,
+      "start": 4680.0,
+      "text": "εαυτούς και αλληλούς και πάσαν την ζωή νημών Χριστώ το Θεό παραθώμεθα",
+      "lexical": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.9148,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "llm": {
+        "unit_id": "u0246",
+        "section_id": "s018",
+        "section_title": "The Lord’s Prayer",
+        "score": 0.9,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "lexical_score": 0.9148,
+        "status": "matched",
+        "method": "llm",
+        "reason": "Transcript 'εαυτούς και αλληλούς και πάσαν την ζωή νημών Χριστώ το Θεό παραθώμεθα' matches the end of u0246 exactly.",
+        "warnings": []
+      }
+    },
+    {
+      "segment_id": 561,
+      "start": 4690.52,
+      "text": "οτι σώτο κράτος και σου εστίν η βασιλεία και η δύναμις και η δόξα του Πατρός και του Υιού και του Αγίου Πνεύματος",
+      "lexical": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.9765,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "llm": {
+        "unit_id": "u0050",
+        "section_id": "s002",
+        "section_title": "Small Litany",
+        "score": 0.95,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "lexical_score": 0.9765,
+        "status": "matched",
+        "method": "llm",
+        "reason": "Transcript 'οτι σώτο κράτος και σου εστίν η βασιλεία και η δύναμις και η δόξα του Πατρός και του Υιού και του Αγίου Πνεύματος' matches u0050.",
+        "warnings": []
+      }
+    },
+    {
+      "segment_id": 562,
+      "start": 4700.06,
+      "text": "νυν και αηκέις τους αιώνας των αιώνων",
+      "lexical": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.9288,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "llm": {
+        "unit_id": "u0098",
+        "section_id": "s009",
+        "section_title": "Trisagios Hymn",
+        "score": 0.9,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "lexical_score": 0.9288,
+        "status": "matched",
+        "method": "llm",
+        "reason": "Transcript 'νυν και αηκέις τους αιώνας των αιώνων' matches the ending of u0050/u0098 'νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων'.",
+        "warnings": []
+      }
+    },
+    {
+      "segment_id": 565,
+      "start": 4726.94,
+      "text": "Save us, O Son of God, who are wondrous in the saints.",
+      "lexical": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 1.0,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "llm": {
+        "unit_id": "u0055",
+        "section_id": "s003",
+        "section_title": "Antiphon 2",
+        "score": 0.95,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "lexical_score": 1.0,
+        "status": "uncertain",
+        "method": "llm",
+        "reason": "Transcript 'Save us, O Son of God, who are wondrous in the saints.' matches u0055, u0059, u0063, u0086 exactly.",
+        "warnings": [
+          "repeated_reference_text"
+        ]
+      }
+    },
+    {
+      "segment_id": 660,
+      "start": 5400.0,
+      "text": "And Mary remained with her about three months",
+      "lexical": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.6346,
+        "status": "unknown",
+        "method": "lexical",
+        "reason": "No sufficiently similar reference text"
+      },
+      "llm": {
+        "unit_id": "u0066",
+        "section_id": "s003",
+        "section_title": "Antiphon 2",
+        "score": 0.8,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "lexical_score": 0.6346,
+        "status": "uncertain",
+        "method": "llm",
+        "reason": "Transcript mentions Mary remaining three months, matching the reference text's mention of taking flesh from the Virgin Mary.",
+        "warnings": [
+          "weak_lexical_support"
+        ]
+      }
+    },
+    {
+      "segment_id": 661,
+      "start": 5406.48,
+      "text": "And returned to her home",
+      "lexical": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.7479,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "llm": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.0,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "status": "unknown",
+        "method": "llm",
+        "reason": "Model support was below the 0.70 review threshold. Transcript says 'returned to her home'. Reference u0344 is a dismissal/blessing often concluding services, fitting the narrative end of Mary's visit.",
+        "warnings": [
+          "low_model_support"
+        ],
+        "proposed_unit_id": "u0344",
+        "proposed_score": 0.6
+      }
+    },
+    {
+      "segment_id": 662,
+      "start": 5413.74,
+      "text": "Glory to you, O Lord",
+      "lexical": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 1.0,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "llm": {
+        "unit_id": "u0129",
+        "section_id": "s011",
+        "section_title": "The Holy Gospel",
+        "score": 0.9,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "lexical_score": 1.0,
+        "status": "uncertain",
+        "method": "llm",
+        "reason": "Transcript 'Glory to you, O Lord' matches the Greek 'Δόξα σοι, Κύριε' in u0129 exactly.",
+        "warnings": [
+          "repeated_reference_text"
+        ]
+      }
+    },
+    {
+      "segment_id": 663,
+      "start": 5421.64,
+      "text": "Glory to you, O Lord",
+      "lexical": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 1.0,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "llm": {
+        "unit_id": "u0129",
+        "section_id": "s011",
+        "section_title": "The Holy Gospel",
+        "score": 0.9,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "lexical_score": 1.0,
+        "status": "uncertain",
+        "method": "llm",
+        "reason": "Transcript 'Glory to you, O Lord' matches the Greek 'Δόξα σοι, Κύριε' in u0129 exactly.",
+        "warnings": [
+          "repeated_reference_text"
+        ]
+      }
+    },
+    {
+      "segment_id": 665,
+      "start": 5437.62,
+      "text": "το πατρί και το αιών και το άγιο πνεύμα την δίν και αϊκέ εις τους αιώνας των αιώνων.",
+      "lexical": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.8784,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "llm": {
+        "unit_id": "u0135",
+        "section_id": "s011",
+        "section_title": "The Holy Gospel",
+        "score": 0.95,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "lexical_score": 0.8659,
+        "status": "matched",
+        "method": "llm",
+        "reason": "Transcript Greek 'το πατρί και το αιών... εις τους αιώνας' matches u0135 'τῷ Πατρὶ καὶ τῷ Υἱῷ... νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας'.",
+        "warnings": []
+      }
+    },
+    {
+      "segment_id": 866,
+      "start": 6919.26,
+      "text": "My brothers and sisters, forgive me.",
+      "lexical": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.6383,
+        "status": "unknown",
+        "method": "lexical",
+        "reason": "No sufficiently similar reference text"
+      },
+      "llm": {
+        "unit_id": "u0266",
+        "section_id": "s020",
+        "section_title": "Elevation, Fraction, and Communion",
+        "score": 0.85,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "lexical_score": 0.6383,
+        "status": "uncertain",
+        "method": "llm",
+        "reason": "Transcript 'forgive me' matches the petition 'συγχώρησόν μοι' (forgive me) within the Communion prayer u0266.",
+        "warnings": [
+          "weak_lexical_support"
+        ]
+      }
+    },
+    {
+      "segment_id": 868,
+      "start": 6955.34,
+      "text": "Amen.",
+      "lexical": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 1.0,
+        "status": "uncertain",
+        "method": "lexical",
+        "reason": "Repeated phrase or insufficient text evidence"
+      },
+      "llm": {
+        "unit_id": null,
+        "section_id": null,
+        "section_title": null,
+        "score": 0.0,
+        "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+        "status": "unknown",
+        "method": "llm",
+        "reason": "Model support was below the 0.70 review threshold. Transcript 'Amen' matches u0002. Short responses are ambiguous; u0002 is the first available match.",
+        "warnings": [
+          "short_response_needs_context",
+          "repeated_reference_text",
+          "low_model_support"
+        ],
+        "proposed_unit_id": "u0002",
+        "proposed_score": 0.5
+      }
+    }
+  ],
+  "raw_lexical_disagreement_count": 25,
+  "note": "Differences in IDs/status are not evidence that either system is correct."
+}

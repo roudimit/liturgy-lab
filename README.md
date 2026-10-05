@@ -1,19 +1,34 @@
 # Liturgy Lab
 
-Explore five liturgy recordings with precomputed speech recognition transcripts, suggested section locations, and bilingual service text.
+[Open the online viewer](https://roudimit.github.io/liturgy-lab/)
 
-Website: https://roudimit.github.io/liturgy-lab/
+Explore five recordings with saved speech recognition transcripts, suggested sections, and bilingual service text. Predictions are experimental; see [Findings](reports/FINDINGS.md), [Results](reports/RESULTS.md), and [Help](reports/HELP.md).
 
-The static viewer uses embedded YouTube videos. No models, backend, or API keys are needed. Predictions are experimental; see [results](reports/RESULTS.html) for findings and limitations.
+## View locally
 
-For local preview, run `python3 -m http.server 8766` in this folder and open http://127.0.0.1:8766/.
+Extract the ZIP, then double-click **Start Viewer.command** on Mac or **Start Viewer.cmd** on Windows. Alternatively run:
 
-To publish, select **Settings → Pages → Deploy from a branch → main → / (root)**.
+    python3 run_viewer.py
 
-## Documentation
+Open http://127.0.0.1:8766/ and keep the terminal open. No Python packages or models are needed to view the results. YouTube playback needs internet access. Use --port 8767 if the default port is busy.
 
-- [Findings](reports/FINDINGS.md)
-- [Help](reports/HELP.md)
-- [Detailed results](reports/RESULTS.md)
+## Research code and saved experiments
 
-The website renders these Markdown sources as formatted reading pages.
+The research/ directory contains the ASR and alignment pipeline, experiment scripts, tests, source texts, and saved outputs. See [research/README.md](research/README.md) for commands. To prepare a separate Python virtual environment on an Apple Silicon Mac with Python 3.11 or newer:
+
+    cd research
+    bash setup.sh
+
+Rerunning inference requires downloading recordings and model weights separately. The saved outputs can be inspected without rerunning inference.
+
+## Sharing and publishing
+
+The collaborator ZIP contains the same committed files as this repository, plus private/ADS Pilot Specification.docx. The original specification is deliberately excluded from GitHub. The ZIP contains no Git history.
+
+Downloaded recordings/audio, model weights, virtual environments, caches, private human reviews, and credentials are excluded from both. Third-party recordings and service texts retain their original rights; source credits and reference-date caveats remain in the viewer and saved data.
+
+GitHub Pages serves main at /(root). No backend is required. Research files and outputs in this repository are public, as are the viewer files.
+
+To rebuild the ZIP from the committed files:
+
+    python3 scripts/package_share.py --output /path/to/liturgy-lab-share.zip --spec "/path/to/ADS Pilot Specification.docx"

@@ -1,0 +1,41 @@
+{
+  "id": "IuZ8WRk-POI",
+  "title": "Sunday of St. Mary of Egypt",
+  "duration": 12169,
+  "upload_date": "20260329",
+  "channel": "Assumption Saint Clair Shores Live Stream",
+  "webpage_url": "https://www.youtube.com/watch?v=IuZ8WRk-POI",
+  "description": "Live Stream services and Sermons from Assumption Greek Orthodox Church - Saint Clair Shores, MI\nToday's service is live-stream only due ot the weather. Please stay home and stay save. The roads are treacherous.",
+  "release_timestamp": 1774788089,
+  "reference_url": "https://dcs.goarch.org/goa/dcs/h/s/2026/09/30/li/gr-en/index.html",
+  "reference_date": "2026-09-30",
+  "audio_path": "data/media/IuZ8WRk-POI.m4a",
+  "video_path": "data/media/IuZ8WRk-POI.mp4",
+  "suggested_sample_windows": [
+    {
+      "start": 1800,
+      "duration": 90,
+      "purpose": "Earlier service / possible Matins negative"
+    },
+    {
+      "start": 4800,
+      "duration": 90,
+      "purpose": "Middle service sample"
+    },
+    {
+      "start": 7200,
+      "duration": 90,
+      "purpose": "Later service sample"
+    },
+    {
+      "start": 10200,
+      "duration": 90,
+      "purpose": "Late service / possible sermon sample"
+    }
+  ],
+  "caveat": "Upload date is not an independently verified service date. Daily readings and hymns differ from the supplied 2026-09-30 reference; sample service labels require listening.",
+  "calendar_liturgy_title": "Divine Liturgy of St. Basil",
+  "calendar_liturgy_url": "https://dcs.goarch.org/goa/dcs/h/s/2026/03/29/li/gr-en/index.html",
+  "calendar_matins_url": "https://dcs.goarch.org/goa/dcs/h/s/2026/03/29/ma/gr-en/index.html",
+  "calendar_caveat": "GOARCH calendar for 2026-03-29 explicitly specifies St. Basil, whose prayers differ from the supplied St. John Chrysostom text. Calendar reference is diagnostic only; supplied main reference is retained."
+}

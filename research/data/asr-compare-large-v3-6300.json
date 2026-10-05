@@ -1,0 +1,764 @@
+{
+  "model": "mlx-community/whisper-large-v3-mlx",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 6300,
+  "end": 6390.0,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 6301.2,
+      "end": 6303.58,
+      "text": "broke and gave it to his holy disciples",
+      "temperature": 0.0,
+      "avg_logprob": -0.3215008342967314,
+      "compression_ratio": 0.9833333333333333,
+      "no_speech_prob": 0.19221161305904388,
+      "words": [
+        {
+          "word": " broke",
+          "start": 6301.2,
+          "end": 6301.68,
+          "probability": 0.67236328125
+        },
+        {
+          "word": " and",
+          "start": 6301.68,
+          "end": 6302.14,
+          "probability": 0.93701171875
+        },
+        {
+          "word": " gave",
+          "start": 6302.14,
+          "end": 6302.46,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " it",
+          "start": 6302.46,
+          "end": 6302.6,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " to",
+          "start": 6302.6,
+          "end": 6302.72,
+          "probability": 1.0
+        },
+        {
+          "word": " his",
+          "start": 6302.72,
+          "end": 6302.86,
+          "probability": 0.572265625
+        },
+        {
+          "word": " holy",
+          "start": 6302.86,
+          "end": 6303.04,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " disciples",
+          "start": 6303.04,
+          "end": 6303.58,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 6303.58,
+      "end": 6304.64,
+      "text": "and apostles saying",
+      "temperature": 0.0,
+      "avg_logprob": -0.3215008342967314,
+      "compression_ratio": 0.9833333333333333,
+      "no_speech_prob": 0.19221161305904388,
+      "words": [
+        {
+          "word": " and",
+          "start": 6303.58,
+          "end": 6303.82,
+          "probability": 0.6611328125
+        },
+        {
+          "word": " apostles",
+          "start": 6303.82,
+          "end": 6304.04,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " saying",
+          "start": 6304.04,
+          "end": 6304.64,
+          "probability": 0.65283203125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 2,
+      "seek": 464,
+      "start": 6313.28,
+      "end": 6314.68,
+      "text": "Amen.",
+      "temperature": 0.0,
+      "avg_logprob": -0.9204743385314942,
+      "compression_ratio": 0.38461538461538464,
+      "no_speech_prob": 0.545009970664978,
+      "words": [
+        {
+          "word": " Amen.",
+          "start": 6313.28,
+          "end": 6314.68,
+          "probability": 0.2154541015625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 6332.52,
+      "end": 6335.06,
+      "text": "Likewise after supper he took the cup saying",
+      "temperature": 0.0,
+      "avg_logprob": -0.229741514774791,
+      "compression_ratio": 1.452054794520548,
+      "no_speech_prob": 0.056596074253320694,
+      "words": [
+        {
+          "word": " Likewise",
+          "start": 6332.52,
+          "end": 6333.2,
+          "probability": 0.64697265625
+        },
+        {
+          "word": " after",
+          "start": 6333.2,
+          "end": 6333.58,
+          "probability": 0.2066650390625
+        },
+        {
+          "word": " supper",
+          "start": 6333.58,
+          "end": 6333.98,
+          "probability": 0.98828125
+        },
+        {
+          "word": " he",
+          "start": 6333.98,
+          "end": 6334.18,
+          "probability": 0.66650390625
+        },
+        {
+          "word": " took",
+          "start": 6334.18,
+          "end": 6334.38,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " the",
+          "start": 6334.38,
+          "end": 6334.56,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " cup",
+          "start": 6334.56,
+          "end": 6334.72,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " saying",
+          "start": 6334.72,
+          "end": 6335.06,
+          "probability": 0.4375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 6339.56,
+      "end": 6342.12,
+      "text": "Drink of it all of you",
+      "temperature": 0.0,
+      "avg_logprob": -0.229741514774791,
+      "compression_ratio": 1.452054794520548,
+      "no_speech_prob": 0.056596074253320694,
+      "words": [
+        {
+          "word": " Drink",
+          "start": 6339.56,
+          "end": 6340.24,
+          "probability": 0.36572265625
+        },
+        {
+          "word": " of",
+          "start": 6340.24,
+          "end": 6340.92,
+          "probability": 0.994140625
+        },
+        {
+          "word": " it",
+          "start": 6340.92,
+          "end": 6341.2,
+          "probability": 1.0
+        },
+        {
+          "word": " all",
+          "start": 6341.2,
+          "end": 6341.5,
+          "probability": 0.9853515625
+        },
+        {
+          "word": " of",
+          "start": 6341.5,
+          "end": 6341.9,
+          "probability": 0.99609375
+        },
+        {
+          "word": " you",
+          "start": 6341.9,
+          "end": 6342.12,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 6342.12,
+      "end": 6345.36,
+      "text": "This is my blood of the new covenant",
+      "temperature": 0.0,
+      "avg_logprob": -0.229741514774791,
+      "compression_ratio": 1.452054794520548,
+      "no_speech_prob": 0.056596074253320694,
+      "words": [
+        {
+          "word": " This",
+          "start": 6342.12,
+          "end": 6342.46,
+          "probability": 0.477294921875
+        },
+        {
+          "word": " is",
+          "start": 6342.46,
+          "end": 6343.1,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " my",
+          "start": 6343.1,
+          "end": 6343.4,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " blood",
+          "start": 6343.4,
+          "end": 6343.84,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " of",
+          "start": 6343.84,
+          "end": 6344.2,
+          "probability": 0.97802734375
+        },
+        {
+          "word": " the",
+          "start": 6344.2,
+          "end": 6344.44,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " new",
+          "start": 6344.44,
+          "end": 6344.68,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " covenant",
+          "start": 6344.68,
+          "end": 6345.36,
+          "probability": 0.9990234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 6346.58,
+      "end": 6349.46,
+      "text": "Shed for you and for many",
+      "temperature": 0.0,
+      "avg_logprob": -0.229741514774791,
+      "compression_ratio": 1.452054794520548,
+      "no_speech_prob": 0.056596074253320694,
+      "words": [
+        {
+          "word": " Shed",
+          "start": 6346.58,
+          "end": 6347.26,
+          "probability": 0.9853515625
+        },
+        {
+          "word": " for",
+          "start": 6347.26,
+          "end": 6347.9,
+          "probability": 1.0
+        },
+        {
+          "word": " you",
+          "start": 6347.9,
+          "end": 6348.22,
+          "probability": 1.0
+        },
+        {
+          "word": " and",
+          "start": 6348.22,
+          "end": 6348.44,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " for",
+          "start": 6348.44,
+          "end": 6348.72,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " many",
+          "start": 6348.72,
+          "end": 6349.46,
+          "probability": 0.998046875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 6349.46,
+      "end": 6353.46,
+      "text": "For the forgiveness of sin",
+      "temperature": 0.0,
+      "avg_logprob": -0.229741514774791,
+      "compression_ratio": 1.452054794520548,
+      "no_speech_prob": 0.056596074253320694,
+      "words": [
+        {
+          "word": " For",
+          "start": 6349.46,
+          "end": 6350.6,
+          "probability": 0.955078125
+        },
+        {
+          "word": " the",
+          "start": 6350.6,
+          "end": 6351.28,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " forgiveness",
+          "start": 6351.28,
+          "end": 6351.9,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " of",
+          "start": 6351.9,
+          "end": 6352.58,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " sin",
+          "start": 6352.58,
+          "end": 6353.46,
+          "probability": 0.580078125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 6356.0,
+      "end": 6358.26,
+      "text": "Remembering therefore the saving command of the Savior",
+      "temperature": 0.0,
+      "avg_logprob": -0.229741514774791,
+      "compression_ratio": 1.452054794520548,
+      "no_speech_prob": 0.056596074253320694,
+      "words": [
+        {
+          "word": " Remembering",
+          "start": 6356.0,
+          "end": 6356.68,
+          "probability": 0.9453125
+        },
+        {
+          "word": " therefore",
+          "start": 6356.68,
+          "end": 6356.84,
+          "probability": 0.998046875
+        },
+        {
+          "word": " the",
+          "start": 6356.84,
+          "end": 6357.1,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " saving",
+          "start": 6357.1,
+          "end": 6357.34,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " command",
+          "start": 6357.34,
+          "end": 6357.6,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " of",
+          "start": 6357.6,
+          "end": 6357.82,
+          "probability": 0.487060546875
+        },
+        {
+          "word": " the",
+          "start": 6357.82,
+          "end": 6357.94,
+          "probability": 0.998046875
+        },
+        {
+          "word": " Savior",
+          "start": 6357.94,
+          "end": 6358.26,
+          "probability": 0.884765625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 9,
+      "seek": 2826,
+      "start": 6358.26,
+      "end": 6359.82,
+      "text": "for all that came to pass for the sake of the cross.",
+      "temperature": 0.0,
+      "avg_logprob": -0.2838839888572693,
+      "compression_ratio": 0.9629629629629629,
+      "no_speech_prob": 0.6900345087051392,
+      "words": [
+        {
+          "word": " for",
+          "start": 6358.26,
+          "end": 6358.38,
+          "probability": 0.1329345703125
+        },
+        {
+          "word": " all",
+          "start": 6358.38,
+          "end": 6358.44,
+          "probability": 0.78076171875
+        },
+        {
+          "word": " that",
+          "start": 6358.44,
+          "end": 6358.54,
+          "probability": 0.9716796875
+        },
+        {
+          "word": " came",
+          "start": 6358.54,
+          "end": 6358.72,
+          "probability": 0.96142578125
+        },
+        {
+          "word": " to",
+          "start": 6358.72,
+          "end": 6358.84,
+          "probability": 0.990234375
+        },
+        {
+          "word": " pass",
+          "start": 6358.84,
+          "end": 6359.06,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " for",
+          "start": 6359.06,
+          "end": 6359.26,
+          "probability": 0.82275390625
+        },
+        {
+          "word": " the",
+          "start": 6359.26,
+          "end": 6359.34,
+          "probability": 0.6796875
+        },
+        {
+          "word": " sake",
+          "start": 6359.34,
+          "end": 6359.54,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " of",
+          "start": 6359.54,
+          "end": 6359.66,
+          "probability": 0.9365234375
+        },
+        {
+          "word": " the",
+          "start": 6359.66,
+          "end": 6359.72,
+          "probability": 0.96484375
+        },
+        {
+          "word": " cross.",
+          "start": 6359.72,
+          "end": 6359.82,
+          "probability": 0.91650390625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 10,
+      "seek": 0,
+      "start": 6360.0,
+      "end": 6362.38,
+      "text": "the tomb, the resurrection, the third day, the ascension to heaven.",
+      "temperature": 0.0,
+      "avg_logprob": -0.3705512598941201,
+      "compression_ratio": 1.3396226415094339,
+      "no_speech_prob": 0.06932505965232849,
+      "words": [
+        {
+          "word": " the",
+          "start": 6360.0,
+          "end": 6360.16,
+          "probability": 0.92041015625
+        },
+        {
+          "word": " tomb,",
+          "start": 6360.16,
+          "end": 6360.32,
+          "probability": 0.93115234375
+        },
+        {
+          "word": " the",
+          "start": 6360.36,
+          "end": 6360.44,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " resurrection,",
+          "start": 6360.44,
+          "end": 6360.86,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " the",
+          "start": 6361.06,
+          "end": 6361.2,
+          "probability": 0.9609375
+        },
+        {
+          "word": " third",
+          "start": 6361.2,
+          "end": 6361.46,
+          "probability": 0.84765625
+        },
+        {
+          "word": " day,",
+          "start": 6361.46,
+          "end": 6361.66,
+          "probability": 0.98974609375
+        },
+        {
+          "word": " the",
+          "start": 6361.72,
+          "end": 6361.8,
+          "probability": 0.87744140625
+        },
+        {
+          "word": " ascension",
+          "start": 6361.8,
+          "end": 6362.02,
+          "probability": 0.56640625
+        },
+        {
+          "word": " to",
+          "start": 6362.02,
+          "end": 6362.22,
+          "probability": 0.8681640625
+        },
+        {
+          "word": " heaven.",
+          "start": 6362.22,
+          "end": 6362.38,
+          "probability": 0.98388671875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 11,
+      "seek": 0,
+      "start": 6362.86,
+      "end": 6365.88,
+      "text": "In throng and at the right hand of the Father, the second glorious coming.",
+      "temperature": 0.0,
+      "avg_logprob": -0.3705512598941201,
+      "compression_ratio": 1.3396226415094339,
+      "no_speech_prob": 0.06932505965232849,
+      "words": [
+        {
+          "word": " In",
+          "start": 6362.86,
+          "end": 6363.18,
+          "probability": 0.66748046875
+        },
+        {
+          "word": " throng",
+          "start": 6363.18,
+          "end": 6363.42,
+          "probability": 0.43212890625
+        },
+        {
+          "word": " and",
+          "start": 6363.42,
+          "end": 6363.54,
+          "probability": 0.4296875
+        },
+        {
+          "word": " at",
+          "start": 6363.54,
+          "end": 6363.7,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " the",
+          "start": 6363.7,
+          "end": 6363.78,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " right",
+          "start": 6363.78,
+          "end": 6363.9,
+          "probability": 1.0
+        },
+        {
+          "word": " hand",
+          "start": 6363.9,
+          "end": 6364.06,
+          "probability": 1.0
+        },
+        {
+          "word": " of",
+          "start": 6364.06,
+          "end": 6364.18,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 6364.18,
+          "end": 6364.26,
+          "probability": 1.0
+        },
+        {
+          "word": " Father,",
+          "start": 6364.26,
+          "end": 6364.58,
+          "probability": 0.98583984375
+        },
+        {
+          "word": " the",
+          "start": 6364.66,
+          "end": 6364.84,
+          "probability": 0.994140625
+        },
+        {
+          "word": " second",
+          "start": 6364.84,
+          "end": 6365.1,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " glorious",
+          "start": 6365.1,
+          "end": 6365.5,
+          "probability": 0.6337890625
+        },
+        {
+          "word": " coming.",
+          "start": 6365.5,
+          "end": 6365.88,
+          "probability": 0.99658203125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 6300.0,
+      "end": 6330.0,
+      "language": "en",
+      "seconds": 3.4238372910767794
+    },
+    {
+      "start": 6330.0,
+      "end": 6360.0,
+      "language": "en",
+      "seconds": 4.730882625095546
+    },
+    {
+      "start": 6360.0,
+      "end": 6390.0,
+      "language": "en",
+      "seconds": 2.5491525419056416
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 90.0,
+    "inference_seconds": 10.711772833019495,
+    "decode_seconds": 0.21265958296135068,
+    "real_time_factor": 0.11901969814466105,
+    "speedup": 8.40197056107941,
+    "peak_memory_gb": 3.896347714,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ]
+}

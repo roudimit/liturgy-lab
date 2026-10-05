@@ -1,0 +1,201 @@
+{
+  "checked_at": "2026-10-01T19:41:04.802447+00:00",
+  "user_agent": "Mozilla/5.0",
+  "notes": [
+    "Requests without a browser User-Agent returned 403; the statuses below are retries with the browser User-Agent.",
+    "Exact 2025 dated HTML and PDF editions were unavailable; chosen substitutes are explicitly identified in reference-manifest.json.",
+    "The GOARCH December 2025 calendar confirms the 11th Sunday of Luke on December 14 and Sunday after Nativity on December 28. Recording dates are still inferred from upload/release metadata."
+  ],
+  "calendar_sources": [
+    "https://www.goarch.org/chapel?date=9%2F8%2F2025",
+    "https://www.goarch.org/chapel/calendar?month=12&viewStyle=GridView&viewType=ViewReadings&year=2025"
+  ],
+  "requests": [
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/h/s/2025/09/08/ma/gr-en/index.html",
+      "status": 404,
+      "bytes": 1293,
+      "saved": false
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/h/s/2025/09/08/ma3/gr-en/index.html",
+      "status": 404,
+      "bytes": 1293,
+      "saved": false
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/h/s/2025/09/08/li/gr-en/index.html",
+      "status": 404,
+      "bytes": 1293,
+      "saved": false
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/h/s/2026/09/08/ma/gr-en/index.html",
+      "status": 200,
+      "bytes": 316131,
+      "saved": true
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/h/s/2026/09/08/ma3/gr-en/index.html",
+      "status": 200,
+      "bytes": 578115,
+      "saved": true
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/h/s/2026/09/08/li/gr-en/index.html",
+      "status": 200,
+      "bytes": 549535,
+      "saved": true
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/h/s/2025/12/14/ma/gr-en/index.html",
+      "status": 404,
+      "bytes": 1293,
+      "saved": false
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/h/s/2025/12/14/ma3/gr-en/index.html",
+      "status": 404,
+      "bytes": 1293,
+      "saved": false
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/h/s/2025/12/14/li/gr-en/index.html",
+      "status": 404,
+      "bytes": 1293,
+      "saved": false
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/h/s/2026/12/13/ma/gr-en/index.html",
+      "status": 200,
+      "bytes": 446318,
+      "saved": true
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/h/s/2026/12/13/ma3/gr-en/index.html",
+      "status": 404,
+      "bytes": 1293,
+      "saved": false
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/h/s/2026/12/13/li/gr-en/index.html",
+      "status": 200,
+      "bytes": 552202,
+      "saved": true
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/h/s/2026/03/29/ma/gr-en/index.html",
+      "status": 200,
+      "bytes": 414461,
+      "saved": true
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/h/s/2026/03/29/ma3/gr-en/index.html",
+      "status": 404,
+      "bytes": 1293,
+      "saved": false
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/h/s/2026/03/29/li/gr-en/index.html",
+      "status": 200,
+      "bytes": 488176,
+      "saved": true
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/h/s/2025/12/28/ma/gr-en/index.html",
+      "status": 404,
+      "bytes": 1293,
+      "saved": false
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/h/s/2025/12/28/ma3/gr-en/index.html",
+      "status": 404,
+      "bytes": 1293,
+      "saved": false
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/h/s/2025/12/28/li/gr-en/index.html",
+      "status": 404,
+      "bytes": 1293,
+      "saved": false
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/h/s/2026/12/27/ma/gr-en/index.html",
+      "status": 200,
+      "bytes": 448638,
+      "saved": true
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/h/s/2026/12/27/ma3/gr-en/index.html",
+      "status": 404,
+      "bytes": 1293,
+      "saved": false
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/h/s/2026/12/27/li/gr-en/index.html",
+      "status": 200,
+      "bytes": 568835,
+      "saved": true
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/p/s/2025/09/08/ma/gr-en/se.m09.d08.ma.pdf",
+      "status": 404,
+      "saved": false
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/p/s/2025/09/08/li/gr-en/se.m09.d08.li.pdf",
+      "status": 404,
+      "saved": false
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/p/s/2025/12/14/ma/gr-en/se.m12.d14.ma.pdf",
+      "status": 404,
+      "saved": false
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/p/s/2025/12/14/li/gr-en/se.m12.d14.li.pdf",
+      "status": 404,
+      "saved": false
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/p/s/2025/12/28/ma/gr-en/se.m12.d28.ma.pdf",
+      "status": 404,
+      "saved": false
+    },
+    {
+      "url": "https://dcs.goarch.org/goa/dcs/p/s/2025/12/28/li/gr-en/se.m12.d28.li.pdf",
+      "status": 404,
+      "saved": false
+    },
+    {
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/p/s/2025/09/08/ma/gr-en/se.m09.d08.ma.pdf",
+      "status": 404,
+      "saved": false
+    },
+    {
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/p/s/2025/09/08/li/gr-en/se.m09.d08.li.pdf",
+      "status": 404,
+      "saved": false
+    },
+    {
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/p/s/2025/12/14/ma/gr-en/se.m12.d14.ma.pdf",
+      "status": 404,
+      "saved": false
+    },
+    {
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/p/s/2025/12/14/li/gr-en/se.m12.d14.li.pdf",
+      "status": 404,
+      "saved": false
+    },
+    {
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/p/s/2025/12/28/ma/gr-en/se.m12.d28.ma.pdf",
+      "status": 404,
+      "saved": false
+    },
+    {
+      "url": "https://digitalchantstand.goarch.org/goa/dcs/p/s/2025/12/28/li/gr-en/se.m12.d28.li.pdf",
+      "status": 404,
+      "saved": false
+    }
+  ]
+}

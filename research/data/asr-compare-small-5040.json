@@ -1,0 +1,1274 @@
+{
+  "model": "mlx-community/whisper-small-mlx",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 5040,
+  "end": 5130.0,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 5042.48,
+      "end": 5069.98,
+      "text": "ούτε η αγγεία, ούτε η αγγεία, ούτε η αγγεία, ούτε η αγγεία, ούτε η αγγεία, ούτε η αγγεία, ούτε η αγγεία, ούτε η αγγεία, ούτε η αγγεία, ούτε η αγγεία, ούτε η αγγεία, ούτε η αγγεία, ούτε η αγγεία, ούτε η αγγεία, ούτε η αγγεία, ούτε η αγγεία, ούτε η αγγεία, ούτε η αγγεία, ούτε η αγγεία, ούτε η αγγεία, ούτε η αγγεία, ούτε η αγγεία, ούτε",
+      "temperature": 0.0,
+      "avg_logprob": -0.15794716729058159,
+      "compression_ratio": 13.80952380952381,
+      "no_speech_prob": 0.752588152885437,
+      "words": [
+        {
+          "word": " ούτε",
+          "start": 5042.48,
+          "end": 5043.6,
+          "probability": 0.34912109375
+        },
+        {
+          "word": " η",
+          "start": 5043.6,
+          "end": 5043.6,
+          "probability": 0.09075927734375
+        },
+        {
+          "word": " αγγεία,",
+          "start": 5043.6,
+          "end": 5044.28,
+          "probability": 0.34375
+        },
+        {
+          "word": " ούτε",
+          "start": 5044.28,
+          "end": 5044.56,
+          "probability": 0.6181640625
+        },
+        {
+          "word": " η",
+          "start": 5044.56,
+          "end": 5044.56,
+          "probability": 0.45068359375
+        },
+        {
+          "word": " αγγεία,",
+          "start": 5044.56,
+          "end": 5045.22,
+          "probability": 0.76416015625
+        },
+        {
+          "word": " ούτε",
+          "start": 5045.4,
+          "end": 5047.44,
+          "probability": 0.7900390625
+        },
+        {
+          "word": " η",
+          "start": 5047.44,
+          "end": 5047.44,
+          "probability": 0.80078125
+        },
+        {
+          "word": " αγγεία,",
+          "start": 5047.44,
+          "end": 5047.62,
+          "probability": 0.92236328125
+        },
+        {
+          "word": " ούτε",
+          "start": 5047.76,
+          "end": 5049.12,
+          "probability": 0.8447265625
+        },
+        {
+          "word": " η",
+          "start": 5049.12,
+          "end": 5049.12,
+          "probability": 0.89013671875
+        },
+        {
+          "word": " αγγεία,",
+          "start": 5049.12,
+          "end": 5049.94,
+          "probability": 0.9765625
+        },
+        {
+          "word": " ούτε",
+          "start": 5050.18,
+          "end": 5051.24,
+          "probability": 0.89599609375
+        },
+        {
+          "word": " η",
+          "start": 5051.24,
+          "end": 5051.36,
+          "probability": 0.91552734375
+        },
+        {
+          "word": " αγγεία,",
+          "start": 5051.36,
+          "end": 5052.3,
+          "probability": 0.986328125
+        },
+        {
+          "word": " ούτε",
+          "start": 5052.42,
+          "end": 5052.42,
+          "probability": 0.92236328125
+        },
+        {
+          "word": " η",
+          "start": 5052.42,
+          "end": 5052.42,
+          "probability": 0.93310546875
+        },
+        {
+          "word": " αγγεία,",
+          "start": 5052.42,
+          "end": 5052.46,
+          "probability": 0.98974609375
+        },
+        {
+          "word": " ούτε",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.93359375
+        },
+        {
+          "word": " η",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.939453125
+        },
+        {
+          "word": " αγγεία,",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " ούτε",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.9384765625
+        },
+        {
+          "word": " η",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.9384765625
+        },
+        {
+          "word": " αγγεία,",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " ούτε",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.9423828125
+        },
+        {
+          "word": " η",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.9345703125
+        },
+        {
+          "word": " αγγεία,",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.9921875
+        },
+        {
+          "word": " ούτε",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.94384765625
+        },
+        {
+          "word": " η",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.93115234375
+        },
+        {
+          "word": " αγγεία,",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.9921875
+        },
+        {
+          "word": " ούτε",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.9453125
+        },
+        {
+          "word": " η",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.927734375
+        },
+        {
+          "word": " αγγεία,",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.9921875
+        },
+        {
+          "word": " ούτε",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.9482421875
+        },
+        {
+          "word": " η",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.9228515625
+        },
+        {
+          "word": " αγγεία,",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.9921875
+        },
+        {
+          "word": " ούτε",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.94873046875
+        },
+        {
+          "word": " η",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.92431640625
+        },
+        {
+          "word": " αγγεία,",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.9921875
+        },
+        {
+          "word": " ούτε",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.94921875
+        },
+        {
+          "word": " η",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.92041015625
+        },
+        {
+          "word": " αγγεία,",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.9921875
+        },
+        {
+          "word": " ούτε",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.95068359375
+        },
+        {
+          "word": " η",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.9150390625
+        },
+        {
+          "word": " αγγεία,",
+          "start": 5052.46,
+          "end": 5052.46,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " ούτε",
+          "start": 5057.76,
+          "end": 5057.98,
+          "probability": 0.95166015625
+        },
+        {
+          "word": " η",
+          "start": 5057.98,
+          "end": 5057.98,
+          "probability": 0.91357421875
+        },
+        {
+          "word": " αγγεία,",
+          "start": 5057.98,
+          "end": 5058.2,
+          "probability": 0.9921875
+        },
+        {
+          "word": " ούτε",
+          "start": 5058.78,
+          "end": 5058.9,
+          "probability": 0.953125
+        },
+        {
+          "word": " η",
+          "start": 5058.9,
+          "end": 5058.96,
+          "probability": 0.916015625
+        },
+        {
+          "word": " αγγεία,",
+          "start": 5058.96,
+          "end": 5058.96,
+          "probability": 0.9921875
+        },
+        {
+          "word": " ούτε",
+          "start": 5059.06,
+          "end": 5059.06,
+          "probability": 0.95458984375
+        },
+        {
+          "word": " η",
+          "start": 5059.06,
+          "end": 5059.06,
+          "probability": 0.91162109375
+        },
+        {
+          "word": " αγγεία,",
+          "start": 5059.06,
+          "end": 5059.06,
+          "probability": 0.9921875
+        },
+        {
+          "word": " ούτε",
+          "start": 5059.8,
+          "end": 5061.46,
+          "probability": 0.955078125
+        },
+        {
+          "word": " η",
+          "start": 5061.46,
+          "end": 5061.46,
+          "probability": 0.912109375
+        },
+        {
+          "word": " αγγεία,",
+          "start": 5061.46,
+          "end": 5061.46,
+          "probability": 0.9921875
+        },
+        {
+          "word": " ούτε",
+          "start": 5063.7,
+          "end": 5064.24,
+          "probability": 0.95556640625
+        },
+        {
+          "word": " η",
+          "start": 5064.24,
+          "end": 5064.24,
+          "probability": 0.90966796875
+        },
+        {
+          "word": " αγγεία,",
+          "start": 5064.24,
+          "end": 5064.68,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " ούτε",
+          "start": 5065.66,
+          "end": 5066.52,
+          "probability": 0.955078125
+        },
+        {
+          "word": " η",
+          "start": 5066.52,
+          "end": 5066.52,
+          "probability": 0.9140625
+        },
+        {
+          "word": " αγγεία,",
+          "start": 5066.52,
+          "end": 5066.98,
+          "probability": 0.9921875
+        },
+        {
+          "word": " ούτε",
+          "start": 5066.98,
+          "end": 5069.3,
+          "probability": 0.95751953125
+        },
+        {
+          "word": " η",
+          "start": 5069.3,
+          "end": 5069.3,
+          "probability": 0.9072265625
+        },
+        {
+          "word": " αγγεία,",
+          "start": 5069.3,
+          "end": 5069.88,
+          "probability": 0.9921875
+        },
+        {
+          "word": " ούτε",
+          "start": 5069.88,
+          "end": 5069.98,
+          "probability": 0.9580078125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5070.0,
+      "end": 5077.06,
+      "text": "και το Ιω και το Άγιο Πνεύμα, την Ειν-Κεαή και εισπυσεώνας τον εώνο.",
+      "temperature": 0.0,
+      "avg_logprob": -0.53399389166581,
+      "compression_ratio": 1.9024390243902438,
+      "no_speech_prob": 0.7015886902809143,
+      "words": [
+        {
+          "word": " και",
+          "start": 5070.0,
+          "end": 5070.0,
+          "probability": 0.0721435546875
+        },
+        {
+          "word": " το",
+          "start": 5070.0,
+          "end": 5070.24,
+          "probability": 0.83447265625
+        },
+        {
+          "word": " Ιω",
+          "start": 5070.24,
+          "end": 5070.58,
+          "probability": 0.875
+        },
+        {
+          "word": " και",
+          "start": 5070.58,
+          "end": 5070.78,
+          "probability": 0.615234375
+        },
+        {
+          "word": " το",
+          "start": 5070.78,
+          "end": 5071.02,
+          "probability": 0.98681640625
+        },
+        {
+          "word": " Άγιο",
+          "start": 5071.02,
+          "end": 5071.48,
+          "probability": 0.8056640625
+        },
+        {
+          "word": " Πνεύμα,",
+          "start": 5071.48,
+          "end": 5072.26,
+          "probability": 0.90234375
+        },
+        {
+          "word": " την",
+          "start": 5072.34,
+          "end": 5072.5,
+          "probability": 0.56396484375
+        },
+        {
+          "word": " Ειν",
+          "start": 5072.5,
+          "end": 5072.82,
+          "probability": 0.5673828125
+        },
+        {
+          "word": "-Κεαή",
+          "start": 5072.82,
+          "end": 5073.64,
+          "probability": 0.57666015625
+        },
+        {
+          "word": " και",
+          "start": 5073.64,
+          "end": 5074.42,
+          "probability": 0.53173828125
+        },
+        {
+          "word": " εισπυσεώνας",
+          "start": 5074.42,
+          "end": 5075.94,
+          "probability": 0.57421875
+        },
+        {
+          "word": " τον",
+          "start": 5075.94,
+          "end": 5076.14,
+          "probability": 0.80517578125
+        },
+        {
+          "word": " εώνο.",
+          "start": 5076.14,
+          "end": 5077.06,
+          "probability": 0.55859375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5080.78,
+      "end": 5086.12,
+      "text": "Αμήνα Αγίος ο Θεός,",
+      "temperature": 0.0,
+      "avg_logprob": -0.53399389166581,
+      "compression_ratio": 1.9024390243902438,
+      "no_speech_prob": 0.7015886902809143,
+      "words": [
+        {
+          "word": " Αμήνα",
+          "start": 5080.78,
+          "end": 5081.98,
+          "probability": 0.54248046875
+        },
+        {
+          "word": " Αγίος",
+          "start": 5081.98,
+          "end": 5083.18,
+          "probability": 0.6376953125
+        },
+        {
+          "word": " ο",
+          "start": 5083.18,
+          "end": 5083.78,
+          "probability": 0.46044921875
+        },
+        {
+          "word": " Θεός,",
+          "start": 5083.78,
+          "end": 5086.12,
+          "probability": 0.958984375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 5088.1,
+      "end": 5093.2,
+      "text": "Παγίος ο Θεός,",
+      "temperature": 0.0,
+      "avg_logprob": -0.53399389166581,
+      "compression_ratio": 1.9024390243902438,
+      "no_speech_prob": 0.7015886902809143,
+      "words": [
+        {
+          "word": " Παγίος",
+          "start": 5088.1,
+          "end": 5089.3,
+          "probability": 0.54736328125
+        },
+        {
+          "word": " ο",
+          "start": 5089.3,
+          "end": 5089.66,
+          "probability": 0.48486328125
+        },
+        {
+          "word": " Θεός,",
+          "start": 5089.66,
+          "end": 5093.2,
+          "probability": 0.7392578125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 5093.2,
+      "end": 5093.46,
+      "text": "Παγίος ο Θεός,",
+      "temperature": 0.0,
+      "avg_logprob": -0.53399389166581,
+      "compression_ratio": 1.9024390243902438,
+      "no_speech_prob": 0.7015886902809143,
+      "words": [
+        {
+          "word": " Παγίος",
+          "start": 5093.2,
+          "end": 5093.24,
+          "probability": 0.8818359375
+        },
+        {
+          "word": " ο",
+          "start": 5093.24,
+          "end": 5093.24,
+          "probability": 0.89013671875
+        },
+        {
+          "word": " Θεός,",
+          "start": 5093.24,
+          "end": 5093.46,
+          "probability": 0.91796875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 5093.46,
+      "end": 5097.2,
+      "text": "Παγίος ο Θεός,",
+      "temperature": 0.0,
+      "avg_logprob": -0.53399389166581,
+      "compression_ratio": 1.9024390243902438,
+      "no_speech_prob": 0.7015886902809143,
+      "words": [
+        {
+          "word": " Παγίος",
+          "start": 5093.46,
+          "end": 5094.98,
+          "probability": 0.9501953125
+        },
+        {
+          "word": " ο",
+          "start": 5094.98,
+          "end": 5095.96,
+          "probability": 0.92626953125
+        },
+        {
+          "word": " Θεός,",
+          "start": 5095.96,
+          "end": 5097.2,
+          "probability": 0.966796875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 6,
+      "seek": 2720,
+      "start": 5097.2,
+      "end": 5099.98,
+      "text": "Α, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ελπί, ε",
+      "temperature": 0.0,
+      "avg_logprob": -0.11754152086046007,
+      "compression_ratio": 17.84,
+      "no_speech_prob": 0.5134972333908081,
+      "words": [
+        {
+          "word": " Α,",
+          "start": 5097.2,
+          "end": 5097.3,
+          "probability": 0.1290283203125
+        },
+        {
+          "word": " ελπί,",
+          "start": 5097.44,
+          "end": 5097.72,
+          "probability": 0.232177734375
+        },
+        {
+          "word": " ελπί,",
+          "start": 5097.72,
+          "end": 5098.08,
+          "probability": 0.75341796875
+        },
+        {
+          "word": " ελπί,",
+          "start": 5098.24,
+          "end": 5098.42,
+          "probability": 0.923828125
+        },
+        {
+          "word": " ελπί,",
+          "start": 5098.5,
+          "end": 5098.82,
+          "probability": 0.9501953125
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.16,
+          "end": 5099.72,
+          "probability": 0.96142578125
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.84,
+          "end": 5099.84,
+          "probability": 0.9716796875
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.84,
+          "end": 5099.84,
+          "probability": 0.978515625
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.86,
+          "end": 5099.98,
+          "probability": 0.982421875
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.98583984375
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.9892578125
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.990234375
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.99072265625
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.9921875
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.9921875
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.9921875
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.9921875
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.994140625
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.994140625
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " ελπί,",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " ε",
+          "start": 5099.98,
+          "end": 5099.98,
+          "probability": 0.978515625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 5100.0,
+      "end": 5129.98,
+      "text": "ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻɪ ʻ",
+      "temperature": 0.0,
+      "avg_logprob": -0.1649158732096354,
+      "compression_ratio": 13.058823529411764,
+      "no_speech_prob": 0.7655217051506042,
+      "words": [
+        {
+          "word": " ʻɪ",
+          "start": 5100.0,
+          "end": 5101.38,
+          "probability": 0.1380615234375
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5101.38,
+          "end": 5101.4,
+          "probability": 0.521484375
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5101.4,
+          "end": 5101.56,
+          "probability": 0.76806640625
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5101.56,
+          "end": 5102.08,
+          "probability": 0.82275390625
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5102.08,
+          "end": 5102.28,
+          "probability": 0.841796875
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5102.28,
+          "end": 5102.88,
+          "probability": 0.85205078125
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5102.88,
+          "end": 5104.04,
+          "probability": 0.86328125
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5104.04,
+          "end": 5105.06,
+          "probability": 0.87109375
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5105.06,
+          "end": 5105.06,
+          "probability": 0.87939453125
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5105.06,
+          "end": 5105.14,
+          "probability": 0.8857421875
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5105.14,
+          "end": 5105.26,
+          "probability": 0.89306640625
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5105.26,
+          "end": 5105.78,
+          "probability": 0.896484375
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5105.78,
+          "end": 5107.24,
+          "probability": 0.9033203125
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5107.24,
+          "end": 5107.24,
+          "probability": 0.9111328125
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5107.24,
+          "end": 5109.02,
+          "probability": 0.91357421875
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5109.02,
+          "end": 5110.16,
+          "probability": 0.9189453125
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5110.16,
+          "end": 5110.2,
+          "probability": 0.921875
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5110.2,
+          "end": 5110.72,
+          "probability": 0.92138671875
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5110.72,
+          "end": 5110.94,
+          "probability": 0.92529296875
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5110.94,
+          "end": 5111.24,
+          "probability": 0.92626953125
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5111.24,
+          "end": 5112.48,
+          "probability": 0.927734375
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5112.48,
+          "end": 5112.82,
+          "probability": 0.931640625
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5112.82,
+          "end": 5112.82,
+          "probability": 0.931640625
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5112.82,
+          "end": 5113.48,
+          "probability": 0.93212890625
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5113.48,
+          "end": 5113.66,
+          "probability": 0.93408203125
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5113.66,
+          "end": 5113.74,
+          "probability": 0.93603515625
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5113.74,
+          "end": 5115.16,
+          "probability": 0.9375
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5115.16,
+          "end": 5115.24,
+          "probability": 0.93896484375
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5115.24,
+          "end": 5115.24,
+          "probability": 0.94189453125
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5115.24,
+          "end": 5116.66,
+          "probability": 0.94287109375
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5116.66,
+          "end": 5116.66,
+          "probability": 0.9423828125
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5116.66,
+          "end": 5117.34,
+          "probability": 0.94384765625
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5117.34,
+          "end": 5117.34,
+          "probability": 0.94482421875
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5117.34,
+          "end": 5117.34,
+          "probability": 0.9443359375
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5117.34,
+          "end": 5118.16,
+          "probability": 0.94580078125
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5118.16,
+          "end": 5118.16,
+          "probability": 0.94677734375
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5118.16,
+          "end": 5118.16,
+          "probability": 0.94580078125
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5118.16,
+          "end": 5118.16,
+          "probability": 0.9462890625
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5118.16,
+          "end": 5118.18,
+          "probability": 0.9462890625
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5118.18,
+          "end": 5118.18,
+          "probability": 0.94482421875
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5118.18,
+          "end": 5120.04,
+          "probability": 0.9462890625
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5120.04,
+          "end": 5120.04,
+          "probability": 0.94580078125
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5120.04,
+          "end": 5122.04,
+          "probability": 0.94677734375
+        },
+        {
+          "word": " ʻɪ",
+          "start": 5122.04,
+          "end": 5126.1,
+          "probability": 0.947265625
+        },
+        {
+          "word": " ʻ",
+          "start": 5126.1,
+          "end": 5129.98,
+          "probability": 0.93994140625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "la"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 5040.0,
+      "end": 5070.0,
+      "language": "el",
+      "seconds": 1.3750402501318604
+    },
+    {
+      "start": 5070.0,
+      "end": 5100.0,
+      "language": "el",
+      "seconds": 1.8176890001632273
+    },
+    {
+      "start": 5100.0,
+      "end": 5130.0,
+      "language": "la",
+      "seconds": 2.4840197081211954
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 90.0,
+    "inference_seconds": 5.6805440408643335,
+    "decode_seconds": 0.06372625008225441,
+    "real_time_factor": 0.0631171560096037,
+    "speedup": 15.843552897849884,
+    "peak_memory_gb": 1.229558694,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ]
+}

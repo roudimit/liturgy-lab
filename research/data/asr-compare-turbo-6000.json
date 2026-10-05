@@ -1,0 +1,464 @@
+{
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 6000,
+  "end": 6090.0,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 6000.0,
+      "end": 6009.8,
+      "text": "with all the saints that has commend ourselves and one another and our whole life to Christ our God.",
+      "temperature": 0.0,
+      "avg_logprob": -0.5319635073343912,
+      "compression_ratio": 1.1764705882352942,
+      "no_speech_prob": 2.466882531582115e-10,
+      "words": [
+        {
+          "word": " with",
+          "start": 6000.0,
+          "end": 6000.36,
+          "probability": 0.351806640625
+        },
+        {
+          "word": " all",
+          "start": 6000.36,
+          "end": 6000.64,
+          "probability": 0.95849609375
+        },
+        {
+          "word": " the",
+          "start": 6000.64,
+          "end": 6000.86,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " saints",
+          "start": 6000.86,
+          "end": 6001.58,
+          "probability": 0.96728515625
+        },
+        {
+          "word": " that",
+          "start": 6001.58,
+          "end": 6002.24,
+          "probability": 0.640625
+        },
+        {
+          "word": " has",
+          "start": 6002.24,
+          "end": 6002.48,
+          "probability": 0.370361328125
+        },
+        {
+          "word": " commend",
+          "start": 6002.48,
+          "end": 6002.9,
+          "probability": 0.5341796875
+        },
+        {
+          "word": " ourselves",
+          "start": 6002.9,
+          "end": 6003.68,
+          "probability": 0.97314453125
+        },
+        {
+          "word": " and",
+          "start": 6003.68,
+          "end": 6004.34,
+          "probability": 0.91259765625
+        },
+        {
+          "word": " one",
+          "start": 6004.34,
+          "end": 6004.6,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " another",
+          "start": 6004.6,
+          "end": 6005.5,
+          "probability": 0.994140625
+        },
+        {
+          "word": " and",
+          "start": 6005.5,
+          "end": 6006.52,
+          "probability": 0.7607421875
+        },
+        {
+          "word": " our",
+          "start": 6006.52,
+          "end": 6006.76,
+          "probability": 0.99609375
+        },
+        {
+          "word": " whole",
+          "start": 6006.76,
+          "end": 6007.14,
+          "probability": 0.99609375
+        },
+        {
+          "word": " life",
+          "start": 6007.14,
+          "end": 6007.66,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " to",
+          "start": 6007.66,
+          "end": 6007.92,
+          "probability": 0.97998046875
+        },
+        {
+          "word": " Christ",
+          "start": 6007.92,
+          "end": 6008.44,
+          "probability": 0.98095703125
+        },
+        {
+          "word": " our",
+          "start": 6008.44,
+          "end": 6008.92,
+          "probability": 0.93994140625
+        },
+        {
+          "word": " God.",
+          "start": 6008.92,
+          "end": 6009.8,
+          "probability": 0.98681640625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 1,
+      "seek": 980,
+      "start": 6028.44,
+      "end": 6029.84,
+      "text": ".",
+      "temperature": 0.0,
+      "avg_logprob": -1.9416111707687378,
+      "compression_ratio": 0.1111111111111111,
+      "no_speech_prob": 1.932415893968198e-10,
+      "words": [
+        {
+          "word": " .",
+          "start": 6028.44,
+          "end": 6029.84,
+          "probability": 0.0244140625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 6030.0,
+      "end": 6036.0,
+      "text": "νυν και αϊκέει στους αιώνας των αιώνων,",
+      "temperature": 0.0,
+      "avg_logprob": -0.516055542745708,
+      "compression_ratio": 1.5294117647058822,
+      "no_speech_prob": 2.401841503463231e-10,
+      "words": [
+        {
+          "word": " νυν",
+          "start": 6030.0,
+          "end": 6030.88,
+          "probability": 0.5283203125
+        },
+        {
+          "word": " και",
+          "start": 6030.88,
+          "end": 6031.12,
+          "probability": 0.63671875
+        },
+        {
+          "word": " αϊκέει",
+          "start": 6031.12,
+          "end": 6032.44,
+          "probability": 0.68115234375
+        },
+        {
+          "word": " στους",
+          "start": 6032.44,
+          "end": 6032.92,
+          "probability": 0.86669921875
+        },
+        {
+          "word": " αιώνας",
+          "start": 6032.92,
+          "end": 6034.22,
+          "probability": 0.9814453125
+        },
+        {
+          "word": " των",
+          "start": 6034.22,
+          "end": 6034.38,
+          "probability": 0.41650390625
+        },
+        {
+          "word": " αιώνων,",
+          "start": 6034.38,
+          "end": 6036.0,
+          "probability": 0.95654296875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 6036.0,
+      "end": 6043.92,
+      "text": "αγμύν, ειρήνη φάση,",
+      "temperature": 0.0,
+      "avg_logprob": -0.516055542745708,
+      "compression_ratio": 1.5294117647058822,
+      "no_speech_prob": 2.401841503463231e-10,
+      "words": [
+        {
+          "word": " αγμύν,",
+          "start": 6036.0,
+          "end": 6038.3,
+          "probability": 0.451904296875
+        },
+        {
+          "word": " ειρήνη",
+          "start": 6038.32,
+          "end": 6040.36,
+          "probability": 0.87109375
+        },
+        {
+          "word": " φάση,",
+          "start": 6040.36,
+          "end": 6043.92,
+          "probability": 0.6533203125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 6045.52,
+      "end": 6050.24,
+      "text": "με το Πνεύμα ειδήσου,",
+      "temperature": 0.0,
+      "avg_logprob": -0.516055542745708,
+      "compression_ratio": 1.5294117647058822,
+      "no_speech_prob": 2.401841503463231e-10,
+      "words": [
+        {
+          "word": " με",
+          "start": 6045.16,
+          "end": 6045.86,
+          "probability": 0.285888671875
+        },
+        {
+          "word": " το",
+          "start": 6045.86,
+          "end": 6046.24,
+          "probability": 0.94091796875
+        },
+        {
+          "word": " Πνεύμα",
+          "start": 6046.24,
+          "end": 6047.68,
+          "probability": 0.85888671875
+        },
+        {
+          "word": " ειδήσου,",
+          "start": 6047.68,
+          "end": 6050.24,
+          "probability": 0.4384765625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 6050.44,
+      "end": 6055.58,
+      "text": "αγαπήσωμεν αλληλούσινα εν ομονία,",
+      "temperature": 0.0,
+      "avg_logprob": -0.516055542745708,
+      "compression_ratio": 1.5294117647058822,
+      "no_speech_prob": 2.401841503463231e-10,
+      "words": [
+        {
+          "word": " αγαπήσωμεν",
+          "start": 6050.44,
+          "end": 6052.68,
+          "probability": 0.76611328125
+        },
+        {
+          "word": " αλληλούσινα",
+          "start": 6052.68,
+          "end": 6054.14,
+          "probability": 0.80078125
+        },
+        {
+          "word": " εν",
+          "start": 6054.14,
+          "end": 6054.52,
+          "probability": 0.79296875
+        },
+        {
+          "word": " ομονία,",
+          "start": 6054.52,
+          "end": 6055.58,
+          "probability": 0.89306640625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 6,
+      "seek": 2558,
+      "start": 6055.58,
+      "end": 6058.1,
+      "text": "ομολογήσω με",
+      "temperature": 0.0,
+      "avg_logprob": -0.639500617980957,
+      "compression_ratio": 0.7666666666666667,
+      "no_speech_prob": 5.768888144963569e-10,
+      "words": [
+        {
+          "word": " ομολογήσω",
+          "start": 6055.58,
+          "end": 6057.78,
+          "probability": 0.71875
+        },
+        {
+          "word": " με",
+          "start": 6057.78,
+          "end": 6058.1,
+          "probability": 0.54931640625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 6060.0,
+      "end": 6074.12,
+      "text": "Αγαπή σας ο Κύριος Γύριος μου και ο ίσκος μου",
+      "temperature": 0.0,
+      "avg_logprob": -0.7709260353675256,
+      "compression_ratio": 1.265625,
+      "no_speech_prob": 1.9372987936083774e-10,
+      "words": [
+        {
+          "word": " Αγαπή",
+          "start": 6060.0,
+          "end": 6060.64,
+          "probability": 0.6923828125
+        },
+        {
+          "word": " σας",
+          "start": 6060.64,
+          "end": 6060.78,
+          "probability": 0.60986328125
+        },
+        {
+          "word": " ο",
+          "start": 6060.78,
+          "end": 6061.04,
+          "probability": 0.67333984375
+        },
+        {
+          "word": " Κύριος",
+          "start": 6061.04,
+          "end": 6061.4,
+          "probability": 0.8447265625
+        },
+        {
+          "word": " Γύριος",
+          "start": 6061.4,
+          "end": 6061.76,
+          "probability": 0.54345703125
+        },
+        {
+          "word": " μου",
+          "start": 6061.76,
+          "end": 6062.46,
+          "probability": 0.450927734375
+        },
+        {
+          "word": " και",
+          "start": 6062.46,
+          "end": 6063.04,
+          "probability": 0.426025390625
+        },
+        {
+          "word": " ο",
+          "start": 6063.04,
+          "end": 6063.06,
+          "probability": 0.1544189453125
+        },
+        {
+          "word": " ίσκος",
+          "start": 6063.06,
+          "end": 6073.98,
+          "probability": 0.492919921875
+        },
+        {
+          "word": " μου",
+          "start": 6073.98,
+          "end": 6074.12,
+          "probability": 0.1700439453125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 6000.0,
+      "end": 6030.0,
+      "language": "en",
+      "seconds": 2.388029167195782
+    },
+    {
+      "start": 6030.0,
+      "end": 6060.0,
+      "language": "el",
+      "seconds": 2.9970307080075145
+    },
+    {
+      "start": 6060.0,
+      "end": 6090.0,
+      "language": "el",
+      "seconds": 1.5960577090736479
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 90.0,
+    "inference_seconds": 6.983966333093122,
+    "decode_seconds": 0.0924261249601841,
+    "real_time_factor": 0.0775996259232569,
+    "speedup": 12.886660059276087,
+    "peak_memory_gb": 2.190781306,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ]
+}

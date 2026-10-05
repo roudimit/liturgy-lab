@@ -1,0 +1,2355 @@
+{
+  "model": "mlx-community/Qwen3.6-35B-A3B-4bit",
+  "reference_id": "ref-e5432ce2789f102a2c0b",
+  "recording_id": "MIxJvLfaynY",
+  "source_asr_file": "turbo-full.json",
+  "source_asr_sha256": "005b2f5cd9e86f47f50c4ed157c26ce197c2f934fb3e680a32c6f7273adac8eb",
+  "selected_segments": 42,
+  "untested_segments": 914,
+  "sequence_hint_version": "v1",
+  "sequence_comparison_note": "Compared only with the sequence proposals retained inside this experiment, not a later rerun of the tracker.",
+  "saved_sequence_input_sha256": "2f939873d33e64f8daaabbd0c2f042b4f85e39013f1bca06a864c16262c134ce",
+  "integrity_checks": {
+    "original_asr_preserved": true,
+    "reference_ids_valid": true,
+    "untested_rows_marked_not_run": true
+  },
+  "metrics": {
+    "load_seconds": 8.056158249964938,
+    "inference_seconds": 319.6296205839608,
+    "total_seconds": 329.1257376251742,
+    "prompt_tokens": 58761,
+    "generation_tokens": 6084,
+    "output_tokens_per_wall_second": 19.034531245522803,
+    "segments_submitted": 42,
+    "status_counts": {
+      "not_run": 914,
+      "uncertain": 20,
+      "unknown": 18,
+      "matched": 4
+    },
+    "failed_batches": 0,
+    "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+    "evaluation_note": "Counts measure model decisions, not correctness. Human labels are required for accuracy.",
+    "raw_status_counts": {
+      "not_run": 914,
+      "uncertain": 23,
+      "unknown": 13,
+      "matched": 6
+    },
+    "guard_policy": {
+      "version": 1,
+      "minimum_model_support": 0.7,
+      "minimum_lexical_support_for_matched": 0.68,
+      "low_model_support_action": "unknown",
+      "weak_lexical_support_action": "uncertain",
+      "reason_text_parsing": false,
+      "note": "Conservative display rules, not calibrated correctness thresholds; original decisions remain in llm_proposal and raw responses.",
+      "new_pipeline_evidence": {
+        "transcript_and_reference_quotes_required": true,
+        "quote_match": "Substring after case/accent/punctuation normalization; minimum four letters/characters",
+        "subtitle_credit_abstention": "AUTHORWAVE, Sous-titrage, Cyrillic subtitle-credit marker, or 'subtitles by/created'",
+        "limits": "Quoted spans existing in both sources do not prove their meanings match or that the location is correct."
+      }
+    },
+    "guard_changed_decisions": 5,
+    "peak_memory_gb": 20.56499758
+  },
+  "raw_status_counts": {
+    "uncertain": 23,
+    "unknown": 13,
+    "matched": 6
+  },
+  "guarded_status_counts": {
+    "uncertain": 20,
+    "unknown": 18,
+    "matched": 4
+  },
+  "warning_counts": {
+    "repeated_reference_text": 22,
+    "invalid_transcript_evidence": 1,
+    "short_response_needs_context": 5,
+    "invalid_unit_id": 6,
+    "invalid_reference_evidence": 4,
+    "disagrees_with_lexical_alignment": 1
+  },
+  "invalid_decision_count": 6,
+  "sequence_id_disagreements": 11,
+  "limits": [
+    "Text-only exploratory audit; no listening, human transcripts or location labels.",
+    "Agreement and disagreements with the sequence tracker are not accuracy.",
+    "Reference coverage, prompting, candidates and evidence rules differ from the historical model-size control.",
+    "Substring evidence checks establish that quoted text exists, not that the semantic association is correct."
+  ],
+  "clips": [
+    {
+      "clip_id": "combined-01",
+      "start": 1805.92,
+      "end": 1859.98,
+      "segment_ids": [
+        "258",
+        "259",
+        "260",
+        "261",
+        "262",
+        "263"
+      ],
+      "raw_status_counts": {
+        "uncertain": 5,
+        "unknown": 1
+      },
+      "guarded_status_counts": {
+        "uncertain": 4,
+        "unknown": 2
+      },
+      "rows": [
+        {
+          "segment_id": "258",
+          "start": 1805.92,
+          "text": "Αντιλαβούς όσων ελέησον κι διαφύλαξον ημάς ο Θεός της ηχάρητης",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.8816,
+            "status": "uncertain",
+            "method": "sequence",
+            "reason": "Lexical candidate conflicts with the supported chronology or lacks evidence",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": "matins:u0091",
+            "section_id": "matins:s009",
+            "section_title": "Peace Litany",
+            "score": 0.9,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.8816,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'Αντιλαβούς... διαφύλαξον ημάς ο Θεός' matches reference 'Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς, ὁ Θεός'.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "Αντιλαβούς όσων ελέησον κι διαφύλαξον ημάς ο Θεός",
+            "reference_evidence": "Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς, ὁ Θεός"
+          },
+          "llm_match": {
+            "unit_id": "matins:u0091",
+            "section_id": "matins:s009",
+            "section_title": "Peace Litany",
+            "score": 0.9,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.8816,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'Αντιλαβούς... διαφύλαξον ημάς ο Θεός' matches reference 'Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς, ὁ Θεός'.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "Αντιλαβούς όσων ελέησον κι διαφύλαξον ημάς ο Θεός",
+            "reference_evidence": "Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς, ὁ Θεός"
+          },
+          "selected_canonical": {
+            "id": "matins:u0091",
+            "section_title": "Peace Litany",
+            "greek": "Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς, ὁ Θεός, τῇ σῇ χάριτι.",
+            "english": "Help us, save us, have mercy on us, and protect us, O God, by Your grace."
+          }
+        },
+        {
+          "segment_id": "259",
+          "start": 1812.34,
+          "text": "της Παναγίας Αχράντου υπερευλογημένης εντόξου δεσποινήσιμων Θεοτόκου και υπαρεθένου Μαρίας",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.9359,
+            "status": "uncertain",
+            "method": "sequence",
+            "reason": "Lexical candidate conflicts with the supported chronology or lacks evidence",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": "matins:u0093",
+            "section_id": "matins:s009",
+            "section_title": "Peace Litany",
+            "score": 0.85,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.9359,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'της Παναγίας Αχράντου... Θεοτόκου' matches reference 'Τῆς παναγίας, ἀχράντου... Θεοτόκου'.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "της Παναγίας Αχράντου υπερευλογημένης εντόξου δεσποίνης σιμων Θεοτόκου",
+            "reference_evidence": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου"
+          },
+          "llm_match": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "New-pipeline evidence checks require review: invalid_transcript_evidence. Transcript 'της Παναγίας Αχράντου... Θεοτόκου' matches reference 'Τῆς παναγίας, ἀχράντου... Θεοτόκου'.",
+            "warnings": [
+              "repeated_reference_text",
+              "invalid_transcript_evidence"
+            ],
+            "proposed_unit_id": "matins:u0093",
+            "proposed_score": 0.85
+          },
+          "selected_canonical": null
+        },
+        {
+          "segment_id": "260",
+          "start": 1821.3,
+          "text": "με τα πάντων των Αγίων μνημονεύσανται σε αυτούς και αλλήλους και πάσαν την ζωήν ημών",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.9306,
+            "status": "uncertain",
+            "method": "sequence",
+            "reason": "Lexical candidate conflicts with the supported chronology or lacks evidence",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": "matins:u0093",
+            "section_id": "matins:s009",
+            "section_title": "Peace Litany",
+            "score": 0.85,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.9306,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'με τα πάντων των Αγίων... ζωήν ημών' matches reference 'μετὰ πάντων τῶν ἁγίων... πᾶσαν τὴν ζωὴν ἡμῶν'.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "με τα πάντων των Αγίων μνημονεύσανται σε αυτούς και αλλήλους και πάσαν την ζωήν ημών",
+            "reference_evidence": "μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν"
+          },
+          "llm_match": {
+            "unit_id": "matins:u0093",
+            "section_id": "matins:s009",
+            "section_title": "Peace Litany",
+            "score": 0.85,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.9306,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'με τα πάντων των Αγίων... ζωήν ημών' matches reference 'μετὰ πάντων τῶν ἁγίων... πᾶσαν τὴν ζωὴν ἡμῶν'.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "με τα πάντων των Αγίων μνημονεύσανται σε αυτούς και αλλήλους και πάσαν την ζωήν ημών",
+            "reference_evidence": "μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν"
+          },
+          "selected_canonical": {
+            "id": "matins:u0093",
+            "section_title": "Peace Litany",
+            "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+            "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+          }
+        },
+        {
+          "segment_id": "261",
+          "start": 1827.58,
+          "text": "Χριστό το Θεό παραθώ",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.8203,
+            "status": "uncertain",
+            "method": "sequence",
+            "reason": "Lexical candidate conflicts with the supported chronology or lacks evidence",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": "matins:u0093",
+            "section_id": "matins:s009",
+            "section_title": "Peace Litany",
+            "score": 0.85,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.8203,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'Χριστό το Θεό παραθώ' matches reference 'Χριστῷ τῷ Θεῷ παραθώμεθα'.",
+            "warnings": [
+              "short_response_needs_context",
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "Χριστό το Θεό παραθώ",
+            "reference_evidence": "Χριστῷ τῷ Θεῷ παραθώμεθα"
+          },
+          "llm_match": {
+            "unit_id": "matins:u0093",
+            "section_id": "matins:s009",
+            "section_title": "Peace Litany",
+            "score": 0.85,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.8203,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'Χριστό το Θεό παραθώ' matches reference 'Χριστῷ τῷ Θεῷ παραθώμεθα'.",
+            "warnings": [
+              "short_response_needs_context",
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "Χριστό το Θεό παραθώ",
+            "reference_evidence": "Χριστῷ τῷ Θεῷ παραθώμεθα"
+          },
+          "selected_canonical": {
+            "id": "matins:u0093",
+            "section_title": "Peace Litany",
+            "greek": "Τῆς παναγίας, ἀχράντου, ὑπερευλογημένης, ἐνδόξου, δεσποίνης ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας μετὰ πάντων τῶν ἁγίων μνημονεύσαντες, ἑαυτοὺς καὶ ἀλλήλους καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+            "english": "Remembering our all-holy, immaculate, most blessed, and glorious Lady, the Theotokos and ever-virgin Mary, with all the saints, let us commend ourselves and one another and our whole life to Christ our God."
+          }
+        },
+        {
+          "segment_id": "262",
+          "start": 1849.56,
+          "text": "Αμήν.",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 1.0,
+            "status": "uncertain",
+            "method": "sequence",
+            "reason": "Insufficient sequence-supported text",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": "matins:u0161",
+            "section_id": "matins:s014",
+            "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+            "score": 0.95,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 1.0,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'Αμήν' matches reference 'Ἀμήν'.",
+            "warnings": [
+              "short_response_needs_context",
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "Αμήν",
+            "reference_evidence": "Ἀμήν"
+          },
+          "llm_match": {
+            "unit_id": "matins:u0161",
+            "section_id": "matins:s014",
+            "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+            "score": 0.95,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 1.0,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'Αμήν' matches reference 'Ἀμήν'.",
+            "warnings": [
+              "short_response_needs_context",
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "Αμήν",
+            "reference_evidence": "Ἀμήν"
+          },
+          "selected_canonical": {
+            "id": "matins:u0161",
+            "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+            "greek": "Ἀμήν.",
+            "english": "Amen."
+          }
+        },
+        {
+          "segment_id": "263",
+          "start": 1857.18,
+          "text": "Υπότιτλοι AUTHORWAVE",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.3125,
+            "status": "unknown",
+            "method": "sequence",
+            "reason": "No sufficiently similar text on the chronological path",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Subtitle credit 'Υπότιτλοι AUTHORWAVE' is not liturgical speech.",
+            "warnings": []
+          },
+          "llm_match": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Subtitle credit 'Υπότιτλοι AUTHORWAVE' is not liturgical speech.",
+            "warnings": []
+          },
+          "selected_canonical": null
+        }
+      ]
+    },
+    {
+      "clip_id": "combined-02",
+      "start": 1953.28,
+      "end": 2039.98,
+      "segment_ids": [
+        "274",
+        "275",
+        "276",
+        "277",
+        "278",
+        "279"
+      ],
+      "raw_status_counts": {
+        "matched": 2,
+        "unknown": 4
+      },
+      "guarded_status_counts": {
+        "matched": 1,
+        "unknown": 5
+      },
+      "rows": [
+        {
+          "segment_id": "274",
+          "start": 1953.28,
+          "text": "Σκούντες Ιόνες κύνθητε από του Κυρίου",
+          "sequence_match": {
+            "unit_id": "matins:u0166",
+            "unit_index": 166,
+            "section_id": "matins:s016",
+            "section_title": "Antiphon 1",
+            "score": 0.8822,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Distinctive text supports this position in the chronological path",
+            "service_id": "matins",
+            "service_title": "Matins (Orthros)"
+          },
+          "llm_proposal": {
+            "unit_id": "matins:u0166",
+            "section_id": "matins:s016",
+            "section_title": "Antiphon 1",
+            "score": 0.9,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.8822,
+            "status": "matched",
+            "method": "llm",
+            "reason": "Transcript 'απὸ τοῦ Κυρίου' matches reference 'απὸ τοῦ Κυρίου'. 'Σκούντες' is a noisy transcription of 'αἰσχύνθητε'.",
+            "warnings": [],
+            "transcript_evidence": "απὸ τοῦ Κυρίου",
+            "reference_evidence": "αἰσχύνθητε ἀπὸ τοῦ Κυρίου"
+          },
+          "llm_match": {
+            "unit_id": "matins:u0166",
+            "section_id": "matins:s016",
+            "section_title": "Antiphon 1",
+            "score": 0.9,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.8822,
+            "status": "matched",
+            "method": "llm",
+            "reason": "Transcript 'απὸ τοῦ Κυρίου' matches reference 'απὸ τοῦ Κυρίου'. 'Σκούντες' is a noisy transcription of 'αἰσχύνθητε'.",
+            "warnings": [],
+            "transcript_evidence": "απὸ τοῦ Κυρίου",
+            "reference_evidence": "αἰσχύνθητε ἀπὸ τοῦ Κυρίου"
+          },
+          "selected_canonical": {
+            "id": "matins:u0166",
+            "section_title": "Antiphon 1",
+            "greek": "Οἱ μισοῦντες Σιών, αἰσχύνθητε ἀπὸ τοῦ Κυρίου· ὡς χόρτος γάρ, πυρὶ ἔσεσθε ἀπεξηραμμένοι.",
+            "english": "You who hate Zion, be shamed by the Lord; for you will be withered like grass in the fire."
+          }
+        },
+        {
+          "segment_id": "275",
+          "start": 1966.46,
+          "text": "ως χόρτος γαρπύρι.",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.4615,
+            "status": "unknown",
+            "method": "sequence",
+            "reason": "No sufficiently similar text on the chronological path",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Model selected an ID outside this segment's retrieved candidates",
+            "warnings": [
+              "invalid_unit_id"
+            ]
+          },
+          "llm_match": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Model selected an ID outside this segment's retrieved candidates",
+            "warnings": [
+              "invalid_unit_id"
+            ]
+          },
+          "selected_canonical": null
+        },
+        {
+          "segment_id": "276",
+          "start": 1977.6,
+          "text": "Υπότιτλοι AUTHORWAVE",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.3125,
+            "status": "unknown",
+            "method": "sequence",
+            "reason": "No sufficiently similar text on the chronological path",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Subtitle credit string 'Υπότιτλοι AUTHORWAVE' is not liturgical speech.",
+            "warnings": []
+          },
+          "llm_match": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Subtitle credit string 'Υπότιτλοι AUTHORWAVE' is not liturgical speech.",
+            "warnings": []
+          },
+          "selected_canonical": null
+        },
+        {
+          "segment_id": "277",
+          "start": 1982.76,
+          "text": "εξηραμένη",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.4615,
+            "status": "unknown",
+            "method": "sequence",
+            "reason": "No sufficiently similar text on the chronological path",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Model selected an ID outside this segment's retrieved candidates",
+            "warnings": [
+              "invalid_unit_id"
+            ]
+          },
+          "llm_match": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Model selected an ID outside this segment's retrieved candidates",
+            "warnings": [
+              "invalid_unit_id"
+            ]
+          },
+          "selected_canonical": null
+        },
+        {
+          "segment_id": "278",
+          "start": 2010.0,
+          "text": "Τι κινόβωτε και καθαρσιν τζούτελα πρινέτε",
+          "sequence_match": {
+            "unit_id": "matins:u0168",
+            "unit_index": 168,
+            "section_id": "matins:s016",
+            "section_title": "Antiphon 1",
+            "score": 0.7595,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Text located between nearby distinctive sequence anchors",
+            "service_id": "matins",
+            "service_title": "Matins (Orthros)"
+          },
+          "llm_proposal": {
+            "unit_id": "matins:u0168",
+            "section_id": "matins:s016",
+            "section_title": "Antiphon 1",
+            "score": 0.75,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.7595,
+            "status": "matched",
+            "method": "llm",
+            "reason": "Transcript 'καθαρσιν' matches reference 'καθάρεσι' (purification). 'Τι κινόβωτε' is noisy for 'ζωοῦται'.",
+            "warnings": [],
+            "transcript_evidence": "καθαρσιν",
+            "reference_evidence": "καθάρεσι"
+          },
+          "llm_match": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "New-pipeline evidence checks require review: invalid_reference_evidence. Transcript 'καθαρσιν' matches reference 'καθάρεσι' (purification). 'Τι κινόβωτε' is noisy for 'ζωοῦται'.",
+            "warnings": [
+              "invalid_reference_evidence"
+            ],
+            "proposed_unit_id": "matins:u0168",
+            "proposed_score": 0.75
+          },
+          "selected_canonical": null
+        },
+        {
+          "segment_id": "279",
+          "start": 2029.5,
+          "text": "Υπότιτλοι AUTHORWAVE",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.3125,
+            "status": "unknown",
+            "method": "sequence",
+            "reason": "No sufficiently similar text on the chronological path",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Subtitle credit string 'Υπότιτλοι AUTHORWAVE' is not liturgical speech.",
+            "warnings": []
+          },
+          "llm_match": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Subtitle credit string 'Υπότιτλοι AUTHORWAVE' is not liturgical speech.",
+            "warnings": []
+          },
+          "selected_canonical": null
+        }
+      ]
+    },
+    {
+      "clip_id": "combined-03",
+      "start": 3600.0,
+      "end": 3680.46,
+      "segment_ids": [
+        "455",
+        "456",
+        "457",
+        "458",
+        "459",
+        "460"
+      ],
+      "raw_status_counts": {
+        "uncertain": 4,
+        "matched": 1,
+        "unknown": 1
+      },
+      "guarded_status_counts": {
+        "uncertain": 4,
+        "matched": 1,
+        "unknown": 1
+      },
+      "rows": [
+        {
+          "segment_id": "455",
+          "start": 3600.0,
+          "text": "η πηγή της ζωής εκ της τυραστικτέται, η χάρη σκαρπογόνην λαμπρός απαρχεται.",
+          "sequence_match": {
+            "unit_id": "matins:u0394",
+            "unit_index": 394,
+            "section_id": "matins:s067",
+            "section_title": "Stichera for the Feast",
+            "score": 0.9307,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Text located between nearby distinctive sequence anchors",
+            "service_id": "matins",
+            "service_title": "Matins (Orthros)"
+          },
+          "llm_proposal": {
+            "unit_id": "matins:u0394",
+            "section_id": "matins:s067",
+            "section_title": "Stichera for the Feast",
+            "score": 0.9,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.9307,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'η πηγή της ζωής εκ της τυραστικτέται, η χάρη σκαρπογόνην λαμπρός απαρχεται' matches reference 'ἡ πηγὴ τῆς ζωῆς, ἐκ τῆς στείρας τίκτεται· ἡ χάρις καρπογονεῖν, λαμπρῶς ἀπάρχεται'.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "η πηγή της ζωής εκ της τυραστικτέται, η χάρη σκαρπογόνην λαμπρός απαρχεται.",
+            "reference_evidence": "ἡ πηγὴ τῆς ζωῆς, ἐκ τῆς στείρας τίκτεται· ἡ χάρις καρπογονεῖν, λαμπρῶς ἀπάρχεται."
+          },
+          "llm_match": {
+            "unit_id": "matins:u0394",
+            "section_id": "matins:s067",
+            "section_title": "Stichera for the Feast",
+            "score": 0.9,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.9307,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'η πηγή της ζωής εκ της τυραστικτέται, η χάρη σκαρπογόνην λαμπρός απαρχεται' matches reference 'ἡ πηγὴ τῆς ζωῆς, ἐκ τῆς στείρας τίκτεται· ἡ χάρις καρπογονεῖν, λαμπρῶς ἀπάρχεται'.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "η πηγή της ζωής εκ της τυραστικτέται, η χάρη σκαρπογόνην λαμπρός απαρχεται.",
+            "reference_evidence": "ἡ πηγὴ τῆς ζωῆς, ἐκ τῆς στείρας τίκτεται· ἡ χάρις καρπογονεῖν, λαμπρῶς ἀπάρχεται."
+          },
+          "selected_canonical": {
+            "id": "matins:u0394",
+            "section_title": "Stichera for the Feast",
+            "greek": "Ὢ τοῦ παραδόξου θαύματος! ἡ πηγὴ τῆς ζωῆς, ἐκ τῆς στείρας τίκτεται· ἡ χάρις καρπογονεῖν, λαμπρῶς ἀπάρχεται. Εὐφραίνου Ἰωακείμ, τῆς Θεοτόκου γεννήτωρ γενόμενος· οὐκ ἔστιν ἄλλος ὡς σύ, τῶν γηγενῶν γεννητόρων θεόληπτε· ἡ γὰρ θεοδόχος Κόρη, τοῦ Θεοῦ τὸ σκήνωμα, τὸ πανάγιον ὄρος, διὰ σοῦ ἡμῖν δεδώρηται.",
+            "english": "What a paradoxical miracle! * That the fountain of life from a barren wife is born, * that grace, fulgent, may commence to bear its fruit henceforth. * Be joyous, O Joachim, * having become the God-bearer’s progenitor! * There is no one else like you * in generations of paternity, O godly one, * for the God-receiving Maiden, the tabernacle of our God * the mountain all-holy, unto us has been bestowed through you."
+          }
+        },
+        {
+          "segment_id": "456",
+          "start": 3612.82,
+          "text": "Εφραίνου Ιωάκημ της Θεοτόπου γεννήτορ γεννόμενος,",
+          "sequence_match": {
+            "unit_id": "matins:u0394",
+            "unit_index": 394,
+            "section_id": "matins:s067",
+            "section_title": "Stichera for the Feast",
+            "score": 0.9292,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Text located between nearby distinctive sequence anchors",
+            "service_id": "matins",
+            "service_title": "Matins (Orthros)"
+          },
+          "llm_proposal": {
+            "unit_id": "matins:u0394",
+            "section_id": "matins:s067",
+            "section_title": "Stichera for the Feast",
+            "score": 0.9,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.9292,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'Εφραίνου Ιωάκημ της Θεοτόπου γεννήτορ γεννόμενος' matches reference 'Εὐφραίνου Ἰωακείμ, τῆς Θεοτόκου γεννήτωρ γενόμενος'.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "Εφραίνου Ιωάκημ της Θεοτόπου γεννήτορ γεννόμενος",
+            "reference_evidence": "Εὐφραίνου Ἰωακείμ, τῆς Θεοτόκου γεννήτωρ γενόμενος"
+          },
+          "llm_match": {
+            "unit_id": "matins:u0394",
+            "section_id": "matins:s067",
+            "section_title": "Stichera for the Feast",
+            "score": 0.9,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.9292,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'Εφραίνου Ιωάκημ της Θεοτόπου γεννήτορ γεννόμενος' matches reference 'Εὐφραίνου Ἰωακείμ, τῆς Θεοτόκου γεννήτωρ γενόμενος'.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "Εφραίνου Ιωάκημ της Θεοτόπου γεννήτορ γεννόμενος",
+            "reference_evidence": "Εὐφραίνου Ἰωακείμ, τῆς Θεοτόκου γεννήτωρ γενόμενος"
+          },
+          "selected_canonical": {
+            "id": "matins:u0394",
+            "section_title": "Stichera for the Feast",
+            "greek": "Ὢ τοῦ παραδόξου θαύματος! ἡ πηγὴ τῆς ζωῆς, ἐκ τῆς στείρας τίκτεται· ἡ χάρις καρπογονεῖν, λαμπρῶς ἀπάρχεται. Εὐφραίνου Ἰωακείμ, τῆς Θεοτόκου γεννήτωρ γενόμενος· οὐκ ἔστιν ἄλλος ὡς σύ, τῶν γηγενῶν γεννητόρων θεόληπτε· ἡ γὰρ θεοδόχος Κόρη, τοῦ Θεοῦ τὸ σκήνωμα, τὸ πανάγιον ὄρος, διὰ σοῦ ἡμῖν δεδώρηται.",
+            "english": "What a paradoxical miracle! * That the fountain of life from a barren wife is born, * that grace, fulgent, may commence to bear its fruit henceforth. * Be joyous, O Joachim, * having become the God-bearer’s progenitor! * There is no one else like you * in generations of paternity, O godly one, * for the God-receiving Maiden, the tabernacle of our God * the mountain all-holy, unto us has been bestowed through you."
+          }
+        },
+        {
+          "segment_id": "457",
+          "start": 3620.84,
+          "text": "ουκέ στην άλο ζωσή των γηγενών γεννητόρων θεόληπτε.",
+          "sequence_match": {
+            "unit_id": "matins:u0394",
+            "unit_index": 394,
+            "section_id": "matins:s067",
+            "section_title": "Stichera for the Feast",
+            "score": 0.8744,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Text located between nearby distinctive sequence anchors",
+            "service_id": "matins",
+            "service_title": "Matins (Orthros)"
+          },
+          "llm_proposal": {
+            "unit_id": "matins:u0394",
+            "section_id": "matins:s067",
+            "section_title": "Stichera for the Feast",
+            "score": 0.85,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.8744,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'ουκέ στην άλο ζωσή των γηγενών γεννητόρων θεόληπτε' matches reference 'οὐκ ἔστιν ἄλλος ὡς σύ, τῶν γηγενῶν γεννητόρων θεόληπτε'.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "ουκέ στην άλο ζωσή των γηγενών γεννητόρων θεόληπτε",
+            "reference_evidence": "οὐκ ἔστιν ἄλλος ὡς σύ, τῶν γηγενῶν γεννητόρων θεόληπτε"
+          },
+          "llm_match": {
+            "unit_id": "matins:u0394",
+            "section_id": "matins:s067",
+            "section_title": "Stichera for the Feast",
+            "score": 0.85,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.8744,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'ουκέ στην άλο ζωσή των γηγενών γεννητόρων θεόληπτε' matches reference 'οὐκ ἔστιν ἄλλος ὡς σύ, τῶν γηγενῶν γεννητόρων θεόληπτε'.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "ουκέ στην άλο ζωσή των γηγενών γεννητόρων θεόληπτε",
+            "reference_evidence": "οὐκ ἔστιν ἄλλος ὡς σύ, τῶν γηγενῶν γεννητόρων θεόληπτε"
+          },
+          "selected_canonical": {
+            "id": "matins:u0394",
+            "section_title": "Stichera for the Feast",
+            "greek": "Ὢ τοῦ παραδόξου θαύματος! ἡ πηγὴ τῆς ζωῆς, ἐκ τῆς στείρας τίκτεται· ἡ χάρις καρπογονεῖν, λαμπρῶς ἀπάρχεται. Εὐφραίνου Ἰωακείμ, τῆς Θεοτόκου γεννήτωρ γενόμενος· οὐκ ἔστιν ἄλλος ὡς σύ, τῶν γηγενῶν γεννητόρων θεόληπτε· ἡ γὰρ θεοδόχος Κόρη, τοῦ Θεοῦ τὸ σκήνωμα, τὸ πανάγιον ὄρος, διὰ σοῦ ἡμῖν δεδώρηται.",
+            "english": "What a paradoxical miracle! * That the fountain of life from a barren wife is born, * that grace, fulgent, may commence to bear its fruit henceforth. * Be joyous, O Joachim, * having become the God-bearer’s progenitor! * There is no one else like you * in generations of paternity, O godly one, * for the God-receiving Maiden, the tabernacle of our God * the mountain all-holy, unto us has been bestowed through you."
+          }
+        },
+        {
+          "segment_id": "458",
+          "start": 3645.58,
+          "text": "Praise Him with the sound of trumpet, praise Him with the harp and lyre.",
+          "sequence_match": {
+            "unit_id": "matins:u0395",
+            "unit_index": 395,
+            "section_id": "matins:s067",
+            "section_title": "Stichera for the Feast",
+            "score": 1.0,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Distinctive text supports this position in the chronological path",
+            "service_id": "matins",
+            "service_title": "Matins (Orthros)"
+          },
+          "llm_proposal": {
+            "unit_id": "matins:u0395",
+            "section_id": "matins:s067",
+            "section_title": "Stichera for the Feast",
+            "score": 0.95,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 1.0,
+            "status": "matched",
+            "method": "llm",
+            "reason": "Transcript 'Praise Him with the sound of trumpet, praise Him with the harp and lyre' matches reference 'Αἰνεῖτε αὐτὸν ἐν ἤχῳ σάλπιγγος, αἰνεῖτε αὐτὸν ἐν ψαλτηρίῳ καὶ κιθάρᾳ'.",
+            "warnings": [],
+            "transcript_evidence": "Praise Him with the sound of trumpet, praise Him with the harp and lyre.",
+            "reference_evidence": "Αἰνεῖτε αὐτὸν ἐν ἤχῳ σάλπιγγος, αἰνεῖτε αὐτὸν ἐν ψαλτηρίῳ καὶ κιθάρᾳ."
+          },
+          "llm_match": {
+            "unit_id": "matins:u0395",
+            "section_id": "matins:s067",
+            "section_title": "Stichera for the Feast",
+            "score": 0.95,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 1.0,
+            "status": "matched",
+            "method": "llm",
+            "reason": "Transcript 'Praise Him with the sound of trumpet, praise Him with the harp and lyre' matches reference 'Αἰνεῖτε αὐτὸν ἐν ἤχῳ σάλπιγγος, αἰνεῖτε αὐτὸν ἐν ψαλτηρίῳ καὶ κιθάρᾳ'.",
+            "warnings": [],
+            "transcript_evidence": "Praise Him with the sound of trumpet, praise Him with the harp and lyre.",
+            "reference_evidence": "Αἰνεῖτε αὐτὸν ἐν ἤχῳ σάλπιγγος, αἰνεῖτε αὐτὸν ἐν ψαλτηρίῳ καὶ κιθάρᾳ."
+          },
+          "selected_canonical": {
+            "id": "matins:u0395",
+            "section_title": "Stichera for the Feast",
+            "greek": "Αἰνεῖτε αὐτὸν ἐν ἤχῳ σάλπιγγος, αἰνεῖτε αὐτὸν ἐν ψαλτηρίῳ καὶ κιθάρᾳ.",
+            "english": "Praise Him with the sound of trumpet; praise Him with the harp and lyre."
+          }
+        },
+        {
+          "segment_id": "459",
+          "start": 3651.5,
+          "text": "What a paradoxical miracle that the fountain of life from above.",
+          "sequence_match": {
+            "unit_id": "matins:u0396",
+            "unit_index": 396,
+            "section_id": "matins:s067",
+            "section_title": "Stichera for the Feast",
+            "score": 0.9661,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Text located between nearby distinctive sequence anchors",
+            "service_id": "matins",
+            "service_title": "Matins (Orthros)"
+          },
+          "llm_proposal": {
+            "unit_id": "matins:u0394",
+            "section_id": "matins:s067",
+            "section_title": "Stichera for the Feast",
+            "score": 0.8,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.9661,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'What a paradoxical miracle that the fountain of life from above' matches reference 'Ὢ τοῦ παραδόξου θαύματος! ἡ πηγὴ τῆς ζωῆς, ἐκ τῆς στείρας τίκτεται'.",
+            "warnings": [
+              "repeated_reference_text",
+              "disagrees_with_lexical_alignment"
+            ],
+            "transcript_evidence": "What a paradoxical miracle that the fountain of life from above.",
+            "reference_evidence": "Ὢ τοῦ παραδόξου θαύματος! ἡ πηγὴ τῆς ζωῆς, ἐκ τῆς στείρας τίκτεται"
+          },
+          "llm_match": {
+            "unit_id": "matins:u0394",
+            "section_id": "matins:s067",
+            "section_title": "Stichera for the Feast",
+            "score": 0.8,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.9661,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'What a paradoxical miracle that the fountain of life from above' matches reference 'Ὢ τοῦ παραδόξου θαύματος! ἡ πηγὴ τῆς ζωῆς, ἐκ τῆς στείρας τίκτεται'.",
+            "warnings": [
+              "repeated_reference_text",
+              "disagrees_with_lexical_alignment"
+            ],
+            "transcript_evidence": "What a paradoxical miracle that the fountain of life from above.",
+            "reference_evidence": "Ὢ τοῦ παραδόξου θαύματος! ἡ πηγὴ τῆς ζωῆς, ἐκ τῆς στείρας τίκτεται"
+          },
+          "selected_canonical": {
+            "id": "matins:u0394",
+            "section_title": "Stichera for the Feast",
+            "greek": "Ὢ τοῦ παραδόξου θαύματος! ἡ πηγὴ τῆς ζωῆς, ἐκ τῆς στείρας τίκτεται· ἡ χάρις καρπογονεῖν, λαμπρῶς ἀπάρχεται. Εὐφραίνου Ἰωακείμ, τῆς Θεοτόκου γεννήτωρ γενόμενος· οὐκ ἔστιν ἄλλος ὡς σύ, τῶν γηγενῶν γεννητόρων θεόληπτε· ἡ γὰρ θεοδόχος Κόρη, τοῦ Θεοῦ τὸ σκήνωμα, τὸ πανάγιον ὄρος, διὰ σοῦ ἡμῖν δεδώρηται.",
+            "english": "What a paradoxical miracle! * That the fountain of life from a barren wife is born, * that grace, fulgent, may commence to bear its fruit henceforth. * Be joyous, O Joachim, * having become the God-bearer’s progenitor! * There is no one else like you * in generations of paternity, O godly one, * for the God-receiving Maiden, the tabernacle of our God * the mountain all-holy, unto us has been bestowed through you."
+          }
+        },
+        {
+          "segment_id": "460",
+          "start": 3677.66,
+          "text": "God's Prayer",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.5143,
+            "status": "unknown",
+            "method": "sequence",
+            "reason": "No sufficiently similar text on the chronological path",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Transcript 'God's Prayer' is a generic label, not liturgical text matching any specific reference unit.",
+            "warnings": []
+          },
+          "llm_match": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Transcript 'God's Prayer' is a generic label, not liturgical text matching any specific reference unit.",
+            "warnings": []
+          },
+          "selected_canonical": null
+        }
+      ]
+    },
+    {
+      "clip_id": "combined-04",
+      "start": 4411.84,
+      "end": 4469.98,
+      "segment_ids": [
+        "515",
+        "516",
+        "517",
+        "518",
+        "519",
+        "520"
+      ],
+      "raw_status_counts": {
+        "matched": 1,
+        "uncertain": 3,
+        "unknown": 2
+      },
+      "guarded_status_counts": {
+        "matched": 1,
+        "uncertain": 3,
+        "unknown": 2
+      },
+      "rows": [
+        {
+          "segment_id": "515",
+          "start": 4411.84,
+          "text": "Ευλογημένη βασιλεία του Πατρός και του Υιού και του Αγιού Πνεύματος, νυν και αϊκέης τους αιώνας των αιώνων,",
+          "sequence_match": {
+            "unit_id": "liturgy:u0001",
+            "unit_index": 482,
+            "section_id": "liturgy:s000",
+            "section_title": "Opening blessing and Peace Litany",
+            "score": 0.9359,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Distinctive text supports this position in the chronological path",
+            "service_id": "liturgy",
+            "service_title": "Divine Liturgy of St. John Chrysostom"
+          },
+          "llm_proposal": {
+            "unit_id": "liturgy:u0001",
+            "section_id": "liturgy:s000",
+            "section_title": "Opening blessing and Peace Litany",
+            "score": 0.95,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.9359,
+            "status": "matched",
+            "method": "llm",
+            "reason": "Transcript matches the opening blessing text exactly, including the Trinitarian formula and temporal phrase.",
+            "warnings": [],
+            "transcript_evidence": "Ευλογημένη βασιλεία του Πατρός και του Υιού και του Αγιού Πνεύματος, νυν και αϊκέης τους αιώνας των αιώνων,",
+            "reference_evidence": "Εὐλογημένη ἡ βασιλεία τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ ἁγίου Πνεύματος, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων."
+          },
+          "llm_match": {
+            "unit_id": "liturgy:u0001",
+            "section_id": "liturgy:s000",
+            "section_title": "Opening blessing and Peace Litany",
+            "score": 0.95,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.9359,
+            "status": "matched",
+            "method": "llm",
+            "reason": "Transcript matches the opening blessing text exactly, including the Trinitarian formula and temporal phrase.",
+            "warnings": [],
+            "transcript_evidence": "Ευλογημένη βασιλεία του Πατρός και του Υιού και του Αγιού Πνεύματος, νυν και αϊκέης τους αιώνας των αιώνων,",
+            "reference_evidence": "Εὐλογημένη ἡ βασιλεία τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ ἁγίου Πνεύματος, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων."
+          },
+          "selected_canonical": {
+            "id": "liturgy:u0001",
+            "section_title": "Opening blessing and Peace Litany",
+            "greek": "Εὐλογημένη ἡ βασιλεία τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ ἁγίου Πνεύματος, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+            "english": "Blessed is the kingdom of the Father and the Son and the Holy Spirit, now and ever and to the ages of ages."
+          }
+        },
+        {
+          "segment_id": "516",
+          "start": 4423.22,
+          "text": "εν ειρήνη του Κυρίου Δεηθώμες, υπέρ της ανώθεν ειρήνης και της σωτηριάς των ψυχών ημών του Κυρίου Δεηθώμες,",
+          "sequence_match": {
+            "unit_id": "liturgy:u0005",
+            "unit_index": 486,
+            "section_id": "liturgy:s000",
+            "section_title": "Opening blessing and Peace Litany",
+            "score": 0.9785,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Distinctive text supports this position in the chronological path",
+            "service_id": "liturgy",
+            "service_title": "Divine Liturgy of St. John Chrysostom"
+          },
+          "llm_proposal": {
+            "unit_id": "liturgy:u0005",
+            "section_id": "liturgy:s000",
+            "section_title": "Opening blessing and Peace Litany",
+            "score": 0.92,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.9785,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript matches the litany for peace and salvation of souls, despite minor spelling variations.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "εν ειρήνη του Κυρίου Δεηθώμες, υπέρ της ανώθεν ειρήνης και της σωτηρίας των ψυχών ημών του Κυρίου Δεηθώμες,",
+            "reference_evidence": "Ὑπὲρ τῆς ἄνωθεν εἰρήνης καὶ τῆς σωτηρίας τῶν ψυχῶν ἡμῶν τοῦ Κυρίου δεηθῶμεν."
+          },
+          "llm_match": {
+            "unit_id": "liturgy:u0005",
+            "section_id": "liturgy:s000",
+            "section_title": "Opening blessing and Peace Litany",
+            "score": 0.92,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.9785,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript matches the litany for peace and salvation of souls, despite minor spelling variations.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "εν ειρήνη του Κυρίου Δεηθώμες, υπέρ της ανώθεν ειρήνης και της σωτηρίας των ψυχών ημών του Κυρίου Δεηθώμες,",
+            "reference_evidence": "Ὑπὲρ τῆς ἄνωθεν εἰρήνης καὶ τῆς σωτηρίας τῶν ψυχῶν ἡμῶν τοῦ Κυρίου δεηθῶμεν."
+          },
+          "selected_canonical": {
+            "id": "liturgy:u0005",
+            "section_title": "Opening blessing and Peace Litany",
+            "greek": "Ὑπὲρ τῆς ἄνωθεν εἰρήνης καὶ τῆς σωτηρίας τῶν ψυχῶν ἡμῶν τοῦ Κυρίου δεηθῶμεν.",
+            "english": "For the peace from above and for the salvation of our souls, let us pray to the Lord."
+          }
+        },
+        {
+          "segment_id": "517",
+          "start": 4436.84,
+          "text": "Υπότιτλοι AUTHORWAVE",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.3077,
+            "status": "unknown",
+            "method": "sequence",
+            "reason": "No sufficiently similar text on the chronological path",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Subtitle credit string 'Υπότιτλοι AUTHORWAVE' is not liturgical speech.",
+            "warnings": []
+          },
+          "llm_match": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Subtitle credit string 'Υπότιτλοι AUTHORWAVE' is not liturgical speech.",
+            "warnings": []
+          },
+          "selected_canonical": null
+        },
+        {
+          "segment_id": "518",
+          "start": 4441.4,
+          "text": "Υπέρ της ειρηνής του σήμαντος κόσμα εφταθίας των Αγίων του Θεού εκκλησιών και της των πάντων ενός αιώσ του Κυρίου δε ηθόμεν.",
+          "sequence_match": {
+            "unit_id": "liturgy:u0007",
+            "unit_index": 488,
+            "section_id": "liturgy:s000",
+            "section_title": "Opening blessing and Peace Litany",
+            "score": 0.9196,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Distinctive text supports this position in the chronological path",
+            "service_id": "liturgy",
+            "service_title": "Divine Liturgy of St. John Chrysostom"
+          },
+          "llm_proposal": {
+            "unit_id": "liturgy:u0007",
+            "section_id": "liturgy:s000",
+            "section_title": "Opening blessing and Peace Litany",
+            "score": 0.9,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.9196,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript matches the litany for the peace of the whole world and stability of churches.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "Υπέρ της ειρηνής του σήμαντος κόσμα εφταθίας των Αγίων του Θεού εκκλησιών και της των πάντων ενός αιώσ του Κυρίου δε ηθόμεν.",
+            "reference_evidence": "Ὑπὲρ τῆς εἰρήνης τοῦ σύμπαντος κόσμου, εὐσταθείας τῶν ἁγίων τοῦ Θεοῦ Ἐκκλησιῶν καὶ τῆς τῶν πάντων ἑνώσεως τοῦ Κυρίου δεηθῶμεν."
+          },
+          "llm_match": {
+            "unit_id": "liturgy:u0007",
+            "section_id": "liturgy:s000",
+            "section_title": "Opening blessing and Peace Litany",
+            "score": 0.9,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.9196,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript matches the litany for the peace of the whole world and stability of churches.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "Υπέρ της ειρηνής του σήμαντος κόσμα εφταθίας των Αγίων του Θεού εκκλησιών και της των πάντων ενός αιώσ του Κυρίου δε ηθόμεν.",
+            "reference_evidence": "Ὑπὲρ τῆς εἰρήνης τοῦ σύμπαντος κόσμου, εὐσταθείας τῶν ἁγίων τοῦ Θεοῦ Ἐκκλησιῶν καὶ τῆς τῶν πάντων ἑνώσεως τοῦ Κυρίου δεηθῶμεν."
+          },
+          "selected_canonical": {
+            "id": "liturgy:u0007",
+            "section_title": "Opening blessing and Peace Litany",
+            "greek": "Ὑπὲρ τῆς εἰρήνης τοῦ σύμπαντος κόσμου, εὐσταθείας τῶν ἁγίων τοῦ Θεοῦ Ἐκκλησιῶν καὶ τῆς τῶν πάντων ἑνώσεως τοῦ Κυρίου δεηθῶμεν.",
+            "english": "For the peace of the whole world, for the stability of the holy churches of God, and for the unity of all, let us pray to the Lord."
+          }
+        },
+        {
+          "segment_id": "519",
+          "start": 4456.22,
+          "text": "Υπέρ του Αγίου οίκου τούτου και των μεταπίστεως ευλαβίας και φόβου Θεού ισιόντων εν αυτό του Κυρίου δε ηθόμεν.",
+          "sequence_match": {
+            "unit_id": "liturgy:u0009",
+            "unit_index": 490,
+            "section_id": "liturgy:s000",
+            "section_title": "Opening blessing and Peace Litany",
+            "score": 0.9438,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Distinctive text supports this position in the chronological path",
+            "service_id": "liturgy",
+            "service_title": "Divine Liturgy of St. John Chrysostom"
+          },
+          "llm_proposal": {
+            "unit_id": "liturgy:u0009",
+            "section_id": "liturgy:s000",
+            "section_title": "Opening blessing and Peace Litany",
+            "score": 0.92,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.9438,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript matches the litany for the holy house and those entering with faith.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "Υπέρ του Αγίου οίκου τούτου και των μεταπίστεως ευλαβίας και φόβου Θεού ισιόντων εν αυτό του Κυρίου δε ηθόμεν.",
+            "reference_evidence": "Ὑπὲρ τοῦ ἁγίου οἴκου τούτου καὶ τῶν μετὰ πίστεως, εὐλαβείας καὶ φόβου Θεοῦ εἰσιόντων ἐν αὐτῷ, τοῦ Κυρίου δεηθῶμεν."
+          },
+          "llm_match": {
+            "unit_id": "liturgy:u0009",
+            "section_id": "liturgy:s000",
+            "section_title": "Opening blessing and Peace Litany",
+            "score": 0.92,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.9438,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript matches the litany for the holy house and those entering with faith.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "Υπέρ του Αγίου οίκου τούτου και των μεταπίστεως ευλαβίας και φόβου Θεού ισιόντων εν αυτό του Κυρίου δε ηθόμεν.",
+            "reference_evidence": "Ὑπὲρ τοῦ ἁγίου οἴκου τούτου καὶ τῶν μετὰ πίστεως, εὐλαβείας καὶ φόβου Θεοῦ εἰσιόντων ἐν αὐτῷ, τοῦ Κυρίου δεηθῶμεν."
+          },
+          "selected_canonical": {
+            "id": "liturgy:u0009",
+            "section_title": "Opening blessing and Peace Litany",
+            "greek": "Ὑπὲρ τοῦ ἁγίου οἴκου τούτου καὶ τῶν μετὰ πίστεως, εὐλαβείας καὶ φόβου Θεοῦ εἰσιόντων ἐν αὐτῷ, τοῦ Κυρίου δεηθῶμεν.",
+            "english": "For this holy house and for those who enter it with faith, reverence, and the fear of God, let us pray to the Lord."
+          }
+        },
+        {
+          "segment_id": "520",
+          "start": 4466.98,
+          "text": "Υπότιτλοι AUTHORWAVE",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.3077,
+            "status": "unknown",
+            "method": "sequence",
+            "reason": "No sufficiently similar text on the chronological path",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Subtitle credit string 'Υπότιτλοι AUTHORWAVE' is not liturgical speech.",
+            "warnings": []
+          },
+          "llm_match": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Subtitle credit string 'Υπότιτλοι AUTHORWAVE' is not liturgical speech.",
+            "warnings": []
+          },
+          "selected_canonical": null
+        }
+      ]
+    },
+    {
+      "clip_id": "combined-05",
+      "start": 4860.98,
+      "end": 4878.78,
+      "segment_ids": [
+        "585",
+        "586",
+        "587",
+        "588",
+        "589",
+        "590"
+      ],
+      "raw_status_counts": {
+        "uncertain": 5,
+        "unknown": 1
+      },
+      "guarded_status_counts": {
+        "uncertain": 5,
+        "unknown": 1
+      },
+      "rows": [
+        {
+          "segment_id": "585",
+          "start": 4860.98,
+          "text": "for you are a good and loving God",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.8003,
+            "status": "uncertain",
+            "method": "sequence",
+            "reason": "Insufficient sequence-supported text",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": "liturgy:u0072",
+            "section_id": "liturgy:s004",
+            "section_title": "Small Litany",
+            "score": 0.95,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.8003,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'for you are a good and loving God' matches reference 'good and benevolent God' in u0072.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "for you are a good and loving God",
+            "reference_evidence": "Ὅτι ἀγαθὸς καὶ φιλάνθρωπος Θεὸς ὑπάρχεις"
+          },
+          "llm_match": {
+            "unit_id": "liturgy:u0072",
+            "section_id": "liturgy:s004",
+            "section_title": "Small Litany",
+            "score": 0.95,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.8003,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'for you are a good and loving God' matches reference 'good and benevolent God' in u0072.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "for you are a good and loving God",
+            "reference_evidence": "Ὅτι ἀγαθὸς καὶ φιλάνθρωπος Θεὸς ὑπάρχεις"
+          },
+          "selected_canonical": {
+            "id": "liturgy:u0072",
+            "section_title": "Small Litany",
+            "greek": "Ὅτι ἀγαθὸς καὶ φιλάνθρωπος Θεὸς ὑπάρχεις καὶ σοὶ τὴν δόξαν ἀναπέμπομεν, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ ἁγίῳ Πνεύματι, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+            "english": "For You are good and benevolent God, and to You we offer up glory, to the Father and the Son and the Holy Spirit, now and ever and to the ages of ages."
+          }
+        },
+        {
+          "segment_id": "586",
+          "start": 4863.92,
+          "text": "and to you we give up glory",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.871,
+            "status": "uncertain",
+            "method": "sequence",
+            "reason": "Insufficient sequence-supported text",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": "liturgy:u0072",
+            "section_id": "liturgy:s004",
+            "section_title": "Small Litany",
+            "score": 0.95,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.871,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'and to you we give up glory' matches reference 'to You we offer up glory' in u0072.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "and to you we give up glory",
+            "reference_evidence": "καὶ σοὶ τὴν δόξαν ἀναπέμπομεν"
+          },
+          "llm_match": {
+            "unit_id": "liturgy:u0072",
+            "section_id": "liturgy:s004",
+            "section_title": "Small Litany",
+            "score": 0.95,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.871,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'and to you we give up glory' matches reference 'to You we offer up glory' in u0072.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "and to you we give up glory",
+            "reference_evidence": "καὶ σοὶ τὴν δόξαν ἀναπέμπομεν"
+          },
+          "selected_canonical": {
+            "id": "liturgy:u0072",
+            "section_title": "Small Litany",
+            "greek": "Ὅτι ἀγαθὸς καὶ φιλάνθρωπος Θεὸς ὑπάρχεις καὶ σοὶ τὴν δόξαν ἀναπέμπομεν, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ ἁγίῳ Πνεύματι, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+            "english": "For You are good and benevolent God, and to You we offer up glory, to the Father and the Son and the Holy Spirit, now and ever and to the ages of ages."
+          }
+        },
+        {
+          "segment_id": "587",
+          "start": 4865.64,
+          "text": "into the Father and the Son and the Holy Spirit",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.9598,
+            "status": "uncertain",
+            "method": "sequence",
+            "reason": "Insufficient sequence-supported text",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": "liturgy:u0072",
+            "section_id": "liturgy:s004",
+            "section_title": "Small Litany",
+            "score": 0.95,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.9598,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'into the Father and the Son and the Holy Spirit' matches reference in u0072.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "into the Father and the Son and the Holy Spirit",
+            "reference_evidence": "τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ ἁγίῳ Πνεύματι"
+          },
+          "llm_match": {
+            "unit_id": "liturgy:u0072",
+            "section_id": "liturgy:s004",
+            "section_title": "Small Litany",
+            "score": 0.95,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.9598,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'into the Father and the Son and the Holy Spirit' matches reference in u0072.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "into the Father and the Son and the Holy Spirit",
+            "reference_evidence": "τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ ἁγίῳ Πνεύματι"
+          },
+          "selected_canonical": {
+            "id": "liturgy:u0072",
+            "section_title": "Small Litany",
+            "greek": "Ὅτι ἀγαθὸς καὶ φιλάνθρωπος Θεὸς ὑπάρχεις καὶ σοὶ τὴν δόξαν ἀναπέμπομεν, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ ἁγίῳ Πνεύματι, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+            "english": "For You are good and benevolent God, and to You we offer up glory, to the Father and the Son and the Holy Spirit, now and ever and to the ages of ages."
+          }
+        },
+        {
+          "segment_id": "588",
+          "start": 4868.82,
+          "text": "now and forever and to the ages of ages",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.9624,
+            "status": "uncertain",
+            "method": "sequence",
+            "reason": "Insufficient sequence-supported text",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": "liturgy:u0072",
+            "section_id": "liturgy:s004",
+            "section_title": "Small Litany",
+            "score": 0.95,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.9624,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'now and forever and to the ages of ages' matches reference in u0072.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "now and forever and to the ages of ages",
+            "reference_evidence": "νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων"
+          },
+          "llm_match": {
+            "unit_id": "liturgy:u0072",
+            "section_id": "liturgy:s004",
+            "section_title": "Small Litany",
+            "score": 0.95,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.9624,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'now and forever and to the ages of ages' matches reference in u0072.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "now and forever and to the ages of ages",
+            "reference_evidence": "νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων"
+          },
+          "selected_canonical": {
+            "id": "liturgy:u0072",
+            "section_title": "Small Litany",
+            "greek": "Ὅτι ἀγαθὸς καὶ φιλάνθρωπος Θεὸς ὑπάρχεις καὶ σοὶ τὴν δόξαν ἀναπέμπομεν, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ ἁγίῳ Πνεύματι, νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+            "english": "For You are good and benevolent God, and to You we offer up glory, to the Father and the Son and the Holy Spirit, now and ever and to the ages of ages."
+          }
+        },
+        {
+          "segment_id": "589",
+          "start": 4873.56,
+          "text": "Amen",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 1.0,
+            "status": "uncertain",
+            "method": "sequence",
+            "reason": "Insufficient sequence-supported text",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Short recurring response 'Amen' alone cannot identify a unique place; multiple candidates exist.",
+            "warnings": []
+          },
+          "llm_match": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Short recurring response 'Amen' alone cannot identify a unique place; multiple candidates exist.",
+            "warnings": []
+          },
+          "selected_canonical": null
+        },
+        {
+          "segment_id": "590",
+          "start": 4874.8,
+          "text": "Here I shall dwell",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 1.0,
+            "status": "uncertain",
+            "method": "sequence",
+            "reason": "Insufficient sequence-supported text",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": "liturgy:u0074",
+            "section_id": "liturgy:s005",
+            "section_title": "Antiphon 3",
+            "score": 0.95,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 1.0,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'Here I shall dwell' matches reference 'Here I shall dwell' in u0074.",
+            "warnings": [
+              "short_response_needs_context"
+            ],
+            "transcript_evidence": "Here I shall dwell",
+            "reference_evidence": "Ὧδε κατοικήσω"
+          },
+          "llm_match": {
+            "unit_id": "liturgy:u0074",
+            "section_id": "liturgy:s005",
+            "section_title": "Antiphon 3",
+            "score": 0.95,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 1.0,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'Here I shall dwell' matches reference 'Here I shall dwell' in u0074.",
+            "warnings": [
+              "short_response_needs_context"
+            ],
+            "transcript_evidence": "Here I shall dwell",
+            "reference_evidence": "Ὧδε κατοικήσω"
+          },
+          "selected_canonical": {
+            "id": "liturgy:u0074",
+            "section_title": "Antiphon 3",
+            "greek": "Ὧδε κατοικήσω, ὅτι ᾑρετισάμην αὐτήν.",
+            "english": "Here I shall dwell, for I have chosen her."
+          }
+        }
+      ]
+    },
+    {
+      "clip_id": "combined-06",
+      "start": 5040.0,
+      "end": 5066.0,
+      "segment_ids": [
+        "606",
+        "607",
+        "608",
+        "609",
+        "610",
+        "611"
+      ],
+      "raw_status_counts": {
+        "unknown": 1,
+        "uncertain": 4,
+        "matched": 1
+      },
+      "guarded_status_counts": {
+        "unknown": 1,
+        "uncertain": 4,
+        "matched": 1
+      },
+      "rows": [
+        {
+          "segment_id": "606",
+          "start": 5040.0,
+          "text": "As they cry out to you.",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.7262,
+            "status": "uncertain",
+            "method": "sequence",
+            "reason": "Lexical candidate conflicts with the supported chronology or lacks evidence",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Model selected an ID outside this segment's retrieved candidates",
+            "warnings": [
+              "invalid_unit_id"
+            ]
+          },
+          "llm_match": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Model selected an ID outside this segment's retrieved candidates",
+            "warnings": [
+              "invalid_unit_id"
+            ]
+          },
+          "selected_canonical": null
+        },
+        {
+          "segment_id": "607",
+          "start": 5043.36,
+          "text": "The bearing one bears the Theotokos.",
+          "sequence_match": {
+            "unit_id": "liturgy:u0090",
+            "unit_index": 571,
+            "section_id": "liturgy:s008",
+            "section_title": "Hymns after the Entrance",
+            "score": 0.9218,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Distinctive text supports this position in the chronological path",
+            "service_id": "liturgy",
+            "service_title": "Divine Liturgy of St. John Chrysostom"
+          },
+          "llm_proposal": {
+            "unit_id": "liturgy:u0090",
+            "section_id": "liturgy:s008",
+            "section_title": "Hymns after the Entrance",
+            "score": 0.95,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.9218,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'The bearing one bears the Theotokos' is a direct match to the reference text 'The barren one bears the Theotokos'.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "The bearing one bears the Theotokos.",
+            "reference_evidence": "“The barren one bears the Theotokos, the nurturer of our Life.”"
+          },
+          "llm_match": {
+            "unit_id": "liturgy:u0090",
+            "section_id": "liturgy:s008",
+            "section_title": "Hymns after the Entrance",
+            "score": 0.95,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.9218,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'The bearing one bears the Theotokos' is a direct match to the reference text 'The barren one bears the Theotokos'.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "The bearing one bears the Theotokos.",
+            "reference_evidence": "“The barren one bears the Theotokos, the nurturer of our Life.”"
+          },
+          "selected_canonical": {
+            "id": "liturgy:u0090",
+            "section_title": "Hymns after the Entrance",
+            "greek": "Ἰωακεὶμ καὶ Ἄννα ὀνειδισμοῦ ἀτεκνίας, καὶ Ἀδὰμ καὶ Εὔα, ἐκ τῆς φθορᾶς τοῦ θανάτου, ἠλευθερώθησαν Ἄχραντε, ἐν τῇ ἁγίᾳ γεννήσει σου· αὐτὴν ἑορτάζει καὶ ὁ λαός σου, ἐνοχῆς τῶν πταισμάτων, λυτρωθεὶς ἐν τῷ κράζειν σοι· Ἡ στεῖρα τίκτει τὴν Θεοτόκον, καὶ τροφὸν τῆς ζωῆς ἡμῶν.",
+            "english": "Joachim and Anna were released from the reproach of childlessness, and Adam and Eve delivered from death and destruction, through your holy childbirth, O immaculate Virgin. We, your people, now redeemed from the guilt of transgressions, celebrate your holy birth as we sing to you: “The barren one bears the Theotokos, the nurturer of our Life.”"
+          }
+        },
+        {
+          "segment_id": "608",
+          "start": 5048.84,
+          "text": "The nourisher of our life.",
+          "sequence_match": {
+            "unit_id": "liturgy:u0090",
+            "unit_index": 571,
+            "section_id": "liturgy:s008",
+            "section_title": "Hymns after the Entrance",
+            "score": 0.8723,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Distinctive text supports this position in the chronological path",
+            "service_id": "liturgy",
+            "service_title": "Divine Liturgy of St. John Chrysostom"
+          },
+          "llm_proposal": {
+            "unit_id": "liturgy:u0090",
+            "section_id": "liturgy:s008",
+            "section_title": "Hymns after the Entrance",
+            "score": 0.95,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.8723,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'The nourisher of our life' matches reference 'the nurturer of our Life' from the same hymn unit.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "The nourisher of our life.",
+            "reference_evidence": "“The barren one bears the Theotokos, the nurturer of our Life.”"
+          },
+          "llm_match": {
+            "unit_id": "liturgy:u0090",
+            "section_id": "liturgy:s008",
+            "section_title": "Hymns after the Entrance",
+            "score": 0.95,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.8723,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'The nourisher of our life' matches reference 'the nurturer of our Life' from the same hymn unit.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "The nourisher of our life.",
+            "reference_evidence": "“The barren one bears the Theotokos, the nurturer of our Life.”"
+          },
+          "selected_canonical": {
+            "id": "liturgy:u0090",
+            "section_title": "Hymns after the Entrance",
+            "greek": "Ἰωακεὶμ καὶ Ἄννα ὀνειδισμοῦ ἀτεκνίας, καὶ Ἀδὰμ καὶ Εὔα, ἐκ τῆς φθορᾶς τοῦ θανάτου, ἠλευθερώθησαν Ἄχραντε, ἐν τῇ ἁγίᾳ γεννήσει σου· αὐτὴν ἑορτάζει καὶ ὁ λαός σου, ἐνοχῆς τῶν πταισμάτων, λυτρωθεὶς ἐν τῷ κράζειν σοι· Ἡ στεῖρα τίκτει τὴν Θεοτόκον, καὶ τροφὸν τῆς ζωῆς ἡμῶν.",
+            "english": "Joachim and Anna were released from the reproach of childlessness, and Adam and Eve delivered from death and destruction, through your holy childbirth, O immaculate Virgin. We, your people, now redeemed from the guilt of transgressions, celebrate your holy birth as we sing to you: “The barren one bears the Theotokos, the nurturer of our Life.”"
+          }
+        },
+        {
+          "segment_id": "609",
+          "start": 5057.64,
+          "text": "To Kyrieu Dei Thomen.",
+          "sequence_match": {
+            "unit_id": "liturgy:u0091",
+            "unit_index": 572,
+            "section_id": "liturgy:s009",
+            "section_title": "Trisagios Hymn",
+            "score": 0.8761,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Text located between nearby distinctive sequence anchors",
+            "service_id": "liturgy",
+            "service_title": "Divine Liturgy of St. John Chrysostom"
+          },
+          "llm_proposal": {
+            "unit_id": "liturgy:u0091",
+            "section_id": "liturgy:s009",
+            "section_title": "Trisagios Hymn",
+            "score": 0.85,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.8761,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'To Kyrieu Dei Thomen' is a phonetic match for 'Let us pray to the Lord' (Τοῦ Κυρίου δεηθῶμεν).",
+            "warnings": [
+              "short_response_needs_context",
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "To Kyrieu Dei Thomen.",
+            "reference_evidence": "Let us pray to the Lord."
+          },
+          "llm_match": {
+            "unit_id": "liturgy:u0091",
+            "section_id": "liturgy:s009",
+            "section_title": "Trisagios Hymn",
+            "score": 0.85,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.8761,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'To Kyrieu Dei Thomen' is a phonetic match for 'Let us pray to the Lord' (Τοῦ Κυρίου δεηθῶμεν).",
+            "warnings": [
+              "short_response_needs_context",
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "To Kyrieu Dei Thomen.",
+            "reference_evidence": "Let us pray to the Lord."
+          },
+          "selected_canonical": {
+            "id": "liturgy:u0091",
+            "section_title": "Trisagios Hymn",
+            "greek": "Τοῦ Κυρίου δεηθῶμεν.",
+            "english": "Let us pray to the Lord."
+          }
+        },
+        {
+          "segment_id": "610",
+          "start": 5060.98,
+          "text": "To Kyrieu Dei Thomen.",
+          "sequence_match": {
+            "unit_id": "liturgy:u0091",
+            "unit_index": 572,
+            "section_id": "liturgy:s009",
+            "section_title": "Trisagios Hymn",
+            "score": 0.8761,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Text located between nearby distinctive sequence anchors",
+            "service_id": "liturgy",
+            "service_title": "Divine Liturgy of St. John Chrysostom"
+          },
+          "llm_proposal": {
+            "unit_id": "liturgy:u0091",
+            "section_id": "liturgy:s009",
+            "section_title": "Trisagios Hymn",
+            "score": 0.85,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.8761,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'To Kyrieu Dei Thomen' is a phonetic match for 'Let us pray to the Lord' (Τοῦ Κυρίου δεηθῶμεν).",
+            "warnings": [
+              "short_response_needs_context",
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "To Kyrieu Dei Thomen.",
+            "reference_evidence": "Let us pray to the Lord."
+          },
+          "llm_match": {
+            "unit_id": "liturgy:u0091",
+            "section_id": "liturgy:s009",
+            "section_title": "Trisagios Hymn",
+            "score": 0.85,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.8761,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Transcript 'To Kyrieu Dei Thomen' is a phonetic match for 'Let us pray to the Lord' (Τοῦ Κυρίου δεηθῶμεν).",
+            "warnings": [
+              "short_response_needs_context",
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "To Kyrieu Dei Thomen.",
+            "reference_evidence": "Let us pray to the Lord."
+          },
+          "selected_canonical": {
+            "id": "liturgy:u0091",
+            "section_title": "Trisagios Hymn",
+            "greek": "Τοῦ Κυρίου δεηθῶμεν.",
+            "english": "Let us pray to the Lord."
+          }
+        },
+        {
+          "segment_id": "611",
+          "start": 5063.58,
+          "text": "O Diagio, Sio Theos, Simon,",
+          "sequence_match": {
+            "unit_id": "liturgy:u0095",
+            "unit_index": 576,
+            "section_id": "liturgy:s009",
+            "section_title": "Trisagios Hymn",
+            "score": 0.8204,
+            "status": "matched",
+            "method": "sequence",
+            "reason": "Text located between nearby distinctive sequence anchors",
+            "service_id": "liturgy",
+            "service_title": "Divine Liturgy of St. John Chrysostom"
+          },
+          "llm_proposal": {
+            "unit_id": "liturgy:u0095",
+            "section_id": "liturgy:s009",
+            "section_title": "Trisagios Hymn",
+            "score": 0.8,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.8204,
+            "status": "matched",
+            "method": "llm",
+            "reason": "Transcript 'O Diagio, Sio Theos, Simon' approximates 'Holy God, we worship You' (Ὅτι ἅγιος εἶ ὁ Θεὸς ἡμῶν).",
+            "warnings": [],
+            "transcript_evidence": "O Diagio, Sio Theos, Simon,",
+            "reference_evidence": "For You, our God, are holy, and to You we offer up glory"
+          },
+          "llm_match": {
+            "unit_id": "liturgy:u0095",
+            "section_id": "liturgy:s009",
+            "section_title": "Trisagios Hymn",
+            "score": 0.8,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.8204,
+            "status": "matched",
+            "method": "llm",
+            "reason": "Transcript 'O Diagio, Sio Theos, Simon' approximates 'Holy God, we worship You' (Ὅτι ἅγιος εἶ ὁ Θεὸς ἡμῶν).",
+            "warnings": [],
+            "transcript_evidence": "O Diagio, Sio Theos, Simon,",
+            "reference_evidence": "For You, our God, are holy, and to You we offer up glory"
+          },
+          "selected_canonical": {
+            "id": "liturgy:u0095",
+            "section_title": "Trisagios Hymn",
+            "greek": "Ὅτι ἅγιος εἶ ὁ Θεὸς ἡμῶν καὶ σοὶ τὴν δόξαν ἀναπέμπομεν, τῷ Πατρὶ καὶ τῷ Υἱῷ καὶ τῷ ἁγίῳ Πνεύματι, νῦν καὶ ἀεί…",
+            "english": "For You, our God, are holy, and to You we offer up glory, to the Father and the Son and the Holy Spirit, now and ever…"
+          }
+        }
+      ]
+    },
+    {
+      "clip_id": "combined-07",
+      "start": 7500.0,
+      "end": 7529.08,
+      "segment_ids": [
+        "933",
+        "934",
+        "935",
+        "936",
+        "937",
+        "938"
+      ],
+      "raw_status_counts": {
+        "matched": 1,
+        "uncertain": 2,
+        "unknown": 3
+      },
+      "guarded_status_counts": {
+        "unknown": 6
+      },
+      "rows": [
+        {
+          "segment_id": "933",
+          "start": 7500.0,
+          "text": "incarnation, and then to his crucifixion, to his resurrection, and to his ascension.",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.6141,
+            "status": "unknown",
+            "method": "sequence",
+            "reason": "No sufficiently similar text on the chronological path",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": "liturgy:u0176",
+            "section_id": "liturgy:s015",
+            "section_title": "The Creed",
+            "score": 0.9,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.6141,
+            "status": "matched",
+            "method": "llm",
+            "reason": "Transcript lists incarnation, crucifixion, resurrection, ascension, matching the Creed's narrative sequence.",
+            "warnings": [],
+            "transcript_evidence": "incarnation, and then to his crucifixion, to his resurrection, and to his ascension.",
+            "reference_evidence": "σαρκωθέντα... Σταυρωθέντα... Καὶ ἀναστάντα... Καὶ ἀνελθόντα"
+          },
+          "llm_match": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "New-pipeline evidence checks require review: invalid_reference_evidence. Transcript lists incarnation, crucifixion, resurrection, ascension, matching the Creed's narrative sequence.",
+            "warnings": [
+              "invalid_reference_evidence"
+            ],
+            "proposed_unit_id": "liturgy:u0176",
+            "proposed_score": 0.9
+          },
+          "selected_canonical": null
+        },
+        {
+          "segment_id": "934",
+          "start": 7506.82,
+          "text": "Those events really start in some way today with the birth of the Theotokos.",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.621,
+            "status": "unknown",
+            "method": "sequence",
+            "reason": "No sufficiently similar text on the chronological path",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": "liturgy:u0090",
+            "section_id": "liturgy:s008",
+            "section_title": "Hymns after the Entrance",
+            "score": 0.85,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.5825,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Speaker explicitly mentions 'birth of the Theotokos', matching the hymn's theme of her holy birth.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "start in some way today with the birth of the Theotokos.",
+            "reference_evidence": "ἐν τῇ ἁγίᾳ γεννήσει σου... Ἡ στεῖρα τίκτει τὴν Θεοτόκον"
+          },
+          "llm_match": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "New-pipeline evidence checks require review: invalid_reference_evidence. Speaker explicitly mentions 'birth of the Theotokos', matching the hymn's theme of her holy birth.",
+            "warnings": [
+              "repeated_reference_text",
+              "invalid_reference_evidence"
+            ],
+            "proposed_unit_id": "liturgy:u0090",
+            "proposed_score": 0.85
+          },
+          "selected_canonical": null
+        },
+        {
+          "segment_id": "935",
+          "start": 7515.98,
+          "text": "She is born.",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.4286,
+            "status": "unknown",
+            "method": "sequence",
+            "reason": "No sufficiently similar text on the chronological path",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Model selected an ID outside this segment's retrieved candidates",
+            "warnings": [
+              "invalid_unit_id"
+            ]
+          },
+          "llm_match": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Model selected an ID outside this segment's retrieved candidates",
+            "warnings": [
+              "invalid_unit_id"
+            ]
+          },
+          "selected_canonical": null
+        },
+        {
+          "segment_id": "936",
+          "start": 7517.04,
+          "text": "In order for Christ to be born, the Theotokos must be born.",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.629,
+            "status": "unknown",
+            "method": "sequence",
+            "reason": "No sufficiently similar text on the chronological path",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": "liturgy:u0090",
+            "section_id": "liturgy:s008",
+            "section_title": "Hymns after the Entrance",
+            "score": 0.9,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "lexical_score": 0.6165,
+            "status": "uncertain",
+            "method": "llm",
+            "reason": "Logical connection 'Christ to be born, Theotokos must be born' is the core theological point of this hymn.",
+            "warnings": [
+              "repeated_reference_text"
+            ],
+            "transcript_evidence": "In order for Christ to be born, the Theotokos must be born.",
+            "reference_evidence": "Ἀδὰμ καὶ Εὔα... ἐλευθερώθησαν... ἐν τῇ ἁγίᾳ γεννήσει σου"
+          },
+          "llm_match": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "New-pipeline evidence checks require review: invalid_reference_evidence. Logical connection 'Christ to be born, Theotokos must be born' is the core theological point of this hymn.",
+            "warnings": [
+              "repeated_reference_text",
+              "invalid_reference_evidence"
+            ],
+            "proposed_unit_id": "liturgy:u0090",
+            "proposed_score": 0.9
+          },
+          "selected_canonical": null
+        },
+        {
+          "segment_id": "937",
+          "start": 7520.94,
+          "text": "So this is the beginning of that series of events that leads to, ultimately, the salvation",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.6325,
+            "status": "unknown",
+            "method": "sequence",
+            "reason": "No sufficiently similar text on the chronological path",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Model selected an ID outside this segment's retrieved candidates",
+            "warnings": [
+              "invalid_unit_id"
+            ]
+          },
+          "llm_match": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Model selected an ID outside this segment's retrieved candidates",
+            "warnings": [
+              "invalid_unit_id"
+            ]
+          },
+          "selected_canonical": null
+        },
+        {
+          "segment_id": "938",
+          "start": 7528.18,
+          "text": "of the whole world.",
+          "sequence_match": {
+            "unit_id": null,
+            "unit_index": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 1.0,
+            "status": "uncertain",
+            "method": "sequence",
+            "reason": "Lexical candidate conflicts with the supported chronology or lacks evidence",
+            "service_id": null,
+            "service_title": null
+          },
+          "llm_proposal": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Model selected an ID outside this segment's retrieved candidates",
+            "warnings": [
+              "invalid_unit_id"
+            ]
+          },
+          "llm_match": {
+            "unit_id": null,
+            "section_id": null,
+            "section_title": null,
+            "score": 0.0,
+            "score_description": "LLM self-rated textual support, 0–1; not a calibrated probability or accuracy estimate",
+            "status": "unknown",
+            "method": "llm",
+            "reason": "Model selected an ID outside this segment's retrieved candidates",
+            "warnings": [
+              "invalid_unit_id"
+            ]
+          },
+          "selected_canonical": null
+        }
+      ]
+    }
+  ]
+}

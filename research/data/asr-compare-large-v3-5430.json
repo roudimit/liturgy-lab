@@ -1,0 +1,510 @@
+{
+  "model": "mlx-community/whisper-large-v3-mlx",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 5430,
+  "end": 5520.0,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 5430.0,
+      "end": 5437.62,
+      "text": "Ὁ πώς υπό το κράτους οὐ πάντοτε φιλαθόμενης ἡ δόξαν ἀναπέμπωμεν,",
+      "temperature": 0.0,
+      "avg_logprob": -0.5431805732922677,
+      "compression_ratio": 1.7991967871485943,
+      "no_speech_prob": 0.32415151596069336,
+      "words": [
+        {
+          "word": " Ὁ",
+          "start": 5430.0,
+          "end": 5430.44,
+          "probability": 0.39453125
+        },
+        {
+          "word": " πώς",
+          "start": 5430.44,
+          "end": 5431.56,
+          "probability": 0.479736328125
+        },
+        {
+          "word": " υπό",
+          "start": 5431.56,
+          "end": 5431.96,
+          "probability": 0.66943359375
+        },
+        {
+          "word": " το",
+          "start": 5431.96,
+          "end": 5432.1,
+          "probability": 0.63134765625
+        },
+        {
+          "word": " κράτους",
+          "start": 5432.1,
+          "end": 5432.8,
+          "probability": 0.7529296875
+        },
+        {
+          "word": " οὐ",
+          "start": 5432.8,
+          "end": 5433.16,
+          "probability": 0.765625
+        },
+        {
+          "word": " πάντοτε",
+          "start": 5433.16,
+          "end": 5433.76,
+          "probability": 0.859375
+        },
+        {
+          "word": " φιλαθόμενης",
+          "start": 5433.76,
+          "end": 5435.08,
+          "probability": 0.849609375
+        },
+        {
+          "word": " ἡ",
+          "start": 5435.08,
+          "end": 5435.12,
+          "probability": 0.359130859375
+        },
+        {
+          "word": " δόξαν",
+          "start": 5435.12,
+          "end": 5435.72,
+          "probability": 0.93701171875
+        },
+        {
+          "word": " ἀναπέμπωμεν,",
+          "start": 5435.72,
+          "end": 5437.62,
+          "probability": 0.9453125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5437.62,
+      "end": 5445.16,
+      "text": "τὸ Πατρί καὶ τὸ Υιόν καὶ τὸ ἄγιον Πνεύμα τὴν ἴν καὶ ἀηκαίης τοὺς αἰώνας τὸν αἰώνων.",
+      "temperature": 0.0,
+      "avg_logprob": -0.5431805732922677,
+      "compression_ratio": 1.7991967871485943,
+      "no_speech_prob": 0.32415151596069336,
+      "words": [
+        {
+          "word": " τὸ",
+          "start": 5437.62,
+          "end": 5438.14,
+          "probability": 0.78173828125
+        },
+        {
+          "word": " Πατρί",
+          "start": 5438.14,
+          "end": 5438.42,
+          "probability": 0.8466796875
+        },
+        {
+          "word": " καὶ",
+          "start": 5438.42,
+          "end": 5438.86,
+          "probability": 0.712890625
+        },
+        {
+          "word": " τὸ",
+          "start": 5438.86,
+          "end": 5439.0,
+          "probability": 0.90234375
+        },
+        {
+          "word": " Υιόν",
+          "start": 5439.0,
+          "end": 5439.38,
+          "probability": 0.861328125
+        },
+        {
+          "word": " καὶ",
+          "start": 5439.38,
+          "end": 5439.62,
+          "probability": 0.93994140625
+        },
+        {
+          "word": " τὸ",
+          "start": 5439.62,
+          "end": 5439.76,
+          "probability": 0.97119140625
+        },
+        {
+          "word": " ἄγιον",
+          "start": 5439.76,
+          "end": 5440.34,
+          "probability": 0.73388671875
+        },
+        {
+          "word": " Πνεύμα",
+          "start": 5440.34,
+          "end": 5440.92,
+          "probability": 0.93994140625
+        },
+        {
+          "word": " τὴν",
+          "start": 5440.92,
+          "end": 5441.26,
+          "probability": 0.75390625
+        },
+        {
+          "word": " ἴν",
+          "start": 5441.26,
+          "end": 5441.48,
+          "probability": 0.52001953125
+        },
+        {
+          "word": " καὶ",
+          "start": 5441.48,
+          "end": 5441.88,
+          "probability": 0.82080078125
+        },
+        {
+          "word": " ἀηκαίης",
+          "start": 5441.88,
+          "end": 5442.7,
+          "probability": 0.595703125
+        },
+        {
+          "word": " τοὺς",
+          "start": 5442.7,
+          "end": 5443.02,
+          "probability": 0.7861328125
+        },
+        {
+          "word": " αἰώνας",
+          "start": 5443.02,
+          "end": 5443.82,
+          "probability": 0.83837890625
+        },
+        {
+          "word": " τὸν",
+          "start": 5443.82,
+          "end": 5444.06,
+          "probability": 0.916015625
+        },
+        {
+          "word": " αἰώνων.",
+          "start": 5444.06,
+          "end": 5445.16,
+          "probability": 0.8974609375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5448.78,
+      "end": 5453.54,
+      "text": "Ὁ δὲ σάξος τὸς ἐθωμένους τὴς ἐπὸ τοῦς ἀγώτουσις ἀμὸς πρόσχης τὸς ἐστιν ἀγωμένους,",
+      "temperature": 0.0,
+      "avg_logprob": -0.5431805732922677,
+      "compression_ratio": 1.7991967871485943,
+      "no_speech_prob": 0.32415151596069336,
+      "words": [
+        {
+          "word": " Ὁ",
+          "start": 5448.78,
+          "end": 5449.52,
+          "probability": 0.501953125
+        },
+        {
+          "word": " δὲ",
+          "start": 5449.52,
+          "end": 5449.74,
+          "probability": 0.53515625
+        },
+        {
+          "word": " σάξος",
+          "start": 5449.74,
+          "end": 5450.06,
+          "probability": 0.6005859375
+        },
+        {
+          "word": " τὸς",
+          "start": 5450.06,
+          "end": 5450.42,
+          "probability": 0.61083984375
+        },
+        {
+          "word": " ἐθωμένους",
+          "start": 5450.42,
+          "end": 5450.88,
+          "probability": 0.65869140625
+        },
+        {
+          "word": " τὴς",
+          "start": 5450.88,
+          "end": 5451.14,
+          "probability": 0.4697265625
+        },
+        {
+          "word": " ἐπὸ",
+          "start": 5451.14,
+          "end": 5451.42,
+          "probability": 0.45166015625
+        },
+        {
+          "word": " τοῦς",
+          "start": 5451.42,
+          "end": 5451.66,
+          "probability": 0.420166015625
+        },
+        {
+          "word": " ἀγώτουσις",
+          "start": 5451.66,
+          "end": 5451.78,
+          "probability": 0.283447265625
+        },
+        {
+          "word": " ἀμὸς",
+          "start": 5451.78,
+          "end": 5452.14,
+          "probability": 0.42138671875
+        },
+        {
+          "word": " πρόσχης",
+          "start": 5452.14,
+          "end": 5452.6,
+          "probability": 0.4306640625
+        },
+        {
+          "word": " τὸς",
+          "start": 5452.6,
+          "end": 5452.9,
+          "probability": 0.7705078125
+        },
+        {
+          "word": " ἐστιν",
+          "start": 5452.9,
+          "end": 5453.26,
+          "probability": 0.40771484375
+        },
+        {
+          "word": " ἀγωμένους,",
+          "start": 5453.26,
+          "end": 5453.54,
+          "probability": 0.5263671875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 3,
+      "seek": 2354,
+      "start": 5454.58,
+      "end": 5458.64,
+      "text": "Μαζιλεύει τις δόντσες του Καρύδια Κνήση με ένα κέφαλο χρόνο και αυτές θα σκοτεινούσαν την άμυση.",
+      "temperature": 0.0,
+      "avg_logprob": -0.6348976001404879,
+      "compression_ratio": 1.375,
+      "no_speech_prob": 0.579036295413971,
+      "words": [
+        {
+          "word": " Μαζιλεύει",
+          "start": 5454.58,
+          "end": 5454.98,
+          "probability": 0.7685546875
+        },
+        {
+          "word": " τις",
+          "start": 5454.98,
+          "end": 5455.1,
+          "probability": 0.52880859375
+        },
+        {
+          "word": " δόντσες",
+          "start": 5455.1,
+          "end": 5455.48,
+          "probability": 0.78076171875
+        },
+        {
+          "word": " του",
+          "start": 5455.48,
+          "end": 5455.56,
+          "probability": 0.6650390625
+        },
+        {
+          "word": " Καρύδια",
+          "start": 5455.56,
+          "end": 5455.94,
+          "probability": 0.60302734375
+        },
+        {
+          "word": " Κνήση",
+          "start": 5455.94,
+          "end": 5456.26,
+          "probability": 0.50537109375
+        },
+        {
+          "word": " με",
+          "start": 5456.26,
+          "end": 5456.42,
+          "probability": 0.327880859375
+        },
+        {
+          "word": " ένα",
+          "start": 5456.42,
+          "end": 5456.58,
+          "probability": 0.383544921875
+        },
+        {
+          "word": " κέφαλο",
+          "start": 5456.58,
+          "end": 5456.98,
+          "probability": 0.54736328125
+        },
+        {
+          "word": " χρόνο",
+          "start": 5456.98,
+          "end": 5457.18,
+          "probability": 0.6923828125
+        },
+        {
+          "word": " και",
+          "start": 5457.18,
+          "end": 5457.32,
+          "probability": 0.6865234375
+        },
+        {
+          "word": " αυτές",
+          "start": 5457.32,
+          "end": 5457.64,
+          "probability": 0.9033203125
+        },
+        {
+          "word": " θα",
+          "start": 5457.64,
+          "end": 5457.74,
+          "probability": 0.430419921875
+        },
+        {
+          "word": " σκοτεινούσαν",
+          "start": 5457.74,
+          "end": 5458.22,
+          "probability": 0.5556640625
+        },
+        {
+          "word": " την",
+          "start": 5458.22,
+          "end": 5458.32,
+          "probability": 0.2235107421875
+        },
+        {
+          "word": " άμυση.",
+          "start": 5458.32,
+          "end": 5458.64,
+          "probability": 0.65576171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 5488.12,
+      "end": 5489.98,
+      "text": "Υπότιτλοι AUTHORWAVE",
+      "temperature": 0.0,
+      "avg_logprob": -0.21916236877441406,
+      "compression_ratio": 0.7837837837837838,
+      "no_speech_prob": 0.9438356161117554,
+      "words": [
+        {
+          "word": " Υπότιτλοι",
+          "start": 5488.12,
+          "end": 5489.52,
+          "probability": 0.810546875
+        },
+        {
+          "word": " AUTHORWAVE",
+          "start": 5489.52,
+          "end": 5489.98,
+          "probability": 0.99560546875
+        }
+      ],
+      "asr_warnings": [
+        "Possible subtitle/promotion artifact in ASR; listen to verify."
+      ],
+      "language": "el"
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 5502.8,
+      "end": 5505.16,
+      "text": "Υπότιτλοι AUTHORWAVE",
+      "temperature": 0.0,
+      "avg_logprob": -0.2564136028289795,
+      "compression_ratio": 0.7837837837837838,
+      "no_speech_prob": 0.9172776937484741,
+      "words": [
+        {
+          "word": " Υπότιτλοι",
+          "start": 5502.8,
+          "end": 5504.2,
+          "probability": 0.8330078125
+        },
+        {
+          "word": " AUTHORWAVE",
+          "start": 5504.2,
+          "end": 5505.16,
+          "probability": 0.9970703125
+        }
+      ],
+      "asr_warnings": [
+        "Possible subtitle/promotion artifact in ASR; listen to verify."
+      ],
+      "language": "el"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 5430.0,
+      "end": 5460.0,
+      "language": "el",
+      "seconds": 9.60726666613482
+    },
+    {
+      "start": 5460.0,
+      "end": 5490.0,
+      "language": "el",
+      "seconds": 2.5823725829832256
+    },
+    {
+      "start": 5490.0,
+      "end": 5520.0,
+      "language": "el",
+      "seconds": 2.3644652920775115
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 90.0,
+    "inference_seconds": 14.559732916997746,
+    "decode_seconds": 0.09787895809859037,
+    "real_time_factor": 0.16177481018886383,
+    "speedup": 6.181432071115095,
+    "peak_memory_gb": 3.896347714,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ]
+}

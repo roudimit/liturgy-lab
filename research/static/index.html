@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#172b38">
+  <title>Liturgy Lab · Local speech experiment</title>
+  <link rel="stylesheet" href="/static/style.css?v=20261001-14">
+  <script defer src="/static/app.js?v=20261001-14"></script>
+</head>
+<body>
+  <a class="skip-link" href="#workspace">Skip to experiment</a>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Liturgy Lab home"><span class="brand-mark" aria-hidden="true">✣</span><span>Liturgy<span class="brand-light">Lab</span></span></a>
+    <div class="header-right"><a class="source-link" id="source-link" target="_blank" rel="noopener noreferrer">Source recording <span aria-hidden="true">↗</span></a></div>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <h1 id="page-title">Listen. Align. Explore.</h1>
+      <p class="intro-copy">Matching speech recognition results to the liturgy text.</p>
+    </section>
+    <div id="loading" class="loading-state" role="status">Loading your local experiment…</div>
+    <div id="error" class="error-state" role="alert" hidden></div>
+    <div id="app" hidden>
+      <div class="recording-select-bar">
+        <label for="recording-select">Select recording</label>
+        <select id="recording-select" aria-label="Select recording"></select>
+        <span id="recording-count" class="subtle"></span>
+        <details class="experiment-details"><summary>Details <span aria-hidden="true">+</span></summary><div class="details-popover"><p id="source-title"></p><p id="caveat"></p><p>These are model predictions. Alignment scores and processing speed are not accuracy measurements. Review segments below to build a human-checked evaluation.</p><p id="model-detail"></p><div class="run-stats" id="run-stats" aria-label="Run measurements"></div><a id="reference-link" target="_blank" rel="noopener noreferrer">Open supplied bilingual reference ↗</a></div></details>
+      </div>
+      <div class="reference-notice" id="reference-notice"><strong id="reference-notice-title"></strong><span id="reference-notice-copy"></span><button id="reference-details-button" type="button" class="text-button">Reference details ↗</button></div>
+      <div class="workspace" id="workspace">
+        <section class="listening-column" aria-label="Recording and predictions">
+          <div class="video-card">
+            <div class="panel-title"><span><span class="panel-index">01</span> THE RECORDING</span><span class="subtle" id="video-duration"></span></div>
+            <div id="video-slot" class="video-slot"><div class="video-wrap"><video id="video" controls preload="metadata" playsinline aria-label="Local recording of the Divine Liturgy"></video><p class="video-error" id="video-error" hidden>Local video is not available yet. The transcript and reference remain available to explore.</p></div></div>
+            <button id="floating-player-toggle" class="floating-player-toggle" type="button" hidden aria-controls="video" aria-expanded="true">Hide video ×</button>
+            <div class="subtitle-tray" id="subtitle-tray"><div class="subtitle-meta"><span class="tiny-label">MODEL TRANSCRIPT</span><span id="current-language" class="language-tag"></span><span id="subtitle-time" class="mono"></span></div><p id="current-subtitle">Select a tested section to begin.</p><div class="alignment-line"><span class="status-dot" id="alignment-dot"></span><span id="current-alignment">No prediction at this position</span><button id="review-current" class="text-button" type="button" hidden>Review segment ↗</button></div></div>
+          </div>
+          <section class="navigation-card" aria-labelledby="section-nav-title"><div class="section-heading"><h2 id="section-nav-title">Find your place</h2><span id="section-count" class="subtle"></span></div><p class="help-text">Jump to a suggested section match in this run.</p><div id="service-nav" class="service-nav"></div><div id="section-chips" class="section-chips"></div><div id="sample-windows" class="sample-windows" aria-label="Tested audio windows"></div><div class="coverage-track" id="coverage-track" role="group" aria-label="Transcription coverage of the recording" aria-describedby="coverage-label"></div><div class="coverage-legend"><span><i></i> Transcribed audio</span><span id="coverage-label"></span></div></section>
+          <section class="transcript-card" aria-labelledby="transcript-title"><div class="section-heading"><h2 id="transcript-title">The transcript</h2><span id="transcript-count" class="subtle"></span></div><label class="search-field"><span aria-hidden="true">⌕</span><input id="transcript-search" type="search" placeholder="Search what the model heard…" aria-label="Search transcript"><kbd>/</kbd></label><div class="transcript-list" id="transcript-list" tabindex="0" aria-label="Time-coded model transcript"></div></section>
+          <section class="review-card" id="review-panel" aria-labelledby="review-title"><div class="section-heading"><h2 id="review-title">Check a prediction</h2><a href="/api/reviews/export" class="text-button" download>Export reviews ↓</a></div><p class="help-text" id="review-empty">Choose a transcript segment to compare it with the reference and record your assessment.</p><form id="review-form" hidden><div class="review-target"><span class="mono" id="review-timestamp"></span><p id="review-text"></p><p id="review-match"></p></div><fieldset><legend>Does the predicted reference match the audio?</legend><div class="verdict-options"><label><input type="radio" name="verdict" value="matched" required> Correct match</label><label><input type="radio" name="verdict" value="incorrect"> Incorrect match</label><label><input type="radio" name="verdict" value="unknown"> Unsure</label></div></fieldset><label class="text-label" for="reference-transcript">What was actually said? <span>Optional, for speech recognition evaluation</span></label><textarea id="reference-transcript" rows="3" maxlength="12000" placeholder="Write the words you hear, preserving the language…"></textarea><div class="review-footer"><span id="review-status" role="status"></span><button class="primary-button" id="save-review" type="submit">Save review <span aria-hidden="true">→</span></button></div></form><details class="review-history" id="review-history" hidden><summary id="review-history-summary">Historical reviews</summary><p class="help-text">Kept for your records. These verdicts are not applied to the current prediction or its evaluation.</p><div id="review-history-list"></div></details></section>
+        </section>
+        <aside class="reference-card" aria-labelledby="reference-title"><div class="reference-header"><div class="panel-title"><span><span class="panel-index">02</span> THE SERVICE TEXT</span><span class="language-pair">EN / ΕΛ</span></div><div class="section-heading"><h2 id="reference-title">The Divine Liturgy</h2><label class="follow-switch"><input id="follow-toggle" type="checkbox" checked><span>Follow audio</span></label></div><p class="help-text">English and Greek, side by side with the recording.</p><div id="reference-sources" class="reference-sources"></div><label class="search-field"><span aria-hidden="true">⌕</span><input id="reference-search" type="search" placeholder="Find a prayer, hymn, or response…" aria-label="Search liturgy text"></label><label class="service-filter-label">Show <select id="service-filter" aria-label="Filter reference by service"><option value="">All services</option></select></label><div class="reference-state" id="reference-state" role="status">No predicted location at this position</div></div><div class="reference-list" id="reference-list" tabindex="0" aria-label="Bilingual liturgy reference"></div><div class="reference-footer"><span><i></i> Predicted location</span><span>Click timed text to seek</span></div></aside>
+      </div>
+      <footer class="page-footer"><span>LITURGY LAB <b>·</b> Offline evaluation workspace</span><span id="footer-status">Model output requires human review.</span></footer>
+    </div>
+  </main>
+</body>
+</html>

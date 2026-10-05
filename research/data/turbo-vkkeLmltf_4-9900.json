@@ -1,0 +1,299 @@
+{
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 9900,
+  "end": 9990.0,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 9906.16,
+      "end": 9912.36,
+      "text": "Praise Him in the heart.",
+      "temperature": 0.0,
+      "avg_logprob": -0.6141065514605978,
+      "compression_ratio": 1.2264150943396226,
+      "no_speech_prob": 2.2593680398808047e-11,
+      "words": [
+        {
+          "word": " Praise",
+          "start": 9906.16,
+          "end": 9907.08,
+          "probability": 0.5546875
+        },
+        {
+          "word": " Him",
+          "start": 9907.08,
+          "end": 9908.0,
+          "probability": 0.6201171875
+        },
+        {
+          "word": " in",
+          "start": 9908.0,
+          "end": 9909.66,
+          "probability": 0.767578125
+        },
+        {
+          "word": " the",
+          "start": 9909.66,
+          "end": 9910.82,
+          "probability": 0.955078125
+        },
+        {
+          "word": " heart.",
+          "start": 9910.82,
+          "end": 9912.36,
+          "probability": 0.83056640625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 9917.98,
+      "end": 9921.74,
+      "text": "Metaphobus, theopisteus, chegapis, prosentete",
+      "temperature": 0.0,
+      "avg_logprob": -0.6141065514605978,
+      "compression_ratio": 1.2264150943396226,
+      "no_speech_prob": 2.2593680398808047e-11,
+      "words": [
+        {
+          "word": " Metaphobus,",
+          "start": 9917.98,
+          "end": 9918.9,
+          "probability": 0.80712890625
+        },
+        {
+          "word": " theopisteus,",
+          "start": 9918.9,
+          "end": 9919.82,
+          "probability": 0.5927734375
+        },
+        {
+          "word": " chegapis,",
+          "start": 9919.9,
+          "end": 9920.74,
+          "probability": 0.55078125
+        },
+        {
+          "word": " prosentete",
+          "start": 9920.86,
+          "end": 9921.74,
+          "probability": 0.60595703125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 9921.74,
+      "end": 9926.78,
+      "text": "With the fear of God, with faith, and with love drawn ears.",
+      "temperature": 0.0,
+      "avg_logprob": -0.6141065514605978,
+      "compression_ratio": 1.2264150943396226,
+      "no_speech_prob": 2.2593680398808047e-11,
+      "words": [
+        {
+          "word": " With",
+          "start": 9921.74,
+          "end": 9923.0,
+          "probability": 0.12445068359375
+        },
+        {
+          "word": " the",
+          "start": 9923.0,
+          "end": 9923.26,
+          "probability": 0.998046875
+        },
+        {
+          "word": " fear",
+          "start": 9923.26,
+          "end": 9923.72,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " of",
+          "start": 9923.72,
+          "end": 9923.96,
+          "probability": 1.0
+        },
+        {
+          "word": " God,",
+          "start": 9923.96,
+          "end": 9924.28,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " with",
+          "start": 9924.44,
+          "end": 9924.56,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " faith,",
+          "start": 9924.56,
+          "end": 9924.9,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " and",
+          "start": 9924.9,
+          "end": 9925.14,
+          "probability": 0.998046875
+        },
+        {
+          "word": " with",
+          "start": 9925.14,
+          "end": 9925.3,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " love",
+          "start": 9925.3,
+          "end": 9925.76,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " drawn",
+          "start": 9925.76,
+          "end": 9926.12,
+          "probability": 0.7509765625
+        },
+        {
+          "word": " ears.",
+          "start": 9926.12,
+          "end": 9926.78,
+          "probability": 0.4765625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 9938.5,
+      "end": 9940.1,
+      "text": "Thank you.",
+      "temperature": 0.0,
+      "avg_logprob": -0.8235929807027181,
+      "compression_ratio": 0.5555555555555556,
+      "no_speech_prob": 3.2846800279706656e-10,
+      "words": [
+        {
+          "word": " Thank",
+          "start": 9938.5,
+          "end": 9939.9,
+          "probability": 0.135498046875
+        },
+        {
+          "word": " you.",
+          "start": 9939.9,
+          "end": 9940.1,
+          "probability": 0.99462890625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 9960.0,
+      "end": 9972.2,
+      "text": "The Lord is the Son of God.",
+      "temperature": 0.0,
+      "avg_logprob": -1.3492721210826526,
+      "compression_ratio": 0.8181818181818182,
+      "no_speech_prob": 5.831560234703659e-10,
+      "words": [
+        {
+          "word": " The",
+          "start": 9960.0,
+          "end": 9961.1,
+          "probability": 0.0299072265625
+        },
+        {
+          "word": " Lord",
+          "start": 9961.1,
+          "end": 9963.28,
+          "probability": 0.128662109375
+        },
+        {
+          "word": " is",
+          "start": 9963.28,
+          "end": 9967.38,
+          "probability": 0.1585693359375
+        },
+        {
+          "word": " the",
+          "start": 9967.38,
+          "end": 9967.66,
+          "probability": 0.0677490234375
+        },
+        {
+          "word": " Son",
+          "start": 9967.66,
+          "end": 9967.66,
+          "probability": 0.218994140625
+        },
+        {
+          "word": " of",
+          "start": 9967.66,
+          "end": 9968.3,
+          "probability": 0.57470703125
+        },
+        {
+          "word": " God.",
+          "start": 9968.3,
+          "end": 9972.2,
+          "probability": 0.451416015625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 9900.0,
+      "end": 9930.0,
+      "language": "en",
+      "seconds": 1.2665942911989987
+    },
+    {
+      "start": 9930.0,
+      "end": 9960.0,
+      "language": "en",
+      "seconds": 1.2042045420967042
+    },
+    {
+      "start": 9960.0,
+      "end": 9990.0,
+      "language": "en",
+      "seconds": 1.2713750840630382
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 90.0,
+    "inference_seconds": 3.744018916040659,
+    "decode_seconds": 0.07381904101930559,
+    "real_time_factor": 0.04160021017822954,
+    "speedup": 24.03834008808267,
+    "peak_memory_gb": 2.210343558,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ]
+}

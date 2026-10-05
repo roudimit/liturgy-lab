@@ -1,0 +1,1520 @@
+{
+  "model": "mlx-community/whisper-small-mlx",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 5430,
+  "end": 5520.0,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 5431.04,
+      "end": 5437.74,
+      "text": "Όπως υπο το κράτου σου πάντοτε φιλαθόμενης είδω ξανά να πέμπομεν,",
+      "temperature": 0.0,
+      "avg_logprob": -0.6966856631486775,
+      "compression_ratio": 2.024390243902439,
+      "no_speech_prob": 0.3966924548149109,
+      "words": [
+        {
+          "word": " Όπως",
+          "start": 5431.04,
+          "end": 5431.66,
+          "probability": 0.467529296875
+        },
+        {
+          "word": " υπο",
+          "start": 5431.66,
+          "end": 5431.98,
+          "probability": 0.5234375
+        },
+        {
+          "word": " το",
+          "start": 5431.98,
+          "end": 5432.2,
+          "probability": 0.32373046875
+        },
+        {
+          "word": " κράτου",
+          "start": 5432.2,
+          "end": 5432.82,
+          "probability": 0.7060546875
+        },
+        {
+          "word": " σου",
+          "start": 5432.82,
+          "end": 5433.02,
+          "probability": 0.806640625
+        },
+        {
+          "word": " πάντοτε",
+          "start": 5433.02,
+          "end": 5433.92,
+          "probability": 0.8603515625
+        },
+        {
+          "word": " φιλαθόμενης",
+          "start": 5433.92,
+          "end": 5435.1,
+          "probability": 0.84326171875
+        },
+        {
+          "word": " είδω",
+          "start": 5435.1,
+          "end": 5435.5,
+          "probability": 0.63818359375
+        },
+        {
+          "word": " ξανά",
+          "start": 5435.5,
+          "end": 5436.0,
+          "probability": 0.56201171875
+        },
+        {
+          "word": " να",
+          "start": 5436.0,
+          "end": 5436.18,
+          "probability": 0.5166015625
+        },
+        {
+          "word": " πέμπομεν,",
+          "start": 5436.18,
+          "end": 5437.74,
+          "probability": 0.64306640625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 5437.98,
+      "end": 5444.82,
+      "text": "το πατρί και το Ιων και το Άγιο Πνεύμα την είναι και αίκαις του Σεώνα στον Εώνο.",
+      "temperature": 0.0,
+      "avg_logprob": -0.6966856631486775,
+      "compression_ratio": 2.024390243902439,
+      "no_speech_prob": 0.3966924548149109,
+      "words": [
+        {
+          "word": " το",
+          "start": 5437.98,
+          "end": 5438.14,
+          "probability": 0.88818359375
+        },
+        {
+          "word": " πατρί",
+          "start": 5438.14,
+          "end": 5438.64,
+          "probability": 0.7470703125
+        },
+        {
+          "word": " και",
+          "start": 5438.64,
+          "end": 5438.88,
+          "probability": 0.90966796875
+        },
+        {
+          "word": " το",
+          "start": 5438.88,
+          "end": 5439.08,
+          "probability": 0.99072265625
+        },
+        {
+          "word": " Ιων",
+          "start": 5439.08,
+          "end": 5439.52,
+          "probability": 0.51025390625
+        },
+        {
+          "word": " και",
+          "start": 5439.52,
+          "end": 5439.64,
+          "probability": 0.9521484375
+        },
+        {
+          "word": " το",
+          "start": 5439.64,
+          "end": 5439.86,
+          "probability": 0.98583984375
+        },
+        {
+          "word": " Άγιο",
+          "start": 5439.86,
+          "end": 5440.34,
+          "probability": 0.79296875
+        },
+        {
+          "word": " Πνεύμα",
+          "start": 5440.34,
+          "end": 5441.06,
+          "probability": 0.8115234375
+        },
+        {
+          "word": " την",
+          "start": 5441.06,
+          "end": 5441.3,
+          "probability": 0.387939453125
+        },
+        {
+          "word": " είναι",
+          "start": 5441.3,
+          "end": 5441.54,
+          "probability": 0.41015625
+        },
+        {
+          "word": " και",
+          "start": 5441.54,
+          "end": 5441.84,
+          "probability": 0.9111328125
+        },
+        {
+          "word": " αίκαις",
+          "start": 5441.84,
+          "end": 5442.82,
+          "probability": 0.65283203125
+        },
+        {
+          "word": " του",
+          "start": 5442.82,
+          "end": 5442.96,
+          "probability": 0.736328125
+        },
+        {
+          "word": " Σεώνα",
+          "start": 5442.96,
+          "end": 5443.66,
+          "probability": 0.6484375
+        },
+        {
+          "word": " στον",
+          "start": 5443.66,
+          "end": 5444.12,
+          "probability": 0.73779296875
+        },
+        {
+          "word": " Εώνο.",
+          "start": 5444.12,
+          "end": 5444.82,
+          "probability": 0.6376953125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 5449.02,
+      "end": 5453.68,
+      "text": "Με δυστάξους, σε θεωμέντους στους αίσες, εγώ τους προσπαθήσεις, τους σωμαίτες.",
+      "temperature": 0.0,
+      "avg_logprob": -0.6966856631486775,
+      "compression_ratio": 2.024390243902439,
+      "no_speech_prob": 0.3966924548149109,
+      "words": [
+        {
+          "word": " Με",
+          "start": 5449.02,
+          "end": 5449.64,
+          "probability": 0.2008056640625
+        },
+        {
+          "word": " δυστάξους,",
+          "start": 5449.64,
+          "end": 5450.16,
+          "probability": 0.60205078125
+        },
+        {
+          "word": " σε",
+          "start": 5450.34,
+          "end": 5450.54,
+          "probability": 0.24609375
+        },
+        {
+          "word": " θεωμέντους",
+          "start": 5450.54,
+          "end": 5450.94,
+          "probability": 0.57177734375
+        },
+        {
+          "word": " στους",
+          "start": 5450.94,
+          "end": 5451.1,
+          "probability": 0.27197265625
+        },
+        {
+          "word": " αίσες,",
+          "start": 5451.1,
+          "end": 5451.28,
+          "probability": 0.261962890625
+        },
+        {
+          "word": " εγώ",
+          "start": 5451.48,
+          "end": 5452.08,
+          "probability": 0.438232421875
+        },
+        {
+          "word": " τους",
+          "start": 5452.08,
+          "end": 5452.26,
+          "probability": 0.0828857421875
+        },
+        {
+          "word": " προσπαθήσεις,",
+          "start": 5452.26,
+          "end": 5452.64,
+          "probability": 0.63330078125
+        },
+        {
+          "word": " τους",
+          "start": 5452.88,
+          "end": 5453.06,
+          "probability": 0.64697265625
+        },
+        {
+          "word": " σωμαίτες.",
+          "start": 5453.06,
+          "end": 5453.68,
+          "probability": 0.51953125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 5454.36,
+      "end": 5458.7,
+      "text": "Μας είναι εύτις δόξους των κανείδια, κονείς ενεροκέφυγερών και αυτές τους κονείς δυναμισμένες.",
+      "temperature": 0.0,
+      "avg_logprob": -0.6966856631486775,
+      "compression_ratio": 2.024390243902439,
+      "no_speech_prob": 0.3966924548149109,
+      "words": [
+        {
+          "word": " Μας",
+          "start": 5454.36,
+          "end": 5454.64,
+          "probability": 0.89599609375
+        },
+        {
+          "word": " είναι",
+          "start": 5454.64,
+          "end": 5454.8,
+          "probability": 0.1976318359375
+        },
+        {
+          "word": " εύτις",
+          "start": 5454.8,
+          "end": 5455.22,
+          "probability": 0.470947265625
+        },
+        {
+          "word": " δόξους",
+          "start": 5455.22,
+          "end": 5455.5,
+          "probability": 0.66748046875
+        },
+        {
+          "word": " των",
+          "start": 5455.5,
+          "end": 5455.64,
+          "probability": 0.236572265625
+        },
+        {
+          "word": " κανείδια,",
+          "start": 5455.64,
+          "end": 5455.96,
+          "probability": 0.7646484375
+        },
+        {
+          "word": " κονείς",
+          "start": 5456.06,
+          "end": 5456.32,
+          "probability": 0.7373046875
+        },
+        {
+          "word": " ενεροκέφυγερών",
+          "start": 5456.32,
+          "end": 5457.22,
+          "probability": 0.371826171875
+        },
+        {
+          "word": " και",
+          "start": 5457.22,
+          "end": 5457.36,
+          "probability": 0.82177734375
+        },
+        {
+          "word": " αυτές",
+          "start": 5457.36,
+          "end": 5457.62,
+          "probability": 0.97021484375
+        },
+        {
+          "word": " τους",
+          "start": 5457.62,
+          "end": 5457.8,
+          "probability": 0.1474609375
+        },
+        {
+          "word": " κονείς",
+          "start": 5457.8,
+          "end": 5458.22,
+          "probability": 0.755859375
+        },
+        {
+          "word": " δυναμισμένες.",
+          "start": 5458.22,
+          "end": 5458.7,
+          "probability": 0.52734375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 4,
+      "seek": 2870,
+      "start": 5459.72,
+      "end": 5459.98,
+      "text": "Βγωρφή, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι, κομμάτι",
+      "temperature": 0.0,
+      "avg_logprob": -0.20838609483506945,
+      "compression_ratio": 14.0,
+      "no_speech_prob": 0.6335856318473816,
+      "words": [
+        {
+          "word": " Βγωρφή,",
+          "start": 5459.72,
+          "end": 5459.8,
+          "probability": 0.1337890625
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.8,
+          "end": 5459.84,
+          "probability": 0.3095703125
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.84,
+          "end": 5459.92,
+          "probability": 0.6474609375
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.92,
+          "end": 5459.94,
+          "probability": 0.89501953125
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.94,
+          "end": 5459.98,
+          "probability": 0.9521484375
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.9638671875
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.9697265625
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.97216796875
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.9736328125
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.97509765625
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.97607421875
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.9765625
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.97705078125
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.97705078125
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.978515625
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.97802734375
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.97900390625
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.9794921875
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.97998046875
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.97998046875
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.97998046875
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.9794921875
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.9794921875
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.97998046875
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.97998046875
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.98046875
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.98095703125
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.98046875
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.98095703125
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.98095703125
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.9814453125
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.98193359375
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.98193359375
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.9814453125
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.9814453125
+        },
+        {
+          "word": " κομμάτι,",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.98046875
+        },
+        {
+          "word": " κομμάτι",
+          "start": 5459.98,
+          "end": 5459.98,
+          "probability": 0.97998046875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 5461.44,
+      "end": 5476.46,
+      "text": "και να σκέψουμε πάνω από το σπίτι,",
+      "temperature": 0.0,
+      "avg_logprob": -0.2006319851345486,
+      "compression_ratio": 9.68421052631579,
+      "no_speech_prob": 0.8695286512374878,
+      "words": [
+        {
+          "word": " και",
+          "start": 5461.44,
+          "end": 5462.4,
+          "probability": 0.0215301513671875
+        },
+        {
+          "word": " να",
+          "start": 5462.4,
+          "end": 5463.28,
+          "probability": 0.1649169921875
+        },
+        {
+          "word": " σκέψουμε",
+          "start": 5463.28,
+          "end": 5464.08,
+          "probability": 0.249267578125
+        },
+        {
+          "word": " πάνω",
+          "start": 5464.08,
+          "end": 5464.56,
+          "probability": 0.306884765625
+        },
+        {
+          "word": " από",
+          "start": 5464.56,
+          "end": 5468.02,
+          "probability": 0.0936279296875
+        },
+        {
+          "word": " το",
+          "start": 5468.02,
+          "end": 5476.2,
+          "probability": 0.1710205078125
+        },
+        {
+          "word": " σπίτι,",
+          "start": 5476.2,
+          "end": 5476.46,
+          "probability": 0.457763671875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 5479.54,
+      "end": 5483.56,
+      "text": "και να σκέψουμε πάνω από το σπίτι,",
+      "temperature": 0.0,
+      "avg_logprob": -0.2006319851345486,
+      "compression_ratio": 9.68421052631579,
+      "no_speech_prob": 0.8695286512374878,
+      "words": [
+        {
+          "word": " και",
+          "start": 5479.54,
+          "end": 5480.5,
+          "probability": 0.097412109375
+        },
+        {
+          "word": " να",
+          "start": 5480.5,
+          "end": 5481.46,
+          "probability": 0.361328125
+        },
+        {
+          "word": " σκέψουμε",
+          "start": 5481.46,
+          "end": 5482.2,
+          "probability": 0.73779296875
+        },
+        {
+          "word": " πάνω",
+          "start": 5482.2,
+          "end": 5483.56,
+          "probability": 0.7529296875
+        },
+        {
+          "word": " από",
+          "start": 5483.56,
+          "end": 5483.56,
+          "probability": 0.8935546875
+        },
+        {
+          "word": " το",
+          "start": 5483.56,
+          "end": 5483.56,
+          "probability": 0.79248046875
+        },
+        {
+          "word": " σπίτι,",
+          "start": 5483.56,
+          "end": 5483.56,
+          "probability": 0.8974609375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 5484.1,
+      "end": 5484.54,
+      "text": "και να σκέψουμε πάνω από το σπίτι,",
+      "temperature": 0.0,
+      "avg_logprob": -0.2006319851345486,
+      "compression_ratio": 9.68421052631579,
+      "no_speech_prob": 0.8695286512374878,
+      "words": [
+        {
+          "word": " και",
+          "start": 5484.1,
+          "end": 5484.24,
+          "probability": 0.88525390625
+        },
+        {
+          "word": " να",
+          "start": 5484.24,
+          "end": 5484.54,
+          "probability": 0.93505859375
+        },
+        {
+          "word": " σκέψουμε",
+          "start": 5484.54,
+          "end": 5484.54,
+          "probability": 0.98681640625
+        },
+        {
+          "word": " πάνω",
+          "start": 5484.54,
+          "end": 5484.54,
+          "probability": 0.986328125
+        },
+        {
+          "word": " από",
+          "start": 5484.54,
+          "end": 5484.54,
+          "probability": 0.990234375
+        },
+        {
+          "word": " το",
+          "start": 5484.54,
+          "end": 5484.54,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " σπίτι,",
+          "start": 5484.54,
+          "end": 5484.54,
+          "probability": 0.994140625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 5484.54,
+      "end": 5484.86,
+      "text": "και να σκέψουμε πάνω από το σπίτι,",
+      "temperature": 0.0,
+      "avg_logprob": -0.2006319851345486,
+      "compression_ratio": 9.68421052631579,
+      "no_speech_prob": 0.8695286512374878,
+      "words": [
+        {
+          "word": " και",
+          "start": 5484.54,
+          "end": 5484.54,
+          "probability": 0.93505859375
+        },
+        {
+          "word": " να",
+          "start": 5484.54,
+          "end": 5484.56,
+          "probability": 0.94189453125
+        },
+        {
+          "word": " σκέψουμε",
+          "start": 5484.56,
+          "end": 5484.56,
+          "probability": 0.99072265625
+        },
+        {
+          "word": " πάνω",
+          "start": 5484.56,
+          "end": 5484.86,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " από",
+          "start": 5484.86,
+          "end": 5484.86,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " το",
+          "start": 5484.86,
+          "end": 5484.86,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " σπίτι,",
+          "start": 5484.86,
+          "end": 5484.86,
+          "probability": 0.9970703125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 5484.86,
+      "end": 5486.48,
+      "text": "και να σκέψουμε πάνω από το σπίτι,",
+      "temperature": 0.0,
+      "avg_logprob": -0.2006319851345486,
+      "compression_ratio": 9.68421052631579,
+      "no_speech_prob": 0.8695286512374878,
+      "words": [
+        {
+          "word": " και",
+          "start": 5484.86,
+          "end": 5485.06,
+          "probability": 0.9384765625
+        },
+        {
+          "word": " να",
+          "start": 5485.06,
+          "end": 5485.26,
+          "probability": 0.939453125
+        },
+        {
+          "word": " σκέψουμε",
+          "start": 5485.26,
+          "end": 5485.34,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " πάνω",
+          "start": 5485.34,
+          "end": 5486.48,
+          "probability": 0.9921875
+        },
+        {
+          "word": " από",
+          "start": 5486.48,
+          "end": 5486.48,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " το",
+          "start": 5486.48,
+          "end": 5486.48,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " σπίτι,",
+          "start": 5486.48,
+          "end": 5486.48,
+          "probability": 0.99658203125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 10,
+      "seek": 0,
+      "start": 5490.0,
+      "end": 5492.86,
+      "text": "και δεύτερ πέσχευγεί στο άδυνο και αγαπημένου σύμμετοι κοιμνού,",
+      "temperature": 0.0,
+      "avg_logprob": -0.7043587239583333,
+      "compression_ratio": 2.1561461794019934,
+      "no_speech_prob": 0.885873556137085,
+      "words": [
+        {
+          "word": " και",
+          "start": 5490.0,
+          "end": 5490.08,
+          "probability": 0.0428466796875
+        },
+        {
+          "word": " δεύτερ",
+          "start": 5490.08,
+          "end": 5490.24,
+          "probability": 0.3935546875
+        },
+        {
+          "word": " πέσχευγεί",
+          "start": 5490.24,
+          "end": 5490.92,
+          "probability": 0.44775390625
+        },
+        {
+          "word": " στο",
+          "start": 5490.92,
+          "end": 5491.14,
+          "probability": 0.802734375
+        },
+        {
+          "word": " άδυνο",
+          "start": 5491.14,
+          "end": 5491.36,
+          "probability": 0.5341796875
+        },
+        {
+          "word": " και",
+          "start": 5491.36,
+          "end": 5491.56,
+          "probability": 0.384521484375
+        },
+        {
+          "word": " αγαπημένου",
+          "start": 5491.56,
+          "end": 5491.9,
+          "probability": 0.560546875
+        },
+        {
+          "word": " σύμμετοι",
+          "start": 5491.9,
+          "end": 5492.44,
+          "probability": 0.3759765625
+        },
+        {
+          "word": " κοιμνού,",
+          "start": 5492.44,
+          "end": 5492.86,
+          "probability": 0.4794921875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 11,
+      "seek": 0,
+      "start": 5493.4,
+      "end": 5495.88,
+      "text": "σύγχαρ προσέ αρχούν με κλίναστος, με αυθάκια,",
+      "temperature": 0.0,
+      "avg_logprob": -0.7043587239583333,
+      "compression_ratio": 2.1561461794019934,
+      "no_speech_prob": 0.885873556137085,
+      "words": [
+        {
+          "word": " σύγχαρ",
+          "start": 5493.4,
+          "end": 5493.72,
+          "probability": 0.72900390625
+        },
+        {
+          "word": " προσέ",
+          "start": 5493.72,
+          "end": 5494.14,
+          "probability": 0.71484375
+        },
+        {
+          "word": " αρχούν",
+          "start": 5494.14,
+          "end": 5494.5,
+          "probability": 0.70654296875
+        },
+        {
+          "word": " με",
+          "start": 5494.5,
+          "end": 5494.62,
+          "probability": 0.314208984375
+        },
+        {
+          "word": " κλίναστος,",
+          "start": 5494.62,
+          "end": 5495.2,
+          "probability": 0.72705078125
+        },
+        {
+          "word": " με",
+          "start": 5495.32,
+          "end": 5495.38,
+          "probability": 0.111328125
+        },
+        {
+          "word": " αυθάκια,",
+          "start": 5495.38,
+          "end": 5495.88,
+          "probability": 0.42138671875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 12,
+      "seek": 0,
+      "start": 5496.52,
+      "end": 5499.64,
+      "text": "για να μην έσυνε αποσφέρει το πρόσωπο άσυνο, άπευό,",
+      "temperature": 0.0,
+      "avg_logprob": -0.7043587239583333,
+      "compression_ratio": 2.1561461794019934,
+      "no_speech_prob": 0.885873556137085,
+      "words": [
+        {
+          "word": " για",
+          "start": 5496.52,
+          "end": 5496.68,
+          "probability": 0.11761474609375
+        },
+        {
+          "word": " να",
+          "start": 5496.68,
+          "end": 5496.84,
+          "probability": 0.340576171875
+        },
+        {
+          "word": " μην",
+          "start": 5496.84,
+          "end": 5496.86,
+          "probability": 0.18505859375
+        },
+        {
+          "word": " έσυνε",
+          "start": 5496.86,
+          "end": 5497.14,
+          "probability": 0.371826171875
+        },
+        {
+          "word": " αποσφέρει",
+          "start": 5497.14,
+          "end": 5497.52,
+          "probability": 0.293701171875
+        },
+        {
+          "word": " το",
+          "start": 5497.52,
+          "end": 5497.76,
+          "probability": 0.11529541015625
+        },
+        {
+          "word": " πρόσωπο",
+          "start": 5497.76,
+          "end": 5498.3,
+          "probability": 0.56787109375
+        },
+        {
+          "word": " άσυνο,",
+          "start": 5498.3,
+          "end": 5499.12,
+          "probability": 0.305419921875
+        },
+        {
+          "word": " άπευό,",
+          "start": 5499.12,
+          "end": 5499.64,
+          "probability": 0.435302734375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 13,
+      "seek": 0,
+      "start": 5500.94,
+      "end": 5502.86,
+      "text": "μη δεύτερ αποδοχειμάς με εκπαίδοντος,",
+      "temperature": 0.0,
+      "avg_logprob": -0.7043587239583333,
+      "compression_ratio": 2.1561461794019934,
+      "no_speech_prob": 0.885873556137085,
+      "words": [
+        {
+          "word": " μη",
+          "start": 5500.94,
+          "end": 5501.42,
+          "probability": 0.42919921875
+        },
+        {
+          "word": " δεύτερ",
+          "start": 5501.42,
+          "end": 5501.6,
+          "probability": 0.59033203125
+        },
+        {
+          "word": " αποδοχειμάς",
+          "start": 5501.6,
+          "end": 5502.22,
+          "probability": 0.6884765625
+        },
+        {
+          "word": " με",
+          "start": 5502.22,
+          "end": 5502.36,
+          "probability": 0.7841796875
+        },
+        {
+          "word": " εκπαίδοντος,",
+          "start": 5502.36,
+          "end": 5502.86,
+          "probability": 0.59619140625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 14,
+      "seek": 0,
+      "start": 5502.94,
+      "end": 5505.0,
+      "text": "όλα αξίως όν προσεδοχή είναι σύμπωτο, με αντιλοκοτήνο,",
+      "temperature": 0.0,
+      "avg_logprob": -0.7043587239583333,
+      "compression_ratio": 2.1561461794019934,
+      "no_speech_prob": 0.885873556137085,
+      "words": [
+        {
+          "word": " όλα",
+          "start": 5502.94,
+          "end": 5503.04,
+          "probability": 0.5595703125
+        },
+        {
+          "word": " αξίως",
+          "start": 5503.04,
+          "end": 5503.38,
+          "probability": 0.63720703125
+        },
+        {
+          "word": " όν",
+          "start": 5503.38,
+          "end": 5503.56,
+          "probability": 0.290283203125
+        },
+        {
+          "word": " προσεδοχή",
+          "start": 5503.56,
+          "end": 5504.14,
+          "probability": 0.576171875
+        },
+        {
+          "word": " είναι",
+          "start": 5504.14,
+          "end": 5504.26,
+          "probability": 0.430908203125
+        },
+        {
+          "word": " σύμπωτο,",
+          "start": 5504.26,
+          "end": 5504.84,
+          "probability": 0.54833984375
+        },
+        {
+          "word": " με",
+          "start": 5504.9,
+          "end": 5504.96,
+          "probability": 0.556640625
+        },
+        {
+          "word": " αντιλοκοτήνο,",
+          "start": 5504.96,
+          "end": 5505.2,
+          "probability": 0.47998046875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 15,
+      "seek": 0,
+      "start": 5505.82,
+      "end": 5508.76,
+      "text": "εξήνωση, δεδορατά αυτές, σύγχαρη ο προσφέρει ο προσφερόμονος",
+      "temperature": 0.0,
+      "avg_logprob": -0.7043587239583333,
+      "compression_ratio": 2.1561461794019934,
+      "no_speech_prob": 0.885873556137085,
+      "words": [
+        {
+          "word": " εξήνωση,",
+          "start": 5505.82,
+          "end": 5506.3,
+          "probability": 0.46484375
+        },
+        {
+          "word": " δεδορατά",
+          "start": 5506.3,
+          "end": 5506.78,
+          "probability": 0.560546875
+        },
+        {
+          "word": " αυτές,",
+          "start": 5506.78,
+          "end": 5507.0,
+          "probability": 0.44677734375
+        },
+        {
+          "word": " σύγχαρη",
+          "start": 5507.08,
+          "end": 5507.3,
+          "probability": 0.88671875
+        },
+        {
+          "word": " ο",
+          "start": 5507.3,
+          "end": 5507.44,
+          "probability": 0.5185546875
+        },
+        {
+          "word": " προσφέρει",
+          "start": 5507.44,
+          "end": 5507.84,
+          "probability": 0.720703125
+        },
+        {
+          "word": " ο",
+          "start": 5507.84,
+          "end": 5507.9,
+          "probability": 0.54931640625
+        },
+        {
+          "word": " προσφερόμονος",
+          "start": 5507.9,
+          "end": 5508.76,
+          "probability": 0.810546875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 16,
+      "seek": 1876,
+      "start": 5508.76,
+      "end": 5513.64,
+      "text": "και προσδεχόμενας και διαδηλόμενος χρησιμοποιώσημων και σύνδοξαναν πέμπες,",
+      "temperature": 0.0,
+      "avg_logprob": -0.7772337736906829,
+      "compression_ratio": 1.9322916666666667,
+      "no_speech_prob": 0.6803415417671204,
+      "words": [
+        {
+          "word": " και",
+          "start": 5508.76,
+          "end": 5508.88,
+          "probability": 0.2822265625
+        },
+        {
+          "word": " προσδεχόμενας",
+          "start": 5508.88,
+          "end": 5510.04,
+          "probability": 0.708984375
+        },
+        {
+          "word": " και",
+          "start": 5510.04,
+          "end": 5510.18,
+          "probability": 0.826171875
+        },
+        {
+          "word": " διαδηλόμενος",
+          "start": 5510.18,
+          "end": 5511.0,
+          "probability": 0.6748046875
+        },
+        {
+          "word": " χρησιμοποιώσημων",
+          "start": 5511.0,
+          "end": 5511.98,
+          "probability": 0.5615234375
+        },
+        {
+          "word": " και",
+          "start": 5511.98,
+          "end": 5512.52,
+          "probability": 0.7314453125
+        },
+        {
+          "word": " σύνδοξαναν",
+          "start": 5512.52,
+          "end": 5513.3,
+          "probability": 0.68212890625
+        },
+        {
+          "word": " πέμπες,",
+          "start": 5513.3,
+          "end": 5513.64,
+          "probability": 0.5302734375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 17,
+      "seek": 1876,
+      "start": 5513.76,
+      "end": 5516.6,
+      "text": "ήταν όπως Πατρική Δοπορία και Ζαπίδια Συμπλέον,",
+      "temperature": 0.0,
+      "avg_logprob": -0.7772337736906829,
+      "compression_ratio": 1.9322916666666667,
+      "no_speech_prob": 0.6803415417671204,
+      "words": [
+        {
+          "word": " ήταν",
+          "start": 5513.76,
+          "end": 5513.92,
+          "probability": 0.131591796875
+        },
+        {
+          "word": " όπως",
+          "start": 5513.92,
+          "end": 5514.14,
+          "probability": 0.275146484375
+        },
+        {
+          "word": " Πατρική",
+          "start": 5514.14,
+          "end": 5514.56,
+          "probability": 0.80029296875
+        },
+        {
+          "word": " Δοπορία",
+          "start": 5514.56,
+          "end": 5514.96,
+          "probability": 0.38330078125
+        },
+        {
+          "word": " και",
+          "start": 5514.96,
+          "end": 5515.2,
+          "probability": 0.80615234375
+        },
+        {
+          "word": " Ζαπίδια",
+          "start": 5515.2,
+          "end": 5515.8,
+          "probability": 0.350341796875
+        },
+        {
+          "word": " Συμπλέον,",
+          "start": 5515.8,
+          "end": 5516.6,
+          "probability": 0.3212890625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 18,
+      "seek": 1876,
+      "start": 5516.66,
+      "end": 5517.6,
+      "text": "και Ζαπίδια Συμπλέον,",
+      "temperature": 0.0,
+      "avg_logprob": -0.7772337736906829,
+      "compression_ratio": 1.9322916666666667,
+      "no_speech_prob": 0.6803415417671204,
+      "words": [
+        {
+          "word": " και",
+          "start": 5516.66,
+          "end": 5516.94,
+          "probability": 0.11016845703125
+        },
+        {
+          "word": " Ζαπίδια",
+          "start": 5516.94,
+          "end": 5517.48,
+          "probability": 0.705078125
+        },
+        {
+          "word": " Συμπλέον,",
+          "start": 5517.48,
+          "end": 5517.6,
+          "probability": 0.75146484375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 19,
+      "seek": 1876,
+      "start": 5517.6,
+      "end": 5519.98,
+      "text": "και σύμπλεον αστραγμήν ο Θελμός Κυρμός Κυρμός Ζαπίδιας.",
+      "temperature": 0.0,
+      "avg_logprob": -0.7772337736906829,
+      "compression_ratio": 1.9322916666666667,
+      "no_speech_prob": 0.6803415417671204,
+      "words": [
+        {
+          "word": " και",
+          "start": 5517.6,
+          "end": 5517.6,
+          "probability": 0.2447509765625
+        },
+        {
+          "word": " σύμπλεον",
+          "start": 5517.6,
+          "end": 5517.6,
+          "probability": 0.5322265625
+        },
+        {
+          "word": " αστραγμήν",
+          "start": 5517.6,
+          "end": 5518.18,
+          "probability": 0.337890625
+        },
+        {
+          "word": " ο",
+          "start": 5518.18,
+          "end": 5518.24,
+          "probability": 0.162353515625
+        },
+        {
+          "word": " Θελμός",
+          "start": 5518.24,
+          "end": 5518.56,
+          "probability": 0.40625
+        },
+        {
+          "word": " Κυρμός",
+          "start": 5518.56,
+          "end": 5519.06,
+          "probability": 0.39013671875
+        },
+        {
+          "word": " Κυρμός",
+          "start": 5519.06,
+          "end": 5519.7,
+          "probability": 0.7841796875
+        },
+        {
+          "word": " Ζαπίδιας.",
+          "start": 5519.7,
+          "end": 5519.98,
+          "probability": 0.69775390625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 5430.0,
+      "end": 5460.0,
+      "language": "el",
+      "seconds": 3.298147040884942
+    },
+    {
+      "start": 5460.0,
+      "end": 5490.0,
+      "language": "el",
+      "seconds": 1.6305662079248577
+    },
+    {
+      "start": 5490.0,
+      "end": 5520.0,
+      "language": "el",
+      "seconds": 2.047725041862577
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 90.0,
+    "inference_seconds": 6.980597041081637,
+    "decode_seconds": 0.06482766685076058,
+    "real_time_factor": 0.07756218934535153,
+    "speedup": 12.892880003005384,
+    "peak_memory_gb": 1.229558694,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ]
+}

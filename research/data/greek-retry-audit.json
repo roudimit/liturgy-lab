@@ -1,0 +1,593 @@
+{
+  "reference_id": "ref-e5432ce2789f102a2c0b",
+  "experiment": "Two supplemental 30-second retries with language forced to Greek, compared with exactly corresponding automatic-language chunks.",
+  "cases": [
+    {
+      "start": 1950,
+      "end": 1980,
+      "auto_comparators": {
+        "small": {
+          "detected_language": "el",
+          "segments": [
+            {
+              "id": 29,
+              "start": 1950.0,
+              "end": 1966.76,
+              "text": "Του νδεσίον εσχύθητε από του Κυρίου,",
+              "language": "el"
+            },
+            {
+              "id": 30,
+              "start": 1966.76,
+              "end": 1973.48,
+              "text": "ως χόρτος γαρπήρι.",
+              "language": "el"
+            },
+            {
+              "id": 31,
+              "start": 1973.82,
+              "end": 1979.98,
+              "text": "Εσ' εσ' θε, αμπέ...",
+              "language": "el"
+            }
+          ]
+        },
+        "turbo": {
+          "detected_language": "el",
+          "segments": [
+            {
+              "id": 22,
+              "start": 1953.28,
+              "end": 1966.46,
+              "text": "Κούντες Ιόνες κύνθητε από του Κυρίου",
+              "language": "el"
+            },
+            {
+              "id": 23,
+              "start": 1966.46,
+              "end": 1971.98,
+              "text": "ως χόρτος γαρπύρι.",
+              "language": "el"
+            },
+            {
+              "id": 24,
+              "start": 1977.6,
+              "end": 1979.98,
+              "text": "Υπότιτλοι AUTHORWAVE",
+              "language": "el"
+            }
+          ]
+        },
+        "large-v3": {
+          "detected_language": "la",
+          "segments": [
+            {
+              "id": 18,
+              "start": 1950.0,
+              "end": 1962.46,
+              "text": "Suntes ion eschinti te apoi tu,",
+              "language": "la"
+            },
+            {
+              "id": 19,
+              "start": 1964.58,
+              "end": 1978.52,
+              "text": "Suciriu, os hortos garpiri, es est e aperit.",
+              "language": "la"
+            }
+          ]
+        }
+      },
+      "forced_greek": {
+        "source_file": "data/large-v3-greek-retry-1950.json",
+        "model": "mlx-community/whisper-large-v3-mlx",
+        "language_mode": "el",
+        "metrics": {
+          "audio_seconds": 30.0,
+          "inference_seconds": 4.592141208937392,
+          "decode_seconds": 0.06526758312247694,
+          "real_time_factor": 0.1530713736312464,
+          "speedup": 6.532900151592227,
+          "peak_memory_gb": 3.659793558,
+          "includes_model_load": true
+        },
+        "segments": [
+          {
+            "id": 0,
+            "seek": 0,
+            "start": 1953.46,
+            "end": 1971.74,
+            "text": "Κούντες Ιωάννες, κίνθητε από του Κυρίου ως χόρτος γαρπήρι.",
+            "temperature": 0.0,
+            "avg_logprob": -0.4733280181884766,
+            "compression_ratio": 1.1521739130434783,
+            "no_speech_prob": 0.4286518096923828,
+            "words": [
+              {
+                "word": " Κούντες",
+                "start": 1953.46,
+                "end": 1954.86,
+                "probability": 0.6015625
+              },
+              {
+                "word": " Ιωάννες,",
+                "start": 1954.86,
+                "end": 1956.26,
+                "probability": 0.6435546875
+              },
+              {
+                "word": " κίνθητε",
+                "start": 1956.26,
+                "end": 1959.02,
+                "probability": 0.646484375
+              },
+              {
+                "word": " από",
+                "start": 1959.02,
+                "end": 1960.76,
+                "probability": 0.89599609375
+              },
+              {
+                "word": " του",
+                "start": 1960.76,
+                "end": 1962.4,
+                "probability": 0.6416015625
+              },
+              {
+                "word": " Κυρίου",
+                "start": 1962.4,
+                "end": 1966.32,
+                "probability": 0.9443359375
+              },
+              {
+                "word": " ως",
+                "start": 1966.32,
+                "end": 1966.98,
+                "probability": 0.73486328125
+              },
+              {
+                "word": " χόρτος",
+                "start": 1966.98,
+                "end": 1969.48,
+                "probability": 0.845703125
+              },
+              {
+                "word": " γαρπήρι.",
+                "start": 1969.48,
+                "end": 1971.74,
+                "probability": 0.7734375
+              }
+            ],
+            "asr_warnings": [],
+            "language": "el",
+            "lexical_candidates": [
+              {
+                "unit_id": "matins:u0166",
+                "index": 166,
+                "section_id": "matins:s016",
+                "section_title": "Antiphon 1",
+                "service_id": "matins",
+                "service_title": "Matins (Orthros)",
+                "score": 0.8741,
+                "language": "el",
+                "greek": "Οἱ μισοῦντες Σιών, αἰσχύνθητε ἀπὸ τοῦ Κυρίου· ὡς χόρτος γάρ, πυρὶ ἔσεσθε ἀπεξηραμμένοι.",
+                "english": "You who hate Zion, be shamed by the Lord; for you will be withered like grass in the fire."
+              },
+              {
+                "unit_id": "matins:u0058",
+                "index": 58,
+                "section_id": "matins:s007",
+                "section_title": "Psalm 102 (103)",
+                "service_id": "matins",
+                "service_title": "Matins (Orthros)",
+                "score": 0.6188,
+                "language": "el",
+                "greek": "Εὐλόγει, ἡ ψυχή μου, τὸν Κύριον, καί, πάντα τὰ ἐντός μου, τὸ ὄνομα τὸ ἅγιον αὐτοῦ. Εὐλόγει, ἡ ψυχή μου, τὸν Κύριον, καὶ μὴ ἐπιλανθάνου πάσας τὰς ἀνταποδόσεις αὐτοῦ. Τὸν εὐιλατεύοντα πάσας τὰς ἀνομίας σου, τὸν ἰώμενον πάσας τὰς νόσους σου. Τὸν λυτρούμενον ἐκ φθορᾶς τὴν ζωήν σου, τὸν στεφανοῦντά σε ἐν ἐλέει καὶ οἰκτιρμοῖς. Τὸν ἐμπιπλῶντα ἐν ἀγαθοῖς τὴν ἐπιθυμίαν σου, ἀνακαινισθήσεται ὡς ἀετοῦ ἡ νεότης σου. Ποιῶν ἐλεημοσύνας ὁ Κύριος καὶ κρῖμα πᾶσι τοῖς ἀδικουμένοις. Ἐγνώρισε τὰς ὁδοὺς αὐτοῦ τῷ Μωϋσῇ, τοῖς υἱοῖς Ἰσραὴλ τὰ θελήματα αὐτοῦ. Οἰκτίρμων καὶ ἐλεήμων ὁ Κύριος, μακρόθυμος καὶ πολυέλεος· οὐκ εἰς τέλος ὀργισθήσεται, οὐδὲ εἰς τὸν αἰῶνα μηνιεῖ. Οὐ κατὰ τὰς ἀνομίας ἡμῶν ἐποίησεν ἡμῖν, οὐδὲ κατὰ τὰς ἁμαρτίας ἡμῶν ἀνταπέδωκεν ἡμῖν, ὅτι κατὰ τὸ ὕψος τοῦ οὐρανοῦ ἀπὸ τῆς γῆς ἐκραταίωσε Κύριος τὸ ἔλεος αὐτοῦ ἐπὶ τοὺς φοβουμένους αὐτόν. Καθʼ ὅσον ἀπέχουσιν ἀνατολαὶ ἀπὸ δυσμῶν, ἐμάκρυνεν ἀφʼ ἡμῶν τὰς ἀνομίας ἡμῶν. Καθὼς οἰκτείρει πατὴρ υἱούς, ᾠκτείρησε Κύριος τοὺς φοβουμένους αὐτόν, ὅτι αὐτὸς ἔγνω τὸ πλάσμα ἡμῶν, ἐμνήσθη ὅτι χοῦς ἐσμεν. Ἄνθρωπος, ὡσεὶ χόρτος αἱ ἡμέραι αὐτοῦ· ὡσεὶ ἄνθος τοῦ ἀγροῦ, οὕτως ἐξανθήσει. Ὅτι πνεῦμα διῆλθεν ἐν αὐτῷ, καὶ οὐχ ὑπάρξει, καὶ οὐκ ἐπιγνώσεται ἔτι τὸν τόπον αὐτοῦ. Τὸ δὲ ἔλεος τοῦ Κυρίου ἀπὸ τοῦ αἰῶνος καὶ ἕως τοῦ αἰῶνος ἐπὶ τοὺς φοβουμένους αὐτόν, καὶ ἡ δικαιοσύνη αὐτοῦ ἐπὶ υἱοῖς υἱῶν, τοῖς φυλάσσουσι τὴν διαθήκην αὐτοῦ καὶ μεμνημένοις τῶν ἐντολῶν αὐτοῦ τοῦ ποιῆσαι αὐτάς. Κύριος ἐν τῷ οὐρανῷ ἡτοίμασε τὸν θρόνον αὐτοῦ, καὶ ἡ βασιλεία αὐτοῦ πάντων δεσπόζει. Εὐλογεῖτε τὸν Κύριον, πάντες οἱ Ἄγγελοι αὐτοῦ, δυνατοὶ ἰσχύϊ, ποιοῦντες τὸν λόγον αὐτοῦ, τοῦ ἀκοῦσαι τῆς φωνῆς τῶν λόγων αὐτοῦ. Εὐλογεῖτε τὸν Κύριον, πᾶσαι αἱ Δυνάμεις αὐτοῦ, λειτουργοὶ αὐτοῦ, ποιοῦντες τὸ θέλημα αὐτοῦ. Εὐλογεῖτε τὸν Κύριον, πάντα τὰ ἔργα αὐτοῦ, ἐν παντὶ τόπῳ τῆς δεσποτείας αὐτοῦ· εὐλόγει, ἡ ψυχή μου, τὸν Κύριον.",
+                "english": "Bless the Lord, O my soul, and everything within me, bless His holy name. Bless the Lord, O my soul, and forget not all His rewards: who is merciful to all your transgressions, who heals all your diseases, who redeems your life from corruption, who crowns you with mercy and compassion, who satisfies your desire with good things; and your youth is renewed like the eagle’s. The Lord shows mercies and judgment to all who are wronged. He made known His ways to Moses, the things He willed to the sons of Israel. The Lord is compassionate and merciful, slow to anger, and abounding in mercy. He will not become angry to the end, nor will He be wrathful forever; He did not deal with us according to our sins, nor reward us according to our transgressions; for according to the height of heaven from earth, so the Lord reigns in mercy over those who fear Him; as far as the east is from the west, so He removes our transgressions from us. As a father has compassion on his children, so the Lord has compassion on those who fear Him, for He knows how He formed us; He remembers we are dust. As for man, his days are like grass, as a flower of the field, so he flourishes; for the wind passes through it, and it shall not remain; and it shall no longer know its place. But the mercy of the Lord is from age to age upon those who fear Him, and His righteousness upon children’s children, to such as keep His covenant and remember His commandments, to do them. The Lord prepared His throne in heaven, and His Kingdom rules over all. Bless the Lord, all you His angels, mighty in strength, who do His word, so as to hear the voice of His words. Bless the Lord, all you His hosts, His ministers who do His will; bless the Lord, all His works, in all places of His dominion; bless the Lord, O my soul."
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "seek": 2174,
+            "start": 1976.98,
+            "end": 1979.78,
+            "text": "Υπότιτλοι AUTHORWAVE",
+            "temperature": 0.0,
+            "avg_logprob": -0.15335426330566407,
+            "compression_ratio": 0.7837837837837838,
+            "no_speech_prob": 0.733274519443512,
+            "words": [
+              {
+                "word": " Υπότιτλοι",
+                "start": 1976.98,
+                "end": 1978.38,
+                "probability": 0.96728515625
+              },
+              {
+                "word": " AUTHORWAVE",
+                "start": 1978.38,
+                "end": 1979.78,
+                "probability": 0.99951171875
+              }
+            ],
+            "asr_warnings": [
+              "Possible subtitle/promotion artifact in ASR; listen to verify."
+            ],
+            "language": "el",
+            "lexical_candidates": [
+              {
+                "unit_id": "matins:u0472",
+                "index": 472,
+                "section_id": "matins:s070",
+                "section_title": "Litany Of Completion",
+                "service_id": "matins",
+                "service_title": "Matins (Orthros)",
+                "score": 0.3125,
+                "language": "en",
+                "greek": "Εὐλόγησον.",
+                "english": "Father, bless!"
+              },
+              {
+                "unit_id": "liturgy:u0260",
+                "index": 741,
+                "section_id": "liturgy:s020",
+                "section_title": "Elevation, Fraction, and Communion",
+                "service_id": "liturgy",
+                "service_title": "Divine Liturgy of St. John Chrysostom",
+                "score": 0.3077,
+                "language": "el",
+                "greek": "Τὰ ἅγια τοῖς ἁγίοις.",
+                "english": "The Holy Gifts for the holy people of God."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "start": 4920,
+      "end": 4950,
+      "auto_comparators": {
+        "small": {
+          "detected_language": "el",
+          "segments": [
+            {
+              "id": 95,
+              "start": 4927.86,
+              "end": 4942.0,
+              "text": "σ' φυαρθεί, δεύτεμ προσκυνήσομεν, και προσπασομέν Χριστό,",
+              "language": "el"
+            },
+            {
+              "id": 96,
+              "start": 4948.58,
+              "end": 4949.98,
+              "text": "Σωσονημασία.",
+              "language": "el"
+            }
+          ]
+        },
+        "turbo": {
+          "detected_language": "el",
+          "segments": [
+            {
+              "id": 77,
+              "start": 4920.0,
+              "end": 4925.24,
+              "text": "Αλλα, αλλα, αλλα.",
+              "language": "el"
+            }
+          ]
+        },
+        "large-v3": {
+          "detected_language": "en",
+          "segments": [
+            {
+              "id": 83,
+              "start": 4948.56,
+              "end": 4949.96,
+              "text": "Alleluia.",
+              "language": "en"
+            }
+          ]
+        }
+      },
+      "forced_greek": {
+        "source_file": "data/large-v3-greek-retry-4920.json",
+        "model": "mlx-community/whisper-large-v3-mlx",
+        "language_mode": "el",
+        "metrics": {
+          "audio_seconds": 30.0,
+          "inference_seconds": 4.608908457914367,
+          "decode_seconds": 0.06390137504786253,
+          "real_time_factor": 0.15363028193047892,
+          "speedup": 6.50913340413267,
+          "peak_memory_gb": 3.659793558,
+          "includes_model_load": true
+        },
+        "segments": [
+          {
+            "id": 0,
+            "seek": 0,
+            "start": 4924.88,
+            "end": 4928.64,
+            "text": "Σου φία ορθή",
+            "temperature": 0.0,
+            "avg_logprob": -0.3357104092109494,
+            "compression_ratio": 1.197674418604651,
+            "no_speech_prob": 0.8151479959487915,
+            "words": [
+              {
+                "word": " Σου",
+                "start": 4924.88,
+                "end": 4926.28,
+                "probability": 0.57470703125
+              },
+              {
+                "word": " φία",
+                "start": 4926.28,
+                "end": 4927.5,
+                "probability": 0.373291015625
+              },
+              {
+                "word": " ορθή",
+                "start": 4927.5,
+                "end": 4928.64,
+                "probability": 0.9609375
+              }
+            ],
+            "asr_warnings": [],
+            "language": "el",
+            "lexical_candidates": [
+              {
+                "unit_id": "liturgy:u0085",
+                "index": 566,
+                "section_id": "liturgy:s006",
+                "section_title": "Small Entrance",
+                "service_id": "liturgy",
+                "service_title": "Divine Liturgy of St. John Chrysostom",
+                "score": 0.8818,
+                "language": "el",
+                "greek": "Σοφία. Ὀρθοί.",
+                "english": "Wisdom. Arise."
+              },
+              {
+                "unit_id": "matins:u0471",
+                "index": 471,
+                "section_id": "matins:s070",
+                "section_title": "Litany Of Completion",
+                "service_id": "matins",
+                "service_title": "Matins (Orthros)",
+                "score": 0.5882,
+                "language": "el",
+                "greek": "Σοφία.",
+                "english": "Wisdom."
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "seek": 0,
+            "start": 4933.6,
+            "end": 4936.4,
+            "text": "Δεύτε προσκυνήσωμεν",
+            "temperature": 0.0,
+            "avg_logprob": -0.3357104092109494,
+            "compression_ratio": 1.197674418604651,
+            "no_speech_prob": 0.8151479959487915,
+            "words": [
+              {
+                "word": " Δεύτε",
+                "start": 4933.6,
+                "end": 4935.0,
+                "probability": 0.77001953125
+              },
+              {
+                "word": " προσκυνήσωμεν",
+                "start": 4935.0,
+                "end": 4936.4,
+                "probability": 0.83740234375
+              }
+            ],
+            "asr_warnings": [],
+            "language": "el",
+            "lexical_candidates": [
+              {
+                "unit_id": "liturgy:u0086",
+                "index": 567,
+                "section_id": "liturgy:s007",
+                "section_title": "Entrance Hymn",
+                "service_id": "liturgy",
+                "service_title": "Divine Liturgy of St. John Chrysostom",
+                "score": 1.0,
+                "language": "el",
+                "greek": "Δεῦτε προσκυνήσωμεν καὶ προσπέσωμεν Χριστῷ. Σῶσον ἡμᾶς Υἱὲ Θεοῦ, ὁ ἐν ἁγίοις θαυμαστός, ψάλλοντάς σοι, Ἀλληλούϊα.",
+                "english": "Come, let us worship and bow down before Christ. Save us, O Son of God, who are wondrous in the saints. We sing to You, Alleluia."
+              },
+              {
+                "unit_id": "matins:u0186",
+                "index": 186,
+                "section_id": "matins:s018",
+                "section_title": "Matins Gospel",
+                "service_id": "matins",
+                "service_title": "Matins (Orthros)",
+                "score": 0.5714,
+                "language": "el",
+                "greek": "Πρόσχωμεν.",
+                "english": "Let us be attentive."
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "seek": 0,
+            "start": 4936.96,
+            "end": 4943.04,
+            "text": "Και προσπέσωμεν Χριστό",
+            "temperature": 0.0,
+            "avg_logprob": -0.3357104092109494,
+            "compression_ratio": 1.197674418604651,
+            "no_speech_prob": 0.8151479959487915,
+            "words": [
+              {
+                "word": " Και",
+                "start": 4936.28,
+                "end": 4936.98,
+                "probability": 0.3271484375
+              },
+              {
+                "word": " προσπέσωμεν",
+                "start": 4936.98,
+                "end": 4941.3,
+                "probability": 0.95703125
+              },
+              {
+                "word": " Χριστό",
+                "start": 4941.3,
+                "end": 4943.04,
+                "probability": 0.9169921875
+              }
+            ],
+            "asr_warnings": [],
+            "language": "el",
+            "lexical_candidates": [
+              {
+                "unit_id": "liturgy:u0183",
+                "index": 664,
+                "section_id": "liturgy:s016",
+                "section_title": "Holy Anaphora",
+                "service_id": "liturgy",
+                "service_title": "Divine Liturgy of St. John Chrysostom",
+                "score": 0.5414,
+                "language": "el",
+                "greek": "Ἔχομεν πρὸς τὸν Κύριον.",
+                "english": "We lift them up to the Lord."
+              },
+              {
+                "unit_id": "matins:u0186",
+                "index": 186,
+                "section_id": "matins:s018",
+                "section_title": "Matins Gospel",
+                "service_id": "matins",
+                "service_title": "Matins (Orthros)",
+                "score": 0.5173,
+                "language": "el",
+                "greek": "Πρόσχωμεν.",
+                "english": "Let us be attentive."
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "seek": 2304,
+            "start": 4946.32,
+            "end": 4949.92,
+            "text": "Σωσόν η Μασίλη",
+            "temperature": 0.0,
+            "avg_logprob": -0.5178171907152448,
+            "compression_ratio": 0.7027027027027027,
+            "no_speech_prob": 0.5224837064743042,
+            "words": [
+              {
+                "word": " Σωσόν",
+                "start": 4946.32,
+                "end": 4947.72,
+                "probability": 0.62353515625
+              },
+              {
+                "word": " η",
+                "start": 4947.72,
+                "end": 4947.8,
+                "probability": 0.93017578125
+              },
+              {
+                "word": " Μασίλη",
+                "start": 4947.8,
+                "end": 4949.92,
+                "probability": 0.58251953125
+              }
+            ],
+            "asr_warnings": [],
+            "language": "el",
+            "lexical_candidates": [
+              {
+                "unit_id": "matins:u0204",
+                "index": 204,
+                "section_id": "matins:s022",
+                "section_title": "Troparia",
+                "service_id": "matins",
+                "service_title": "Matins (Orthros)",
+                "score": 0.4878,
+                "language": "el",
+                "greek": "Ὑπεραγία Θεοτόκε, σῶσον ἡμᾶς.",
+                "english": "Most-holy Theotokos, save us."
+              },
+              {
+                "unit_id": "matins:u0206",
+                "index": 206,
+                "section_id": "matins:s022",
+                "section_title": "Troparia",
+                "service_id": "matins",
+                "service_title": "Matins (Orthros)",
+                "score": 0.4878,
+                "language": "el",
+                "greek": "Ὑπεραγία Θεοτόκε, σῶσον ἡμᾶς.",
+                "english": "Most-holy Theotokos, save us."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "entrance_phrase_probe": {
+    "source_segment_starts": [
+      4933.6,
+      4936.96
+    ],
+    "raw_asr_concatenation": "Δεύτε προσκυνήσωμεν Και προσπέσωμεν Χριστό",
+    "reference_candidates": [
+      {
+        "unit_id": "liturgy:u0086",
+        "index": 567,
+        "section_id": "liturgy:s007",
+        "section_title": "Entrance Hymn",
+        "service_id": "liturgy",
+        "service_title": "Divine Liturgy of St. John Chrysostom",
+        "score": 0.9794,
+        "language": "el",
+        "greek": "Δεῦτε προσκυνήσωμεν καὶ προσπέσωμεν Χριστῷ. Σῶσον ἡμᾶς Υἱὲ Θεοῦ, ὁ ἐν ἁγίοις θαυμαστός, ψάλλοντάς σοι, Ἀλληλούϊα.",
+        "english": "Come, let us worship and bow down before Christ. Save us, O Son of God, who are wondrous in the saints. We sing to You, Alleluia."
+      },
+      {
+        "unit_id": "matins:u0151",
+        "index": 151,
+        "section_id": "matins:s014",
+        "section_title": "Selected Psalm Verses for the Birth of our Lady Theotokos",
+        "service_id": "matins",
+        "service_title": "Matins (Orthros)",
+        "score": 0.6878,
+        "language": "el",
+        "greek": "Τὸν Πατέρα προσκυνήσωμεν, καὶ τὸν Υἱὸν δοξολογήσωμεν, καὶ τὸ Πανάγιον ὁμοῦ, πάντες Πνεῦμα ἀνυμνήσωμεν, κράζοντες καὶ λέγοντες· Παναγία Τριάς, σῶσον πάντας ἡμᾶς.",
+        "english": "Let us bow in worship and adore * the Father; likewise let us glorify * the Son; and also let us praise * the all-holy Spirit faithfully, * crying out in unison, * “Save us all, we implore, all-holy Trinity.”"
+      }
+    ],
+    "note": "Adjacent raw-ASR fragments concatenated for retrieval evidence only; no transcript replacement and no lowered matcher threshold."
+  },
+  "findings": [
+    "At1950s Large-v3 automatic selected Latin; forced Greek restores a recognizable Greek Matins Antiphon1 fragment, with substitutions and an AUTHORWAVE artifact still present.",
+    "At4920s Large-v3 automatic selected English and emitted only Alleluia; forced Greek produces phonetic evidence for Wisdom! Arise! and the opening of the Entrance Hymn.",
+    "The Small Entrance label has defensible supplemental text evidence but short noisy words still need review; this experiment does not establish automatic-language accuracy or perfect transcription."
+  ],
+  "constraints": [
+    "Original 24-minute ASR comparison artifacts unchanged.",
+    "No audio-ground-truth transcript or WER measurement.",
+    "Greek was supplied as an experimental condition; this does not solve automatic language detection.",
+    "Reference text remains separate from raw ASR."
+  ],
+  "supplemental_viewer_run": "data/large-v3-greek-retries-sequence.json",
+  "supplemental_builder": "scripts/build_greek_retries.py",
+  "supplemental_alignment_version": 4,
+  "supplemental_interpretation": "Small Entrance location uses strong noisy short-rubric evidence plus the immediately following distinctive two-fragment Entrance Hymn. Both hymn rows retain raw text and timestamps and share explicit span evidence; independent fragment accuracy is not claimed."
+}

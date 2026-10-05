@@ -1,0 +1,66 @@
+{
+  "audit_type": "text_only_qualitative_observations",
+  "audio_listened": false,
+  "human_ground_truth": false,
+  "reference_file": "reference-MIxJvLfaynY.json",
+  "reference_id": "ref-e5432ce2789f102a2c0b",
+  "input_sha256": {
+    "small": "0a470097d2ce0f4715b56ee594397538efebcbef68570ae9b2b77e96ef62e62d",
+    "turbo": "8977dd4c7ed29c8840c1a7ea078d6fbeb0aed81d1a9e91b95aaf10e969e9ea78",
+    "large-v3": "281705153b1a57c9d33ed3edd5a513cf88e35fecc6d4308a94a6b97d395a41fa"
+  },
+  "scope": "Ten purposively selected Greek-rich or mixed 90-second probes; not a random sample or pure-Greek audio label.",
+  "observations": [
+    {
+      "start": 1200,
+      "end": 1290,
+      "note": "All three produce distorted common-litany Greek. Large-v3 begins with subtitle-credit boilerplate and provides less text for the first portion than Small/Turbo. Recognizable prayer structure does not imply verbatim Greek transcription."
+    },
+    {
+      "start": 1800,
+      "end": 1890,
+      "note": "Small degenerates into repeated Latin diacritic syllables after the Greek litany. Turbo gives approximate Greek then subtitle-credit text. Large-v3 also has subtitle-credit text and Latin-script syllables before the English hymn. The added Matins reference supplies the previously missing hymn."
+    },
+    {
+      "start": 1950,
+      "end": 2040,
+      "note": "Small repeats syllables; Turbo gives damaged Greek such as “Κούντες Ιόνες κύνθητε”. Large-v3 emits Latin-script Greek (“Suntes ion eschinti…”). Canonical Matins text is “Οἱ μισοῦντες Σιών, αἰσχύνθητε…”. This illustrates script instability and lexical corruption, beyond accent differences."
+    },
+    {
+      "start": 2700,
+      "end": 2790,
+      "note": "Large-v3 renders the Greek doxology in separated mixed-case words while Turbo emits an unspaced uppercase phrase. Both have noncanonical word forms. Small also contains a long unrelated repeated Greek phrase. The subsequent English hymn is much more readable in Turbo and Large-v3, but remains unverified against audio."
+    },
+    {
+      "start": 3600,
+      "end": 3690,
+      "note": "Small has long syllabic/foreign-script repetition. Turbo and Large-v3 recover recognizable Greek hymn structure with substitutions; Large-v3 additionally emits Latin-script Greek. Both produce a similar odd English phrase “and wife is born, that graceful gent”, so readable English is not sufficient proof of correct recognition."
+    },
+    {
+      "start": 4410,
+      "end": 4500,
+      "note": "Large-v3 changes Turbo’s “σήμαντος κόσμα” to canonical “σύμπαντος κόσμου”. However, elsewhere Large-v3 has “μεταπίστευσε βλαβείας”, while Turbo is closer to the canonical “μετὰ πίστεως, εὐλαβείας”. This is mixed evidence, not a uniform quality improvement."
+    },
+    {
+      "start": 4680,
+      "end": 4770,
+      "note": "Turbo and Large-v3 preserve the recognizable Greek doxology with merged or substituted forms such as “σώτο κράτος” and “αηκέης”. Small is more distorted. The English antiphon words are fairly stable across the three outputs. The same-feast reference now contains material absent from the September 30 control."
+    },
+    {
+      "start": 4860,
+      "end": 4950,
+      "note": "All three struggle after the initial English prayer. Small loops “I’m not the only one”; Large-v3 loops “για την ευκαιρία του Θεού”; Turbo emits malformed Greek and unrelated-looking English. Larger ASR has not removed degenerative output in this example."
+    },
+    {
+      "start": 5040,
+      "end": 5130,
+      "note": "Turbo outputs Greek phrases in Latin script (“To Kyrieu Dei Thomen”). Large-v3 instead gives English phrases (“To the Lord we give thanks”), then “Άγιος η Σύνος” where the canonical Trisagion has “Ἅγιος Ἰσχυρός”. Without listening, these are output differences and canonical mismatches, not a measured error rate."
+    },
+    {
+      "start": 6000,
+      "end": 6090,
+      "note": "Outputs differ sharply in language and wording around an English/Greek transition. Large-v3 includes “Through the night of your only begotten Son”; Turbo has a shorter gap/fragment and damaged Greek. Small produces mostly damaged Greek. Audio annotation is needed to distinguish omissions, substitutions and unintended translation."
+    }
+  ],
+  "conclusion": "The larger Whisper model changes and sometimes improves recognizable Greek phrases, but retains substitutions, mixed-script output and repetition failures. No overall Greek accuracy winner is established. Section tracking and reference coverage are distinct from ASR transcription quality."
+}

@@ -1,0 +1,1706 @@
+{
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 7200,
+  "end": 7290.0,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 7200.0,
+      "end": 7202.1,
+      "text": "A gift for the presents.",
+      "temperature": 0.0,
+      "avg_logprob": -0.5416857677957286,
+      "compression_ratio": 1.6644736842105263,
+      "no_speech_prob": 9.809233503590975e-13,
+      "words": [
+        {
+          "word": " A",
+          "start": 7200.0,
+          "end": 7200.66,
+          "probability": 0.026458740234375
+        },
+        {
+          "word": " gift",
+          "start": 7200.66,
+          "end": 7201.32,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " for",
+          "start": 7201.32,
+          "end": 7201.68,
+          "probability": 0.673828125
+        },
+        {
+          "word": " the",
+          "start": 7201.68,
+          "end": 7201.7,
+          "probability": 0.796875
+        },
+        {
+          "word": " presents.",
+          "start": 7201.7,
+          "end": 7202.1,
+          "probability": 0.8310546875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 7202.24,
+      "end": 7202.92,
+      "text": "Presents.",
+      "temperature": 0.0,
+      "avg_logprob": -0.5416857677957286,
+      "compression_ratio": 1.6644736842105263,
+      "no_speech_prob": 9.809233503590975e-13,
+      "words": [
+        {
+          "word": " Presents.",
+          "start": 7202.24,
+          "end": 7202.92,
+          "probability": 0.67626953125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 7203.7,
+      "end": 7206.66,
+      "text": "Oh my goodness, we're giving presents now.",
+      "temperature": 0.0,
+      "avg_logprob": -0.5416857677957286,
+      "compression_ratio": 1.6644736842105263,
+      "no_speech_prob": 9.809233503590975e-13,
+      "words": [
+        {
+          "word": " Oh",
+          "start": 7203.7,
+          "end": 7204.4,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " my",
+          "start": 7204.4,
+          "end": 7204.64,
+          "probability": 0.77197265625
+        },
+        {
+          "word": " goodness,",
+          "start": 7204.64,
+          "end": 7205.0,
+          "probability": 1.0
+        },
+        {
+          "word": " we're",
+          "start": 7205.14,
+          "end": 7205.28,
+          "probability": 1.0
+        },
+        {
+          "word": " giving",
+          "start": 7205.28,
+          "end": 7205.56,
+          "probability": 1.0
+        },
+        {
+          "word": " presents",
+          "start": 7205.56,
+          "end": 7206.14,
+          "probability": 1.0
+        },
+        {
+          "word": " now.",
+          "start": 7206.14,
+          "end": 7206.66,
+          "probability": 0.99951171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 7207.6,
+      "end": 7208.32,
+      "text": "Wow.",
+      "temperature": 0.0,
+      "avg_logprob": -0.5416857677957286,
+      "compression_ratio": 1.6644736842105263,
+      "no_speech_prob": 9.809233503590975e-13,
+      "words": [
+        {
+          "word": " Wow.",
+          "start": 7207.6,
+          "end": 7208.32,
+          "probability": 0.99951171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 7209.8,
+      "end": 7211.64,
+      "text": "And let's see.",
+      "temperature": 0.0,
+      "avg_logprob": -0.5416857677957286,
+      "compression_ratio": 1.6644736842105263,
+      "no_speech_prob": 9.809233503590975e-13,
+      "words": [
+        {
+          "word": " And",
+          "start": 7209.8,
+          "end": 7210.52,
+          "probability": 0.98974609375
+        },
+        {
+          "word": " let's",
+          "start": 7210.52,
+          "end": 7211.24,
+          "probability": 0.9697265625
+        },
+        {
+          "word": " see.",
+          "start": 7211.24,
+          "end": 7211.64,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 7212.1,
+      "end": 7213.8,
+      "text": "What would you prefer?",
+      "temperature": 0.0,
+      "avg_logprob": -0.5416857677957286,
+      "compression_ratio": 1.6644736842105263,
+      "no_speech_prob": 9.809233503590975e-13,
+      "words": [
+        {
+          "word": " What",
+          "start": 7212.1,
+          "end": 7212.82,
+          "probability": 1.0
+        },
+        {
+          "word": " would",
+          "start": 7212.82,
+          "end": 7213.04,
+          "probability": 1.0
+        },
+        {
+          "word": " you",
+          "start": 7213.04,
+          "end": 7213.2,
+          "probability": 1.0
+        },
+        {
+          "word": " prefer?",
+          "start": 7213.2,
+          "end": 7213.8,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 7215.14,
+      "end": 7217.62,
+      "text": "What kind of present do you want for Christmas?",
+      "temperature": 0.0,
+      "avg_logprob": -0.5416857677957286,
+      "compression_ratio": 1.6644736842105263,
+      "no_speech_prob": 9.809233503590975e-13,
+      "words": [
+        {
+          "word": " What",
+          "start": 7215.14,
+          "end": 7215.86,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " kind",
+          "start": 7215.86,
+          "end": 7216.1,
+          "probability": 1.0
+        },
+        {
+          "word": " of",
+          "start": 7216.1,
+          "end": 7216.24,
+          "probability": 1.0
+        },
+        {
+          "word": " present",
+          "start": 7216.24,
+          "end": 7216.56,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " do",
+          "start": 7216.56,
+          "end": 7216.76,
+          "probability": 1.0
+        },
+        {
+          "word": " you",
+          "start": 7216.76,
+          "end": 7216.86,
+          "probability": 1.0
+        },
+        {
+          "word": " want",
+          "start": 7216.86,
+          "end": 7217.04,
+          "probability": 1.0
+        },
+        {
+          "word": " for",
+          "start": 7217.04,
+          "end": 7217.2,
+          "probability": 1.0
+        },
+        {
+          "word": " Christmas?",
+          "start": 7217.2,
+          "end": 7217.62,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 7219.02,
+      "end": 7220.04,
+      "text": "I don't know.",
+      "temperature": 0.0,
+      "avg_logprob": -0.5416857677957286,
+      "compression_ratio": 1.6644736842105263,
+      "no_speech_prob": 9.809233503590975e-13,
+      "words": [
+        {
+          "word": " I",
+          "start": 7219.02,
+          "end": 7219.74,
+          "probability": 0.80810546875
+        },
+        {
+          "word": " don't",
+          "start": 7219.74,
+          "end": 7219.86,
+          "probability": 1.0
+        },
+        {
+          "word": " know.",
+          "start": 7219.86,
+          "end": 7220.04,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 7221.44,
+      "end": 7223.0,
+      "text": "I don't know.",
+      "temperature": 0.0,
+      "avg_logprob": -0.5416857677957286,
+      "compression_ratio": 1.6644736842105263,
+      "no_speech_prob": 9.809233503590975e-13,
+      "words": [
+        {
+          "word": " I",
+          "start": 7221.44,
+          "end": 7222.16,
+          "probability": 0.350830078125
+        },
+        {
+          "word": " don't",
+          "start": 7222.16,
+          "end": 7222.88,
+          "probability": 1.0
+        },
+        {
+          "word": " know.",
+          "start": 7222.88,
+          "end": 7223.0,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 7223.12,
+      "end": 7223.76,
+      "text": "You don't know.",
+      "temperature": 0.0,
+      "avg_logprob": -0.5416857677957286,
+      "compression_ratio": 1.6644736842105263,
+      "no_speech_prob": 9.809233503590975e-13,
+      "words": [
+        {
+          "word": " You",
+          "start": 7223.12,
+          "end": 7223.38,
+          "probability": 0.98193359375
+        },
+        {
+          "word": " don't",
+          "start": 7223.38,
+          "end": 7223.56,
+          "probability": 1.0
+        },
+        {
+          "word": " know.",
+          "start": 7223.56,
+          "end": 7223.76,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 10,
+      "seek": 0,
+      "start": 7224.0,
+      "end": 7225.44,
+      "text": "What do you want for Christmas?",
+      "temperature": 0.0,
+      "avg_logprob": -0.5416857677957286,
+      "compression_ratio": 1.6644736842105263,
+      "no_speech_prob": 9.809233503590975e-13,
+      "words": [
+        {
+          "word": " What",
+          "start": 7224.0,
+          "end": 7224.44,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " do",
+          "start": 7224.44,
+          "end": 7224.54,
+          "probability": 1.0
+        },
+        {
+          "word": " you",
+          "start": 7224.54,
+          "end": 7224.64,
+          "probability": 1.0
+        },
+        {
+          "word": " want",
+          "start": 7224.64,
+          "end": 7224.82,
+          "probability": 1.0
+        },
+        {
+          "word": " for",
+          "start": 7224.82,
+          "end": 7224.98,
+          "probability": 1.0
+        },
+        {
+          "word": " Christmas?",
+          "start": 7224.98,
+          "end": 7225.44,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 11,
+      "seek": 0,
+      "start": 7228.08,
+      "end": 7229.06,
+      "text": "A lapar.",
+      "temperature": 0.0,
+      "avg_logprob": -0.5416857677957286,
+      "compression_ratio": 1.6644736842105263,
+      "no_speech_prob": 9.809233503590975e-13,
+      "words": [
+        {
+          "word": " A",
+          "start": 7228.08,
+          "end": 7228.8,
+          "probability": 0.88525390625
+        },
+        {
+          "word": " lapar.",
+          "start": 7228.8,
+          "end": 7229.06,
+          "probability": 0.330810546875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 12,
+      "seek": 2906,
+      "start": 7229.58,
+      "end": 7229.94,
+      "text": "A lot.",
+      "temperature": 0.0,
+      "avg_logprob": -0.7298437754313151,
+      "compression_ratio": 0.42857142857142855,
+      "no_speech_prob": 4.4105941121586056e-11,
+      "words": [
+        {
+          "word": " A",
+          "start": 7229.58,
+          "end": 7229.82,
+          "probability": 0.2313232421875
+        },
+        {
+          "word": " lot.",
+          "start": 7229.82,
+          "end": 7229.94,
+          "probability": 0.4150390625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 13,
+      "seek": 0,
+      "start": 7230.0,
+      "end": 7230.58,
+      "text": "Top, you said?",
+      "temperature": 0.0,
+      "avg_logprob": -0.17240239592159495,
+      "compression_ratio": 1.8930232558139535,
+      "no_speech_prob": 1.0120974154245732e-12,
+      "words": [
+        {
+          "word": " Top,",
+          "start": 7230.0,
+          "end": 7230.1,
+          "probability": 0.5322265625
+        },
+        {
+          "word": " you",
+          "start": 7230.36,
+          "end": 7230.36,
+          "probability": 0.9150390625
+        },
+        {
+          "word": " said?",
+          "start": 7230.36,
+          "end": 7230.58,
+          "probability": 0.9990234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 14,
+      "seek": 0,
+      "start": 7232.92,
+      "end": 7233.76,
+      "text": "What do you want?",
+      "temperature": 0.0,
+      "avg_logprob": -0.17240239592159495,
+      "compression_ratio": 1.8930232558139535,
+      "no_speech_prob": 1.0120974154245732e-12,
+      "words": [
+        {
+          "word": " What",
+          "start": 7232.92,
+          "end": 7233.28,
+          "probability": 0.93310546875
+        },
+        {
+          "word": " do",
+          "start": 7233.28,
+          "end": 7233.38,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " you",
+          "start": 7233.38,
+          "end": 7233.48,
+          "probability": 1.0
+        },
+        {
+          "word": " want?",
+          "start": 7233.48,
+          "end": 7233.76,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 15,
+      "seek": 0,
+      "start": 7236.76,
+      "end": 7237.52,
+      "text": "You don't know.",
+      "temperature": 0.0,
+      "avg_logprob": -0.17240239592159495,
+      "compression_ratio": 1.8930232558139535,
+      "no_speech_prob": 1.0120974154245732e-12,
+      "words": [
+        {
+          "word": " You",
+          "start": 7236.76,
+          "end": 7237.12,
+          "probability": 0.59423828125
+        },
+        {
+          "word": " don't",
+          "start": 7237.12,
+          "end": 7237.3,
+          "probability": 1.0
+        },
+        {
+          "word": " know.",
+          "start": 7237.3,
+          "end": 7237.52,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 16,
+      "seek": 0,
+      "start": 7237.72,
+      "end": 7238.72,
+      "text": "What do you want for Christmas?",
+      "temperature": 0.0,
+      "avg_logprob": -0.17240239592159495,
+      "compression_ratio": 1.8930232558139535,
+      "no_speech_prob": 1.0120974154245732e-12,
+      "words": [
+        {
+          "word": " What",
+          "start": 7237.72,
+          "end": 7237.86,
+          "probability": 0.98486328125
+        },
+        {
+          "word": " do",
+          "start": 7237.86,
+          "end": 7237.96,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " you",
+          "start": 7237.96,
+          "end": 7238.04,
+          "probability": 1.0
+        },
+        {
+          "word": " want",
+          "start": 7238.04,
+          "end": 7238.22,
+          "probability": 1.0
+        },
+        {
+          "word": " for",
+          "start": 7238.22,
+          "end": 7238.38,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " Christmas?",
+          "start": 7238.38,
+          "end": 7238.72,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 17,
+      "seek": 0,
+      "start": 7239.5,
+      "end": 7241.1,
+      "text": "Well, you're going to buy presents for people.",
+      "temperature": 0.0,
+      "avg_logprob": -0.17240239592159495,
+      "compression_ratio": 1.8930232558139535,
+      "no_speech_prob": 1.0120974154245732e-12,
+      "words": [
+        {
+          "word": " Well,",
+          "start": 7239.5,
+          "end": 7239.82,
+          "probability": 0.861328125
+        },
+        {
+          "word": " you're",
+          "start": 7239.82,
+          "end": 7239.98,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " going",
+          "start": 7239.98,
+          "end": 7240.04,
+          "probability": 0.89599609375
+        },
+        {
+          "word": " to",
+          "start": 7240.04,
+          "end": 7240.12,
+          "probability": 1.0
+        },
+        {
+          "word": " buy",
+          "start": 7240.12,
+          "end": 7240.3,
+          "probability": 1.0
+        },
+        {
+          "word": " presents",
+          "start": 7240.3,
+          "end": 7240.7,
+          "probability": 1.0
+        },
+        {
+          "word": " for",
+          "start": 7240.7,
+          "end": 7240.88,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " people.",
+          "start": 7240.88,
+          "end": 7241.1,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 18,
+      "seek": 0,
+      "start": 7241.16,
+      "end": 7242.44,
+      "text": "What are you going to get for mom and dad?",
+      "temperature": 0.0,
+      "avg_logprob": -0.17240239592159495,
+      "compression_ratio": 1.8930232558139535,
+      "no_speech_prob": 1.0120974154245732e-12,
+      "words": [
+        {
+          "word": " What",
+          "start": 7241.16,
+          "end": 7241.26,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " are",
+          "start": 7241.26,
+          "end": 7241.34,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " you",
+          "start": 7241.34,
+          "end": 7241.36,
+          "probability": 1.0
+        },
+        {
+          "word": " going",
+          "start": 7241.36,
+          "end": 7241.46,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " to",
+          "start": 7241.46,
+          "end": 7241.54,
+          "probability": 1.0
+        },
+        {
+          "word": " get",
+          "start": 7241.54,
+          "end": 7241.66,
+          "probability": 1.0
+        },
+        {
+          "word": " for",
+          "start": 7241.66,
+          "end": 7241.8,
+          "probability": 0.953125
+        },
+        {
+          "word": " mom",
+          "start": 7241.8,
+          "end": 7242.0,
+          "probability": 0.70458984375
+        },
+        {
+          "word": " and",
+          "start": 7242.0,
+          "end": 7242.14,
+          "probability": 1.0
+        },
+        {
+          "word": " dad?",
+          "start": 7242.14,
+          "end": 7242.44,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 19,
+      "seek": 0,
+      "start": 7242.78,
+      "end": 7245.2,
+      "text": "Are you going to get mom, who's going to get mom",
+      "temperature": 0.0,
+      "avg_logprob": -0.17240239592159495,
+      "compression_ratio": 1.8930232558139535,
+      "no_speech_prob": 1.0120974154245732e-12,
+      "words": [
+        {
+          "word": " Are",
+          "start": 7242.78,
+          "end": 7243.14,
+          "probability": 0.9287109375
+        },
+        {
+          "word": " you",
+          "start": 7243.14,
+          "end": 7243.24,
+          "probability": 1.0
+        },
+        {
+          "word": " going",
+          "start": 7243.24,
+          "end": 7243.42,
+          "probability": 1.0
+        },
+        {
+          "word": " to",
+          "start": 7243.42,
+          "end": 7243.52,
+          "probability": 1.0
+        },
+        {
+          "word": " get",
+          "start": 7243.52,
+          "end": 7243.7,
+          "probability": 1.0
+        },
+        {
+          "word": " mom,",
+          "start": 7243.7,
+          "end": 7244.06,
+          "probability": 0.99609375
+        },
+        {
+          "word": " who's",
+          "start": 7244.18,
+          "end": 7244.42,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " going",
+          "start": 7244.42,
+          "end": 7244.56,
+          "probability": 1.0
+        },
+        {
+          "word": " to",
+          "start": 7244.56,
+          "end": 7244.64,
+          "probability": 1.0
+        },
+        {
+          "word": " get",
+          "start": 7244.64,
+          "end": 7244.82,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " mom",
+          "start": 7244.82,
+          "end": 7245.2,
+          "probability": 0.99951171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 20,
+      "seek": 0,
+      "start": 7245.2,
+      "end": 7247.62,
+      "text": "a $1 gift card at Starbucks?",
+      "temperature": 0.0,
+      "avg_logprob": -0.17240239592159495,
+      "compression_ratio": 1.8930232558139535,
+      "no_speech_prob": 1.0120974154245732e-12,
+      "words": [
+        {
+          "word": " a",
+          "start": 7245.2,
+          "end": 7245.72,
+          "probability": 0.88037109375
+        },
+        {
+          "word": " $1",
+          "start": 7245.72,
+          "end": 7246.1,
+          "probability": 0.978515625
+        },
+        {
+          "word": " gift",
+          "start": 7246.1,
+          "end": 7246.56,
+          "probability": 1.0
+        },
+        {
+          "word": " card",
+          "start": 7246.56,
+          "end": 7246.98,
+          "probability": 1.0
+        },
+        {
+          "word": " at",
+          "start": 7246.98,
+          "end": 7247.2,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " Starbucks?",
+          "start": 7247.2,
+          "end": 7247.62,
+          "probability": 0.99951171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 21,
+      "seek": 0,
+      "start": 7250.3,
+      "end": 7251.24,
+      "text": "No, you aren't.",
+      "temperature": 0.0,
+      "avg_logprob": -0.17240239592159495,
+      "compression_ratio": 1.8930232558139535,
+      "no_speech_prob": 1.0120974154245732e-12,
+      "words": [
+        {
+          "word": " No,",
+          "start": 7250.3,
+          "end": 7250.66,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " you",
+          "start": 7250.78,
+          "end": 7250.82,
+          "probability": 1.0
+        },
+        {
+          "word": " aren't.",
+          "start": 7250.82,
+          "end": 7251.24,
+          "probability": 0.9990234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 22,
+      "seek": 0,
+      "start": 7251.7,
+      "end": 7252.96,
+      "text": "Don't even tell me you are.",
+      "temperature": 0.0,
+      "avg_logprob": -0.17240239592159495,
+      "compression_ratio": 1.8930232558139535,
+      "no_speech_prob": 1.0120974154245732e-12,
+      "words": [
+        {
+          "word": " Don't",
+          "start": 7251.7,
+          "end": 7252.06,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " even",
+          "start": 7252.06,
+          "end": 7252.18,
+          "probability": 1.0
+        },
+        {
+          "word": " tell",
+          "start": 7252.18,
+          "end": 7252.42,
+          "probability": 1.0
+        },
+        {
+          "word": " me",
+          "start": 7252.42,
+          "end": 7252.6,
+          "probability": 1.0
+        },
+        {
+          "word": " you",
+          "start": 7252.6,
+          "end": 7252.76,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " are.",
+          "start": 7252.76,
+          "end": 7252.96,
+          "probability": 0.99853515625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 23,
+      "seek": 0,
+      "start": 7253.38,
+      "end": 7254.8,
+      "text": "You know you're not going to do that.",
+      "temperature": 0.0,
+      "avg_logprob": -0.17240239592159495,
+      "compression_ratio": 1.8930232558139535,
+      "no_speech_prob": 1.0120974154245732e-12,
+      "words": [
+        {
+          "word": " You",
+          "start": 7253.38,
+          "end": 7253.74,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " know",
+          "start": 7253.74,
+          "end": 7253.92,
+          "probability": 1.0
+        },
+        {
+          "word": " you're",
+          "start": 7253.92,
+          "end": 7254.12,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " not",
+          "start": 7254.12,
+          "end": 7254.22,
+          "probability": 1.0
+        },
+        {
+          "word": " going",
+          "start": 7254.22,
+          "end": 7254.36,
+          "probability": 1.0
+        },
+        {
+          "word": " to",
+          "start": 7254.36,
+          "end": 7254.44,
+          "probability": 1.0
+        },
+        {
+          "word": " do",
+          "start": 7254.44,
+          "end": 7254.6,
+          "probability": 1.0
+        },
+        {
+          "word": " that.",
+          "start": 7254.6,
+          "end": 7254.8,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 24,
+      "seek": 0,
+      "start": 7254.98,
+      "end": 7255.92,
+      "text": "What are you going to do?",
+      "temperature": 0.0,
+      "avg_logprob": -0.17240239592159495,
+      "compression_ratio": 1.8930232558139535,
+      "no_speech_prob": 1.0120974154245732e-12,
+      "words": [
+        {
+          "word": " What",
+          "start": 7254.98,
+          "end": 7255.34,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " are",
+          "start": 7255.34,
+          "end": 7255.44,
+          "probability": 1.0
+        },
+        {
+          "word": " you",
+          "start": 7255.44,
+          "end": 7255.48,
+          "probability": 1.0
+        },
+        {
+          "word": " going",
+          "start": 7255.48,
+          "end": 7255.62,
+          "probability": 1.0
+        },
+        {
+          "word": " to",
+          "start": 7255.62,
+          "end": 7255.68,
+          "probability": 1.0
+        },
+        {
+          "word": " do?",
+          "start": 7255.68,
+          "end": 7255.92,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 25,
+      "seek": 0,
+      "start": 7256.04,
+      "end": 7259.42,
+      "text": "For mom and dad, you're going to do something more",
+      "temperature": 0.0,
+      "avg_logprob": -0.17240239592159495,
+      "compression_ratio": 1.8930232558139535,
+      "no_speech_prob": 1.0120974154245732e-12,
+      "words": [
+        {
+          "word": " For",
+          "start": 7256.04,
+          "end": 7256.2,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " mom",
+          "start": 7256.2,
+          "end": 7256.58,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " and",
+          "start": 7256.58,
+          "end": 7256.78,
+          "probability": 1.0
+        },
+        {
+          "word": " dad,",
+          "start": 7256.78,
+          "end": 7257.2,
+          "probability": 1.0
+        },
+        {
+          "word": " you're",
+          "start": 7257.44,
+          "end": 7257.88,
+          "probability": 1.0
+        },
+        {
+          "word": " going",
+          "start": 7257.88,
+          "end": 7257.96,
+          "probability": 1.0
+        },
+        {
+          "word": " to",
+          "start": 7257.96,
+          "end": 7258.04,
+          "probability": 1.0
+        },
+        {
+          "word": " do",
+          "start": 7258.04,
+          "end": 7258.22,
+          "probability": 1.0
+        },
+        {
+          "word": " something",
+          "start": 7258.22,
+          "end": 7258.66,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " more",
+          "start": 7258.66,
+          "end": 7259.42,
+          "probability": 0.99853515625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 26,
+      "seek": 2942,
+      "start": 7259.42,
+      "end": 7259.98,
+      "text": "or from what you want.",
+      "temperature": 0.0,
+      "avg_logprob": -0.5819083319769965,
+      "compression_ratio": 0.7333333333333333,
+      "no_speech_prob": 4.830744311512536e-12,
+      "words": [
+        {
+          "word": " or",
+          "start": 7259.42,
+          "end": 7259.54,
+          "probability": 0.677734375
+        },
+        {
+          "word": " from",
+          "start": 7259.54,
+          "end": 7259.7,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " what",
+          "start": 7259.7,
+          "end": 7259.88,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " you",
+          "start": 7259.88,
+          "end": 7259.98,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " want.",
+          "start": 7259.98,
+          "end": 7259.98,
+          "probability": 0.2122802734375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 27,
+      "seek": 0,
+      "start": 7260.0,
+      "end": 7265.0,
+      "text": "have. All of us do that. We do that, we look at who the person is",
+      "temperature": 0.0,
+      "avg_logprob": -0.47087724585282176,
+      "compression_ratio": 1.4623655913978495,
+      "no_speech_prob": 2.0284125074043757e-11,
+      "words": [
+        {
+          "word": " have.",
+          "start": 7260.0,
+          "end": 7260.24,
+          "probability": 0.6240234375
+        },
+        {
+          "word": " All",
+          "start": 7260.84,
+          "end": 7261.32,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " of",
+          "start": 7261.32,
+          "end": 7261.48,
+          "probability": 1.0
+        },
+        {
+          "word": " us",
+          "start": 7261.48,
+          "end": 7261.64,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " do",
+          "start": 7261.64,
+          "end": 7261.8,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " that.",
+          "start": 7261.8,
+          "end": 7262.04,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " We",
+          "start": 7262.2,
+          "end": 7262.64,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " do",
+          "start": 7262.64,
+          "end": 7262.84,
+          "probability": 0.96875
+        },
+        {
+          "word": " that,",
+          "start": 7262.84,
+          "end": 7263.04,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " we",
+          "start": 7263.18,
+          "end": 7263.26,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " look",
+          "start": 7263.26,
+          "end": 7263.5,
+          "probability": 0.998046875
+        },
+        {
+          "word": " at",
+          "start": 7263.5,
+          "end": 7263.66,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " who",
+          "start": 7263.66,
+          "end": 7263.9,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " the",
+          "start": 7263.9,
+          "end": 7264.06,
+          "probability": 0.9921875
+        },
+        {
+          "word": " person",
+          "start": 7264.06,
+          "end": 7264.48,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " is",
+          "start": 7264.48,
+          "end": 7265.0,
+          "probability": 0.99755859375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 28,
+      "seek": 0,
+      "start": 7266.08,
+      "end": 7275.22,
+      "text": "and we will give something something, but it's with the",
+      "temperature": 0.0,
+      "avg_logprob": -0.47087724585282176,
+      "compression_ratio": 1.4623655913978495,
+      "no_speech_prob": 2.0284125074043757e-11,
+      "words": [
+        {
+          "word": " and",
+          "start": 7266.08,
+          "end": 7266.56,
+          "probability": 0.199462890625
+        },
+        {
+          "word": " we",
+          "start": 7266.56,
+          "end": 7266.98,
+          "probability": 0.1822509765625
+        },
+        {
+          "word": " will",
+          "start": 7266.98,
+          "end": 7267.66,
+          "probability": 0.53125
+        },
+        {
+          "word": " give",
+          "start": 7267.66,
+          "end": 7267.66,
+          "probability": 0.73486328125
+        },
+        {
+          "word": " something",
+          "start": 7267.66,
+          "end": 7267.68,
+          "probability": 0.57861328125
+        },
+        {
+          "word": " something,",
+          "start": 7267.68,
+          "end": 7269.64,
+          "probability": 0.30810546875
+        },
+        {
+          "word": " but",
+          "start": 7270.28,
+          "end": 7270.52,
+          "probability": 0.81640625
+        },
+        {
+          "word": " it's",
+          "start": 7270.52,
+          "end": 7271.64,
+          "probability": 0.5771484375
+        },
+        {
+          "word": " with",
+          "start": 7271.64,
+          "end": 7271.8,
+          "probability": 0.329833984375
+        },
+        {
+          "word": " the",
+          "start": 7271.8,
+          "end": 7275.22,
+          "probability": 0.5849609375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 29,
+      "seek": 0,
+      "start": 7275.22,
+      "end": 7280.78,
+      "text": "how much importance they are in our lives. That's how we end up doing that.",
+      "temperature": 0.0,
+      "avg_logprob": -0.47087724585282176,
+      "compression_ratio": 1.4623655913978495,
+      "no_speech_prob": 2.0284125074043757e-11,
+      "words": [
+        {
+          "word": " how",
+          "start": 7275.22,
+          "end": 7275.9,
+          "probability": 0.1610107421875
+        },
+        {
+          "word": " much",
+          "start": 7275.9,
+          "end": 7276.28,
+          "probability": 0.94970703125
+        },
+        {
+          "word": " importance",
+          "start": 7276.28,
+          "end": 7277.4,
+          "probability": 0.56640625
+        },
+        {
+          "word": " they",
+          "start": 7277.4,
+          "end": 7277.7,
+          "probability": 0.97802734375
+        },
+        {
+          "word": " are",
+          "start": 7277.7,
+          "end": 7277.94,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " in",
+          "start": 7277.94,
+          "end": 7278.08,
+          "probability": 0.998046875
+        },
+        {
+          "word": " our",
+          "start": 7278.08,
+          "end": 7278.2,
+          "probability": 0.998046875
+        },
+        {
+          "word": " lives.",
+          "start": 7278.2,
+          "end": 7278.74,
+          "probability": 0.998046875
+        },
+        {
+          "word": " That's",
+          "start": 7279.06,
+          "end": 7279.54,
+          "probability": 0.9853515625
+        },
+        {
+          "word": " how",
+          "start": 7279.54,
+          "end": 7279.66,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " we",
+          "start": 7279.66,
+          "end": 7279.8,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " end",
+          "start": 7279.8,
+          "end": 7279.98,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " up",
+          "start": 7279.98,
+          "end": 7280.1,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " doing",
+          "start": 7280.1,
+          "end": 7280.34,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " that.",
+          "start": 7280.34,
+          "end": 7280.78,
+          "probability": 0.9990234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 30,
+      "seek": 0,
+      "start": 7281.12,
+      "end": 7288.06,
+      "text": "Okay? So do you want a one dollar Starbucks gift card? Would you prefer an",
+      "temperature": 0.0,
+      "avg_logprob": -0.47087724585282176,
+      "compression_ratio": 1.4623655913978495,
+      "no_speech_prob": 2.0284125074043757e-11,
+      "words": [
+        {
+          "word": " Okay?",
+          "start": 7281.12,
+          "end": 7281.22,
+          "probability": 0.3427734375
+        },
+        {
+          "word": " So",
+          "start": 7282.06,
+          "end": 7282.5,
+          "probability": 0.96142578125
+        },
+        {
+          "word": " do",
+          "start": 7282.5,
+          "end": 7283.7,
+          "probability": 0.2802734375
+        },
+        {
+          "word": " you",
+          "start": 7283.7,
+          "end": 7283.8,
+          "probability": 1.0
+        },
+        {
+          "word": " want",
+          "start": 7283.8,
+          "end": 7283.94,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " a",
+          "start": 7283.94,
+          "end": 7284.04,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " one",
+          "start": 7284.04,
+          "end": 7284.22,
+          "probability": 0.221923828125
+        },
+        {
+          "word": " dollar",
+          "start": 7284.22,
+          "end": 7284.46,
+          "probability": 0.962890625
+        },
+        {
+          "word": " Starbucks",
+          "start": 7284.46,
+          "end": 7284.9,
+          "probability": 0.9921875
+        },
+        {
+          "word": " gift",
+          "start": 7284.9,
+          "end": 7285.24,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " card?",
+          "start": 7285.24,
+          "end": 7285.52,
+          "probability": 0.998046875
+        },
+        {
+          "word": " Would",
+          "start": 7286.48,
+          "end": 7286.96,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " you",
+          "start": 7286.96,
+          "end": 7287.06,
+          "probability": 1.0
+        },
+        {
+          "word": " prefer",
+          "start": 7287.06,
+          "end": 7287.44,
+          "probability": 1.0
+        },
+        {
+          "word": " an",
+          "start": 7287.44,
+          "end": 7288.06,
+          "probability": 0.99755859375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 31,
+      "seek": 2806,
+      "start": 7288.06,
+      "end": 7289.4,
+      "text": "I'm an iPad.",
+      "temperature": 0.0,
+      "avg_logprob": -0.795208752155304,
+      "compression_ratio": 0.6,
+      "no_speech_prob": 2.7390403313509726e-12,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 7288.06,
+          "end": 7288.38,
+          "probability": 0.5224609375
+        },
+        {
+          "word": " an",
+          "start": 7288.38,
+          "end": 7289.1,
+          "probability": 0.7421875
+        },
+        {
+          "word": " iPad.",
+          "start": 7289.1,
+          "end": 7289.4,
+          "probability": 0.9716796875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 7200.0,
+      "end": 7230.0,
+      "language": "en",
+      "seconds": 2.57513966714032
+    },
+    {
+      "start": 7230.0,
+      "end": 7260.0,
+      "language": "en",
+      "seconds": 3.1122397917788476
+    },
+    {
+      "start": 7260.0,
+      "end": 7290.0,
+      "language": "en",
+      "seconds": 2.5677080841269344
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 90.0,
+    "inference_seconds": 8.262724708998576,
+    "decode_seconds": 0.0702719169203192,
+    "real_time_factor": 0.0918080523222064,
+    "speedup": 10.89229075996988,
+    "peak_memory_gb": 2.210343558,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ]
+}

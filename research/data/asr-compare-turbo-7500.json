@@ -1,0 +1,973 @@
+{
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 7500,
+  "end": 7590.0,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 7500.0,
+      "end": 7506.36,
+      "text": "incarnation, and then to his crucifixion, to his resurrection, and to his ascension.",
+      "temperature": 0.0,
+      "avg_logprob": -0.12396673812079675,
+      "compression_ratio": 1.6995073891625616,
+      "no_speech_prob": 6.794924323726137e-13,
+      "words": [
+        {
+          "word": " incarnation,",
+          "start": 7500.0,
+          "end": 7500.66,
+          "probability": 0.84130859375
+        },
+        {
+          "word": " and",
+          "start": 7501.08,
+          "end": 7501.64,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " then",
+          "start": 7501.64,
+          "end": 7501.82,
+          "probability": 1.0
+        },
+        {
+          "word": " to",
+          "start": 7501.82,
+          "end": 7502.02,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " his",
+          "start": 7502.02,
+          "end": 7502.44,
+          "probability": 0.7119140625
+        },
+        {
+          "word": " crucifixion,",
+          "start": 7502.44,
+          "end": 7504.14,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " to",
+          "start": 7504.24,
+          "end": 7504.3,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " his",
+          "start": 7504.3,
+          "end": 7504.46,
+          "probability": 1.0
+        },
+        {
+          "word": " resurrection,",
+          "start": 7504.46,
+          "end": 7504.98,
+          "probability": 1.0
+        },
+        {
+          "word": " and",
+          "start": 7505.2,
+          "end": 7505.32,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " to",
+          "start": 7505.32,
+          "end": 7505.48,
+          "probability": 1.0
+        },
+        {
+          "word": " his",
+          "start": 7505.48,
+          "end": 7505.66,
+          "probability": 1.0
+        },
+        {
+          "word": " ascension.",
+          "start": 7505.66,
+          "end": 7506.36,
+          "probability": 0.99951171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 7506.82,
+      "end": 7515.44,
+      "text": "Those events really start in some way today with the birth of the Theotokos.",
+      "temperature": 0.0,
+      "avg_logprob": -0.12396673812079675,
+      "compression_ratio": 1.6995073891625616,
+      "no_speech_prob": 6.794924323726137e-13,
+      "words": [
+        {
+          "word": " Those",
+          "start": 7506.82,
+          "end": 7507.42,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " events",
+          "start": 7507.42,
+          "end": 7507.82,
+          "probability": 1.0
+        },
+        {
+          "word": " really",
+          "start": 7507.82,
+          "end": 7508.2,
+          "probability": 1.0
+        },
+        {
+          "word": " start",
+          "start": 7508.2,
+          "end": 7508.72,
+          "probability": 1.0
+        },
+        {
+          "word": " in",
+          "start": 7508.72,
+          "end": 7510.38,
+          "probability": 0.89599609375
+        },
+        {
+          "word": " some",
+          "start": 7510.38,
+          "end": 7510.62,
+          "probability": 1.0
+        },
+        {
+          "word": " way",
+          "start": 7510.62,
+          "end": 7510.84,
+          "probability": 1.0
+        },
+        {
+          "word": " today",
+          "start": 7510.84,
+          "end": 7511.32,
+          "probability": 1.0
+        },
+        {
+          "word": " with",
+          "start": 7511.32,
+          "end": 7512.74,
+          "probability": 0.994140625
+        },
+        {
+          "word": " the",
+          "start": 7512.74,
+          "end": 7513.7,
+          "probability": 1.0
+        },
+        {
+          "word": " birth",
+          "start": 7513.7,
+          "end": 7514.12,
+          "probability": 1.0
+        },
+        {
+          "word": " of",
+          "start": 7514.12,
+          "end": 7514.52,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 7514.52,
+          "end": 7514.66,
+          "probability": 1.0
+        },
+        {
+          "word": " Theotokos.",
+          "start": 7514.66,
+          "end": 7515.44,
+          "probability": 0.9697265625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 7515.76,
+      "end": 7516.86,
+      "text": "She is born.",
+      "temperature": 0.0,
+      "avg_logprob": -0.12396673812079675,
+      "compression_ratio": 1.6995073891625616,
+      "no_speech_prob": 6.794924323726137e-13,
+      "words": [
+        {
+          "word": " She",
+          "start": 7515.76,
+          "end": 7516.36,
+          "probability": 0.99609375
+        },
+        {
+          "word": " is",
+          "start": 7516.36,
+          "end": 7516.54,
+          "probability": 1.0
+        },
+        {
+          "word": " born.",
+          "start": 7516.54,
+          "end": 7516.86,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 7517.04,
+      "end": 7520.72,
+      "text": "In order for Christ to be born, the Theotokos must be born.",
+      "temperature": 0.0,
+      "avg_logprob": -0.12396673812079675,
+      "compression_ratio": 1.6995073891625616,
+      "no_speech_prob": 6.794924323726137e-13,
+      "words": [
+        {
+          "word": " In",
+          "start": 7517.04,
+          "end": 7517.12,
+          "probability": 0.465087890625
+        },
+        {
+          "word": " order",
+          "start": 7517.12,
+          "end": 7517.32,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " for",
+          "start": 7517.32,
+          "end": 7517.72,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " Christ",
+          "start": 7517.72,
+          "end": 7518.0,
+          "probability": 1.0
+        },
+        {
+          "word": " to",
+          "start": 7518.0,
+          "end": 7518.16,
+          "probability": 1.0
+        },
+        {
+          "word": " be",
+          "start": 7518.16,
+          "end": 7518.24,
+          "probability": 1.0
+        },
+        {
+          "word": " born,",
+          "start": 7518.24,
+          "end": 7518.42,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " the",
+          "start": 7518.54,
+          "end": 7518.6,
+          "probability": 1.0
+        },
+        {
+          "word": " Theotokos",
+          "start": 7518.6,
+          "end": 7519.22,
+          "probability": 1.0
+        },
+        {
+          "word": " must",
+          "start": 7519.22,
+          "end": 7520.2,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " be",
+          "start": 7520.2,
+          "end": 7520.42,
+          "probability": 1.0
+        },
+        {
+          "word": " born.",
+          "start": 7520.42,
+          "end": 7520.72,
+          "probability": 0.99951171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 7520.92,
+      "end": 7528.18,
+      "text": "So this is the beginning of that series of events that leads to, ultimately, the salvation",
+      "temperature": 0.0,
+      "avg_logprob": -0.12396673812079675,
+      "compression_ratio": 1.6995073891625616,
+      "no_speech_prob": 6.794924323726137e-13,
+      "words": [
+        {
+          "word": " So",
+          "start": 7520.92,
+          "end": 7521.26,
+          "probability": 0.9716796875
+        },
+        {
+          "word": " this",
+          "start": 7521.26,
+          "end": 7521.56,
+          "probability": 0.78271484375
+        },
+        {
+          "word": " is",
+          "start": 7521.56,
+          "end": 7521.86,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 7521.86,
+          "end": 7522.04,
+          "probability": 1.0
+        },
+        {
+          "word": " beginning",
+          "start": 7522.04,
+          "end": 7522.44,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " of",
+          "start": 7522.44,
+          "end": 7522.74,
+          "probability": 1.0
+        },
+        {
+          "word": " that",
+          "start": 7522.74,
+          "end": 7522.94,
+          "probability": 1.0
+        },
+        {
+          "word": " series",
+          "start": 7522.94,
+          "end": 7523.38,
+          "probability": 1.0
+        },
+        {
+          "word": " of",
+          "start": 7523.38,
+          "end": 7523.6,
+          "probability": 1.0
+        },
+        {
+          "word": " events",
+          "start": 7523.6,
+          "end": 7524.06,
+          "probability": 1.0
+        },
+        {
+          "word": " that",
+          "start": 7524.06,
+          "end": 7524.96,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " leads",
+          "start": 7524.96,
+          "end": 7525.4,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " to,",
+          "start": 7525.4,
+          "end": 7525.84,
+          "probability": 1.0
+        },
+        {
+          "word": " ultimately,",
+          "start": 7526.02,
+          "end": 7526.88,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " the",
+          "start": 7527.58,
+          "end": 7527.74,
+          "probability": 1.0
+        },
+        {
+          "word": " salvation",
+          "start": 7527.74,
+          "end": 7528.18,
+          "probability": 0.9990234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 7528.18,
+      "end": 7529.08,
+      "text": "of the whole world.",
+      "temperature": 0.0,
+      "avg_logprob": -0.12396673812079675,
+      "compression_ratio": 1.6995073891625616,
+      "no_speech_prob": 6.794924323726137e-13,
+      "words": [
+        {
+          "word": " of",
+          "start": 7528.18,
+          "end": 7528.42,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 7528.42,
+          "end": 7528.52,
+          "probability": 1.0
+        },
+        {
+          "word": " whole",
+          "start": 7528.52,
+          "end": 7528.68,
+          "probability": 1.0
+        },
+        {
+          "word": " world.",
+          "start": 7528.68,
+          "end": 7529.08,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 6,
+      "seek": 2908,
+      "start": 7529.08,
+      "end": 7529.98,
+      "text": "That's what happened.",
+      "temperature": 0.0,
+      "avg_logprob": -0.6062350273132324,
+      "compression_ratio": 0.7777777777777778,
+      "no_speech_prob": 1.3166892055826995e-11,
+      "words": [
+        {
+          "word": " That's",
+          "start": 7529.08,
+          "end": 7529.9,
+          "probability": 0.8857421875
+        },
+        {
+          "word": " what",
+          "start": 7529.9,
+          "end": 7529.98,
+          "probability": 0.9814453125
+        },
+        {
+          "word": " happened.",
+          "start": 7529.98,
+          "end": 7529.98,
+          "probability": 0.478515625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 7530.0,
+      "end": 7532.14,
+      "text": "happens today. So let's never forget",
+      "temperature": 0.0,
+      "avg_logprob": -0.13169245970876595,
+      "compression_ratio": 1.4080459770114941,
+      "no_speech_prob": 9.180504446926196e-12,
+      "words": [
+        {
+          "word": " happens",
+          "start": 7530.0,
+          "end": 7530.32,
+          "probability": 0.97509765625
+        },
+        {
+          "word": " today.",
+          "start": 7530.32,
+          "end": 7530.66,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " So",
+          "start": 7530.88,
+          "end": 7531.14,
+          "probability": 0.9921875
+        },
+        {
+          "word": " let's",
+          "start": 7531.14,
+          "end": 7531.38,
+          "probability": 0.92041015625
+        },
+        {
+          "word": " never",
+          "start": 7531.38,
+          "end": 7531.62,
+          "probability": 1.0
+        },
+        {
+          "word": " forget",
+          "start": 7531.62,
+          "end": 7532.14,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 7532.14,
+      "end": 7534.1,
+      "text": "September 8th is not",
+      "temperature": 0.0,
+      "avg_logprob": -0.13169245970876595,
+      "compression_ratio": 1.4080459770114941,
+      "no_speech_prob": 9.180504446926196e-12,
+      "words": [
+        {
+          "word": " September",
+          "start": 7532.14,
+          "end": 7532.98,
+          "probability": 0.8623046875
+        },
+        {
+          "word": " 8th",
+          "start": 7532.98,
+          "end": 7533.48,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " is",
+          "start": 7533.48,
+          "end": 7533.94,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " not",
+          "start": 7533.94,
+          "end": 7534.1,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 7534.1,
+      "end": 7536.04,
+      "text": "just a random day in the",
+      "temperature": 0.0,
+      "avg_logprob": -0.13169245970876595,
+      "compression_ratio": 1.4080459770114941,
+      "no_speech_prob": 9.180504446926196e-12,
+      "words": [
+        {
+          "word": " just",
+          "start": 7534.1,
+          "end": 7534.36,
+          "probability": 1.0
+        },
+        {
+          "word": " a",
+          "start": 7534.36,
+          "end": 7534.64,
+          "probability": 1.0
+        },
+        {
+          "word": " random",
+          "start": 7534.64,
+          "end": 7534.94,
+          "probability": 1.0
+        },
+        {
+          "word": " day",
+          "start": 7534.94,
+          "end": 7535.3,
+          "probability": 1.0
+        },
+        {
+          "word": " in",
+          "start": 7535.3,
+          "end": 7535.92,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " the",
+          "start": 7535.92,
+          "end": 7536.04,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 10,
+      "seek": 0,
+      "start": 7536.04,
+      "end": 7538.04,
+      "text": "year. It's the beginning of",
+      "temperature": 0.0,
+      "avg_logprob": -0.13169245970876595,
+      "compression_ratio": 1.4080459770114941,
+      "no_speech_prob": 9.180504446926196e-12,
+      "words": [
+        {
+          "word": " year.",
+          "start": 7536.04,
+          "end": 7536.3,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " It's",
+          "start": 7536.48,
+          "end": 7536.9,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " the",
+          "start": 7536.9,
+          "end": 7537.04,
+          "probability": 1.0
+        },
+        {
+          "word": " beginning",
+          "start": 7537.04,
+          "end": 7537.44,
+          "probability": 1.0
+        },
+        {
+          "word": " of",
+          "start": 7537.44,
+          "end": 7538.04,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 11,
+      "seek": 0,
+      "start": 7538.04,
+      "end": 7539.82,
+      "text": "the chronicle in some ways",
+      "temperature": 0.0,
+      "avg_logprob": -0.13169245970876595,
+      "compression_ratio": 1.4080459770114941,
+      "no_speech_prob": 9.180504446926196e-12,
+      "words": [
+        {
+          "word": " the",
+          "start": 7538.04,
+          "end": 7538.2,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " chronicle",
+          "start": 7538.2,
+          "end": 7538.86,
+          "probability": 0.9775390625
+        },
+        {
+          "word": " in",
+          "start": 7538.86,
+          "end": 7539.2,
+          "probability": 0.6474609375
+        },
+        {
+          "word": " some",
+          "start": 7539.2,
+          "end": 7539.42,
+          "probability": 1.0
+        },
+        {
+          "word": " ways",
+          "start": 7539.42,
+          "end": 7539.82,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 12,
+      "seek": 0,
+      "start": 7539.82,
+      "end": 7542.12,
+      "text": "of salvation. So God bless you.",
+      "temperature": 0.0,
+      "avg_logprob": -0.13169245970876595,
+      "compression_ratio": 1.4080459770114941,
+      "no_speech_prob": 9.180504446926196e-12,
+      "words": [
+        {
+          "word": " of",
+          "start": 7539.82,
+          "end": 7540.4,
+          "probability": 0.99609375
+        },
+        {
+          "word": " salvation.",
+          "start": 7540.4,
+          "end": 7540.94,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " So",
+          "start": 7541.18,
+          "end": 7541.5,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " God",
+          "start": 7541.5,
+          "end": 7541.68,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " bless",
+          "start": 7541.68,
+          "end": 7541.96,
+          "probability": 1.0
+        },
+        {
+          "word": " you.",
+          "start": 7541.96,
+          "end": 7542.12,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 13,
+      "seek": 0,
+      "start": 7542.24,
+      "end": 7543.86,
+      "text": "Thank you for being here today",
+      "temperature": 0.0,
+      "avg_logprob": -0.13169245970876595,
+      "compression_ratio": 1.4080459770114941,
+      "no_speech_prob": 9.180504446926196e-12,
+      "words": [
+        {
+          "word": " Thank",
+          "start": 7542.24,
+          "end": 7542.34,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " you",
+          "start": 7542.34,
+          "end": 7542.5,
+          "probability": 1.0
+        },
+        {
+          "word": " for",
+          "start": 7542.5,
+          "end": 7542.66,
+          "probability": 1.0
+        },
+        {
+          "word": " being",
+          "start": 7542.66,
+          "end": 7542.92,
+          "probability": 1.0
+        },
+        {
+          "word": " here",
+          "start": 7542.92,
+          "end": 7543.24,
+          "probability": 1.0
+        },
+        {
+          "word": " today",
+          "start": 7543.24,
+          "end": 7543.86,
+          "probability": 0.9990234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 14,
+      "seek": 0,
+      "start": 7543.86,
+      "end": 7545.84,
+      "text": "in church. Please come forward for",
+      "temperature": 0.0,
+      "avg_logprob": -0.13169245970876595,
+      "compression_ratio": 1.4080459770114941,
+      "no_speech_prob": 9.180504446926196e-12,
+      "words": [
+        {
+          "word": " in",
+          "start": 7543.86,
+          "end": 7544.56,
+          "probability": 0.55712890625
+        },
+        {
+          "word": " church.",
+          "start": 7544.56,
+          "end": 7544.8,
+          "probability": 0.98291015625
+        },
+        {
+          "word": " Please",
+          "start": 7545.0,
+          "end": 7545.14,
+          "probability": 0.998046875
+        },
+        {
+          "word": " come",
+          "start": 7545.14,
+          "end": 7545.36,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " forward",
+          "start": 7545.36,
+          "end": 7545.66,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " for",
+          "start": 7545.66,
+          "end": 7545.84,
+          "probability": 0.98876953125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 15,
+      "seek": 0,
+      "start": 7545.84,
+      "end": 7546.34,
+      "text": "Antidoro.",
+      "temperature": 0.0,
+      "avg_logprob": -0.13169245970876595,
+      "compression_ratio": 1.4080459770114941,
+      "no_speech_prob": 9.180504446926196e-12,
+      "words": [
+        {
+          "word": " Antidoro.",
+          "start": 7545.84,
+          "end": 7546.34,
+          "probability": 0.52490234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 16,
+      "seek": 0,
+      "start": 7585.9,
+      "end": 7588.7,
+      "text": "Υπότιτλοι AUTHORWAVE",
+      "temperature": 0.0,
+      "avg_logprob": -0.17405274709065754,
+      "compression_ratio": 0.7837837837837838,
+      "no_speech_prob": 1.6031792560156077e-10,
+      "words": [
+        {
+          "word": " Υπότιτλοι",
+          "start": 7585.9,
+          "end": 7587.3,
+          "probability": 0.849609375
+        },
+        {
+          "word": " AUTHORWAVE",
+          "start": 7587.3,
+          "end": 7588.7,
+          "probability": 0.994140625
+        }
+      ],
+      "asr_warnings": [
+        "Possible subtitle/promotion artifact in ASR; listen to verify."
+      ],
+      "language": "el"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 7500.0,
+      "end": 7530.0,
+      "language": "en",
+      "seconds": 3.049810583004728
+    },
+    {
+      "start": 7530.0,
+      "end": 7560.0,
+      "language": "en",
+      "seconds": 1.7692364579997957
+    },
+    {
+      "start": 7560.0,
+      "end": 7590.0,
+      "language": "el",
+      "seconds": 1.7539140838198364
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 90.0,
+    "inference_seconds": 6.578058124985546,
+    "decode_seconds": 0.08001149981282651,
+    "real_time_factor": 0.07308953472206162,
+    "speedup": 13.681849307191666,
+    "peak_memory_gb": 2.190781306,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ]
+}

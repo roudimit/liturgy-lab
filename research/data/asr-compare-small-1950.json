@@ -1,0 +1,1112 @@
+{
+  "model": "mlx-community/whisper-small-mlx",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 1950,
+  "end": 2040.0,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 1950.0,
+      "end": 1966.76,
+      "text": "Του νδεσίον εσχύθητε από του Κυρίου,",
+      "temperature": 0.0,
+      "avg_logprob": -0.7362779235839844,
+      "compression_ratio": 0.9705882352941176,
+      "no_speech_prob": 0.5290982723236084,
+      "words": [
+        {
+          "word": " Του",
+          "start": 1950.0,
+          "end": 1950.62,
+          "probability": 0.267333984375
+        },
+        {
+          "word": " νδεσίον",
+          "start": 1950.62,
+          "end": 1955.12,
+          "probability": 0.490966796875
+        },
+        {
+          "word": " εσχύθητε",
+          "start": 1955.12,
+          "end": 1959.88,
+          "probability": 0.62109375
+        },
+        {
+          "word": " από",
+          "start": 1959.88,
+          "end": 1961.16,
+          "probability": 0.90576171875
+        },
+        {
+          "word": " του",
+          "start": 1961.16,
+          "end": 1962.72,
+          "probability": 0.58203125
+        },
+        {
+          "word": " Κυρίου,",
+          "start": 1962.72,
+          "end": 1966.76,
+          "probability": 0.828125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 1,
+      "seek": 1676,
+      "start": 1966.76,
+      "end": 1973.48,
+      "text": "ως χόρτος γαρπήρι.",
+      "temperature": 0.0,
+      "avg_logprob": -0.8337727171002012,
+      "compression_ratio": 0.9402985074626866,
+      "no_speech_prob": 0.38348427414894104,
+      "words": [
+        {
+          "word": " ως",
+          "start": 1966.76,
+          "end": 1967.14,
+          "probability": 0.572265625
+        },
+        {
+          "word": " χόρτος",
+          "start": 1967.14,
+          "end": 1969.52,
+          "probability": 0.7646484375
+        },
+        {
+          "word": " γαρπήρι.",
+          "start": 1969.52,
+          "end": 1973.48,
+          "probability": 0.64453125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 2,
+      "seek": 1676,
+      "start": 1973.82,
+      "end": 1979.98,
+      "text": "Εσ' εσ' θε, αμπέ...",
+      "temperature": 0.0,
+      "avg_logprob": -0.8337727171002012,
+      "compression_ratio": 0.9402985074626866,
+      "no_speech_prob": 0.38348427414894104,
+      "words": [
+        {
+          "word": " Εσ'",
+          "start": 1973.82,
+          "end": 1975.22,
+          "probability": 0.76416015625
+        },
+        {
+          "word": " εσ'",
+          "start": 1975.34,
+          "end": 1976.44,
+          "probability": 0.55029296875
+        },
+        {
+          "word": " θε,",
+          "start": 1976.48,
+          "end": 1978.12,
+          "probability": 0.55126953125
+        },
+        {
+          "word": " αμπέ...",
+          "start": 1978.84,
+          "end": 1979.98,
+          "probability": 0.420166015625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 1980.0,
+      "end": 2009.98,
+      "text": "Ṣe Ṣi Ṣi Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣa Ṣ",
+      "temperature": 0.0,
+      "avg_logprob": -0.09185262044270834,
+      "compression_ratio": 12.08695652173913,
+      "no_speech_prob": 0.7583853602409363,
+      "words": [
+        {
+          "word": " Ṣe",
+          "start": 1980.0,
+          "end": 1980.12,
+          "probability": 0.20166015625
+        },
+        {
+          "word": " Ṣi",
+          "start": 1980.12,
+          "end": 1980.7,
+          "probability": 0.583984375
+        },
+        {
+          "word": " Ṣi",
+          "start": 1980.7,
+          "end": 1980.94,
+          "probability": 0.73681640625
+        },
+        {
+          "word": " Ṣa",
+          "start": 1980.94,
+          "end": 1981.18,
+          "probability": 0.75732421875
+        },
+        {
+          "word": " Ṣa",
+          "start": 1981.18,
+          "end": 1985.22,
+          "probability": 0.6474609375
+        },
+        {
+          "word": " Ṣa",
+          "start": 1985.22,
+          "end": 1986.9,
+          "probability": 0.88818359375
+        },
+        {
+          "word": " Ṣa",
+          "start": 1986.9,
+          "end": 1987.32,
+          "probability": 0.931640625
+        },
+        {
+          "word": " Ṣa",
+          "start": 1987.32,
+          "end": 1987.7,
+          "probability": 0.9453125
+        },
+        {
+          "word": " Ṣa",
+          "start": 1987.7,
+          "end": 1988.76,
+          "probability": 0.9541015625
+        },
+        {
+          "word": " Ṣa",
+          "start": 1988.76,
+          "end": 1989.42,
+          "probability": 0.9599609375
+        },
+        {
+          "word": " Ṣa",
+          "start": 1989.42,
+          "end": 1990.58,
+          "probability": 0.9658203125
+        },
+        {
+          "word": " Ṣa",
+          "start": 1990.58,
+          "end": 1991.02,
+          "probability": 0.96826171875
+        },
+        {
+          "word": " Ṣa",
+          "start": 1991.02,
+          "end": 1991.02,
+          "probability": 0.97119140625
+        },
+        {
+          "word": " Ṣa",
+          "start": 1991.02,
+          "end": 1991.78,
+          "probability": 0.974609375
+        },
+        {
+          "word": " Ṣa",
+          "start": 1991.78,
+          "end": 1992.02,
+          "probability": 0.97509765625
+        },
+        {
+          "word": " Ṣa",
+          "start": 1992.02,
+          "end": 1992.38,
+          "probability": 0.97705078125
+        },
+        {
+          "word": " Ṣa",
+          "start": 1992.38,
+          "end": 1993.86,
+          "probability": 0.9794921875
+        },
+        {
+          "word": " Ṣa",
+          "start": 1993.86,
+          "end": 1996.36,
+          "probability": 0.9794921875
+        },
+        {
+          "word": " Ṣa",
+          "start": 1996.36,
+          "end": 1999.38,
+          "probability": 0.9814453125
+        },
+        {
+          "word": " Ṣa",
+          "start": 1999.38,
+          "end": 2000.16,
+          "probability": 0.9814453125
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.16,
+          "end": 2000.16,
+          "probability": 0.98291015625
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.16,
+          "end": 2000.16,
+          "probability": 0.98388671875
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.16,
+          "end": 2000.16,
+          "probability": 0.984375
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.16,
+          "end": 2000.52,
+          "probability": 0.984375
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.984375
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.9853515625
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.986328125
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.986328125
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.98828125
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.98828125
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.98828125
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.98828125
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.98828125
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.98828125
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.98828125
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.52,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.52,
+          "end": 2000.6,
+          "probability": 0.986328125
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.6,
+          "end": 2000.86,
+          "probability": 0.9853515625
+        },
+        {
+          "word": " Ṣa",
+          "start": 2000.86,
+          "end": 2009.78,
+          "probability": 0.98486328125
+        },
+        {
+          "word": " Ṣa",
+          "start": 2009.78,
+          "end": 2009.78,
+          "probability": 0.9853515625
+        },
+        {
+          "word": " Ṣa",
+          "start": 2009.78,
+          "end": 2009.98,
+          "probability": 0.984375
+        },
+        {
+          "word": " Ṣa",
+          "start": 2009.98,
+          "end": 2009.98,
+          "probability": 0.982421875
+        },
+        {
+          "word": " Ṣ",
+          "start": 2009.98,
+          "end": 2009.98,
+          "probability": 0.97509765625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "la"
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 2011.58,
+      "end": 2033.18,
+      "text": "ʻĪkĪt o'u ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻu ʻ",
+      "temperature": 0.0,
+      "avg_logprob": -0.2339678446451823,
+      "compression_ratio": 8.576923076923077,
+      "no_speech_prob": 0.4074188768863678,
+      "words": [
+        {
+          "word": " ʻĪkĪt",
+          "start": 2011.58,
+          "end": 2012.54,
+          "probability": 0.2125244140625
+        },
+        {
+          "word": " o",
+          "start": 2012.54,
+          "end": 2013.5,
+          "probability": 0.1077880859375
+        },
+        {
+          "word": "'u",
+          "start": 2013.5,
+          "end": 2014.38,
+          "probability": 0.074462890625
+        },
+        {
+          "word": " ʻu",
+          "start": 2014.38,
+          "end": 2015.26,
+          "probability": 0.5361328125
+        },
+        {
+          "word": " ʻu",
+          "start": 2015.26,
+          "end": 2015.7,
+          "probability": 0.59814453125
+        },
+        {
+          "word": " ʻu",
+          "start": 2015.7,
+          "end": 2015.86,
+          "probability": 0.8173828125
+        },
+        {
+          "word": " ʻu",
+          "start": 2015.86,
+          "end": 2015.86,
+          "probability": 0.8857421875
+        },
+        {
+          "word": " ʻu",
+          "start": 2015.86,
+          "end": 2015.86,
+          "probability": 0.9033203125
+        },
+        {
+          "word": " ʻu",
+          "start": 2015.86,
+          "end": 2015.86,
+          "probability": 0.9091796875
+        },
+        {
+          "word": " ʻu",
+          "start": 2015.86,
+          "end": 2015.9,
+          "probability": 0.90966796875
+        },
+        {
+          "word": " ʻu",
+          "start": 2015.9,
+          "end": 2015.92,
+          "probability": 0.91259765625
+        },
+        {
+          "word": " ʻu",
+          "start": 2015.92,
+          "end": 2016.14,
+          "probability": 0.9130859375
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.14,
+          "end": 2016.14,
+          "probability": 0.9091796875
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.14,
+          "end": 2016.66,
+          "probability": 0.91064453125
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.66,
+          "end": 2016.66,
+          "probability": 0.9052734375
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.66,
+          "end": 2016.74,
+          "probability": 0.90234375
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.74,
+          "end": 2016.78,
+          "probability": 0.900390625
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.8974609375
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.89404296875
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.888671875
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.88818359375
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.8857421875
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.8857421875
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.88623046875
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.884765625
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.88427734375
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.8818359375
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.8818359375
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.88134765625
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.8818359375
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.88525390625
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.88525390625
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.88671875
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.884765625
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.8876953125
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.88916015625
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.88232421875
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.88671875
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.88623046875
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.88427734375
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.88671875
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.88623046875
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.88330078125
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.8837890625
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.8857421875
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.78,
+          "probability": 0.8857421875
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.78,
+          "end": 2016.82,
+          "probability": 0.8828125
+        },
+        {
+          "word": " ʻu",
+          "start": 2016.82,
+          "end": 2017.1,
+          "probability": 0.8857421875
+        },
+        {
+          "word": " ʻu",
+          "start": 2017.1,
+          "end": 2017.1,
+          "probability": 0.88818359375
+        },
+        {
+          "word": " ʻu",
+          "start": 2017.1,
+          "end": 2017.1,
+          "probability": 0.888671875
+        },
+        {
+          "word": " ʻu",
+          "start": 2017.1,
+          "end": 2019.62,
+          "probability": 0.884765625
+        },
+        {
+          "word": " ʻu",
+          "start": 2019.62,
+          "end": 2019.62,
+          "probability": 0.8916015625
+        },
+        {
+          "word": " ʻu",
+          "start": 2019.62,
+          "end": 2019.62,
+          "probability": 0.88818359375
+        },
+        {
+          "word": " ʻu",
+          "start": 2019.62,
+          "end": 2026.98,
+          "probability": 0.8896484375
+        },
+        {
+          "word": " ʻu",
+          "start": 2026.98,
+          "end": 2028.24,
+          "probability": 0.892578125
+        },
+        {
+          "word": " ʻ",
+          "start": 2028.24,
+          "end": 2033.18,
+          "probability": 0.857421875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "la"
+    },
+    {
+      "id": 5,
+      "seek": 2318,
+      "start": 2033.18,
+      "end": 2039.98,
+      "text": "ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri ʻĀri",
+      "temperature": 0.0,
+      "avg_logprob": -0.1264251708984375,
+      "compression_ratio": 13.578947368421053,
+      "no_speech_prob": 0.5981000065803528,
+      "words": [
+        {
+          "word": " ʻĀri",
+          "start": 2033.18,
+          "end": 2034.06,
+          "probability": 0.2333984375
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2034.06,
+          "end": 2034.56,
+          "probability": 0.61083984375
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2034.56,
+          "end": 2035.78,
+          "probability": 0.88671875
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2035.78,
+          "end": 2036.6,
+          "probability": 0.93017578125
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2036.6,
+          "end": 2039.34,
+          "probability": 0.9375
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.34,
+          "end": 2039.34,
+          "probability": 0.939453125
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.34,
+          "end": 2039.34,
+          "probability": 0.94140625
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.34,
+          "end": 2039.86,
+          "probability": 0.94287109375
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.86,
+          "end": 2039.86,
+          "probability": 0.9453125
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.86,
+          "end": 2039.86,
+          "probability": 0.94482421875
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.86,
+          "end": 2039.98,
+          "probability": 0.9482421875
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.951171875
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.953125
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.953125
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.95263671875
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.953125
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.95361328125
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.9541015625
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.9541015625
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.9541015625
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.9541015625
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.9541015625
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.95556640625
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.95556640625
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.953125
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.95703125
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.955078125
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.9580078125
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.95751953125
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.9580078125
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.958984375
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.96044921875
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.9609375
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.9580078125
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.9580078125
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.958984375
+        },
+        {
+          "word": " ʻĀri",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.96142578125
+        },
+        {
+          "word": " ",
+          "start": 2039.98,
+          "end": 2039.98,
+          "probability": 0.9951171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "la"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 1950.0,
+      "end": 1980.0,
+      "language": "el",
+      "seconds": 0.6062859171070158
+    },
+    {
+      "start": 1980.0,
+      "end": 2010.0,
+      "language": "la",
+      "seconds": 2.3904407089576125
+    },
+    {
+      "start": 2010.0,
+      "end": 2040.0,
+      "language": "la",
+      "seconds": 3.5291184580419213
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 90.0,
+    "inference_seconds": 6.531057166168466,
+    "decode_seconds": 0.05636649997904897,
+    "real_time_factor": 0.0725673018463163,
+    "speedup": 13.78031116711228,
+    "peak_memory_gb": 1.229558694,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ]
+}

@@ -1,0 +1,1802 @@
+{
+  "model": "mlx-community/whisper-small-mlx",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 2700,
+  "end": 2790.0,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 2700.0,
+      "end": 2728.9,
+      "text": "Κυρία Λαϊσόν, Κυρία Λαϊσόν, Κυρία Λαϊσόν, Κυρία Λαϊσόν, Κυρία Λαϊσόν, Κυρία Λαϊσόν, Κυρία Λαϊσόν, Κυρία Λαϊσόν, Κυρία Λαϊσόν, Κυρία Λαϊσόν, Κυρία Λαϊσόν, Κυρία Λαϊσόν, Κυρία Λαϊσόν, Κυρία Λαϊσόν, Κυρία Λαϊσόν, Κυρία Λαϊσόν, Κυρία Λαϊσόν, Κυ",
+      "temperature": 0.0,
+      "avg_logprob": -0.09909600999620226,
+      "compression_ratio": 10.463414634146341,
+      "no_speech_prob": 0.4328874945640564,
+      "words": [
+        {
+          "word": " Κυρία",
+          "start": 2700.0,
+          "end": 2701.94,
+          "probability": 0.470703125
+        },
+        {
+          "word": " Λαϊσόν,",
+          "start": 2701.94,
+          "end": 2704.56,
+          "probability": 0.75732421875
+        },
+        {
+          "word": " Κυρία",
+          "start": 2704.56,
+          "end": 2705.26,
+          "probability": 0.833984375
+        },
+        {
+          "word": " Λαϊσόν,",
+          "start": 2705.26,
+          "end": 2706.2,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " Κυρία",
+          "start": 2706.2,
+          "end": 2706.9,
+          "probability": 0.953125
+        },
+        {
+          "word": " Λαϊσόν,",
+          "start": 2706.9,
+          "end": 2707.84,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " Κυρία",
+          "start": 2707.84,
+          "end": 2708.42,
+          "probability": 0.966796875
+        },
+        {
+          "word": " Λαϊσόν,",
+          "start": 2708.42,
+          "end": 2709.54,
+          "probability": 0.99609375
+        },
+        {
+          "word": " Κυρία",
+          "start": 2709.58,
+          "end": 2710.76,
+          "probability": 0.9736328125
+        },
+        {
+          "word": " Λαϊσόν,",
+          "start": 2710.76,
+          "end": 2711.8,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " Κυρία",
+          "start": 2711.8,
+          "end": 2712.46,
+          "probability": 0.9765625
+        },
+        {
+          "word": " Λαϊσόν,",
+          "start": 2712.46,
+          "end": 2714.14,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " Κυρία",
+          "start": 2714.14,
+          "end": 2714.14,
+          "probability": 0.9755859375
+        },
+        {
+          "word": " Λαϊσόν,",
+          "start": 2714.14,
+          "end": 2714.24,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " Κυρία",
+          "start": 2714.24,
+          "end": 2714.46,
+          "probability": 0.9716796875
+        },
+        {
+          "word": " Λαϊσόν,",
+          "start": 2714.46,
+          "end": 2714.58,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " Κυρία",
+          "start": 2714.58,
+          "end": 2715.06,
+          "probability": 0.966796875
+        },
+        {
+          "word": " Λαϊσόν,",
+          "start": 2715.06,
+          "end": 2715.56,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " Κυρία",
+          "start": 2715.56,
+          "end": 2715.56,
+          "probability": 0.96337890625
+        },
+        {
+          "word": " Λαϊσόν,",
+          "start": 2715.56,
+          "end": 2719.22,
+          "probability": 0.99609375
+        },
+        {
+          "word": " Κυρία",
+          "start": 2719.32,
+          "end": 2719.34,
+          "probability": 0.96240234375
+        },
+        {
+          "word": " Λαϊσόν,",
+          "start": 2719.34,
+          "end": 2719.46,
+          "probability": 0.99609375
+        },
+        {
+          "word": " Κυρία",
+          "start": 2721.36,
+          "end": 2721.88,
+          "probability": 0.95947265625
+        },
+        {
+          "word": " Λαϊσόν,",
+          "start": 2721.88,
+          "end": 2722.12,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " Κυρία",
+          "start": 2722.16,
+          "end": 2722.56,
+          "probability": 0.962890625
+        },
+        {
+          "word": " Λαϊσόν,",
+          "start": 2722.56,
+          "end": 2723.36,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " Κυρία",
+          "start": 2723.36,
+          "end": 2723.64,
+          "probability": 0.962890625
+        },
+        {
+          "word": " Λαϊσόν,",
+          "start": 2723.64,
+          "end": 2724.14,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " Κυρία",
+          "start": 2724.34,
+          "end": 2725.16,
+          "probability": 0.96435546875
+        },
+        {
+          "word": " Λαϊσόν,",
+          "start": 2725.16,
+          "end": 2726.1,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " Κυρία",
+          "start": 2726.16,
+          "end": 2726.44,
+          "probability": 0.9619140625
+        },
+        {
+          "word": " Λαϊσόν,",
+          "start": 2726.44,
+          "end": 2726.46,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " Κυρία",
+          "start": 2727.22,
+          "end": 2727.22,
+          "probability": 0.96240234375
+        },
+        {
+          "word": " Λαϊσόν,",
+          "start": 2727.22,
+          "end": 2728.62,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " Κυ",
+          "start": 2728.88,
+          "end": 2728.9,
+          "probability": 0.9716796875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 1,
+      "seek": 2890,
+      "start": 2728.9,
+      "end": 2729.98,
+      "text": "Αυτοί οι αυτοί που έχουν δει αυτοί που έχουν δει αυτοί που έχουν δει αυτοί που έχουν δει αυτοί που έχουν δει αυτοί που έχουν δει αυτοί που έχουν δει αυτοί που έχουν δει αυτοί που έχουν δει αυτοί που έχουν δει αυτοί που έχουν δει αυτοί που έχουν δει αυτοί που έχουν δει αυτοί που έχουν δει αυτοί που έχουν δει αυτοί που έχουν δει αυτοί που έχουν δει αυτοί που έχουν δει αυτοί που έχουν δει αυτοί που έχουν δει αυτοί που έχουν δει αυτοί που έχουν δει αυτοί που έχουν δει αυτοί που έχουν δει αυ",
+      "temperature": 0.0,
+      "avg_logprob": -0.18702933417426215,
+      "compression_ratio": 15.241379310344827,
+      "no_speech_prob": 0.6276376843452454,
+      "words": [
+        {
+          "word": " Αυτοί",
+          "start": 2728.9,
+          "end": 2729.06,
+          "probability": 0.2261962890625
+        },
+        {
+          "word": " οι",
+          "start": 2729.06,
+          "end": 2729.12,
+          "probability": 0.10968017578125
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.12,
+          "end": 2729.3,
+          "probability": 0.548828125
+        },
+        {
+          "word": " που",
+          "start": 2729.3,
+          "end": 2729.44,
+          "probability": 0.142822265625
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.44,
+          "end": 2729.54,
+          "probability": 0.49609375
+        },
+        {
+          "word": " δει",
+          "start": 2729.54,
+          "end": 2729.54,
+          "probability": 0.11090087890625
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.54,
+          "end": 2729.54,
+          "probability": 0.60400390625
+        },
+        {
+          "word": " που",
+          "start": 2729.54,
+          "end": 2729.54,
+          "probability": 0.1405029296875
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.54,
+          "end": 2729.54,
+          "probability": 0.5771484375
+        },
+        {
+          "word": " δει",
+          "start": 2729.54,
+          "end": 2729.54,
+          "probability": 0.5654296875
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.54,
+          "end": 2729.54,
+          "probability": 0.76416015625
+        },
+        {
+          "word": " που",
+          "start": 2729.54,
+          "end": 2729.54,
+          "probability": 0.65478515625
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.54,
+          "end": 2729.54,
+          "probability": 0.9091796875
+        },
+        {
+          "word": " δει",
+          "start": 2729.54,
+          "end": 2729.54,
+          "probability": 0.8095703125
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.54,
+          "end": 2729.54,
+          "probability": 0.865234375
+        },
+        {
+          "word": " που",
+          "start": 2729.54,
+          "end": 2729.54,
+          "probability": 0.86962890625
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.54,
+          "end": 2729.54,
+          "probability": 0.96484375
+        },
+        {
+          "word": " δει",
+          "start": 2729.54,
+          "end": 2729.54,
+          "probability": 0.8974609375
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.54,
+          "end": 2729.54,
+          "probability": 0.92138671875
+        },
+        {
+          "word": " που",
+          "start": 2729.54,
+          "end": 2729.54,
+          "probability": 0.92578125
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.54,
+          "end": 2729.54,
+          "probability": 0.974609375
+        },
+        {
+          "word": " δει",
+          "start": 2729.54,
+          "end": 2729.54,
+          "probability": 0.919921875
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.54,
+          "end": 2729.54,
+          "probability": 0.94384765625
+        },
+        {
+          "word": " που",
+          "start": 2729.54,
+          "end": 2729.54,
+          "probability": 0.9453125
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.54,
+          "end": 2729.54,
+          "probability": 0.9794921875
+        },
+        {
+          "word": " δει",
+          "start": 2729.54,
+          "end": 2729.66,
+          "probability": 0.92822265625
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.95703125
+        },
+        {
+          "word": " που",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.95263671875
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.98193359375
+        },
+        {
+          "word": " δει",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.9345703125
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.9609375
+        },
+        {
+          "word": " που",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.95849609375
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.98388671875
+        },
+        {
+          "word": " δει",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.93896484375
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.96142578125
+        },
+        {
+          "word": " που",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.9619140625
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.98583984375
+        },
+        {
+          "word": " δει",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.943359375
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.96728515625
+        },
+        {
+          "word": " που",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.96435546875
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.986328125
+        },
+        {
+          "word": " δει",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.9462890625
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.9677734375
+        },
+        {
+          "word": " που",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.96728515625
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " δει",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.94921875
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.96826171875
+        },
+        {
+          "word": " που",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.970703125
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.98828125
+        },
+        {
+          "word": " δει",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.951171875
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.97265625
+        },
+        {
+          "word": " που",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.97216796875
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " δει",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.951171875
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.97216796875
+        },
+        {
+          "word": " που",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.97216796875
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.9892578125
+        },
+        {
+          "word": " δει",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.95458984375
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.974609375
+        },
+        {
+          "word": " που",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.9736328125
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.990234375
+        },
+        {
+          "word": " δει",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.95703125
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.9765625
+        },
+        {
+          "word": " που",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.97412109375
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.990234375
+        },
+        {
+          "word": " δει",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.958984375
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.97900390625
+        },
+        {
+          "word": " που",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.97509765625
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.99072265625
+        },
+        {
+          "word": " δει",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.962890625
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.98046875
+        },
+        {
+          "word": " που",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.97607421875
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " δει",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.962890625
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.98095703125
+        },
+        {
+          "word": " που",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.9765625
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " δει",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.9658203125
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.982421875
+        },
+        {
+          "word": " που",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.97705078125
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " δει",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.96728515625
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.9833984375
+        },
+        {
+          "word": " που",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.974609375
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.9921875
+        },
+        {
+          "word": " δει",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.9658203125
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.98388671875
+        },
+        {
+          "word": " που",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.974609375
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.66,
+          "end": 2729.66,
+          "probability": 0.9921875
+        },
+        {
+          "word": " δει",
+          "start": 2729.66,
+          "end": 2729.74,
+          "probability": 0.96875
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.74,
+          "end": 2729.78,
+          "probability": 0.98486328125
+        },
+        {
+          "word": " που",
+          "start": 2729.78,
+          "end": 2729.78,
+          "probability": 0.974609375
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.78,
+          "end": 2729.78,
+          "probability": 0.9921875
+        },
+        {
+          "word": " δει",
+          "start": 2729.78,
+          "end": 2729.78,
+          "probability": 0.970703125
+        },
+        {
+          "word": " αυτοί",
+          "start": 2729.78,
+          "end": 2729.92,
+          "probability": 0.98388671875
+        },
+        {
+          "word": " που",
+          "start": 2729.92,
+          "end": 2729.92,
+          "probability": 0.974609375
+        },
+        {
+          "word": " έχουν",
+          "start": 2729.92,
+          "end": 2729.92,
+          "probability": 0.9921875
+        },
+        {
+          "word": " δει",
+          "start": 2729.92,
+          "end": 2729.98,
+          "probability": 0.96923828125
+        },
+        {
+          "word": " αυ",
+          "start": 2729.98,
+          "end": 2729.98,
+          "probability": 0.9775390625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 2738.3,
+      "end": 2743.7,
+      "text": "both Joachim and Anna from their sterility stigma and Adam and Eve from their mortalities",
+      "temperature": 0.0,
+      "avg_logprob": -0.3474533137153177,
+      "compression_ratio": 1.5357142857142858,
+      "no_speech_prob": 0.6114230751991272,
+      "words": [
+        {
+          "word": " both",
+          "start": 2738.3,
+          "end": 2738.82,
+          "probability": 0.09259033203125
+        },
+        {
+          "word": " Joachim",
+          "start": 2738.82,
+          "end": 2739.34,
+          "probability": 0.9208984375
+        },
+        {
+          "word": " and",
+          "start": 2739.34,
+          "end": 2739.5,
+          "probability": 0.986328125
+        },
+        {
+          "word": " Anna",
+          "start": 2739.5,
+          "end": 2739.8,
+          "probability": 0.53076171875
+        },
+        {
+          "word": " from",
+          "start": 2739.8,
+          "end": 2740.04,
+          "probability": 0.85791015625
+        },
+        {
+          "word": " their",
+          "start": 2740.04,
+          "end": 2740.26,
+          "probability": 0.98828125
+        },
+        {
+          "word": " sterility",
+          "start": 2740.26,
+          "end": 2740.8,
+          "probability": 0.8291015625
+        },
+        {
+          "word": " stigma",
+          "start": 2740.8,
+          "end": 2741.38,
+          "probability": 0.359619140625
+        },
+        {
+          "word": " and",
+          "start": 2741.38,
+          "end": 2741.72,
+          "probability": 0.71923828125
+        },
+        {
+          "word": " Adam",
+          "start": 2741.72,
+          "end": 2742.04,
+          "probability": 0.98095703125
+        },
+        {
+          "word": " and",
+          "start": 2742.04,
+          "end": 2742.26,
+          "probability": 0.9287109375
+        },
+        {
+          "word": " Eve",
+          "start": 2742.26,
+          "end": 2742.44,
+          "probability": 0.994140625
+        },
+        {
+          "word": " from",
+          "start": 2742.44,
+          "end": 2742.82,
+          "probability": 0.97314453125
+        },
+        {
+          "word": " their",
+          "start": 2742.82,
+          "end": 2743.0,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " mortalities",
+          "start": 2743.0,
+          "end": 2743.7,
+          "probability": 0.6279296875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 2743.7,
+      "end": 2747.92,
+      "text": "ruin have been set free, o immaculate maid by your holy nativity.",
+      "temperature": 0.0,
+      "avg_logprob": -0.3474533137153177,
+      "compression_ratio": 1.5357142857142858,
+      "no_speech_prob": 0.6114230751991272,
+      "words": [
+        {
+          "word": " ruin",
+          "start": 2743.7,
+          "end": 2744.08,
+          "probability": 0.463134765625
+        },
+        {
+          "word": " have",
+          "start": 2744.08,
+          "end": 2744.34,
+          "probability": 0.93603515625
+        },
+        {
+          "word": " been",
+          "start": 2744.34,
+          "end": 2744.5,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " set",
+          "start": 2744.5,
+          "end": 2744.74,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " free,",
+          "start": 2744.74,
+          "end": 2745.1,
+          "probability": 0.98486328125
+        },
+        {
+          "word": " o",
+          "start": 2745.66,
+          "end": 2745.86,
+          "probability": 0.304931640625
+        },
+        {
+          "word": " immaculate",
+          "start": 2745.86,
+          "end": 2746.36,
+          "probability": 0.8681640625
+        },
+        {
+          "word": " maid",
+          "start": 2746.36,
+          "end": 2746.68,
+          "probability": 0.1632080078125
+        },
+        {
+          "word": " by",
+          "start": 2746.68,
+          "end": 2746.96,
+          "probability": 0.9482421875
+        },
+        {
+          "word": " your",
+          "start": 2746.96,
+          "end": 2747.12,
+          "probability": 0.95703125
+        },
+        {
+          "word": " holy",
+          "start": 2747.12,
+          "end": 2747.38,
+          "probability": 0.921875
+        },
+        {
+          "word": " nativity.",
+          "start": 2747.38,
+          "end": 2747.92,
+          "probability": 0.740234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 2748.68,
+      "end": 2754.14,
+      "text": "For this do your people hold celebration, redeemed from the guilt of transgression as they cry",
+      "temperature": 0.0,
+      "avg_logprob": -0.3474533137153177,
+      "compression_ratio": 1.5357142857142858,
+      "no_speech_prob": 0.6114230751991272,
+      "words": [
+        {
+          "word": " For",
+          "start": 2748.68,
+          "end": 2748.92,
+          "probability": 0.9091796875
+        },
+        {
+          "word": " this",
+          "start": 2748.92,
+          "end": 2749.18,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " do",
+          "start": 2749.18,
+          "end": 2749.36,
+          "probability": 0.748046875
+        },
+        {
+          "word": " your",
+          "start": 2749.36,
+          "end": 2749.5,
+          "probability": 0.98486328125
+        },
+        {
+          "word": " people",
+          "start": 2749.5,
+          "end": 2749.82,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " hold",
+          "start": 2749.82,
+          "end": 2750.2,
+          "probability": 0.98388671875
+        },
+        {
+          "word": " celebration,",
+          "start": 2750.2,
+          "end": 2750.94,
+          "probability": 0.97216796875
+        },
+        {
+          "word": " redeemed",
+          "start": 2751.5,
+          "end": 2752.0,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " from",
+          "start": 2752.0,
+          "end": 2752.22,
+          "probability": 0.99609375
+        },
+        {
+          "word": " the",
+          "start": 2752.22,
+          "end": 2752.34,
+          "probability": 0.99609375
+        },
+        {
+          "word": " guilt",
+          "start": 2752.34,
+          "end": 2752.6,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " of",
+          "start": 2752.6,
+          "end": 2752.86,
+          "probability": 0.99609375
+        },
+        {
+          "word": " transgression",
+          "start": 2752.86,
+          "end": 2753.54,
+          "probability": 0.994140625
+        },
+        {
+          "word": " as",
+          "start": 2753.54,
+          "end": 2753.76,
+          "probability": 0.89453125
+        },
+        {
+          "word": " they",
+          "start": 2753.76,
+          "end": 2753.9,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " cry",
+          "start": 2753.9,
+          "end": 2754.14,
+          "probability": 0.88720703125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 2754.14,
+      "end": 2754.54,
+      "text": "to you.",
+      "temperature": 0.0,
+      "avg_logprob": -0.3474533137153177,
+      "compression_ratio": 1.5357142857142858,
+      "no_speech_prob": 0.6114230751991272,
+      "words": [
+        {
+          "word": " to",
+          "start": 2754.14,
+          "end": 2754.38,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " you.",
+          "start": 2754.38,
+          "end": 2754.54,
+          "probability": 0.9931640625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 6,
+      "seek": 2454,
+      "start": 2754.54,
+      "end": 2759.98,
+      "text": "The Baron one bears the Theotokos, the nourisher of...",
+      "temperature": 0.0,
+      "avg_logprob": -0.5925184885660807,
+      "compression_ratio": 0.9473684210526315,
+      "no_speech_prob": 0.5730676054954529,
+      "words": [
+        {
+          "word": " The",
+          "start": 2754.54,
+          "end": 2755.68,
+          "probability": 0.31884765625
+        },
+        {
+          "word": " Baron",
+          "start": 2755.68,
+          "end": 2756.12,
+          "probability": 0.351806640625
+        },
+        {
+          "word": " one",
+          "start": 2756.12,
+          "end": 2756.48,
+          "probability": 0.43359375
+        },
+        {
+          "word": " bears",
+          "start": 2756.48,
+          "end": 2756.98,
+          "probability": 0.970703125
+        },
+        {
+          "word": " the",
+          "start": 2756.98,
+          "end": 2757.24,
+          "probability": 0.767578125
+        },
+        {
+          "word": " Theotokos,",
+          "start": 2757.24,
+          "end": 2758.72,
+          "probability": 0.740234375
+        },
+        {
+          "word": " the",
+          "start": 2758.84,
+          "end": 2758.98,
+          "probability": 0.92529296875
+        },
+        {
+          "word": " nourisher",
+          "start": 2758.98,
+          "end": 2759.68,
+          "probability": 0.8935546875
+        },
+        {
+          "word": " of...",
+          "start": 2759.68,
+          "end": 2759.98,
+          "probability": 0.556640625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 2760.76,
+      "end": 2768.02,
+      "text": "The bearer in one bears the theotokos, the nourisher of our lives.",
+      "temperature": 0.0,
+      "avg_logprob": -0.23502286275227866,
+      "compression_ratio": 1.6103286384976525,
+      "no_speech_prob": 0.5676661729812622,
+      "words": [
+        {
+          "word": " The",
+          "start": 2760.76,
+          "end": 2761.28,
+          "probability": 0.255615234375
+        },
+        {
+          "word": " bearer",
+          "start": 2761.28,
+          "end": 2761.72,
+          "probability": 0.38720703125
+        },
+        {
+          "word": " in",
+          "start": 2761.72,
+          "end": 2761.84,
+          "probability": 0.56201171875
+        },
+        {
+          "word": " one",
+          "start": 2761.84,
+          "end": 2761.96,
+          "probability": 0.9423828125
+        },
+        {
+          "word": " bears",
+          "start": 2761.96,
+          "end": 2762.32,
+          "probability": 0.9501953125
+        },
+        {
+          "word": " the",
+          "start": 2762.32,
+          "end": 2762.54,
+          "probability": 0.94921875
+        },
+        {
+          "word": " theotokos,",
+          "start": 2762.54,
+          "end": 2763.64,
+          "probability": 0.8525390625
+        },
+        {
+          "word": " the",
+          "start": 2763.72,
+          "end": 2763.88,
+          "probability": 0.83154296875
+        },
+        {
+          "word": " nourisher",
+          "start": 2763.88,
+          "end": 2764.9,
+          "probability": 0.9853515625
+        },
+        {
+          "word": " of",
+          "start": 2764.9,
+          "end": 2765.38,
+          "probability": 0.994140625
+        },
+        {
+          "word": " our",
+          "start": 2765.38,
+          "end": 2765.66,
+          "probability": 0.98388671875
+        },
+        {
+          "word": " lives.",
+          "start": 2765.66,
+          "end": 2768.02,
+          "probability": 0.5244140625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 2768.74,
+      "end": 2775.32,
+      "text": "The prayer with the sigh, sterile and barren of Joachim and Ivana was well received in the years of the Lord.",
+      "temperature": 0.0,
+      "avg_logprob": -0.23502286275227866,
+      "compression_ratio": 1.6103286384976525,
+      "no_speech_prob": 0.5676661729812622,
+      "words": [
+        {
+          "word": " The",
+          "start": 2768.74,
+          "end": 2769.24,
+          "probability": 0.818359375
+        },
+        {
+          "word": " prayer",
+          "start": 2769.24,
+          "end": 2769.56,
+          "probability": 0.984375
+        },
+        {
+          "word": " with",
+          "start": 2769.56,
+          "end": 2769.86,
+          "probability": 0.939453125
+        },
+        {
+          "word": " the",
+          "start": 2769.86,
+          "end": 2770.06,
+          "probability": 0.97265625
+        },
+        {
+          "word": " sigh,",
+          "start": 2770.06,
+          "end": 2770.34,
+          "probability": 0.447509765625
+        },
+        {
+          "word": " sterile",
+          "start": 2770.52,
+          "end": 2770.96,
+          "probability": 0.95166015625
+        },
+        {
+          "word": " and",
+          "start": 2770.96,
+          "end": 2771.16,
+          "probability": 0.66650390625
+        },
+        {
+          "word": " barren",
+          "start": 2771.16,
+          "end": 2771.5,
+          "probability": 0.97265625
+        },
+        {
+          "word": " of",
+          "start": 2771.5,
+          "end": 2771.68,
+          "probability": 0.81787109375
+        },
+        {
+          "word": " Joachim",
+          "start": 2771.68,
+          "end": 2772.22,
+          "probability": 0.9775390625
+        },
+        {
+          "word": " and",
+          "start": 2772.22,
+          "end": 2772.48,
+          "probability": 0.986328125
+        },
+        {
+          "word": " Ivana",
+          "start": 2772.48,
+          "end": 2772.82,
+          "probability": 0.525390625
+        },
+        {
+          "word": " was",
+          "start": 2772.82,
+          "end": 2773.56,
+          "probability": 0.77392578125
+        },
+        {
+          "word": " well",
+          "start": 2773.56,
+          "end": 2773.82,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " received",
+          "start": 2773.82,
+          "end": 2774.26,
+          "probability": 0.857421875
+        },
+        {
+          "word": " in",
+          "start": 2774.26,
+          "end": 2774.52,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " the",
+          "start": 2774.52,
+          "end": 2774.6,
+          "probability": 0.994140625
+        },
+        {
+          "word": " years",
+          "start": 2774.6,
+          "end": 2774.82,
+          "probability": 0.475341796875
+        },
+        {
+          "word": " of",
+          "start": 2774.82,
+          "end": 2775.0,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " the",
+          "start": 2775.0,
+          "end": 2775.14,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " Lord.",
+          "start": 2775.14,
+          "end": 2775.32,
+          "probability": 0.96630859375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 2775.96,
+      "end": 2779.7,
+      "text": "It unbound them and they blossomed the fruit that brings life to the world.",
+      "temperature": 0.0,
+      "avg_logprob": -0.23502286275227866,
+      "compression_ratio": 1.6103286384976525,
+      "no_speech_prob": 0.5676661729812622,
+      "words": [
+        {
+          "word": " It",
+          "start": 2775.96,
+          "end": 2776.1,
+          "probability": 0.95068359375
+        },
+        {
+          "word": " unbound",
+          "start": 2776.1,
+          "end": 2776.56,
+          "probability": 0.7470703125
+        },
+        {
+          "word": " them",
+          "start": 2776.56,
+          "end": 2776.88,
+          "probability": 0.76416015625
+        },
+        {
+          "word": " and",
+          "start": 2776.88,
+          "end": 2777.12,
+          "probability": 0.59326171875
+        },
+        {
+          "word": " they",
+          "start": 2777.12,
+          "end": 2777.24,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " blossomed",
+          "start": 2777.24,
+          "end": 2777.76,
+          "probability": 0.853515625
+        },
+        {
+          "word": " the",
+          "start": 2777.76,
+          "end": 2777.98,
+          "probability": 0.857421875
+        },
+        {
+          "word": " fruit",
+          "start": 2777.98,
+          "end": 2778.22,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " that",
+          "start": 2778.22,
+          "end": 2778.48,
+          "probability": 0.97802734375
+        },
+        {
+          "word": " brings",
+          "start": 2778.48,
+          "end": 2778.78,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " life",
+          "start": 2778.78,
+          "end": 2779.08,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " to",
+          "start": 2779.08,
+          "end": 2779.3,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " the",
+          "start": 2779.3,
+          "end": 2779.44,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " world.",
+          "start": 2779.44,
+          "end": 2779.7,
+          "probability": 0.99365234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 10,
+      "seek": 0,
+      "start": 2780.36,
+      "end": 2785.1,
+      "text": "For while he on the mountain did offer a prayer, she in the garden, the reproach did bear.",
+      "temperature": 0.0,
+      "avg_logprob": -0.23502286275227866,
+      "compression_ratio": 1.6103286384976525,
+      "no_speech_prob": 0.5676661729812622,
+      "words": [
+        {
+          "word": " For",
+          "start": 2780.36,
+          "end": 2780.56,
+          "probability": 0.97705078125
+        },
+        {
+          "word": " while",
+          "start": 2780.56,
+          "end": 2780.74,
+          "probability": 0.95947265625
+        },
+        {
+          "word": " he",
+          "start": 2780.74,
+          "end": 2780.96,
+          "probability": 0.7861328125
+        },
+        {
+          "word": " on",
+          "start": 2780.96,
+          "end": 2781.12,
+          "probability": 0.9521484375
+        },
+        {
+          "word": " the",
+          "start": 2781.12,
+          "end": 2781.22,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " mountain",
+          "start": 2781.22,
+          "end": 2781.5,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " did",
+          "start": 2781.5,
+          "end": 2781.74,
+          "probability": 0.982421875
+        },
+        {
+          "word": " offer",
+          "start": 2781.74,
+          "end": 2782.0,
+          "probability": 0.998046875
+        },
+        {
+          "word": " a",
+          "start": 2782.0,
+          "end": 2782.22,
+          "probability": 0.98046875
+        },
+        {
+          "word": " prayer,",
+          "start": 2782.22,
+          "end": 2782.48,
+          "probability": 0.998046875
+        },
+        {
+          "word": " she",
+          "start": 2783.04,
+          "end": 2783.14,
+          "probability": 0.9423828125
+        },
+        {
+          "word": " in",
+          "start": 2783.14,
+          "end": 2783.4,
+          "probability": 0.9833984375
+        },
+        {
+          "word": " the",
+          "start": 2783.4,
+          "end": 2783.5,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " garden,",
+          "start": 2783.5,
+          "end": 2783.8,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " the",
+          "start": 2784.16,
+          "end": 2784.24,
+          "probability": 0.9423828125
+        },
+        {
+          "word": " reproach",
+          "start": 2784.24,
+          "end": 2784.7,
+          "probability": 0.75390625
+        },
+        {
+          "word": " did",
+          "start": 2784.7,
+          "end": 2784.88,
+          "probability": 0.94921875
+        },
+        {
+          "word": " bear.",
+          "start": 2784.88,
+          "end": 2785.1,
+          "probability": 0.99755859375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 11,
+      "seek": 2510,
+      "start": 2785.1,
+      "end": 2789.48,
+      "text": "but then with joy the barren one bears the theotokos.",
+      "temperature": 0.0,
+      "avg_logprob": -0.4215652412838406,
+      "compression_ratio": 1.0392156862745099,
+      "no_speech_prob": 0.30284780263900757,
+      "words": [
+        {
+          "word": " but",
+          "start": 2785.1,
+          "end": 2786.34,
+          "probability": 0.341552734375
+        },
+        {
+          "word": " then",
+          "start": 2786.34,
+          "end": 2786.6,
+          "probability": 0.95458984375
+        },
+        {
+          "word": " with",
+          "start": 2786.6,
+          "end": 2786.78,
+          "probability": 0.92578125
+        },
+        {
+          "word": " joy",
+          "start": 2786.78,
+          "end": 2787.14,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " the",
+          "start": 2787.14,
+          "end": 2787.4,
+          "probability": 0.6181640625
+        },
+        {
+          "word": " barren",
+          "start": 2787.4,
+          "end": 2787.82,
+          "probability": 0.8515625
+        },
+        {
+          "word": " one",
+          "start": 2787.82,
+          "end": 2788.04,
+          "probability": 0.95947265625
+        },
+        {
+          "word": " bears",
+          "start": 2788.04,
+          "end": 2788.44,
+          "probability": 0.890625
+        },
+        {
+          "word": " the",
+          "start": 2788.44,
+          "end": 2788.68,
+          "probability": 0.951171875
+        },
+        {
+          "word": " theotokos.",
+          "start": 2788.68,
+          "end": 2789.48,
+          "probability": 0.759765625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 2700.0,
+      "end": 2730.0,
+      "language": "el",
+      "seconds": 2.466428624931723
+    },
+    {
+      "start": 2730.0,
+      "end": 2760.0,
+      "language": "en",
+      "seconds": 0.7554797499906272
+    },
+    {
+      "start": 2760.0,
+      "end": 2790.0,
+      "language": "en",
+      "seconds": 0.8699128329753876
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 90.0,
+    "inference_seconds": 4.0951153330970556,
+    "decode_seconds": 0.06813854211941361,
+    "real_time_factor": 0.045501281478856175,
+    "speedup": 21.97740299830207,
+    "peak_memory_gb": 1.229558694,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ]
+}

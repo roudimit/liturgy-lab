@@ -1,0 +1,448 @@
+{
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 7200,
+  "end": 7290.0,
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 7200.0,
+      "end": 7202.54,
+      "text": "your inheritance.",
+      "temperature": 0.0,
+      "avg_logprob": -0.6826683631310096,
+      "compression_ratio": 1.453781512605042,
+      "no_speech_prob": 1.779799640999613e-10,
+      "words": [
+        {
+          "word": " your",
+          "start": 7200.0,
+          "end": 7200.88,
+          "probability": 0.59423828125
+        },
+        {
+          "word": " inheritance.",
+          "start": 7200.88,
+          "end": 7202.54,
+          "probability": 0.982421875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 7204.42,
+      "end": 7206.42,
+      "text": "We have seen the true",
+      "temperature": 0.0,
+      "avg_logprob": -0.6826683631310096,
+      "compression_ratio": 1.453781512605042,
+      "no_speech_prob": 1.779799640999613e-10,
+      "words": [
+        {
+          "word": " We",
+          "start": 7204.42,
+          "end": 7204.6,
+          "probability": 0.79736328125
+        },
+        {
+          "word": " have",
+          "start": 7204.6,
+          "end": 7205.44,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " seen",
+          "start": 7205.44,
+          "end": 7205.76,
+          "probability": 0.953125
+        },
+        {
+          "word": " the",
+          "start": 7205.76,
+          "end": 7206.02,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " true",
+          "start": 7206.02,
+          "end": 7206.42,
+          "probability": 0.99365234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 7206.42,
+      "end": 7208.74,
+      "text": "life. We have received",
+      "temperature": 0.0,
+      "avg_logprob": -0.6826683631310096,
+      "compression_ratio": 1.453781512605042,
+      "no_speech_prob": 1.779799640999613e-10,
+      "words": [
+        {
+          "word": " life.",
+          "start": 7206.42,
+          "end": 7207.44,
+          "probability": 0.6796875
+        },
+        {
+          "word": " We",
+          "start": 7207.76,
+          "end": 7207.82,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " have",
+          "start": 7207.82,
+          "end": 7208.2,
+          "probability": 1.0
+        },
+        {
+          "word": " received",
+          "start": 7208.2,
+          "end": 7208.74,
+          "probability": 0.9990234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 7208.74,
+      "end": 7210.64,
+      "text": "the heavenly spirit.",
+      "temperature": 0.0,
+      "avg_logprob": -0.6826683631310096,
+      "compression_ratio": 1.453781512605042,
+      "no_speech_prob": 1.779799640999613e-10,
+      "words": [
+        {
+          "word": " the",
+          "start": 7208.74,
+          "end": 7209.08,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " heavenly",
+          "start": 7209.08,
+          "end": 7209.96,
+          "probability": 0.90478515625
+        },
+        {
+          "word": " spirit.",
+          "start": 7209.96,
+          "end": 7210.64,
+          "probability": 0.75244140625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 7211.06,
+      "end": 7213.12,
+      "text": "We have the true",
+      "temperature": 0.0,
+      "avg_logprob": -0.6826683631310096,
+      "compression_ratio": 1.453781512605042,
+      "no_speech_prob": 1.779799640999613e-10,
+      "words": [
+        {
+          "word": " We",
+          "start": 7211.06,
+          "end": 7211.6,
+          "probability": 0.98193359375
+        },
+        {
+          "word": " have",
+          "start": 7211.6,
+          "end": 7211.76,
+          "probability": 0.7373046875
+        },
+        {
+          "word": " the",
+          "start": 7211.76,
+          "end": 7211.78,
+          "probability": 0.09893798828125
+        },
+        {
+          "word": " true",
+          "start": 7211.78,
+          "end": 7213.12,
+          "probability": 0.96337890625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 7213.12,
+      "end": 7215.16,
+      "text": "faith. Worshiping",
+      "temperature": 0.0,
+      "avg_logprob": -0.6826683631310096,
+      "compression_ratio": 1.453781512605042,
+      "no_speech_prob": 1.779799640999613e-10,
+      "words": [
+        {
+          "word": " faith.",
+          "start": 7213.12,
+          "end": 7213.86,
+          "probability": 0.7890625
+        },
+        {
+          "word": " Worshiping",
+          "start": 7213.88,
+          "end": 7215.16,
+          "probability": 0.83642578125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 7215.16,
+      "end": 7216.94,
+      "text": "the undivided Trinity.",
+      "temperature": 0.0,
+      "avg_logprob": -0.6826683631310096,
+      "compression_ratio": 1.453781512605042,
+      "no_speech_prob": 1.779799640999613e-10,
+      "words": [
+        {
+          "word": " the",
+          "start": 7215.16,
+          "end": 7215.34,
+          "probability": 0.994140625
+        },
+        {
+          "word": " undivided",
+          "start": 7215.34,
+          "end": 7215.56,
+          "probability": 0.8984375
+        },
+        {
+          "word": " Trinity.",
+          "start": 7215.56,
+          "end": 7216.94,
+          "probability": 0.9541015625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 7218.0,
+      "end": 7218.94,
+      "text": "For the",
+      "temperature": 0.0,
+      "avg_logprob": -0.6826683631310096,
+      "compression_ratio": 1.453781512605042,
+      "no_speech_prob": 1.779799640999613e-10,
+      "words": [
+        {
+          "word": " For",
+          "start": 7218.0,
+          "end": 7218.64,
+          "probability": 0.90966796875
+        },
+        {
+          "word": " the",
+          "start": 7218.64,
+          "end": 7218.94,
+          "probability": 0.9990234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 7218.94,
+      "end": 7220.48,
+      "text": "Trinity",
+      "temperature": 0.0,
+      "avg_logprob": -0.6826683631310096,
+      "compression_ratio": 1.453781512605042,
+      "no_speech_prob": 1.779799640999613e-10,
+      "words": [
+        {
+          "word": " Trinity",
+          "start": 7218.94,
+          "end": 7220.48,
+          "probability": 0.99609375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 9,
+      "seek": 0,
+      "start": 7220.48,
+      "end": 7221.76,
+      "text": "has",
+      "temperature": 0.0,
+      "avg_logprob": -0.6826683631310096,
+      "compression_ratio": 1.453781512605042,
+      "no_speech_prob": 1.779799640999613e-10,
+      "words": [
+        {
+          "word": " has",
+          "start": 7220.48,
+          "end": 7221.76,
+          "probability": 0.98291015625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 10,
+      "seek": 0,
+      "start": 7221.76,
+      "end": 7222.48,
+      "text": "come.",
+      "temperature": 0.0,
+      "avg_logprob": -0.6826683631310096,
+      "compression_ratio": 1.453781512605042,
+      "no_speech_prob": 1.779799640999613e-10,
+      "words": [
+        {
+          "word": " come.",
+          "start": 7221.76,
+          "end": 7222.48,
+          "probability": 0.09051513671875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 11,
+      "seek": 0,
+      "start": 7224.34,
+      "end": 7225.04,
+      "text": "Amen.",
+      "temperature": 0.0,
+      "avg_logprob": -0.6826683631310096,
+      "compression_ratio": 1.453781512605042,
+      "no_speech_prob": 1.779799640999613e-10,
+      "words": [
+        {
+          "word": " Amen.",
+          "start": 7224.34,
+          "end": 7225.04,
+          "probability": 0.4931640625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 12,
+      "seek": 0,
+      "start": 7237.08,
+      "end": 7238.48,
+      "text": "Αμήν.",
+      "temperature": 0.0,
+      "avg_logprob": -1.0062463283538818,
+      "compression_ratio": 0.5,
+      "no_speech_prob": 2.8831120824079903e-10,
+      "words": [
+        {
+          "word": " Αμήν.",
+          "start": 7237.08,
+          "end": 7238.48,
+          "probability": 0.6123046875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "el"
+    },
+    {
+      "id": 13,
+      "seek": 0,
+      "start": 7283.88,
+      "end": 7286.68,
+      "text": "Υπότιτλοι AUTHORWAVE",
+      "temperature": 0.0,
+      "avg_logprob": -0.24822624524434408,
+      "compression_ratio": 0.7837837837837838,
+      "no_speech_prob": 1.807766714101433e-10,
+      "words": [
+        {
+          "word": " Υπότιτλοι",
+          "start": 7283.88,
+          "end": 7285.28,
+          "probability": 0.7529296875
+        },
+        {
+          "word": " AUTHORWAVE",
+          "start": 7285.28,
+          "end": 7286.68,
+          "probability": 0.96533203125
+        }
+      ],
+      "asr_warnings": [
+        "Possible subtitle/promotion artifact in ASR; listen to verify."
+      ],
+      "language": "el"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 7200.0,
+      "end": 7230.0,
+      "language": "en",
+      "seconds": 1.9007360830437392
+    },
+    {
+      "start": 7230.0,
+      "end": 7260.0,
+      "language": "el",
+      "seconds": 1.6227925000712276
+    },
+    {
+      "start": 7260.0,
+      "end": 7290.0,
+      "language": "el",
+      "seconds": 1.672721290960908
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 90.0,
+    "inference_seconds": 5.199335291981697,
+    "decode_seconds": 0.08796312496997416,
+    "real_time_factor": 0.05777039213312997,
+    "speedup": 17.309905006279564,
+    "peak_memory_gb": 2.190781306,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Raw uncorrected ASR; no reference prompt.",
+    "Independent chunk boundaries can split words.",
+    "Language is detected once per chunk, so within-chunk switches can still fail.",
+    "Speed includes model load and first-use compilation; downloads should be completed first."
+  ]
+}

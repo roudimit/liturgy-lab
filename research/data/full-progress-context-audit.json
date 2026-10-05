@@ -1,0 +1,853 @@
+{
+  "segment_count": 874,
+  "analyzed_end": 7097.58,
+  "opening_detection": {
+    "detected": true,
+    "start": 4411.84,
+    "method": "opening_blessing_text_heuristic",
+    "heuristic": true,
+    "independently_verified": false,
+    "similarity_score": 0.9474,
+    "evidence": [
+      {
+        "segment_id": 515,
+        "start": 4411.84,
+        "text": "Ευλογημένη βασιλεία του Πατρός και του Υιού και του Αγιού Πνεύματος, νυν και αϊκέης τους αιώνας των αιώνων,"
+      },
+      {
+        "segment_id": 516,
+        "start": 4423.22,
+        "text": "εν ειρήνη του Κυρίου Δεηθώμες, υπέρ της ανώθεν ειρήνης και της σωτηριάς των ψυχών ημών του Κυρίου Δεηθώμες,"
+      },
+      {
+        "segment_id": 517,
+        "start": 4436.84,
+        "text": "Υπότιτλοι AUTHORWAVE"
+      }
+    ],
+    "note": "Opening phrase and Trinitarian continuation found in nearby ASR; inspect the audio to verify."
+  },
+  "raw_match_counts": {
+    "unknown": 464,
+    "uncertain": 341,
+    "matched": 69
+  },
+  "gated_match_counts": {
+    "unknown": 464,
+    "uncertain": 356,
+    "matched": 54
+  },
+  "suppressed_location_count": 15,
+  "after_opening_matches": [
+    {
+      "id": 516,
+      "start": 4423.22,
+      "end": 4436.84,
+      "text": "εν ειρήνη του Κυρίου Δεηθώμες, υπέρ της ανώθεν ειρήνης και της σωτηριάς των ψυχών ημών του Κυρίου Δεηθώμες,",
+      "match": {
+        "unit_id": "u0005",
+        "section_id": "s000",
+        "section_title": "Opening blessing and Peace Litany",
+        "score": 0.9785,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 518,
+      "start": 4441.4,
+      "end": 4452.04,
+      "text": "Υπέρ της ειρηνής του σήμαντος κόσμα εφταθίας των Αγίων του Θεού εκκλησιών και της των πάντων ενός αιώσ του Κυρίου δε ηθόμεν.",
+      "match": {
+        "unit_id": "u0007",
+        "section_id": "s000",
+        "section_title": "Opening blessing and Peace Litany",
+        "score": 0.9196,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 519,
+      "start": 4456.22,
+      "end": 4466.98,
+      "text": "Υπέρ του Αγίου οίκου τούτου και των μεταπίστεως ευλαβίας και φόβου Θεού ισιόντων εν αυτό του Κυρίου δε ηθόμεν.",
+      "match": {
+        "unit_id": "u0009",
+        "section_id": "s000",
+        "section_title": "Opening blessing and Peace Litany",
+        "score": 0.9438,
+        "status": "matched",
+        "method": "context",
+        "reason": "Repeated response between two nearby distinctive anchors"
+      }
+    },
+    {
+      "id": 521,
+      "start": 4472.36,
+      "end": 4485.0,
+      "text": "Υπέρ του Αρχιεπισκόπου και πατρός Συμμον Νικολάου του Τιμίου Πρεσβυτερίου της εν Χριστώ διακονίας παντός του κλήρου και του λαού του Κυρίου Δεηθώμεν.",
+      "match": {
+        "unit_id": "u0013",
+        "section_id": "s000",
+        "section_title": "Opening blessing and Peace Litany",
+        "score": 0.8888,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 524,
+      "start": 4507.86,
+      "end": 4509.9,
+      "text": "and the faithful who live in them,",
+      "match": {
+        "unit_id": "u0017",
+        "section_id": "s000",
+        "section_title": "Opening blessing and Peace Litany",
+        "score": 0.9318,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 526,
+      "start": 4515.12,
+      "end": 4517.76,
+      "text": "For favourable weather and abundance",
+      "match": {
+        "unit_id": "u0019",
+        "section_id": "s000",
+        "section_title": "Opening blessing and Peace Litany",
+        "score": 0.914,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 531,
+      "start": 4530.0,
+      "end": 4532.28,
+      "text": "the sick, the suffering, the captives,",
+      "match": {
+        "unit_id": "u0021",
+        "section_id": "s000",
+        "section_title": "Opening blessing and Peace Litany",
+        "score": 1.0,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 532,
+      "start": 4532.28,
+      "end": 4533.98,
+      "text": "and for their salvation,",
+      "match": {
+        "unit_id": "u0021",
+        "section_id": "s000",
+        "section_title": "Opening blessing and Peace Litany",
+        "score": 1.0,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 579,
+      "start": 4844.0,
+      "end": 4847.98,
+      "text": "Remembering our most holy, pure, blessed, and glorious Lady,",
+      "match": {
+        "unit_id": "u0211",
+        "section_id": "s016",
+        "section_title": "Holy Anaphora",
+        "score": 0.8628,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 642,
+      "start": 5302.1,
+      "end": 5307.82,
+      "text": "to the glory of God the Father.",
+      "match": {
+        "unit_id": "u0263",
+        "section_id": "s020",
+        "section_title": "Elevation, Fraction, and Communion",
+        "score": 1.0,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 646,
+      "start": 5324.26,
+      "end": 5327.98,
+      "text": "Wisdom arise, let us hear the holy gospel.",
+      "match": {
+        "unit_id": "u0124",
+        "section_id": "s011",
+        "section_title": "The Holy Gospel",
+        "score": 1.0,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 647,
+      "start": 5328.54,
+      "end": 5330.34,
+      "text": "Peace be with all.",
+      "match": {
+        "unit_id": "u0125",
+        "section_id": "s011",
+        "section_title": "The Holy Gospel",
+        "score": 1.0,
+        "status": "matched",
+        "method": "context",
+        "reason": "Repeated response between two nearby distinctive anchors"
+      }
+    },
+    {
+      "id": 648,
+      "start": 5331.54,
+      "end": 5333.84,
+      "text": "And with your spirit.",
+      "match": {
+        "unit_id": "u0126",
+        "section_id": "s011",
+        "section_title": "The Holy Gospel",
+        "score": 1.0,
+        "status": "matched",
+        "method": "context",
+        "reason": "Repeated response between two nearby distinctive anchors"
+      }
+    },
+    {
+      "id": 649,
+      "start": 5334.76,
+      "end": 5338.12,
+      "text": "The reading is from the gospel according to St. Luke.",
+      "match": {
+        "unit_id": "u0127",
+        "section_id": "s011",
+        "section_title": "The Holy Gospel",
+        "score": 0.8796,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 664,
+      "start": 5431.04,
+      "end": 5437.62,
+      "text": "Όπως υπό το κράτο σου πάντοτε φιλαθόμενης η δόξανα αναπέμπομεν",
+      "match": {
+        "unit_id": "u0135",
+        "section_id": "s011",
+        "section_title": "The Holy Gospel",
+        "score": 0.876,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 693,
+      "start": 5730.0,
+      "end": 5736.5,
+      "text": "Τον όλον υποδεξόμενοι.",
+      "match": {
+        "unit_id": "u0137",
+        "section_id": "s012",
+        "section_title": "The Cherubic Hymn",
+        "score": 0.97,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 697,
+      "start": 5760.0,
+      "end": 5769.0,
+      "text": "May the Lord our God remember all of you in his kingdom,",
+      "match": {
+        "unit_id": "u0142",
+        "section_id": "s012",
+        "section_title": "The Cherubic Hymn",
+        "score": 0.9648,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 730,
+      "start": 6050.44,
+      "end": 6055.58,
+      "text": "αγαπήσωμεν αλληλούσινα εν ομονία,",
+      "match": {
+        "unit_id": "u0175",
+        "section_id": "s014",
+        "section_title": "Kiss of Peace and Creed",
+        "score": 0.9455,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 733,
+      "start": 6090.0,
+      "end": 6097.52,
+      "text": "Πιστεύω εις ένα Θεόν, Πατέρα παντοκράτορα, ποιητήν ουρανού και γης ορατώνται πάντων και αοράτων,",
+      "match": {
+        "unit_id": "u0178",
+        "section_id": "s015",
+        "section_title": "The Creed",
+        "score": 0.9803,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 734,
+      "start": 6097.64,
+      "end": 6105.22,
+      "text": "και εις ένα Κύριον Ιησούν Χριστόν, τον Υιόν του Θεού, τον Μονογενή, τον έκτου Πατρός γεννηθέντα προπάντων των αιώνων,",
+      "match": {
+        "unit_id": "u0178",
+        "section_id": "s015",
+        "section_title": "The Creed",
+        "score": 0.9808,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 735,
+      "start": 6105.36,
+      "end": 6113.58,
+      "text": "φως εκ φωτός Θεών αληθινών εκ Θεού αληθινού, γεννηθέντα ουπηθέντα, ομωώσιον το πατρίδιο, τα πάντα αγένετο,",
+      "match": {
+        "unit_id": "u0178",
+        "section_id": "s015",
+        "section_title": "The Creed",
+        "score": 0.9108,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 736,
+      "start": 6113.58,
+      "end": 6119.98,
+      "text": "τον δίημάς τους ανθρώπους και διά την ημετέραν σωτηρίαν κατελουθώντα εκ των ουρανών και σαρκωθέντας.",
+      "match": {
+        "unit_id": "u0178",
+        "section_id": "s015",
+        "section_title": "The Creed",
+        "score": 0.9625,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 737,
+      "start": 6120.0,
+      "end": 6123.6,
+      "text": "εκ Πνεύματος Αγίου και Μαρίας της Παρθένου και εναντροπήσαντα.",
+      "match": {
+        "unit_id": "u0178",
+        "section_id": "s015",
+        "section_title": "The Creed",
+        "score": 0.9714,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 738,
+      "start": 6124.46,
+      "end": 6128.32,
+      "text": "Σταυρωθέντατε υπερ ημών επί ποντίου Πιλάτου και παθώντα και τα φέντα.",
+      "match": {
+        "unit_id": "u0178",
+        "section_id": "s015",
+        "section_title": "The Creed",
+        "score": 0.969,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 739,
+      "start": 6128.5,
+      "end": 6131.36,
+      "text": "Κι αναστάντα τη τρίτη ημέρα κατά τα σγραφάς.",
+      "match": {
+        "unit_id": "u0178",
+        "section_id": "s015",
+        "section_title": "The Creed",
+        "score": 0.9096,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 740,
+      "start": 6131.42,
+      "end": 6135.46,
+      "text": "Κι ανελθώντα εις τους ουρανούς και κατεζόμενων εκδεσιών του Πατρός",
+      "match": {
+        "unit_id": "u0178",
+        "section_id": "s015",
+        "section_title": "The Creed",
+        "score": 0.9237,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 741,
+      "start": 6135.46,
+      "end": 6139.56,
+      "text": "και πάλιν ερχόμενον με τα δόξης κρίνεζώντας και νεκρούς",
+      "match": {
+        "unit_id": "u0178",
+        "section_id": "s015",
+        "section_title": "The Creed",
+        "score": 0.9417,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 742,
+      "start": 6139.56,
+      "end": 6142.1,
+      "text": "ου της Βασιλείας σου και αστε τέλος.",
+      "match": {
+        "unit_id": "u0178",
+        "section_id": "s015",
+        "section_title": "The Creed",
+        "score": 0.8662,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 743,
+      "start": 6142.24,
+      "end": 6145.66,
+      "text": "Κι εις το Πνεύμα το Άγιον το Κύριον το Ζωπιόν",
+      "match": {
+        "unit_id": "u0178",
+        "section_id": "s015",
+        "section_title": "The Creed",
+        "score": 0.9581,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 744,
+      "start": 6163.4,
+      "end": 6176.44,
+      "text": "Στο μεν καλώς, στο μεν μεταφόβο, προσκομεν την Αγίαν αναφοραν, εν ειρήνη προσφέρει.",
+      "match": {
+        "unit_id": "u0180",
+        "section_id": "s016",
+        "section_title": "Holy Anaphora",
+        "score": 0.9012,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 745,
+      "start": 6189.0,
+      "end": 6200.04,
+      "text": "Χαρίς του Κύριου ημών Ιησού Χριστού και αγάπη του Θεού και Πατρός και η κοινωνία του Άγιου Πνεύματος",
+      "match": {
+        "unit_id": "u0182",
+        "section_id": "s016",
+        "section_title": "Holy Anaphora",
+        "score": 0.985,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 773,
+      "start": 6339.9,
+      "end": 6345.68,
+      "text": "Drink of it, all of you, this is my blood of the new covenant,",
+      "match": {
+        "unit_id": "u0195",
+        "section_id": "s016",
+        "section_title": "Holy Anaphora",
+        "score": 1.0,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 774,
+      "start": 6346.86,
+      "end": 6354.3,
+      "text": "shed for you and for many for the forgiveness of sins.",
+      "match": {
+        "unit_id": "u0195",
+        "section_id": "s016",
+        "section_title": "Holy Anaphora",
+        "score": 0.9005,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 795,
+      "start": 6469.04,
+      "end": 6475.9,
+      "text": "Εξαιρέτως της Παναγίας Αγγράμντου, υπερευλογημένης εν δόξου,",
+      "match": {
+        "unit_id": "u0211",
+        "section_id": "s016",
+        "section_title": "Holy Anaphora",
+        "score": 0.9331,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 804,
+      "start": 6609.16,
+      "end": 6616.24,
+      "text": "The mercy of our great God and Savior, Jesus Christ, be with you all.",
+      "match": {
+        "unit_id": "u0221",
+        "section_id": "s017",
+        "section_title": "Hymn to the Theotokos",
+        "score": 0.96,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 811,
+      "start": 6638.62,
+      "end": 6642.1,
+      "text": "as an offering of spiritual fragrance",
+      "match": {
+        "unit_id": "u0227",
+        "section_id": "s018",
+        "section_title": "The Lord’s Prayer",
+        "score": 1.0,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 812,
+      "start": 6642.1,
+      "end": 6645.56,
+      "text": "may return to send down upon us divine grace",
+      "match": {
+        "unit_id": "u0227",
+        "section_id": "s018",
+        "section_title": "The Lord’s Prayer",
+        "score": 0.8838,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 813,
+      "start": 6645.56,
+      "end": 6647.36,
+      "text": "in the gift of the Holy Spirit",
+      "match": {
+        "unit_id": "u0227",
+        "section_id": "s018",
+        "section_title": "The Lord’s Prayer",
+        "score": 0.975,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 815,
+      "start": 6649.3,
+      "end": 6652.08,
+      "text": "having prayed for the unity of faith",
+      "match": {
+        "unit_id": "u0246",
+        "section_id": "s018",
+        "section_title": "The Lord’s Prayer",
+        "score": 0.8955,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 820,
+      "start": 6705.04,
+      "end": 6709.08,
+      "text": "Our Father, who art in heaven, hallowed be thy name.",
+      "match": {
+        "unit_id": "u0250",
+        "section_id": "s018",
+        "section_title": "The Lord’s Prayer",
+        "score": 1.0,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 821,
+      "start": 6709.48,
+      "end": 6713.64,
+      "text": "Thy kingdom come, thy will be done, on earth as it is in heaven.",
+      "match": {
+        "unit_id": "u0250",
+        "section_id": "s018",
+        "section_title": "The Lord’s Prayer",
+        "score": 1.0,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 822,
+      "start": 6713.64,
+      "end": 6719.98,
+      "text": "give us this day our daily bread and forgive us our trespasses as we forgive those who",
+      "match": {
+        "unit_id": "u0250",
+        "section_id": "s018",
+        "section_title": "The Lord’s Prayer",
+        "score": 1.0,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 823,
+      "start": 6720.0,
+      "end": 6723.34,
+      "text": "trespass against us, and lead us not into temptation,",
+      "match": {
+        "unit_id": "u0250",
+        "section_id": "s018",
+        "section_title": "The Lord’s Prayer",
+        "score": 1.0,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 825,
+      "start": 6728.2,
+      "end": 6732.26,
+      "text": "and the glory of the Father, and the Son, and the Holy Spirit,",
+      "match": {
+        "unit_id": "u0251",
+        "section_id": "s018",
+        "section_title": "The Lord’s Prayer",
+        "score": 1.0,
+        "status": "matched",
+        "method": "context",
+        "reason": "Repeated response between two nearby distinctive anchors"
+      }
+    },
+    {
+      "id": 828,
+      "start": 6740.62,
+      "end": 6742.3,
+      "text": "Peace be with",
+      "match": {
+        "unit_id": "u0253",
+        "section_id": "s019",
+        "section_title": "Bowing Of Heads",
+        "score": 1.0,
+        "status": "matched",
+        "method": "context",
+        "reason": "Repeated response between two nearby distinctive anchors"
+      }
+    },
+    {
+      "id": 830,
+      "start": 6747.4,
+      "end": 6749.98,
+      "text": "Let us bow our heads.",
+      "match": {
+        "unit_id": "u0255",
+        "section_id": "s019",
+        "section_title": "Bowing Of Heads",
+        "score": 1.0,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 850,
+      "start": 6853.82,
+      "end": 6856.84,
+      "text": "τούμιον αίμα σου δεομένου σου, ελέησσον με και συγχώρησον.",
+      "match": {
+        "unit_id": "u0266",
+        "section_id": "s020",
+        "section_title": "Elevation, Fraction, and Communion",
+        "score": 0.9195,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 851,
+      "start": 6857.54,
+      "end": 6859.76,
+      "text": "Τα παραπτωματά μου, τα ακούσια και τα ακούσαν,",
+      "match": {
+        "unit_id": "u0266",
+        "section_id": "s020",
+        "section_title": "Elevation, Fraction, and Communion",
+        "score": 0.9614,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 853,
+      "start": 6862.12,
+      "end": 6866.06,
+      "text": "και αξιωσόν με κατακρίτως μετασχύν των αχράντων των μυστήριων,",
+      "match": {
+        "unit_id": "u0266",
+        "section_id": "s020",
+        "section_title": "Elevation, Fraction, and Communion",
+        "score": 0.9323,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 859,
+      "start": 6879.98,
+      "end": 6881.3,
+      "text": "Cleanse my soul and save me.",
+      "match": {
+        "unit_id": "u0271",
+        "section_id": "s020",
+        "section_title": "Elevation, Fraction, and Communion",
+        "score": 0.8699,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 860,
+      "start": 6882.3,
+      "end": 6884.88,
+      "text": "Δέσποδα φιλάντον πέρα Κύριε Ιησού Χριστέ ο Θεός μου.",
+      "match": {
+        "unit_id": "u0272",
+        "section_id": "s020",
+        "section_title": "Elevation, Fraction, and Communion",
+        "score": 0.8849,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 861,
+      "start": 6885.32,
+      "end": 6888.8,
+      "text": "Μης χρήμα μη γέννη τότε άγια τα αυτά διά το ανάξιον είναι με",
+      "match": {
+        "unit_id": "u0272",
+        "section_id": "s020",
+        "section_title": "Elevation, Fraction, and Communion",
+        "score": 0.8739,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 862,
+      "start": 6888.8,
+      "end": 6892.66,
+      "text": "αλλής κάθαρσην και αγιασμόν ψυχής τέγε σώματος",
+      "match": {
+        "unit_id": "u0272",
+        "section_id": "s020",
+        "section_title": "Elevation, Fraction, and Communion",
+        "score": 0.9013,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    },
+    {
+      "id": 863,
+      "start": 6892.66,
+      "end": 6895.34,
+      "text": "και σαραβώνα μελούς της ζωής και βασιλείας.",
+      "match": {
+        "unit_id": "u0272",
+        "section_id": "s020",
+        "section_title": "Elevation, Fraction, and Communion",
+        "score": 0.8813,
+        "status": "matched",
+        "method": "lexical",
+        "reason": "Distinctive text match"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3919 @@
+{
+  "model": "mlx-community/whisper-large-v3-turbo",
+  "language_mode": "auto",
+  "chunk_seconds": 30,
+  "start": 1800,
+  "end": 9990,
+  "intervals": [
+    {
+      "start": 1800,
+      "end": 1890.0
+    },
+    {
+      "start": 5400,
+      "end": 5490.0
+    },
+    {
+      "start": 7200,
+      "end": 7290.0
+    },
+    {
+      "start": 9900,
+      "end": 9990.0
+    }
+  ],
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 1800.0,
+      "end": 1801.86,
+      "text": "joy in place of sorrow.",
+      "temperature": 0.0,
+      "avg_logprob": -0.4495953909958465,
+      "compression_ratio": 1.904,
+      "no_speech_prob": 1.3663900740035206e-12,
+      "words": [
+        {
+          "word": " joy",
+          "start": 1800.0,
+          "end": 1800.46,
+          "probability": 0.89599609375
+        },
+        {
+          "word": " in",
+          "start": 1800.46,
+          "end": 1800.7,
+          "probability": 0.55859375
+        },
+        {
+          "word": " place",
+          "start": 1800.7,
+          "end": 1800.98,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " of",
+          "start": 1800.98,
+          "end": 1801.18,
+          "probability": 1.0
+        },
+        {
+          "word": " sorrow.",
+          "start": 1801.18,
+          "end": 1801.86,
+          "probability": 0.9990234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 1802.56,
+      "end": 1804.98,
+      "text": "He who from you became incarnate,",
+      "temperature": 0.0,
+      "avg_logprob": -0.4495953909958465,
+      "compression_ratio": 1.904,
+      "no_speech_prob": 1.3663900740035206e-12,
+      "words": [
+        {
+          "word": " He",
+          "start": 1802.36,
+          "end": 1802.82,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " who",
+          "start": 1802.82,
+          "end": 1803.2,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " from",
+          "start": 1803.2,
+          "end": 1803.52,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " you",
+          "start": 1803.52,
+          "end": 1803.72,
+          "probability": 0.96923828125
+        },
+        {
+          "word": " became",
+          "start": 1803.72,
+          "end": 1804.22,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " incarnate,",
+          "start": 1804.22,
+          "end": 1804.98,
+          "probability": 0.99951171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 1805.16,
+      "end": 1808.06,
+      "text": "God and man has directed to life",
+      "temperature": 0.0,
+      "avg_logprob": -0.4495953909958465,
+      "compression_ratio": 1.904,
+      "no_speech_prob": 1.3663900740035206e-12,
+      "words": [
+        {
+          "word": " God",
+          "start": 1805.16,
+          "end": 1805.32,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " and",
+          "start": 1805.32,
+          "end": 1805.54,
+          "probability": 0.87548828125
+        },
+        {
+          "word": " man",
+          "start": 1805.54,
+          "end": 1805.92,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " has",
+          "start": 1805.92,
+          "end": 1806.32,
+          "probability": 0.5458984375
+        },
+        {
+          "word": " directed",
+          "start": 1806.32,
+          "end": 1807.16,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " to",
+          "start": 1807.16,
+          "end": 1807.74,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " life",
+          "start": 1807.74,
+          "end": 1808.06,
+          "probability": 0.99853515625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 1808.06,
+      "end": 1810.22,
+      "text": "him who fell from it.",
+      "temperature": 0.0,
+      "avg_logprob": -0.4495953909958465,
+      "compression_ratio": 1.904,
+      "no_speech_prob": 1.3663900740035206e-12,
+      "words": [
+        {
+          "word": " him",
+          "start": 1808.06,
+          "end": 1808.24,
+          "probability": 0.9287109375
+        },
+        {
+          "word": " who",
+          "start": 1808.24,
+          "end": 1808.46,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " fell",
+          "start": 1808.46,
+          "end": 1809.0,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " from",
+          "start": 1809.0,
+          "end": 1809.44,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " it.",
+          "start": 1809.44,
+          "end": 1810.22,
+          "probability": 0.99658203125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 1810.94,
+      "end": 1813.2,
+      "text": "Hallelujah, hallelujah,",
+      "temperature": 0.0,
+      "avg_logprob": -0.4495953909958465,
+      "compression_ratio": 1.904,
+      "no_speech_prob": 1.3663900740035206e-12,
+      "words": [
+        {
+          "word": " Hallelujah,",
+          "start": 1810.94,
+          "end": 1811.86,
+          "probability": 0.61962890625
+        },
+        {
+          "word": " hallelujah,",
+          "start": 1812.32,
+          "end": 1813.2,
+          "probability": 0.9052734375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 5,
+      "seek": 0,
+      "start": 1813.8,
+      "end": 1816.9,
+      "text": "glory to you, O God.",
+      "temperature": 0.0,
+      "avg_logprob": -0.4495953909958465,
+      "compression_ratio": 1.904,
+      "no_speech_prob": 1.3663900740035206e-12,
+      "words": [
+        {
+          "word": " glory",
+          "start": 1813.8,
+          "end": 1814.68,
+          "probability": 0.39306640625
+        },
+        {
+          "word": " to",
+          "start": 1814.68,
+          "end": 1816.08,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " you,",
+          "start": 1816.08,
+          "end": 1816.32,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " O",
+          "start": 1816.32,
+          "end": 1816.64,
+          "probability": 0.94384765625
+        },
+        {
+          "word": " God.",
+          "start": 1816.64,
+          "end": 1816.9,
+          "probability": 0.99462890625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 6,
+      "seek": 0,
+      "start": 1818.18,
+      "end": 1819.96,
+      "text": "Hallelujah, hallelujah,",
+      "temperature": 0.0,
+      "avg_logprob": -0.4495953909958465,
+      "compression_ratio": 1.904,
+      "no_speech_prob": 1.3663900740035206e-12,
+      "words": [
+        {
+          "word": " Hallelujah,",
+          "start": 1817.76,
+          "end": 1818.22,
+          "probability": 0.95751953125
+        },
+        {
+          "word": " hallelujah,",
+          "start": 1819.14,
+          "end": 1819.96,
+          "probability": 0.9990234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 7,
+      "seek": 0,
+      "start": 1820.72,
+      "end": 1823.54,
+      "text": "hallelujah, glory to you, O God.",
+      "temperature": 0.0,
+      "avg_logprob": -0.4495953909958465,
+      "compression_ratio": 1.904,
+      "no_speech_prob": 1.3663900740035206e-12,
+      "words": [
+        {
+          "word": " hallelujah,",
+          "start": 1820.72,
+          "end": 1821.4,
+          "probability": 0.994140625
+        },
+        {
+          "word": " glory",
+          "start": 1821.74,
+          "end": 1822.36,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " to",
+          "start": 1822.36,
+          "end": 1822.72,
+          "probability": 1.0
+        },
+        {
+          "word": " you,",
+          "start": 1822.72,
+          "end": 1822.98,
+          "probability": 1.0
+        },
+        {
+          "word": " O",
+          "start": 1823.2,
+          "end": 1823.22,
+          "probability": 1.0
+        },
+        {
+          "word": " God.",
+          "start": 1823.22,
+          "end": 1823.54,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 8,
+      "seek": 0,
+      "start": 1823.94,
+      "end": 1826.3,
+      "text": "Hallelujah, hallelujah,",
+      "temperature": 0.0,
+      "avg_logprob": -0.4495953909958465,
+      "compression_ratio": 1.904,
+      "no_speech_prob": 1.3663900740035206e-12,
+      "words": [
+        {
+          "word": " Hallelujah,",
+          "start": 1823.94,
+          "end": 1824.86,
+          "probability": 0.970703125
+        },
+        {
+          "word": " hallelujah,",
+          "start": 1825.4,
+          "end": 1826.3,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 9,
+      "seek": 2630,
+      "start": 1826.3,
+      "end": 1827.84,
+      "text": "Hallelujah. Hallelujah.",
+      "temperature": 0.0,
+      "avg_logprob": -0.8274077687944684,
+      "compression_ratio": 1.0454545454545454,
+      "no_speech_prob": 3.7230937777188444e-10,
+      "words": [
+        {
+          "word": " Hallelujah.",
+          "start": 1826.3,
+          "end": 1827.8,
+          "probability": 0.58251953125
+        },
+        {
+          "word": " Hallelujah.",
+          "start": 1827.82,
+          "end": 1827.84,
+          "probability": 0.98486328125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 10,
+      "seek": 0,
+      "start": 1831.04,
+      "end": 1834.12,
+      "text": "Vox as ioth eos",
+      "temperature": 0.0,
+      "avg_logprob": -0.35059856068004264,
+      "compression_ratio": 1.3217391304347825,
+      "no_speech_prob": 2.3237804909481685e-12,
+      "words": [
+        {
+          "word": " Vox",
+          "start": 1831.04,
+          "end": 1831.86,
+          "probability": 0.56396484375
+        },
+        {
+          "word": " as",
+          "start": 1831.86,
+          "end": 1832.14,
+          "probability": 0.349609375
+        },
+        {
+          "word": " ioth",
+          "start": 1832.14,
+          "end": 1832.8,
+          "probability": 0.230712890625
+        },
+        {
+          "word": " eos",
+          "start": 1832.8,
+          "end": 1834.12,
+          "probability": 0.7255859375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 11,
+      "seek": 0,
+      "start": 1839.66,
+      "end": 1842.22,
+      "text": "Again and again in peace",
+      "temperature": 0.0,
+      "avg_logprob": -0.35059856068004264,
+      "compression_ratio": 1.3217391304347825,
+      "no_speech_prob": 2.3237804909481685e-12,
+      "words": [
+        {
+          "word": " Again",
+          "start": 1839.66,
+          "end": 1840.48,
+          "probability": 0.284912109375
+        },
+        {
+          "word": " and",
+          "start": 1840.48,
+          "end": 1841.02,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " again",
+          "start": 1841.02,
+          "end": 1841.48,
+          "probability": 1.0
+        },
+        {
+          "word": " in",
+          "start": 1841.48,
+          "end": 1841.78,
+          "probability": 0.98046875
+        },
+        {
+          "word": " peace",
+          "start": 1841.78,
+          "end": 1842.22,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 12,
+      "seek": 0,
+      "start": 1842.22,
+      "end": 1844.6,
+      "text": "Let us pray to the Lord",
+      "temperature": 0.0,
+      "avg_logprob": -0.35059856068004264,
+      "compression_ratio": 1.3217391304347825,
+      "no_speech_prob": 2.3237804909481685e-12,
+      "words": [
+        {
+          "word": " Let",
+          "start": 1842.22,
+          "end": 1842.5,
+          "probability": 0.1864013671875
+        },
+        {
+          "word": " us",
+          "start": 1842.5,
+          "end": 1842.76,
+          "probability": 1.0
+        },
+        {
+          "word": " pray",
+          "start": 1842.76,
+          "end": 1843.14,
+          "probability": 1.0
+        },
+        {
+          "word": " to",
+          "start": 1843.14,
+          "end": 1843.44,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 1843.44,
+          "end": 1843.66,
+          "probability": 1.0
+        },
+        {
+          "word": " Lord",
+          "start": 1843.66,
+          "end": 1844.6,
+          "probability": 0.99609375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 13,
+      "seek": 0,
+      "start": 1844.6,
+      "end": 1847.26,
+      "text": "Lord have mercy",
+      "temperature": 0.0,
+      "avg_logprob": -0.35059856068004264,
+      "compression_ratio": 1.3217391304347825,
+      "no_speech_prob": 2.3237804909481685e-12,
+      "words": [
+        {
+          "word": " Lord",
+          "start": 1844.6,
+          "end": 1845.6,
+          "probability": 0.9345703125
+        },
+        {
+          "word": " have",
+          "start": 1845.6,
+          "end": 1846.28,
+          "probability": 0.642578125
+        },
+        {
+          "word": " mercy",
+          "start": 1846.28,
+          "end": 1847.26,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 14,
+      "seek": 0,
+      "start": 1848.16,
+      "end": 1851.92,
+      "text": "Help us, save us, have mercy on us",
+      "temperature": 0.0,
+      "avg_logprob": -0.35059856068004264,
+      "compression_ratio": 1.3217391304347825,
+      "no_speech_prob": 2.3237804909481685e-12,
+      "words": [
+        {
+          "word": " Help",
+          "start": 1848.16,
+          "end": 1848.98,
+          "probability": 0.9833984375
+        },
+        {
+          "word": " us,",
+          "start": 1848.98,
+          "end": 1849.34,
+          "probability": 1.0
+        },
+        {
+          "word": " save",
+          "start": 1849.46,
+          "end": 1849.88,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " us,",
+          "start": 1849.88,
+          "end": 1850.16,
+          "probability": 1.0
+        },
+        {
+          "word": " have",
+          "start": 1850.2,
+          "end": 1850.48,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " mercy",
+          "start": 1850.48,
+          "end": 1851.08,
+          "probability": 1.0
+        },
+        {
+          "word": " on",
+          "start": 1851.08,
+          "end": 1851.54,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " us",
+          "start": 1851.54,
+          "end": 1851.92,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 15,
+      "seek": 0,
+      "start": 1851.92,
+      "end": 1855.78,
+      "text": "And protect us, O God, by your grace",
+      "temperature": 0.0,
+      "avg_logprob": -0.35059856068004264,
+      "compression_ratio": 1.3217391304347825,
+      "no_speech_prob": 2.3237804909481685e-12,
+      "words": [
+        {
+          "word": " And",
+          "start": 1851.92,
+          "end": 1852.7,
+          "probability": 0.98046875
+        },
+        {
+          "word": " protect",
+          "start": 1852.7,
+          "end": 1853.24,
+          "probability": 1.0
+        },
+        {
+          "word": " us,",
+          "start": 1853.24,
+          "end": 1853.68,
+          "probability": 1.0
+        },
+        {
+          "word": " O",
+          "start": 1853.82,
+          "end": 1853.9,
+          "probability": 0.97265625
+        },
+        {
+          "word": " God,",
+          "start": 1853.9,
+          "end": 1854.3,
+          "probability": 1.0
+        },
+        {
+          "word": " by",
+          "start": 1854.42,
+          "end": 1854.76,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " your",
+          "start": 1854.76,
+          "end": 1855.08,
+          "probability": 0.89697265625
+        },
+        {
+          "word": " grace",
+          "start": 1855.08,
+          "end": 1855.78,
+          "probability": 0.9970703125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 16,
+      "seek": 2578,
+      "start": 1855.78,
+      "end": 1858.62,
+      "text": "Lord, have mercy.",
+      "temperature": 0.0,
+      "avg_logprob": -0.6398062705993652,
+      "compression_ratio": 0.68,
+      "no_speech_prob": 1.693811410574675e-11,
+      "words": [
+        {
+          "word": " Lord,",
+          "start": 1855.78,
+          "end": 1856.94,
+          "probability": 0.285888671875
+        },
+        {
+          "word": " have",
+          "start": 1857.66,
+          "end": 1857.74,
+          "probability": 0.9345703125
+        },
+        {
+          "word": " mercy.",
+          "start": 1857.74,
+          "end": 1858.62,
+          "probability": 0.9990234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 17,
+      "seek": 0,
+      "start": 1860.0,
+      "end": 1864.08,
+      "text": "Remembering our all-holy, immaculate, most blessed",
+      "temperature": 0.0,
+      "avg_logprob": -0.2832157183916141,
+      "compression_ratio": 1.4689265536723164,
+      "no_speech_prob": 9.001231834546153e-13,
+      "words": [
+        {
+          "word": " Remembering",
+          "start": 1860.0,
+          "end": 1861.38,
+          "probability": 0.92578125
+        },
+        {
+          "word": " our",
+          "start": 1861.38,
+          "end": 1861.64,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " all",
+          "start": 1861.64,
+          "end": 1861.9,
+          "probability": 0.91015625
+        },
+        {
+          "word": "-holy,",
+          "start": 1861.9,
+          "end": 1862.34,
+          "probability": 0.9541015625
+        },
+        {
+          "word": " immaculate,",
+          "start": 1862.5,
+          "end": 1863.16,
+          "probability": 0.982421875
+        },
+        {
+          "word": " most",
+          "start": 1863.34,
+          "end": 1863.56,
+          "probability": 0.998046875
+        },
+        {
+          "word": " blessed",
+          "start": 1863.56,
+          "end": 1864.08,
+          "probability": 0.791015625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 18,
+      "seek": 0,
+      "start": 1864.08,
+      "end": 1867.6,
+      "text": "and glorious Lady the Theotokos",
+      "temperature": 0.0,
+      "avg_logprob": -0.2832157183916141,
+      "compression_ratio": 1.4689265536723164,
+      "no_speech_prob": 9.001231834546153e-13,
+      "words": [
+        {
+          "word": " and",
+          "start": 1864.08,
+          "end": 1864.84,
+          "probability": 0.391845703125
+        },
+        {
+          "word": " glorious",
+          "start": 1864.84,
+          "end": 1865.38,
+          "probability": 1.0
+        },
+        {
+          "word": " Lady",
+          "start": 1865.38,
+          "end": 1865.88,
+          "probability": 0.845703125
+        },
+        {
+          "word": " the",
+          "start": 1865.88,
+          "end": 1866.2,
+          "probability": 0.568359375
+        },
+        {
+          "word": " Theotokos",
+          "start": 1866.2,
+          "end": 1867.6,
+          "probability": 0.990234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 19,
+      "seek": 0,
+      "start": 1867.6,
+      "end": 1870.02,
+      "text": "and ever-Virgin Mary,",
+      "temperature": 0.0,
+      "avg_logprob": -0.2832157183916141,
+      "compression_ratio": 1.4689265536723164,
+      "no_speech_prob": 9.001231834546153e-13,
+      "words": [
+        {
+          "word": " and",
+          "start": 1867.6,
+          "end": 1868.38,
+          "probability": 0.8916015625
+        },
+        {
+          "word": " ever",
+          "start": 1868.38,
+          "end": 1868.78,
+          "probability": 0.990234375
+        },
+        {
+          "word": "-Virgin",
+          "start": 1868.78,
+          "end": 1869.36,
+          "probability": 0.978515625
+        },
+        {
+          "word": " Mary,",
+          "start": 1869.36,
+          "end": 1870.02,
+          "probability": 0.99755859375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 20,
+      "seek": 0,
+      "start": 1871.06,
+      "end": 1874.46,
+      "text": "with all the saints, let us commend ourselves",
+      "temperature": 0.0,
+      "avg_logprob": -0.2832157183916141,
+      "compression_ratio": 1.4689265536723164,
+      "no_speech_prob": 9.001231834546153e-13,
+      "words": [
+        {
+          "word": " with",
+          "start": 1870.76,
+          "end": 1871.26,
+          "probability": 0.9892578125
+        },
+        {
+          "word": " all",
+          "start": 1871.26,
+          "end": 1871.44,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 1871.44,
+          "end": 1871.7,
+          "probability": 1.0
+        },
+        {
+          "word": " saints,",
+          "start": 1871.7,
+          "end": 1872.24,
+          "probability": 0.9609375
+        },
+        {
+          "word": " let",
+          "start": 1872.24,
+          "end": 1872.74,
+          "probability": 1.0
+        },
+        {
+          "word": " us",
+          "start": 1872.74,
+          "end": 1872.96,
+          "probability": 1.0
+        },
+        {
+          "word": " commend",
+          "start": 1872.96,
+          "end": 1873.46,
+          "probability": 0.974609375
+        },
+        {
+          "word": " ourselves",
+          "start": 1873.46,
+          "end": 1874.46,
+          "probability": 0.99951171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 21,
+      "seek": 0,
+      "start": 1874.46,
+      "end": 1876.58,
+      "text": "and one another",
+      "temperature": 0.0,
+      "avg_logprob": -0.2832157183916141,
+      "compression_ratio": 1.4689265536723164,
+      "no_speech_prob": 9.001231834546153e-13,
+      "words": [
+        {
+          "word": " and",
+          "start": 1874.46,
+          "end": 1875.3,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " one",
+          "start": 1875.3,
+          "end": 1875.58,
+          "probability": 1.0
+        },
+        {
+          "word": " another",
+          "start": 1875.58,
+          "end": 1876.58,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 22,
+      "seek": 0,
+      "start": 1876.58,
+      "end": 1881.32,
+      "text": "and our whole life to Christ our God.",
+      "temperature": 0.0,
+      "avg_logprob": -0.2832157183916141,
+      "compression_ratio": 1.4689265536723164,
+      "no_speech_prob": 9.001231834546153e-13,
+      "words": [
+        {
+          "word": " and",
+          "start": 1876.58,
+          "end": 1877.86,
+          "probability": 0.9775390625
+        },
+        {
+          "word": " our",
+          "start": 1877.86,
+          "end": 1878.26,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " whole",
+          "start": 1878.26,
+          "end": 1878.66,
+          "probability": 1.0
+        },
+        {
+          "word": " life",
+          "start": 1878.66,
+          "end": 1879.16,
+          "probability": 1.0
+        },
+        {
+          "word": " to",
+          "start": 1879.16,
+          "end": 1879.42,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " Christ",
+          "start": 1879.42,
+          "end": 1880.02,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " our",
+          "start": 1880.02,
+          "end": 1880.52,
+          "probability": 0.98388671875
+        },
+        {
+          "word": " God.",
+          "start": 1880.52,
+          "end": 1881.32,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 23,
+      "seek": 0,
+      "start": 1885.2,
+      "end": 1889.66,
+      "text": "For blessed is your name and glorified is your kingdom.",
+      "temperature": 0.0,
+      "avg_logprob": -0.2832157183916141,
+      "compression_ratio": 1.4689265536723164,
+      "no_speech_prob": 9.001231834546153e-13,
+      "words": [
+        {
+          "word": " For",
+          "start": 1885.2,
+          "end": 1886.2,
+          "probability": 0.95849609375
+        },
+        {
+          "word": " blessed",
+          "start": 1886.2,
+          "end": 1886.64,
+          "probability": 1.0
+        },
+        {
+          "word": " is",
+          "start": 1886.64,
+          "end": 1886.96,
+          "probability": 1.0
+        },
+        {
+          "word": " your",
+          "start": 1886.96,
+          "end": 1887.2,
+          "probability": 0.90966796875
+        },
+        {
+          "word": " name",
+          "start": 1887.2,
+          "end": 1887.6,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " and",
+          "start": 1887.6,
+          "end": 1887.92,
+          "probability": 0.94140625
+        },
+        {
+          "word": " glorified",
+          "start": 1887.92,
+          "end": 1888.7,
+          "probability": 1.0
+        },
+        {
+          "word": " is",
+          "start": 1888.7,
+          "end": 1888.96,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " your",
+          "start": 1888.96,
+          "end": 1889.16,
+          "probability": 1.0
+        },
+        {
+          "word": " kingdom.",
+          "start": 1889.16,
+          "end": 1889.66,
+          "probability": 0.998046875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 24,
+      "seek": 0,
+      "start": 5400.0,
+      "end": 5401.58,
+      "text": "Have mercy.",
+      "temperature": 0.0,
+      "avg_logprob": -0.34125521069481257,
+      "compression_ratio": 1.6644736842105263,
+      "no_speech_prob": 1.642103770668757e-12,
+      "words": [
+        {
+          "word": " Have",
+          "start": 5400.0,
+          "end": 5400.34,
+          "probability": 0.07928466796875
+        },
+        {
+          "word": " mercy.",
+          "start": 5400.34,
+          "end": 5401.58,
+          "probability": 0.99365234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 25,
+      "seek": 0,
+      "start": 5402.62,
+      "end": 5405.3,
+      "text": "For travelers by land, sea and air,",
+      "temperature": 0.0,
+      "avg_logprob": -0.34125521069481257,
+      "compression_ratio": 1.6644736842105263,
+      "no_speech_prob": 1.642103770668757e-12,
+      "words": [
+        {
+          "word": " For",
+          "start": 5402.44,
+          "end": 5402.82,
+          "probability": 0.96044921875
+        },
+        {
+          "word": " travelers",
+          "start": 5402.82,
+          "end": 5403.34,
+          "probability": 0.9296875
+        },
+        {
+          "word": " by",
+          "start": 5403.34,
+          "end": 5403.86,
+          "probability": 0.986328125
+        },
+        {
+          "word": " land,",
+          "start": 5403.86,
+          "end": 5404.28,
+          "probability": 0.98583984375
+        },
+        {
+          "word": " sea",
+          "start": 5404.48,
+          "end": 5404.62,
+          "probability": 0.998046875
+        },
+        {
+          "word": " and",
+          "start": 5404.62,
+          "end": 5404.9,
+          "probability": 0.64794921875
+        },
+        {
+          "word": " air,",
+          "start": 5404.9,
+          "end": 5405.3,
+          "probability": 0.99560546875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 26,
+      "seek": 0,
+      "start": 5405.36,
+      "end": 5407.28,
+      "text": "for the sick, the suffering,",
+      "temperature": 0.0,
+      "avg_logprob": -0.34125521069481257,
+      "compression_ratio": 1.6644736842105263,
+      "no_speech_prob": 1.642103770668757e-12,
+      "words": [
+        {
+          "word": " for",
+          "start": 5405.36,
+          "end": 5405.76,
+          "probability": 0.97412109375
+        },
+        {
+          "word": " the",
+          "start": 5405.76,
+          "end": 5406.0,
+          "probability": 1.0
+        },
+        {
+          "word": " sick,",
+          "start": 5406.0,
+          "end": 5406.38,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 5406.5,
+          "end": 5406.66,
+          "probability": 1.0
+        },
+        {
+          "word": " suffering,",
+          "start": 5406.66,
+          "end": 5407.28,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 27,
+      "seek": 0,
+      "start": 5407.86,
+      "end": 5410.8,
+      "text": "the captives, and for their salvation,",
+      "temperature": 0.0,
+      "avg_logprob": -0.34125521069481257,
+      "compression_ratio": 1.6644736842105263,
+      "no_speech_prob": 1.642103770668757e-12,
+      "words": [
+        {
+          "word": " the",
+          "start": 5407.86,
+          "end": 5408.14,
+          "probability": 1.0
+        },
+        {
+          "word": " captives,",
+          "start": 5408.14,
+          "end": 5408.88,
+          "probability": 1.0
+        },
+        {
+          "word": " and",
+          "start": 5408.9,
+          "end": 5409.2,
+          "probability": 1.0
+        },
+        {
+          "word": " for",
+          "start": 5409.2,
+          "end": 5409.46,
+          "probability": 1.0
+        },
+        {
+          "word": " their",
+          "start": 5409.46,
+          "end": 5409.8,
+          "probability": 1.0
+        },
+        {
+          "word": " salvation,",
+          "start": 5409.8,
+          "end": 5410.8,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 28,
+      "seek": 0,
+      "start": 5411.72,
+      "end": 5413.8,
+      "text": "let us pray to the Lord.",
+      "temperature": 0.0,
+      "avg_logprob": -0.34125521069481257,
+      "compression_ratio": 1.6644736842105263,
+      "no_speech_prob": 1.642103770668757e-12,
+      "words": [
+        {
+          "word": " let",
+          "start": 5411.56,
+          "end": 5411.94,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " us",
+          "start": 5411.94,
+          "end": 5412.16,
+          "probability": 1.0
+        },
+        {
+          "word": " pray",
+          "start": 5412.16,
+          "end": 5412.56,
+          "probability": 1.0
+        },
+        {
+          "word": " to",
+          "start": 5412.56,
+          "end": 5412.88,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " the",
+          "start": 5412.88,
+          "end": 5413.04,
+          "probability": 1.0
+        },
+        {
+          "word": " Lord.",
+          "start": 5413.04,
+          "end": 5413.8,
+          "probability": 0.9990234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 29,
+      "seek": 0,
+      "start": 5415.12,
+      "end": 5418.58,
+      "text": "Lord, have mercy.",
+      "temperature": 0.0,
+      "avg_logprob": -0.34125521069481257,
+      "compression_ratio": 1.6644736842105263,
+      "no_speech_prob": 1.642103770668757e-12,
+      "words": [
+        {
+          "word": " Lord,",
+          "start": 5415.12,
+          "end": 5415.88,
+          "probability": 0.95361328125
+        },
+        {
+          "word": " have",
+          "start": 5415.88,
+          "end": 5416.64,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " mercy.",
+          "start": 5416.64,
+          "end": 5418.58,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 30,
+      "seek": 0,
+      "start": 5419.76,
+      "end": 5422.74,
+      "text": "For our deliverance from all affliction,",
+      "temperature": 0.0,
+      "avg_logprob": -0.34125521069481257,
+      "compression_ratio": 1.6644736842105263,
+      "no_speech_prob": 1.642103770668757e-12,
+      "words": [
+        {
+          "word": " For",
+          "start": 5419.76,
+          "end": 5419.98,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " our",
+          "start": 5419.98,
+          "end": 5420.24,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " deliverance",
+          "start": 5420.24,
+          "end": 5421.56,
+          "probability": 1.0
+        },
+        {
+          "word": " from",
+          "start": 5421.56,
+          "end": 5421.8,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " all",
+          "start": 5421.8,
+          "end": 5422.06,
+          "probability": 1.0
+        },
+        {
+          "word": " affliction,",
+          "start": 5422.06,
+          "end": 5422.74,
+          "probability": 0.99951171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 31,
+      "seek": 0,
+      "start": 5422.98,
+      "end": 5424.88,
+      "text": "wrath, danger, and distress,",
+      "temperature": 0.0,
+      "avg_logprob": -0.34125521069481257,
+      "compression_ratio": 1.6644736842105263,
+      "no_speech_prob": 1.642103770668757e-12,
+      "words": [
+        {
+          "word": " wrath,",
+          "start": 5422.98,
+          "end": 5423.3,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " danger,",
+          "start": 5423.48,
+          "end": 5423.9,
+          "probability": 0.998046875
+        },
+        {
+          "word": " and",
+          "start": 5424.02,
+          "end": 5424.28,
+          "probability": 1.0
+        },
+        {
+          "word": " distress,",
+          "start": 5424.28,
+          "end": 5424.88,
+          "probability": 0.99951171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 32,
+      "seek": 0,
+      "start": 5425.62,
+      "end": 5427.72,
+      "text": "let us pray to the Lord.",
+      "temperature": 0.0,
+      "avg_logprob": -0.34125521069481257,
+      "compression_ratio": 1.6644736842105263,
+      "no_speech_prob": 1.642103770668757e-12,
+      "words": [
+        {
+          "word": " let",
+          "start": 5425.62,
+          "end": 5425.96,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " us",
+          "start": 5425.96,
+          "end": 5426.2,
+          "probability": 1.0
+        },
+        {
+          "word": " pray",
+          "start": 5426.2,
+          "end": 5426.58,
+          "probability": 1.0
+        },
+        {
+          "word": " to",
+          "start": 5426.58,
+          "end": 5426.96,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 5426.96,
+          "end": 5427.12,
+          "probability": 1.0
+        },
+        {
+          "word": " Lord.",
+          "start": 5427.12,
+          "end": 5427.72,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 33,
+      "seek": 2772,
+      "start": 5429.06,
+      "end": 5429.98,
+      "text": "Lord, I am.",
+      "temperature": 0.0,
+      "avg_logprob": -1.0182697772979736,
+      "compression_ratio": 0.5789473684210527,
+      "no_speech_prob": 3.480714674819474e-11,
+      "words": [
+        {
+          "word": " Lord,",
+          "start": 5429.06,
+          "end": 5429.5,
+          "probability": 0.44287109375
+        },
+        {
+          "word": " I",
+          "start": 5429.86,
+          "end": 5429.9,
+          "probability": 0.10943603515625
+        },
+        {
+          "word": " am.",
+          "start": 5429.9,
+          "end": 5429.98,
+          "probability": 0.268310546875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 34,
+      "seek": 0,
+      "start": 5433.52,
+      "end": 5441.62,
+      "text": "Help us, save us, have mercy on us, and protect us, O God, by your grace.",
+      "temperature": 0.0,
+      "avg_logprob": -0.37774698662035394,
+      "compression_ratio": 1.1818181818181819,
+      "no_speech_prob": 2.6344250132065428e-12,
+      "words": [
+        {
+          "word": " Help",
+          "start": 5433.52,
+          "end": 5434.32,
+          "probability": 0.16015625
+        },
+        {
+          "word": " us,",
+          "start": 5434.32,
+          "end": 5434.64,
+          "probability": 0.998046875
+        },
+        {
+          "word": " save",
+          "start": 5434.86,
+          "end": 5435.26,
+          "probability": 0.994140625
+        },
+        {
+          "word": " us,",
+          "start": 5435.26,
+          "end": 5435.54,
+          "probability": 1.0
+        },
+        {
+          "word": " have",
+          "start": 5435.62,
+          "end": 5435.86,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " mercy",
+          "start": 5435.86,
+          "end": 5436.46,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " on",
+          "start": 5436.46,
+          "end": 5436.92,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " us,",
+          "start": 5436.92,
+          "end": 5437.36,
+          "probability": 1.0
+        },
+        {
+          "word": " and",
+          "start": 5437.54,
+          "end": 5438.12,
+          "probability": 0.97216796875
+        },
+        {
+          "word": " protect",
+          "start": 5438.12,
+          "end": 5438.62,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " us,",
+          "start": 5438.62,
+          "end": 5439.12,
+          "probability": 1.0
+        },
+        {
+          "word": " O",
+          "start": 5439.26,
+          "end": 5439.34,
+          "probability": 0.9501953125
+        },
+        {
+          "word": " God,",
+          "start": 5439.34,
+          "end": 5439.74,
+          "probability": 1.0
+        },
+        {
+          "word": " by",
+          "start": 5439.88,
+          "end": 5440.22,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " your",
+          "start": 5440.22,
+          "end": 5440.48,
+          "probability": 0.84521484375
+        },
+        {
+          "word": " grace.",
+          "start": 5440.48,
+          "end": 5441.62,
+          "probability": 0.99853515625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 35,
+      "seek": 0,
+      "start": 5443.42,
+      "end": 5447.22,
+      "text": "Lord, have mercy.",
+      "temperature": 0.0,
+      "avg_logprob": -0.37774698662035394,
+      "compression_ratio": 1.1818181818181819,
+      "no_speech_prob": 2.6344250132065428e-12,
+      "words": [
+        {
+          "word": " Lord,",
+          "start": 5443.42,
+          "end": 5444.22,
+          "probability": 0.456787109375
+        },
+        {
+          "word": " have",
+          "start": 5444.22,
+          "end": 5445.02,
+          "probability": 0.9833984375
+        },
+        {
+          "word": " mercy.",
+          "start": 5445.02,
+          "end": 5447.22,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 36,
+      "seek": 1722,
+      "start": 5451.08,
+      "end": 5456.52,
+      "text": "Remembering our most holy, pure, blessed, and glorious Lady the Theotokos,",
+      "temperature": 0.0,
+      "avg_logprob": -0.3348170651329888,
+      "compression_ratio": 1.1515151515151516,
+      "no_speech_prob": 2.1732634788995675e-11,
+      "words": [
+        {
+          "word": " Remembering",
+          "start": 5451.08,
+          "end": 5451.76,
+          "probability": 0.67578125
+        },
+        {
+          "word": " our",
+          "start": 5451.76,
+          "end": 5452.0,
+          "probability": 0.908203125
+        },
+        {
+          "word": " most",
+          "start": 5452.0,
+          "end": 5452.28,
+          "probability": 0.98291015625
+        },
+        {
+          "word": " holy,",
+          "start": 5452.28,
+          "end": 5452.74,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " pure,",
+          "start": 5452.94,
+          "end": 5453.28,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " blessed,",
+          "start": 5453.5,
+          "end": 5453.84,
+          "probability": 0.99072265625
+        },
+        {
+          "word": " and",
+          "start": 5453.9,
+          "end": 5454.14,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " glorious",
+          "start": 5454.14,
+          "end": 5454.66,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " Lady",
+          "start": 5454.66,
+          "end": 5455.1,
+          "probability": 0.8798828125
+        },
+        {
+          "word": " the",
+          "start": 5455.1,
+          "end": 5455.42,
+          "probability": 0.438232421875
+        },
+        {
+          "word": " Theotokos,",
+          "start": 5455.42,
+          "end": 5456.52,
+          "probability": 0.94580078125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 37,
+      "seek": 1722,
+      "start": 5457.06,
+      "end": 5459.98,
+      "text": "and ever-Virgin Mary with all the same.",
+      "temperature": 0.0,
+      "avg_logprob": -0.3348170651329888,
+      "compression_ratio": 1.1515151515151516,
+      "no_speech_prob": 2.1732634788995675e-11,
+      "words": [
+        {
+          "word": " and",
+          "start": 5457.06,
+          "end": 5457.22,
+          "probability": 0.5419921875
+        },
+        {
+          "word": " ever",
+          "start": 5457.22,
+          "end": 5457.5,
+          "probability": 0.9765625
+        },
+        {
+          "word": "-Virgin",
+          "start": 5457.5,
+          "end": 5458.1,
+          "probability": 0.8935546875
+        },
+        {
+          "word": " Mary",
+          "start": 5458.1,
+          "end": 5458.66,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " with",
+          "start": 5458.66,
+          "end": 5459.02,
+          "probability": 0.580078125
+        },
+        {
+          "word": " all",
+          "start": 5459.02,
+          "end": 5459.36,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " the",
+          "start": 5459.36,
+          "end": 5459.68,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " same.",
+          "start": 5459.68,
+          "end": 5459.98,
+          "probability": 0.51171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 38,
+      "seek": 0,
+      "start": 5460.0,
+      "end": 5464.22,
+      "text": "Let us commit ourselves and one another",
+      "temperature": 0.0,
+      "avg_logprob": -0.29399348172274503,
+      "compression_ratio": 1.375,
+      "no_speech_prob": 1.2207163448477165e-12,
+      "words": [
+        {
+          "word": " Let",
+          "start": 5460.0,
+          "end": 5461.36,
+          "probability": 0.74560546875
+        },
+        {
+          "word": " us",
+          "start": 5461.36,
+          "end": 5461.58,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " commit",
+          "start": 5461.58,
+          "end": 5461.94,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " ourselves",
+          "start": 5461.94,
+          "end": 5462.72,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " and",
+          "start": 5462.72,
+          "end": 5463.28,
+          "probability": 0.984375
+        },
+        {
+          "word": " one",
+          "start": 5463.28,
+          "end": 5463.6,
+          "probability": 1.0
+        },
+        {
+          "word": " another",
+          "start": 5463.6,
+          "end": 5464.22,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 39,
+      "seek": 0,
+      "start": 5464.22,
+      "end": 5469.26,
+      "text": "and our whole life to Christ our God.",
+      "temperature": 0.0,
+      "avg_logprob": -0.29399348172274503,
+      "compression_ratio": 1.375,
+      "no_speech_prob": 1.2207163448477165e-12,
+      "words": [
+        {
+          "word": " and",
+          "start": 5464.22,
+          "end": 5465.3,
+          "probability": 0.79638671875
+        },
+        {
+          "word": " our",
+          "start": 5465.3,
+          "end": 5465.64,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " whole",
+          "start": 5465.64,
+          "end": 5465.98,
+          "probability": 1.0
+        },
+        {
+          "word": " life",
+          "start": 5465.98,
+          "end": 5466.58,
+          "probability": 1.0
+        },
+        {
+          "word": " to",
+          "start": 5466.58,
+          "end": 5467.3,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " Christ",
+          "start": 5467.3,
+          "end": 5467.96,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " our",
+          "start": 5467.96,
+          "end": 5468.36,
+          "probability": 0.95654296875
+        },
+        {
+          "word": " God.",
+          "start": 5468.36,
+          "end": 5469.26,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 40,
+      "seek": 0,
+      "start": 5470.1,
+      "end": 5475.24,
+      "text": "To you, O Lord.",
+      "temperature": 0.0,
+      "avg_logprob": -0.29399348172274503,
+      "compression_ratio": 1.375,
+      "no_speech_prob": 1.2207163448477165e-12,
+      "words": [
+        {
+          "word": " To",
+          "start": 5470.1,
+          "end": 5470.78,
+          "probability": 0.41357421875
+        },
+        {
+          "word": " you,",
+          "start": 5470.78,
+          "end": 5472.0,
+          "probability": 0.904296875
+        },
+        {
+          "word": " O",
+          "start": 5473.54,
+          "end": 5473.9,
+          "probability": 0.82275390625
+        },
+        {
+          "word": " Lord.",
+          "start": 5473.9,
+          "end": 5475.24,
+          "probability": 0.9453125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 41,
+      "seek": 0,
+      "start": 5476.66,
+      "end": 5480.8,
+      "text": "For to you belong all glory, honor, and worship",
+      "temperature": 0.0,
+      "avg_logprob": -0.29399348172274503,
+      "compression_ratio": 1.375,
+      "no_speech_prob": 1.2207163448477165e-12,
+      "words": [
+        {
+          "word": " For",
+          "start": 5476.66,
+          "end": 5477.16,
+          "probability": 0.966796875
+        },
+        {
+          "word": " to",
+          "start": 5477.16,
+          "end": 5477.44,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " you",
+          "start": 5477.44,
+          "end": 5477.72,
+          "probability": 0.998046875
+        },
+        {
+          "word": " belong",
+          "start": 5477.72,
+          "end": 5478.32,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " all",
+          "start": 5478.32,
+          "end": 5478.64,
+          "probability": 0.9765625
+        },
+        {
+          "word": " glory,",
+          "start": 5478.64,
+          "end": 5479.32,
+          "probability": 1.0
+        },
+        {
+          "word": " honor,",
+          "start": 5479.66,
+          "end": 5479.92,
+          "probability": 0.98095703125
+        },
+        {
+          "word": " and",
+          "start": 5479.98,
+          "end": 5480.22,
+          "probability": 1.0
+        },
+        {
+          "word": " worship",
+          "start": 5480.22,
+          "end": 5480.8,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 42,
+      "seek": 0,
+      "start": 5480.8,
+      "end": 5484.44,
+      "text": "to the Father and the Son and the Holy Spirit",
+      "temperature": 0.0,
+      "avg_logprob": -0.29399348172274503,
+      "compression_ratio": 1.375,
+      "no_speech_prob": 1.2207163448477165e-12,
+      "words": [
+        {
+          "word": " to",
+          "start": 5480.8,
+          "end": 5481.54,
+          "probability": 0.72705078125
+        },
+        {
+          "word": " the",
+          "start": 5481.54,
+          "end": 5481.7,
+          "probability": 1.0
+        },
+        {
+          "word": " Father",
+          "start": 5481.7,
+          "end": 5482.2,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " and",
+          "start": 5482.2,
+          "end": 5482.58,
+          "probability": 0.91943359375
+        },
+        {
+          "word": " the",
+          "start": 5482.58,
+          "end": 5482.76,
+          "probability": 1.0
+        },
+        {
+          "word": " Son",
+          "start": 5482.76,
+          "end": 5483.06,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " and",
+          "start": 5483.06,
+          "end": 5483.3,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " the",
+          "start": 5483.3,
+          "end": 5483.46,
+          "probability": 1.0
+        },
+        {
+          "word": " Holy",
+          "start": 5483.46,
+          "end": 5483.76,
+          "probability": 1.0
+        },
+        {
+          "word": " Spirit",
+          "start": 5483.76,
+          "end": 5484.44,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 43,
+      "seek": 2444,
+      "start": 5484.44,
+      "end": 5489.84,
+      "text": "now and forever and to the ages of ages.",
+      "temperature": 0.0,
+      "avg_logprob": -0.14886137155386117,
+      "compression_ratio": 0.975609756097561,
+      "no_speech_prob": 1.9243936305590736e-11,
+      "words": [
+        {
+          "word": " now",
+          "start": 5484.44,
+          "end": 5485.44,
+          "probability": 0.90185546875
+        },
+        {
+          "word": " and",
+          "start": 5485.44,
+          "end": 5485.84,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " forever",
+          "start": 5485.84,
+          "end": 5486.52,
+          "probability": 0.962890625
+        },
+        {
+          "word": " and",
+          "start": 5486.52,
+          "end": 5487.68,
+          "probability": 0.85546875
+        },
+        {
+          "word": " to",
+          "start": 5487.68,
+          "end": 5487.88,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " the",
+          "start": 5487.88,
+          "end": 5488.06,
+          "probability": 1.0
+        },
+        {
+          "word": " ages",
+          "start": 5488.06,
+          "end": 5488.68,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " of",
+          "start": 5488.68,
+          "end": 5489.62,
+          "probability": 0.98974609375
+        },
+        {
+          "word": " ages.",
+          "start": 5489.62,
+          "end": 5489.84,
+          "probability": 0.80810546875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 44,
+      "seek": 0,
+      "start": 7200.0,
+      "end": 7207.7,
+      "text": "on the cross, Jesus' death on the cross, that he was able to destroy death for us.",
+      "temperature": 0.0,
+      "avg_logprob": -0.1283679773778091,
+      "compression_ratio": 1.6767676767676767,
+      "no_speech_prob": 5.996348166267818e-13,
+      "words": [
+        {
+          "word": " on",
+          "start": 7200.0,
+          "end": 7200.4,
+          "probability": 0.96875
+        },
+        {
+          "word": " the",
+          "start": 7200.4,
+          "end": 7200.54,
+          "probability": 1.0
+        },
+        {
+          "word": " cross,",
+          "start": 7200.54,
+          "end": 7200.98,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " Jesus'",
+          "start": 7201.22,
+          "end": 7201.88,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " death",
+          "start": 7202.14,
+          "end": 7202.34,
+          "probability": 1.0
+        },
+        {
+          "word": " on",
+          "start": 7202.34,
+          "end": 7202.52,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 7202.52,
+          "end": 7202.62,
+          "probability": 1.0
+        },
+        {
+          "word": " cross,",
+          "start": 7202.62,
+          "end": 7203.0,
+          "probability": 1.0
+        },
+        {
+          "word": " that",
+          "start": 7203.2,
+          "end": 7203.68,
+          "probability": 1.0
+        },
+        {
+          "word": " he",
+          "start": 7203.68,
+          "end": 7203.84,
+          "probability": 0.94677734375
+        },
+        {
+          "word": " was",
+          "start": 7203.84,
+          "end": 7204.18,
+          "probability": 1.0
+        },
+        {
+          "word": " able",
+          "start": 7204.18,
+          "end": 7204.8,
+          "probability": 1.0
+        },
+        {
+          "word": " to",
+          "start": 7204.8,
+          "end": 7205.02,
+          "probability": 1.0
+        },
+        {
+          "word": " destroy",
+          "start": 7205.02,
+          "end": 7205.56,
+          "probability": 1.0
+        },
+        {
+          "word": " death",
+          "start": 7205.56,
+          "end": 7206.08,
+          "probability": 1.0
+        },
+        {
+          "word": " for",
+          "start": 7206.08,
+          "end": 7207.2,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " us.",
+          "start": 7207.2,
+          "end": 7207.7,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 45,
+      "seek": 0,
+      "start": 7208.9,
+      "end": 7214.54,
+      "text": "And through his death, resurrection, and promises resurrection to all of us.",
+      "temperature": 0.0,
+      "avg_logprob": -0.1283679773778091,
+      "compression_ratio": 1.6767676767676767,
+      "no_speech_prob": 5.996348166267818e-13,
+      "words": [
+        {
+          "word": " And",
+          "start": 7208.9,
+          "end": 7209.5,
+          "probability": 0.99609375
+        },
+        {
+          "word": " through",
+          "start": 7209.5,
+          "end": 7209.72,
+          "probability": 1.0
+        },
+        {
+          "word": " his",
+          "start": 7209.72,
+          "end": 7209.96,
+          "probability": 1.0
+        },
+        {
+          "word": " death,",
+          "start": 7209.96,
+          "end": 7210.34,
+          "probability": 1.0
+        },
+        {
+          "word": " resurrection,",
+          "start": 7210.68,
+          "end": 7211.52,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " and",
+          "start": 7211.82,
+          "end": 7212.18,
+          "probability": 1.0
+        },
+        {
+          "word": " promises",
+          "start": 7212.18,
+          "end": 7212.74,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " resurrection",
+          "start": 7212.74,
+          "end": 7213.54,
+          "probability": 0.91748046875
+        },
+        {
+          "word": " to",
+          "start": 7213.54,
+          "end": 7213.86,
+          "probability": 1.0
+        },
+        {
+          "word": " all",
+          "start": 7213.86,
+          "end": 7214.1,
+          "probability": 1.0
+        },
+        {
+          "word": " of",
+          "start": 7214.1,
+          "end": 7214.24,
+          "probability": 1.0
+        },
+        {
+          "word": " us.",
+          "start": 7214.24,
+          "end": 7214.54,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 46,
+      "seek": 0,
+      "start": 7214.84,
+      "end": 7221.02,
+      "text": "The Holy Cross sits on the altar every day throughout the year. And there are just three",
+      "temperature": 0.0,
+      "avg_logprob": -0.1283679773778091,
+      "compression_ratio": 1.6767676767676767,
+      "no_speech_prob": 5.996348166267818e-13,
+      "words": [
+        {
+          "word": " The",
+          "start": 7214.84,
+          "end": 7215.4,
+          "probability": 1.0
+        },
+        {
+          "word": " Holy",
+          "start": 7215.4,
+          "end": 7215.62,
+          "probability": 0.921875
+        },
+        {
+          "word": " Cross",
+          "start": 7215.62,
+          "end": 7216.0,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " sits",
+          "start": 7216.0,
+          "end": 7216.32,
+          "probability": 1.0
+        },
+        {
+          "word": " on",
+          "start": 7216.32,
+          "end": 7216.52,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 7216.52,
+          "end": 7216.66,
+          "probability": 1.0
+        },
+        {
+          "word": " altar",
+          "start": 7216.66,
+          "end": 7217.06,
+          "probability": 1.0
+        },
+        {
+          "word": " every",
+          "start": 7217.06,
+          "end": 7218.12,
+          "probability": 1.0
+        },
+        {
+          "word": " day",
+          "start": 7218.12,
+          "end": 7218.44,
+          "probability": 1.0
+        },
+        {
+          "word": " throughout",
+          "start": 7218.44,
+          "end": 7218.8,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 7218.8,
+          "end": 7219.1,
+          "probability": 1.0
+        },
+        {
+          "word": " year.",
+          "start": 7219.1,
+          "end": 7219.42,
+          "probability": 1.0
+        },
+        {
+          "word": " And",
+          "start": 7219.62,
+          "end": 7220.18,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " there",
+          "start": 7220.18,
+          "end": 7220.36,
+          "probability": 1.0
+        },
+        {
+          "word": " are",
+          "start": 7220.36,
+          "end": 7220.5,
+          "probability": 1.0
+        },
+        {
+          "word": " just",
+          "start": 7220.5,
+          "end": 7220.74,
+          "probability": 1.0
+        },
+        {
+          "word": " three",
+          "start": 7220.74,
+          "end": 7221.02,
+          "probability": 0.99951171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 47,
+      "seek": 0,
+      "start": 7221.02,
+      "end": 7225.86,
+      "text": "occasions during the church year that it is brought out in the midst of the people,",
+      "temperature": 0.0,
+      "avg_logprob": -0.1283679773778091,
+      "compression_ratio": 1.6767676767676767,
+      "no_speech_prob": 5.996348166267818e-13,
+      "words": [
+        {
+          "word": " occasions",
+          "start": 7221.02,
+          "end": 7221.6,
+          "probability": 1.0
+        },
+        {
+          "word": " during",
+          "start": 7221.6,
+          "end": 7222.02,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 7222.02,
+          "end": 7222.22,
+          "probability": 1.0
+        },
+        {
+          "word": " church",
+          "start": 7222.22,
+          "end": 7222.46,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " year",
+          "start": 7222.46,
+          "end": 7222.78,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " that",
+          "start": 7222.78,
+          "end": 7223.0,
+          "probability": 1.0
+        },
+        {
+          "word": " it",
+          "start": 7223.0,
+          "end": 7223.14,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " is",
+          "start": 7223.14,
+          "end": 7223.3,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " brought",
+          "start": 7223.3,
+          "end": 7223.6,
+          "probability": 1.0
+        },
+        {
+          "word": " out",
+          "start": 7223.6,
+          "end": 7223.98,
+          "probability": 1.0
+        },
+        {
+          "word": " in",
+          "start": 7223.98,
+          "end": 7224.68,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " the",
+          "start": 7224.68,
+          "end": 7224.82,
+          "probability": 1.0
+        },
+        {
+          "word": " midst",
+          "start": 7224.82,
+          "end": 7225.06,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " of",
+          "start": 7225.06,
+          "end": 7225.26,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 7225.26,
+          "end": 7225.42,
+          "probability": 1.0
+        },
+        {
+          "word": " people,",
+          "start": 7225.42,
+          "end": 7225.86,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 48,
+      "seek": 2586,
+      "start": 7225.86,
+      "end": 7229.68,
+      "text": "so that they may take courage and strength, that they may continue.",
+      "temperature": 0.0,
+      "avg_logprob": -0.1900334638707778,
+      "compression_ratio": 1.1166666666666667,
+      "no_speech_prob": 1.082009828956565e-11,
+      "words": [
+        {
+          "word": " so",
+          "start": 7225.86,
+          "end": 7226.76,
+          "probability": 0.9541015625
+        },
+        {
+          "word": " that",
+          "start": 7226.76,
+          "end": 7226.94,
+          "probability": 0.998046875
+        },
+        {
+          "word": " they",
+          "start": 7226.94,
+          "end": 7227.12,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " may",
+          "start": 7227.12,
+          "end": 7227.36,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " take",
+          "start": 7227.36,
+          "end": 7227.66,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " courage",
+          "start": 7227.66,
+          "end": 7228.08,
+          "probability": 1.0
+        },
+        {
+          "word": " and",
+          "start": 7228.08,
+          "end": 7228.36,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " strength,",
+          "start": 7228.36,
+          "end": 7228.72,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " that",
+          "start": 7228.9,
+          "end": 7228.94,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " they",
+          "start": 7228.94,
+          "end": 7229.08,
+          "probability": 1.0
+        },
+        {
+          "word": " may",
+          "start": 7229.08,
+          "end": 7229.22,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " continue.",
+          "start": 7229.22,
+          "end": 7229.68,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 49,
+      "seek": 0,
+      "start": 7230.0,
+      "end": 7238.32,
+      "text": "the rigors of the fast. Then last Sunday we commemorated St. John of the Ladder,",
+      "temperature": 0.0,
+      "avg_logprob": -0.0864419937133789,
+      "compression_ratio": 1.6181818181818182,
+      "no_speech_prob": 5.502600328513574e-13,
+      "words": [
+        {
+          "word": " the",
+          "start": 7230.0,
+          "end": 7231.06,
+          "probability": 0.7685546875
+        },
+        {
+          "word": " rigors",
+          "start": 7231.06,
+          "end": 7231.52,
+          "probability": 0.99609375
+        },
+        {
+          "word": " of",
+          "start": 7231.52,
+          "end": 7231.72,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 7231.72,
+          "end": 7231.84,
+          "probability": 1.0
+        },
+        {
+          "word": " fast.",
+          "start": 7231.84,
+          "end": 7232.28,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " Then",
+          "start": 7233.88,
+          "end": 7234.6,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " last",
+          "start": 7234.6,
+          "end": 7235.24,
+          "probability": 0.5888671875
+        },
+        {
+          "word": " Sunday",
+          "start": 7235.24,
+          "end": 7235.58,
+          "probability": 1.0
+        },
+        {
+          "word": " we",
+          "start": 7235.58,
+          "end": 7235.78,
+          "probability": 0.73974609375
+        },
+        {
+          "word": " commemorated",
+          "start": 7235.78,
+          "end": 7236.62,
+          "probability": 1.0
+        },
+        {
+          "word": " St.",
+          "start": 7236.62,
+          "end": 7237.22,
+          "probability": 0.83251953125
+        },
+        {
+          "word": " John",
+          "start": 7237.4,
+          "end": 7237.58,
+          "probability": 1.0
+        },
+        {
+          "word": " of",
+          "start": 7237.58,
+          "end": 7237.78,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 7237.78,
+          "end": 7237.92,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " Ladder,",
+          "start": 7237.92,
+          "end": 7238.32,
+          "probability": 0.9892578125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 50,
+      "seek": 0,
+      "start": 7238.46,
+      "end": 7245.02,
+      "text": "who wrote this beautiful work, The Ladder of Divine Ascent, of which Father Michael spoke",
+      "temperature": 0.0,
+      "avg_logprob": -0.0864419937133789,
+      "compression_ratio": 1.6181818181818182,
+      "no_speech_prob": 5.502600328513574e-13,
+      "words": [
+        {
+          "word": " who",
+          "start": 7238.46,
+          "end": 7238.86,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " wrote",
+          "start": 7238.86,
+          "end": 7239.14,
+          "probability": 1.0
+        },
+        {
+          "word": " this",
+          "start": 7239.14,
+          "end": 7239.4,
+          "probability": 1.0
+        },
+        {
+          "word": " beautiful",
+          "start": 7239.4,
+          "end": 7240.08,
+          "probability": 1.0
+        },
+        {
+          "word": " work,",
+          "start": 7240.08,
+          "end": 7240.62,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " The",
+          "start": 7240.9,
+          "end": 7241.26,
+          "probability": 0.90576171875
+        },
+        {
+          "word": " Ladder",
+          "start": 7241.26,
+          "end": 7241.6,
+          "probability": 0.998046875
+        },
+        {
+          "word": " of",
+          "start": 7241.6,
+          "end": 7241.76,
+          "probability": 1.0
+        },
+        {
+          "word": " Divine",
+          "start": 7241.76,
+          "end": 7242.1,
+          "probability": 0.99609375
+        },
+        {
+          "word": " Ascent,",
+          "start": 7242.1,
+          "end": 7242.64,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " of",
+          "start": 7242.8,
+          "end": 7243.62,
+          "probability": 1.0
+        },
+        {
+          "word": " which",
+          "start": 7243.62,
+          "end": 7243.82,
+          "probability": 1.0
+        },
+        {
+          "word": " Father",
+          "start": 7243.82,
+          "end": 7244.14,
+          "probability": 0.787109375
+        },
+        {
+          "word": " Michael",
+          "start": 7244.14,
+          "end": 7244.58,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " spoke",
+          "start": 7244.58,
+          "end": 7245.02,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 51,
+      "seek": 0,
+      "start": 7245.02,
+      "end": 7254.18,
+      "text": "so beautifully last Sunday. He likened St. John of the Ladder, likened this journey through life",
+      "temperature": 0.0,
+      "avg_logprob": -0.0864419937133789,
+      "compression_ratio": 1.6181818181818182,
+      "no_speech_prob": 5.502600328513574e-13,
+      "words": [
+        {
+          "word": " so",
+          "start": 7245.02,
+          "end": 7245.26,
+          "probability": 1.0
+        },
+        {
+          "word": " beautifully",
+          "start": 7245.26,
+          "end": 7245.76,
+          "probability": 1.0
+        },
+        {
+          "word": " last",
+          "start": 7245.76,
+          "end": 7246.22,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " Sunday.",
+          "start": 7246.22,
+          "end": 7246.68,
+          "probability": 1.0
+        },
+        {
+          "word": " He",
+          "start": 7247.4,
+          "end": 7247.98,
+          "probability": 0.7890625
+        },
+        {
+          "word": " likened",
+          "start": 7247.98,
+          "end": 7248.72,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " St.",
+          "start": 7248.72,
+          "end": 7249.02,
+          "probability": 0.666015625
+        },
+        {
+          "word": " John",
+          "start": 7249.18,
+          "end": 7249.34,
+          "probability": 1.0
+        },
+        {
+          "word": " of",
+          "start": 7249.34,
+          "end": 7249.54,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 7249.54,
+          "end": 7249.66,
+          "probability": 1.0
+        },
+        {
+          "word": " Ladder,",
+          "start": 7249.66,
+          "end": 7250.02,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " likened",
+          "start": 7250.22,
+          "end": 7251.16,
+          "probability": 0.986328125
+        },
+        {
+          "word": " this",
+          "start": 7251.16,
+          "end": 7251.86,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " journey",
+          "start": 7251.86,
+          "end": 7253.3,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " through",
+          "start": 7253.3,
+          "end": 7253.66,
+          "probability": 1.0
+        },
+        {
+          "word": " life",
+          "start": 7253.66,
+          "end": 7254.18,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 52,
+      "seek": 2418,
+      "start": 7254.18,
+      "end": 7257.26,
+      "text": "as really like climbing a ladder,",
+      "temperature": 0.0,
+      "avg_logprob": -0.3432338454506614,
+      "compression_ratio": 1.044776119402985,
+      "no_speech_prob": 1.3222260959733223e-11,
+      "words": [
+        {
+          "word": " as",
+          "start": 7254.18,
+          "end": 7254.66,
+          "probability": 0.966796875
+        },
+        {
+          "word": " really",
+          "start": 7254.66,
+          "end": 7255.26,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " like",
+          "start": 7255.26,
+          "end": 7255.96,
+          "probability": 0.998046875
+        },
+        {
+          "word": " climbing",
+          "start": 7255.96,
+          "end": 7256.72,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " a",
+          "start": 7256.72,
+          "end": 7256.96,
+          "probability": 1.0
+        },
+        {
+          "word": " ladder,",
+          "start": 7256.96,
+          "end": 7257.26,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 53,
+      "seek": 2418,
+      "start": 7257.26,
+      "end": 7259.98,
+      "text": "and every rung on the ladder is a...",
+      "temperature": 0.0,
+      "avg_logprob": -0.3432338454506614,
+      "compression_ratio": 1.044776119402985,
+      "no_speech_prob": 1.3222260959733223e-11,
+      "words": [
+        {
+          "word": " and",
+          "start": 7257.26,
+          "end": 7257.62,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " every",
+          "start": 7257.62,
+          "end": 7258.06,
+          "probability": 1.0
+        },
+        {
+          "word": " rung",
+          "start": 7258.06,
+          "end": 7258.5,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " on",
+          "start": 7258.5,
+          "end": 7258.66,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 7258.66,
+          "end": 7258.76,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " ladder",
+          "start": 7258.76,
+          "end": 7259.12,
+          "probability": 1.0
+        },
+        {
+          "word": " is",
+          "start": 7259.12,
+          "end": 7259.92,
+          "probability": 0.98193359375
+        },
+        {
+          "word": " a...",
+          "start": 7259.92,
+          "end": 7259.98,
+          "probability": 0.62255859375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 54,
+      "seek": 0,
+      "start": 7260.0,
+      "end": 7261.74,
+      "text": "a vice that needs to be overcome,",
+      "temperature": 0.0,
+      "avg_logprob": -0.3168557030814035,
+      "compression_ratio": 1.4514285714285715,
+      "no_speech_prob": 5.480630055690328e-13,
+      "words": [
+        {
+          "word": " a",
+          "start": 7260.0,
+          "end": 7260.08,
+          "probability": 0.931640625
+        },
+        {
+          "word": " vice",
+          "start": 7260.08,
+          "end": 7260.44,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " that",
+          "start": 7260.44,
+          "end": 7260.68,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " needs",
+          "start": 7260.68,
+          "end": 7260.92,
+          "probability": 1.0
+        },
+        {
+          "word": " to",
+          "start": 7260.92,
+          "end": 7261.08,
+          "probability": 1.0
+        },
+        {
+          "word": " be",
+          "start": 7261.08,
+          "end": 7261.24,
+          "probability": 1.0
+        },
+        {
+          "word": " overcome,",
+          "start": 7261.24,
+          "end": 7261.74,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 55,
+      "seek": 0,
+      "start": 7262.02,
+      "end": 7263.82,
+      "text": "and a virtue to be attained.",
+      "temperature": 0.0,
+      "avg_logprob": -0.3168557030814035,
+      "compression_ratio": 1.4514285714285715,
+      "no_speech_prob": 5.480630055690328e-13,
+      "words": [
+        {
+          "word": " and",
+          "start": 7262.02,
+          "end": 7262.36,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " a",
+          "start": 7262.36,
+          "end": 7262.52,
+          "probability": 1.0
+        },
+        {
+          "word": " virtue",
+          "start": 7262.52,
+          "end": 7262.88,
+          "probability": 1.0
+        },
+        {
+          "word": " to",
+          "start": 7262.88,
+          "end": 7263.14,
+          "probability": 1.0
+        },
+        {
+          "word": " be",
+          "start": 7263.14,
+          "end": 7263.34,
+          "probability": 1.0
+        },
+        {
+          "word": " attained.",
+          "start": 7263.34,
+          "end": 7263.82,
+          "probability": 0.9990234375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 56,
+      "seek": 0,
+      "start": 7264.86,
+      "end": 7266.1,
+      "text": "30 rungs.",
+      "temperature": 0.0,
+      "avg_logprob": -0.3168557030814035,
+      "compression_ratio": 1.4514285714285715,
+      "no_speech_prob": 5.480630055690328e-13,
+      "words": [
+        {
+          "word": " 30",
+          "start": 7264.86,
+          "end": 7265.58,
+          "probability": 0.49560546875
+        },
+        {
+          "word": " rungs.",
+          "start": 7265.58,
+          "end": 7266.1,
+          "probability": 0.99658203125
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 57,
+      "seek": 0,
+      "start": 7266.66,
+      "end": 7268.46,
+      "text": "And once we get to the top,",
+      "temperature": 0.0,
+      "avg_logprob": -0.3168557030814035,
+      "compression_ratio": 1.4514285714285715,
+      "no_speech_prob": 5.480630055690328e-13,
+      "words": [
+        {
+          "word": " And",
+          "start": 7266.66,
+          "end": 7267.18,
+          "probability": 0.97802734375
+        },
+        {
+          "word": " once",
+          "start": 7267.18,
+          "end": 7267.44,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " we",
+          "start": 7267.44,
+          "end": 7267.6,
+          "probability": 1.0
+        },
+        {
+          "word": " get",
+          "start": 7267.6,
+          "end": 7267.78,
+          "probability": 1.0
+        },
+        {
+          "word": " to",
+          "start": 7267.78,
+          "end": 7267.92,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 7267.92,
+          "end": 7268.08,
+          "probability": 1.0
+        },
+        {
+          "word": " top,",
+          "start": 7268.08,
+          "end": 7268.46,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 58,
+      "seek": 0,
+      "start": 7268.74,
+      "end": 7273.66,
+      "text": "we'll experience what the church knows as theoses.",
+      "temperature": 0.0,
+      "avg_logprob": -0.3168557030814035,
+      "compression_ratio": 1.4514285714285715,
+      "no_speech_prob": 5.480630055690328e-13,
+      "words": [
+        {
+          "word": " we'll",
+          "start": 7268.74,
+          "end": 7269.48,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " experience",
+          "start": 7269.48,
+          "end": 7270.16,
+          "probability": 1.0
+        },
+        {
+          "word": " what",
+          "start": 7270.16,
+          "end": 7271.66,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " the",
+          "start": 7271.66,
+          "end": 7271.84,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " church",
+          "start": 7271.84,
+          "end": 7272.1,
+          "probability": 0.86865234375
+        },
+        {
+          "word": " knows",
+          "start": 7272.1,
+          "end": 7272.46,
+          "probability": 1.0
+        },
+        {
+          "word": " as",
+          "start": 7272.46,
+          "end": 7272.78,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " theoses.",
+          "start": 7272.78,
+          "end": 7273.66,
+          "probability": 0.90625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 59,
+      "seek": 0,
+      "start": 7274.5,
+      "end": 7278.16,
+      "text": "That is, vision of God.",
+      "temperature": 0.0,
+      "avg_logprob": -0.3168557030814035,
+      "compression_ratio": 1.4514285714285715,
+      "no_speech_prob": 5.480630055690328e-13,
+      "words": [
+        {
+          "word": " That",
+          "start": 7274.5,
+          "end": 7275.22,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " is,",
+          "start": 7275.22,
+          "end": 7275.62,
+          "probability": 1.0
+        },
+        {
+          "word": " vision",
+          "start": 7276.58,
+          "end": 7277.4,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " of",
+          "start": 7277.4,
+          "end": 7277.66,
+          "probability": 1.0
+        },
+        {
+          "word": " God.",
+          "start": 7277.66,
+          "end": 7278.16,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 60,
+      "seek": 0,
+      "start": 7279.28,
+      "end": 7280.6,
+      "text": "Vision of God.",
+      "temperature": 0.0,
+      "avg_logprob": -0.3168557030814035,
+      "compression_ratio": 1.4514285714285715,
+      "no_speech_prob": 5.480630055690328e-13,
+      "words": [
+        {
+          "word": " Vision",
+          "start": 7279.28,
+          "end": 7280.0,
+          "probability": 0.97705078125
+        },
+        {
+          "word": " of",
+          "start": 7280.0,
+          "end": 7280.24,
+          "probability": 1.0
+        },
+        {
+          "word": " God.",
+          "start": 7280.24,
+          "end": 7280.6,
+          "probability": 1.0
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 61,
+      "seek": 0,
+      "start": 7283.36,
+      "end": 7285.76,
+      "text": "As Jesus said in the Beatitudes,",
+      "temperature": 0.0,
+      "avg_logprob": -0.3168557030814035,
+      "compression_ratio": 1.4514285714285715,
+      "no_speech_prob": 5.480630055690328e-13,
+      "words": [
+        {
+          "word": " As",
+          "start": 7283.36,
+          "end": 7284.08,
+          "probability": 0.96728515625
+        },
+        {
+          "word": " Jesus",
+          "start": 7284.08,
+          "end": 7284.46,
+          "probability": 1.0
+        },
+        {
+          "word": " said",
+          "start": 7284.46,
+          "end": 7284.8,
+          "probability": 1.0
+        },
+        {
+          "word": " in",
+          "start": 7284.8,
+          "end": 7284.96,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " the",
+          "start": 7284.96,
+          "end": 7285.06,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " Beatitudes,",
+          "start": 7285.06,
+          "end": 7285.76,
+          "probability": 0.9951171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 62,
+      "seek": 0,
+      "start": 7285.96,
+      "end": 7287.8,
+      "text": "blessed are the pure in heart,",
+      "temperature": 0.0,
+      "avg_logprob": -0.3168557030814035,
+      "compression_ratio": 1.4514285714285715,
+      "no_speech_prob": 5.480630055690328e-13,
+      "words": [
+        {
+          "word": " blessed",
+          "start": 7285.96,
+          "end": 7286.34,
+          "probability": 0.8984375
+        },
+        {
+          "word": " are",
+          "start": 7286.34,
+          "end": 7286.6,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 7286.6,
+          "end": 7286.78,
+          "probability": 1.0
+        },
+        {
+          "word": " pure",
+          "start": 7286.78,
+          "end": 7287.18,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " in",
+          "start": 7287.18,
+          "end": 7287.34,
+          "probability": 1.0
+        },
+        {
+          "word": " heart,",
+          "start": 7287.34,
+          "end": 7287.8,
+          "probability": 0.99951171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 63,
+      "seek": 2780,
+      "start": 7288.84,
+      "end": 7289.98,
+      "text": "for they shall see.",
+      "temperature": 0.0,
+      "avg_logprob": -0.5012168884277344,
+      "compression_ratio": 0.7037037037037037,
+      "no_speech_prob": 7.82274505589653e-12,
+      "words": [
+        {
+          "word": " for",
+          "start": 7288.84,
+          "end": 7289.34,
+          "probability": 0.75048828125
+        },
+        {
+          "word": " they",
+          "start": 7289.34,
+          "end": 7289.56,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " shall",
+          "start": 7289.56,
+          "end": 7289.84,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " see.",
+          "start": 7289.84,
+          "end": 7289.98,
+          "probability": 0.332763671875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 64,
+      "seek": 0,
+      "start": 9901.08,
+      "end": 9905.78,
+      "text": "with the fear of God, with faith, and with love drawn near.",
+      "temperature": 0.0,
+      "avg_logprob": -0.30212775866190594,
+      "compression_ratio": 1.0172413793103448,
+      "no_speech_prob": 1.3167418544401954e-10,
+      "words": [
+        {
+          "word": " with",
+          "start": 9901.08,
+          "end": 9901.76,
+          "probability": 0.5166015625
+        },
+        {
+          "word": " the",
+          "start": 9901.76,
+          "end": 9901.92,
+          "probability": 0.85693359375
+        },
+        {
+          "word": " fear",
+          "start": 9901.92,
+          "end": 9902.3,
+          "probability": 0.998046875
+        },
+        {
+          "word": " of",
+          "start": 9902.3,
+          "end": 9902.56,
+          "probability": 1.0
+        },
+        {
+          "word": " God,",
+          "start": 9902.56,
+          "end": 9902.82,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " with",
+          "start": 9903.0,
+          "end": 9903.18,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " faith,",
+          "start": 9903.18,
+          "end": 9903.58,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " and",
+          "start": 9903.7,
+          "end": 9903.94,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " with",
+          "start": 9903.94,
+          "end": 9904.28,
+          "probability": 1.0
+        },
+        {
+          "word": " love",
+          "start": 9904.28,
+          "end": 9904.78,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " drawn",
+          "start": 9904.78,
+          "end": 9905.26,
+          "probability": 0.46533203125
+        },
+        {
+          "word": " near.",
+          "start": 9905.26,
+          "end": 9905.78,
+          "probability": 0.9833984375
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 65,
+      "seek": 0,
+      "start": 9930.0,
+      "end": 9935.46,
+      "text": "Ong de Paraná,",
+      "temperature": 0.0,
+      "avg_logprob": -1.9518862637606533,
+      "compression_ratio": 0.6521739130434783,
+      "no_speech_prob": 1.362402302085286e-09,
+      "words": [
+        {
+          "word": " Ong",
+          "start": 9930.0,
+          "end": 9930.74,
+          "probability": 0.0230865478515625
+        },
+        {
+          "word": " de",
+          "start": 9930.74,
+          "end": 9932.6,
+          "probability": 0.0328369140625
+        },
+        {
+          "word": " Paraná,",
+          "start": 9932.6,
+          "end": 9935.46,
+          "probability": 0.2437744140625
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 66,
+      "seek": 546,
+      "start": 9945.68,
+      "end": 9948.48,
+      "text": "Thank you.",
+      "temperature": 0.0,
+      "avg_logprob": -0.8324465751647949,
+      "compression_ratio": 0.5555555555555556,
+      "no_speech_prob": 6.566762134063708e-10,
+      "words": [
+        {
+          "word": " Thank",
+          "start": 9945.68,
+          "end": 9947.08,
+          "probability": 0.03131103515625
+        },
+        {
+          "word": " you.",
+          "start": 9947.08,
+          "end": 9948.48,
+          "probability": 0.9951171875
+        }
+      ],
+      "asr_warnings": [],
+      "language": "en"
+    },
+    {
+      "id": 67,
+      "seek": 0,
+      "start": 9965.5,
+      "end": 9968.3,
+      "text": "Υπότιτλοι AUTHORWAVE",
+      "temperature": 0.0,
+      "avg_logprob": -0.10776634216308593,
+      "compression_ratio": 0.7837837837837838,
+      "no_speech_prob": 3.6639610789812593e-10,
+      "words": [
+        {
+          "word": " Υπότιτλοι",
+          "start": 9965.5,
+          "end": 9966.9,
+          "probability": 0.931640625
+        },
+        {
+          "word": " AUTHORWAVE",
+          "start": 9966.9,
+          "end": 9968.3,
+          "probability": 0.99658203125
+        }
+      ],
+      "asr_warnings": [
+        "Possible subtitle/promotion artifact in ASR; listen to verify."
+      ],
+      "language": "el"
+    }
+  ],
+  "chunks": [
+    {
+      "start": 1800.0,
+      "end": 1830.0,
+      "language": "en",
+      "seconds": 2.4182689159642905
+    },
+    {
+      "start": 1830.0,
+      "end": 1860.0,
+      "language": "en",
+      "seconds": 2.343863832997158
+    },
+    {
+      "start": 1860.0,
+      "end": 1890.0,
+      "language": "en",
+      "seconds": 1.562378792092204
+    },
+    {
+      "start": 5400.0,
+      "end": 5430.0,
+      "language": "en",
+      "seconds": 2.5205839588306844
+    },
+    {
+      "start": 5430.0,
+      "end": 5460.0,
+      "language": "en",
+      "seconds": 2.386369707994163
+    },
+    {
+      "start": 5460.0,
+      "end": 5490.0,
+      "language": "en",
+      "seconds": 2.5986620418261737
+    },
+    {
+      "start": 7200.0,
+      "end": 7230.0,
+      "language": "en",
+      "seconds": 2.5562358340248466
+    },
+    {
+      "start": 7230.0,
+      "end": 7260.0,
+      "language": "en",
+      "seconds": 2.573307165876031
+    },
+    {
+      "start": 7260.0,
+      "end": 7290.0,
+      "language": "en",
+      "seconds": 2.6055177918169647
+    },
+    {
+      "start": 9900.0,
+      "end": 9930.0,
+      "language": "en",
+      "seconds": 1.5463228749576956
+    },
+    {
+      "start": 9930.0,
+      "end": 9960.0,
+      "language": "en",
+      "seconds": 2.508313500089571
+    },
+    {
+      "start": 9960.0,
+      "end": 9990.0,
+      "language": "el",
+      "seconds": 1.2276645409874618
+    }
+  ],
+  "metrics": {
+    "audio_seconds": 360,
+    "inference_seconds": 26.858935542870313,
+    "real_time_factor": 0.07460815428575086,
+    "speedup": 13.403360659077265,
+    "peak_memory_gb": 2.210343558,
+    "includes_model_load": true
+  },
+  "notes": [
+    "Four 90-second samples, not a full transcription. Unsampled intervals have no predictions.",
+    "Samples are exploratory and not randomly selected or human annotated."
+  ]
+}
